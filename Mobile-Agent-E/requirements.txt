@@ -1,0 +1,24 @@
+torch
+torchvision
+transformers
+tensorflow==2.9.1
+#keras==2.9.0  包含在tensorflow中
+tf_slim==1.1.0
+opencv-python
+timm
+SentencePiece
+pyclipper
+pycocotools
+yapf
+sortedcontainers
+supervision==0.21.0
+simplejson
+addict
+termcolor
+shapely
+datasets
+modelscope==1.15.0
+matplotlib
+dashscope
+numpy==1.23.5
+datasets==2.18.0

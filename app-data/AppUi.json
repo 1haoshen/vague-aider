@@ -1,0 +1,2135 @@
+[
+    {
+        "id": 1,
+        "app_name": "爱奇艺",
+        "scenario": "媒体娱乐、视频流媒体与游戏平台",
+        "brief_introduction": "评分 3.9 星，作为播放器、长视频平台，有《生万物》等相关内容；包含《与晋长安》等影视内容；还有《哪吒之魔童闹海》等动画电影内容。",
+        "icon_description": "绿色背景的方形图标，中间是白色的 “iQIYI” 文字，品牌标识明显。",
+        "ui_description": " ",
+        "common_functions": [
+            "搜索并播放视频",
+            "观看直播内容",
+            "管理个人收藏",
+            "调整播放清晰度",
+            "下载视频离线观看",
+            "分享视频链接",
+            "查看推荐内容",
+            "创建播放列表",
+            "评论和点赞视频",
+            "切换账号登录"
+        ],
+        "action_object_str": ""
+    },
+    {
+        "id": 2,
+        "app_name": "腾讯视频",
+        "scenario": "媒体娱乐、视频流媒体与游戏平台",
+        "brief_introduction": "评分 3.9 星，属于播放器、长视频平台，有归队相关的内容板块；提供地域新鲜内容，展示不同地区的特色；还有子夜归等相关影视内容。",
+        "icon_description": "黑色背景的方形图标，中间是彩色的三角形播放按钮样式，突出视频播放属性。",
+        "ui_description": " ",
+        "common_functions": [
+            "浏览热门剧集",
+            "搜索特定视频",
+            "观看高清内容",
+            "下载视频",
+            "管理订阅频道",
+            "分享视频",
+            "调整播放速度",
+            "查看弹幕",
+            "创建个人playlist",
+            "参与互动活动"
+        ],
+        "action_object_str": ""
+    },
+    {
+        "id": 3,
+        "app_name": "优酷视频",
+        "scenario": "媒体娱乐、视频流媒体与游戏平台",
+        "brief_introduction": "评分 3.6 星，属于播放器、长视频平台，有《献鱼》等相关内容；包含《凡人修仙传》等动漫内容；还有《西出玉门》等影视内容。",
+        "icon_description": "蓝色背景的方形图标，中间是白色的图案，具有独特的品牌设计感。",
+        "ui_description": " ",
+        "common_functions": [
+            "播放长视频内容",
+            "搜索动漫和电影",
+            "观看直播",
+            "下载离线视频",
+            "管理观看历史",
+            "分享链接",
+            "调整视频质量",
+            "添加收藏",
+            "评论视频",
+            "浏览推荐榜单"
+        ],
+        "action_object_str": ""
+    },
+    {
+        "id": 4,
+        "app_name": "芒果TV",
+        "scenario": "媒体娱乐、视频流媒体与游戏平台",
+        "brief_introduction": "芒果TV应用",
+        "icon_description": "芒果TV应用图标",
+        "ui_description": " ",
+        "common_functions": [
+            "使用芒果TV"
+        ],
+        "action_object_str": ""
+    },
+    {
+        "id": 5,
+        "app_name": "哔哩哔哩",
+        "scenario": "媒体娱乐、视频流媒体与游戏平台",
+        "brief_introduction": "评分 4.9 星，作为播放器、长视频平台，有高燃混剪内容；涵盖番剧相关内容，满足动漫爱好者需求；还有手办周边等衍生内容板块。",
+        "icon_description": "粉色背景的方形图标，中间是白色的 “bilibili” 文字缩写 “bilibili” 样式，充满品牌特色。",
+        "ui_description": " ",
+        "common_functions": [
+            "观看番剧和动画",
+            "搜索UP主视频",
+            "发送弹幕互动",
+            "下载视频",
+            "给博主投币",
+            "分享视频",
+            "视频点赞",
+            "创建收藏夹",
+            "发表视频评论",
+            "浏览热门排行",
+            "收藏视频"
+        ],
+        "action_object_str": {
+            "观看番剧与动画": [
+                "open the bilibili app ",
+                "Tap on the 'zhuifan' button at the top",
+                "swipe down to see more anime leaderboard",
+                "tap 'chakangengduo' with right-pointing arrow at the right of leaderboard"
+            ],
+            "搜索视频": [
+                "open the bilibili app ",
+                "Tap on the search bar at the top",
+                "type the search content",
+                "tap the pink button 'search' at the right of search bar",
+                "Tap on the video you want to watch in the list"
+            ],
+            "发送弹幕": [
+                "open the bilibili app ",
+                "Tap on the search bar at the top",
+                "type the search content",
+                "tap the pink button 'search' at the right of search bar",
+                "Tap on the video you want to watch in the list",
+                "Tap on the 'dian.wo.fa.dan.mu' with a television icon under the video",
+                "Type the live comments",
+                "Click on the airplane icon represent 'send' on the right "
+            ],
+            "下载视频": [
+                "open the bilibili app ",
+                "Tap on the search bar at the top",
+                "type the search content",
+                "tap the pink button 'search' at the right of search bar",
+                "Tap on the video you want to watch in the list",
+                "Click on this button on the video that is currently playing, and vertical ellipsis will appear on its upper right side",
+                "Click the vertical ellipsis on the upper right corner",
+                "tap 'huancun' with downward arrow folder",
+                "tap the 'huan cun quan bu' button at the left bottom"
+            ],
+            "给博主投币": [
+                "open the bilibili app ",
+                "Tap on the search bar at the top",
+                "type the search content",
+                "tap the pink button 'search' at the right of search bar",
+                "Tap on the video you want to watch in the list",
+                "Tap on the coin icon in the middle ",
+                "Click on the square button in the middle of the screen"
+            ],
+            "视频分享": [
+                "open the bilibili app ",
+                "Tap on the search bar at the top",
+                "type the search content",
+                "tap the pink button 'search' at the right of search bar",
+                "Tap on the video you want to watch in the list",
+                "Tap on the right-pointing arrow icon in the middle ",
+                "Click the wechat icon with text 'weixin' to jump ",
+                "tap search bar at the top",
+                "type the friend name",
+                "tap the search result in the list",
+                "tap the send button in a green box"
+            ],
+            "视频点赞": [
+                "open the bilibili app ",
+                "Tap on the search bar at the top",
+                "type the search content",
+                "tap the pink button 'search' at the right of search bar",
+                "Tap on the video you want to watch in the list",
+                "Tap on the thumb icon in the middle "
+            ],
+            "创建收藏夹": [
+                "open the bilibili app ",
+                "Tap 'wode' with television icon at the bottom",
+                " tap the 'wo de shou cang' with star icon",
+                "Click the plus sign on the top right corner",
+                "type the collection message",
+                "tap 'wan cheng' at the right top"
+            ],
+            "发表视频评论": [
+                "open the bilibili app ",
+                "Tap on the search bar at the top",
+                "type the search content",
+                "tap the pink button 'search' at the right of search bar",
+                "Tap on the video you want to watch in the list",
+                "Tap 'pinglun' at the lower left corner of video ",
+                "tab the input bar at the bottom",
+                "type the comments",
+                "tab the pink 'fabu' button at the lower right corner of the input bar"
+            ],
+            "浏览热门排行": [
+                "open the bilibili app ",
+                "Tap on the 'zhuifan' button at the top",
+                "tap the leaderboard with the bar chart in pink circle",
+                "swide down to see more"
+            ],
+            "收藏视频": [
+                "open the bilibili app ",
+                "Tap on the search bar at the top",
+                "type the search content",
+                "tap the pink button 'search' at the right of search bar",
+                "Tap on the video you want to watch in the list",
+                "Tap the star icon in the middle"
+            ]
+        }
+    },
+    {
+        "id": 6,
+        "app_name": "抖音",
+        "scenario": "媒体娱乐、视频流媒体与游戏平台",
+        "brief_introduction": "评分 3.8 星，涵盖短剧、颜艺、音乐等内容的平台。提供个性推荐，能根据用户喜好推送视频；有社交火花功能，助力用户互动；还有经验频道，可学习各类生活、技能经验。",
+        "icon_description": "黑色背景的方形图标，中间是白色与红色组合的音符形状，简洁且富有辨识度。",
+        "ui_description": " ",
+        "common_functions": [
+            "浏览短视频",
+            "录制并上传视频",
+            "应用特效和音乐",
+            "点赞和评论",
+            "关注用户",
+            "分享视频",
+            "搜索挑战话题",
+            "直播观看",
+            "编辑个人信息",
+            "下载视频"
+        ],
+        "action_object_str": ""
+    },
+    {
+        "id": 7,
+        "app_name": "快手",
+        "scenario": "媒体娱乐、视频流媒体与游戏平台",
+        "brief_introduction": "评分 4.7 星，主打短剧、视频播放的平台。支持欢聚直播间，方便用户观看直播互动；能发现新兴趣，拓展用户视野；还有百宝待放等特色内容板块。",
+        "icon_description": "橙色背景的方形图标，内部是白色的摄像机样式图案，直观体现视频相关属性。",
+        "ui_description": " ",
+        "common_functions": [
+            "观看短视频",
+            "录制视频上传",
+            "添加特效和滤镜",
+            "点赞分享",
+            "关注创作者",
+            "参与直播互动",
+            "搜索热门内容",
+            "管理作品",
+            "下载视频",
+            "创建合拍视频"
+        ],
+        "action_object_str": ""
+    },
+    {
+        "id": 8,
+        "app_name": "网易云音乐",
+        "scenario": "媒体娱乐、视频流媒体与游戏平台",
+        "brief_introduction": "在线音乐类应用，拥有 1.8 亿首歌曲，具备 “小灯府上镜”“如视现场的歌词动效”“船舰助手” 等功能，提升音乐体验。",
+        "icon_description": "红色背景，带有白色音符形状的标志，简洁易识别，传递音乐平台的文艺与活力。",
+        "ui_description": " ",
+        "common_functions": [
+            "10歌曲搜索",
+            "10播放音乐",
+            "10创建歌单",
+            "10分享歌曲",
+            "10歌手关注",
+            "10下载歌曲",
+            "10发布笔记",
+            "10歌曲评论",
+            "10个性化推荐",
+            "10演唱会票务"
+        ],
+        "action_object_str": {
+            "歌曲搜索": [
+                "open netease cloud app",
+                "tap search box at the top",
+                "type the 'song name'",
+                "tap the 'search' result "
+            ],
+            "播放音乐": [
+                "open netease cloud app",
+                "tap search box above",
+                "type 'hudie'",
+                "tap 'hudie'",
+                "tap the play button like black triangle on yellow circle background"
+            ],
+            "创建歌单": [
+                "open netease cloud app",
+                "tap 'wode' on the bottom",
+                "tap the vertical ellipses",
+                "tap the 'xin jian ge dan' button",
+                "type the 'playlist name'",
+                "type 'wancheng'button"
+            ],
+            "分享歌曲": [
+                "open netease cloud app",
+                "tap search box above",
+                "type song name'hudie'",
+                "tap the search result of song 'hudie'",
+                "tap the play button like black triangle on yellow circle background",
+                "tap ellipsis icon",
+                "tap fenxiang button",
+                "tap wechat icon with'wechat friend' ",
+                "tap search box above",
+                "type friend name 'rui'",
+                "tap friend 'rui' in the search list",
+                "tap send button in a green box"
+            ],
+            "歌手关注": [
+                "open netease cloud app",
+                "tap search box above",
+                "type singer 'luodayou'",
+                "tap search result of singer 'luodayou'",
+                "tap 'focus' in a white border box"
+            ],
+            "下载歌曲": [
+                "open netease cloud app",
+                "tap search box above",
+                "type singer 'luodayou'",
+                "tap search result of singer 'luodayou'",
+                "tap the play button like black triangle on yellow circle background",
+                "tap the ellipses icon ",
+                "tap 'download' with a downward pointing arrow",
+                "tap the playlist in the list"
+            ],
+            "发布笔记": [
+                "open netease cloud app",
+                "tap 'note' with CD icon on the bottom",
+                "tap white plus sign in a yellow circle above",
+                "tap 'tianjiazhengwen'",
+                "type note 'post a note'",
+                "tap the 'send' in the red box"
+            ],
+            "歌曲评论": [
+                "open netease cloud app",
+                "tap search box above",
+                "type 'luodayou'",
+                "tap 'luodayou'",
+                "tap the play button like black triangle on yellow circle background",
+                "tap icon like ' white bubble with two horizontal lines' to enter comments   Input Box",
+                "tap the input box on the bottom",
+                "type comment text 'huannianqingchun' in the input box",
+                "tap 'send' on the right side of the input box"
+            ],
+            "个性化推荐": [
+                "open netease cloud app",
+                "tap 'manyou'with a radio icon",
+                "tap white border love heart"
+            ],
+            "演唱会票务": [
+                "open netease cloud app",
+                "tap the three bars in the upper left corner",
+                "tap the 'yuncunyoupiao'",
+                "tap 'concert' with red microphone icon"
+            ]
+        }
+    },
+    {
+        "id": 9,
+        "app_name": "QQ音乐",
+        "scenario": "媒体娱乐、视频流媒体与游戏平台",
+        "brief_introduction": "QQ音乐应用",
+        "icon_description": "QQ音乐应用图标",
+        "ui_description": " ",
+        "common_functions": [
+            "使用QQ音乐"
+        ],
+        "action_object_str": ""
+    },
+    {
+        "id": 10,
+        "app_name": "youtube",
+        "scenario": "媒体娱乐、视频流媒体与游戏平台",
+        "brief_introduction": "全球最大的视频分享网站，支持超高清直播、短视频（Shorts）及音乐流媒体服务 [11, 12]。",
+        "icon_description": "红色圆角矩形内有一个白色的水平播放“三角形” [6, 11]。",
+        "ui_description": null,
+        "common_functions": [
+            "管理YouTube Kids儿童账号安全 [12]",
+            "利用AI生成的章节和摘要快速导读 [6]"
+        ],
+        "action_object_str": ""
+    },
+    {
+        "id": 11,
+        "app_name": "tiktok",
+        "scenario": "媒体娱乐、视频流媒体与游戏平台",
+        "brief_introduction": "字节跳动面向全球的短视频平台，是当今全球流行文化和创作者经济的核心阵地 [12, 54]。",
+        "icon_description": "与抖音一致：黑色底色加青红色故障风白色音符 [6]。",
+        "ui_description": null,
+        "common_functions": [
+            "加入创作者激励计划获取收益 [54]",
+            "发起并传播全球挑战赛（Challenges）",
+            "设置隐私权限管理评论与私信"
+        ],
+        "action_object_str": ""
+    },
+    {
+        "id": 12,
+        "app_name": "Twitch",
+        "scenario": "媒体娱乐、视频流媒体与游戏平台",
+        "brief_introduction": "全球领先的实时流媒体平台，是电竞比赛、游戏实况及IRL内容分享的中心 [58, 59]。",
+        "icon_description": "亮紫色圆角矩形内有一个白色的对话框，对话框中有两个不规则的黑色方孔 [59]。",
+        "ui_description": null,
+        "common_functions": [
+            "观看电竞选手及游戏主播直播",
+            "在聊天室发送全球及订阅专属表情（Emotes） [60]",
+            "使用Bits进行欢呼打赏（Cheering） [58]",
+            "管理Twitch Prime关联的免费游戏奖励 [58]",
+            "建立Squad Stream观看多视角直播 [60]",
+            "管理创作者控制面板进行推流 [59]"
+        ],
+        "action_object_str": ""
+    },
+    {
+        "id": 13,
+        "app_name": "spotify",
+        "scenario": "媒体娱乐、视频流媒体与游戏平台",
+        "brief_introduction": "全球最大的音乐流媒体服务商，提供精准的算法歌单和丰富的播客资源 [6, 13, 18]。",
+        "icon_description": "亮绿色圆底上有三条黑色的向右上方扩散的弧形声波线条 [6]。",
+        "ui_description": null,
+        "common_functions": [
+            "开启Spotify Premium享受无广告音质"
+        ],
+        "action_object_str": ""
+    },
+    {
+        "id": 14,
+        "app_name": "Steam",
+        "scenario": "媒体娱乐、视频流媒体与游戏平台",
+        "brief_introduction": "全球最主流的PC游戏分发平台，提供游戏购买、社交及创意工坊服务 [72, 73]。",
+        "icon_description": "深蓝色/黑色圆底中心有一个白色的机械曲柄或活塞传动装置图标 [73]。",
+        "ui_description": null,
+        "common_functions": [
+            "管理游戏好友列表与即时聊天",
+            "使用Steam令牌进行账号二级安全验证",
+            "追踪游戏成就与交易卡牌进度 [75]",
+            "远程玩（Remote Play）实现在移动端操作PC游戏 [75]"
+        ],
+        "action_object_str": ""
+    },
+    {
+        "id": 15,
+        "app_name": "迅雷",
+        "scenario": "生产力、办公协作与系统工具类应用",
+        "brief_introduction": "兼具网盘与办公工具属性的应用，8.0 版本全新上线，支持高速下载，还提供超大云盘空间，助力高效获取与存储文件。",
+        "icon_description": "蓝色方形背景，中央有白色飞鸟造型，简洁灵动，凸显工具的轻快与高效特质。",
+        "ui_description": " ",
+        "common_functions": " ",
+        "action_object_str": ""
+    },
+    {
+        "id": 16,
+        "app_name": "百度网盘",
+        "scenario": "生产力、办公协作与系统工具类应用",
+        "brief_introduction": "作为网盘与办公工具类应用，首页焕新改版，支持 AI 深度思考、AI 学习笔记等功能，为文件存储与办公学习提供智能助力。",
+        "icon_description": "由红、蓝、绿等色彩构成的简约几何图形组合，富有科技感，体现网盘的存储与智能属性。",
+        "ui_description": " ",
+        "common_functions": " ",
+        "action_object_str": ""
+    },
+    {
+        "id": 17,
+        "app_name": "钉钉",
+        "scenario": "生产力、办公协作与系统工具类应用",
+        "brief_introduction": "定位为 “划时代的工作方式” 的企业通讯与企业应用类应用，助力企业高效协同办公。",
+        "icon_description": "蓝色方形背景，中央有白色闪电造型，简洁有力，传递高效、快捷的工作工具属性。",
+        "ui_description": " ",
+        "common_functions": [
+            "即时聊天",
+            "视频会议",
+            "任务分配",
+            "文件共享",
+            "考勤打卡",
+            "群组管理",
+            "审批流程",
+            "日程提醒",
+            "企业邮箱",
+            "数据统计"
+        ],
+        "action_object_str": ""
+    },
+    {
+        "id": 18,
+        "app_name": "腾讯会议",
+        "scenario": "生产力、办公协作与系统工具类应用",
+        "brief_introduction": "用于会议、企业应用的工具，支持高清便捷会议、网络研讨会，还能进行课件演示和录制，满足企业远程会议等需求。",
+        "icon_description": "蓝色方形背景，中央有白色 “M” 形（类似山峰或折叠造型），简洁大气，体现会议工具的专业与稳定。",
+        "ui_description": " ",
+        "common_functions": [
+            "创建会议",
+            "加入会议",
+            "屏幕共享",
+            "视频通话",
+            "聊天互动",
+            "录制会议",
+            "白板协作",
+            "参会管理",
+            "预约会议",
+            "会议回放"
+        ],
+        "action_object_str": ""
+    },
+    {
+        "id": 19,
+        "app_name": "QQ邮箱",
+        "scenario": "生产力、办公协作与系统工具类应用",
+        "brief_introduction": "QQ邮箱应用",
+        "icon_description": "QQ邮箱应用图标",
+        "ui_description": " ",
+        "common_functions": [
+            "使用QQ邮箱"
+        ],
+        "action_object_str": ""
+    },
+    {
+        "id": 20,
+        "app_name": "wps_office",
+        "scenario": "生产力、办公协作与系统工具类应用",
+        "brief_introduction": "wps_office应用",
+        "icon_description": "wps_office应用图标",
+        "ui_description": " ",
+        "common_functions": [
+            "使用wps_office"
+        ],
+        "action_object_str": ""
+    },
+    {
+        "id": 21,
+        "app_name": "扫描全能王",
+        "scenario": "生产力、办公协作与系统工具类应用",
+        "brief_introduction": "广泛应用的扫描与办公工具类应用，支持智能高清扫描、文字识别，还能编辑图片，为文档处理提供便捷工具。",
+        "icon_description": "黑白色调，左侧有 “CS” 字母组合，简洁干练，体现工具的专业扫描属性。",
+        "ui_description": " ",
+        "common_functions": " ",
+        "action_object_str": ""
+    },
+    {
+        "id": 22,
+        "app_name": "飞书",
+        "scenario": "生产力、办公协作与系统工具类应用",
+        "brief_introduction": "飞书应用",
+        "icon_description": "飞书应用图标",
+        "ui_description": " ",
+        "common_functions": [
+            "使用飞书"
+        ],
+        "action_object_str": ""
+    },
+    {
+        "id": 23,
+        "app_name": "gmail",
+        "scenario": "生产力、办公协作与系统工具类应用",
+        "brief_introduction": "gmail应用",
+        "icon_description": "gmail应用图标",
+        "ui_description": " ",
+        "common_functions": [
+            "使用gmail"
+        ],
+        "action_object_str": ""
+    },
+    {
+        "id": 24,
+        "app_name": "Microsoft",
+        "scenario": "生产力、办公协作与系统工具类应用",
+        "brief_introduction": "Microsoft应用",
+        "icon_description": "Microsoft应用图标",
+        "ui_description": " ",
+        "common_functions": [
+            "使用Microsoft"
+        ],
+        "action_object_str": ""
+    },
+    {
+        "id": 25,
+        "app_name": "Teams",
+        "scenario": "生产力、办公协作与系统工具类应用",
+        "brief_introduction": "Teams应用",
+        "icon_description": "Teams应用图标",
+        "ui_description": " ",
+        "common_functions": [
+            "使用Teams"
+        ],
+        "action_object_str": ""
+    },
+    {
+        "id": 26,
+        "app_name": "Slack",
+        "scenario": "生产力、办公协作与系统工具类应用",
+        "brief_introduction": "灵活的团队协作平台，以其强大的插件集成、灵活的频道管理和高效的搜索功能闻名 [6, 81]。",
+        "icon_description": "白色圆底中心由四种颜色（蓝、绿、红、黄）的对话气泡交叠而成的“井”字/井号标志 [6]。",
+        "ui_description": null,
+        "common_functions": [
+            "发送及接收Huddle即时音频交谈",
+            "设置自定义状态及通知勿扰模式 [6]",
+            "在移动端接收关键业务警报通知",
+            "管理连接的外部应用（如Google Drive/Zoom） [82]"
+        ],
+        "action_object_str": ""
+    },
+    {
+        "id": 27,
+        "app_name": "Zoom",
+        "scenario": "生产力、办公协作与系统工具类应用",
+        "brief_introduction": "全球知名的云视频会议应用，以其极高的稳定性和简便的加入流程成为在线协作的首选 [6, 11]。",
+        "icon_description": "蓝色圆角正方形背景内含一个白色的摄像机图标 [6]。",
+        "ui_description": null,
+        "common_functions": [
+            "开启AI智能会议助手（AI Companion） [6]",
+            "设置虚拟背景与磨皮美颜效果",
+            "录制会议视频至本地或云端",
+            "管理参会者的语音及互动权限 [20]"
+        ],
+        "action_object_str": ""
+    },
+    {
+        "id": 28,
+        "app_name": "notion",
+        "scenario": "生产力、办公协作与系统工具类应用",
+        "brief_introduction": "一站式协作工作区，通过灵活的“块”结构实现笔记编写、项目管理及知识库构建 [82, 83]。",
+        "icon_description": "白色背景上一个黑色的四角圆润的方块，内含一个大写的斜体字母“N” [84]。",
+        "ui_description": null,
+        "common_functions": [
+            "利用Markdown语法编写结构化文档 [85]",
+            "创建及筛选多维关系型数据库 [86]",
+            "搭建团队共享的Wiki知识库 [82]",
+            "通过Notion AI进行内容润色与摘要 [82]",
+            "切换看板（Kanban）、时间轴等多种视图 [86]",
+            "管理个人日程表与任务清单 [87]"
+        ],
+        "action_object_str": ""
+    },
+    {
+        "id": 29,
+        "app_name": "高德地图(Amap)",
+        "scenario": "地图导航、本地服务与出行预订应用",
+        "brief_introduction": "高德地图(Amap)应用",
+        "icon_description": "高德地图(Amap)应用图标",
+        "ui_description": " ",
+        "common_functions": [
+            "使用高德地图(Amap)"
+        ],
+        "action_object_str": ""
+    },
+    {
+        "id": 30,
+        "app_name": "铁路12306",
+        "scenario": "地图导航、本地服务与出行预订应用",
+        "brief_introduction": "铁路12306应用",
+        "icon_description": "铁路12306应用图标",
+        "ui_description": " ",
+        "common_functions": [
+            "使用铁路12306"
+        ],
+        "action_object_str": ""
+    },
+    {
+        "id": 31,
+        "app_name": "携程旅行",
+        "scenario": "地图导航、本地服务与出行预订应用",
+        "brief_introduction": "涵盖旅行、订票酒店等服务，可预订酒店及民宿、机票、火车票，提供一站式旅行出行服务。",
+        "icon_description": "蓝色背景，带有橙色 “CTRIP” 字样和海豚造型，色彩鲜明，传递旅行的活力与探索感。",
+        "ui_description": " ",
+        "common_functions": [
+            "10预订机票",
+            "10酒店搜索",
+            "10火车票购买",
+            "10旅游攻略查看",
+            "10租车服务",
+            "10行程规划",
+            "10app设置",
+            "10客服咨询"
+        ],
+        "action_object_str": {
+            "预订机票": [
+                "open xiecheng app",
+                "tap the airplane icon box with text 'jipiao' above",
+                "tap destination ",
+                "tap search box above ",
+                "type the destination 'haikou'",
+                "tap the serach result",
+                "tap 'chaxun' button in the red box",
+                "tap the  airline in the list",
+                "tap the 'ding' in the blue box to book ticket"
+            ],
+            "酒店搜索": [
+                "open xiecheng app",
+                "tap the hotel icon box with text 'jiudian' above",
+                "tap chaxun in the blue box",
+                "tap a  hotel choice in the list"
+            ],
+            "火车票购买": [
+                "open xiecheng app",
+                "tap the train icon box with text 'huochepiao' above ",
+                "tap chaxun in the red box",
+                "tap a  train choice in the list",
+                "tap the 'ding' in the yellow box to book ticket"
+            ],
+            "旅游攻略查看": [
+                "open xiecheng app",
+                "tap the book icon box with text 'gonglue/jingdian' above ",
+                "tap search box above",
+                "type the destination 'chuanxi'",
+                "tap the serach result of' chuanxi'",
+                "tap chaxun travel blog box with a figure"
+            ],
+            "租车服务": [
+                "open xiecheng app",
+                "tap the car icon box with text 'zuche' above",
+                "tap 'chaxun'  button in the red box  ",
+                "tap the serach result of car",
+                "tap 'xiangqing' button with the right square bracket icon",
+                "tap the 'yuding' button in the blue box on the bottom"
+            ],
+            "行程规划": [
+                "open xiecheng app",
+                "tap the road map arrows icon box with text 'xianluguihua' ",
+                "tap search box with a magnifying glass icon",
+                "tap a image with destination name which is below the image",
+                "tap the 'xiayibu' in the blue box",
+                "tap 'zhinangtuijian' in the blue box",
+                "tap a  mapline choice in the search list",
+                "tap the 'baocunbingbianjixianlu' button in the blue box on the bottom"
+            ],
+            "app设置": [
+                "open xiecheng app",
+                "tap  the letter v diamond icon with 'wode'",
+                "tap the gear icon with 'shezhi'top of the screen ",
+                "tap tap subconfiguration in the list "
+            ],
+            "客服咨询": [
+                "open xiecheng app",
+                "tap  the letter v diamond icon with 'wode'",
+                "tap the  icon of people and message with text 'kefu' ",
+                "tap  the  icon of people and message' with text 'zaixianzixun' on the bottom",
+                "tap the sub-business in the screenshot"
+            ]
+        }
+    },
+    {
+        "id": 32,
+        "app_name": "百度地图",
+        "scenario": "地图导航、本地服务与出行预订应用",
+        "brief_introduction": "作为出行助手的地图导航应用，支持车道级巡航、小度交互、特惠打车等功能，助力精准导航、便捷出行。",
+        "icon_description": "蓝色为主，带有白色 “du” 字样和红色定位标志，设计简洁，突出地图导航工具属性。",
+        "ui_description": " ",
+        "common_functions": " ",
+        "action_object_str": ""
+    },
+    {
+        "id": 33,
+        "app_name": "去哪儿网",
+        "scenario": "地图导航、本地服务与出行预订应用",
+        "brief_introduction": "去哪儿网应用",
+        "icon_description": "去哪儿网应用图标",
+        "ui_description": " ",
+        "common_functions": [
+            "使用去哪儿网"
+        ],
+        "action_object_str": ""
+    },
+    {
+        "id": 34,
+        "app_name": "飞猪旅行",
+        "scenario": "地图导航、本地服务与出行预订应用",
+        "brief_introduction": "提供旅行、订票酒店服务，可预订机票，还有 AI 同行助手等功能，助力便捷出行。",
+        "icon_description": "黄色背景，带有橙色小猪造型元素，风格可爱活泼，传递旅行的轻松愉悦感。",
+        "ui_description": " ",
+        "common_functions": [
+            "机票预订",
+            "酒店搜索",
+            "火车票购买",
+            "度假产品浏览",
+            "门票抢购",
+            "租车服务",
+            "积分兑换",
+            "行程规划",
+            "用户评价",
+            "客服咨询"
+        ],
+        "action_object_str": ""
+    },
+    {
+        "id": 35,
+        "app_name": "腾讯地图",
+        "scenario": "地图导航、本地服务与出行预订应用",
+        "brief_introduction": "具备地图导航、旅行交通功能，支持立体化地图、AI 助手等功能，提供精准导航与出行服务。",
+        "icon_description": "由蓝、橙、红等色彩构成简约抽象造型，科技感十足，突出地图导航的精准与便捷。",
+        "ui_description": " ",
+        "common_functions": " ",
+        "action_object_str": ""
+    },
+    {
+        "id": 36,
+        "app_name": "航旅纵横",
+        "scenario": "地图导航、本地服务与出行预订应用",
+        "brief_introduction": "航旅纵横应用",
+        "icon_description": "航旅纵横应用图标",
+        "ui_description": " ",
+        "common_functions": [
+            "使用航旅纵横"
+        ],
+        "action_object_str": ""
+    },
+    {
+        "id": 37,
+        "app_name": "中国铁路12306",
+        "scenario": "地图导航、本地服务与出行预订应用",
+        "brief_introduction": "中国官方的铁路票务预订系统，是购买高铁及普通客运火车票的权威渠道 [1, 2, 4]。",
+        "icon_description": "亮蓝色圆底背景，上部是白色的铁路徽章，下部印有白色的“12306” [1]。",
+        "ui_description": null,
+        "common_functions": [
+            "查询全国铁路线路的余票及票价 [1]",
+            "在线预订、支付及改签火车票 [4]",
+            "管理电子客票二维码进行快捷进站",
+            "办理积分兑换及铁路常旅客服务",
+            "预订火车站内的点餐外送服务",
+            "查询特定车次的停靠站点及正晚点详情"
+        ],
+        "action_object_str": ""
+    },
+    {
+        "id": 38,
+        "app_name": "trip",
+        "scenario": "地图导航、本地服务与出行预订应用",
+        "brief_introduction": "trip应用",
+        "icon_description": "trip应用图标",
+        "ui_description": " ",
+        "common_functions": [
+            "使用trip"
+        ],
+        "action_object_str": ""
+    },
+    {
+        "id": 39,
+        "app_name": "booking",
+        "scenario": "地图导航、本地服务与出行预订应用",
+        "brief_introduction": "评分 4.8 星的旅行预订应用。提供酒店、航班和租车；提供优惠、评论和灵活取消选项。",
+        "icon_description": "蓝色圆圈，带有白色 'B' 和位置图钉，背景为白色。",
+        "ui_description": " ",
+        "common_functions": [
+            "预订酒店房间",
+            "预订航班",
+            "租车",
+            "Taxi预订",
+            "景点订票"
+        ],
+        "action_object_str": {
+            "预订酒店房间": [
+                "open booking app",
+                "tap the Stays square with bed icon at the top column",
+                "tap the search box with magnifying glass icon in the first bar to search for the add location ",
+                "type the hotel location",
+                "tap the location 'search' result in the first result ",
+                "tap the second bar with calendar icon to select the check-in date and check-out date",
+                "tap the third bar with people icon to select the number of guests and rooms",
+                "tap the search button in a blue box to find the hotel",
+                "swipe down to view more hotels",
+                "tap a hotel link to enter the hotel detailed page",
+                "tap the white border heart at the right corner of the top to save the location to the saved list",
+                "tap the left-pointing arrow connecting three points representing sharing at the right corner of the top",
+                "tap a social media app icon to share the location to friends",
+                "tap the 'Select rooms' button in a blue box to see options",
+                "tap the 'Select' button in blue border box to select the room",
+                "tap the 'Reserve' button in a blue box to book the hotel"
+            ],
+            "预订航班": [
+                "open booking app",
+                "tap the Flights square with plane icon at the top column",
+                "tap the flight category options in the first bar ",
+                "tap the search box with the airplane takeoff icon in the second bar",
+                "type the flight departure location and tap the 'search' result in the first result ",
+                "tap the search box with the airplane landing icon in the second bar",
+                "type the flight arrival location and tap the 'search' result in the first result ",
+                "tap the third bar with calendar icon to select the departure date and return date",
+                "tap the fourth bar with people icon to confirm boarding information",
+                "tap the search button in a blue box to find the flight",
+                "swipe down to view more flights",
+                "tap a flight link to enter the flight detailed page",
+                "select a flight time and tap the link to see more",
+                "tap the 'Select' button in blue box to reserve the flight"
+            ],
+            "租车": [
+                "open booking app",
+                "tap the Car rentals square with car icon at the second column of the top",
+                "tap the car icon bar to identify the pick up location ",
+                "type the car location and tap the 'search' result in the first result ",
+                "tap the calendar icon bar to identify the pick up time",
+                "tap the search button in a blue box to find the car",
+                "swipe down to view more cars",
+                "tap a car link to enter the car detailed page",
+                "tap the 'Select' button in blue box to reserve the car"
+            ],
+            "Taxi预订": [
+                "open booking app",
+                "tap the Taxi square with taxi icon below at the second column of the top",
+                "tap the first bar to select one-way or round-trip",
+                "tap the second bar to select the taxi pick-up location",
+                "type the taxi location and tap the 'search' result in the first result ",
+                "tap the second bar to select the taxi drop-off location",
+                "type the taxi drop-off location and tap the 'search' result in the first result ",
+                "tap the third bar to select the taxi pick-up time",
+                "tap the fourth bar to select the number of passengers",
+                "tap the search button in a blue box to find the taxi",
+                "swipe down to view more taxis",
+                "tap a taxi link to enter the taxi detailed page",
+                "tap the 'Select' button in blue box to reserve the taxi"
+            ],
+            "景点订票": [
+                "open booking app",
+                "tap the Attractions square with ferris wheel icon at the second column of the top",
+                "tap the first bar to search for the attraction location",
+                "tap the second bar to select the date",
+                "tap the search button in a blue box to scan the search result",
+                "swipe down to view more attractions",
+                "tap a attraction link to enter the attraction detailed page",
+                "tap the 'See availability' button in blue box to reserve the attraction",
+                "tap the white border heart at the right corner of the top to save the location to the saved list",
+                "tap the left-pointing arrow connecting three points representing sharing at the right corner of the top",
+                "tap a social media app icon to share the location to friends"
+            ]
+        }
+    },
+    {
+        "id": 40,
+        "app_name": "googleMap",
+        "scenario": "地图导航、本地服务与出行预订应用",
+        "brief_introduction": "googleMap应用",
+        "icon_description": "googleMap应用图标",
+        "ui_description": " ",
+        "common_functions": [
+            "使用googleMap"
+        ],
+        "action_object_str": ""
+    },
+    {
+        "id": 41,
+        "app_name": "tripadvisor",
+        "scenario": "地图导航、本地服务与出行预订应用",
+        "brief_introduction": "评分 4.6 星的旅行规划应用。提供酒店、餐厅和景点的评论、推荐和预订。",
+        "icon_description": "绿色猫头鹰头图标，带有眼睛和喙，象征旅行智慧。",
+        "ui_description": " ",
+        "common_functions": [
+            "阅读地点概览",
+            "预订酒店",
+            "查找附近餐厅",
+            "查看景点信息",
+            "上传景点照片",
+            "撰写点评"
+        ],
+        "action_object_str": {
+            "阅读地点概览": [
+                "open tripadvisor app",
+                "tap the magnifier icon with 'search in the bottom list",
+                "tape the trip destination in the search box",
+                "tap the first search'result in the result list ",
+                "swipe down the page to see more details",
+                "tap the 'Read More' button in black font to read the location overview",
+                "tap the 'Map' button with location icon in black box to view the location on the map",
+                "tap the black border heart at the right corner of the top to save the location to the saved list",
+                "tap the left-pointing arrow connecting three points representing sharing at the right corner of the top",
+                "tap a social media app icon to share the location to friends"
+            ],
+            "预订酒店": [
+                "open tripadvisor app",
+                "tap the magnifier icon with 'search in the bottom list",
+                "tape the trip destination in the search box",
+                "tap the first search'result in the result list ",
+                "swipe down the page to see more options",
+                "tap the hotel botton with bed icon in the first column from the list",
+                "swipe down the page to see more hotels",
+                "tap a hotel link to enter the hotel page",
+                "swipe down the page tap the 'View rooms' button in green box to jump booking link",
+                "swipe down the page until find the 'All reviews'",
+                "swipe down to scan the reviews and tap 'Read more' button in black font to read the complete review",
+                "tap the black border heart at the right corner of the top to save the location to the saved list",
+                "tap the left-pointing arrow connecting three points representing sharing at the right corner of the top",
+                "tap a social media app icon to share the location to friends"
+            ],
+            "查找附近餐厅": [
+                "open tripadvisor app",
+                "tap the magnifier icon with 'search in the bottom list",
+                "tape the trip destination in the search box",
+                "tap the first search'result in the result list ",
+                "swipe down the page to see more options",
+                "tap the 'Restaurants' botton with fork and knife icon in the third column from the list",
+                "swipe down the page tap the 'View all restaurants' button in black border box",
+                "swipe down to select a restaurant",
+                "tap a restaurant link to enter the restaurant page",
+                "tap the 'Call' button in black font to reserve the restaurant",
+                "swipe down the page until find the 'All reviews'",
+                "swipe down to scan the reviews and tap 'Read more' button in black font to read the complete review",
+                "tap the black border heart at the right corner of the top to save the location to the saved list",
+                "tap the left-pointing arrow connecting three points representing sharing at the right corner of the top",
+                "tap a social media app icon to share the location to friends"
+            ],
+            "查看景点信息": [
+                "open tripadvisor app",
+                "tap the magnifier icon with 'search in the bottom list",
+                "tape the trip destination in the search box",
+                "tap the first search'result in the result list ",
+                "swipe down the page to see more options",
+                "tap the 'Things to Do' botton with camera icon in the second column from the list",
+                "tap the 'attractions' button  in the option box at the top ",
+                "swipe down the page to see more attractions",
+                "tap the 'See Tours' buton in green box to see more details",
+                "swipe down to scan the tour list and click one link ",
+                "tap the 'Check Availability' button in a game box to book the tour",
+                "swipe down the page to see the Itinerary",
+                "swipe down the page until find the 'All reviews'",
+                "swipe down to scan the reviews and tap 'Read more' button in black font to read the complete review",
+                "tap the black border heart at the right corner of the top to save the location to the saved list",
+                "tap the left-pointing arrow connecting three points representing sharing at the right corner of the top",
+                "tap a social media app icon to share the location to friends"
+            ],
+            "上传景点照片": [
+                "open tripadvisor app",
+                "tap the bubble icon with 'Review in the bottom list",
+                "tap the 'Upload a photo' button in the option box at the top ",
+                "tap some photo in the gallery",
+                "tap the Add button in a grey box at the right corner of the bottom",
+                "tap the search box with magnifying glass icon to add a location ",
+                "tap the Upload button in dark green box to post the photo"
+            ],
+            "撰写点评": [
+                "open tripadvisor app",
+                "tap the bubble icon with 'Review in the bottom list",
+                "tap the 'Write a review' button in the option box at the top ",
+                "type the review object in the RECENT list",
+                "tap the five green circle to rate the activities",
+                "tap the kind options of the activity",
+                "tap the 'Next' button in a dark green box at the right corner of the bottom",
+                "tap  'Write your review' button to type the review content",
+                "tap  'Done' button in black border box at the right corner of the bottom",
+                "tap the 'Title this review' button to type the review title and tap the 'Done' button in black border box at the right corner of the bottom to finish",
+                "tap the 'Next' button in a dark green box at the right corner of the bottom",
+                "tap the camera icon to add some photos",
+                "tap 'Submit' button in a dark green box at the right corner of the bottom"
+            ]
+        }
+    },
+    {
+        "id": 42,
+        "app_name": "citymapper",
+        "scenario": "地图导航、本地服务与出行预订应用",
+        "brief_introduction": "citymapper应用",
+        "icon_description": "citymapper应用图标",
+        "ui_description": " ",
+        "common_functions": [
+            "使用citymapper"
+        ],
+        "action_object_str": ""
+    },
+    {
+        "id": 43,
+        "app_name": "grab",
+        "scenario": "地图导航、本地服务与出行预订应用",
+        "brief_introduction": "东南亚地区的超级应用，提供打车、外卖、支付及快递一站式服务 [12]。",
+        "icon_description": "亮绿色底色中心印有白色的两条相互环绕的线条，组成抽象的“g”字。",
+        "ui_description": null,
+        "common_functions": [
+            "呼叫全天候在线的私家车及豪华车服务",
+            "订购Uber Eats外卖并享受会员免运费",
+            "通过Uber Reserve提前预约重要行程",
+            "在地图上实时查看司机接驾路径与位置",
+            "向朋友分享实时行程位置与预计到达时间",
+            "管理复杂的商旅开支与自动报销对接"
+        ],
+        "action_object_str": ""
+    },
+    {
+        "id": 44,
+        "app_name": "agoda",
+        "scenario": "地图导航、本地服务与出行预订应用",
+        "brief_introduction": "评分 4.7 星的酒店预订应用。专注于亚太地区住宿，提供竞争价格、评论和即时确认。",
+        "icon_description": "红色圆圈，带有白色 'a' 风格化为位置图钉，背景为白色。",
+        "ui_description": " ",
+        "common_functions": [
+            "预订酒店",
+            "查看酒店长住优惠",
+            "查看行程",
+            "查看优惠券",
+            "预订航班",
+            "查看近期举行的活动",
+            "民宿入住",
+            "查看我的收藏",
+            "预订火车票"
+        ],
+        "action_object_str": {
+            "预订酒店": [
+                "open agoda app",
+                "tap the Hotel square with hotel icon below at the top of the home page",
+                "tap the search box with magnifying glass icon in the page to search for the hotel location ",
+                "type the hotel location",
+                "tap the location 'search' result in the first result ",
+                "tap the bar with calendar with check-in arrow icon to select the check-in date",
+                "tap the bar with calendar with check-out arrow icon to select the check-out date",
+                "tap the bar with people icon to select the number of guests and rooms",
+                "tap the search button in a blue box to find the hotel",
+                "swipe down to view more hotels",
+                "tap a hotel link to enter the hotel detailed page",
+                "tap the'choose my room' button in a blue box to book the hotel",
+                "tap the red border heart in circle at the right of the hotel name to add the hotel to the saved list",
+                "tap the left-pointing arrow connecting three points representing sharing at the right top",
+                "tap a social media app icon to share the hotel to friends"
+            ],
+            "查看酒店长住优惠": [
+                "open agoda app",
+                "tap the calendar icon with 7+ and text 'long Stays Deals' below it in the second column from the top",
+                "tap the search box with magnifying glass icon in the page to search for the hotel location ",
+                "type the hotel location",
+                "tap the location 'search' result in the first result ",
+                "tap the bar with calendar with check-in arrow icon to select the check-in date",
+                "tap the bar with calendar with check-out arrow icon to select the check-out date",
+                "tap the bar with people icon to select the number of guests and rooms",
+                "tap the search button in a blue box to find the hotel",
+                "swipe down to view more hotels",
+                "tap a hotel link to enter the hotel detailed page",
+                "tap the'choose my room' button in a blue box to book the hotel",
+                "tap the red border heart in circle at the right of the hotel name to add the hotel to the saved list",
+                "tap the left-pointing arrow connecting three points representing sharing at the right top",
+                "tap a social media app icon to share the hotel to friends"
+            ],
+            "查看行程": [
+                "open agoda app",
+                "tap the  'My Trips' button with suitcase icon in the bottom list",
+                "swipe down to view more trip records",
+                "tap a trip to enter the trip page to see the trip details"
+            ],
+            "查看优惠券": [
+                "open agoda app",
+                "tap the 'Deals' button with bookmark icon at the bottom of the home page",
+                "swipe down to view more coupons",
+                "tap a coupon to enter the coupon page to see the coupon details"
+            ],
+            "预订航班": [
+                "open agoda app",
+                "tap the flight square with plane icon below at the top of the home page",
+                "tap the bar with takeoff icon to search for your boarding location. ",
+                "type the boarding location",
+                "tap the boarding location 'search' result in the first result ",
+                "tap the bar with landing icon to search for your destination location. ",
+                "type the destination location",
+                "tap the destination location 'search' result in the first result ",
+                "tap the bar with calendar with check-in arrow icon to select the departure date",
+                "tap the bar with calendar with check-out arrow icon to select the return date",
+                "tap the bar with people icon to select the number of passengers",
+                "tap the search button in a blue box to find the flight",
+                "swipe down to view more flights",
+                "tap a flight to enter the flight page to see more details",
+                "tap the 'select' button in a blue box to book the flight"
+            ],
+            "查看近期举行的活动": [
+                "open agoda app",
+                "tap the Activities square with ferris wheel icon below at the top of the home page",
+                "tap the search box with magnifying glass icon to search the activity or city ",
+                "type the activity or city",
+                "tap the activity or city 'search' result in the first result ",
+                "swipe down to view more activities",
+                "tap an activity link to enter the activity page to see more details",
+                "tap the 'see options' button in a blue box to book the activity tickets"
+            ],
+            "民宿入住": [
+                "open agoda app",
+                "tap the Homes&Apts square with house icon below at the top of the home page",
+                "tap the search box with magnifying glass icon in the page to search for the HOme&Apts location ",
+                "type the HOme&Apts location",
+                "tap the location 'search' result in the first result ",
+                "tap the bar with calendar with check-in arrow icon to select the check-in date",
+                "tap the bar with calendar with check-out arrow icon to select the check-out date",
+                "tap the bar with people icon to select the number of guests and rooms",
+                "tap the search button in a blue box to find the HOme&Apts",
+                "swipe down to view more hotels",
+                "tap a HOme&Apts link to enter the HOme&Apts detailed page",
+                "tap the'choose my room' button in a blue box to book the HOme&Apts",
+                "tap the red border heart in circle at the right of the HOme&Apts name to add the HOme&Apts to the saved list",
+                "tap the left-pointing arrow connecting three points representing sharing at the right top",
+                "tap a social media app icon to share the HOme&Apts to friends"
+            ],
+            "查看我的收藏": [
+                "open agoda app",
+                "tap the  'Saved' button with heart icon in the bottom list",
+                "swipe down to view more saved records",
+                "tap a saved record to enter the saved page to see the saved details"
+            ],
+            "预订火车票": [
+                "open agoda app",
+                "tap the Train icon with text 'Trains' below it in the second column from the top",
+                "tap the first box to search for the train start location ",
+                "type the train start location",
+                "tap the location 'search' result in the first result ",
+                "tap the second box to search for the train end location ",
+                "type the train end location",
+                "tap the location 'search' result in the first result ",
+                "tap the third bar with calendar icon to select the check-in date and check-out date",
+                "tap the fourth bar with people icon to select the number of passengers",
+                "tap the 'Find Tickets' button in a blue box to search the train",
+                "swipe down to view more trains options",
+                "tap 'book now' button in a blue box to book the train"
+            ]
+        }
+    },
+    {
+        "id": 45,
+        "app_name": "Airbnb",
+        "scenario": "地图导航、本地服务与出行预订应用",
+        "brief_introduction": "Airbnb应用",
+        "icon_description": "Airbnb应用图标",
+        "ui_description": " ",
+        "common_functions": [
+            "使用Airbnb"
+        ],
+        "action_object_str": ""
+    },
+    {
+        "id": 46,
+        "app_name": "(爱彼迎)",
+        "scenario": "地图导航、本地服务与出行预订应用",
+        "brief_introduction": "(爱彼迎)应用",
+        "icon_description": "(爱彼迎)应用图标",
+        "ui_description": " ",
+        "common_functions": [
+            "使用(爱彼迎)"
+        ],
+        "action_object_str": ""
+    },
+    {
+        "id": 47,
+        "app_name": "Uber",
+        "scenario": "地图导航、本地服务与出行预订应用",
+        "brief_introduction": "Uber应用",
+        "icon_description": "Uber应用图标",
+        "ui_description": " ",
+        "common_functions": [
+            "使用Uber"
+        ],
+        "action_object_str": ""
+    },
+    {
+        "id": 48,
+        "app_name": "(优步)",
+        "scenario": "地图导航、本地服务与出行预订应用",
+        "brief_introduction": "(优步)应用",
+        "icon_description": "(优步)应用图标",
+        "ui_description": " ",
+        "common_functions": [
+            "使用(优步)"
+        ],
+        "action_object_str": ""
+    },
+    {
+        "id": 49,
+        "app_name": "支付宝",
+        "scenario": "财务管理、金融科技与加密资产应用",
+        "brief_introduction": "支付宝应用",
+        "icon_description": "支付宝应用图标",
+        "ui_description": " ",
+        "common_functions": [
+            "使用支付宝"
+        ],
+        "action_object_str": ""
+    },
+    {
+        "id": 50,
+        "app_name": "(Alipay)",
+        "scenario": "财务管理、金融科技与加密资产应用",
+        "brief_introduction": "(Alipay)应用",
+        "icon_description": "(Alipay)应用图标",
+        "ui_description": " ",
+        "common_functions": [
+            "使用(Alipay)"
+        ],
+        "action_object_str": ""
+    },
+    {
+        "id": 51,
+        "app_name": "微信",
+        "scenario": "财务管理、金融科技与加密资产应用",
+        "brief_introduction": "一款广受欢迎的社交应用，可用于好友聊天社交，支持消息列表管理、群聊互动以及语音输入等功能，方便用户日常沟通交流。",
+        "icon_description": "绿色背景的方形图标，上面有两个白色的聊天气泡图案，简洁明了，极具辨识度。",
+        "ui_description": " ",
+        "common_functions": [
+            "发送消息",
+            "语音通话",
+            "发布朋友圈",
+            "扫码支付",
+            "公众号订阅",
+            "小程序使用",
+            "添加好友",
+            "朋友圈点赞",
+            "红包发送",
+            "朋友圈评论"
+        ],
+        "action_object_str": {
+            "发送消息": [
+                "open the wechat app ",
+                "tap magnifier at the right top",
+                "type the friend name in the search box",
+                "tap a friend to enter chat page",
+                "tap the input bar  at the bottom",
+                "type the chat message ",
+                "tap the text button 'send' in a green box"
+            ],
+            "语音/视频通话": [
+                "open the wechat app ",
+                "tap magnifier at the right top",
+                "type the friend name in the search box",
+                "tap a friend to enter chat page",
+                "tap the plus sign in circle at the right of the input bar",
+                "tap the video camera symbol with text 'shi ping tong hua' below it",
+                "tap the text button 'shi ping tong hua' with a video camera icon on the left",
+                "tap the text button 'yu yin tong hua' with a phonecall icon on the left"
+            ],
+            "发布朋友圈": [
+                "open the wechat app ",
+                "tap the upper body portrait with 'wo' below it at the  right bottom",
+                "tap the text button 'peng you quan' with phote symbol on the left",
+                "tap the text button 'wo de peng you quan'with a right square bracket symbol at the right top ",
+                "tap the camera in the box  ",
+                "tap the selection of text button 'cong xiang ce zhong xuan ze'",
+                "swipe up and down and click no more than 9 pictures",
+                "tap the text button 'wancheng'in a green box at the right bottom",
+                "type the content of the moments",
+                "tap the text button 'fa biao' in a green box at the right top"
+            ],
+            "扫码支付": [
+                "open the wechat app ",
+                "tap the plus sign in circleat the right top",
+                "tap the frame gesture symbol with text 'sao yi sao' at the right of it"
+            ],
+            "公众号订阅": [
+                "open the wechat app ",
+                "tap magnifier at the right top",
+                "type the official account name in the search box",
+                "tap the search result of official account in the list",
+                "tap the the official account to enter detail page",
+                "tap the text button 'guan zhu gong zhong hao' in a green box"
+            ],
+            "小程序使用": [
+                "open the wechat app ",
+                "tap magnifier at the right top",
+                "type the mini program name in the search box",
+                "tap the search result of mini program to enter detail page",
+                "tap the detailed functions of the mini program"
+            ],
+            "添加好友": [
+                "open the wechat app ",
+                "tap the plus sign in circleat the right top",
+                "tap the upper body portrait with plus sign and text 'tian jia hao you' at the right of it"
+            ],
+            "朋友圈点赞": [
+                "open the wechat app ",
+                "tap the compass symbol with text 'fa xian' below it",
+                "tap the text button 'peng you quan' with kaleidoscope symbol on the left",
+                "swipe up and down to see more moments",
+                "tap the ellipses with two dots in the lower right corner of the moment",
+                "tap the heart symbol with text 'zan'"
+            ],
+            "红包发送": [
+                "open the wechat app ",
+                "tap magnifier at the right top",
+                "type the friend name",
+                "tap a friend to enter chat page",
+                "tap the plus sign in circle at the right of the input bar",
+                "tap the black red envelope symbol with text 'hongbao' below it",
+                "type the red envelope amount in the input box at the top",
+                "tap the text button 'sai qian jin hong bao' to send the red envelope"
+            ],
+            "朋友圈评论": [
+                "open the wechat app ",
+                "tap the compass symbol with text 'fa xian' below it",
+                "tap the text button 'peng you quan' with kaleidoscope symbol on the left",
+                "swipe up and down to see more moments",
+                "tap the ellipses with two dots in the lower right corner of the moment",
+                "tap the message dialog box symbol with text 'ping lun' at the right of the moment",
+                "type the comment content in the input bar",
+                "tap the text button 'send' in a green box at the right of the input bar"
+            ]
+        }
+    },
+    {
+        "id": 52,
+        "app_name": "云闪付",
+        "scenario": "财务管理、金融科技与加密资产应用",
+        "brief_introduction": "云闪付应用",
+        "icon_description": "云闪付应用图标",
+        "ui_description": " ",
+        "common_functions": [
+            "使用云闪付"
+        ],
+        "action_object_str": ""
+    },
+    {
+        "id": 53,
+        "app_name": "(UnionPay)",
+        "scenario": "财务管理、金融科技与加密资产应用",
+        "brief_introduction": "(UnionPay)应用",
+        "icon_description": "(UnionPay)应用图标",
+        "ui_description": " ",
+        "common_functions": [
+            "使用(UnionPay)"
+        ],
+        "action_object_str": ""
+    },
+    {
+        "id": 54,
+        "app_name": "Wise",
+        "scenario": "财务管理、金融科技与加密资产应用",
+        "brief_introduction": "Wise应用",
+        "icon_description": "Wise应用图标",
+        "ui_description": " ",
+        "common_functions": [
+            "使用Wise"
+        ],
+        "action_object_str": ""
+    },
+    {
+        "id": 55,
+        "app_name": "PayPal",
+        "scenario": "财务管理、金融科技与加密资产应用",
+        "brief_introduction": "全球历史悠久的在线支付网关，支持跨境收付款、电子钱包及账户保护计划 [120, 121]。",
+        "icon_description": "深蓝色和浅蓝色重叠的两个大写“P”字母，背景通常为白色或亮蓝色 [120]。",
+        "ui_description": null,
+        "common_functions": [],
+        "action_object_str": ""
+    },
+    {
+        "id": 56,
+        "app_name": "Binance",
+        "scenario": "财务管理、金融科技与加密资产应用",
+        "brief_introduction": "Binance应用",
+        "icon_description": "Binance应用图标",
+        "ui_description": " ",
+        "common_functions": [
+            "使用Binance"
+        ],
+        "action_object_str": ""
+    },
+    {
+        "id": 57,
+        "app_name": "Revolut",
+        "scenario": "财务管理、金融科技与加密资产应用",
+        "brief_introduction": "欧洲领先的数字银行与新银行应用，主打多币种兑换及全方位的一站式理财 [12, 137, 138]。",
+        "icon_description": "亮白色背景上印有黑色的、带有动态切割感的字母“R” [137, 139]。",
+        "ui_description": null,
+        "common_functions": [
+            "以实时汇率在30多种货币间自由兑换 [140]",
+            "设立具备支出上限及自动分析功能的预算工具 [140]",
+            "开设针对18岁以下儿童的财商教育账户 [141]",
+            "预订全球精选酒店（Stays）并享受返现 [140]",
+            "投资贵金属及全球精选公司股票 [138]",
+            "创建并管理可单次使用的虚拟支付卡"
+        ],
+        "action_object_str": ""
+    },
+    {
+        "id": 58,
+        "app_name": "DeepSeek",
+        "scenario": "人工智能、语音助手与交互式生成应用",
+        "brief_introduction": "中国知名的生成式AI应用，以强大的逻辑推理能力和超低价格打破行业格局 [2, 153]。",
+        "icon_description": "深蓝色或黑色背景，印有类似晶体结构的白蓝色Logo [2, 154]。",
+        "ui_description": null,
+        "common_functions": [
+            "利用“深度思考”模式处理复杂数学问题 [155, 153]",
+            "高效生成、审查并调试多语言编程代码 [155, 156]",
+            "撰写高质量的行业分析报告与创意文案 [157, 156]",
+            "实时检索并总结当前热点新闻资讯 [155]",
+            "在移动端上传文档并进行多轮问答分析 [154]",
+            "通过语音输入与智能体进行自然对话互动"
+        ],
+        "action_object_str": ""
+    },
+    {
+        "id": 59,
+        "app_name": "ChatGPT",
+        "scenario": "人工智能、语音助手与交互式生成应用",
+        "brief_introduction": "OpenAI开发的现象级AI助手，支持全模态交互与深度自定义 [158, 12]。",
+        "icon_description": "纯黑或白色背景上印有一个六角星状旋涡Logo [6]。",
+        "ui_description": null,
+        "common_functions": [
+            "基于大语言模型进行知识问答与概念解释 [158]",
+            "使用DALL-E 3模型进行高精度的图像创作",
+            "通过“高级语音模式”进行如真人般的训练 [159]",
+            "调用外部工具（如Canva/Spotify）执行任务 [160]",
+            "在GPT Store中使用特定领域的定制助手 [158]",
+            "开启“深度研究”生成引证报告 [160]"
+        ],
+        "action_object_str": ""
+    },
+    {
+        "id": 60,
+        "app_name": "Google",
+        "scenario": "人工智能、语音助手与交互式生成应用",
+        "brief_introduction": "Google应用",
+        "icon_description": "Google应用图标",
+        "ui_description": " ",
+        "common_functions": [
+            "使用Google"
+        ],
+        "action_object_str": ""
+    },
+    {
+        "id": 61,
+        "app_name": "Gemini",
+        "scenario": "人工智能、语音助手与交互式生成应用",
+        "brief_introduction": "Gemini应用",
+        "icon_description": "Gemini应用图标",
+        "ui_description": " ",
+        "common_functions": [
+            "使用Gemini"
+        ],
+        "action_object_str": ""
+    },
+    {
+        "id": 62,
+        "app_name": "Doubao",
+        "scenario": "人工智能、语音助手与交互式生成应用",
+        "brief_introduction": "Doubao应用",
+        "icon_description": "Doubao应用图标",
+        "ui_description": " ",
+        "common_functions": [
+            "使用Doubao"
+        ],
+        "action_object_str": ""
+    },
+    {
+        "id": 63,
+        "app_name": "(豆包)",
+        "scenario": "人工智能、语音助手与交互式生成应用",
+        "brief_introduction": "(豆包)应用",
+        "icon_description": "(豆包)应用图标",
+        "ui_description": " ",
+        "common_functions": [
+            "使用(豆包)"
+        ],
+        "action_object_str": ""
+    },
+    {
+        "id": 64,
+        "app_name": "元宝",
+        "scenario": "人工智能、语音助手与交互式生成应用",
+        "brief_introduction": "元宝应用",
+        "icon_description": "元宝应用图标",
+        "ui_description": " ",
+        "common_functions": [
+            "使用元宝"
+        ],
+        "action_object_str": ""
+    },
+    {
+        "id": 65,
+        "app_name": "(Yuanbao)",
+        "scenario": "人工智能、语音助手与交互式生成应用",
+        "brief_introduction": "(Yuanbao)应用",
+        "icon_description": "(Yuanbao)应用图标",
+        "ui_description": " ",
+        "common_functions": [
+            "使用(Yuanbao)"
+        ],
+        "action_object_str": ""
+    },
+    {
+        "id": 66,
+        "app_name": "grok",
+        "scenario": "人工智能、语音助手与交互式生成应用",
+        "brief_introduction": "grok应用",
+        "icon_description": "grok应用图标",
+        "ui_description": " ",
+        "common_functions": [
+            "使用grok"
+        ],
+        "action_object_str": ""
+    },
+    {
+        "id": 67,
+        "app_name": "夸克",
+        "scenario": "人工智能、语音助手与交互式生成应用",
+        "brief_introduction": "浏览器类应用，依托阿里 AI 技术，具备 “AI 超级框”“夸克学习”“AI 解题大师” 等功能，提升浏览与学习效率。",
+        "icon_description": "蓝色背景，带有白色 “Q” 字母标志，简洁科技，传递浏览器的智能与高效。",
+        "ui_description": " ",
+        "common_functions": [
+            "网页浏览",
+            "搜索查询",
+            "书签管理",
+            "下载文件",
+            "隐私模式",
+            "新闻阅读",
+            "视频播放",
+            "翻译网页",
+            "暗黑模式",
+            "同步数据"
+        ],
+        "action_object_str": ""
+    },
+    {
+        "id": 68,
+        "app_name": "Chorme",
+        "scenario": "人工智能、语音助手与交互式生成应用",
+        "brief_introduction": "Chorme应用",
+        "icon_description": "Chorme应用图标",
+        "ui_description": " ",
+        "common_functions": [
+            "使用Chorme"
+        ],
+        "action_object_str": ""
+    },
+    {
+        "id": 69,
+        "app_name": "Duolingo",
+        "scenario": "综合教育、健康管理与垂直生活领域",
+        "brief_introduction": "Duolingo应用",
+        "icon_description": "Duolingo应用图标",
+        "ui_description": " ",
+        "common_functions": [
+            "使用Duolingo"
+        ],
+        "action_object_str": ""
+    },
+    {
+        "id": 70,
+        "app_name": "(多邻国)",
+        "scenario": "综合教育、健康管理与垂直生活领域",
+        "brief_introduction": "(多邻国)应用",
+        "icon_description": "(多邻国)应用图标",
+        "ui_description": " ",
+        "common_functions": [
+            "使用(多邻国)"
+        ],
+        "action_object_str": ""
+    },
+    {
+        "id": 71,
+        "app_name": "Keep",
+        "scenario": "综合教育、健康管理与垂直生活领域",
+        "brief_introduction": "Keep应用",
+        "icon_description": "Keep应用图标",
+        "ui_description": " ",
+        "common_functions": [
+            "使用Keep"
+        ],
+        "action_object_str": ""
+    },
+    {
+        "id": 72,
+        "app_name": "(健身)",
+        "scenario": "综合教育、健康管理与垂直生活领域",
+        "brief_introduction": "(健身)应用",
+        "icon_description": "(健身)应用图标",
+        "ui_description": " ",
+        "common_functions": [
+            "使用(健身)"
+        ],
+        "action_object_str": ""
+    },
+    {
+        "id": 74,
+        "app_name": "Classroom",
+        "scenario": "综合教育、健康管理与垂直生活领域",
+        "brief_introduction": "Classroom应用",
+        "icon_description": "Classroom应用图标",
+        "ui_description": " ",
+        "common_functions": [
+            "使用Classroom"
+        ],
+        "action_object_str": ""
+    },
+    {
+        "id": 75,
+        "app_name": "MyFitnessPal",
+        "scenario": "综合教育、健康管理与垂直生活领域",
+        "brief_introduction": "全球领先的卡路里计数器与饮食追踪器，拥有庞大的食物数据库 [6, 162, 164]。",
+        "icon_description": "亮蓝色背景中心印有一个白色的正在跃起的运动人影 [162]。",
+        "ui_description": null,
+        "common_functions": [
+            "扫描食品条码快速获取营养成分 [162, 165]",
+            "每日打卡记录三餐卡路里及水摄入 [162]",
+            "同步各家智能手表的运动量",
+            "根据减重/增肌目标获取阶段性反馈",
+            "在食谱库中寻找适合个人倾向的健康餐 [164]",
+            "管理详细的宏量营养素配比"
+        ],
+        "action_object_str": ""
+    },
+    {
+        "id": 76,
+        "app_name": "Strava",
+        "scenario": "综合教育、健康管理与垂直生活领域",
+        "brief_introduction": "专为骑行与跑步爱好者设计的社交化运动追踪应用，以赛段比拼功能闻名 [6, 45]。",
+        "icon_description": "亮橙色底色，中心是两个交错的三角形。",
+        "ui_description": null,
+        "common_functions": [
+            "同步数以百计的各类智能运动设备数据",
+            "规划并发现周边热门的骑行或跑步线路",
+            "管理个人的训练日志及年度目标进度 [45]"
+        ],
+        "action_object_str": ""
+    },
+    {
+        "id": 77,
+        "app_name": "喜马拉雅",
+        "scenario": "综合教育、健康管理与垂直生活领域",
+        "brief_introduction": "喜马拉雅应用",
+        "icon_description": "喜马拉雅应用图标",
+        "ui_description": " ",
+        "common_functions": [
+            "使用喜马拉雅"
+        ],
+        "action_object_str": ""
+    },
+    {
+        "id": 78,
+        "app_name": "(Ximalaya)",
+        "scenario": "综合教育、健康管理与垂直生活领域",
+        "brief_introduction": "(Ximalaya)应用",
+        "icon_description": "(Ximalaya)应用图标",
+        "ui_description": " ",
+        "common_functions": [
+            "使用(Ximalaya)"
+        ],
+        "action_object_str": ""
+    },
+    {
+        "id": 79,
+        "app_name": "美图秀秀",
+        "scenario": "综合教育、健康管理与垂直生活领域",
+        "brief_introduction": "评分 4.9 星的美颜、相机类应用，可用于人像美化与拍摄。拥有全新 AI 闪光灯功能，能优化画面光线；支持精致五官调整，打造出理想的面部效果；还具备身材矫正能力，帮助用户塑造更好的身形，满足用户在美颜修图方面的多样需求。",
+        "icon_description": "红色圆形背景，中间有白色的 “M” 字母样式，整体设计简洁且容易识别，具有较高的品牌辨识度。",
+        "ui_description": " ",
+        "common_functions": [
+            "一键美颜人像",
+            "调整五官和身材",
+            "添加贴纸和文字",
+            "视频美颜",
+            "拼图",
+            "分享到社交媒体",
+            "身材塑性",
+            "消除黑眼圈",
+            "美白",
+            "磨皮"
+        ],
+        "action_object_str": {
+            "一键美颜人像": [
+                "Tap on the MeituXiuxiu app icon",
+                "Tap on the 'Renxiangmeirong' ",
+                "Tap on the profile picture",
+                "Tap on the 'yijianmeiyan'",
+                "Tap on a filter on the button",
+                "Tap on the checkmark at the bottom right corner",
+                "Tap on the 'save' at the upper right corner",
+                "Tap on the cross in the upper right corner to close the advertisement"
+            ],
+            "调整五官和身材": [
+                "Tap on the MeituXiuxiu app icon",
+                "Tap on the 'Renxiangmeirong'",
+                "Tap on the profile picture",
+                "Tap on the 'shoulianshoushen'",
+                "Tap on the 'zidong'",
+                "Turn on the 'shoulianshoushen' switch at the bottom left",
+                "Tap on the checkmark at the bottom right corner",
+                "Tap on the 'save' at the upper right corner"
+            ],
+            "添加贴纸和文字": [
+                "Tap on the MeituXiuxiu app icon",
+                "Tap on the 'tupianmeihua'",
+                "Tap on a picture",
+                "Swipe to the right on the bottom function bar",
+                "Tap on'wenzi'",
+                "Type text",
+                "Tap on the checkmark at the bottom right corner",
+                "Tap on the 'tiezhi'",
+                "Tap on a pattern",
+                "Tap on the checkmark at the bottom right corner",
+                "Tap on the 'save' at the upper right corner"
+            ],
+            "视频美颜": [
+                "Tap on the MeituXiuxiu app icon",
+                "Tap on the 'Video Beautification'",
+                "Tap on a video",
+                "Tap on 'kaishibianji'",
+                "Tap on 'yijianmeiyan'",
+                "Tap on the checkmark at the bottom right corner",
+                "Tap on the 'save' at the upper right corner",
+                "Wait"
+            ],
+            "拼图": [
+                "Tap on the MeituXiuxiu app icon",
+                "Tap on 'collage'",
+                "Tap on two pictures",
+                "Tap on 'save'"
+            ],
+            "分享到社交媒体": [
+                "open meitushuxiu app",
+                "tap the camera icon box with text 'meiyan' above",
+                "tap the 'meiyan' button in the red box",
+                "tap the 'meiyan' button in the red box"
+            ],
+            "身材塑形": [
+                "Tap on the MeituXiuxiu app icon",
+                "Tap on the 'Renxiangmeirong'",
+                "Tap on the profile picture",
+                "Swipe to the right on the bottom function bar",
+                "Tap on 'Body Reshape'",
+                "Hold down the 'Stretch Progress Bar' button and drag it to the right",
+                "Tap on the checkmark at the bottom right corner",
+                "Tap on the 'save' at the upper right corner"
+            ],
+            "消除黑眼圈": [
+                "Tap on the MeituXiuxiu app icon",
+                "Tap on the 'Renxiangmeirong'",
+                "Tap on the profile picture",
+                "Swipe to the right on the bottom function bar",
+                "Swipe to the right on the bottom function bar",
+                "Swipe to the right on the bottom function bar",
+                "Tap on the 'Remove Dark Circles'",
+                "Tap on the 'Automatic'",
+                "Tap on the checkmark at the bottom right corner",
+                "Tap on the 'save' at the upper right corner"
+            ],
+            "美白": [
+                "Tap on the MeituXiuxiu app icon",
+                "Tap on the 'Renxiangmeirong'",
+                "Tap on the profile picture",
+                "Swipe to the right on the bottom function bar",
+                "Tap on the 'Brighten'",
+                "Tap on the checkmark at the bottom right corner",
+                "Tap on the 'save' at the upper right corner"
+            ],
+            "磨皮": [
+                "Tap on the MeituXiuxiu app icon",
+                "Tap on the 'Renxiangmeirong'",
+                "Tap on the profile picture",
+                "Swipe to the right on the bottom function bar",
+                "Tap on the 'Skin Smoothing'",
+                "Tap on the checkmark at the bottom right corner",
+                "Tap on the 'save' at the upper right corner"
+            ]
+        }
+    },
+    {
+        "id": 80,
+        "app_name": "(Meitu)",
+        "scenario": "综合教育、健康管理与垂直生活领域",
+        "brief_introduction": "(Meitu)应用",
+        "icon_description": "(Meitu)应用图标",
+        "ui_description": " ",
+        "common_functions": [
+            "使用(Meitu)"
+        ],
+        "action_object_str": ""
+    },
+    {
+        "id": 81,
+        "app_name": "PS",
+        "scenario": "综合教育、健康管理与垂直生活领域",
+        "brief_introduction": "PS应用",
+        "icon_description": "PS应用图标",
+        "ui_description": " ",
+        "common_functions": [
+            "使用PS"
+        ],
+        "action_object_str": ""
+    },
+    {
+        "id": 82,
+        "app_name": "剪映",
+        "scenario": "综合教育、健康管理与垂直生活领域",
+        "brief_introduction": "评分 4.7 星的视频剪辑与拍摄美化工具。支持 DeepSeek AI 互动创作，可借助 AI 能力辅助视频创意生成；具备作图功能，能在视频剪辑中进行创意作图；还提供 AI 多语种翻译，助力跨语言视频内容制作，满足视频创作与美化的多样需求。",
+        "icon_description": "黑色背景的方形图标，中央是白色的抽象剪刀造型（融合 “剪” 的概念设计），整体简洁且富有科技感，突出视频剪辑工具的属性。",
+        "ui_description": " ",
+        "common_functions": [
+            "导入视频素材进行剪辑",
+            "添加文字和字幕",
+            "应用转场特效",
+            "调整视频速度（快/慢放）",
+            "添加背景音乐",
+            "使用AI生成视频内容",
+            "导出高清视频",
+            "分享到社交平台",
+            "创建视频模板",
+            "实时预览编辑效果"
+        ],
+        "action_object_str": ""
+    },
+    {
+        "id": 83,
+        "app_name": "醒图",
+        "scenario": "综合教育、健康管理与垂直生活领域",
+        "brief_introduction": "评分 4.8 星的图片美化与拍摄美化工具。拥有醒图相机功能，可进行风格化拍摄；支持修 Live，能对动态照片进行修复优化；具备 AI 超清能力，可提升图像画质，为图片拍摄与美化提供多场景解决方案。",
+        "icon_description": "黑色背景的方形图标，中央是带有渐变效果的绿色圆形，视觉上富有活力与科技感，契合图片美化工具的定位。",
+        "ui_description": " ",
+        "common_functions": [
+            "导入图片进行美化",
+            "应用AI超清修复",
+            "调整图片亮度和对比度",
+            "添加滤镜和特效",
+            "裁剪和旋转图片",
+            "使用Live照片修复",
+            "分享编辑后的图片",
+            "创建风格化拍摄",
+            "批量处理图片",
+            "保存到相册"
+        ],
+        "action_object_str": ""
+    },
+    {
+        "id": 84,
+        "app_name": "相机",
+        "scenario": "系统app",
+        "brief_introduction": "安卓系统核心拍摄工具，支持基础拍照、录像、全景模式，具备手动调节（对焦/曝光/白平衡）、滤镜、HDR、夜景增强等功能。部分机型支持AI场景识别（如人像虚化、美食优化）和专业模式（RAW格式、快门速度调节），满足日常拍摄与创作需求。",
+        "icon_description": "经典圆形或矩形图标，中心为相机镜头图案，常搭配快门按钮（圆形或半圆）、闪电符号（闪光灯）或花朵（微距模式）等元素。主流配色为深蓝、墨绿或金属灰，强调科技感。",
+        "ui_description": " ",
+        "common_functions": [
+            "拍照",
+            "录制视频",
+            "切换前后镜头",
+            "查看照片",
+            "夜景模式",
+            "人像模式",
+            "闪光灯控制",
+            "专业模式",
+            "分享照片"
+        ],
+        "action_object_str": ""
+    },
+    {
+        "id": 85,
+        "app_name": "设置",
+        "scenario": "系统app",
+        "brief_introduction": "系统功能管理中心，涵盖网络（Wi-Fi/蓝牙/NFC）、显示（亮度/壁纸/字体）、安全（指纹/密码/隐私）、存储、应用权限等100+项设置。支持快捷搜索、分屏操作、开发者选项等进阶功能，是个性化设备的核心入口。",
+        "icon_description": "齿轮或扳手符号为主视觉，部分机型叠加信号/电池/Wi-Fi等系统状态图标。配色多为深灰、浅蓝或橙红，设计简洁直观，符合Material Design规范。",
+        "ui_description": " ",
+        "common_functions": [
+            "显示与亮度",
+            "WiFi连接",
+            "蓝牙管理",
+            "通知设置",
+            "隐私权限",
+            "指纹与密码",
+            "电池管理",
+            "通知与状态栏",
+            "壁纸与个性化",
+            "语言和输入法"
+        ],
+        "action_object_str": ""
+    },
+    {
+        "id": 86,
+        "app_name": "信息",
+        "scenario": "系统app",
+        "brief_introduction": "原生短信/彩信客户端，支持智能分类（验证码/通知/个人消息）、群聊、彩信发送（图片/视频/音频）、骚扰拦截（黑名单/关键词过滤）。部分厂商集成RCS增强信息（免费网络短信），可发送高清文件及位置共享。",
+        "icon_description": "信封图标为主，部分机型叠加气泡（消息）或闪电（快速发送）元素。配色以蓝、绿为主，强调通讯属性。",
+        "ui_description": " ",
+        "common_functions": [
+            "发送短信",
+            "短信搜索",
+            "发送短信",
+            "删除短信",
+            "短信设置"
+        ],
+        "action_object_str": ""
+    },
+    {
+        "id": 87,
+        "app_name": "备忘录/笔记",
+        "scenario": "系统app",
+        "brief_introduction": "多功能记录工具，支持文本编辑、语音速记、图片插入、待办清单、手写绘图。部分机型支持OCR文字识别、跨应用拖拽（如网页内容直接保存）和加密笔记，适合工作记录与灵感捕捉。",
+        "icon_description": "笔记本或便签纸造型，常搭配钢笔、加号（新建）或锁形（加密）图标。配色以黄、粉等暖色调为主，体现人文气息。",
+        "ui_description": " ",
+        "common_functions": [
+            "10创建笔记",
+            "10搜索笔记",
+            "10分享笔记",
+            "10打开设置面板",
+            "10添加待办",
+            "10文件夹分类"
+        ],
+        "action_object_str": {
+            "创建笔记": [
+                "open beiwanglu/biji app",
+                "tap  the white plus sign in a yellow circle",
+                "type content of 'chuangjianbiji'",
+                "tap  the  icon of black correct symbol representing completion"
+            ],
+            "搜索笔记": [
+                "open beiwanglu/biji app",
+                "swipe down the note directory to open search box",
+                "tap the search box with magnifier  at the top'",
+                "type the  search note name of 'chuangjianbiji' ",
+                "tap  the search result to enter"
+            ],
+            "分享笔记": [
+                "open beiwanglu/biji app",
+                "tap  the white plus sign in a yellow circle",
+                "type content of 'chuangjianbiji''",
+                "tap  the  icon of black correct symbol representing completion' ",
+                "tap the share button with the arrow at the top",
+                "tap the choice 'yitupiangeshifenxiang' ",
+                "tap the wechat icon with text 'send to friend'",
+                "tap the search box withmagnifying glass at the top",
+                "type the friend name 'rui' in the search box",
+                "tap the search result of 'rui' prepare to send",
+                "tap 'send' button in a green box"
+            ],
+            "打开设置面板": [
+                "open beiwanglu/biji app",
+                "tap the nut button  at the top",
+                "tap sub configuration in the list"
+            ],
+            "添加待办": [
+                "open beiwanglu/biji app",
+                "tap the 'daiban' button  at the bottom",
+                "tap the white plus sign in a yellow circle ",
+                "type the  to-do list",
+                "tap  the 'wancheng' button in yellow"
+            ],
+            "文件夹分类": [
+                "open beiwanglu/biji app",
+                "tap the folder icon at the top",
+                "tap  the white plus sign in a yellow circle with text 'xinjianwenjianjia'",
+                "type folder name 'wenjianjiafenlei'",
+                "tap  the  'queding' button in a blue box"
+            ]
+        }
+    },
+    {
+        "id": 88,
+        "app_name": "应用商店",
+        "scenario": "系统app",
+        "brief_introduction": "官方应用分发平台，提供安全应用下载、更新管理、排行榜单（热门/新品/专题）。支持快应用（免安装即用）、家长控制、应用内评价，部分厂商集成游戏中心和云备份功能。",
+        "icon_description": "购物袋、盒子或向下箭头（下载）为主视觉，常搭配彩色拼图（应用分类）或星标（推荐）。配色多为紫、红或渐变蓝，突出科技与活力。",
+        "ui_description": " ",
+        "common_functions": [
+            "搜索App",
+            "下载安装",
+            "更新App",
+            "查看评价",
+            "分类浏览",
+            "账户管理",
+            "购买App",
+            "排行榜查看",
+            "订阅服务",
+            "卸载App"
+        ],
+        "action_object_str": ""
+    },
+    {
+        "id": 89,
+        "app_name": "相册",
+        "scenario": "系统app",
+        "brief_introduction": "图片/视频管理中心，支持AI分类（人物/地点/场景）、智能美化（裁剪/滤镜/调色）、云备份（部分机型支持跨设备同步）。特色功能包括动态照片、长截图拼接、隐私相册（密码/指纹加密）。",
+        "icon_description": "堆叠照片或胶卷卷轴图案，部分机型叠加花瓣（美化）或云（备份）元素。配色以黑、白或浅灰为主，强调视觉沉浸感。",
+        "ui_description": " ",
+        "common_functions": [
+            "浏览照片",
+            "编辑图片",
+            "创建相册",
+            "分享照片",
+            "搜索图片",
+            "删除照片",
+            "幻灯片播放",
+            "云备份",
+            "标记收藏",
+            "人脸识别"
+        ],
+        "action_object_str": ""
+    },
+    {
+        "id": 90,
+        "app_name": "闹钟",
+        "scenario": "系统app",
+        "brief_introduction": "多功能时钟工具，支持多闹钟设置（自定义铃声/振动模式）、贪睡功能、世界时钟（200+城市）、计时器（倒计时/秒表）。部分机型集成睡眠监测（通过传感器分析睡眠质量）和智能提醒（如法定节假日自动跳过）。",
+        "icon_description": "铃铛或数字时钟为主视觉，常搭配太阳（晨起闹钟）或月亮（夜间模式）。配色以红、黄等高饱和度颜色为主，强化提醒功能。",
+        "ui_description": " ",
+        "common_functions": [
+            "设置闹钟",
+            "定时提醒",
+            "贪睡模式",
+            "铃声选择",
+            "重复设置",
+            "世界时钟",
+            "秒表计时",
+            "计时器",
+            "删除闹钟",
+            "音量调节"
+        ],
+        "action_object_str": ""
+    },
+    {
+        "id": 91,
+        "app_name": "天气",
+        "scenario": "系统app",
+        "brief_introduction": "实时气象服务应用，提供未来15天天气预报、分钟级降水预测、空气质量指数（AQI）。支持动态天气动画（雨雪/雷电特效）、生活建议（穿衣指数/紫外线强度）和全球3000+城市数据。",
+        "icon_description": "天气符号（太阳/云朵/雨滴）为主，部分机型叠加温度数值或动态背景（如晴天渐变蓝）。配色以蓝、白为主，体现自然属性。",
+        "ui_description": " ",
+        "common_functions": [
+            "查看天气",
+            "城市添加",
+            "实时更新",
+            "预报查询",
+            "空气质量",
+            "预警通知",
+            "小时预报",
+            "生活指数",
+            "分享天气",
+            "单位切换"
+        ],
+        "action_object_str": ""
+    },
+    {
+        "id": 92,
+        "app_name": "邮件",
+        "scenario": "系统app",
+        "brief_introduction": "多账户邮件客户端，支持IMAP/POP3/Exchange协议，提供邮件分类（工作/订阅）、附件预览（文档/图片直接打开）、手势操作（左滑归档/右滑删除）。特色功能包括邮件加密、会议邀请自动生成日程。",
+        "icon_description": "信封正面朝上图案，部分机型叠加箭头（发送）或锁形（加密）。配色以深蓝、深紫为主，强调商务属性。",
+        "ui_description": " ",
+        "common_functions": [
+            "发送邮件",
+            "接收邮件",
+            "附件管理",
+            "搜索邮件",
+            "标签分类",
+            "签名设置",
+            "账户添加",
+            "垃圾过滤",
+            "通知提醒",
+            "归档邮件"
+        ],
+        "action_object_str": ""
+    },
+    {
+        "id": 93,
+        "app_name": "日历",
+        "scenario": "系统app",
+        "brief_introduction": "智能日程管理工具，支持农历/公历显示、事件创建（重复提醒/地点标记）、跨设备同步（手机/平板/电脑）。特色功能包括纪念日计算（恋爱/入职天数）、黄历宜忌查询和日程导入（如邮件会议邀请）。",
+        "icon_description": "月历或日期数字为主，部分机型叠加加号（新建）或星星（重要日程）。配色以红、橙等暖色调为主，突出时间管理属性。",
+        "ui_description": " ",
+        "common_functions": [
+            "创建事件",
+            "查看日程",
+            "设置提醒",
+            "邀请参与",
+            "日历同步",
+            "搜索事件",
+            "视图切换",
+            "节日显示",
+            "编辑事件",
+            "删除事件"
+        ],
+        "action_object_str": ""
+    }
+]

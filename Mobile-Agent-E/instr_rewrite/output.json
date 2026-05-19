@@ -1,0 +1,397 @@
+[
+    {
+        "original_instruction": "translated 'I miss you'into French and sent it to my friend Kai Chen. ",
+        "level2_instruction": "Use Google Chrome to translate the text, then open WeChat to send the message to your friend. (Involves browser and social apps)",
+        "level3_instruction": "Open the Google Chrome app, tap the search box and type 'Google Translate', tap the first search result to enter the Google Translate page. Type 'I miss you' in the input box to get the French translation and copy the result. Then, open the WeChat app, tap the magnifier icon at the top right, type 'Kai Chen' in the search box, and tap the result to enter the chat page. Tap the input bar, paste the translated content, and tap the 'send' button.",
+        "referenced_apps": [
+            "Google Chrome",
+            "微信"
+        ],
+        "reason": "The instruction involves two steps: translation and sending a message. Google Chrome is used for its translation function, and WeChat is used for sending messages to a friend, demonstrating a cross-app workflow.",
+        "token_usage": {
+            "prompt_tokens": 38175,
+            "completion_tokens": 1266,
+            "total_tokens": 39441
+        },
+        "duration_seconds": 18.40765643119812,
+        "id": 1,
+        "timestamp": "2026-04-10T16:55:14.923670"
+    },
+    {
+        "original_instruction": "在知乎发表问题“怎样才能撰写一篇优秀的科研论文",
+        "level2_instruction": "打开知乎app发表问题“怎样才能撰写一篇优秀的科研论文”（涉及综合社区类应用）",
+        "level3_instruction": "打开知乎app, 点击底部的加号, 点击'提个想法', 输入问题“怎样才能撰写一篇优秀的科研论文”, 然后点击蓝色框中的'send'按钮进行发布（基于知乎的提问问题路径）",
+        "referenced_apps": [
+            "知乎"
+        ],
+        "reason": "用户指令明确要求在知乎发表问题, 匹配知乎app的'提问问题'功能, 并参考其action_object_str生成具体操作路径。",
+        "token_usage": {
+            "prompt_tokens": 38170,
+            "completion_tokens": 1641,
+            "total_tokens": 39811
+        },
+        "duration_seconds": 21.43432903289795,
+        "id": 2,
+        "timestamp": "2026-04-10T16:55:56.044484"
+    },
+    {
+        "original_instruction": "帮我预订一张4月15号从深圳飞往新加坡的机票",
+        "level2_instruction": "打开携程旅行或去哪儿旅行等旅行app预订机票（涉及旅行票务app）",
+        "level3_instruction": "打开携程旅行或去哪儿旅行app，点击首页的“机票”功能入口，在出发地栏输入或选择“深圳”，在目的地栏输入或选择“新加坡”，选择出发日期为4月15日，点击搜索按钮，在搜索结果列表中浏览并选择合适的航班，然后点击预订并完成支付流程。",
+        "referenced_apps": [
+            "携程旅行",
+            "去哪儿旅行"
+        ],
+        "reason": "用户指令为预订机票，匹配携程旅行和去哪儿旅行的机票预订功能，并根据其action_object_str生成详细操作路径。",
+        "token_usage": {
+            "prompt_tokens": 38173,
+            "completion_tokens": 2078,
+            "total_tokens": 40251
+        },
+        "duration_seconds": 25.92529535293579,
+        "id": 3,
+        "timestamp": "2026-04-10T16:57:45.368306"
+    },
+    {
+        "original_instruction": "帮我预订一张4月15号从深圳飞往新加坡的机票",
+        "level2_instruction": "打开携程旅行或去哪儿旅行等旅行app预订机票（涉及旅行票务app）",
+        "level3_instruction": "打开携程旅行或去哪儿旅行app，点击首页的“机票”功能入口，在出发地栏输入或选择“深圳”，在目的地栏输入或选择“新加坡”，选择出发日期为4月15日，点击搜索按钮，在搜索结果列表中浏览并选择合适的航班，然后点击预订并完成支付流程。",
+        "referenced_apps": [
+            "携程旅行",
+            "去哪儿旅行"
+        ],
+        "reason": "用户指令为预订机票，匹配携程旅行和去哪儿旅行的机票预订功能，并根据其action_object_str生成详细操作路径。",
+        "token_usage": {
+            "prompt_tokens": 38173,
+            "completion_tokens": 2078,
+            "total_tokens": 40251
+        },
+        "duration_seconds": 26.675007343292236,
+        "id": 4,
+        "timestamp": "2026-04-10T17:09:16.880583"
+    },
+    {
+        "original_instruction": "在知乎发表问题“怎样才能撰写一篇优秀的科研论文",
+        "level2_instruction": "打开知乎app发表问题“怎样才能撰写一篇优秀的科研论文”（涉及综合社区类应用）",
+        "level3_instruction": "打开知乎app, 点击底部的加号, 点击'提个想法', 输入问题“怎样才能撰写一篇优秀的科研论文”, 然后点击蓝色框中的'send'按钮进行发布（基于知乎的提问问题路径）",
+        "referenced_apps": [
+            "知乎"
+        ],
+        "reason": "用户指令明确要求在知乎发表问题, 匹配知乎app的'提问问题'功能, 并参考其action_object_str生成具体操作路径。",
+        "token_usage": {
+            "prompt_tokens": 38170,
+            "completion_tokens": 1641,
+            "total_tokens": 39811
+        },
+        "duration_seconds": 22.904617309570312,
+        "id": 5,
+        "timestamp": "2026-04-10T17:10:36.833610"
+    },
+    {
+        "original_instruction": "在猫眼中对我看过的最新电影撰写评价'这部电影真好看'",
+        "level2_instruction": "打开猫眼app对看过的电影进行点评（涉及票务app）",
+        "level3_instruction": "打开猫眼app, 点击右下角的人形图标进入'我的'页面, 点击账号名称右侧的'看过', 在最新看过的电影条目右侧点击红色的'评分'按钮, 点击灰色星星进行评分, 然后点击评价框输入'这部电影真好看', 最后点击右上角的红色'发布'按钮（基于猫眼的影视点评功能路径）",
+        "referenced_apps": [
+            "猫眼"
+        ],
+        "reason": "根据用户指令'撰写评价', 匹配猫眼app的'影视点评'功能, 并参考其action_object_str生成详细操作路径。",
+        "token_usage": {
+            "prompt_tokens": 38171,
+            "completion_tokens": 1832,
+            "total_tokens": 40003
+        },
+        "duration_seconds": 51.36207842826843,
+        "id": 6,
+        "timestamp": "2026-04-10T17:24:46.733891"
+    },
+    {
+        "original_instruction": "在youtube中播放'Demons'，并发表评论'i like rock'",
+        "level2_instruction": "打开YouTube应用播放视频'Demons'并发表评论'i like rock' (涉及视频分享应用)",
+        "level3_instruction": "打开YouTube应用，点击右上角的搜索框，输入'Demons'并点击搜索结果中的视频进入播放页面。然后，点击气泡消息图标进入评论页面，点击底部的评论输入框并输入'i like rock'，最后点击输入框右侧的纸飞机图标发布评论。",
+        "referenced_apps": [
+            "YouTube"
+        ],
+        "reason": "根据用户指令，首先匹配YouTube的'在 YouTube 上搜索视频'功能路径找到并播放视频，然后结合'为视频添加评论'的功能路径完成评论操作。",
+        "token_usage": {
+            "prompt_tokens": 38171,
+            "completion_tokens": 1922,
+            "total_tokens": 40093
+        },
+        "duration_seconds": 29.57066559791565,
+        "id": 7,
+        "timestamp": "2026-04-10T17:25:45.829449"
+    },
+    {
+        "original_instruction": "在youtube中播放'sharks'，并添加到我的播放列表",
+        "level2_instruction": "打开YouTube应用，播放'sharks'视频并将其添加到播放列表 (涉及视频分享应用)",
+        "level3_instruction": "打开YouTube应用，点击右上角的搜索框，输入'sharks'，然后点击搜索结果中的一个视频进入播放页面。接着，点击视频页面右上角的垂直省略号按钮，在弹出的列表中选择带有书签图标的“保存到播放列表”按钮，然后选择一个播放列表，最后点击底部的“完成”按钮。",
+        "referenced_apps": [
+            "YouTube"
+        ],
+        "reason": "基于YouTube的'在 YouTube 上搜索视频'和'将视频添加到playlist'功能的action_object_str路径，组合生成详细操作步骤。",
+        "token_usage": {
+            "prompt_tokens": 38168,
+            "completion_tokens": 1628,
+            "total_tokens": 39796
+        },
+        "duration_seconds": 18.108134031295776,
+        "id": 8,
+        "timestamp": "2026-04-10T17:27:36.547881"
+    },
+    {
+        "original_instruction": "在youtube中播放'sharks'，并添加到我的播放列表",
+        "level2_instruction": "打开YouTube应用，播放名为'sharks'的视频，并将其添加到播放列表（涉及视频分享平台应用）",
+        "level3_instruction": "打开YouTube应用，点击右上角的搜索框，输入'sharks'，然后点击搜索结果中的视频以开始播放。接着，点击视频页面右上角的垂直省略号按钮，在弹出的列表中选择带有书签图标的“保存到播放列表”按钮，然后选择一个播放列表并点击底部的“完成”按钮。",
+        "referenced_apps": [
+            "YouTube"
+        ],
+        "reason": "该指令结合了YouTube的“在 YouTube 上搜索视频”和“将视频添加到playlist”两个功能的action_object_str路径，首先执行搜索和播放，然后在播放页面上执行添加到播放列表的操作。",
+        "token_usage": {
+            "prompt_tokens": 38168,
+            "completion_tokens": 2032,
+            "total_tokens": 40200
+        },
+        "duration_seconds": 116.93839454650879,
+        "id": 9,
+        "timestamp": "2026-04-10T17:52:42.452168"
+    },
+    {
+        "original_instruction": "在youtube中播放'Demons'，并发表评论'i like rock'",
+        "level2_instruction": "打开YouTube应用播放'Demons'并发表评论'i like rock' (涉及视频应用)",
+        "level3_instruction": "打开YouTube应用，点击右上角的搜索框，输入'Demons'，点击搜索结果中的视频进入播放页面。然后，点击气泡消息图标进入评论区，点击底部的评论输入框输入'i like rock'，再点击输入框右侧的纸飞机图标发布评论。",
+        "referenced_apps": [
+            "YouTube"
+        ],
+        "reason": "基于YouTube的'在 YouTube 上搜索视频'和'为视频添加评论'功能的action_object_str路径，组合成一个连续的操作流程。",
+        "token_usage": {
+            "prompt_tokens": 38171,
+            "completion_tokens": 2118,
+            "total_tokens": 40289
+        },
+        "duration_seconds": 54.348424434661865,
+        "id": 10,
+        "timestamp": "2026-04-10T17:55:33.739413"
+    },
+    {
+        "original_instruction": "在猫眼中对我看过的最新电影撰写评价'这部电影真好看'",
+        "level2_instruction": "打开猫眼app进行影视点评（涉及票务app）",
+        "level3_instruction": "打开猫眼app, 点击右下角的人形图标, 点击账号名称右侧的'看过', 找到最新的电影条目并点击右侧的红色'评分'按钮, 点击灰色星星进行评分, 然后点击下方的评价框, 输入评价内容'这部电影真好看', 最后点击输入框右上角的红色'发布'按钮。",
+        "referenced_apps": [
+            "猫眼"
+        ],
+        "reason": "基于猫眼app的'影视点评'功能及其action_object_str路径生成详细操作步骤",
+        "token_usage": {
+            "prompt_tokens": 38171,
+            "completion_tokens": 1623,
+            "total_tokens": 39794
+        },
+        "duration_seconds": 75.68016624450684,
+        "id": 11,
+        "timestamp": "2026-04-10T17:57:44.072961"
+    },
+    {
+        "original_instruction": "在猫眼中对我看过的最新电影撰写评价'这部电影真好看'",
+        "level2_instruction": "打开猫眼app对看过的电影进行点评（涉及票务app）",
+        "level3_instruction": "打开猫眼app, 点击右下角的人形图标进入'我的'页面, 点击账号名称右侧的'看过', 在最新看过的电影条目右侧点击红色的'评分'按钮, 点击灰色星星进行评分, 然后点击评价框输入'这部电影真好看', 最后点击右上角的红色'发布'按钮（基于猫眼的影视点评功能路径）",
+        "referenced_apps": [
+            "猫眼"
+        ],
+        "reason": "根据用户指令'撰写评价', 匹配猫眼app的'影视点评'功能, 并参考其action_object_str生成详细操作路径。",
+        "token_usage": {
+            "prompt_tokens": 38171,
+            "completion_tokens": 1832,
+            "total_tokens": 40003
+        },
+        "duration_seconds": 19.769782543182373,
+        "id": 12,
+        "timestamp": "2026-04-10T19:28:56.104096"
+    },
+    {
+        "original_instruction": "在youtube中播放'Demons'，并发表评论'i like rock'  ",
+        "level2_instruction": "打开YouTube应用播放视频'Demons'并发表评论（涉及视频分享应用）",
+        "level3_instruction": "打开YouTube应用，点击右上角的搜索框，输入'Demons'，点击搜索结果列表中的第一个结果进入视频页面。然后，点击视频下方的气泡消息图标进入评论区，点击底部的'Add comment'输入框，输入'i like rock'，最后点击输入框右侧的纸飞机图标发表评论。",
+        "referenced_apps": [
+            "YouTube"
+        ],
+        "reason": "根据YouTube的'在 YouTube 上搜索视频'和'为视频添加评论'的action_object_str路径，组合成一个完整的操作流程。",
+        "token_usage": {
+            "prompt_tokens": 38172,
+            "completion_tokens": 1455,
+            "total_tokens": 39627
+        },
+        "duration_seconds": 14.177950859069824,
+        "id": 13,
+        "timestamp": "2026-04-10T19:30:10.881839"
+    },
+    {
+        "original_instruction": "在youtube中播放'Demons'，并发表评论'i like rock'  ",
+        "level2_instruction": "打开YouTube应用，播放'Demons'视频并发表评论'i like rock' (涉及视频分享应用)",
+        "level3_instruction": "打开YouTube应用，点击右上角的搜索框输入'Demons'，点击搜索结果中的视频进行播放，然后点击评论区的'添加评论'输入框，输入'i like rock'，最后点击纸飞机图标发送评论 (基于YouTube的搜索视频和添加评论功能路径)",
+        "referenced_apps": [
+            "YouTube"
+        ],
+        "reason": "根据用户指令明确指定的YouTube应用，并结合其'在 YouTube 上搜索视频'和'为视频添加评论'的action_object_str路径，生成一个连续的操作流程。",
+        "token_usage": {
+            "prompt_tokens": 38172,
+            "completion_tokens": 1734,
+            "total_tokens": 39906
+        },
+        "duration_seconds": 18.41610860824585,
+        "id": 14,
+        "timestamp": "2026-04-10T19:31:28.628722"
+    },
+    {
+        "original_instruction": "在youtube中播放'sharks'，并添加到我的播放列表  ",
+        "level2_instruction": "Open the YouTube app to search for and play the video 'sharks', then add it to a playlist (involves a video sharing platform app).",
+        "level3_instruction": "Open the YouTube app, tap the search box at the top right, type 'sharks', and tap a video in the search results to enter the video page. Then, tap the vertical ellipsis button in the top right of the video page, tap the 'Save to playlist' button with a bookmark icon, select a playlist from the list, and finally tap the 'Done' text button at the bottom.",
+        "referenced_apps": [
+            "YouTube"
+        ],
+        "reason": "The user's instruction involves two sequential actions within the same app. The process combines the action paths for 'Search for videos on YouTube' and 'Add video to playlist' from the YouTube app's action_object_str to create a complete operational flow.",
+        "token_usage": {
+            "prompt_tokens": 38169,
+            "completion_tokens": 1175,
+            "total_tokens": 39344
+        },
+        "duration_seconds": 20.139859676361084,
+        "id": 15,
+        "timestamp": "2026-04-10T19:32:48.927005"
+    },
+    {
+        "original_instruction": "在猫眼中对我看过的最新电影撰写评价'这部电影真好看'",
+        "level2_instruction": "打开猫眼app，对看过的电影进行评价 (涉及票务app)",
+        "level3_instruction": "打开猫眼app, 点击右下角的人形图标进入'我的'页面, 点击账户名右侧的'看过', 在最新的电影条目右侧点击红色的'评分'按钮, 点击灰色星星进行评分, 然后点击下方的评价框, 输入'这部电影真好看', 最后点击输入框右上角的红色'发布'按钮。",
+        "referenced_apps": [
+            "猫眼"
+        ],
+        "reason": "根据猫眼app的'影视点评'功能及其action_object_str路径，结合用户指令中的具体评价内容生成详细操作步骤。",
+        "token_usage": {
+            "prompt_tokens": 38171,
+            "completion_tokens": 1782,
+            "total_tokens": 39953
+        },
+        "duration_seconds": 18.936485052108765,
+        "id": 16,
+        "timestamp": "2026-04-10T19:35:08.018626"
+    },
+    {
+        "original_instruction": "在猫眼中对我看过的最新电影撰写评价'这部电影真好看'",
+        "level2_instruction": "打开猫眼app对看过的电影进行点评 (涉及票务app)",
+        "level3_instruction": "打开猫眼app, 点击右下角的圆形人像图标'我的', 点击账号名称右侧的'看过', 在最新看过的电影条目右侧, 点击红色的'评分'按钮, 点击灰色星星进行评分, 然后点击评价框输入'这部电影真好看', 最后点击输入框右上角的红色'发布'按钮 (基于猫眼的影视点评路径)",
+        "referenced_apps": [
+            "猫眼"
+        ],
+        "reason": "根据用户指令'撰写评价', 匹配猫眼app的'影视点评'功能, 并参考其action_object_str生成详细操作路径。",
+        "token_usage": {
+            "prompt_tokens": 38171,
+            "completion_tokens": 1851,
+            "total_tokens": 40022
+        },
+        "duration_seconds": 22.532728910446167,
+        "id": 17,
+        "timestamp": "2026-04-10T19:37:18.658602"
+    },
+    {
+        "original_instruction": "在youtube中播放'Demons'，并发表评论'i like rock'",
+        "level2_instruction": "打开YouTube app播放视频'Demons'并发表评论'i like rock'（涉及视频分享平台app）",
+        "level3_instruction": "打开YouTube app, 点击右上角的搜索框输入'Demons', 点击搜索结果中的视频进入播放页面, 然后点击气泡消息图标进入评论区, 点击底部的评论输入框并输入'i like rock', 最后点击输入框右侧的纸飞机图标发送评论。",
+        "referenced_apps": [
+            "YouTube"
+        ],
+        "reason": "基于YouTube的'在 YouTube 上搜索视频'和'为视频添加评论'功能路径，组合成一个完整的操作流程。",
+        "token_usage": {
+            "prompt_tokens": 38171,
+            "completion_tokens": 1638,
+            "total_tokens": 39809
+        },
+        "duration_seconds": 20.529035806655884,
+        "id": 18,
+        "timestamp": "2026-04-10T20:37:28.706633"
+    },
+    {
+        "original_instruction": "在youtube中播放'Demons'，并发表评论'i like rock'",
+        "level2_instruction": "打开YouTube应用播放'Demons'并发表评论'i like rock' (涉及视频应用)",
+        "level3_instruction": "打开YouTube应用，点击右上角的搜索框，输入'Demons'，点击搜索结果中的视频进入播放页面。然后，点击气泡消息图标进入评论区，点击底部的评论输入框输入'i like rock'，再点击输入框右侧的纸飞机图标发布评论。",
+        "referenced_apps": [
+            "YouTube"
+        ],
+        "reason": "基于YouTube的'在 YouTube 上搜索视频'和'为视频添加评论'功能的action_object_str路径，组合成一个连续的操作流程。",
+        "token_usage": {
+            "prompt_tokens": 38171,
+            "completion_tokens": 2118,
+            "total_tokens": 40289
+        },
+        "duration_seconds": 31.107231855392456,
+        "id": 19,
+        "timestamp": "2026-04-10T20:40:02.354818"
+    },
+    {
+        "original_instruction": "帮我预订一张4月15号从深圳飞往新加坡的机票",
+        "level2_instruction": "打开携程旅行或去哪儿旅行app预订机票（涉及旅行订票app）",
+        "level3_instruction": "打开携程旅行或去哪儿旅行app，点击“机票”功能入口，将出发地设置为“深圳”，目的地设置为“新加坡”，选择出发日期为4月15日，然后点击搜索按钮。在航班结果列表中，浏览并选择合适的航班，点击“预订”按钮，并根据提示完成乘客信息填写和支付。",
+        "referenced_apps": [
+            "携程旅行",
+            "去哪儿旅行"
+        ],
+        "reason": "用户指令为预订机票，匹配携程旅行和去哪儿旅行app的“预订机票”功能，并根据其action_object_str生成包含具体地点和日期的操作路径。",
+        "token_usage": {
+            "prompt_tokens": 38171,
+            "completion_tokens": 1953,
+            "total_tokens": 40124
+        },
+        "duration_seconds": 83.63390040397644,
+        "id": 20,
+        "timestamp": "2026-04-10T21:29:43.179369"
+    },
+    {
+        "original_instruction": "在知乎发表问题“怎样才能撰写一篇优秀的科研论文",
+        "level2_instruction": "打开知乎app并发表问题“怎样才能撰写一篇优秀的科研论文” (涉及社区类app)",
+        "level3_instruction": "打开知乎app, 点击底部的加号, 点击'提个想法', 输入问题内容“怎样才能撰写一篇优秀的科研论文”, 然后点击蓝色的'发布'按钮 (基于知乎的提问问题路径)",
+        "referenced_apps": [
+            "知乎"
+        ],
+        "reason": "根据用户指令'发表问题'匹配知乎app的'提问问题'功能, 并参考其action_object_str生成详细操作路径。",
+        "token_usage": {
+            "prompt_tokens": 38168,
+            "completion_tokens": 1524,
+            "total_tokens": 39692
+        },
+        "duration_seconds": 16.01238179206848,
+        "id": 21,
+        "timestamp": "2026-04-10T21:33:51.362209"
+    },
+    {
+        "original_instruction": "在知乎发表问题“怎样才能撰写一篇优秀的科研论文",
+        "level2_instruction": "打开知乎app并发表问题（涉及社区类app）",
+        "level3_instruction": "打开知乎app，点击下方的加号，点击“提个想法”，输入问题“怎样才能撰写一篇优秀的科研论文”，然后点击蓝色的“发布”按钮（基于知乎的提问问题路径）",
+        "referenced_apps": [
+            "知乎"
+        ],
+        "reason": "用户指令明确在知乎app中进行提问，匹配知乎的“提问问题”功能并引用其action_object_str生成详细路径。",
+        "token_usage": {
+            "prompt_tokens": 38168,
+            "completion_tokens": 1384,
+            "total_tokens": 39552
+        },
+        "duration_seconds": 19.36647129058838,
+        "id": 22,
+        "timestamp": "2026-04-10T21:35:01.801324"
+    },
+    {
+        "original_instruction": "在知乎发表问题“怎样才能撰写一篇优秀的科研论文",
+        "level2_instruction": "打开知乎app并发表问题“怎样才能撰写一篇优秀的科研论文” (涉及综合社区类app)",
+        "level3_instruction": "打开知乎app, 点击底部的加号, 点击'提个想法', 输入问题“怎样才能撰写一篇优秀的科研论文”, 然后点击蓝色的'发送'按钮 (基于知乎的提问问题路径)",
+        "referenced_apps": [
+            "知乎"
+        ],
+        "reason": "用户指令明确在知乎app进行提问, 匹配知乎的'提问问题'功能, 并根据其action_object_str生成详细操作路径。",
+        "token_usage": {
+            "prompt_tokens": 38186,
+            "completion_tokens": 2659,
+            "total_tokens": 40845
+        },
+        "duration_seconds": 29.3401620388031,
+        "id": 23,
+        "timestamp": "2026-04-22T22:11:44.131841"
+    }
+]

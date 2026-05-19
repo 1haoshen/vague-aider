@@ -1,0 +1,2988 @@
+[
+    {
+        "id": 1,
+        "app_name": "YouTube",
+        "brief_introduction": "评分 4.2 星的视频分享平台。允许用户上传、查看和分享视频；支持直播和内容创作工具；提供个性化推荐和频道订阅。",
+        "icon_description": "红色矩形播放按钮图标，中央是白色三角形，象征视频播放，背景为白色。",
+        "ui_description": " ",
+        "common_functions": [
+            "在 YouTube 上搜索视频",
+            "上传新视频到您的频道",
+            "订阅特定频道或创作者",
+            "给视频点赞",
+            "切换清晰度",
+            "为短视频添加评论",
+            "与朋友分享视频",
+            "将短视频添加到playlist",
+            "查看视频的详细信息",
+            "在长视频下发表评论",
+            "将长视频添加到playlist"
+        ],
+        "action_object_str": {
+    "在 YouTube 上搜索视频":[
+        "open youtube app",
+        "tap search box at the  right top",
+        "type the search content",
+        "tap the first search'result in the result list ",
+        "swipe down to cross out ads and see more results",
+        "tap a video in the search result to enter the video page"
+
+    ],
+    "上传新视频到您的频道":[
+        "open youtube app",
+        "tap the plus sign in circle at the bottom of home page",
+        "tap the video text button at the bottom of the page",
+        "tap a video in the list",
+        "tap the Next button in white box at the right bottom of the page",
+        "tap the Upload button in white box at the bottom of the page"
+    ],
+    "订阅特定频道或创作者":[
+        "open youtube app",
+        "tap search box at the  right top",
+        "type the search content",
+        "tap the first search'result in the result list ",
+        "swipe down to cross out ads and see more results",
+        "tap a video in the search result to enter the video page",
+        "tap the Subscribe button in a white box at the bottom of video"
+    ],
+    "给视频点赞":[
+        "open youtube app",
+        "tap search box at the  right top",
+        "type the search content",
+        "tap the first search'result in the result list ",
+        "swipe down to cross out ads and see more results",
+        "tap a video in the search result to enter the video page",
+        "tap the thumb up symbol button in the right column of video page"
+    ],
+    "切换高清晰度":[
+        "open youtube app",
+        "tap search box at the  right top",
+        "type the search content",
+        "tap the first search'result in the result list ",
+        "swipe down to cross out ads and see more results",
+        "tap a video in the search result to enter the video page",
+        "tap the  vertical ellipsis button in the right top of video page",
+        "tap the 'Quality' button with cogwheel in a white font in the list",
+        "tap the 'Higher picture quality' button in a white font in the list"
+    ],
+    "为短视频添加评论":[
+        "open youtube app",
+        "tap search box at the  right top",
+        "type the search content",
+        "tap the first search'result in the result list ",
+        "swipe down to cross out ads and see more results",
+        "tap a video in the search result to enter the video page",
+        "tap the bubble message icon to enter the comment page",
+        "tap the comment input box with text 'Add comment' at the bottom",
+        "type the comment in the comment input box",
+        "tap the paper airplane icon at the right of the comment input box to post the comment"
+    ],
+    "与朋友分享视频":[
+        "open youtube app",
+        "tap search box at the  right top",
+        "type the search content",
+        "tap the first search'result in the result list ",
+        "swipe down to cross out ads and see more results",
+        "tap a video in the search result to enter the video page",
+        "tap the right-pointing arrow with text 'share' in the right column",
+        "tap a social software to share the video to friends"
+    ],
+    "将短视频添加到playlist":[
+        "open youtube app",
+        "tap search box at the  right top",
+        "type the search content",
+        "tap the first search'result in the result list ",
+        "swipe down to cross out ads and see more results",
+        "tap a video in the search result to enter the video page",
+        "tap the  vertical ellipsis button in the right top of video page",
+        "tap the 'Save to playlist' button with bookmark in a white font in the list",
+        "tap a playlist in the list to save the video",
+        "tap the text button 'Done' in white font at the bottom"
+    ],
+    "查看视频的详细信息":[
+        "open youtube app",
+        "tap search box at the  right top",
+        "type the search content",
+        "tap the first search'result in the result list ",
+        "swipe down to cross out ads and see more results",
+        "tap a video in the search result to enter the video page",
+        "tap the  vertical ellipsis button in the right top of video page",
+        "tap the 'description' button with summary image in a white font in the list"
+    ],
+    "在长视频下发表评论":[
+        "open youtube app",
+        "tap search box at the  right top",
+        "type the search content",
+        "tap the first search'result in the result list ",
+        "swipe down to cross out ads and see more results",
+        "tap a long video in the search result to enter the video page",
+        "tap the comment area below the video to enter the comment page",
+        "tap the comment input box at the bottom",
+        "type the comment content",
+        "tap red paper airplane icon at the right of the comment box to post the comment"
+    ],
+    "将长视频添加到playlist":[
+        "open youtube app",
+        "tap search box at the  right top",
+        "type the search content",
+        "tap the first search'result in the result list ",
+        "swipe down to cross out ads and see more results",
+        "tap a long video in the search result to enter the video page",
+        "tap 'Bookmark' button to save the video to playlist",
+        "tap a playlist in the list to save the video"
+    ]
+}
+    },
+    {
+        "id": 2,
+        "app_name": "Google Maps",
+        "brief_introduction": "评分 4.3 星的导航和地图服务。提供实时 GPS 导航、交通更新和详细地图；支持探索地点、查找方向和本地商业信息。",
+        "icon_description": "红色位置图钉图标，内部有白色 'M' 形状，代表地图标记，背景为白色。",
+        "ui_description": " ",
+        "common_functions": [
+            "获取到目的地的导航路线",
+            "分享行程路线",
+            "查看特定区域的地图",
+            "检查目的地周围的餐厅",
+            "探索目的地的景点",
+            "查找目的地附近的酒店",
+            "保存收藏位置",
+            "分享您的当前位置"
+        ],
+        "action_object_str": {
+            "获取到目的地的导航路线":[
+                "open google maps app",
+                "tap search box at the top",
+                "type the 'destination'",
+                "tap the first search'result in the result list ",
+                "tap the 'Directions' button in a green box",
+                "type the start location ",
+                "tap the first search'result in the result list ",
+                "tap the preview button in a dark green box at the bottom"
+            ],
+            "分享行程路线":[
+                "open google maps app",
+                "tap search box at the top",
+                "type the 'destination'",
+                "tap the first search'result in the result list ",
+                "tap the 'Directions' button in a green box",
+                "type the start location ",
+                "tap the first search'result in the result list ",
+                "tap the Share button in a light blue box at the bottom"
+            ],
+            "查看特定区域的地图":[
+                "open google maps app",
+                "tap search box at the top",
+                "type the name of the area'",
+                "tap the first search'result in the result list "
+            ],
+            "检查目的地周围的餐厅":[
+                "open google maps app",
+                "tap search box at the top",
+                "type the 'destination'",
+                "tap the first search'result in the result list ",
+                "tap the 'restaurant' button with knife and fork in a white box at the top",
+                "'Swipe' down to view more restaurants",
+                "tap a restaurant in the list to get more information",
+                "tap the visit site button in a light blue box to see the details of the restaurant",
+                "tap the 'directions' button in a light blue box to navigate to the restaurant",
+                "tap the call button in a light blue box to call the restaurant"
+            ],
+            "探索目的地的景点":[
+                "open google maps app",
+                "tap search box at the top",
+                "type the 'destination'",
+                "tap the first search'result in the result list ",
+                "tap the 'attractions' button with ferris wheel in a white box at the top",
+                "'Swipe' down to view more attractions",
+                "tap the share button in a light blue box to share to friends",
+                "tap the 'directions' button in a light blue box to navigate to the attraction"
+            ],
+            "查找目的地附近的酒店":[
+                "open google maps app",
+                "tap search box at the top",
+                "type the 'destination'",
+                "tap the first search'result in the result list ",
+                "swipe right the top option to view more options",
+                "tap the 'hotel' button with bed in a white box at the top",
+                "'Swipe' down to view more attractions",
+                "tap the visit site button in a light blue box to see the details of the hotel",
+                "tap the 'check availability' button in a green border white box to Jump the booking software"
+            ],
+            "保存收藏位置":[
+                "open google maps app",
+                "tap search box at the top",
+                "type the 'destination'",
+                "tap the first search'result in the result list ",
+                "tap the 'save' button with bookmarks in a light blue box at the bottom",
+                "tap a list to save the location",
+                "tap the text button 'Done' in green font at the right top" 
+            ],
+            "分享您的当前位置":[
+                "open google maps app",
+                "tap search box at the top",
+                "type the 'destination'",
+                "tap the first search'result in the result list ",
+                "tap the 'share' button in a light blue box at the bottom",
+                "swipe right to select a social software  to tap "
+            ]
+        }
+    },
+    {
+        "id": 3,
+        "app_name": "Facebook",
+        "brief_introduction": "评分 3.9 星的社交网络应用。连接用户与朋友和家人；允许分享更新、照片和视频；支持群组、事件和市场功能。",
+        "icon_description": "蓝色方形图标，中央是白色小写 'f'，代表 Facebook 标志。",
+        "ui_description": " ",
+        "common_functions": [
+            "添加好友申请",
+            "发布动态",
+            "浏览页面内容",
+            "加入群组",
+            "在推文下发表评论",
+            "给推文点赞",
+            "根据关键词搜索推文",
+            "创建小组",
+            "查看通知",
+            "follow a user"
+        ],
+        "action_object_str": {
+    "添加好友申请":[
+        "open facebook app",
+        "tap the people icon at the top",
+        "tap the search box at the top",
+        "type the friend's name",
+        "tap the  add friend button at the right of the friend's name in the search result"
+    ],  
+    "发布动态":[
+        "open facebook app",
+        "tap the plus sign in square at the top",
+        "tap the 'post' button in a black font in the list of options",
+        "type the status in the status input box with text 'What's on your mind?' at the bottom",
+        "tap the picture icon at the bottom to add a picture",
+        "tap the picture in the list to select a picture",
+        "tap the emoji icon at the bottom to add an emoji",
+        "tap the emoji in the list to select an emoji",
+        "tap the location icon at the bottom to add a location",
+        "tap the location in the list to select a location",
+        "tap the post button in a blue box at the right top"
+    ],
+    "浏览页面内容":[
+        "open facebook app",
+        "swipe down to view more posts",
+        "tap a post to enter the post page"
+    ],
+    "加入群组":[
+        "open facebook app",
+        "tap the search box at the right top",
+        "type the name of the group",
+        "tap the  join button in the search result "
+    ],
+    "在推文下发表评论":[
+        "open facebook app",
+        "tap the search box at the top",
+        "type the search content",
+        "tap the first search'result in the result list ",
+        "tap the post square to enter the post page",
+        "tap the bubble message icon to enter the comment page",
+        "tap the comment input box with text 'Write a comment' at the bottom",
+        "type the comment in the comment input box",
+        "tap the paper airplane icon at the right corner of the comment input box to post the comment"
+    ],
+    "给推文点赞":[
+        "open facebook app",
+        "tap the search box at the top",
+        "type the search content",
+        "tap the first search'result in the result list ",
+        "tap the post square to enter the post page",
+        "tap the thumb up symbol button with text 'like' at the bottom of the post page"
+    ],
+    "根据关键词搜索推文":[
+        "open facebook app",
+        "tap the search box at the top",
+        "type the search content",
+        "tap the first search'result in the result list "
+    ],
+    "创建小组":[
+        "open facebook app",
+        "tap the shrink column symbol  at the top",
+        "tap the Groups button in the  openlist",
+        "tap the plus sign in black square at the right top of the page",
+        "tap the Create a group button in the bottom list",
+        "type the name of the group",
+        "tap the 'create group' button' at the bottom"
+    ],
+    "查看通知":[
+        "open facebook app",
+        "tap the bell icon at the top",
+        "swipe down to view more notifications",
+        "tap a notification to enter the notification page"
+    ],
+    "follow a user":[
+        "open facebook app",
+        "tap the search box at the top",
+        "type the search name of user",
+        "tap the first search'result in the result list ",
+        "tap the user's profile to enter the user's profile page",
+        "tap the follow button in a blue box "
+    ]
+}
+
+    },
+    
+    {
+        "id": 4,
+        "app_name": "Google/Chorme",
+        "brief_introduction": "评分 4.5 星的网络浏览器。提供快速浏览、安全连接和扩展支持；跨设备同步数据并提供隐身模式。",
+        "icon_description": "圆形图标，由红色、黄色、绿色和蓝色部分组成轮子，中心是蓝色圆圈。",
+        "ui_description": " ",
+        "common_functions": [
+            "网页搜索",
+            "查询天气",
+            "查看浏览记录",
+            "查看通知",
+            "谷歌学术查询",
+            "谷歌翻译",
+            "保存图片"
+        ],
+        "action_object_str": {
+    "网页搜索":[
+        "open google chrome app",
+        "tap the search box with text 'search' at the top",
+        "type the search content",
+        "tap the first search'result in the result list ",
+        "swipe down to view more results",
+        "tap a result to enter the result page"
+    ],
+    "查询天气":[
+        "open google chrome app",
+        "tap the search box with text 'search' at the top",
+        "type the weather and area name ",
+        "tap the first search'result in the result list ",
+        "swipe down to tap the text 'View all details'in white font at the bottom",
+        "swipe down to see more weather details"
+    ],
+    "查看浏览记录":[
+        "open google chrome app",
+        "tap the clock icon with text 'activity' below at the bottom",
+        "tap the History button in the list",
+        "swipe down to view more history",
+        "tap a history to enter the history page"
+    ],
+    "查看通知":[
+        "open google chrome app",
+        "tap the bell icon with 'Notifications' in white font at the bottom",
+        "swipe down to view more notifications",
+        "tap a notification to enter the notification page"
+    ],
+    "谷歌学术查询":[
+        "open google chrome app",
+        "tap the search box with text 'search' at the top",
+        "type the text 'Google Scholar' in the search box",
+        "tap the first search result in the search list ",
+        "tap the 'Google Scholar' link to enter the Google Scholar page",
+        "tap the search box at the top",
+        "type the search content",
+        "tap the magnifier icon in blue box at the right of the search box",
+        "swipe down to view more results",
+        "tap a result link to see more details"
+    ],
+    "谷歌翻译":[
+        "open google chrome app",
+        "tap the search box with text 'search' at the top",
+        "type the text 'Google Translate' in the search box",
+        "tap the first search result in the search list ",
+        "tap the 'Google Translate' link to enter the Google Translate page",
+        "type the enter text in the input box",
+        "tap the rightward arrow icon in blue circle at the right of the input box to translate"
+    ],
+    "保存图片":[
+        "open google chrome app",
+        "tap the search box with text 'search' at the top",
+        "type the search content",
+        "tap the first search'result in the result list ",
+        "swipe down to view more results",
+        "tap a image in the search results",
+        "tap the download button with a downward pointing arrow in box under the image"
+    ]
+}
+
+
+    },
+    {
+        "id": 5,
+        "app_name": "X",
+        "brief_introduction": "评分 4.0 星的社交媒体平台，前身为 Twitter。启用短格式发布、关注用户和实时对话；支持趋势、投票和多媒体分享。",
+        "icon_description": "黑色方形图标，带有白色 'X' 符号，代表重新命名的 Twitter 标志。",
+        "ui_description": " ",
+        "common_functions": [
+            "信息搜索",
+            "发布新推文",
+            "关注用户",
+            "转发帖子",
+            "给帖子点赞",
+            "在帖子下评论",
+            "将帖子收藏",
+            "查看趋势话题",
+            "查看最近的新闻要事",
+            "加入多人社区并分享",
+            "grok 询问"
+        ],
+        "action_object_str": {
+    "信息搜索":[
+        "open x app",
+        "tap the magnifier icon at the bottom",
+        "tap the search box at the top",
+        "type the search name of user",
+        "tap the first search'result in the result list ",
+        "swipe down to view more results"
+    ],
+    "发布新推文":[
+        "open x app",
+        "tap the plus sign in blue circle at the right corner of the  page bottom",
+        "tap the icon with a feather pen in a blue circle",
+        "type the status in the status input box",
+        "tap the pictures` icon in blue  at the bottom ",
+        "tap a picture in the gallery to add photo to the post",
+        "tap the GIF square icon in blue at the bottom ",
+        "tap a GIF in the gallery to add GIF to the post",
+        "tap the location icon in blue at the bottom to add a location",
+        "tap the Post button in a blue box at the right top to send the post"
+
+    ],
+    "关注用户":[
+        "open x app",
+        "tap the magnifier icon at the bottom",
+        "tap the search box at the top",
+        "type the search name of user",
+        "tap the first search'result in the result list ",
+        "tap the user's profile to enter the user's profile page",
+        "tap the follow button or subscribe button in a black box at the right top"
+
+    ],
+    "转发帖子":[
+        "open x app",
+        "tap a post square to enter the post page",
+        "tap the left-pointing arrow connecting three points representing sharing at the right corner of the bottom",
+        "swipe right to select a social software  to tap ",
+        "tap the search box at the top and type the search name of friend",
+        "tap the 'search' result in the first result",
+        "tap the send button to share the post"
+    ],
+    "给帖子点赞":[
+        "open x app",
+        "tap a post square to enter the post page",
+        "tap the black  border heart symbol at the bottom of the post"
+    ],
+    "在帖子下评论":[
+        "open x app",
+        "tap a post square to enter the post page",
+        "tap the message  bubble symbol at the left corner of the  postbottom",
+        "tap the comment input box with text 'Post your reply' ",
+        "type the comment in the comment input box",
+        "tap the pictures` icon in blue  at the bottom ",
+        "tap a picture in the gallery to add photo to the comment",
+        "tap the GIF square icon in blue at the bottom ",
+        "tap a GIF in the gallery to add GIF to the comment",
+        "tap the 'Reply' button in a blue box at the right top to send the comment"
+    ],
+    "将帖子收藏":[
+        "open x app",
+        "tap a post square to enter the post page",
+        "tap the black border bookmark symbol at the bottom of the post"
+    ],
+    "查看趋势话题":[
+        "open x app",
+        "tap the magnifier icon at the bottom",
+        "tap the 'Trending' button at the top column",
+        "swipe down to view more topics",
+        "tap a topic link to enter the topic page to see more details",
+        "swipe down to view more related posts"
+    ],
+    "查看最近的新闻要事":[
+        "open x app",
+        "tap the magnifier icon at the bottom",
+        "tap the 'News' button at the top column",
+        "swipe down to view more news",
+        "tap a news link to enter the news page to see more details",
+        "tap 'Show more' button in blue font at the left corner of the context"
+    ],
+    "加入多人社区并分享":[
+        "open x app",
+        "tap the people icon at the bottom",
+        "tap the magnifier icon at the right corner of the top",
+        "type the name of the community",
+        "tap the first search'result in the result list ",
+        "tap the 'Join' button in black box at the right side below the community name",
+        "tap the left-pointing arrow connecting three points representing sharing at the right side below the community name",
+        "tap a social software icon to share the community to friends"
+    ],
+    "grok 询问":[
+        "open x app",
+        "tap the circle formed by ring G in black with 'GROK' at the bottom",
+        "type the question in the question input box",
+        "tap the 'upward arrow in black circle' button at the right corner of the question input box",
+        "swipe down to see more answers"
+    ]
+}
+    },
+    {
+        "id": 6,
+        "app_name": "Walmart ",
+        "brief_introduction": "评分 4.7 星的 Walmart 商店购物应用。允许浏览产品、在线购物和店内取货；提供优惠、杂货订购和药房服务。",
+        "icon_description": "黄色火花图标，类似于星爆，背景为蓝色，象征 Walmart 的标志。",
+        "ui_description": " ",
+        "common_functions": [
+            "商品搜索",
+            "将商品加入购物车",
+            "购买商品",
+            "在购物车中统一结算",
+            "分享商品",
+            "保存收藏商品",
+            "查看我的订单",
+            "其他服务"
+        ],
+        "action_object_str": {
+    "商品搜索":[
+        "open walmart app",
+        "tap the search box with magnifier icon at the top of home page",
+        "type the product name in the search box",
+        "tap the first search result in the result list ",
+        "swipe down to view more products"
+    ],
+    "将商品加入购物车":[
+        "open walmart app",
+        "tap the search box with magnifier icon at the top of home page",
+        "type the product name in the search box",
+        "tap the first search result in the result list ",
+        "swipe down to view more products",
+        "tap the options button in a blue box at the bottom of the product link to see more",
+        "tap the 'Add to Cart' button in a blue box at the right bottom to add the product to the cart"
+    ],
+    "购买商品":[
+        "open walmart app",
+        "tap the search box with magnifier icon at the top of home page",
+        "type the product name in the search box",
+        "tap the first search result in the result list ",
+        "swipe down to view more products",
+        "tap the options button in a blue box at the bottom of the product link to see more",
+        "tap the 'Buy now' button ina black border box at the left bottom to buy the product"
+    ],
+    "在购物车中统一结算":[
+        "open walmart app",
+        "tap the shopping cart icon at the right corner of the top",
+        "tap the 'Checkout all items' button in a blue box at the bottom to checkout the cart"
+    ],
+    "分享商品":[
+        "open walmart app",
+        "tap the search box with magnifier icon at the top of home page",
+        "type the product name in the search box",
+        "tap the first search result in the result list ",
+        "swipe down to view more products",
+        "tap the options button in a blue box at the bottom of the product link to see more",
+        "tap the upward-pointing arrow box representing sharing at the right column of the product image",
+        "swipe right at the bottom to see more options ",
+        "tap the ellipsis in circle with 'More' to select more social media to share"
+    ],
+    "保存收藏商品":[
+        "open walmart app",
+        "tap the search box with magnifier icon at the top of home page",
+        "type the product name in the search box",
+        "tap the first search result in the result list ",
+        "swipe down to view more products",
+        "tap the options button in a blue box at the bottom of the product link to see more",
+        "tap the black border heart symbol at the right column of the product image to save"
+    ],
+    "查看我的订单":[
+        "open walmart app",
+        "tap the basket with a downward arrow icon at the bottom",
+        "swipe down to view more item records"
+    ],
+    "其他服务":[
+        "open walmart app",
+        "tap the  icon of two rows and two columns of circles with 'Services' at the bottom",
+        "swipe down to view more services",
+        "tap a service link to enter the service page to see more  service options"
+    ]
+}
+    },
+    {
+        "id": 7,
+        "app_name": "eBay",
+        "brief_introduction": "评分 4.7 星的在线市场。促进通过拍卖和固定价格买卖物品；支持全球运输和买家保护。",
+        "icon_description": "彩色图标，'eBay' 以红色、蓝色、黄色和绿色字母，背景为白色。",
+        "ui_description": " ",
+        "common_functions": [
+            "商品搜索",
+            "将商品加入购物车",
+            "购买商品",
+            "添加到收藏夹",
+            "查看我的订单",
+            "分享商品"
+        ],
+        "action_object_str": {
+    "商品搜索":[
+        "open ebay app",
+        "tap the search box with magnifier icon at the top of home page",
+        "type the product name in the search box",
+        "tap the first search result in the result list ",
+        "swipe down to view more products"
+    ],
+    "将商品加入购物车":[
+        "open ebay app",
+        "tap the search box with magnifier icon at the top of home page",
+        "type the product name in the search box",
+        "tap the first search result in the result list ",
+        "swipe down to view more products",
+        "tap the product link to see more product details",
+        "swipe down to view more options",
+        "tap the 'Add to Cart' button in a blue border box to add the product to the cart"
+    ],
+    "购买商品":[
+        "open ebay app",
+        "tap the search box with magnifier icon at the top of home page",
+        "type the product name in the search box",
+        "tap the first search result in the result list ",
+        "swipe down to view more products",
+        "tap the product link to see more product details",
+        "swipe down to view more options",
+        "tap the 'Buy It Now' button in a blue box to buy the product"
+    ],
+    "添加到收藏夹":[
+        "open ebay app",
+        "tap the search box with magnifier icon at the top of home page",
+        "type the product name in the search box",
+        "tap the first search result in the result list ",
+        "swipe down to view more products",
+        "tap the product link to see more product details",
+        "swipe down to view more options",
+        "tap the 'Add to Watchlist' button in a blue border box to add the product to the watchlist"
+    ],
+    "查看我的订单":[
+        "open ebay app",
+        "tap the people in circle icon at the bottom",
+        "swipe down to view more item records"
+    ],
+    "分享商品":[
+        "open ebay app",
+        "tap the search box with magnifier icon at the top of home page",
+        "type the product name in the search box",
+        "tap the first search result in the result list ",
+        "swipe down to view more products",
+        "tap the product link to see more product details",
+        "tap the left-pointing arrow connecting three points representing sharing at the right corner of the top ",
+        "swipe right at the bottom to see more options ",
+        "tap the  vertical ellipsis in circle with 'More Apps' to select more social media to share"
+    ]
+}
+
+    },
+    {
+        "id": 8,
+        "app_name": "Amazon Shopping",
+        "brief_introduction": "评分 4.6 星的电子商务平台。提供海量产品选择、Prime 快速运输，以及流媒体和云存储服务。",
+        "icon_description": "橙色背景上的黑色微笑箭头从 'a' 到 'z'，下面有 'amazon' 文本。",
+        "ui_description": " ",
+        "common_functions": [
+            "商品搜索",
+            "将商品加入购物车",
+            "添加到收藏夹",
+            "购买商品",
+            "分享商品"
+        ],
+        "action_object_str": {
+    "商品搜索":[
+        "open amazon shopping app",
+        "tap the search box with magnifier icon at the top of home page",
+        "type the product name in the search box",
+        "tap the first search result in the result list ",
+        "swipe down to view more products"
+    ],
+    "将商品加入购物车":[
+        "open amazon shopping app",
+        "tap the search box with magnifier icon at the top of home page",
+        "type the product name in the search box",
+        "tap the first search result in the result list ",
+        "swipe down to view more products",
+        "tap the 'Add to Cart' button in a yellow box to add the product to the cart"
+    ],
+    "添加到收藏夹":[
+        "open amazon shopping app",
+        "tap the search box with magnifier icon at the top of home page",
+        "type the product name in the search box",
+        "tap the first search result in the result list ",
+        "swipe down to view more products",
+        "tap the product link to see more product details",
+        "swipe down to view more options",
+        "tap the black border heart symbol button at the right corner of the product image to save"
+    ],
+    "购买商品":[
+        "open amazon shopping app",
+        "tap the search box with magnifier icon at the top of home page",
+        "type the product name in the search box",
+        "tap the first search result in the result list ",
+        "swipe down to view more products",
+        "tap the product link to see more product details",
+        "swipe down to view more options",
+        "tap the 'Buy Now' button in a orange box to buy the product"
+    ],
+    "分享商品":[
+        "open amazon shopping app",
+        "tap the search box with magnifier icon at the top of home page",
+        "type the product name in the search box",
+        "tap the first search result in the result list ",
+        "swipe down to view more products",
+        "tap the product link to see more product details",
+        "swipe down to view more options",
+        "tap the left-pointing arrow connecting three points representing sharing at the right corner of the top ",
+        "swipe right at the bottom to see more options ",
+        "tap the ellipsis in square with 'More' to select more social media to share"
+    ]
+}
+    },
+    {
+        "id": 9,
+        "app_name": "Fandango",
+        "brief_introduction": "评分 4.7 星的电影票务应用。允许购买票务、查看放映时间和观看预告片；支持剧院预订和奖励。",
+        "icon_description": "橙色票根图标，带有白色 'Fandango' 文本，背景为黑色。",
+        "ui_description": " ",
+        "common_functions": [
+            "影剧搜索",
+            "电影票预订",
+            "查看最近在映电影",
+            "购买影视周边",
+            "阅读评分和评论"
+        ],
+        "action_object_str": {
+            "影剧搜索":[
+                "open fandango app",
+                "tap the clapperboard icon with 'movies' in the bottom list",
+                "tap the magnifier icon at the right corner of the top",
+                "tape the movie name in the search box",
+                "tap the first search'result in the result list "
+            ],
+            "电影票预订":[
+                "open fandango app",
+                "tap the clapperboard icon with 'movies' in the bottom list",
+                "tap the magnifier icon at the right corner of the top",
+                "tape the movie name in the search box",
+                "tap the first search'result in the result list ",
+                "swipe down the page to see more options",
+                "tap the open time of the movies to enter the seat selection page",
+                "tap a blue square to select the seat",
+                "tap the 'Next' button in orange box at the bottom",
+                "tap the 'Next' button in orange box again at the bottom to pay for the ticket"
+
+            ],
+            "查看最近在映电影":[
+                "open fandango app",
+                "tap the clapperboard icon with 'movies' in the bottom list",
+                "swipe down the page to see more movies",
+                "tap 'SEE MORE MOVIES IN THEATERS' button in blue font at the left corner of the bottom"
+            ],
+            "购买影视周边":[
+                "open fandango app",
+                "tap the shop icon with 'FanStore' in the bottom list",
+                "swipe down the page to see more options",
+                "tap a product list to enter the list page",
+                "swipe down the page to see more products",
+                "tap a product link to enter the product page",
+                "tap the 'Add to Cart' button in orange box at the bottom",
+                "tap the 'Checkout' button in orange box at the bottom",
+                "tap the 'Pay' button in orange box at the bottom to pay for the product"
+            ],
+            "阅读评分和发布评论":[
+                "open fandango app",
+                "tap the clapperboard icon with 'movies' in the bottom list",
+                "tap the magnifier icon at the right corner of the top",
+                "tape the movie name in the search box",
+                "tap the first search'result in the result list ",
+                "read the Rotten Tomatoes and Popcorn ratings on the right side of the movie name",
+                "tap the rotten tomatoes or popcorn icon to see the user reviews",
+                
+                "tap the 'Rate' button in blue font on the right side of the movie name to review the movie",
+                "tap to rate the movie ",
+                "tap the review box to type the review content",
+                "tap the 'SUBMIT' button in orange box at the bottom",
+                "swipe down the page to see more movie reviews"
+
+            ]
+        }
+    },
+    {
+        "id": 10,
+        "app_name": "Booking",
+        "brief_introduction": "评分 4.8 星的旅行预订应用。提供酒店、航班和租车；提供优惠、评论和灵活取消选项。",
+        "icon_description": "蓝色圆圈，带有白色 'B' 和位置图钉，背景为白色。",
+        "ui_description": " ",
+        "common_functions": [
+            "预订酒店房间",
+            "预订航班",
+            "租车",
+            "Taxi预订",
+            "景点订票"
+        ],
+        "action_object_str": {
+            "预订酒店房间":[
+                "open booking app",
+                "tap the Stays square with bed icon at the top column",
+                "tap the search box with magnifying glass icon in the first bar to search for the add location ",
+                "type the hotel location",
+                "tap the location 'search' result in the first result ",
+                "tap the second bar with calendar icon to select the check-in date and check-out date",
+                "tap the third bar with people icon to select the number of guests and rooms",
+                "tap the search button in a blue box to find the hotel",
+                "swipe down to view more hotels",
+                "tap a hotel link to enter the hotel detailed page",
+
+                "tap the white border heart at the right corner of the top to save the location to the saved list",
+                "tap the left-pointing arrow connecting three points representing sharing at the right corner of the top",
+                "tap a social media app icon to share the location to friends",
+
+                "tap the 'Select rooms' button in a blue box to see options",
+                "tap the 'Select' button in blue border box to select the room",
+                "tap the 'Reserve' button in a blue box to book the hotel"
+
+            ],
+            "预订航班":[
+                "open booking app",
+                "tap the Flights square with plane icon at the top column",
+                "tap the flight category options in the first bar ",
+                "tap the search box with the airplane takeoff icon in the second bar",
+                "type the flight departure location and tap the 'search' result in the first result ",
+                "tap the search box with the airplane landing icon in the second bar",
+                "type the flight arrival location and tap the 'search' result in the first result ",
+
+                "tap the third bar with calendar icon to select the departure date and return date",
+                "tap the fourth bar with people icon to confirm boarding information",
+
+                "tap the search button in a blue box to find the flight",
+                "swipe down to view more flights",
+                "tap a flight link to enter the flight detailed page",
+                "select a flight time and tap the link to see more",
+                "tap the 'Select' button in blue box to reserve the flight"
+
+            ],
+            "租车":[
+                "open booking app",
+                "tap the Car rentals square with car icon at the second column of the top",
+                "tap the car icon bar to identify the pick up location ",
+                "type the car location and tap the 'search' result in the first result ",
+                "tap the calendar icon bar to identify the pick up time",
+
+                "tap the search button in a blue box to find the car",
+                "swipe down to view more cars",
+                "tap a car link to enter the car detailed page",
+                "tap the 'Select' button in blue box to reserve the car"
+            ],
+            "Taxi预订":[
+                "open booking app",
+                "tap the Taxi square with taxi icon below at the second column of the top",
+                "tap the first bar to select one-way or round-trip",
+                "tap the second bar to select the taxi pick-up location",
+                "type the taxi location and tap the 'search' result in the first result ",
+
+                "tap the second bar to select the taxi drop-off location",
+                "type the taxi drop-off location and tap the 'search' result in the first result ",
+                "tap the third bar to select the taxi pick-up time",
+                "tap the fourth bar to select the number of passengers",
+                "tap the search button in a blue box to find the taxi",
+                "swipe down to view more taxis",
+                "tap a taxi link to enter the taxi detailed page",
+                "tap the 'Select' button in blue box to reserve the taxi"
+            ],
+            "景点订票":[
+                "open booking app",
+                "tap the Attractions square with ferris wheel icon at the second column of the top",
+                "tap the first bar to search for the attraction location",
+                "tap the second bar to select the date",
+                "tap the search button in a blue box to scan the search result",
+                
+                "swipe down to view more attractions",
+                "tap a attraction link to enter the attraction detailed page",
+                "tap the 'See availability' button in blue box to reserve the attraction",
+
+                "tap the white border heart at the right corner of the top to save the location to the saved list",
+                "tap the left-pointing arrow connecting three points representing sharing at the right corner of the top",
+                "tap a social media app icon to share the location to friends"
+
+            ]
+        }
+    },
+    {
+        "id": 11,
+        "app_name": "Tripadvisor",
+        "brief_introduction": "评分 4.6 星的旅行规划应用。提供酒店、餐厅和景点的评论、推荐和预订。",
+        "icon_description": "绿色猫头鹰头图标，带有眼睛和喙，象征旅行智慧。",
+        "ui_description": " ",
+        "common_functions": [
+            "阅读地点概览",
+            "预订酒店",
+            "查找附近餐厅",
+            "查看景点信息",
+            "上传景点照片",
+            "撰写点评"
+        ],
+        "action_object_str": {
+    "阅读地点概览":[
+        "open tripadvisor app",
+        "tap the magnifier icon with 'search in the bottom list",
+        "tape the trip destination in the search box",
+        "tap the first search'result in the result list ",
+        "swipe down the page to see more details",
+        "tap the 'Read More' button in black font to read the location overview",
+        "tap the 'Map' button with location icon in black box to view the location on the map",
+        "tap the black border heart at the right corner of the top to save the location to the saved list",
+        "tap the left-pointing arrow connecting three points representing sharing at the right corner of the top",
+        "tap a social media app icon to share the location to friends"
+    ],
+    "预订酒店":[
+        "open tripadvisor app",
+        "tap the magnifier icon with 'search in the bottom list",
+        "tape the trip destination in the search box",
+        "tap the first search'result in the result list ",
+        "swipe down the page to see more options",
+        "tap the hotel botton with bed icon in the first column from the list",
+        "swipe down the page to see more hotels",
+        "tap a hotel link to enter the hotel page",
+        "swipe down the page tap the 'View rooms' button in green box to jump booking link",
+
+        "swipe down the page until find the 'All reviews'",
+        "swipe down to scan the reviews and tap 'Read more' button in black font to read the complete review",
+
+
+        "tap the black border heart at the right corner of the top to save the location to the saved list",
+        "tap the left-pointing arrow connecting three points representing sharing at the right corner of the top",
+        "tap a social media app icon to share the location to friends"
+    ],
+    "查找附近餐厅":[
+        "open tripadvisor app",
+        "tap the magnifier icon with 'search in the bottom list",
+        "tape the trip destination in the search box",
+        "tap the first search'result in the result list ",
+        "swipe down the page to see more options",
+        "tap the 'Restaurants' botton with fork and knife icon in the third column from the list",
+        "swipe down the page tap the 'View all restaurants' button in black border box",
+        "swipe down to select a restaurant",
+        "tap a restaurant link to enter the restaurant page",
+        "tap the 'Call' button in black font to reserve the restaurant",
+
+        "swipe down the page until find the 'All reviews'",
+        "swipe down to scan the reviews and tap 'Read more' button in black font to read the complete review",
+
+        "tap the black border heart at the right corner of the top to save the location to the saved list",
+        "tap the left-pointing arrow connecting three points representing sharing at the right corner of the top",
+        "tap a social media app icon to share the location to friends"
+
+    ],
+    "查看景点信息":[
+        "open tripadvisor app",
+        "tap the magnifier icon with 'search in the bottom list",
+        "tape the trip destination in the search box",
+        "tap the first search'result in the result list ",
+        "swipe down the page to see more options",
+        "tap the 'Things to Do' botton with camera icon in the second column from the list",
+        "tap the 'attractions' button  in the option box at the top ",
+        "swipe down the page to see more attractions",
+        "tap the 'See Tours' buton in green box to see more details",
+        "swipe down to scan the tour list and click one link ",
+        "tap the 'Check Availability' button in a game box to book the tour",
+
+        "swipe down the page to see the Itinerary",
+        "swipe down the page until find the 'All reviews'",
+        "swipe down to scan the reviews and tap 'Read more' button in black font to read the complete review",
+
+        "tap the black border heart at the right corner of the top to save the location to the saved list",
+        "tap the left-pointing arrow connecting three points representing sharing at the right corner of the top",
+        "tap a social media app icon to share the location to friends"
+
+        
+    ],
+    "上传景点照片":[
+        "open tripadvisor app",
+        "tap the bubble icon with 'Review in the bottom list",
+        "tap the 'Upload a photo' button in the option box at the top ",
+
+       "tap some photo in the gallery",
+       "tap the Add button in a grey box at the right corner of the bottom",
+       "tap the search box with magnifying glass icon to add a location ",
+       "tap the Upload button in dark green box to post the photo"
+    ],
+    "撰写点评":[
+        "open tripadvisor app",
+        "tap the bubble icon with 'Review in the bottom list",
+        "tap the 'Write a review' button in the option box at the top ",
+        "type the review object in the RECENT list",
+        "tap the five green circle to rate the activities",
+        "tap the kind options of the activity",
+        "tap the 'Next' button in a dark green box at the right corner of the bottom",
+        "tap  'Write your review' button to type the review content",
+        "tap  'Done' button in black border box at the right corner of the bottom",
+        "tap the 'Title this review' button to type the review title and tap the 'Done' button in black border box at the right corner of the bottom to finish",
+        "tap the 'Next' button in a dark green box at the right corner of the bottom",
+        "tap the camera icon to add some photos",
+        "tap 'Submit' button in a dark green box at the right corner of the bottom"  
+    ]
+}
+
+    },
+    {
+        "id": 12,
+        "app_name": "Agoda",
+        "brief_introduction": "评分 4.7 星的酒店预订应用。专注于亚太地区住宿，提供竞争价格、评论和即时确认。",
+        "icon_description": "红色圆圈，带有白色 'a' 风格化为位置图钉，背景为白色。",
+        "ui_description": " ",
+        "common_functions": [
+            "预订酒店",
+            "查看酒店长住优惠",
+            "查看行程",
+            "查看优惠券",
+            "预订航班",
+            "查看近期举行的活动",
+            "民宿入住",
+            "查看我的收藏",
+            "预订火车票"
+        ],
+        "action_object_str": {
+            "预订酒店":[
+                "open agoda app",
+                "tap the Hotel square with hotel icon below at the top of the home page",
+                "tap the search box with magnifying glass icon in the page to search for the hotel location ",
+                "type the hotel location",
+                "tap the location 'search' result in the first result ",
+                "tap the bar with calendar with check-in arrow icon to select the check-in date",
+                "tap the bar with calendar with check-out arrow icon to select the check-out date",
+                "tap the bar with people icon to select the number of guests and rooms",
+                "tap the search button in a blue box to find the hotel",
+                "swipe down to view more hotels",
+                "tap a hotel link to enter the hotel detailed page",
+                "tap the'choose my room' button in a blue box to book the hotel",
+                "tap the red border heart in circle at the right of the hotel name to add the hotel to the saved list",
+                "tap the left-pointing arrow connecting three points representing sharing at the right top",
+                "tap a social media app icon to share the hotel to friends"
+            ],
+            "查看酒店长住优惠":[
+                "open agoda app",
+                "tap the calendar icon with 7+ and text 'long Stays Deals' below it in the second column from the top",
+                "tap the search box with magnifying glass icon in the page to search for the hotel location ",
+                "type the hotel location",
+                "tap the location 'search' result in the first result ",
+                "tap the bar with calendar with check-in arrow icon to select the check-in date",
+                "tap the bar with calendar with check-out arrow icon to select the check-out date",
+                "tap the bar with people icon to select the number of guests and rooms",
+                "tap the search button in a blue box to find the hotel",
+                "swipe down to view more hotels",
+                "tap a hotel link to enter the hotel detailed page",
+                "tap the'choose my room' button in a blue box to book the hotel",
+                "tap the red border heart in circle at the right of the hotel name to add the hotel to the saved list",
+                "tap the left-pointing arrow connecting three points representing sharing at the right top",
+                "tap a social media app icon to share the hotel to friends"
+            ],
+            "查看行程":[
+                "open agoda app",
+                "tap the  'My Trips' button with suitcase icon in the bottom list",
+                "swipe down to view more trip records",
+                "tap a trip to enter the trip page to see the trip details"
+            ],
+            "查看优惠券":[
+                "open agoda app",
+                "tap the 'Deals' button with bookmark icon at the bottom of the home page",
+                "swipe down to view more coupons",
+                "tap a coupon to enter the coupon page to see the coupon details"
+            ],
+            "预订航班":[
+                "open agoda app",
+                "tap the flight square with plane icon below at the top of the home page",
+                "tap the bar with takeoff icon to search for your boarding location. ",
+                "type the boarding location",
+                "tap the boarding location 'search' result in the first result ",
+                "tap the bar with landing icon to search for your destination location. ",
+                "type the destination location",
+                "tap the destination location 'search' result in the first result ",
+
+                "tap the bar with calendar with check-in arrow icon to select the departure date",
+                "tap the bar with calendar with check-out arrow icon to select the return date",
+
+                "tap the bar with people icon to select the number of passengers",
+                "tap the search button in a blue box to find the flight",
+                "swipe down to view more flights",
+                "tap a flight to enter the flight page to see more details",
+                "tap the 'select' button in a blue box to book the flight"
+            ],
+            "查看近期举行的活动":[
+                "open agoda app",
+                "tap the Activities square with ferris wheel icon below at the top of the home page",
+                "tap the search box with magnifying glass icon to search the activity or city ",
+                "type the activity or city",
+                "tap the activity or city 'search' result in the first result ",
+                "swipe down to view more activities",
+                "tap an activity link to enter the activity page to see more details",
+                "tap the 'see options' button in a blue box to book the activity tickets"
+            ],
+            "民宿入住":[
+                "open agoda app",
+                "tap the Homes&Apts square with house icon below at the top of the home page",
+                "tap the search box with magnifying glass icon in the page to search for the HOme&Apts location ",
+                "type the HOme&Apts location",
+                "tap the location 'search' result in the first result ",
+                "tap the bar with calendar with check-in arrow icon to select the check-in date",
+                "tap the bar with calendar with check-out arrow icon to select the check-out date",
+                "tap the bar with people icon to select the number of guests and rooms",
+                "tap the search button in a blue box to find the HOme&Apts",
+                "swipe down to view more hotels",
+                "tap a HOme&Apts link to enter the HOme&Apts detailed page",
+                "tap the'choose my room' button in a blue box to book the HOme&Apts",
+                "tap the red border heart in circle at the right of the HOme&Apts name to add the HOme&Apts to the saved list",
+                "tap the left-pointing arrow connecting three points representing sharing at the right top",
+                "tap a social media app icon to share the HOme&Apts to friends"
+            ],
+            "查看我的收藏":[
+                "open agoda app",
+                "tap the  'Saved' button with heart icon in the bottom list",
+                "swipe down to view more saved records",
+                "tap a saved record to enter the saved page to see the saved details"
+            ],
+            "预订火车票":[
+                "open agoda app",
+                "tap the Train icon with text 'Trains' below it in the second column from the top",
+                "tap the first box to search for the train start location ",
+                "type the train start location",
+                "tap the location 'search' result in the first result ",
+                "tap the second box to search for the train end location ",
+                "type the train end location",
+                "tap the location 'search' result in the first result ",
+                "tap the third bar with calendar icon to select the check-in date and check-out date",
+                "tap the fourth bar with people icon to select the number of passengers",
+                "tap the 'Find Tickets' button in a blue box to search the train",
+                "swipe down to view more trains options",
+                "tap 'book now' button in a blue box to book the train"
+            ]
+        }  
+    },
+    {
+       "id": 13,
+        "app_name": "Google Play Store",
+        "brief_introduction": "评分 4.3 星的 Android 应用商店。提供应用、游戏、电影和书籍的下载；管理更新和购买。",
+        "icon_description": "多色播放三角图标，背景为白色。",
+        "ui_description": " ",
+        "common_functions": [
+            "下载应用",
+            "软件更新",
+            "软件卸载"
+        ],
+        "action_object_str": {
+            "下载应用":[
+                "open google play store app",
+                "tap the magnifier icon with text 'Search' at the bottom of the home page",
+                "tap the search box with magnifier icon at the top",
+                "type the app name in the search box",
+                "tap the first search result in the result list ",
+                "tap the 'Install' button in a blue box to install the app"
+            ],
+            "软件更新":[
+                "open google play store app",
+                "tap the 'account name' in green circle icon at the right corner of the top to enter the account page",
+                "tap the 'Manage apps & devices' button in the list",
+                "tap the 'Updates available' button in the list",
+                "tap the 'Update all' button in a blue box at the right corner of the top to update the app"
+            ],
+            "软件卸载":[
+                "open google play store app",
+                "tap the 'account name' in green circle icon at the right corner of the top to enter the account page",
+                "tap the 'Manage apps & devices' button in the list",
+                "tap the 'Manage'button at the top column",
+                "tap the blank square to select the uninstall app",
+                "swipe down to add more apps",
+                "tap the trash can icon at the right corner of the top to uninstall the selected app"
+            ]
+        }
+    },
+    {
+        "id": 14,
+        "app_name": "网易云音乐",
+        "brief_introduction": "在线音乐类应用，拥有 1.8 亿首歌曲，具备 “小灯府上镜”“如视现场的歌词动效”“船舰助手” 等功能，提升音乐体验。",
+        "icon_description": "红色背景，带有白色音符形状的标志，简洁易识别，传递音乐平台的文艺与活力。",
+        "ui_description": " ",
+        "common_functions":   [
+            "歌曲搜索",
+            "播放音乐",
+            "创建歌单",
+            "分享歌曲",
+            "关注用户",
+            "下载歌曲",
+            "发布笔记",
+            "歌曲评论",
+            "个性化推荐",
+            "演唱会票务"
+        ],
+        "action_object_str":{
+            "歌曲搜索":[
+                "open netease cloud app",
+                "tap search box at the top",
+                "type the 'song name'",
+                "tap the 'search' result "],
+            "播放音乐":[
+                "open netease cloud app",
+                "tap search box above",
+                "type 'hudie'",
+                "tap 'hudie'",
+                "tap the play button like black triangle on yellow circle background"],
+            "创建歌单":[
+                "open netease cloud app",
+                "tap 'wode' on the bottom",
+                "tap the vertical ellipses",
+                "tap the 'xin jian ge dan' button",
+                "type the 'playlist name'",
+                "type 'wancheng'button"],
+            "分享歌曲":[
+                "open netease cloud app",
+                "tap search box above",
+                "type song name'hudie'",
+                "tap the search result of song 'hudie'",
+                "tap the play button like black triangle on yellow circle background",
+                "tap ellipsis icon",
+                "tap fenxiang button",
+                "tap wechat icon with'wechat friend' ",
+                "tap search box above",
+                "type friend name 'rui'",
+                "tap friend 'rui' in the search list",
+                "tap send button in a green box"
+            ],
+            "关注用户":[
+                "open netease cloud app",
+                "tap search box above",
+                "type singer name 'luodayou'",
+                "tap search result of singer 'luodayou'",
+                "tap 'focus' in a white border box"   
+            ],
+            "下载歌曲":[
+                "open netease cloud app",
+                "tap search box above",
+                "type singer 'luodayou'",
+                "tap search result of singer 'luodayou'",
+                "tap the play button like black triangle on yellow circle background",
+                "tap the ellipses icon ",
+                "tap 'download' with a downward pointing arrow",
+                "tap the playlist in the list"
+            ],
+            "发布笔记":[
+                "open netease cloud app",
+                "tap 'note' with CD icon on the bottom",
+                "tap white plus sign in a yellow circle above",
+                "tap 'tianjiazhengwen'",
+                "type note 'post a note'",
+                "tap the 'send' in the red box"
+            ],
+            "歌曲评论":[
+                "open netease cloud app",
+                "tap search box above",
+                "type 'luodayou'",
+                "tap 'luodayou'",
+                "tap the play button like black triangle on yellow circle background",
+                "tap icon like ' white bubble with two horizontal lines' to enter comments   Input Box",
+                "tap the input box on the bottom",
+                "type comment text 'huannianqingchun' in the input box",
+                "tap 'send' on the right side of the input box"
+    
+            ],
+            "个性化推荐":[
+                "open netease cloud app",
+                "tap 'manyou'with a radio icon",
+                "tap white border love heart"
+            ],
+            "演唱会票务":[
+                "open netease cloud app",
+                "tap the three bars in the upper left corner",
+                "tap the 'yuncunyoupiao'",
+                "tap 'concert' with red microphone icon"
+    
+            ]
+        }
+    },
+    
+    {
+        "id": 15,
+        "app_name": "夸克",
+        "brief_introduction": "浏览器类应用，依托阿里 AI 技术，具备 “AI 超级框”“夸克学习”“AI 解题大师” 等功能，提升浏览与学习效率。",
+        "icon_description": "蓝色背景，带有白色 “Q” 字母标志，简洁科技，传递浏览器的智能与高效。",
+        "ui_description": " ",
+        "common_functions":     [
+            "日常信息检索",
+            "学术搜索",
+            "翻译工具",
+            "查看历史记录",
+            "图片保存"
+        ],
+        "action_object_str": {
+            "日常信息检索":[
+                "open kuake app",
+                "tap the search box in the middle of the page",
+                "type the search query content in the input box",
+                "tap the right-pointing arrow in a blue box at the right corner of the search box",
+                "swipe down to see more results"
+            ],
+            "学术搜索":[
+                "open kuake app",
+                "tap the search box in the middle of the page",
+                "tap the 'xueshusousuo' button at the top of the search input box",
+                "type the search query content in the input box",
+                "tap the right-pointing arrow in a blue box at the right corner of the search box",
+                "swipe down to see more results"
+            ],
+            "翻译工具":[
+                "open kuake app",
+                "tap the search box in the middle of the page",
+                "swipe right on the options above the search input box to find and tap the translation option",
+                "type the translation content in the input box",
+                "tap the 'fan yi'button in a blue box at the right corner of the search box"
+            ],
+            "查看历史记录":[
+                "open kuake app",
+                "tap the vertical bar chart icon at  the botom right corner",
+                "tap the 'lishi' button under the account name",
+                "swipe down to see more history records"
+            ],
+            "图片保存":[
+                "open kuake app",
+                "tap the search box in the middle of the page",
+                "type the search query content in the input box",
+                "tap the right-pointing arrow in a blue box at the right corner of the search box",
+                "swipe down to see more",
+                "tap a image in the search results",
+                "tap the download button with a downward pointing arrow in box under the image"
+            ]
+        }
+    },
+    {
+        "id": 16,
+        "app_name": "猫眼",
+        "brief_introduction": "综合票务类应用，涵盖电影、演出、玩乐领域，可在线选座优惠购电影票，也能获取精彩演出信息，提供一站式票务与资讯服务。",
+        "icon_description": "红色圆形图标，内部有白色卡通猫眼形象，可爱醒目，传递娱乐票务平台属性。",
+        "ui_description": " ",
+        "common_functions":   [
+            "电影票购买",
+            "电影搜索",
+            "添加电影到想看",
+            "查看电影评价",
+            "影视点评",
+            "分享电影给好友"
+        ],
+        "action_object_str": {
+    "电影票购买":[
+        "open maoyan app",
+        "tap the search box at the top",
+        "type the search query content in the input box",
+        "tap the 'sousuo button in red font at the right side of the search box",
+        "tap the first movie link in the search results",
+        "tap the 'gou piao' button in a red box at the bottom of the page",
+        "tap the first theater in the  selectiolist ",
+        "tap the 'gou piao' button in a red border box in the show list",
+        "tap the blind square symbol in the seat list to select the seat",
+        "tap the 'que ren xuan zuo' button in a red box at the bottom of the page",
+        "tap the 'que ren zhi fu' button in a red box at the right bottom of the page"
+
+    ],
+    "电影搜索":[
+        "open maoyan app",
+        "tap the search box at the top",
+        "type the search query content in the input box",
+        "tap the 'sousuo button in red font at the right side of the search box",
+        "swipe down to see more results"
+    ],
+    "添加电影到想看":[
+        "open maoyan app",
+        "tap the search box at the top",
+        "type the search query content in the input box",
+        "tap the 'sousuo button in red font at the right side of the search box",
+        "tap the first movie link in the search results",
+        "tap the 'xiang kan' button in a light white box under the movie name "
+    ],
+    "查看电影评价":[
+        "open maoyan app",
+        "tap the search box at the top",
+        "type the search query content in the input box",
+        "tap the 'sousuo button in red font at the right side of the search box",
+        "tap the first movie link in the search results",
+        "swipe down the page to view movie comments",
+        "tap the 'cha kan quan bu' button in red font at the bottom of the comments to see all reviews"
+    ],
+    "影视点评":[
+        "open maoyan app",
+        "tap the people in circle icon at the right bottom of the page",
+        "tap 'xiangkan/kan guo' button under the account name",
+        "tap  the 'kan guo' text button above the page",
+        "tap the 'ping fen' button in a red box at the right of the movie link",
+        "tap the grey star to rate the movie",
+        "tap the review box below the rating",
+        "type the movie comment content in the input box",
+        "tap the 'fa bu' button in a red box at the upper right corner of the input box"
+    ],
+    "分享电影给好友":[
+        "open maoyan app",
+        "tap the search box at the top",
+        "type the search query content in the input box",
+        "tap the 'sousuo button in red font at the right side of the search box",
+        "tap the first movie link in the search results",
+        "tap the right-pointing arrow in a box for sharing at the right corner of the top page",
+        "tap the wechat icon with text 'wei xin hao you' below it",
+        "tap the search bar above",
+        "type the friend name in the input box",
+        "tap the first friend in the search results",
+        "tap the 'send' button in a green box "
+    ]
+}
+    },
+    {
+        "id": 17,
+        "app_name": "大麦 00 ",
+        "brief_introduction": "综合票务类应用，提供演出、赛事等票务服务，有领券、新鲜演出推荐、专题演出聚合等板块，满足各类票务需求。",
+        "icon_description": "彩色扇形背景，带有白色相关标志，色彩丰富，传递演出票务的多元与活力。",
+        "ui_description": " ",
+        "common_functions":   [
+            "演唱会购票",
+            "演唱会添加预约",
+            "音乐节购票",
+            "livehouse购票",
+            "话剧购票",
+            "订单管理",
+            "发布演出评价",
+            "场馆导航",
+            "客服咨询"
+        ],
+        "action_object_str": {
+            "演唱会购票":[
+                "open damai app",
+                "tap the search box at the top",
+                "type the search query content in the input box",
+                "tap the 'sousuo button in red font at the right side of the search box",
+                "tap the first movie link in the search results",
+                "tap the 'gou piao' button in a red box at the bottom of the page"
+            ],
+            "演唱会添加预约":[
+                "open damai app",
+                "tap the search box at the top",
+                "type the search query content in the input box",
+                "tap the 'sousuo button in red font at the right side of the search box",
+                "tap the first movie link in the search results",
+                "tap the 'yuyue' button in a red box at the bottom of the page"
+            ],
+            "音乐节购票":[
+                "open damai app",
+                "tap the search box at the top",
+                "type the search query content in the input box",
+                "tap the 'sousuo button in red font at the right side of the search box",
+                "tap the first movie link in the search results",
+                "tap the 'gou piao' button in a red box at the bottom of the page"
+            ],
+            "livehouse购票":[
+                "open damai app",
+                "tap the search box at the top",
+                "type the search query content in the input box",
+                "tap the 'sousuo button in red font at the right side of the search box",
+                "tap the first movie link in the search results",
+                "tap the 'gou piao' button in a red box at the bottom of the page"
+            ],
+            "话剧购票":[
+                "open damai app",
+                "tap the search box at the top",
+                "type the search query content in the input box",
+                "tap the 'sousuo button in red font at the right side of the search box",
+                "tap the first movie link in the search results",
+                "tap the 'gou piao' button in a red box at the bottom of the page"
+            ],
+            "订单管理":[
+                "open damai app",
+                "tap the search box at the top",
+                "type the search query content in the input box",
+                "tap the 'sousuo button in red font at the right side of the search box",
+                "tap the first movie link in the search results",
+                "tap the 'ding dan guan li' button in a red box at the bottom of the page"
+            ],
+            "发布演出评价":[
+                "open damai app",
+                "tap the search box at the top",
+                "type the search query content in the input box",
+                "tap the 'sousuo button in red font at the right side of the search box",
+                "tap the first movie link in the search results",
+                "tap the 'ping fen' button in a red box at the right of the movie link"
+            ],
+            "场馆导航":[
+                "open damai app",
+                "tap the search box at the top",
+                "type the search query content in the input box",
+                "tap the 'sousuo button in red font at the right side of the search box",
+                "tap the first movie link in the search results",
+                "tap the 'chang guan dao hang' button in a red box at the bottom of the page"
+            ],
+            "客服咨询":[
+                "open damai app",
+                "tap the search box at the top",
+                "type the search query content in the input box",
+                "tap the 'sousuo button in red font at the right side of the search box",
+                "tap the first movie link in the search results",
+                "tap the 'kefu' button in a red box at the bottom of the page"
+            ]
+        }
+    },
+    {
+        "id": 18,
+        "app_name": "美团",
+        "brief_introduction": "综合服务类应用，覆盖同城生活各场景，可满足吃喝玩乐等需求，提供多元生活服务，助力便捷生活。",
+        "icon_description": "黄色背景，带有白色 “美团” 文字及相关标志，色彩明快，传递生活服务的丰富与便捷感。",
+        "ui_description": " ",
+        "common_functions":   [
+            "外卖订购",
+            "酒店预订",
+            "团购优惠",
+            "电影票购买",
+            "商家搜索",
+            "用户评价",
+            "客服咨询"
+        ],
+        "action_object_str": {
+            "外卖订购":[
+                "open the meituan app ",
+                "tap Kangaroo icon with 'wai mai' below it ",
+                "tap the search bar above",
+                "type the take-out message",
+                "tap the black text button 'search' at the right of search bar",
+                "tap a search result to enter detail page"],
+            "酒店预订":[
+                "open the meituan app ",
+                "tap hotel icon with 'jiudianminsu' below it ",
+                "tap the destination and time to confirm hotel information ",
+                "tap the 'zhao jiu dian' text button in a yellow box",
+                "tap a search result to enter detail page and book"],
+            "团购优惠":[
+                "open the meituan app ",
+                "tap camera holder with 'tuan' logo with 'tuan gou' below it ",
+                "tap the search bar above",
+                "type the product  message",
+                "tap the yellow text button 'search' at the right of search bar",
+                "tap a search result to enter purchase page"],
+            "电影票购买":[
+                "open the meituan app ",
+                "tap 'maoyan' logo with 'dianyingyanchu' below it ",
+                "tap the right-pointing arrow symbol at the right of the 'zhengzaireying",
+                "swide down the screen to see more movies",
+                "tap the movie to enter detail page and buy"],
+            "商家搜索":[
+                "open the meituan app ",
+                "tap the search bar above",
+                "type the marchant  message",
+                "tap the yellow text button 'search' at the right of search bar",
+                "tap a search result to enter purchase page"],
+            "用户评价":[
+                "open the meituan app ",
+                "tap smile face icon at the right bottom with text 'wo de' below it",
+                "type the meassage bubble with text 'daipingjia' below it",
+                "tap the red text button 'qupingjia' in a box at the right of product link",
+                "Type comment about the product",
+                "tap the 'tijiao' button in a yellow box at the right of the top"],
+            "客服咨询":[ 
+                "open the meituan app ",
+                "tap smile face icon at the right bottom with text 'wo de' below it",
+                "tap the 'kefu' button with headphone symbol at The right top"]
+        }   
+    },
+    {
+        "id": 19,
+        "app_name": "大众点评",
+        "brief_introduction": "综合服务类应用，聚焦同城生活，提供吃喝玩乐权威榜单、海量真实点评、网红推荐等内容，是生活种草好帮手。",
+        "icon_description": "橙色背景，带有白色人物形象组成的标志，简洁醒目，传递生活服务与社交属性。",
+        "ui_description": " ",
+        "common_functions":   [
+            "搜索查询",
+            "查看餐馆评价",
+            "收藏商家",
+            "分享商家",
+            "发布评价",
+            "地图导航",
+            "酒店预订"
+        ],
+        "action_object_str": {
+            "搜索查询":[
+                "tap the dazhongdianping app",
+                "tap the search box at the top",
+                "type the search object",
+                "Tap the text 'search' in black font at the right side of the search box"
+            ],
+            "查看餐馆评价":[
+                "tap the dazhongdianping app",
+                "tap the search box at the top",
+                "type the restaurant/attraction name",
+                "Tap the text 'search' in black font at the right side of the search box",
+                "swipe down to see more restaurants/attractions",
+                "tap the restaurant/attraction link to enter detail page",
+                "tap the 'ping jia' button in black font in the middle of the page",
+                "swipe down to see more comments"
+            ],
+            "收藏商家":[
+                "tap the dazhongdianping app",
+                "tap the search box at the top",
+                "type the restaurant/attraction name",
+                "Tap the text 'search' in black font at the right side of the search box",
+                "swipe down to see more restaurants/attractions",
+                "tap the restaurant/attraction link to enter detail page",
+                "tap the black border star icon to save the restaurant/attraction at the right corner of the page top"
+            ],
+            "分享商家":[
+                "tap the dazhongdianping app",
+                "tap the search box at the top",
+                "type the restaurant/attraction name",
+                "Tap the text 'search' in black font at the right side of the search box",
+                "swipe down to see more restaurants/attractions",
+                "tap the restaurant/attraction link to enter detail page",
+                "tap the right pointing arrow in box icon to share the restaurant at the right corner of the  page top",
+                "tap the wechat icon with 'weixinhaoyou' below it to share th to wechat friends",
+                "tap the search box above",
+                "type the friend name",
+                "tap the search result of friend name prepare to send",
+                "tap 'send' button in a green box"
+            ],
+            "发布评价":[
+                "tap the dazhongdianping app",
+                "tap the search box at the top",
+                "type the restaurant/attraction name",
+                "Tap the text 'search' in black font at the right side of the search box",
+                "swipe down to see more restaurants/attractions",
+                "tap the restaurant/attraction link to enter detail page",
+                "tap the 'xie ping jia' button in black font with  pencil and massage bubble icon at the bottom of the page",
+                "tap the star icon to select the star rating",
+                "tap the input box under the star rating",
+                "type the comment content",
+                "tap the camera icon with 'shang chuan zhaop pian' to upload the photo",
+                "tap the 'fa bu' button in a yellow box at the bottom of the page"
+            ],
+            "地图导航":[
+                "tap the dazhongdianping app",
+                "tap the search box at the top",
+                "type the search object",
+                "Tap the text 'search' in black font at the right side of the search box",
+                "tap the location icon with text 'di tu' at the right corner of the top "
+            ],
+            "酒店预订":[
+                "tap the dazhongdianping app",
+                "tap the search box at the top",
+                "type the  content of location and hotel",
+                "Tap the text 'search' in black font at the right side of the search box",
+                "swipe down to see more hotels",
+                "tap the hotel link to enter detail page",
+                "tap the box showing the date in the middle of the page to select the check-in date and check-out date",
+                "swipe down to see more hotels",
+                "tap the hotel link to enter detail page",
+                "tap the 'yu ding' button in blue box ",
+                "tap the 'ti jiao ding dan' to submit the order",
+                
+                "tap the 'ping jia' button in black font in the middle of the page",
+                "swipe down to see more comments",
+                "tap the black border star icon to save the restaurant at the right corner of the page top",
+    
+                "tap the right pointing arrow in box icon to share the restaurant at the right corner of the  page top",
+                "tap the wechat icon with 'weixinhaoyou' below it to share th to wechat friends",
+                "tap the search box above",
+                "type the friend name",
+                "tap the search result of friend name prepare to send",
+                "tap 'send' button in a green box",
+    
+                "tap the 'xie ping jia' button in black font with  pencil and massage bubble icon at the bottom of the page",
+                "tap the star icon to select the star rating",
+                "tap the input box under the star rating",
+                "type the comment content",
+                "tap the camera icon with 'shang chuan zhaop pian' to upload the photo",
+                "tap the 'fa bu' button in a yellow box at the bottom of the page"
+    
+            ]
+        }
+    },
+    {
+        "id": 20,
+        "app_name": "京东",
+        "brief_introduction": "综合类在线商城，支持秒杀、京东酒店预订，上线品牌绿卡等权益，提供丰富商品与多元服务，满足多场景购物需求。",
+        "icon_description": "红色背景，带有白色小狗形象和 “京东” 文字，视觉醒目，传递活泼可靠的品牌气质。",
+        "ui_description": " ",
+        "common_functions":    [
+            "商品浏览",
+            "将商品加入购物车",
+            "订单物流查询",
+            "发布商品评价",
+            "商品购买",
+            "商品搜索",
+            "客服咨询",
+            "新增地址",
+            "售后服务",
+            "外卖配送",
+            "软件设置"
+        ],
+        "action_object_str": {
+            "商品浏览":[
+                "tap jingdong app",
+                "tap the search box at the top",
+                "type the search object",
+                "Tap the text 'search' in a red box",
+                "Swipe down the search list"],
+            "将商品加入购物车":[
+                "tap jingdong app",
+                "tap the search box at the top",
+                "type the search object",
+                "Tap the text 'search' in a red box",
+                "Swipe down the search list",
+                "tap the product to enter the product page",
+                "Tap text 'jiarugouwuche' in a brown box at the botton",
+                "Tap 'queding' button in a red box at the botton"],
+            "订单物流查询":[
+                "Tap the jingdong app",
+                "Tap the brief upper body portrait icon with 'wode' at the botton",
+                "Tap on the 'daishouhuo' with a parcel icon",
+                "Tap on the 'Logistics Tracking' in the box"],
+            "发布商品评价":[
+                "Tap the jingdong app",
+                "Tap the brief upper body portrait icon with 'wode' at the botton ",
+                "Tap the message icon with text 'daipingjia' in the middle of screen",
+                "Tap a product link to enter comment web",
+                "Type comment about the product",
+                "Tap the send button in a red box"],
+            "商品购买":[
+                "tap jingdong app",
+                "tap the search box at the top",
+                "type the search object",
+                "Tap the text 'search' in a red box",
+                "Swipe down the search list",
+                "tap the product to enter the product page",
+                "tap the 'lijigoumai' button in a red box at the botton",
+                "Tap the 'lijizhifu' button in a red box at the botton"
+            ],
+            "商品搜索":[
+                "tap jingdong app",
+                "tap thr search box at the top",
+                "type the search object",
+                "Tap the text 'search' in a red box"],
+            "客服咨询":[
+                "tap jingdong app",
+                "tap thr search box at the top",
+                "type the search object",
+                "Tap the text 'search' in a red box",
+                "Tap product link search list to enter product page",
+                "Tap the 'kefu' button with message bubble symbol at The Bottom"
+            ],
+            "新增地址":[
+                "Tap the jingdong app",
+                "Tap the brief upper body portrait icon with 'wode' at the botton",
+                "Tap the location icon with text 'dizhi' at the right top",
+                "Tap the button 'xinzengshouhuodizhi' in a red box",
+                "tyoe the  address content ",
+                "tap 'que ren' button in the red box"],
+            "售后服务":[
+                "Tap the jingdong app",
+                "Tap the brief upper body portrait icon with 'wode' at the botton",
+                "tap the currency symbol in circle  in the middle of screen",
+                "tap the 'shou hou' button in red border box",
+                "Tap a service to further"],
+            "外卖配送":[
+                "Tap the jingdong app",
+                "tap 'miao song' button at the top",
+                "Tap 'wai mai' button with brown take-out box",
+                "Tap the search bar above",
+                "Type the take-out content",
+                "Select a choice to further"
+            ],
+            "软件设置":[
+                "Tap the jingdong app",
+                "Tap the brief upper body portrait icon with 'wode' at the botton",
+                "tap the 'shezhi' with four-square icon at the right corner of the top",
+                "Tap the sub configuration to further"
+            ]
+        }
+    },
+    {
+        "id": 21,
+        "app_name": "淘宝",
+        "brief_introduction": "综合类在线商城，可闪购、点外卖，有淘宝内购、天猫超级 88 等优惠活动，涵盖多元购物与生活服务场景。",
+        "icon_description": "橙色背景，带有白色 “淘” 字及卡通元素，色彩鲜明，凸显平台的热闹与丰富性。",
+        "ui_description": " ",
+        "common_functions":   [
+            "商品搜索",
+            "下单购买",
+            "购物车管理",
+            "发布商品评价",
+            "将商品加入购物车",
+            "订单物流查询",
+            "客服咨询",
+            "新增地址",
+            "外卖配送",
+            "售后服务",
+            "软件设置"
+        ],
+        "action_object_str": {
+            "商品搜索":[
+                "open the taobao app ",
+                "tap the search bar at the top ",
+                "type the product message",
+                "tap the red text button 'search' at the right of search bar"],
+            "下单购买":[
+                "open the taobao app ",
+                "tap the search bar at the top ",
+                "type the product message",
+                "tap the red text button 'search' at the right of search bar",
+                "tap a product link to enter product page",
+                "tap the 'lijigoumai' button in a red box at the botton",
+                "Tap the 'lijizhifu' button in a red box at the botton"],
+            "加入购物车":[
+                "open the taobao app ",
+                "tap the search bar at the top ",
+                "type the product message",
+                "tap the red text button 'search' at the right of search bar",
+                "tap a product link to enter product page",
+                "tap the 'jia ru gou wu che' button in a yelow box at the botton"],
+            "发布商品评价":[
+                "open the taobao app ",
+                "tap smile face icon at the right bottom with text 'wo de tao bao' below it",
+                "type the meassage bubble with text 'daipingjia' below it",
+                "tap the red text button 'pingjia' in a box at the right of product link",
+                "Type comment about the product",
+                "tap the 'fabu' button in a red box at the botton"],
+            "将商品加入购物车":[
+                "open the taobao app ",
+                "tap the search bar at the top ",
+                "type the product message",
+                "tap the red text button 'search' at the right of search bar",
+                "tap a product link to enter product page",
+                "tap the 'jia ru gou wu che' button in a yelow box at the botton"],
+            "订单物流查询":[
+                "open the taobao app ",
+                "tap smile face icon at the right bottom with text 'wo de tao bao' below it",
+                "tap the van symbol with text 'dai shou huo' below it",
+                "tap the 'cha kan wu liu' button in grey box under the product link"],
+            "客服咨询":[
+                "open the taobao app ",
+                "tap the search bar at the top ",
+                "type the product message",
+                "tap the red text button 'search' at the right of search bar",
+                "tap a product link to enter product page",
+                "tap the 'kefu' button with message bubble symbol at The left bottom"],
+            "新增地址":[
+                "open the taobao app ",
+                "tap smile face icon at the right bottom with text 'wo de tao bao' below it",
+                "tap the location icon with text 'dizhi' at the right top",
+                "tap the 'xin zeng di zhi' red text button at the right top",
+                "type the address message",
+                "tap 'bao cun di zhi' red text button at the right top"],
+            "外卖配送":[
+                "open the taobao app ",
+                "tap 'shan song' button at the top",
+                "tap the search bar above",
+                "Type the take-out content",
+                "tap the blue text button 'search' at the right of search bar",
+                "Select a choice to further"],
+            "售后服务":[
+                "open the taobao app ",
+                "tap smile face icon at the right bottom with text 'wo de tao bao' below it",
+                "tap the currency symbol in circle  in the middle of screen"],
+            "软件设置":[
+                "open the taobao app ",
+                "tap smile face icon at the right bottom with text 'wo de tao bao' below it",
+                "tap the 'shezhi' with gear symbol at the right corner of the top",
+                "Tap the sub configuration to further"]
+        }
+    },
+    {
+    
+        "id": 22,
+        "app_name": "拼多多",
+        "brief_introduction": "特价类在线商城，主打省钱购物，有百亿补贴、多多买菜、9 块 9 秒杀等特色板块，提供高性价比商品。",
+        "icon_description": "红色背景，带有白色几何图案组成的标志，简洁大方，突出 “拼团”“实惠” 的核心特点。",
+        "ui_description": " ",
+        "common_functions":   [
+            "0商品购买",
+            "0商品搜索",
+            "0商品收藏",
+            "查看商品记录",
+            "0查看商品评价",
+            "0新增地址",
+            "0订单物流查询",
+            "0客服咨询",
+            "软件设置",
+            "售后服务"
+        ],
+        "action_object_str": {
+            "商品购买":[
+                "open the pinduoduo app",
+                "Tap on a product to enter purchase web",
+                "Tap on the'lijipincheng'"
+
+            ],
+            "商品搜索":[
+                "open the pinduoduo app ",
+                "Tap on the search bar at the top",
+                "Type the product",
+                "tap the text 'search' at the right of search bar"
+
+            ],
+            "商品收藏":[                           
+                "open the pinduoduo app ",
+                "Tap on the search bar at the top",
+                "Type the product",
+                "tap the text 'search' at the right of search bar",
+                "tap a product link to enter ",
+                "Tap On The Heart Symbol with text 'shoucang' at The Bottom"
+
+            ],
+            "查看商品记录":[
+                "open the pinduoduo app ",                    
+                "Tap on the 'gerenzhongxin' with happy face icon at the buttom",                       
+                "Tap on the 'My order' to enter record list"
+            ],
+            "查看商品评价":[
+                "open the pinduoduo app ",
+                "Tap on the search bar at the top",
+                "Type the product",
+                "tap the text 'search' at the right of search bar",
+                "tap a product link to enter ",
+                "swipe Down the screen",
+                "Tap on 'Product Review' to enter review list"
+            ],
+            "新增地址":[
+                "open the pinduoduo app ",
+                "Tap on the 'gerenzhongxin' with happy face icon at the buttom",
+                "Tap  the' Address' at the left top",
+                "Tap on the 'Add New Address'",
+                "type the address message",
+                "tap 'baocun' button in a red box"
+            ],
+            "售后服务":[
+                "open the pinduoduo app ",
+                "Tap on the 'gerenzhongxin' with happy face icon at the buttom",
+                "Tap on the'My order'",
+                "Tap on the 'AfterSales Service'"
+            ],
+            "客服咨询":[
+                "open the pinduoduo app ",
+                "Tap on the search bar at the top",
+                "Type the product",
+                "tap the text 'search' at the right of search bar",
+                "tap a product link to enter ",
+                "Tap 'kefu' with message bubble symbol at The Bottom"
+            ],
+            "物流查询":[
+                "open the pinduoduo app ",
+                "Tap on the 'gerenzhongxin' with happy face icon at the buttom",
+                "Tap on the 'daishouhuo' with a van icon",
+                "Tap on the 'Logistics Tracking' in the box"],
+            "app 设置":[
+                "open the pinduoduo app ",
+                "Tap on the 'gerenzhongxin' with happy face icon at the buttom",
+                "Tap on the 'Settings' with a gear symbol at the right top"
+            ]
+        }
+            
+    },
+    {
+        "id": 23,
+        "app_name": "微信",
+        "brief_introduction": "一款广受欢迎的社交应用，可用于好友聊天社交，支持消息列表管理、群聊互动以及语音输入等功能，方便用户日常沟通交流。",
+        "icon_description": "绿色背景的方形图标，上面有两个白色的聊天气泡图案，简洁明了，极具辨识度。",
+        "ui_description": " ",
+        "common_functions":   [
+            "发送消息",
+            "语音通话",
+            "发布朋友圈",
+            "扫码支付",
+            "公众号订阅",
+            "小程序使用",
+            "添加好友",
+            "朋友圈点赞",
+            "红包发送",
+            "朋友圈评论"
+        ],
+        "action_object_str": {
+    "发送消息":[
+        "open the wechat app ",
+        "tap magnifier at the right top",
+        "type the friend name in the search box",
+        "tap a friend to enter chat page" ,
+        "tap the input bar  at the bottom",
+        "type the chat message ",
+        "tap the text button 'send' in a green box"],
+    "语音/视频通话":[
+        "open the wechat app ",
+        "tap magnifier at the right top",
+        "type the friend name in the search box",
+        "tap a friend to enter chat page" ,
+        "tap the plus sign in circle at the right of the input bar",
+        "tap the video camera symbol with text 'shi ping tong hua' below it",
+        "tap the text button 'shi ping tong hua' with a video camera icon on the left",
+        "tap the text button 'yu yin tong hua' with a phonecall icon on the left"],
+    "发布朋友圈":[
+        "open the wechat app ",
+        "tap the compass symbol with 'fa xian' below it at the  bottom of the screen",
+        "tap the text button 'peng you quan' with Kaleidoscope icon on the left",
+        "tap the white camera icon at the right corner of the top",
+        "tap the selection of text button 'cong xiang ce zhong xuan ze'",
+        "swipe up and down to see more pictures",
+        "tap the blank circle in the upper right corner of the image to select it and click no more than 9 pictures",
+        "tap the text button 'wancheng'in a green box at the right bottom",
+        "tap the input box at the top and type the content of the moments",
+        "tap the text button 'fa biao' in a green box at the right top"],
+    "扫码支付":[
+        "open the wechat app ",
+        "tap the plus sign in circleat the right top",
+        "tap the frame gesture symbol with text 'sao yi sao' at the right of it"],
+    "公众号订阅":[
+        "open the wechat app ",
+        "tap magnifier at the right top",
+        "type the official account name in the search box",
+        "tap the search result of official account in the list",
+        "tap the the official account to enter detail page",
+        "tap the text button 'guan zhu gong zhong hao' in a green box"],
+    "小程序使用":[
+        "open the wechat app ",
+        "tap magnifier at the right top",
+        "type the mini program name in the search box",
+        "tap the search result of mini program to enter detail page",
+        "tap the detailed functions of the mini program"],
+    "添加好友":[
+        "open the wechat app ",
+        "tap the plus sign in circleat the right top",
+        "tap the upper body portrait with plus sign and text 'tian jia hao you' at the right of it"],
+    "朋友圈点赞":[
+        "open the wechat app ",
+        "tap the compass symbol with text 'fa xian' below it",
+        "tap the text button 'peng you quan' with kaleidoscope symbol on the left",
+        "swipe up and down to see more moments",
+        "tap the ellipses with two dots in the lower right corner of the moment",
+        "tap the heart symbol with text 'zan'"],
+    "红包发送":[
+        "open the wechat app ",
+        "tap magnifier at the right top",
+        "type the friend name",
+        "tap a friend to enter chat page" ,
+        "tap the plus sign in circle at the right of the input bar",
+        "tap the black red envelope symbol with text 'hongbao' below it",
+        "type the red envelope amount in the input box at the top",
+        "tap the text button 'sai qian jin hong bao' to send the red envelope"],
+    "朋友圈评论":[
+        "open the wechat app ",
+        "tap the compass symbol with text 'fa xian' below it",
+        "tap the text button 'peng you quan' with kaleidoscope symbol on the left",
+        "swipe up and down to see more moments",
+        "tap the ellipses with two dots in the lower right corner of the moment",
+        "tap the message dialog box symbol with text 'ping lun' at the right of the moment",
+        "type the comment content in the input bar",
+        "tap the text button 'send' in a green box at the right of the input bar"]
+}
+
+    },
+    
+    {
+        "id": 24,
+        "app_name": "小红书",
+        "brief_introduction": "综合社区类应用，提供多元的发帖方式，用户可分享高质量的图片内容，还能进行探店等各类体验的分享，是生活方式与经验交流的平台。",
+        "icon_description": "红色背景的方形图标，上面有白色的 “小红书” 文字，简洁醒目，风格清新。",
+        "ui_description": " ",
+        "common_functions":   [
+            "浏览笔记",
+            "发布笔记",
+            "搜索笔记",
+            "关注用户",
+            "评论互动",
+            "收藏内容",
+            "转发笔记"
+        ],
+"action_object_str": {
+    "浏览笔记":[
+        "open xiaohongshu app",
+        "tap a note box to enter",
+        "swipe left and right to view the picture"],
+    "发布笔记":[
+       "open xiaohongshu app",
+        "tap the Plus sign in a red box at the bottom",
+        "tap 'xiewenzi'",
+        "type the content of note ",
+        "tap 'xiayibu'in the red box at the top",
+        "tap 'xiayibu'in the red box on the bottom ",
+        "tap 'fabubiji'in the red box on the bottom"],
+    "搜索笔记":[
+        "open xiaohongshu app",
+        "tap the search  box above",
+        "type the search content 'trpo'",
+        "tap the search result of 'trpo ",
+        "tap the blog's box to enter"],
+    "关注用户":[
+        "open xiaohongshu app",
+        "tap the search  box above",
+        "type the search blogger  'jiqizhixin'",
+        "tap 'search' on the right of search box ",
+        "tap the 'focus' button in the red rounded box"],
+    "评论互动":[
+        "open xiaohongshu app",
+        "tap the search  box above",
+        "type the search content 'jiqizhixin'",
+        "tap 'search' on the right of search box ",
+        "tap the blog box to enter",
+        "tap the input box on the left of button with a pencil icon",
+        "type the comment of 'who is the heart of machine'",
+        "tap the 'send' button in the red box"],
+    "收藏内容":[
+        "open xiaohongshu app",
+        "tap the search  box above",
+        "type the search content 'jiqizhixin'",
+        "tap 'search' on the right of search box ",
+        "tap the blog box to enter",
+        "tap the star icon on the bottom"],
+    "转发笔记":[
+        "open xiaohongshu app",
+        "tap the search  box above",
+        "type the search content 'jiqizhixin'",
+        "tap 'search' on the right of search box ",
+        "tap the blog box to enter",
+        "tap the right-pointing arrow for sharing",
+        "tap 'weixinhaoyou' with 'two bubbles in the green circle' icon",
+        "tap the search box above",
+        "type the friend name 'rui'",
+        "tap the friend 'rui' prepare to send",
+        "tap 'send' button in a green box"]
+
+}
+
+    },
+    {
+        "id": 25,
+        "app_name": "知乎",
+        "brief_introduction": "综合社区类应用，首页内容可根据用户需求进行每帧升级快速定位，有专业可信的 AI 搜题功能，还能实现博客与优质内容的精准结合，是知识分享与获取的平台。",
+        "icon_description": "蓝色背景的方形图标，上面有白色的 “知乎” 文字，简洁清新，富有文化气息。",
+        "ui_description": " ",
+        "common_functions":   [
+            "提问问题",
+            "回答问题",
+            "浏览热点",
+            "关注用户",
+            "点赞推文",
+            "搜索内容",
+            "收藏推文",
+            "推文评论",
+            "分享推文"
+        ],
+        "action_object_str": {
+            "提问问题":[
+                "open the zhihu app ",
+                "Tap  the blue plus sign below",
+                " Tap the 'ask question' text button",
+                "Type the question",
+                "tap the 'send' text button in a blue box"],
+            "回答问题":[
+                "open the zhihu app ",
+                "Tap a question blog to enter details page",
+                "tap the book and pencil icon with blue text 'xie hui da' at the right corner top",
+                "type the answer",
+                "tap  blue 'fa bu' button at the right corner top"],
+            "浏览热点":[
+                "open the zhihu app ",
+                "Tap the 're bang' text button at the top ",
+                "swipe down the screen and tap a question blog to enter detail page"],
+            "关注用户":[
+                "open the zhihu app ",
+                "tap a question blog to enter detail page ",
+                "tap the focus blue text button with plus sign in a box"],
+            "点赞推文":[
+                "open the zhihu app ",
+                "tap a question blog to enter detail page ",
+                "tap the equilateral triangle symbol at the bottom"
+            ],
+            "搜索内容":[
+                "open the zhihu app ",
+                "tap the search box above",
+                "type the search content",
+                "tap the search result to enter detail page"],
+            "收藏推文":[
+                "open the zhihu app ",
+                "tap a question blog to enter detail page ",
+                "tap the star symbol at the bottom to collection"],
+            "推文评论":[
+                "open the zhihu app ",
+                "tap a question blog to enter detail page ",
+                "tap the massage bubble icon at the bottom to enter comment area",
+                "tap the input bar at the bottom",
+                "type the comment content",
+                "tap the 'fa bu' text button to post"],
+            "分享推文":[
+                "open the zhihu app ",
+                "tap a question blog to enter detail page ",
+                "tap the vertical ellipsis symbol for sharing at the right corner of the bottom",
+                "tap the wechat icon like two bubbles in the green circle with text 'weixinhaoyou' below it",
+                "tap the search box above",
+                "type the friend name ",
+                "tap the search result of friend name prepare to send",
+                "tap 'send' button in a green box"]
+        }
+    },
+    {
+        "id": 26,
+        "app_name": "高德地图",
+        "brief_introduction": "提供地图导航、旅行交通等服务，支持 AI 领航、AI 问侧、AI 沿途避等功能，可进行高德打车，满足多场景出行需求。",
+        "icon_description": "蓝绿色为主色调，呈类似纸飞机的简约抽象造型，风格清新，凸显导航出行的轻快便捷。",
+        "ui_description": " ",
+        "common_functions": [
+            "目的地导航",
+            "查看目的地周围的餐厅",
+            "查看目的地周围的景点",
+            "查看目的地周围的酒店",
+            "分享位置",
+            "收藏位置",
+            "打车出行"
+        ],
+        "action_object_str": {
+            "目的地导航":[
+                "open the gaode map app",
+                "tap the search box with magnifier icon in the middle of the screen",
+                "type the destination location",
+                "tap the'sou suo' text button in blue font at the right side of the search box",
+                "tap the first search result in the list",
+    
+                "tap the black border star icon to save the location",
+                "tap the upward pointing arrow in box icon with 'fen xiang' below it to share the location ",
+                "tap wechat icon with 'weixin' below it to share the location to wechat friends",
+                "tap the search box above",
+                "type the friend name",
+                "tap the search result of friend name prepare to send",
+                "tap 'send' button in a green box",
+    
+                "tap 'lu xian' button in the blue box at the bottom of the page",
+                "tap 'kai shi dao hang' button in the blue box at the bottom of the page"
+            ],
+            "查看目的地周围的餐厅":[
+                "open the gaode map app",
+                "tap the search box with magnifier icon in the middle of the screen",
+                "type the destination location",
+                "tap the'sou suo' text button in blue font at the right side of the search box",
+                "tap the first search result in the list",
+    
+                "tap magnifier icon with 'zhou bian' below it at the left corner of the page bottom", 
+                "tap the spoon and fork in yellow box with 'mei shi' below it at the top column",
+                "swipe down to see more restaurants",
+                "tap a restaurant to view more information",
+                "tap 'lu xian' button in the blue box at the bottom of the page",
+                "tap 'kai shi dao hang' button in the blue box at the bottom of the page",
+    
+                "tap the black border star icon to save the restaurant",
+                "tap the upward pointing arrow in box icon with 'fen xiang' below it to share the restaurant ",
+                "tap wechat icon with 'weixin' below it to share the restaurant to wechat friends",
+                "tap the search box above",
+                "type the friend name",
+                "tap the search result of friend name prepare to send",
+                "tap 'send' button in a green box"
+            ],
+            "查看目的地周围的景点":[
+                "open the gaode map app",
+                "tap the search box with magnifier icon in the middle of the screen",
+                "type the destination location",
+                "tap the'sou suo' text button in blue font at the right side of the search box",
+                "tap the first search result in the list",
+    
+                "tap magnifier icon with 'zhou bian' below it at the left corner of the page bottom", 
+                "tap the architecture icon in green box with 'jing dian' below it at the top column",
+                "swipe down to see more attractions",
+                "tap a attraction to view more information",
+                "tap 'lu xian' button in the blue box at the bottom of the page",
+                "tap 'kai shi dao hang' button in the blue box at the bottom of the page",
+    
+                "tap the black border star icon to save the attraction",
+                "tap the upward pointing arrow in box icon with 'fen xiang' below it to share the attraction ",
+                "tap wechat icon with 'weixin' below it to share the attraction to wechat friends",
+                "tap the search box above",
+                "type the friend name",
+                "tap the search result of friend name prepare to send",
+                "tap 'send' button in a green box"
+            ],
+            "查看目的地周围的酒店":[
+                "open the gaode map app",
+                "tap the search box with magnifier icon in the middle of the screen",
+                "type the destination location",
+                "tap the'sou suo' text button in blue font at the right side of the search box",
+                "tap the first search result in the list",
+    
+                "tap magnifier icon with 'zhou bian' below it at the left corner of the page bottom", 
+                "tap the hotel icon in blue box with 'jiu dian' below it at the top column",
+                "swipe down to see more hotels",
+                "tap a hotel to view more information",
+                "tap 'lu xian' button in the blue box at the bottom of the page",
+                "tap 'kai shi dao hang' button in the blue box at the bottom of the page",
+    
+                "tap the black border star icon to save the hotel",
+                "tap the upward pointing arrow in box icon with 'fen xiang' below it to share the hotel ",
+                "tap wechat icon with 'weixin' below it to share the hotel to wechat friends",
+                "tap the search box above",
+                "type the friend name",
+                "tap the search result of friend name prepare to send",
+                "tap 'send' button in a green box"
+    
+            ],
+            "打车出行":[
+                "open the gaode map app",
+                "tap the paper plane icon with 'da che' text below it at the bottom of the page",
+                "tap the search box above",
+                "type the destination location",
+                "tap the first search result in the list",
+                "tap 'li ji da che' button in blue box at the bottom of the page"
+            ]
+        }
+    },
+    {
+        "id": 27,
+        "app_name": "携程旅行",
+        "brief_introduction": "涵盖旅行、订票酒店等服务，可预订酒店及民宿、机票、火车票，提供一站式旅行出行服务。",
+        "icon_description": "蓝色背景，带有橙色 “CTRIP” 字样和海豚造型，色彩鲜明，传递旅行的活力与探索感。",
+        "ui_description": " ",
+        "common_functions":   [
+            "信息搜索",
+            "预订机票",
+            "酒店搜索",
+            "火车票购买",
+            "旅游攻略查看",
+            "租车服务",
+            "行程规划",
+            "app设置",
+            "客服咨询"
+        ],
+"action_object_str": {
+    "信息搜索":[
+        "open xiecheng app",
+        "tap the search box above",
+        "type the search content",
+        "tap the 'sou suo' text button in  box at the right side of the search box",
+        "swipe down to see more search results",
+        "tap a search result link to enter detail page"
+    ],
+    "预订机票":[
+        "open xiecheng app",
+        "tap the airplane icon box with text 'jipiao' above",
+        "tap and select the departure location ",
+        "tap and select the destination ",
+        "tap and select the departure date",
+
+        "tap 'search' button in blue box",
+        "tap the  airline in the list",
+        "tap the 'book' text button in the blue box to book ticket"
+    ],
+     "酒店搜索":[
+        "open xiecheng app",
+        "tap the hotel icon box with text 'jiudian' above",
+        "tap chaxun in the blue box",
+        "tap a  hotel choice in the list"
+    ],
+    "火车票购买":[
+        "open xiecheng app",
+        "tap the train icon box with text 'huochepiao' above ",
+        "tap chaxun in the red box",
+        "tap a  train choice in the list",
+        "tap the 'ding' in the yellow box to book ticket"
+    ],
+    "旅游攻略查看":[
+        "open xiecheng app",
+        "tap the book icon box with text 'gonglue/jingdian' above ",
+        "tap search box above",
+        "type the destination 'chuanxi'",
+        "tap the serach result of' chuanxi'",
+        "tap chaxun travel blog box with a figure"
+    ],
+    "租车服务":[
+        "open xiecheng app",
+        "tap the car icon box with text 'zuche' above",
+        "tap 'chaxun'  button in the red box  ",
+        "tap the serach result of car",
+        "tap 'xiangqing' button with the right square bracket icon",
+        "tap the 'yuding' button in the blue box on the bottom"
+    ],
+    "行程规划":[
+        "open xiecheng app",
+        "tap the road map arrows icon box with text 'xianluguihua' ",
+        "tap search box with a magnifying glass icon",
+        "tap a image with destination name which is below the image",
+        "tap the 'xiayibu' in the blue box",
+        "tap 'zhinangtuijian' in the blue box",
+        "tap a  mapline choice in the search list",
+        "tap the 'baocunbingbianjixianlu' button in the blue box on the bottom"
+    ],
+    "app设置":[
+        "open xiecheng app",
+        "tap  the letter v diamond icon with 'wode'",
+        "tap the gear icon with 'shezhi'top of the screen ",
+        "tap tap subconfiguration in the list "
+    ],
+    "客服咨询":[
+        "open xiecheng app",
+        "tap  the letter v diamond icon with 'wode'",
+        "tap the  icon of people and message with text 'kefu' ",
+
+        "tap  the  icon of people and message' with text 'zaixianzixun' on the bottom",
+
+        "tap the sub-business in the screenshot"
+    ]
+}
+
+
+    },
+
+    {
+        "id": 28,
+        "app_name": "去哪儿旅行",
+        "brief_introduction": "提供旅行、订票酒店服务，可预订国内国际酒店、机票、火车票，为出行提供多样选择。",
+        "icon_description": "带有骆驼造型元素，背景色彩丰富，传递旅行探索氛围，体现旅行服务属性。",
+        "ui_description": " ",
+        "common_functions":   [
+            "机票预定",
+            "酒店预订",
+            "火车票预订",
+            "信息搜索",
+            "租车服务"
+        ],
+"action_object_str": {
+    "机票预定":[
+        "open qunaer app",
+        "tap the airplane icon in blue box with text 'jipiao' in the second column of page top",
+        "tap on the left side of the first column to select your start location",
+        "tap on the right side of the first column to select your destination",
+        "tap the second column to select your start date",
+        "tap the 'sou suo' text button in red box in the middle of the page",
+        "swipe down to see more airlines",
+        "tap the airline choice in the list",
+        "tap the 'ding' in the red box to book ticket",
+        "tap the 'xia yi bu' in orange box to further",
+        "tap the 'qu zhi fu' in orange box to buy"
+    ],
+    "酒店预订":[
+        "open qunaer app",
+        "tap the hotel icon in orange box with text 'jiudian' in the first column of page top",
+        "tap on the left side of the first column to select your destination location",
+        "tap on the right side of the first column to type the detailed location",
+        "tap the second column to select your check-in date and check-out date",
+        "tap the third column to select your rooms and guests",
+        "tap the 'kai shi sou suo' text button in red box in the middle of the page",
+        "swipe down to see more hotels",
+        "tap the hotel choice in the list",
+        "tap the 'ding' in the red box to book ticket",
+        "tap 'ti jiao ding dan' in the red box at the bottom of the page"
+    ],
+    "火车票预订":[
+        "open qunaer app",
+        "tap the train icon box with text 'huoche/gaotie' in the second column of page top",
+        "tap on the left side of the first column to select your start location",
+        "tap on the right side of the first column to select your destination",
+        "tap the second column to select your start date",
+        "tap the 'sou suo' text button in red box in the middle of the page",
+        "swipe down to see more trains",
+        "tap the train choice in the list",
+        "tap the 'ding' in the red box to book ticket",
+        "tap 'pu tong yu ding' in the red box at the bottom of the page",
+        "tap 'qu zhi fu' button in the red box to buy"
+    ],
+    "信息搜索":[
+        "open qunaer app",
+        "tap the search box above",
+        "type the search content",
+        "tap the 'sou suo' text button in blue box at the right side of the search box",
+        "swipe down to see more search results",
+        "tap a search result link to enter detail page"
+    ],
+    "租车服务":[
+        "open qunaer app",
+        "tap the car icon box with text 'zu che zi jia' in the second column of page top ",
+        "tap on the left side of the first column to select your destination location",
+        "tap on the right side of the first column to type the detailed location",
+        "tap the second column to select your check-in date and check-out date",
+        "tap the 'li ji xuan che' button in yellow box in the middle of page",
+        "tap the serach result of car list",
+        "tap 'qu zhi fu' button in orange box at the bottom"
+    ]
+}
+    },
+    {
+        "id": 29,
+        "app_name": "抖音/Tik Tok",
+        "brief_introduction": "评分 3.8 星，涵盖短剧、颜艺、音乐等内容的平台。提供个性推荐，能根据用户喜好推送视频；有社交火花功能，助力用户互动；还有经验频道，可学习各类生活、技能经验。",
+        "icon_description": "黑色背景的方形图标，中间是白色与红色组合的音符形状，简洁且富有辨识度。",
+        "ui_description": " ",
+        "common_functions": [
+            "浏览短视频",
+            "上传视频",
+            "视频搜索",
+            "短视频点赞",
+            "短视频评论",
+            "将视频添加到收藏夹",
+            "关注用户",
+            "分享视频给抖音好友",
+            "查看好友消息"
+        ],
+        "action_object_str": {
+            "浏览短视频":[
+                "open the Tik Tok app",
+                "Swipe down to view the next video",
+                "Swipe up to view the previous video"
+               
+            ],
+            "上传视频":[
+                "open the Tik Tok app",
+                "tap the square symbol with 'xiang ce' text below it at the right side of the screen bottom",
+                "tap the 'shi ping' button at the top options of the page",
+                "tap the blind circle at the right corner of the video prepare to upload",
+                "tap the 'xia yi bu' button in red box",
+                "tap the 'xia yi bu' button in red box again",
+                "tap the description input box under the video",
+                "type the description content",
+                "tap the 'fa bu' button in a red box at the right corner of the page"
+            ],
+            "视频搜索":[
+                "open the Tik Tok app",
+                "tap the magnifier icon in white at the right corner of the top",
+                "type the search content",
+                "tap the 'sou suo' text button in red font at the right side of the search box",
+                "swipe down to see more search results",
+                "tap the video link to view more information"
+            ],
+            "短视频点赞":[
+                "open the Tik Tok app",
+                "tap the white haert icon at the right column of the video page"
+            ],
+            "短视频评论":[
+                "open the Tik Tok app",
+                "tap the ellipsis in white bubble icon to enter comment page",
+                "tap the input box at the bottom",
+                "type the comment content",
+                "tap the picture icon under the input box",
+                "tap a picture from the gallery",
+                "tap the emoji icon under the input box",
+                "swipe down to see more emojis and tap the one you want",
+                "tap the @ icon under the input box",
+                "tap the Tik Tok friend avatar in the list",
+                "tap the 'fa song' button in a red box at the right corner of the comment input box"
+            ],
+            "将视频添加到收藏夹":[
+                "open the Tik Tok app",
+                "tap the white star icon at the right column of the video page"
+            ],
+            "关注用户":[
+                "open the Tik Tok app",
+                "tap the blogger's name below the video or the blogger's avatar in the column on the right",
+                "tap the 'guan zhu' button in a red box under the blogger's introduction"
+            ],
+            "分享视频给抖音好友":[
+                "open the Tik Tok app",
+                "tap the right-pointing arrow icon at the right column of the video page",
+                "swipe right on the Tik Tok friends column and select the friend you want to share with",
+                "tap the 'fen bie fa song' button with paper plane icon in a red box at the right corner of the page"
+            ],
+            "查看好友消息":[
+                "open the Tik Tok app",
+                "tap the 'xiao xi'button at the bottom",
+                "swipe down to see more messages",
+                "tap a friend's avatar in the list to chat"
+            ]
+        }
+    },
+    {
+        "id": 30,
+        "app_name": "哔哩哔哩",
+        "brief_introduction": "评分 4.9 星，作为播放器、长视频平台，有高燃混剪内容；涵盖番剧相关内容，满足动漫爱好者需求；还有手办周边等衍生内容板块。",
+        "icon_description": "粉色背景的方形图标，中间是白色的 “bilibili” 文字缩写 “bilibili” 样式，充满品牌特色。",
+        "ui_description": " ",
+        "common_functions":[
+            "观看番剧和动画",
+            "搜索UP主视频",
+            "发送弹幕互动",
+            "下载视频",
+            "给博主投币",
+            "分享视频",
+            "视频点赞",
+            "创建收藏夹",
+            "发表视频评论",
+            "浏览热门排行",
+            "收藏视频",
+            "关注用户"
+        ],
+        "action_object_str": {
+            "观看番剧与动画":[
+                "open the bilibili app ",
+                "Tap on the 'zhuifan' button at the top",
+                "swipe down to see more anime leaderboard",
+                "tap 'chakangengduo' with right-pointing arrow at the right of leaderboard"],
+            "搜索视频":[
+                "open the bilibili app ",
+                "Tap on the search bar at the top",
+                "type the search content",
+                "tap the pink button 'search' at the right of search bar",
+                "Tap on the video you want to watch in the list"],
+            "发送弹幕":[
+                "open the bilibili app ",
+                "Tap on the search bar at the top",
+                "type the search content",
+                "tap the pink button 'search' at the right of search bar",
+                "Tap on the video you want to watch in the list",
+                "Tap on the 'dian.wo.fa.dan.mu' with a television icon under the video",
+                "Type the live comments",
+                "Click on the airplane icon represent 'send' on the right "],
+            "下载视频":[
+                "open the bilibili app ",
+                "Tap on the search bar at the top",
+                "type the search content",
+                "tap the pink button 'search' at the right of search bar",
+                "Tap on the video you want to watch in the list",
+                "Click on this button on the video that is currently playing, and vertical ellipsis will appear on its upper right side",
+                "Click the vertical ellipsis on the upper right corner",
+                "tap 'huancun' with downward arrow folder",
+                "tap the 'huan cun quan bu' button at the left bottom"],
+            "给博主投币":[
+                "open the bilibili app ",
+                "Tap on the search bar at the top",
+                "type the search content",
+                "tap the pink button 'search' at the right of search bar",
+                "Tap on the video you want to watch in the list",
+                "Tap on the coin icon in the middle ",
+                "Click on the square button in the middle of the screen"
+            ],
+            "视频分享":[
+                "open the bilibili app ",
+                "Tap on the search bar at the top",
+                "type the search content",
+                "tap the pink button 'search' at the right of search bar",
+                "Tap on the video you want to watch in the list",
+                "Tap on the right-pointing arrow icon in the middle ",
+                "Click the wechat icon with text 'weixin' to jump ",
+                "tap search bar at the top",
+                "type the friend name",
+                "tap the search result in the list",
+                "tap the send button in a green box"
+
+            ],
+            "视频点赞":[
+                "open the bilibili app ",
+                "Tap on the search bar at the top",
+                "type the search content",
+                "tap the pink button 'search' at the right of search bar",
+                "Tap on the video you want to watch in the list",
+                "Tap on the thumb icon in the middle "],
+            "创建收藏夹":[
+                "open the bilibili app ",
+                "Tap 'wode' with television icon at the bottom",
+                " tap the 'wo de shou cang' with star icon",
+                "Click the plus sign on the top right corner",
+                "type the collection message",
+                "tap 'wan cheng' at the right top"],
+            "发表视频评论":[
+                "open the bilibili app ",
+                "Tap on the search bar at the top",
+                "type the search content",
+                "tap the pink button 'search' at the right of search bar",
+                "Tap on the video you want to watch in the list",
+                "Tap 'pinglun' at the lower left corner of video ",
+                "tab the input bar at the bottom",
+                "type the comments",
+                "tab the pink 'fabu' button at the lower right corner of the input bar"
+            ],
+            "浏览热门排行":[
+                "open the bilibili app ",
+                "Tap on the 'zhuifan' button at the top",
+                "tap the leaderboard with the bar chart in pink circle",
+                "swide down to see more"
+            ],
+            "收藏视频":[
+                "open the bilibili app ",
+                "Tap on the search bar at the top",
+                "type the search content",
+                "tap the pink button 'search' at the right of search bar",
+                "Tap on the video you want to watch in the list",
+                "Tap the star icon in the middle"
+            ],
+            "关注用户":[
+                "open the bilibili app ",
+                "Tap on the search bar at the top",
+                "type the user name in the search bar",
+                "tap the pink button 'search' at the right of search bar",
+                "Tap the 'guan zhu' button with plus icon in pink box at the right side of the blogger name"
+            ]
+        }
+    },
+    {
+        "id": 31,
+        "app_name": "美图秀秀",
+        "brief_introduction": "评分 4.9 星的美颜、相机类应用，可用于人像美化与拍摄。拥有全新 AI 闪光灯功能，能优化画面光线；支持精致五官调整，打造出理想的面部效果；还具备身材矫正能力，帮助用户塑造更好的身形，满足用户在美颜修图方面的多样需求。",
+        "icon_description": "红色圆形背景，中间有白色的 “M” 字母样式，整体设计简洁且容易识别，具有较高的品牌辨识度。",
+        "ui_description": " ",
+        "common_functions": [
+            "一键美颜人像",
+            "调整五官和身材",
+            "添加贴纸和文字",
+            "视频美颜",
+            "拼图",
+            "分享到社交媒体",
+            "身材塑性",
+            "消除黑眼圈",
+            "美白",
+            "磨皮"
+        ],
+        "action_object_str": {
+            "一键美颜人像":[
+                "Tap on the MeituXiuxiu app icon",
+                "Tap on the 'Renxiangmeirong' ",
+                "Tap on the profile picture",
+                "Tap on the 'yijianmeiyan'",
+                "Tap on a filter on the button",
+                "Tap on the checkmark at the bottom right corner",
+                "Tap on the 'save' at the upper right corner",
+                "Tap on the cross in the upper right corner to close the advertisement"],
+            "调整五官和身材":[
+                "Tap on the MeituXiuxiu app icon",
+                "Tap on the 'Renxiangmeirong'",
+                "Tap on the profile picture",
+                "Tap on the 'shoulianshoushen'",
+                "Tap on the 'zidong'",
+                "Turn on the 'shoulianshoushen' switch at the bottom left",
+                "Tap on the checkmark at the bottom right corner",
+                "Tap on the 'save' at the upper right corner"],
+            "添加贴纸和文字":[
+                "Tap on the MeituXiuxiu app icon",
+                "Tap on the 'tupianmeihua'",
+                "Tap on a picture",
+                "Swipe to the right on the bottom function bar",
+                "Tap on'wenzi'",
+                "Type text",
+                "Tap on the checkmark at the bottom right corner",
+                "Tap on the 'tiezhi'",
+                "Tap on a pattern",
+                "Tap on the checkmark at the bottom right corner",
+                "Tap on the 'save' at the upper right corner"],
+            "视频美颜":[
+                "Tap on the MeituXiuxiu app icon",
+                "Tap on the 'Video Beautification'",
+                "Tap on a video",
+                "Tap on 'kaishibianji'",
+                "Tap on 'yijianmeiyan'",
+                "Tap on the checkmark at the bottom right corner",
+                "Tap on the 'save' at the upper right corner",
+                "Wait"],
+            "拼图":[
+                "Tap on the MeituXiuxiu app icon",
+                "Tap on 'collage'",
+                "Tap on two pictures",
+                "Tap on 'save'"],
+            "分享到社交媒体":[
+                "open meitushuxiu app",
+                "tap the camera icon box with text 'meiyan' above",
+                "tap the 'meiyan' button in the red box",
+                "tap the 'meiyan' button in the red box"],
+            "身材塑形":[
+                "Tap on the MeituXiuxiu app icon",
+                "Tap on the 'Renxiangmeirong'",
+                "Tap on the profile picture",
+                "Swipe to the right on the bottom function bar",
+                "Tap on 'Body Reshape'",
+                "Hold down the 'Stretch Progress Bar' button and drag it to the right",
+                "Tap on the checkmark at the bottom right corner",
+                "Tap on the 'save' at the upper right corner"],
+            "消除黑眼圈":[
+                "Tap on the MeituXiuxiu app icon",
+                "Tap on the 'Renxiangmeirong'",
+                "Tap on the profile picture",
+                "Swipe to the right on the bottom function bar",
+                "Swipe to the right on the bottom function bar",
+                "Swipe to the right on the bottom function bar",
+                "Tap on the 'Remove Dark Circles'",
+                "Tap on the 'Automatic'",
+                "Tap on the checkmark at the bottom right corner",
+                "Tap on the 'save' at the upper right corner"],
+            "美白":[
+                "Tap on the MeituXiuxiu app icon",
+                "Tap on the 'Renxiangmeirong'",
+                "Tap on the profile picture",
+                "Swipe to the right on the bottom function bar",
+                "Tap on the 'Brighten'",
+                "Tap on the checkmark at the bottom right corner",
+                "Tap on the 'save' at the upper right corner"],
+            "磨皮":[
+                "Tap on the MeituXiuxiu app icon",
+                "Tap on the 'Renxiangmeirong'",
+                "Tap on the profile picture",
+                "Swipe to the right on the bottom function bar",
+                "Tap on the 'Skin Smoothing'",
+                "Tap on the checkmark at the bottom right corner",
+                "Tap on the 'save' at the upper right corner"]                        
+        }
+    },
+    {
+        "id": 32,
+        "app_name": "闹钟 ",
+        "brief_introduction": "多功能时钟工具，支持多闹钟设置（自定义铃声/振动模式）、贪睡功能、世界时钟（200+城市）、计时器（倒计时/秒表）。部分机型集成睡眠监测（通过传感器分析睡眠质量）和智能提醒（如法定节假日自动跳过）。",
+        "icon_description": "铃铛或数字时钟为主视觉，常搭配太阳（晨起闹钟）或月亮（夜间模式）。配色以红、黄等高饱和度颜色为主，强化提醒功能。",
+        "ui_description": " ",
+        "common_functions":   [
+            "设置闹钟",
+            "定时提醒",
+            "贪睡模式",
+            "铃声选择",
+            "重复设置",
+            "世界时钟",
+            "秒表计时",
+            "计时器",
+            "删除闹钟",
+            "音量调节"
+        ],
+        "action_object_str": ""
+    },
+    {
+        "id": 33,
+        "app_name": "相册",
+        "brief_introduction": "图片/视频管理中心，支持AI分类（人物/地点/场景）、智能美化（裁剪/滤镜/调色）、云备份（部分机型支持跨设备同步）。特色功能包括动态照片、长截图拼接、隐私相册（密码/指纹加密）。",
+        "icon_description": "堆叠照片或胶卷卷轴图案，部分机型叠加花瓣（美化）或云（备份）元素。配色以黑、白或浅灰为主，强调视觉沉浸感。",
+        "ui_description": " ",
+        "common_functions":   [
+            "浏览照片",
+            "分享照片",
+            "删除照片",
+            "收藏照片",
+            "分享视频",
+            "删除视频",
+            "收藏视频"
+
+        ],
+        "action_object_str": {
+            "浏览照片":[
+                "open xiangce app",
+                "tap the folder icon with text 'Albums' button at the bottom",
+                "tap the 'All photos'square in the first column",
+                "swipe down to see more photos",
+                "tap the photo to enter option page"
+            ],
+            "分享照片":[
+                "open xiangce app",
+                "tap the folder icon with text 'Albums' button at the bottom",
+                "tap the 'All photos'square in the first column",
+                "swipe down to see more photos",
+                "tap the photo to enter option page",
+                "tap the right pointing arrow in box icon at the bottom",
+
+                "tap the wechat icon with text 'wechat' below it",
+                "tap the search box with magnifying glass at the top",
+                "type the friend name 'rui' in the search box",
+                "tap the search result of 'rui' prepare to send",
+                "tap 'send' button in a green box",
+
+                "tap the Tiktok icon with text 'fen xiang gei peng you' below it",
+                "tap the search box with magnifying glass at the top",
+                "type the friend name in the search box",
+                "tap the 'fen xiang' button in pink box at the right side of the friend name"
+
+            ],
+            "删除照片":[
+                "open xiangce app",
+                "tap the folder icon with text 'Albums' button at the bottom",
+                "tap the 'All photos'square in the first column",
+                "swipe down to see more photos",
+                "tap the photo to enter option page",
+                "tap the 'delete' button with trash icon at the bottom"
+            ],
+            "收藏照片":[
+                "open xiangce app",
+                "tap the folder icon with text 'Albums' button at the bottom",
+                "tap the 'All photos'square in the first column",
+                "swipe down to see more photos",
+                "tap the photo to enter option page",
+                "tap the white border heart icon with text 'Favorites' at the bottom"
+            ],
+            "分享视频":[
+                "open xiangce app",
+                "tap the folder icon with text 'Albums' button at the bottom",
+                "tap the 'Videos'square in the second column",
+                "swipe down to see more videos",
+                "tap the video to enter option page",
+                "tap the right pointing arrow in box icon at the bottom",
+
+                "tap the wechat icon with text 'wechat' below it",
+                "tap the search box with magnifying glass at the top",
+                "type the friend name 'rui' in the search box",
+                "tap the search result of 'rui' prepare to send",
+                "tap 'send' button in a green box",
+
+                "tap the Tiktok icon with text 'fen xiang gei peng you' below it",
+                "tap the search box with magnifying glass at the top",
+                "type the friend name in the search box",
+                "tap the 'fen xiang' button in pink box at the right side of the friend name"
+            ],
+            "删除视频":[
+                "open xiangce app",
+                "tap the folder icon with text 'Albums' button at the bottom",
+                "tap the 'Videos'square in the second column",
+                "swipe down to see more videos",
+                "tap the video to enter option page",
+                "tap the 'delete' button with trash icon at the bottom"
+            ],
+            "收藏视频":[
+                "open xiangce app",
+                "tap the folder icon with text 'Albums' button at the bottom",
+                "tap the 'Videos'square in the second column",
+                "swipe down to see more videos",
+                "tap the video to enter option page",
+                "tap the white border heart icon with text 'Favorites' at the bottom"
+            ]
+        }
+    },
+    {
+    "id": 34,
+    "app_name": "备忘录/笔记",
+    "brief_introduction": "多功能记录工具，支持文本编辑、语音速记、图片插入、待办清单、手写绘图。部分机型支持OCR文字识别、跨应用拖拽（如网页内容直接保存）和加密笔记，适合工作记录与灵感捕捉。",
+    "icon_description": "笔记本或便签纸造型，常搭配钢笔、加号（新建）或锁形（加密）图标。配色以黄、粉等暖色调为主，体现人文气息。",
+    "ui_description": " ",
+    "common_functions":   [
+        "创建笔记",
+        "搜索笔记",
+        "分享笔记",
+        "打开设置面板",
+        "添加待办",
+        "文件夹分类"
+    ],
+    "action_object_str":{
+    "创建笔记":[
+        "open beiwanglu/biji app",
+        "tap  the white plus sign in a yellow circle",
+        "type content of 'chuangjianbiji'",
+        "tap  the  icon of black correct symbol representing completion"],
+    "搜索笔记":[
+        "open beiwanglu/biji app",
+        "swipe down the note directory to open search box",
+        "tap the search box with magnifier  at the top'",
+        "type the  search note name of 'chuangjianbiji' ",
+        "tap  the search result to enter"],
+    "分享笔记":[
+        "open beiwanglu/biji app",
+        "tap  the white plus sign in a yellow circle",
+        "type content of 'chuangjianbiji''",
+        "tap  the  icon of black correct symbol representing completion' ",
+        "tap the share button with the arrow at the top",
+        "tap the choice 'yitupiangeshifenxiang' ",
+        "tap the wechat icon with text 'send to friend'",
+        "tap the search box withmagnifying glass at the top",
+        "type the friend name 'rui' in the search box",
+        "tap the search result of 'rui' prepare to send",
+        "tap 'send' button in a green box"],
+    "打开设置面板":[
+        "open beiwanglu/biji app",
+        "tap the nut button  at the top",
+        "tap sub configuration in the list"],
+    "添加待办":[   
+        "open beiwanglu/biji app",
+        "tap the 'daiban' button  at the bottom",
+        "tap the white plus sign in a yellow circle ",
+        "type the  to-do list",
+        "tap  the 'wancheng' button in yellow"],
+    "文件夹分类":[
+        "open beiwanglu/biji app",
+        "tap the folder icon at the top",
+        "tap  the white plus sign in a yellow circle with text 'xinjianwenjianjia'",
+        "type folder name 'wenjianjiafenlei'",
+        "tap  the  'queding' button in a blue box"]
+
+} 
+
+}
+
+
+    
+
+]

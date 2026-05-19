@@ -1,0 +1,1601 @@
+{
+  "metadata": {
+    "description": "整合100个常用App的分类、基本信息和操作指南",
+    "version": "1.0",
+    "source_files": [
+      "100App.txt",
+      "8-scenario-AppUI.json",
+      "cn-en-app-data-action-str.json"
+    ],
+    "total_apps": 100,
+    "categories_count": 11
+  },
+  "categories": {
+    "系统app": {
+      "count": 10,
+      "apps": ["相机", "设置", "信息", "备忘录/笔记", "应用商店", "相册", "闹钟", "天气", "邮件", "日历"]
+    },
+    "修图美摄": {
+      "count": 5,
+      "apps": ["剪映", "醒图", "美图秀秀", "美颜相机", "PS"]
+    },
+    "视频播放平台": {
+      "count": 11,
+      "apps": ["爱奇艺", "腾讯视频", "优酷视频", "芒果TV", "哔哩哔哩", "抖音", "快手", "央视频", "西瓜视频", "虎牙直播", "youtube"]
+    },
+    "旅游出行": {
+      "count": 13,
+      "apps": ["高德地图", "铁路12306", "携程旅行", "百度地图", "去哪儿网", "飞猪旅行", "腾讯地图", "航旅纵横", "trip", "booking", "googleMap", "tripadvisor", "citymapper", "grab", "agoda"]
+    },
+    "社交媒体": {
+      "count": 13,
+      "apps": ["微信", "QQ", "微博", "小红书", "知乎", "豆瓣", "X", "instagram", "WhatsApp", "bluesky", "facebook", "lemon8"]
+    },
+    "办公软件": {
+      "count": 9,
+      "apps": ["迅雷", "百度网盘", "钉钉", "腾讯会议", "QQ邮箱", "wps_office", "扫描全能王", "飞书", "gmail"]
+    },
+    "购物平台": {
+      "count": 14,
+      "apps": ["淘宝", "京东", "拼多多", "闲鱼", "转转", "得物", "唯品会", "天猫", "识货", "walmart", "amazon", "eBay", "BestBuy"]
+    },
+    "外卖平台": {
+      "count": 5,
+      "apps": ["美团", "饿了么", "京东外卖", "淘宝闪送", "大众点评"]
+    },
+    "娱乐观影": {
+      "count": 6,
+      "apps": ["猫眼", "大麦", "秀动", "大众点评", "fandango", "netflix"]
+    },
+    "浏览器工具": {
+      "count": 6,
+      "apps": ["夸克", "豆包", "UC浏览器", "grok", "Chrome", "Edge"]
+    },
+    "音乐电台": {
+      "count": 3,
+      "apps": ["网易云音乐", "QQ音乐", "spotify"]
+    }
+  },
+  "apps": [
+    {
+      "app_name": "相机",
+      "category": "系统app",
+      "brief_introduction": "系统相机应用",
+      "common_functions": ["拍照", "录像", "切换镜头", "调整参数"],
+      "ui_description": null
+    },
+    {
+      "app_name": "设置",
+      "category": "系统app",
+      "brief_introduction": "系统设置应用",
+      "common_functions": ["网络设置", "显示设置", "声音设置", "隐私设置"],
+      "ui_description": null
+    },
+    {
+      "app_name": "信息",
+      "category": "系统app",
+      "brief_introduction": "系统短信应用",
+      "common_functions": ["发送短信", "接收短信", "管理联系人"],
+      "ui_description": null
+    },
+    {
+      "app_name": "备忘录/笔记",
+      "category": "系统app",
+      "brief_introduction": "系统笔记应用，用于记录备忘和笔记",
+      "common_functions": ["创建新笔记", "编辑笔记", "搜索笔记", "分类管理"],
+      "ui_description": "简洁的界面设计，主要由笔记列表和编辑界面组成"
+    },
+    {
+      "app_name": "应用商店",
+      "category": "系统app",
+      "brief_introduction": "系统应用商店",
+      "common_functions": ["下载应用", "更新应用", "查看应用详情"],
+      "ui_description": null
+    },
+    {
+      "app_name": "相册",
+      "category": "系统app",
+      "brief_introduction": "系统相册应用，用于查看和管理照片",
+      "common_functions": ["查看照片", "创建相册", "编辑照片", "分享照片"],
+      "ui_description": "网格布局显示照片缩略图，支持按时间和相册分类"
+    },
+    {
+      "app_name": "闹钟",
+      "category": "系统app",
+      "brief_introduction": "系统闹钟应用",
+      "common_functions": ["设置闹钟", "设置提醒", "定时器"],
+      "ui_description": "简洁的时钟界面，显示当前时间和设置的闹钟"
+    },
+    {
+      "app_name": "天气",
+      "category": "系统app",
+      "brief_introduction": "系统天气应用",
+      "common_functions": ["查看天气", "天气预报", "空气质量"],
+      "ui_description": null
+    },
+    {
+      "app_name": "邮件",
+      "category": "系统app",
+      "brief_introduction": "系统邮件应用",
+      "common_functions": ["发送邮件", "接收邮件", "管理邮箱"],
+      "ui_description": null
+    },
+    {
+      "app_name": "日历",
+      "category": "系统app",
+      "brief_introduction": "系统日历应用",
+      "common_functions": ["查看日历", "添加事件", "设置提醒"],
+      "ui_description": null
+    },
+    {
+      "app_name": "剪映",
+      "category": "修图美摄",
+      "brief_introduction": "字节跳动出品的视频剪辑应用",
+      "common_functions": ["视频剪辑", "添加特效", "添加音乐", "导出视频"],
+      "ui_description": null
+    },
+    {
+      "app_name": "醒图",
+      "category": "修图美摄",
+      "brief_introduction": "专业图片处理应用",
+      "common_functions": ["图片编辑", "滤镜效果", "文字添加"],
+      "ui_description": null
+    },
+    {
+      "app_name": "美图秀秀",
+      "category": "修图美摄",
+      "brief_introduction": "全球领先的图像处理应用，主打美颜相机、图片修饰及创意拼图",
+      "common_functions": ["使用AI一键美化照片并智能祛斑美白", "利用画笔及文字贴纸进行创意修图", "将多张照片拼接为不同风格的海报", "使用消除笔无痕抹除背景杂物", "制作GIF表情包及短视频动态滤镜", "在美图社区浏览当下最火的修图模版"],
+      "ui_description": "渐变粉紫色圆底，白色线条勾勒出一个艺术化的m字"
+    },
+    {
+      "app_name": "美颜相机",
+      "category": "修图美摄",
+      "brief_introduction": "美颜相机应用",
+      "common_functions": ["实时美颜", "拍照", "视频录制"],
+      "ui_description": null
+    },
+    {
+      "app_name": "PS",
+      "category": "修图美摄",
+      "brief_introduction": "Adobe Photoshop专业图像处理软件",
+      "common_functions": ["图像编辑", "图层操作", "滤镜应用"],
+      "ui_description": null
+    },
+    {
+      "app_name": "爱奇艺",
+      "category": "视频播放平台",
+      "brief_introduction": "百度旗下的长视频平台，以高品质的原创剧集和影院级视听体验著称",
+      "common_functions": ["浏览迷雾剧场等原创悬疑剧集", "参与爱奇艺泡泡社区明星互动", "调节帧琦音画标准进行深度观影", "管理爱奇艺体育频道的足球赛事直播", "使用虚拟形象参与VR直播", "管理会员自动续费及等级权益"],
+      "ui_description": "亮绿色圆角背景内有一个白色的Q字变体，形似一个带有播放箭头的电视屏幕"
+    },
+    {
+      "app_name": "腾讯视频",
+      "category": "视频播放平台",
+      "brief_introduction": "中国主流的综合性视频平台，拥有丰富的独家版权剧集、综艺及电影资源",
+      "common_functions": ["追看独家热门电视剧及电影", "观看腾讯自制综艺节目", "缓存视频以便离线观看", "通过微信/QQ登录同步会员权益", "切换4K超高清与杜比音效画质", "开启青少年模式进行家长控制"],
+      "ui_description": "蓝色和绿色的渐变背景，中央有一个白色的、由三片花瓣组成的播放图标"
+    },
+    {
+      "app_name": "优酷视频",
+      "category": "视频播放平台",
+      "brief_introduction": "阿里大文娱核心平台，集成海量电影、纪录片及经典动漫，深入阿里电商生态",
+      "common_functions": ["观看精品独家剧集与合集", "使用淘宝积分兑换优酷会员权益", "浏览海量纪录片与动画图书馆", "通过视频浮窗进行多任务处理", "开启色盲模式等无障碍功能", "管理个人播放记录"],
+      "ui_description": "蓝色圆底上有一个白色的Y和K字母组合，中心圆点为红色"
+    },
+    {
+      "app_name": "芒果TV",
+      "category": "视频播放平台",
+      "brief_introduction": "湖南广电旗下的流媒体应用，专注于娱乐综艺及年轻女性内容，拥有强大自制能力",
+      "common_functions": ["观看浪姐等独家芒果系综艺", "追看湖南卫视同步直播剧集", "通过饭团社区与节目嘉宾互动", "参与芒果盲盒等周边产品的购买", "管理多端登录的VIP账号", "设置定时关闭功能"],
+      "ui_description": "橙黄色渐变背景中心有一个白色的芒果形状抽象M图标"
+    },
+    {
+      "app_name": "哔哩哔哩",
+      "category": "视频播放平台",
+      "brief_introduction": "中国知名的中长视频分享社区，以ACG起家，拥有独特的弹幕文化和高活跃度的青年社群",
+      "common_functions": ["观看并发送实时弹幕进行社交", "订阅UP主一键三连支持", "浏览动漫游戏及硬核知识视频", "在B站赛事频道看电竞直播", "使用AI字幕与同声传译功能", "管理大会员特权", "购买B站会员购周边商品"],
+      "ui_description": "亮粉色圆角正方形背景内有一台白色的小电视，带有两个天线和笑脸"
+    },
+    {
+      "app_name": "抖音",
+      "category": "视频播放平台",
+      "brief_introduction": "字节跳动旗下的中国版TikTok，是全能型短视频、直播、社交及电商平台",
+      "common_functions": ["上下滑动浏览算法推荐的短视频", "进行直播创作及实时互动打赏", "通过抖音商城购物", "录制视频并使用海量滤镜和模板", "拍摄同款挑战并参与话题讨论", "私信及群组社交沟通", "搜索生活百科及同城资讯"],
+      "ui_description": "黑色背景上有一个白色的三维动感音乐符，带青色和品红色的故障效果"
+    },
+    {
+      "app_name": "快手",
+      "category": "视频播放平台",
+      "brief_introduction": "中国领先的短视频社区，以真实、接地气的内容为特色，在下沉市场拥有极高忠诚度",
+      "common_functions": ["浏览具有生活气息的短视频", "进行高频直播互动与实物带货", "在快手极速版中赚取阅读金", "发布每日心情动态或小剧场", "通过快手小店进行日常购物", "参与社区发起的红包活动"],
+      "ui_description": "橙色背景中心有一个白色的胶片摄像机图案"
+    },
+    {
+      "app_name": "央视频",
+      "category": "视频播放平台",
+      "brief_introduction": "中央广播电视总台的视频平台",
+      "common_functions": ["观看新闻联播", "观看纪录片", "观看综艺节目"],
+      "ui_description": null
+    },
+    {
+      "app_name": "西瓜视频",
+      "category": "视频播放平台",
+      "brief_introduction": "字节跳动旗下中长视频平台",
+      "common_functions": ["观看长视频", "观看纪录片", "观看综艺"],
+      "ui_description": null
+    },
+    {
+      "app_name": "虎牙直播",
+      "category": "视频播放平台",
+      "brief_introduction": "游戏直播平台",
+      "common_functions": ["观看游戏直播", "参与直播互动"],
+      "ui_description": null
+    },
+    {
+      "app_name": "youtube",
+      "category": "视频播放平台",
+      "brief_introduction": "全球最大的视频分享网站，支持超高清直播、短视频（Shorts）及音乐流媒体服务",
+      "common_functions": ["管理YouTube Kids儿童账号安全", "利用AI生成的章节和摘要快速导读"],
+      "ui_description": "红色圆角矩形内有一个白色的水平播放三角形"
+    },
+    {
+      "app_name": "高德地图",
+      "category": "旅游出行",
+      "brief_introduction": "中国领先的数字地图与位置服务商，提供精准导航、打车聚合及周边生活搜索",
+      "common_functions": ["实时查询公交到站及地铁线路信息", "聚合全网主流网约车平台进行一键呼叫", "查询周边美食油站及充电桩分布", "离线下载分城市地图数据包", "获取名家配音的趣味导航", "记录并分析年度个人足迹数据"],
+      "ui_description": "亮蓝色底色，中央是一架由蓝白折叠效果组成的动感纸飞机"
+    },
+    {
+      "app_name": "铁路12306",
+      "category": "旅游出行",
+      "brief_introduction": "中国官方的铁路票务预订系统，是购买高铁及普通客运火车票的权威渠道",
+      "common_functions": ["查询全国铁路线路的余票及票价", "在线预订支付及改签火车票", "管理电子客票二维码进行快捷进站", "办理积分兑换及铁路常旅客服务", "预订火车站内的点餐外送服务", "查询特定车次的停靠站点及正晚点详情"],
+      "ui_description": "亮蓝色圆底背景，上部是白色的铁路徽章，下部印有白色的12306"
+    },
+    {
+      "app_name": "携程旅行",
+      "category": "旅游出行",
+      "brief_introduction": "全球领先的一站式旅游服务平台，提供涵盖机酒票及签证在内的全流程旅行预订",
+      "common_functions": ["预订全球航机票及低价酒店", "购买热门景点门票及度假套餐", "在线申请多国旅游签证指导", "管理复杂的国际多目的地行程", "使用超级会员特权进入贵宾厅", "享受24小时专业旅游顾问支持"],
+      "ui_description": "亮蓝色背景中心印有白色的海豚图案或Trip.com字母"
+    },
+    {
+      "app_name": "百度地图",
+      "category": "旅游出行",
+      "brief_introduction": "百度旗下的位置服务应用，以丰富的全景图库和强大的智能路线规划著称",
+      "common_functions": ["多目的地智能路线规划避开拥堵", "预约百度自动驾驶萝卜快跑服务", "管理及分享位置共享轨迹", "查询附近共享单车停放区域", "查询全国范围内的景点解说"],
+      "ui_description": "白色背景上一个红蓝两色罗盘指针，外圈带有蓝色边框"
+    },
+    {
+      "app_name": "去哪儿网",
+      "category": "旅游出行",
+      "brief_introduction": "中国知名旅游搜索引擎，以机票比价和低价团购为特色，深受价格敏感型用户欢迎",
+      "common_functions": ["全网搜索并比价廉价机票行程", "查找高性价比的客栈与民宿", "订阅低价机票价格监控提醒", "进行学生及特定人群的差旅认证", "购买火车站/机场接送机专车服务", "参与社区发起的旅游攻略互动"],
+      "ui_description": "亮红色底色中心是一只奔跑的白色驼鹿图案"
+    },
+    {
+      "app_name": "飞猪旅行",
+      "category": "旅游出行",
+      "brief_introduction": "阿里巴巴旗下的在线旅行平台",
+      "common_functions": ["预订机票", "预订酒店", "预订火车票"],
+      "ui_description": null
+    },
+    {
+      "app_name": "腾讯地图",
+      "category": "旅游出行",
+      "brief_introduction": "腾讯地图应用",
+      "common_functions": ["导航", "路线规划", "地点搜索"],
+      "ui_description": null
+    },
+    {
+      "app_name": "航旅纵横",
+      "category": "旅游出行",
+      "brief_introduction": "航旅纵横出行应用",
+      "common_functions": ["机票预订", "机场服务", "行程管理"],
+      "ui_description": null
+    },
+    {
+      "app_name": "trip",
+      "category": "旅游出行",
+      "brief_introduction": "Trip.com旅行预订平台",
+      "common_functions": ["酒店预订", "机票预订", "旅游产品"],
+      "ui_description": null
+    },
+    {
+      "app_name": "booking",
+      "category": "旅游出行",
+      "brief_introduction": "全球酒店及度假屋预订的巨头，以广泛的覆盖面和直观的预订确认流程著称",
+      "common_functions": ["在全球220多个国家搜索并预订酒店", "利用Genius会员计划获取专属折扣", "大多数房源支持无预付或免费取消", "同步预订租车、机场接送及航班", "管理离线可用的电子预订确认函", "在应用内申请开具商旅报销发票"],
+      "ui_description": "深蓝色背景上印有白色小写的booking.com字样"
+    },
+    {
+      "app_name": "googleMap",
+      "category": "旅游出行",
+      "brief_introduction": "全球通用的地图导航服务，提供海量的商户评论和详尽的国际交通数据",
+      "common_functions": ["浏览本地商户的真实评分与营业时间", "查询极其精准的公共交通换乘建议", "利用街景进行视觉预览", "离线保存特定区域的交互式地图", "在Timeline中回顾个人历史行踪"],
+      "ui_description": "纯白底色，中心是一个由红、黄、绿、蓝四色组成的定位标"
+    },
+    {
+      "app_name": "tripadvisor",
+      "category": "旅游出行",
+      "brief_introduction": "全球领先的旅游点评与规划平台，凭借数亿条用户评论成为旅行决策的指南",
+      "common_functions": ["查阅全球餐厅及景点的真实星级排名", "发布带有个人见解的详细旅行评论与照片", "在论坛向其他旅行者提问获取即时建议", "比价并预订各大第三方平台的酒店客房", "管理个人的旅行规划笔记与收藏列表", "获取旅行者之选年度推荐榜单"],
+      "ui_description": "亮绿色圆圈内有一只戴着望远镜眼镜的黑色猫头鹰"
+    },
+    {
+      "app_name": "citymapper",
+      "category": "旅游出行",
+      "brief_introduction": "城市出行规划应用",
+      "common_functions": ["公共交通查询", "步行导航", "实时到站"],
+      "ui_description": null
+    },
+    {
+      "app_name": "grab",
+      "category": "旅游出行",
+      "brief_introduction": "东南亚地区的超级应用，提供打车、外卖、支付及快递一站式服务",
+      "common_functions": ["呼叫全天候在线的私家车及豪华车服务", "订购Uber Eats外卖并享受会员免运费", "通过Uber Reserve提前预约重要行程", "在地图上实时查看司机接驾路径与位置", "向朋友分享实时行程位置与预计到达时间", "管理复杂的商旅开支与自动报销对接"],
+      "ui_description": "亮绿色底色中心印有白色的两条相互环绕的线条，组成抽象的g字"
+    },
+    {
+      "app_name": "agoda",
+      "category": "旅游出行",
+      "brief_introduction": "专注亚太市场的在线旅行平台，提供具有价格优势的酒店、度假村及长租公寓",
+      "common_functions": ["预订极具亚洲特色的度假酒店与民宿", "使用Agoda Cash抵扣后续订房费用", "浏览Agoji吉祥物推荐的特惠路线", "查看真实的住宿图片与海量多语种评论", "开启秘密价功能获取半价折扣", "快速预订各类机场转运及接送服务"],
+      "ui_description": "白色或亮蓝色背景，下方排列着五种颜色的小圆点"
+    },
+    {
+      "app_name": "微信",
+      "category": "社交媒体",
+      "brief_introduction": "腾讯旗下的多元化社交平台，受众群体偏向年轻化，支持丰富的群组功能和娱乐交互",
+      "common_functions": ["公众号订阅与阅读", "访问各类生活服务小程序", "收发群聊红包", "状态设置与表情包管理"],
+      "ui_description": "两个白色重叠的对话气泡，位于亮绿色圆角正方形背景中心"
+    },
+    {
+      "app_name": "QQ",
+      "category": "社交媒体",
+      "brief_introduction": "腾讯旗下的多元化社交平台，受众群体偏向年轻化，支持丰富的群组功能和娱乐交互",
+      "common_functions": ["高带宽文件传输与云存储", "QQ空间动态发布", "群组音视频通话与屏幕共享", "个性化皮肤与厘米秀装扮", "集成QQ音乐、阅读等娱乐频道", "面对面快传"],
+      "ui_description": "一只带着红色围巾的黑色企鹅，通常位于蓝色或白色背景中心"
+    },
+    {
+      "app_name": "微博",
+      "category": "社交媒体",
+      "brief_introduction": "新浪旗下的公共微型博客平台，是中国最大的社交媒体广场，用于获取实时资讯和明星互动",
+      "common_functions": ["发布博文、图片及长视频", "实时热搜榜查看", "明星与KOL粉丝互动", "开启直播与粉丝打赏", "微博超级话题签到", "私信交流"],
+      "ui_description": "橙色背景上一只白色大眼睛，象征观察与见证资讯流"
+    },
+    {
+      "app_name": "小红书",
+      "category": "社交媒体",
+      "brief_introduction": "社交电商与生活方式分享社区，以种草文化闻名，用户主要分享美妆、旅游与美食经验",
+      "common_functions": ["发布图文或视频笔记", "搜索生活指南与产品测评", "REDMall商城在线购物", "笔记收藏与专辑整理", "直播互动与带货", "地理位置标签查看附近内容"],
+      "ui_description": "鲜红色背景上印有白色的书法体小红书或英文RED字样"
+    },
+    {
+      "app_name": "知乎",
+      "category": "社交媒体",
+      "brief_introduction": "中国领先的高质量问答社区，聚集了各领域的专家学者，提供深度的知识性内容",
+      "common_functions": ["提问并获取专业人士回答", "撰写专栏文章与想法发布", "赞同或反对答案进行内容排序", "知乎盐选会员付费内容阅读", "参与实时圆桌直播讨论", "搜索百科式词条"],
+      "ui_description": "蓝色背景上白色的知字书法变体"
+    },
+    {
+      "app_name": "豆瓣",
+      "category": "社交媒体",
+      "brief_introduction": "专注书影音评论的文艺社交平台，提供详细的作品评分、书单管理及兴趣小组互动",
+      "common_functions": ["为电影、书籍及音乐打分评价", "标记想看、看过及在看", "加入各类生活与文艺兴趣小组", "同城活动查询", "豆瓣广播动态发布", "浏览书影音排行榜"],
+      "ui_description": "浅绿色背景上白色的豆瓣二字"
+    },
+    {
+      "app_name": "X",
+      "category": "社交媒体",
+      "brief_introduction": "前Twitter平台",
+      "common_functions": ["发布推文", "关注用户", "查看时间线"],
+      "ui_description": null
+    },
+    {
+      "app_name": "instagram",
+      "category": "社交媒体",
+      "brief_introduction": "Meta旗下以视觉内容为主的社交平台，强调高质量图片、短视频（Reels）及快拍（Stories）的分享",
+      "common_functions": ["发布图片、视频、故事", "关注和点赞其他用户", "浏览和搜索热门内容", "使用滤镜和编辑工具", "与好友互动和聊天"],
+      "ui_description": "紫、红、黄渐变色背景上的一个白色线条相机图案"
+    },
+    {
+      "app_name": "WhatsApp",
+      "category": "社交媒体",
+      "brief_introduction": "全球领先的端到端加密即时通讯工具，主打安全、极简且无广告的消息体验",
+      "common_functions": ["端到端加密文字及语音消息", "免费国际音视频通话", "建立与管理大型群组", "分享地理位置、文档及联系人", "WhatsApp状态发布", "电脑端与网页端同步连接"],
+      "ui_description": "绿色圆气泡背景内含一个白色的老式电话听筒及白色边框"
+    },
+    {
+      "app_name": "bluesky",
+      "category": "社交媒体",
+      "brief_introduction": "去中心化的社交媒体平台",
+      "common_functions": ["发布帖子", "关注用户", "互动交流"],
+      "ui_description": null
+    },
+    {
+      "app_name": "facebook",
+      "category": "社交媒体",
+      "brief_introduction": "全球用户规模最大的社交网络，提供全方位的关系维护、资讯流及社群组建服务",
+      "common_functions": ["维护个人资料与好友关系网", "加入并管理兴趣小组", "查看动态消息", "Facebook Marketplace本地二手交易", "Watch频道视频消费", "创建活动邀请"],
+      "ui_description": "亮蓝色圆角正方形内有一个白色的下划体小写字母f"
+    },
+    {
+      "app_name": "lemon8",
+      "category": "社交媒体",
+      "brief_introduction": "字节跳动出品的图片社交应用",
+      "common_functions": ["发布图片", "浏览内容", "互动评论"],
+      "ui_description": null
+    },
+    {
+      "app_name": "迅雷",
+      "category": "办公软件",
+      "brief_introduction": "下载工具",
+      "common_functions": ["下载文件", "管理下载任务"],
+      "ui_description": null
+    },
+    {
+      "app_name": "百度网盘",
+      "category": "办公软件",
+      "brief_introduction": "百度云存储服务",
+      "common_functions": ["上传文件", "下载文件", "分享文件"],
+      "ui_description": null
+    },
+    {
+      "app_name": "钉钉",
+      "category": "办公软件",
+      "brief_introduction": "阿里旗下的企业级办公与教培平台，支持大规模组织协作、考勤管理及视频会议",
+      "common_functions": ["发送和接收消息", "进行语音和视频通话", "管理联系人列表", "查看和编辑日程安排", "创建和编辑文档", "进行团队协作"],
+      "ui_description": "蓝色圆角背景内含有一个白色且带有翅膀的闪电符号，象征快速响应"
+    },
+    {
+      "app_name": "腾讯会议",
+      "category": "办公软件",
+      "brief_introduction": "腾讯视频会议工具",
+      "common_functions": ["创建会议", "加入会议", "屏幕共享"],
+      "ui_description": null
+    },
+    {
+      "app_name": "QQ邮箱",
+      "category": "办公软件",
+      "brief_introduction": "腾讯邮箱服务",
+      "common_functions": ["发送邮件", "接收邮件", "管理邮件"],
+      "ui_description": null
+    },
+    {
+      "app_name": "wps_office",
+      "category": "办公软件",
+      "brief_introduction": "金山办公套件",
+      "common_functions": ["编辑文档", "编辑表格", "编辑演示"],
+      "ui_description": null
+    },
+    {
+      "app_name": "扫描全能王",
+      "category": "办公软件",
+      "brief_introduction": "文档扫描应用",
+      "common_functions": ["扫描文档", "OCR识别", "导出PDF"],
+      "ui_description": null
+    },
+    {
+      "app_name": "飞书",
+      "category": "办公软件",
+      "brief_introduction": "字节跳动出品的高效协作套件，将日历、文档、群聊和音视频深度整合",
+      "common_functions": ["在聊天群组中直接插入及协作编辑文档", "共享日历并进行多方时区预约", "视频会议中开启妙记文字实时转录", "通过服务台进行自动化的入职导引", "搭建多维表格进行项目进度管理", "跨国团队沟通时的实时翻译功能"],
+      "ui_description": "渐变蓝色的动态翅膀图案，外包圆形"
+    },
+    {
+      "app_name": "gmail",
+      "category": "办公软件",
+      "brief_introduction": "Google邮箱服务",
+      "common_functions": ["发送邮件", "接收邮件", "管理邮件"],
+      "ui_description": null
+    },
+    {
+      "app_name": "淘宝",
+      "category": "购物平台",
+      "brief_introduction": "阿里巴巴旗下的综合性购物平台，拥有全球最庞大的商品库，支持直播带货和二手交易",
+      "common_functions": ["购买商品", "浏览商品详情", "搜索商品", "浏览商品评价", "浏览商品推荐", "浏览商品分类"],
+      "ui_description": "亮橙色背景中心有一个白色的淘字圆体变体"
+    },
+    {
+      "app_name": "京东",
+      "category": "购物平台",
+      "brief_introduction": "以自营和极速物流闻名的中国电商平台，主打正品保障，在数码家电领域具有绝对优势",
+      "common_functions": ["购买京东自营及第三方店铺商品", "管理京东PLUS会员特权", "实时追踪京东物流配送进度", "使用地址粘贴板自动解析收货信息", "京东到家本地生活配送", "以旧换新手机回收", "JD.Vision AR实景购物体验"],
+      "ui_description": "一只名为Joy的白色3D金属质感小狗，背景为鲜红色"
+    },
+    {
+      "app_name": "拼多多",
+      "category": "购物平台",
+      "brief_introduction": "中国领先的社交电商平台，开创了拼团模式，以高性价比和游戏化购物体验吸引用户",
+      "common_functions": ["发起或加入拼单获取优惠价", "在多多果园等小游戏中获取实物奖励", "百亿补贴频道购买品牌折扣品", "使用多多钱包支付", "申请先用后付", "搜索同款商品并比价", "观看店铺短视频介绍"],
+      "ui_description": "鲜红色圆角正方形内有一个白色的爱心，爱心内由不同商品类别的方块图案组成"
+    },
+    {
+      "app_name": "闲鱼",
+      "category": "购物平台",
+      "brief_introduction": "阿里巴巴旗下的二手交易与共享经济平台，用户可以出售、交换或购买闲置物品",
+      "common_functions": ["发布闲置商品进行转卖", "通过鱼塘参与兴趣社区讨论", "使用在线聊天进行砍价协商", "进行信用评估筛选可靠卖家", "预约上门回收服务", "查找本地租房及兼职信息"],
+      "ui_description": "亮黄色背景中心有一条白色的长着圆圆眼睛的简约鱼图案"
+    },
+    {
+      "app_name": "转转",
+      "category": "购物平台",
+      "brief_introduction": "二手交易平台",
+      "common_functions": ["发布二手商品", "购买二手商品"],
+      "ui_description": null
+    },
+    {
+      "app_name": "得物",
+      "category": "购物平台",
+      "brief_introduction": "专注潮流单品的鉴定与买卖平台，首创先鉴别，后发货的购物模式",
+      "common_functions": ["购买经过专业鉴定的潮流鞋履及配饰", "提交单品进行在线或实物鉴定", "在潮流社区分享穿搭心得", "查看球鞋发售日历与价格趋势", "AR试穿与3D看图功能", "参与限量单品竞价"],
+      "ui_description": "黑色圆角背景内含有一个蓝绿色的抽象闪电或字母Z图标"
+    },
+    {
+      "app_name": "唯品会",
+      "category": "购物平台",
+      "brief_introduction": "品牌折扣购物平台",
+      "common_functions": ["购买折扣商品", "特卖活动"],
+      "ui_description": null
+    },
+    {
+      "app_name": "天猫",
+      "category": "购物平台",
+      "brief_introduction": "阿里巴巴旗下高端购物平台",
+      "common_functions": ["购买品牌商品", "旗舰店购物"],
+      "ui_description": null
+    },
+    {
+      "app_name": "识货",
+      "category": "购物平台",
+      "brief_introduction": "识货购物应用",
+      "common_functions": ["购买商品", "查看商品评价"],
+      "ui_description": null
+    },
+    {
+      "app_name": "walmart",
+      "category": "购物平台",
+      "brief_introduction": "沃尔玛购物平台",
+      "common_functions": ["在线购物", "配送服务"],
+      "ui_description": null
+    },
+    {
+      "app_name": "amazon",
+      "category": "购物平台",
+      "brief_introduction": "全球电商巨头，提供从日常消费品到电子产品的全品类购物，拥有完善的Prime会员体系",
+      "common_functions": ["使用一键下单快速购买", "管理Prime会员权益", "通过Alexa语音搜索商品", "实时追踪包裹递送位置", "创建及管理愿望清单", "查看详细的全球用户商品评论", "全天候客户服务支持"],
+      "ui_description": "白色背景上有一个蓝色的购物推车或橙色箭头，从A指向Z形似微笑"
+    },
+    {
+      "app_name": "eBay",
+      "category": "购物平台",
+      "brief_introduction": "老牌全球在线拍卖与购物网站，以独特的出价拍卖模式和全球范围的稀有物品交易闻名",
+      "common_functions": ["对心仪商品进行实时出价拍卖", "使用立即购买功能快速成交", "卖家发布全球配送的二手或新品", "使用PayPal进行安全支付保护", "管理复杂的退货与争议处理流程", "利用收藏夹功能监控稀缺物品"],
+      "ui_description": "白色背景上依次排列着红、蓝、黄、绿四种颜色的英文字母ebay"
+    },
+    {
+      "app_name": "BestBuy",
+      "category": "购物平台",
+      "brief_introduction": "美国电子产品零售商",
+      "common_functions": ["购买电子产品", "电器维修服务"],
+      "ui_description": null
+    },
+    {
+      "app_name": "美团",
+      "category": "外卖平台",
+      "brief_introduction": "中国领先的本地生活服务平台，涵盖外卖、到店、酒旅及即时零售等全方位服务",
+      "common_functions": ["订购附近商家的餐饮外卖", "预订酒店、机票及火车票", "团购餐厅优惠券与电影票", "呼叫快车、出租车及单车骑行", "美团买菜即时配送", "跑腿功能同城代送代买", "美团买药24小时配送"],
+      "ui_description": "鲜黄色背景上有一个黑色的简约袋鼠图案或英文Meituan"
+    },
+    {
+      "app_name": "饿了么",
+      "category": "外卖平台",
+      "brief_introduction": "阿里巴巴旗下的本地生活服务应用，主打餐饮配送，深入集成支付宝生态",
+      "common_functions": ["在线搜索并点餐配送", "预订超时赔付计划", "查看商户资质与食安评价", "通过支付宝快捷结算", "领取各类配送优惠券", "超市便利店即时购"],
+      "ui_description": "亮蓝色圆角正方形内有一个白色的下划体e字，形状类似一个盘子"
+    },
+    {
+      "app_name": "京东外卖",
+      "category": "外卖平台",
+      "brief_introduction": "京东外卖服务",
+      "common_functions": ["点餐", "配送"],
+      "ui_description": null
+    },
+    {
+      "app_name": "淘宝闪送",
+      "category": "外卖平台",
+      "brief_introduction": "淘宝即时配送服务",
+      "common_functions": ["同城配送", "跑腿服务"],
+      "ui_description": null
+    },
+    {
+      "app_name": "大众点评",
+      "category": "外卖平台",
+      "brief_introduction": "美团旗下的本地生活信息与评价平台，是中国版Yelp，提供详尽的商户评分和消费指南",
+      "common_functions": ["查询餐厅、娱乐场所的星级评分", "浏览用户发布的真实消费评价与图片", "在线预订座位或领取排队号", "购买团购套餐及代金券", "查询周边电影放映时间及选座", "发布笔记参与点评达人激励"],
+      "ui_description": "亮橙色背景中心有一个黑色的汉字评，外圈为圆形线条"
+    },
+    {
+      "app_name": "猫眼",
+      "category": "娱乐观影",
+      "brief_introduction": "电影票务平台",
+      "common_functions": ["购买电影票", "查看电影信息", "选座"],
+      "ui_description": null
+    },
+    {
+      "app_name": "大麦",
+      "category": "娱乐观影",
+      "brief_introduction": "演出票务平台",
+      "common_functions": ["购买演唱会门票", "购买演出票", "查看演出信息"],
+      "ui_description": null
+    },
+    {
+      "app_name": "秀动",
+      "category": "娱乐观影",
+      "brief_introduction": "运动健身平台",
+      "common_functions": ["购买健身课程", "预约健身房"],
+      "ui_description": null
+    },
+    {
+      "app_name": "fandango",
+      "category": "娱乐观影",
+      "brief_introduction": "美国电影票务平台",
+      "common_functions": ["购买电影票", "查看电影信息"],
+      "ui_description": null
+    },
+    {
+      "app_name": "netflix",
+      "category": "娱乐观影",
+      "brief_introduction": "全球领先的付费订阅制流媒体，以其自制的高质量剧集和电影风靡全球",
+      "common_functions": ["按类别浏览并流式播放原创内容", "为多位家庭成员创建独立配置文件", "下载指定剧集至本地离线观看", "使用Smart Downloads自动同步下一集", "获取高度精准的个人化观影推荐", "调整字幕样式及多国语言配音"],
+      "ui_description": "黑色背景上有一个鲜红色的立体N字母，形似两条交叠的红丝带"
+    },
+    {
+      "app_name": "夸克",
+      "category": "浏览器工具",
+      "brief_introduction": "阿里旗下的极简浏览器，以简洁的UI、强大的AI搜索和实用工具箱深受好评",
+      "common_functions": ["进行无广告干扰的AI智能精准搜索", "使用夸克网盘进行大文件云同步", "调用夸克扫描王处理PDF及证件扫描", "观看并缓存网页在线视频流", "在工具箱中使用网速测试及清理工具", "快速访问夸克学习等教育频道"],
+      "ui_description": "纯白色或蓝色背景中心有一个蓝白色的圆环或类似镜头的眼球"
+    },
+    {
+      "app_name": "豆包",
+      "category": "浏览器工具",
+      "brief_introduction": "字节跳动出品的AI浏览器",
+      "common_functions": ["AI搜索", "网页浏览"],
+      "ui_description": null
+    },
+    {
+      "app_name": "UC浏览器",
+      "category": "浏览器工具",
+      "brief_introduction": "UC浏览器",
+      "common_functions": ["网页浏览", "下载文件"],
+      "ui_description": null
+    },
+    {
+      "app_name": "grok",
+      "category": "浏览器工具",
+      "brief_introduction": "xAI出品的AI助手",
+      "common_functions": ["AI对话", "问题解答"],
+      "ui_description": null
+    },
+    {
+      "app_name": "Chrome",
+      "category": "浏览器工具",
+      "brief_introduction": "谷歌开发的全球市场份额第一的移动浏览器，支持极速搜索与强大的跨端同步",
+      "common_functions": ["在地址栏智能搜索", "管理数百个开启的标签页", "开启无痕模式保护隐私", "自动填充表单及管理跨端密码", "调用Google Lens进行视觉搜索与翻译", "将网页添加至桌面主屏幕"],
+      "ui_description": "核心为一个蓝色的圆圈，外围由红、黄、绿三色色块环绕成圆形"
+    },
+    {
+      "app_name": "Edge",
+      "category": "浏览器工具",
+      "brief_introduction": "微软Edge浏览器",
+      "common_functions": ["网页浏览", "标签管理"],
+      "ui_description": null
+    },
+    {
+      "app_name": "网易云音乐",
+      "category": "音乐电台",
+      "brief_introduction": "具有浓厚社区氛围的音乐平台，以独特的乐评、精准的个性化推荐和原创独立音乐著称",
+      "common_functions": ["浏览充满故事性的热门乐评", "开启一起听功能与好友同步收听", "在云村广场分享音乐心情动态", "聆听每日自动生成的个性化私人FM", "测试性格颜色及音乐人格等H5活动", "关注并支持入驻的独立音乐人"],
+      "ui_description": "鲜红色圆底上有一个白色的简笔画唱片和唱针图案"
+    },
+    {
+      "app_name": "QQ音乐",
+      "category": "音乐电台",
+      "brief_introduction": "腾讯旗下的数字音乐平台，拥有国内顶尖的曲库和丰富的社交互动、粉丝经济玩法",
+      "common_functions": ["购买数字专辑支持偶像", "在歌曲评论区查看感人故事", "开启K歌模式进行个人演唱录制", "使用雷达功能听歌识曲", "切换各类精致的动效歌词皮肤"],
+      "ui_description": "亮绿色背景中央有一个白色的双音符图标"
+    },
+    {
+      "app_name": "spotify",
+      "category": "音乐电台",
+      "brief_introduction": "全球最大的音乐流媒体服务商，提供精准的算法歌单和丰富的播客资源",
+      "common_functions": ["开启Spotify Premium享受无广告音质"],
+      "ui_description": "亮绿色圆底上有三条黑色的向右上方扩散的弧形声波线条"
+    }
+  ],
+  "action_steps": {
+    "YouTube": {
+      "在 YouTube 上搜索视频": [
+        "open youtube app",
+        "tap search box at the right top",
+        "type the search content",
+        "tap the first search result in the result list",
+        "swipe down to cross out ads and see more results",
+        "tap a video in the search result to enter the video page"
+      ],
+      "上传新视频到您的频道": [
+        "open youtube app",
+        "tap the plus sign in circle at the bottom of home page",
+        "tap the video text button at the bottom of the page",
+        "tap a video in the list",
+        "tap the Next button in white box at the right bottom of the page",
+        "tap the Upload button in white box at the bottom of the page"
+      ],
+      "订阅特定频道或创作者": [
+        "open youtube app",
+        "tap search box at the right top",
+        "type the search content",
+        "tap the first search result in the result list",
+        "swipe down to cross out ads and see more results",
+        "tap a video in the search result to enter the video page",
+        "tap the Subscribe button in a white box at the bottom of video"
+      ],
+      "给视频点赞": [
+        "open youtube app",
+        "tap search box at the right top",
+        "type the search content",
+        "tap the first search result in the result list",
+        "swipe down to cross out ads and see more results",
+        "tap a video in the search result to enter the video page",
+        "tap the thumbs up icon below the video player"
+      ],
+      "切换清晰度": [
+        "open youtube app",
+        "tap a video to enter the video page",
+        "tap the settings icon (gear icon) in the video player",
+        "tap Quality",
+        "select desired quality option"
+      ],
+      "为视频添加评论": [
+        "open youtube app",
+        "tap a video to enter the video page",
+        "scroll down to the comments section",
+        "tap the comment box",
+        "type your comment",
+        "tap the send button"
+      ],
+      "与朋友分享视频": [
+        "open youtube app",
+        "tap a video to enter the video page",
+        "tap the share icon below the video player",
+        "select sharing method (e.g., copy link, share to other apps)",
+        "complete the sharing process"
+      ],
+      "将视频添加到playlist": [
+        "open youtube app",
+        "tap a video to enter the video page",
+        "tap the save icon (plus sign in box) below the video player",
+        "select or create a playlist",
+        "tap Done"
+      ],
+      "查看视频的详细信息": [
+        "open youtube app",
+        "tap a video to enter the video page",
+        "scroll down to see video description, views, likes, and other details",
+        "tap Show more to expand the description if needed"
+      ]
+    },
+    "Google Maps": {
+      "搜索地点": [
+        "open google maps app",
+        "tap the search box at the top",
+        "type the location or place name",
+        "tap the search result from the list",
+        "view the location details and options"
+      ],
+      "获取路线导航": [
+        "open google maps app",
+        "tap the search box at the top",
+        "type the destination",
+        "tap Directions",
+        "select transportation mode",
+        "tap Start to begin navigation"
+      ],
+      "查看实时交通": [
+        "open google maps app",
+        "tap the layers icon (stacked lines)",
+        "tap Traffic",
+        "view real-time traffic conditions on the map"
+      ],
+      "保存收藏地点": [
+        "open google maps app",
+        "search for a location",
+        "tap the location marker",
+        "tap Save",
+        "choose a list or create a new one"
+      ],
+      "查看街景": [
+        "open google maps app",
+        "search for a location",
+        "tap the location marker",
+        "scroll down and tap Street View",
+        "drag to look around the area"
+      ]
+    },
+    "Facebook": {
+      "发布状态更新": [
+        "open facebook app",
+        "tap What's on your mind? at the top of the home feed",
+        "type your status update",
+        "add photos/videos if desired",
+        "tap Post"
+      ],
+      "查看好友动态": [
+        "open facebook app",
+        "scroll through the home feed",
+        "tap on posts to view them in detail",
+        "like or comment on posts as desired"
+      ],
+      "发送消息": [
+        "open facebook app",
+        "tap the Messenger icon",
+        "tap a conversation or search for a friend",
+        "type your message",
+        "tap Send"
+      ],
+      "加入群组": [
+        "open facebook app",
+        "tap the menu icon (three lines)",
+        "tap Groups",
+        "search for groups or browse categories",
+        "tap Join next to a group"
+      ],
+      "上传照片": [
+        "open facebook app",
+        "tap Photo at the top of the home feed",
+        "select photos from your gallery",
+        "add a caption",
+        "tap Post"
+      ]
+    },
+    "Google Chrome": {
+      "打开新标签页": [
+        "open chrome app",
+        "tap the plus icon at the top right",
+        "start browsing or search"
+      ],
+      "搜索网页": [
+        "open chrome app",
+        "tap the address bar at the top",
+        "type your search query",
+        "tap a search result to open it"
+      ],
+      "书签网页": [
+        "open chrome app",
+        "navigate to a webpage",
+        "tap the menu icon (three dots)",
+        "tap Bookmark",
+        "edit bookmark name and folder if desired",
+        "tap Save"
+      ],
+      "管理标签页": [
+        "open chrome app",
+        "tap the square icon showing number of tabs",
+        "view all open tabs",
+        "tap X to close tabs or tap a tab to switch to it"
+      ],
+      "开启无痕模式": [
+        "open chrome app",
+        "tap the menu icon (three dots)",
+        "tap New Incognito tab",
+        "start browsing privately"
+      ]
+    },
+    "X (Twitter)": {
+      "发布推文": [
+        "open x app",
+        "tap the plus icon or compose tweet button",
+        "type your tweet",
+        "add images/videos/polls if desired",
+        "tap Post"
+      ],
+      "查看时间线": [
+        "open x app",
+        "scroll through the home timeline",
+        "tap on tweets to view them in detail"
+      ],
+      "关注用户": [
+        "open x app",
+        "search for a user",
+        "tap their profile",
+        "tap Follow"
+      ],
+      "发送私信": [
+        "open x app",
+        "tap the messages icon",
+        "tap the compose icon",
+        "select a recipient",
+        "type your message",
+        "tap Send"
+      ],
+      "搜索话题": [
+        "open x app",
+        "tap the search icon",
+        "type a hashtag or keyword",
+        "view trending topics and search results"
+      ]
+    },
+    "Walmart": {
+      "搜索商品": [
+        "open walmart app",
+        "tap the search bar at the top",
+        "type the product name",
+        "tap a product from the results"
+      ],
+      "添加商品到购物车": [
+        "open walmart app",
+        "find a product",
+        "tap Add to Cart",
+        "continue shopping or proceed to checkout"
+      ],
+      "查看订单": [
+        "open walmart app",
+        "tap the menu icon",
+        "tap My Account",
+        "tap Orders",
+        "view your order history"
+      ],
+      "管理送货地址": [
+        "open walmart app",
+        "tap the menu icon",
+        "tap My Account",
+        "tap Addresses",
+        "add or edit delivery addresses"
+      ]
+    },
+    "eBay": {
+      "搜索商品": [
+        "open ebay app",
+        "tap the search bar",
+        "type what you're looking for",
+        "tap Search",
+        "browse results"
+      ],
+      "出价拍卖品": [
+        "open ebay app",
+        "find an auction item",
+        "tap Bid",
+        "enter your bid amount",
+        "tap Place Bid"
+      ],
+      "立即购买": [
+        "open ebay app",
+        "find a Buy It Now item",
+        "tap Buy It Now",
+        "select options and quantity",
+        "tap Buy It Now again"
+      ],
+      "查看购买历史": [
+        "open ebay app",
+        "tap the menu icon",
+        "tap Buying",
+        "view your purchases"
+      ]
+    },
+    "Amazon Shopping": {
+      "搜索商品": [
+        "open amazon app",
+        "tap the search bar",
+        "type what you're looking for",
+        "tap the search icon",
+        "browse results"
+      ],
+      "添加到愿望清单": [
+        "open amazon app",
+        "find a product",
+        "tap Add to Wish List",
+        "choose a list or create a new one"
+      ],
+      "查看订单": [
+        "open amazon app",
+        "tap the menu icon (three lines)",
+        "tap Your Orders",
+        "view order history"
+      ],
+      "管理Prime会员": [
+        "open amazon app",
+        "tap the menu icon",
+        "tap Your Account",
+        "tap Prime",
+        "manage your membership"
+      ]
+    },
+    "Fandango": {
+      "搜索电影": [
+        "open fandango app",
+        "tap Movies",
+        "search for a movie or browse now playing"
+      ],
+      "购买电影票": [
+        "open fandango app",
+        "find a movie",
+        "select showtime and theater",
+        "choose seats",
+        "complete purchase"
+      ],
+      "查看电影详情": [
+        "open fandango app",
+        "tap a movie",
+        "read synopsis, reviews, and trailer"
+      ]
+    },
+    "Booking": {
+      "搜索酒店": [
+        "open booking app",
+        "tap Search",
+        "enter destination and dates",
+        "tap Search",
+        "filter and select hotels"
+      ],
+      "预订酒店": [
+        "open booking app",
+        "select a hotel",
+        "choose room type and dates",
+        "tap Reserve",
+        "complete booking with payment"
+      ],
+      "查看预订": [
+        "open booking app",
+        "tap Bookings",
+        "view upcoming and past reservations"
+      ]
+    },
+    "Tripadvisor": {
+      "搜索餐厅": [
+        "open tripadvisor app",
+        "tap Restaurants",
+        "search for location or cuisine",
+        "browse restaurant listings"
+      ],
+      "查看评论": [
+        "open tripadvisor app",
+        "select a restaurant or attraction",
+        "scroll to Reviews section",
+        "read user reviews and ratings"
+      ],
+      "计划行程": [
+        "open tripadvisor app",
+        "tap Trips",
+        "create a new trip",
+        "add destinations and activities"
+      ]
+    },
+    "Agoda": {
+      "搜索酒店": [
+        "open agoda app",
+        "tap Search",
+        "enter destination and dates",
+        "tap Search",
+        "filter hotels by price, rating, etc."
+      ],
+      "预订住宿": [
+        "open agoda app",
+        "select a property",
+        "choose room and dates",
+        "tap Book Now",
+        "complete reservation"
+      ],
+      "查看预订": [
+        "open agoda app",
+        "tap My Bookings",
+        "view reservation details"
+      ]
+    },
+    "Google Play Store": {
+      "搜索应用": [
+        "open google play store app",
+        "tap the search bar",
+        "type app name",
+        "tap the app from results"
+      ],
+      "下载应用": [
+        "open google play store app",
+        "find an app",
+        "tap Install",
+        "wait for download and installation"
+      ],
+      "查看已安装应用": [
+        "open google play store app",
+        "tap the menu icon",
+        "tap My apps & games",
+        "view installed and updates available"
+      ]
+    },
+    "网易云音乐": {
+      "搜索音乐": [
+        "open netease cloud music app",
+        "tap the search icon",
+        "type song/artist/album name",
+        "tap search result to play"
+      ],
+      "创建播放列表": [
+        "open netease cloud music app",
+        "tap the playlist icon",
+        "tap Create new playlist",
+        "add songs to the playlist"
+      ],
+      "查看评论": [
+        "open netease cloud music app",
+        "play a song",
+        "scroll down to see hot comments",
+        "read and interact with comments"
+      ],
+      "下载音乐": [
+        "open netease cloud music app",
+        "find a song",
+        "tap the download icon",
+        "choose download quality"
+      ]
+    },
+    "夸克": {
+      "搜索内容": [
+        "open quark app",
+        "tap the search bar",
+        "type your query",
+        "view AI-powered search results"
+      ],
+      "使用工具箱": [
+        "open quark app",
+        "tap the toolbox icon",
+        "select a tool (calculator, translator, etc.)",
+        "use the selected tool"
+      ],
+      "观看视频": [
+        "open quark app",
+        "tap Videos",
+        "browse or search for videos",
+        "tap to play"
+      ]
+    },
+    "猫眼": {
+      "搜索电影": [
+        "open maoyan app",
+        "tap Movies",
+        "search for a movie or browse current releases"
+      ],
+      "购买电影票": [
+        "open maoyan app",
+        "select a movie",
+        "choose theater and showtime",
+        "select seats",
+        "complete purchase"
+      ],
+      "查看电影评价": [
+        "open maoyan app",
+        "select a movie",
+        "scroll to reviews section",
+        "read user ratings and comments"
+      ]
+    },
+    "大麦": {
+      "搜索演出": [
+        "open damai app",
+        "tap Search",
+        "type artist or event name",
+        "browse search results"
+      ],
+      "购买门票": [
+        "open damai app",
+        "select an event",
+        "choose date and venue",
+        "select tickets",
+        "complete purchase"
+      ],
+      "查看演出详情": [
+        "open damai app",
+        "tap an event",
+        "view description, cast, and venue info"
+      ]
+    },
+    "美团": {
+      "搜索餐厅": [
+        "open meituan app",
+        "tap Food delivery",
+        "search for restaurant or cuisine",
+        "browse options"
+      ],
+      "点餐外卖": [
+        "open meituan app",
+        "select a restaurant",
+        "choose dishes",
+        "add to cart",
+        "place order and pay"
+      ],
+      "预订酒店": [
+        "open meituan app",
+        "tap Hotels",
+        "search for destination",
+        "select dates and book"
+      ],
+      "购买团购": [
+        "open meituan app",
+        "tap Deals",
+        "browse local deals",
+        "purchase vouchers"
+      ]
+    },
+    "大众点评": {
+      "搜索商户": [
+        "open dianping app",
+        "tap Search",
+        "type business name or category",
+        "view results"
+      ],
+      "查看评价": [
+        "open dianping app",
+        "select a business",
+        "scroll to reviews",
+        "read user comments and ratings"
+      ],
+      "预订座位": [
+        "open dianping app",
+        "select a restaurant",
+        "tap Reserve a table",
+        "choose time and party size"
+      ]
+    },
+    "京东": {
+      "搜索商品": [
+        "open jd app",
+        "tap the search bar",
+        "type product name",
+        "tap search",
+        "browse results"
+      ],
+      "添加到购物车": [
+        "open jd app",
+        "find a product",
+        "select options",
+        "tap Add to Cart"
+      ],
+      "查看订单": [
+        "open jd app",
+        "tap My JD",
+        "tap Orders",
+        "view order status"
+      ],
+      "使用PLUS会员": [
+        "open jd app",
+        "tap My JD",
+        "tap PLUS membership",
+        "access member benefits"
+      ]
+    },
+    "淘宝": {
+      "搜索商品": [
+        "open taobao app",
+        "tap the search bar",
+        "type what you want",
+        "tap search",
+        "browse products"
+      ],
+      "添加到购物车": [
+        "open taobao app",
+        "find an item",
+        "select size/color",
+        "tap Add to Cart"
+      ],
+      "查看订单": [
+        "open taobao app",
+        "tap My Taobao",
+        "tap Orders",
+        "check order status"
+      ],
+      "参与直播": [
+        "open taobao app",
+        "tap Live",
+        "watch live streams",
+        "shop while watching"
+      ]
+    },
+    "拼多多": {
+      "搜索商品": [
+        "open pinduoduo app",
+        "tap the search bar",
+        "type product name",
+        "tap search",
+        "view results"
+      ],
+      "参与拼团": [
+        "open pinduoduo app",
+        "find a group buy item",
+        "tap Join Group",
+        "invite friends or wait for others"
+      ],
+      "查看订单": [
+        "open pinduoduo app",
+        "tap My Pinduoduo",
+        "tap Orders",
+        "view purchase history"
+      ],
+      "玩游戏赚现金": [
+        "open pinduoduo app",
+        "tap Games",
+        "play mini-games",
+        "earn rewards"
+      ]
+    },
+    "微信": {
+      "发送消息": [
+        "open wechat app",
+        "tap a chat",
+        "type message",
+        "tap send"
+      ],
+      "添加好友": [
+        "open wechat app",
+        "tap + icon",
+        "tap Add Contacts",
+        "search by phone or WeChat ID"
+      ],
+      "查看朋友圈": [
+        "open wechat app",
+        "tap Discover",
+        "tap Moments",
+        "scroll through posts"
+      ],
+      "使用小程序": [
+        "open wechat app",
+        "tap Discover",
+        "tap Mini Programs",
+        "search and use apps"
+      ],
+      "发红包": [
+        "open wechat app",
+        "open a chat",
+        "tap + icon",
+        "tap Red Packet",
+        "set amount and send"
+      ]
+    },
+    "小红书": {
+      "浏览笔记": [
+        "open xiaohongshu app",
+        "scroll through home feed",
+        "tap notes to read"
+      ],
+      "发布笔记": [
+        "open xiaohongshu app",
+        "tap + icon",
+        "take photo or video",
+        "add text and tags",
+        "post"
+      ],
+      "搜索内容": [
+        "open xiaohongshu app",
+        "tap search bar",
+        "type keywords",
+        "view results"
+      ],
+      "购物": [
+        "open xiaohongshu app",
+        "tap Mall",
+        "browse and shop products"
+      ]
+    },
+    "知乎": {
+      "搜索问题": [
+        "open zhihu app",
+        "tap search bar",
+        "type question",
+        "view answers"
+      ],
+      "回答问题": [
+        "open zhihu app",
+        "find a question",
+        "tap Write Answer",
+        "type your response"
+      ],
+      "关注话题": [
+        "open zhihu app",
+        "search for topic",
+        "tap Follow"
+      ],
+      "查看热榜": [
+        "open zhihu app",
+        "tap Hot List",
+        "browse trending topics"
+      ]
+    },
+    "高德地图": {
+      "搜索地点": [
+        "open amap app",
+        "tap search bar",
+        "type location",
+        "select from results"
+      ],
+      "路线规划": [
+        "open amap app",
+        "set start and end points",
+        "choose transportation",
+        "get directions"
+      ],
+      "实时公交": [
+        "open amap app",
+        "search for bus stop",
+        "view real-time arrivals"
+      ],
+      "打车": [
+        "open amap app",
+        "tap Taxi",
+        "set pickup location",
+        "request ride"
+      ]
+    },
+    "携程旅行": {
+      "搜索酒店": [
+        "open ctrip app",
+        "tap Hotels",
+        "enter destination and dates",
+        "search and book"
+      ],
+      "预订机票": [
+        "open ctrip app",
+        "tap Flights",
+        "enter route and dates",
+        "select and book flights"
+      ],
+      "查看订单": [
+        "open ctrip app",
+        "tap My Trips",
+        "view bookings"
+      ]
+    },
+    "去哪儿旅行": {
+      "搜索机票": [
+        "open qunar app",
+        "tap Flights",
+        "enter route and dates",
+        "compare prices"
+      ],
+      "预订酒店": [
+        "open qunar app",
+        "tap Hotels",
+        "search and book"
+      ],
+      "查看攻略": [
+        "open qunar app",
+        "tap Travel Guides",
+        "read destination info"
+      ]
+    },
+    "抖音/Tik Tok": {
+      "浏览视频": [
+        "open douyin app",
+        "scroll through feed",
+        "watch videos"
+      ],
+      "发布视频": [
+        "open douyin app",
+        "tap + icon",
+        "record or upload video",
+        "add effects and music",
+        "post"
+      ],
+      "搜索内容": [
+        "open douyin app",
+        "tap search icon",
+        "type keywords",
+        "view results"
+      ],
+      "直播": [
+        "open douyin app",
+        "tap Live",
+        "start streaming"
+      ]
+    },
+    "哔哩哔哩": {
+      "观看视频": [
+        "open bilibili app",
+        "browse home feed",
+        "tap video to play"
+      ],
+      "发送弹幕": [
+        "open bilibili app",
+        "play a video",
+        "type in danmaku box",
+        "send"
+      ],
+      "订阅UP主": [
+        "open bilibili app",
+        "visit creator's page",
+        "tap Follow"
+      ],
+      "观看直播": [
+        "open bilibili app",
+        "tap Live",
+        "select streamer",
+        "watch and interact"
+      ]
+    },
+    "美图秀秀": {
+      "编辑照片": [
+        "open meitu app",
+        "select photo",
+        "use editing tools",
+        "apply filters and effects",
+        "save"
+      ],
+      "美颜": [
+        "open meitu app",
+        "open camera",
+        "use beauty features",
+        "take photo"
+      ],
+      "拼图": [
+        "open meitu app",
+        "select multiple photos",
+        "choose layout",
+        "create collage"
+      ]
+    },
+    "闹钟": {
+      "设置闹钟": [
+        "open clock app",
+        "tap Alarm tab",
+        "tap + to add alarm",
+        "set time and options",
+        "save"
+      ],
+      "设置定时器": [
+        "open clock app",
+        "tap Timer tab",
+        "set duration",
+        "start timer"
+      ]
+    },
+    "相册": {
+      "查看照片": [
+        "open photos app",
+        "browse albums or all photos",
+        "tap photo to view"
+      ],
+      "创建相册": [
+        "open photos app",
+        "tap Albums",
+        "tap + to create album",
+        "select photos to add"
+      ],
+      "编辑照片": [
+        "open photos app",
+        "select photo",
+        "tap Edit",
+        "use tools to modify",
+        "save changes"
+      ]
+    },
+    "备忘录/笔记": {
+      "创建新笔记": [
+        "open notes app",
+        "tap + to create new note",
+        "type text or add attachments",
+        "save automatically"
+      ],
+      "搜索笔记": [
+        "open notes app",
+        "tap search bar",
+        "type keywords",
+        "view matching notes"
+      ],
+      "整理笔记": [
+        "open notes app",
+        "tap Edit",
+        "select notes to move",
+        "choose or create folder"
+      ]
+    }
+  }
+}

@@ -1,0 +1,11 @@
+{
+
+        // ...
+        "http.proxy": "http://127.0.0.1:7892",
+        "http.proxyStrictSSL": false,
+        "http.proxySupport": "override",
+        "http.noProxy": [],
+        "cursor.general.disableHttp2": true
+
+      
+}

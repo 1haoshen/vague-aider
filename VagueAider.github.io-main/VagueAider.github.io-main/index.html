@@ -1,0 +1,541 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta name="description" content="VagueAider: Bridging Vague Intents for Mobile Agents">
+  <meta name="keywords" content="VLM, Mobile Agent, Autonomous GUI">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>VagueAider</title>
+
+  <link href="https://fonts.googleapis.com/css?family=Google+Sans|Noto+Sans|Castoro" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.4/css/bulma.min.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/jpswalsh/academicons@1/css/academicons.min.css">
+  
+  <style>
+    /* 核心修复：清理 Results 区域的瀑布流图片布局 */
+    #main {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      gap: 15px;
+      width: 100%;
+      margin: 0 auto;
+    }
+
+    .box-item {
+      background-color: #fff;
+      border: 1px solid #ccc;
+      border-radius: 8px;
+      padding: 10px;
+      transition: transform 0.2s;
+    }
+
+    .box-item:hover {
+      transform: scale(1.02);
+    }
+
+    .pic img {
+      width: 450px;
+      height: auto;
+      display: block;
+      border-radius: 4px;
+    }
+
+    /* 视频展示容器 */
+    .video-container {
+      border-radius: 10px;
+      overflow: hidden;
+      box-shadow: 0 4px 15px rgba(0,0,0,0.1);
+    }
+
+    .comparison-box {
+      background: #fcfcfc;
+      border-radius: 12px;
+      border: 1px solid #eee !important;
+      margin-bottom: 2rem;
+    }
+  </style>
+</head>
+
+<body>
+
+<section class="hero">
+  <div class="hero-body">
+    <div class="container is-max-desktop">
+      <div class="columns is-centered">
+        <div class="column has-text-centered">
+          <h1 class="title is-1 publication-title">VagueAider:</h1>
+          <h2 class="title is-2 publication-title">Bridging User-Friendly Vague Intents and Agent-Friendly Executable Instructions for VLM-Based Mobile Agents</h2>
+          <div class="is-size-5 mb-6"> <span class="author-block">Anonymous Authors</span>
+          </div>
+          
+          <div class="column has-text-centered">
+            <div class="publication-links">
+              </div>
+          </div>
+
+          <div class="column has-text-centered">
+            <div class="publication-links">
+              <span class="link-block">
+                <a href="#" class="external-link button is-normal is-rounded is-dark">
+                  <span class="icon"><i class="ai ai-arxiv"></i></span>
+                  <span>Paper</span>
+                </a>
+              </span>
+
+              <span class="link-block">
+                <a href="#" class="external-link button is-normal is-rounded is-dark">
+                  <span class="icon"><i class="fab fa-github"></i></span>
+                  <span>Code</span>
+                </a>
+              </span>
+
+              <span class="link-block">
+                <a href="#" class="external-link button is-normal is-rounded is-dark">
+                  <span class="icon"><i class="fa fa-database"></i></span>
+                  <span>Dataset</span>
+                </a>
+              </span>
+
+              <span class="link-block">
+                <a href="#" class="external-link button is-normal is-rounded is-dark">
+                  <span class="icon"><i class="fa fa-tasks"></i></span>
+                  <span>Bench</span>
+                </a>
+              </span>
+            </div>
+          </div>
+          </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+#摘要部分
+<section class="section">
+  <div class="container is-max-desktop">
+    <div class="columns is-centered has-text-centered">
+      <div class="column is-four-fifths">
+        <h2 class="title is-3">Abstract</h2>
+        <div class="content has-text-justified">
+          <p>
+            A VLM-based mobile agent interprets natural language instructions and directly operates a smartphone. Mobile agents often struggle with vague user instructions that lack explicit application contexts and execution details. Furthermore, we introduce VagueBench, a novel evaluation suite that systematically quantifies the impact of varying instruction ambiguity levels on agent success rates and operational efficiency. Furthermore, we propose VagueAider, a lightweight, training-free, and plug-and-play framework designed to bridge the semantic gap between ambiguous intent and executable GUI actions. Experimental results across VagueBenchmark and external benchmarks demonstrate that VagueAider consistently improves agents’ success rates by a large margin while significantly reducing overhead.
+          </p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="section" style="padding-top: 0; padding-bottom: 2rem;"> <div class="container is-max-desktop">
+    <div class="columns is-centered has-text-centered">
+      <div class="column is-four-fifths">
+        
+        <div class="publication-image">
+          <img src="./static/images/figure1.png" alt="VagueAider Teaser" style="width: 100%; height: auto; border-radius: 8px;">
+        </div>
+
+        <div class="content has-text-justified mt-4">
+          <p class="has-text-grey is-size-6">
+            <b>Figure 1:</b>  VagueAider can translate user-friendly vague intents into agent-friendly execution plans, bridging the semantic gap between natural language and GUI operations.
+        </div>
+
+      </div>
+    </div>
+  </div>
+</section>
+
+#Baseline 性能对比部分
+
+<section class="section">
+    <div class="container is-max-widescreen">
+      <div class="columns is-centered has-text-centered mb-5">
+        <div class="column is-full">
+          <h2 class="title is-3">🔥 VagueAider vs. Baseline</h2>
+          <p>VagueAider 能够将模糊意图重写为可执行步骤，从而显著提升 Agent 表现。A VLM-based mobile agent interprets natural language instructions and directly operates a smartphone. Mobile agents often struggle with vague user instructions that lack explicit application contexts and execution details. Furthermore, we introduce VagueBench, a novel evaluation suite that systematically quantifies the impact of varying instruction ambiguity levels on agent success rates and operational efficiency. Furthermore, we propose VagueAider, a lightweight, training-free, and plug-and-play framework designed to bridge the semantic gap between ambiguous intent and executable GUI actions. Experimental results across VagueBenchmark and external benchmarks demonstrate that VagueAider consistently improves agents’ success rates by a large margin while significantly reducing overhead.</p>
+        </div>
+      </div>
+  
+      <div class="columns is-centered">
+        <div class="column is-10">
+          <div class="box comparison-box" style="background-color: #fdfdfd; border-radius: 20px;">
+            <h3 class="title is-4 has-text-centered mb-6">Case 1: "I'm hungry, please..."</h3>
+            
+            <div class="columns is-centered is-vcentered">
+              
+              <div class="column is-5-tablet is-6-mobile">
+                <div class="has-text-centered">
+                  <span class="tag is-danger is-light is-medium mb-4">Baseline</span>
+                  
+                  <div class="mobile-mockup">
+                    <div class="screen">
+                      <video autoplay controls muted loop playsinline>
+                        <source src="./static/videos/placeholder_video.mp4" type="video/mp4">
+                      </video>
+                    </div>
+                    <div class="notch"></div>
+                  </div>
+                  
+                  <p class="is-size-7 mt-4 has-text-danger">❌ Fails to find app</p>
+                </div>
+              </div>
+  
+              <div class="column is-narrow is-hidden-mobile">
+                <div style="background: #eee; border-radius: 50%; width: 50px; height: 50px; line-height: 50px; text-align: center;">
+                  <i class="fas fa-arrow-right fa-lg" style="color: #666;"></i>
+                </div>
+              </div>
+  
+              <div class="column is-5-tablet is-6-mobile">
+                <div class="has-text-centered">
+                  <span class="tag is-success is-light is-medium mb-4">VagueAider (Ours)</span>
+                  
+                  <div class="mobile-mockup">
+                    <div class="screen">
+                      <video autoplay controls muted loop playsinline>
+                        <source src="./static/videos/placeholder_video.mp4" type="video/mp4">
+                      </video>
+                    </div>
+                    <div class="notch"></div>
+                  </div>
+                  
+                  <p class="is-size-7 mt-4 has-text-success">✅ Navigates to Food App</p>
+                </div>
+              </div>
+  
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  
+    <style>
+      .mobile-mockup {
+        position: relative;
+        width: 100%;
+        max-width: 260px; /* 手机宽度 */
+        margin: 0 auto;
+        background: #333; /* 边框颜色 */
+        padding: 10px; /* 边框厚度 */
+        border-radius: 35px; /* 手机圆角 */
+        box-shadow: 
+          0 0 0 2px #555, /* 极细金属边 */
+          0 20px 40px rgba(0,0,0,0.2); /* 落地阴影 */
+      }
+  
+      /* 模拟手机侧边按钮 */
+      .mobile-mockup::before {
+        content: '';
+        position: absolute;
+        left: -3px; top: 80px;
+        width: 3px; height: 40px;
+        background: #444; border-radius: 2px 0 0 2px;
+      }
+  
+      .screen {
+        position: relative;
+        width: 100%;
+        padding-top: 216%; /* 模拟 19.5:9 的现代手机比例 */
+        background: #000;
+        border-radius: 25px;
+        overflow: hidden;
+        z-index: 1;
+      }
+  
+      .screen video {
+        position: absolute;
+        top: 0; left: 0;
+        width: 100%; height: 100%;
+        object-fit: cover;
+      }
+  
+      /* 刘海设计 */
+      .notch {
+        position: absolute;
+        top: 10px;
+        left: 50%;
+        transform: translateX(-50%);
+        width: 40%;
+        height: 25px;
+        background: #333;
+        border-bottom-left-radius: 15px;
+        border-bottom-right-radius: 15px;
+        z-index: 10;
+      }
+      
+      /* 刘海里的听筒小孔 */
+      .notch::after {
+        content: '';
+        position: absolute;
+        top: 5px; left: 50%;
+        transform: translateX(-50%);
+        width: 30px; height: 4px;
+        background: #222; border-radius: 2px;
+      }
+    </style>
+  </section>
+
+#vagueaider框架部分 -Methodology / Framework
+<section class="section">
+    <div class="container is-max-desktop">
+      
+      <div class="columns is-centered has-text-centered mb-5">
+        <div class="column is-full">
+          <h2 class="title is-3">Methodology</h2>
+        </div>
+      </div>
+  
+      <div class="columns is-centered">
+        <div class="column is-four-fifths">
+          <div class="publication-image">
+            <img src="./static/images/framework.png" alt="VagueAider Framework" style="width: 100%; height: auto; border-radius: 10px; box-shadow: 0 4px 20px rgba(0,0,0,0.05);">
+          </div>
+          <p class="has-text-grey is-size-6 mt-3 has-text-centered">
+            <b>Figure 3:</b> Collection of APP Knowledge & VagueAider 框架总览。包含意图扩展（Intent Expansion）与计划精炼（Plan Refinement）两个核心阶段。
+          </p>
+        </div>
+      </div>
+  
+      <div class="columns is-centered mt-6">
+        <div class="column is-four-fifths">
+          <div class="columns">
+            
+            <div class="column">
+              <div class="box" style="height: 100%; border-top: 4px solid #3273dc;">
+                <h4 class="title is-5">1. Intent Expansion</h4>
+                <p class="is-size-6">
+                  利用大语言模型（LLM）的常识推理能力，将用户模糊的原始意图扩展为包含<b>具体应用上下文</b>和<b>潜在操作目标</b>的详细描述，补全缺失的语义信息。
+                </p>
+              </div>
+            </div>
+  
+            <div class="column">
+              <div class="box" style="height: 100%; border-top: 4px solid #48c774;">
+                <h4 class="title is-5">2. Plan Refinement</h4>
+                <p class="is-size-6">
+                  通过指令感知的精炼机制，将扩展后的意图转化为<b>原子级、可执行的 GUI 指令序列</b>，确保 Agent 能够准确识别目标组件并顺畅执行。
+                </p>
+              </div>
+            </div>
+  
+          </div>
+        </div>
+      </div>
+  
+    </div>
+  </section>
+  
+#vague-Bench部分
+<section class="section" style="background-color: #fafafa;">
+    <div class="container is-max-desktop">
+      
+      <div class="columns is-centered has-text-centered mb-6">
+        <div class="column is-full">
+          <h2 class="title is-3">VagueBench</h2>
+          <p class="subtitle is-5">A novel evaluation suite systematically quantifying instruction ambiguity.</p>
+        </div>
+      </div>
+  
+      <div class="columns is-centered mb-6">
+        <div class="column is-12">
+          <div class="columns">
+            
+            <div class="column">
+              <div class="notification is-white" style="border: 1px solid #ddd; height: 100%;">
+                <div class="is-flex is-align-items-center mb-3">
+                  <span class="tag is-info is-light is-large mr-2">L1</span>
+                  <h4 class="title is-5 mb-0">Implicit App</h4>
+                </div>
+                <p class="is-size-7 mb-3">明确了操作，但未指定具体 App。</p>
+                <div class="p-2" style="background: #f0f6ff; border-radius: 5px; border-left: 3px solid #3273dc;">
+                  <p class="is-size-7"><i>"Order a spicy pizza."</i></p>
+                </div>
+              </div>
+            </div>
+  
+            <div class="column">
+              <div class="notification is-white" style="border: 1px solid #ddd; height: 100%;">
+                <div class="is-flex is-align-items-center mb-3">
+                  <span class="tag is-warning is-light is-large mr-2">L2</span>
+                  <h4 class="title is-5 mb-0">Implicit Op</h4>
+                </div>
+                <p class="is-size-7 mb-3">指定了 App，但未给出具体操作步骤。</p>
+                <div class="p-2" style="background: #fff9eb; border-radius: 5px; border-left: 3px solid #ffdd57;">
+                  <p class="is-size-7"><i>"Use Uber to go to the airport."</i></p>
+                </div>
+              </div>
+            </div>
+  
+            <div class="column">
+              <div class="notification is-white" style="border: 1px solid #ddd; height: 100%;">
+                <div class="is-flex is-align-items-center mb-3">
+                  <span class="tag is-danger is-light is-large mr-2">L3</span>
+                  <h4 class="title is-5 mb-0">Fully Vague</h4>
+                </div>
+                <p class="is-size-7 mb-3">完全模糊，仅表达核心用户需求。</p>
+                <div class="p-2" style="background: #fff5f5; border-radius: 5px; border-left: 3px solid #ff3860;">
+                  <p class="is-size-7"><i>"I want to watch a movie."</i></p>
+                </div>
+              </div>
+            </div>
+  
+          </div>
+        </div>
+      </div>
+  
+      <div class="columns is-centered">
+        <div class="column is-four-fifths">
+          <div class="box">
+            <div class="columns is-vcentered has-text-centered">
+              <div class="column">
+                <p class="title is-2" style="color: #3273dc;">182</p>
+                <p class="heading">Total Tasks</p>
+              </div>
+              <div class="column is-narrow is-hidden-mobile">
+                <div style="width: 1px; height: 50px; background: #eee; margin: 0 auto;"></div>
+              </div>
+              <div class="column">
+                <p class="title is-2" style="color: #48c774;">33</p>
+                <p class="heading">Popular Apps</p>
+              </div>
+              <div class="column is-narrow is-hidden-mobile">
+                <div style="width: 1px; height: 50px; background: #eee; margin: 0 auto;"></div>
+              </div>
+              <div class="column">
+                <p class="title is-2" style="color: #ff3860;">100%</p>
+                <p class="heading">Real-world Scenarios</p>
+              </div>
+            </div>
+            <div class="content mt-4">
+              <p class="is-size-6 has-text-centered has-text-grey">
+                数据涵盖了社交、购物、出行、工具等主流手机生态系统。
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+  
+    </div>
+  </section>
+
+#exp结果部分
+<section class="section">
+    <div class="container is-max-desktop">
+      
+      <div class="columns is-centered has-text-centered mb-5">
+        <div class="column is-full">
+          <h2 class="title is-3">Experimental Results</h2>
+        </div>
+      </div>
+  
+      <div class="columns is-centered">
+        <div class="column is-four-fifths">
+          <div class="content">
+            <h3 class="title is-4 has-text-centered">Performance on VagueBench</h3>
+            <p class="is-size-6 mb-4">
+              我们在 VagueBench 上对比了不同基座 Agent 在使用 VagueAider 前后的性能表现。结果显示，VagueAider 在所有模糊等级（L1-L3）上均带来了显著的成功率提升。
+            </p>
+            
+            <div class="table-container">
+              <table class="table is-bordered is-striped is-narrow is-hoverable is-fullwidth has-text-centered">
+                <thead>
+                  <tr style="background-color: #f5f5f5;">
+                    <th>Base Agent</th>
+                    <th>Framework</th>
+                    <th>L1 SR (%)</th>
+                    <th>L2 SR (%)</th>
+                    <th>L3 SR (%)</th>
+                    <th style="background-color: #edf2f7;">Total SR (%)</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td rowspan="2" style="vertical-align : middle;">Mobile-Agent-v2</td>
+                    <td>Vanilla</td>
+                    <td>26.2</td>
+                    <td>11.5</td>
+                    <td>0.0</td>
+                    <td style="background-color: #edf2f7;">12.6</td>
+                  </tr>
+                  <tr>
+                    <td>+ <b>VagueAider</b></td>
+                    <td><b>45.9</b></td>
+                    <td><b>39.3</b></td>
+                    <td><b>36.7</b></td>
+                    <td style="background-color: #e6fffa;"><b>40.7 (+28.1)</b></td>
+                  </tr>
+                  
+                  <tr>
+                    <td rowspan="2" style="vertical-align : middle;">Mobile-Agent-v3</td>
+                    <td>Vanilla</td>
+                    <td>45.9</td>
+                    <td>34.4</td>
+                    <td>16.7</td>
+                    <td style="background-color: #edf2f7;">32.4</td>
+                  </tr>
+                  <tr>
+                    <td>+ <b>VagueAider</b></td>
+                    <td><b>65.6</b></td>
+                    <td><b>54.1</b></td>
+                    <td><b>50.0</b></td>
+                    <td style="background-color: #e6fffa;"><b>56.6 (+24.2)</b></td>
+                  </tr>
+                </tbody>
+              </table>
+            </div>
+            <p class="is-size-7 has-text-grey mt-2">
+              * SR: Success Rate. 加粗表示在使用 VagueAider 后的最优表现。
+            </p>
+          </div>
+        </div>
+      </div>
+  
+      <div class="columns is-centered mt-6">
+        <div class="column is-four-fifths">
+          <div class="box" style="background-color: #f9f9f9; border-left: 5px solid #3273dc;">
+            <div class="content">
+              <h4 class="title is-5">Generalization & Efficiency</h4>
+              <p class="is-size-6">
+                除了 VagueBench，VagueAider 在外部基准测试（如 AitW）中同样表现出色。此外，由于意图被重写得更加精准，Agent 的无效探索步骤显著减少，
+                <b>平均 Token 消耗降低了约 15%-20%</b>，大大提升了部署效率。
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+  
+    </div>
+  </section>
+
+#引用部分
+<section class="section" id="BibTeX">
+  <div class="container is-max-desktop content">
+    <h2 class="title">BibTeX</h2>
+    <pre><code>@article{vagueaider2024,
+  title={VagueAider: Bridging User-Friendly Vague Intents},
+  author={Anonymous},
+  year={2024}
+}</code></pre>
+  </div>
+</section>
+
+<section class="section" id="Acknowledgement">
+  <div class="container is-max-desktop content">
+    <h2 class="title">Acknowledgement</h2>
+    <p>
+      This website is adapted from <a href="https://github.com/nerfies/nerfies.github.io">Nerfies</a>, licensed under a <a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/">Creative Commons Attribution-ShareAlike 4.0 International License</a>.
+    </p>
+  </div>
+</section>
+
+<footer class="footer">
+  <div class="container">
+    <div class="content has-text-centered">
+      <p>© 2024 VagueAider Project</p>
+    </div>
+  </div>
+</footer>
+
+</body>
+</html>

@@ -1,0 +1,467 @@
+{
+    "source2": "mvisu-bench",
+    "description2": "MVISU-Bench数据集合并结果",
+    "total_tasks2": 40,
+    "scenarios2": [
+    "Lifestyle",
+    "Social Media",
+    "System Tool",
+    "shopping"
+    ],
+    "tasks2": [
+      {
+        "ID": 1,
+        "TaskType": "Vague",
+        "APP": [],
+        "APPType": [],
+        "Instruction": "我想去北京旅游3天, 帮我生成一个旅游攻略。"
+      },
+      {
+        "ID": 2,
+        "TaskType": "Vague",
+        "APP": [],
+        "APPType": [],
+        "Instruction": "来点LLM相关文章。"
+      },
+      {
+        "ID": 3,
+        "TaskType": "Vague",
+        "APP": [],
+        "APPType": [],
+        "Instruction": "放一首周传雄的歌。"
+      },
+      {
+        "ID": 4,
+        "TaskType": "Vague",
+        "APP": [],
+        "APPType": [],
+        "Instruction": "最近有什么好看的电影。"
+      },
+      {
+        "ID": 5,
+        "TaskType": "Vague",
+        "APP": [],
+        "APPType": [],
+        "Instruction": "关注”向前的赵“。"
+      },
+      {
+        "ID": 6,
+        "TaskType": "Vague",
+        "APP": [],
+        "APPType": [],
+        "Instruction": "订个五星级酒店。"
+      },
+      {
+        "ID": 7,
+        "TaskType": "Vague",
+        "APP": [],
+        "APPType": [],
+        "Instruction": "买一台小米手机。"
+      },
+      {
+        "ID": 8,
+        "TaskType": "Vague",
+        "APP": [],
+        "APPType": [],
+        "Instruction": "帮我点一份重庆小面。"
+      },
+      {
+        "ID": 9,
+        "TaskType": "Vague",
+        "APP": [],
+        "APPType": [],
+        "Instruction": "Play a song by Wang Leehom."
+      },
+      {
+        "ID": 10,
+        "TaskType": "Vague",
+        "APP": [],
+        "APPType": [],
+        "Instruction": "Open a video about funny things."
+      },
+      {
+        "ID": 11,
+        "TaskType": "Vague",
+        "APP": [],
+        "APPType": [],
+        "Instruction": "How's the weather in Berlin today?"
+      },
+      {
+        "ID": 12,
+        "TaskType": "Vague",
+        "APP": [],
+        "APPType": [],
+        "Instruction": "Grab and download an image of the cute emoji."
+      },
+      {
+        "ID": 13,
+        "TaskType": "Vague",
+        "APP": [],
+        "APPType": [],
+        "Instruction": "Tell me if there's any crucial information regarding the US today."
+      },
+      {
+        "ID": 14,
+        "TaskType": "Multi-App",
+        "APP": [
+          "高德地图",
+          "微信"
+        ],
+        "APPType": [
+          "General Tool",
+          "Social Media"
+        ],
+        "Instruction": "打开高德地图搜索麦当劳, 将第一个麦当劳的位置信息分享给微信好友小明。"
+      },
+      {
+        "ID": 15,
+        "TaskType": "Multi-App",
+        "APP": [
+          "相册",
+          "抖音"
+        ],
+        "APPType": [
+          "System Tool",
+          "Lifestyle"
+        ],
+        "Instruction": "打开相册并把第一张照片分享给抖音好友小张。"
+      },
+      {
+        "ID": 16,
+        "TaskType": "Multi-App",
+        "APP": [
+          "小红书",
+          "大众点评"
+        ],
+        "APPType": [
+          "Social Media",
+          "Lifestyle"
+        ],
+        "Instruction": "打开小红书搜索附近饭店推荐并记录饭店名字, 打开大众点评搜索该饭店。"
+      },
+      {
+        "ID": 17,
+        "TaskType": "Multi-App",
+        "APP": [
+          "猫眼",
+          "微信"
+        ],
+        "APPType": [
+          "Lifestyle",
+          "Social Media"
+        ],
+        "Instruction": "在猫眼查看热映电影并截图, 然后打开微信将截图发送给好友小明, 最后发送消息“你想看什么电影？”。"
+      },
+      {
+        "ID": 18,
+        "TaskType": "Multi-App",
+        "APP": [
+          "淘宝",
+          "备忘录"
+        ],
+        "APPType": [
+          "Shopping",
+          "System Tool"
+        ],
+        "Instruction": "打开淘宝搜索“家用空气净化器”, 价格区间设置为2000-3000元, 根据销量、用户评论和功能描述筛选三款性价比高的净化器加入购物车, 退出淘宝, 打开备忘录记录每款净化器的净化效果、噪音值和耗电量等对比。"
+      },
+      {
+        "ID": 19,
+        "TaskType": "Multi-App",
+        "APP": [
+          "知乎",
+          "微信"
+        ],
+        "APPType": [
+          "Lifestyle",
+          "Social Media"
+        ],
+        "Instruction": "用知乎查找“如何提升职场竞争力”, 将评论最多的文章分享给微信好友小华。"
+      },
+      {
+        "ID": 20,
+        "TaskType": "Multi-App",
+        "APP": [
+          "哔哩哔哩",
+          "WeChat"
+        ],
+        "APPType": [
+          "Lifestyle",
+          "Social Media"
+        ],
+        "Instruction": "在哔哩哔哩搜索一个西红柿炒蛋教学视频, 将视频发送给wechat群聊”home“。"
+      },
+      {
+        "ID": 21,
+        "TaskType": "Multi-App",
+        "APP": [
+          "美团",
+          "微信"
+        ],
+        "APPType": [
+          "Lifestyle",
+          "Social Media"
+        ],
+        "Instruction": "打开美团搜索奶茶店一点点, 将该店铺发送给微信好友小红。"
+      },
+      {
+        "ID": 22,
+        "TaskType": "Multi-App",
+        "APP": [
+          "美图秀秀",
+          "相机",
+          "微信"
+        ],
+        "APPType": [
+          "Lifestyle",
+          "System Tool",
+          "Social Media"
+        ],
+        "Instruction": "用美图秀秀美颜相机最新的一张照片, 打开微信将美颜好的照片发送给好友小丽并发送消息“看看这个效果怎么样？”。"
+      },
+      {
+        "ID": 23,
+        "TaskType": "Multi-App",
+        "APP": [
+          "夸克",
+          "相册",
+          "微信"
+        ],
+        "APPType": [
+          "General Tool",
+          "System Tool",
+          "Social Media"
+        ],
+        "Instruction": "打开夸克搜索emo表情包并保存第一个到相册, 打开微信将该图片发表朋友圈, 最后配文“难受的一天”。"
+      },
+      {
+        "ID": 24,
+        "TaskType": "Multi-App",
+        "APP": [
+          "去哪儿网",
+          "大众点评",
+          "备忘录"
+        ],
+        "APPType": [
+          "Lifestyle",
+          "Lifestyle",
+          "System Tool"
+        ],
+        "Instruction": "打开去哪儿网查找广州一个度假村的信息, 在大众点评查看该度假村的用户评价, 将用户评价记录到备忘录。"
+      },
+      {
+        "ID": 25,
+        "TaskType": "Multi-App",
+        "APP": [
+          "网易云音乐",
+          "微信"
+        ],
+        "APPType": [
+          "Lifestyle",
+          "Social Media"
+        ],
+        "Instruction": "在网易云音乐播放张惠妹的掉了并添加到歌单, 将歌曲分享给微信好友小明。"
+      },
+      {
+        "ID": 26,
+        "TaskType": "Multi-App",
+        "APP": [
+          "小红书",
+          "备忘录",
+          "携程"
+        ],
+        "APPType": [
+          "Social Media",
+          "System Tool",
+          "Lifestyle"
+        ],
+        "Instruction": "用小红书搜索飞韩国的机票买什么航空公司体验感更好, 点开多个笔记, 根据笔记内容总结出体验感前二好的航空公司并写入备忘录, 根据备忘录信息, 打开携程查询11月1日, 北京-首尔这两个航空公司的机票情况并添加到收藏夹。"
+      },
+      {
+        "ID": 27,
+        "TaskType": "Multi-App",
+        "APP": [
+          "知乎",
+          "备忘录",
+          "抖音"
+        ],
+        "APPType": [
+          "Lifestyle",
+          "System Tool",
+          "Lifestyle"
+        ],
+        "Instruction": "在知乎搜索“如何快速提升英语口语”, 总结高赞回答中的有效学习方法并记录到备忘录, 打开抖音搜索相关方法的口语学习视频并收藏。"
+      },
+      {
+        "ID": 28,
+        "TaskType": "Multi-App",
+        "APP": [
+          "京东",
+          "微信"
+        ],
+        "APPType": [
+          "Shopping",
+          "General Tool"
+        ],
+        "Instruction": "在京东找三个10000元左右的主机放入购物车, 并在微信发朋友圈配文”这三个主机有什么推荐的吗？“。"
+      },
+      {
+        "ID": 29,
+        "TaskType": "Multi-App",
+        "APP": [
+          "浏览器",
+          "抖音",
+          "微信"
+        ],
+        "APPType": [
+          "System Tool",
+          "Lifestyle",
+          "Social Media"
+        ],
+        "Instruction": "在浏览器里面搜索“中国情歌教父是谁？”并打开抖音搜索该歌手的歌曲, 最后将视频分享给微信好友小明。"
+      },
+      {
+        "ID": 30,
+        "TaskType": "Multi-App",
+        "APP": [
+          "Google",
+          "Notepad"
+        ],
+        "APPType": [
+          "General Tool",
+          "System Tool"
+        ],
+        "Instruction": "Find the relevant materials of Mobile-based Agent in Google, and summarize the information content in Notepad."
+      },
+      {
+        "ID": 31,
+        "TaskType": "Multi-App",
+        "APP": [
+          "Meitu",
+          "AppGallery"
+        ],
+        "APPType": [
+          "Lifestyle",
+          "System Tool"
+        ],
+        "Instruction": "Open Meitu, select the third photo in the album, beautify the photo and save it."
+      },
+      {
+        "ID": 32,
+        "TaskType": "Multi-App",
+        "APP": [
+          "Rednote",
+          "Notepad"
+        ],
+        "APPType": [
+          "Social Media",
+          "System Tool"
+        ],
+        "Instruction": "Open the Rednote to search for matters needing attention in applying for a US visa, summarize the materials that need to be prepared for applying for a visa, and summarize to Notepad."
+      },
+      {
+        "ID": 33,
+        "TaskType": "Multi-App",
+        "APP": [
+          "Weather",
+          "Notepad"
+        ],
+        "APPType": [
+          "System Tool",
+          "System Tool"
+        ],
+        "Instruction": "Open the Weather app to add Vancouver and monitor its weather, then note down today's climate information in the Notepad."
+      },
+      {
+        "ID": 34,
+        "TaskType": "Multi-App",
+        "APP": [
+          "Amazon Shopping",
+          "Notepad"
+        ],
+        "APPType": [
+          "Shopping",
+          "System Tool"
+        ],
+        "Instruction": "Search the brand is Nike, the size is XL, about $50 of sports short sleeves in Amazon Shopping, sliding up and down the page, according to store ratings, user reviews and other basis to select three to join the purchase of cars, exit Amazon Shopping and generate the selection of the three stores of the analysis report in Notepad, including the respective advantages and disadvantages of the short sleeves."
+      },
+      {
+        "ID": 35,
+        "TaskType": "Multi-App",
+        "APP": [
+          "X",
+          "eBay"
+        ],
+        "APPType": [
+          "Social Media",
+          "Shopping"
+        ],
+        "Instruction": "Open X and search for 'The Night Circus by Erin Morgenstern', read through one of the posts, then go to eBay, look up the book, and add it to my watchlist."
+      },
+      {
+        "ID": 36,
+        "TaskType": "Multi-App",
+        "APP": [
+          "Camera",
+          "TikTok"
+        ],
+        "APPType": [
+          "System Tool",
+          "Social Media"
+        ],
+        "Instruction": "Take a photo using the Camera, then open TikTok and set it as my profile picture."
+      },
+      {
+        "ID": 37,
+        "TaskType": "Multi-App",
+        "APP": [
+          "Walmart",
+          "WeChat"
+        ],
+        "APPType": [
+          "Shopping",
+          "Social Media"
+        ],
+        "Instruction": "Search for keyboards under 100$ on Walmart, take a screenshot, and send it to my WeChat friend Tom."
+      },
+      {
+        "ID": 38,
+        "TaskType": "Multi-App",
+        "APP": [
+          "YouTube",
+          "WeChat"
+        ],
+        "APPType": [
+          "Lifestyle",
+          "Social Media"
+        ],
+        "Instruction": "Find a scrambled eggs with tomatoes cooking tutorial on YouTube, copy the video link, and paste it into the 'My Family' WeChat group."
+      },
+      {
+        "ID": 39,
+        "TaskType": "Multi-App",
+        "APP": [
+          "Google Translate",
+          "Facebook"
+        ],
+        "APPType": [
+          "General Tool",
+          "Social Media"
+        ],
+        "Instruction": "Open Google Translate, translate '我爱你' to English, and then send the result to my Facebook friend Jerry."
+      },
+      {
+        "ID": 40,
+        "TaskType": "Multi-App",
+        "APP": [
+          "YouTube",
+          "Google Maps"
+        ],
+        "APPType": [
+          "Lifestyle",
+          "General Tool"
+        ],
+        "Instruction": "Watch a travel vlog on YouTube and use Google Maps to find the featured location."
+      }
+    ]
+}

@@ -1,0 +1,442 @@
+[
+    {
+        "id": 1,
+        "app_name": "YouTube",
+        "brief_introduction": "Rating 4.2 stars video sharing platform. Allows users to upload, view, and share videos; supports live streaming and content creation tools; provides personalized recommendations and subscriptions for channels.",
+        "icon_description": "Red rectangular play button icon with a white triangle in the center, symbolizing video playback, on a white background.",
+        "ui_description": " ",
+        "common_functions": [
+            "Please watch a recommended video on YouTube",
+            "Upload a new video to your channel",
+            "Subscribe to a specific channel",
+            "Create a new playlist and add videos",
+            "Start a live stream session",
+            "Search for videos using keywords",
+            "Add a comment to a video",
+            "Share a video with friends",
+            "Set up monetization for your content",
+            "Browse personalized video recommendations"
+        ],
+        "action_object_str": ""
+    },
+    {
+        "id": 2,
+        "app_name": "Google Maps",
+        "brief_introduction": "Rating 4.3 stars navigation and mapping service. Offers real-time GPS navigation, traffic updates, and detailed maps; supports exploring places, finding directions, and local business information.",
+        "icon_description": "Red location pin icon with a white 'M' shape inside, representing a map marker, on a white background.",
+        "ui_description": " ",
+        "common_functions": [
+            "Get directions to a destination",
+            "View the map of a specific area",
+            "Check real-time traffic updates",
+            "Explore street view of a location",
+            "Find nearby restaurants or stores",
+            "Save a favorite location",
+            "Share your current location",
+            "Download maps for offline use",
+            "View public transit routes",
+            "Read reviews of local businesses"
+        ],
+        "action_object_str": ""
+    },
+    {
+        "id": 3,
+        "app_name": "Facebook",
+        "brief_introduction": "Rating 3.9 stars social networking app. Connects users with friends and family; allows sharing updates, photos, and videos; supports groups, events, and marketplace features.",
+        "icon_description": "Blue square icon with a white lowercase 'f' in the center, representing the Facebook logo.",
+        "ui_description": " ",
+        "common_functions": [
+            "Post a status update",
+            "Share photos or videos",
+            "Connect with a friend",
+            "Join a group",
+            "Create an event",
+            "Buy or sell items in Marketplace",
+            "Send a message via Messenger",
+            "Watch videos in the feed",
+            "Start a live stream",
+            "Check notifications"
+        ],
+        "action_object_str": ""
+    },
+    {
+        "id": 4,
+        "app_name": "Google Chrome",
+        "brief_introduction": "Rating 4.5 stars web browser. Provides fast browsing, secure connections, and extensions support; syncs data across devices and offers incognito mode.",
+        "icon_description": "Circular icon with red, yellow, green, and blue segments forming a wheel, with a blue center circle.",
+        "ui_description": " ",
+        "common_functions": [
+            "Browse a website by entering URL",
+            "Bookmark a page",
+            "Open incognito mode",
+            "Sync data across devices",
+            "Install a browser extension",
+            "Download a file",
+            "Manage open tabs",
+            "Save passwords",
+            "Translate a webpage",
+            "Use developer tools"
+        ],
+        "action_object_str": ""
+    },
+    {
+        "id": 5,
+        "app_name": "X  00",
+        "brief_introduction": "Rating 4.0 stars social media platform formerly known as Twitter. Enables short-form posting, following users, and real-time conversations; supports trends, polls, and multimedia sharing.",
+        "icon_description": "Black square icon with a white 'X' symbol, representing the rebranded Twitter logo.",
+        "ui_description": " ",
+        "common_functions": [
+            "Post a new tweet",
+            "Follow a user",
+            "Retweet a post",
+            "Like a post",
+            "Create a poll",
+            "View trending topics",
+            "Send a direct message",
+            "Bookmark a post",
+            "Join a live audio space",
+            "Check notifications"
+        ],
+        "action_object_str": ""
+    },
+    {
+        "id": 6,
+        "app_name": "Photoshop",
+        "brief_introduction": "Rating 4.6 stars professional photo editing software. Offers advanced tools for image manipulation, layers, and effects; supports AI features for enhanced editing.",
+        "icon_description": "Blue square icon with white 'Ps' letters in a stylized font, representing Adobe Photoshop.",
+        "ui_description": " ",
+        "common_functions": [
+            "Edit a photo by adjusting colors",
+            "Create a new layer",
+            "Apply a filter to an image",
+            "Retouch an image to remove blemishes",
+            "Add text to an image",
+            "Crop and resize an image",
+            "Use brush tools for painting",
+            "Apply AI enhancements",
+            "Export the edited file",
+            "Process multiple images in batch"
+        ],
+        "action_object_str": ""
+    },
+    {
+        "id": 7,
+        "app_name": "Walmart  00",
+        "brief_introduction": "Rating 4.7 stars shopping app for Walmart stores. Allows browsing products, online shopping, and in-store pickup; provides deals, grocery ordering, and pharmacy services.",
+        "icon_description": "Yellow spark icon resembling a starburst on a blue background, symbolizing Walmart's logo.",
+        "ui_description": " ",
+        "common_functions": [
+            "Shop for products online",
+            "Order groceries for pickup",
+            "Scan items in the store",
+            "View current deals",
+            "Manage your orders",
+            "Refill pharmacy prescriptions",
+            "Add items to wishlist",
+            "Make payments",
+            "Locate a nearby store",
+            "Contact customer support"
+        ],
+        "action_object_str": ""
+    },
+    {
+        "id": 8,
+        "app_name": "TikTok",
+        "brief_introduction": "Rating 4.4 stars short-video sharing app. Enables creating and watching short-form videos; supports effects, music, and live streaming; fosters viral trends and challenges.",
+        "icon_description": "Black square icon with a white music note stylized as a 't' on a red and blue wave background.",
+        "ui_description": " ",
+        "common_functions": [
+            "Create a new video",
+            "Watch videos in the feed",
+            "Add effects to a video",
+            "Duet with another video",
+            "Start live streaming",
+            "Follow a creator",
+            "Comment on or like a video",
+            "Share a video",
+            "Add music to a video",
+            "Participate in challenges"
+        ],
+        "action_object_str": ""
+    },
+    {
+        "id": 9,
+        "app_name": "eBay 00",
+        "brief_introduction": "Rating 4.7 stars online marketplace. Facilitates buying and selling items through auctions and fixed prices; supports global shipping and buyer protection.",
+        "icon_description": "Colorful icon with 'eBay' in red, blue, yellow, and green letters on a white background.",
+        "ui_description": " ",
+        "common_functions": [
+            "Buy an item",
+            "Sell an item",
+            "Place a bid in an auction",
+            "Add to watch list",
+            "Manage your orders",
+            "Send messages to sellers",
+            "Save searches",
+            "Make payments",
+            "Track shipping",
+            "Leave reviews"
+        ],
+        "action_object_str": ""
+    },
+    {
+        "id": 10,
+        "app_name": "Amazon  00",
+        "brief_introduction": "Rating 4.6 stars e-commerce platform. Offers vast product selection, fast shipping with Prime, and services like streaming and cloud storage.",
+        "icon_description": "Black smile arrow from 'a' to 'z' on an orange background, with 'amazon' text below.",
+        "ui_description": " ",
+        "common_functions": [
+            "Shop for a product",
+            "Access Prime benefits",
+            "Add to wish list",
+            "Track an order",
+            "Initiate a return",
+            "Read customer reviews",
+            "Use Alexa for voice commands",
+            "Make payments",
+            "Set up Subscribe & Save",
+            "Browse deals"
+        ],
+        "action_object_str": ""
+    },
+    {
+        "id": 11,
+        "app_name": "Best Buy  00",
+        "brief_introduction": "Rating 4.8 stars electronics retailer app. Provides shopping for tech products, price matching, and in-store pickup; offers deals and expert reviews.",
+        "icon_description": "Yellow price tag icon with 'Best Buy' in blue text on a white background.",
+        "ui_description": " ",
+        "common_functions": [
+            "Shop for electronics",
+            "Arrange in-store pickup",
+            "Request price match",
+            "View deals and sales",
+            "Read product reviews",
+            "Add to wish list",
+            "Track orders",
+            "Get Geek Squad support",
+            "Make payments",
+            "Locate a store"
+        ],
+        "action_object_str": ""
+    },
+    {
+        "id": 12,
+        "app_name": "Lemon8  00",
+        "brief_introduction": "Rating 4.5 stars lifestyle and fashion app. Focuses on sharing aesthetic content like fashion, beauty, and recipes; similar to Pinterest with social features.",
+        "icon_description": "Yellow lemon icon with '8' integrated into the design on a white background.",
+        "ui_description": " ",
+        "common_functions": [
+            "Share a new post",
+            "Discover new content",
+            "Follow other users",
+            "Save ideas to your collection",
+            "Create a board",
+            "Comment on or like posts",
+            "View trending topics",
+            "Access shopping links",
+            "Join challenges",
+            "Check notifications"
+        ],
+        "action_object_str": ""
+    },
+    {
+        "id": 13,
+        "app_name": "Fandango",
+        "brief_introduction": "Rating 4.7 stars movie ticketing app. Allows buying tickets, viewing showtimes, and watching trailers; supports theater reservations and rewards.",
+        "icon_description": "Orange ticket stub icon with 'Fandango' text in white on a black background.",
+        "ui_description": " ",
+        "common_functions": [
+            "Buy tickets for a movie",
+            "View showtimes",
+            "Watch movie trailers",
+            "Reserve seats",
+            "Join rewards program",
+            "Locate a theater",
+            "Request refunds",
+            "Read ratings and reviews",
+            "Get notifications",
+            "Purchase gift cards"
+        ],
+        "action_object_str": ""
+    },
+    {
+        "id": 14,
+        "app_name": "Booking",
+        "brief_introduction": "Rating 4.8 stars travel booking app. Offers hotel, flight, and car rentals; provides deals, reviews, and flexible cancellation options.",
+        "icon_description": "Blue circle with white 'B' and a location pin, on a white background.",
+        "ui_description": " ",
+        "common_functions": [
+            "Book a hotel room",
+            "Book a flight",
+            "Rent a car",
+            "View travel deals",
+            "Read reviews",
+            "Manage your bookings",
+            "Access Genius loyalty program",
+            "Make payments",
+            "Use maps for navigation",
+            "Contact customer support"
+        ],
+        "action_object_str": ""
+    },
+    {
+        "id": 15,
+        "app_name": "Tripadvisor",
+        "brief_introduction": "Rating 4.6 stars travel planning app. Provides reviews, recommendations, and bookings for hotels, restaurants, and attractions.",
+        "icon_description": "Green owl head icon with eyes and beak, symbolizing wisdom in travel.",
+        "ui_description": " ",
+        "common_functions": [
+            "Read reviews of a place",
+            "Book a hotel",
+            "Find nearby restaurants",
+            "Plan a trip itinerary",
+            "View attractions",
+            "Save favorites",
+            "Use maps",
+            "Participate in forums",
+            "Upload photos",
+            "Browse deals"
+        ],
+        "action_object_str": ""
+    },
+    {
+        "id": 16,
+        "app_name": "Agoda",
+        "brief_introduction": "Rating 4.7 stars hotel booking app. Specializes in Asia-Pacific accommodations with competitive prices, reviews, and instant confirmation.",
+        "icon_description": "Red circle with white 'a' stylized as a location pin on a white background.",
+        "ui_description": " ",
+        "common_functions": [
+            "Book a hotel",
+            "View hotel deals",
+            "Read hotel reviews",
+            "Manage bookings",
+            "Use price guarantee",
+            "Make payments",
+            "View maps",
+            "Contact customer support",
+            "Join loyalty program",
+            "Book flights"
+        ],
+        "action_object_str": ""
+    },
+    {
+        "id": 17,
+        "app_name": "DuckDuckGo  00",
+        "brief_introduction": "Rating 4.7 stars privacy-focused search engine. Offers instant answers, bangs for quick searches, and no tracking of user data.",
+        "icon_description": "Cartoon duck head with orange beak and green bowtie on a white background.",
+        "ui_description": " ",
+        "common_functions": [
+            "Search the web for information",
+            "Enable privacy protection",
+            "Get instant answers",
+            "Use bangs for quick searches",
+            "Change themes",
+            "Manage bookmarks",
+            "Use password manager",
+            "Enable email protection",
+            "View maps",
+            "Read news"
+        ],
+        "action_object_str": ""
+    },
+    {
+        "id": 18,
+        "app_name": "Opera  00",
+        "brief_introduction": "Rating 4.5 stars web browser with built-in VPN. Features ad blocker, battery saver, and free VPN; supports extensions and fast browsing.",
+        "icon_description": "Red 'O' icon in a circular shape on a white background.",
+        "ui_description": " ",
+        "common_functions": [
+            "Browse the web",
+            "Activate built-in VPN",
+            "Enable ad blocker",
+            "Use battery saver mode",
+            "Install extensions",
+            "Sync your data",
+            "View news feed",
+            "Open private tabs",
+            "Manage downloads",
+            "Change themes"
+        ],
+        "action_object_str": ""
+    },
+    {
+        "id": 19,
+        "app_name": "Gmail  00",
+        "brief_introduction": "Rating 4.4 stars email service by Google. Offers organized inbox, spam protection, and integration with Google Workspace; supports labels and search.",
+        "icon_description": "Red 'M' envelope icon on a white background.",
+        "ui_description": " ",
+        "common_functions": [
+            "Send an email",
+            "Receive and read emails",
+            "Organize emails with labels",
+            "Search for emails",
+            "Filter spam",
+            "Attach files",
+            "Snooze emails",
+            "Undo sent email",
+            "Integrate with other apps",
+            "Access offline"
+        ],
+        "action_object_str": ""
+    },
+    {
+        "id": 20,
+        "app_name": "Google Play Store",
+        "brief_introduction": "Rating 4.3 stars app store for Android. Provides downloads for apps, games, movies, and books; manages updates and purchases.",
+        "icon_description": "Multicolored play triangle icon on a white background.",
+        "ui_description": " ",
+        "common_functions": [
+            "Download an app",
+            "Update installed apps",
+            "Buy movies or books",
+            "Manage subscriptions",
+            "Read reviews",
+            "Add to wishlist",
+            "Set up family sharing",
+            "Redeem codes",
+            "Run security scans",
+            "View recommendations"
+        ],
+        "action_object_str": ""
+    },
+    {
+        "id": 21,
+        "app_name": "SSENSE  00",
+        "brief_introduction": "Rating 4.6 stars luxury fashion shopping app. Offers designer clothing, accessories, and editorial content; provides global shipping and sales.",
+        "icon_description": "Black 'SSENSE' text in uppercase on a white background.",
+        "ui_description": " ",
+        "common_functions": [
+            "Shop for fashion items",
+            "View editorial content",
+            "Browse sales and deals",
+            "Add to wishlist",
+            "Track orders",
+            "Initiate returns",
+            "Check size guides",
+            "Get notifications",
+            "Make payments",
+            "Contact customer service"
+        ],
+        "action_object_str": ""
+    },
+    {
+        "id": 22,
+        "app_name": "Duolingo  00",
+        "brief_introduction": "Rating 4.7 stars language learning app. Uses gamified lessons to teach languages; supports streaks, leaderboards, and offline mode.",
+        "icon_description": "Green cartoon owl icon with wide eyes on a white background.",
+        "ui_description": " ",
+        "common_functions": [
+            "Start learning a language",
+            "Complete daily lessons",
+            "Maintain streaks",
+            "Compete on leaderboards",
+            "Use offline mode",
+            "Practice speaking exercises",
+            "Build vocabulary",
+            "Track progress",
+            "Read stories",
+            "Listen to podcasts"
+        ],
+        "action_object_str": ""
+    }
+]

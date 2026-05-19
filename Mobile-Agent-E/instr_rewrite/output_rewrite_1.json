@@ -1,0 +1,306 @@
+[
+    {
+        "original_instruction": "帮我找到一本备受好评的历史传记小说，并添加到我的购物车",
+        "level2_instruction": "使用淘宝app搜索备受好评的历史传记小说，并将其添加到购物车",
+        "level3_instruction": "打开淘宝app，点击顶部的搜索框，输入'备受好评的历史传记小说'，点击搜索按钮。在搜索结果中，浏览并选择一本合适的书籍。点击书籍详情页面中的'加入购物车'按钮，完成添加。",
+        "referenced_apps": [
+            "淘宝"
+        ],
+        "reason": "淘宝app具有商品搜索和将商品加入购物车的功能，通过这些功能可以完成用户的需求，即找到一本备受好评的历史传记小说并将其添加到购物车。",
+        "model": "qwen/qwen-2.5-72b-instruct",
+        "token_usage": {
+            "prompt_tokens": 2528,
+            "completion_tokens": 140,
+            "total_tokens": 2668
+        },
+        "duration_seconds": 6.822028636932373,
+        "id": 1,
+        "timestamp": "2026-01-06T13:24:41.214290"
+    },
+    {
+        "original_instruction": "帮我找到一本备受好评的历史传记小说，并添加到我的购物车",
+        "level2_instruction": "使用备忘录/笔记记录历史传记小说信息并分享到微信（涉及笔记记录和社交分享）",
+        "level3_instruction": "打开备忘录/笔记app，点击黄圈中的白色加号创建新笔记，输入笔记内容为'历史传记小说推荐'，点击黑色对勾图标完成保存。然后点击顶部的箭头分享按钮，选择'以图片格式分享'，点击微信图标，点击搜索框输入好友姓名'rui'，点击搜索结果，点击绿色'发送'按钮完成分享。",
+        "referenced_apps": [
+            "备忘录/笔记"
+        ],
+        "reason": "备忘录/笔记提供创建笔记和分享功能，通过搜索笔记功能可记录小说信息，分享功能可发送到微信好友，但购物车操作需依赖电商app未在知识库中提供",
+        "model": "qwen/qwen3-8b",
+        "token_usage": {
+            "prompt_tokens": 2529,
+            "completion_tokens": 1864,
+            "total_tokens": 4393
+        },
+        "duration_seconds": 62.42634415626526,
+        "id": 2,
+        "timestamp": "2026-01-06T14:04:07.286550"
+    },
+    {
+        "original_instruction": "帮我找到一本备受好评的历史传记小说，并添加到我的购物车",
+        "level2_instruction": "使用Google Chrome搜索历史传记小说并添加到购物车",
+        "level3_instruction": "打开Google Chrome app，点击搜索框输入'备受好评的历史传记小说'进行搜索，浏览搜索结果后点击目标书籍进入商品页面，点击'加入购物车'按钮完成添加。",
+        "referenced_apps": [
+            "Google Chrome"
+        ],
+        "reason": "通过Google Chrome的网页搜索功能查找书籍信息，并利用电商网站的'加入购物车'功能完成操作。由于知识库中未包含具体电商app的action_sequence，因此仅能通过浏览器执行基础搜索和交互操作",
+        "model": "qwen/qwen3-32b",
+        "token_usage": {
+            "prompt_tokens": 2528,
+            "completion_tokens": 1476,
+            "total_tokens": 4004
+        },
+        "duration_seconds": 5.258378982543945,
+        "id": 3,
+        "timestamp": "2026-01-06T14:05:25.590109"
+    },
+    {
+        "original_instruction": "帮我找到一本备受好评的历史传记小说，并添加到我的购物车",
+        "level2_instruction": "使用电商app搜索并添加备受好评的历史传记小说到购物车（涉及电商app）",
+        "level3_instruction": "打开淘宝app，点击顶部搜索栏输入'历史传记小说'并点击搜索，浏览商品列表找到高评分书籍，点击'加入购物车'按钮。然后打开京东app，重复搜索和加入购物车操作，最后在拼多多app中完成比价后将选定小说加入购物车（基于电商app的商品搜索和购物车功能，实现多平台比价并添加）",
+        "referenced_apps": [
+            "淘宝",
+            "京东",
+            "拼多多"
+        ],
+        "reason": "通过淘宝、京东、拼多多等电商app的商品搜索功能查找历史传记小说，结合购物车功能完成多平台比价和添加操作，符合用户需求",
+        "model": "qwen/qwen3-8b",
+        "token_usage": {
+            "prompt_tokens": 2529,
+            "completion_tokens": 1778,
+            "total_tokens": 4307
+        },
+        "duration_seconds": 29.62433385848999,
+        "id": 4,
+        "timestamp": "2026-01-06T14:08:13.785525"
+    },
+    {
+        "original_instruction": "帮我找到一本备受好评的历史传记小说，并添加到我的购物车",
+        "level2_instruction": "使用Google Chrome搜索历史传记小说并添加到Amazon Shopping购物车",
+        "level3_instruction": "打开Google Chrome app，点击顶部搜索框输入'历史传记小说'进行搜索，查看结果列表中评分较高的书籍，点击第一个搜索结果进入详情页。然后打开Amazon Shopping app，点击顶部搜索框输入相同书名，点击搜索结果中的书籍条目，点击黄色购物车图标添加到购物车。",
+        "referenced_apps": [
+            "Google Chrome",
+            "Amazon Shopping"
+        ],
+        "reason": "Google Chrome用于搜索并筛选历史传记小说，Amazon Shopping用于将选定书籍加入购物车，实现从内容获取到购物的完整流程",
+        "model": "qwen/qwen3-8b",
+        "token_usage": {
+            "prompt_tokens": 6325,
+            "completion_tokens": 2204,
+            "total_tokens": 8529
+        },
+        "duration_seconds": 44.15238833427429,
+        "id": 5,
+        "timestamp": "2026-01-06T14:29:14.027563"
+    },
+    {
+        "original_instruction": "帮我找到一本备受好评的历史传记小说，并添加到我的购物车",
+        "level2_instruction": "使用小红书搜索历史传记小说并记录信息，然后通过微信分享给好友",
+        "level3_instruction": "打开小红书app，点击顶部搜索框输入'历史传记小说'进行搜索，查看笔记列表中备受好评的书籍信息，点击笔记内容进入详情页。然后打开备忘录/笔记app，点击黄圈白色加号创建新笔记，输入书籍信息后点击黑色对勾保存。接着点击顶部箭头分享按钮，选择'以图片格式分享'，点击微信图标，点击搜索框输入好友姓名'rui'，点击搜索结果，点击绿色'发送'按钮完成分享。",
+        "referenced_apps": [
+            "小红书",
+            "备忘录/笔记",
+            "微信"
+        ],
+        "reason": "小红书用于搜索历史传记小说并获取书籍信息，备忘录/笔记用于记录和分享，微信用于社交分享。虽然购物车功能未直接包含在现有app中，但通过分享到微信好友可间接实现信息传递，用户需在微信好友的购物场景中手动添加商品",
+        "model": "qwen/qwen3-8b",
+        "token_usage": {
+            "prompt_tokens": 8074,
+            "completion_tokens": 7170,
+            "total_tokens": 15244
+        },
+        "duration_seconds": 106.46062636375427,
+        "id": 6,
+        "timestamp": "2026-01-06T22:46:16.456313"
+    },
+    {
+        "original_instruction": "帮我找到一本备受好评的历史传记小说，并添加到我的购物车",
+        "level2_instruction": "使用小红书搜索历史传记小说并记录推荐信息，通过备忘录/笔记分享到微信好友",
+        "level3_instruction": "打开小红书app，点击搜索框输入'历史传记小说'查看相关笔记。然后打开备忘录/笔记app，点击黄圈白色加号创建新笔记，输入找到的书籍信息后点击黑色对勾保存。接着点击顶部箭头分享按钮，选择'以图片格式分享'，点击微信图标，点击搜索框输入好友姓名'rui'，点击搜索结果后点击绿色'发送'按钮完成分享。",
+        "referenced_apps": [
+            "小红书",
+            "备忘录/笔记",
+            "微信"
+        ],
+        "reason": "小红书用于搜索历史传记小说笔记，备忘录/笔记用于记录书籍信息并分享，微信用于社交分享。虽然购物车功能未直接包含，但通过分享到微信好友可间接传递购物需求",
+        "model": "qwen/qwen3-8b",
+        "token_usage": {
+            "prompt_tokens": 8074,
+            "completion_tokens": 6628,
+            "total_tokens": 14702
+        },
+        "duration_seconds": 99.42081499099731,
+        "id": 7,
+        "timestamp": "2026-01-06T22:49:11.339278"
+    },
+    {
+        "original_instruction": "查看最近F1赛事并记录赛程结果",
+        "level2_instruction": "使用Google Chrome搜索最近F1赛事信息并记录赛程结果到备忘录/笔记",
+        "level3_instruction": "打开Google Chrome app，点击顶部搜索框输入'最近F1赛事赛程'查看网页结果。然后打开备忘录/笔记app，点击黄圈白色加号创建新笔记，输入赛事时间、地点和结果后点击黑色对勾保存。",
+        "referenced_apps": [
+            "Google Chrome",
+            "备忘录/笔记"
+        ],
+        "reason": "Google Chrome通过网页搜索获取F1赛事实时信息，备忘录/笔记用于结构化记录和保存赛程结果",
+        "model": "qwen/qwen3-8b",
+        "token_usage": {
+            "prompt_tokens": 4933,
+            "completion_tokens": 673,
+            "total_tokens": 5606
+        },
+        "duration_seconds": 5.812542200088501,
+        "id": 8,
+        "timestamp": "2026-01-06T22:51:06.569840"
+    },
+    {
+        "original_instruction": "查看最近热映的电影并询问zyy的意见.",
+        "level2_instruction": "使用Google Chrome搜索最近热映的电影信息，然后通过微信发送消息询问zyy的意见",
+        "level3_instruction": "打开Google Chrome app，点击顶部搜索框输入'最近热映电影'查看结果页面。然后打开微信app，点击右上角搜索图标，输入好友名称'zyy'并点击搜索结果，进入聊天窗口后点击输入框，输入'zyy，你觉得最近热映的电影有哪些推荐？'并点击绿色'发送'按钮完成询问。",
+        "referenced_apps": [
+            "Google Chrome",
+            "微信"
+        ],
+        "reason": "Google Chrome用于搜索电影信息，微信用于发送消息询问好友意见",
+        "model": "qwen/qwen3-8b",
+        "token_usage": {
+            "prompt_tokens": 4449,
+            "completion_tokens": 826,
+            "total_tokens": 5275
+        },
+        "duration_seconds": 13.781004190444946,
+        "id": 9,
+        "timestamp": "2026-01-06T22:51:47.445507"
+    },
+    {
+        "original_instruction": "分享歌曲蝴蝶给zyy",
+        "level2_instruction": "使用YouTube搜索歌曲并分享给微信好友",
+        "level3_instruction": "打开YouTube app，点击右上角搜索框输入'蝴蝶'查看相关视频结果。然后点击第一个搜索结果进入视频页面，点击右上角右指箭头图标选择分享，点击微信图标切换到微信app，点击右上角搜索框输入好友名称'zyy'，点击搜索结果，点击绿色'发送'按钮完成分享。",
+        "referenced_apps": [
+            "YouTube",
+            "微信"
+        ],
+        "reason": "YouTube用于搜索和分享歌曲视频，微信用于发送给好友zyy",
+        "model": "qwen/qwen3-8b",
+        "token_usage": {
+            "prompt_tokens": 4611,
+            "completion_tokens": 2211,
+            "total_tokens": 6822
+        },
+        "duration_seconds": 35.57346534729004,
+        "id": 10,
+        "timestamp": "2026-01-06T22:52:58.457123"
+    },
+    {
+        "original_instruction": "查看最近F1赛事并记录赛程结果",
+        "level2_instruction": "打开YouTube搜索最近F1赛事视频并查看赛程结果，再用备忘录/笔记记录相关信息",
+        "level3_instruction": "首先打开YouTube app，点击右上角搜索框输入'最近F1赛事'，下滑清除广告查看更多结果，点击视频列表中的赛事视频进入播放页面。然后点击顶部的箭头分享按钮，选择'以图片格式分享'，切换到备忘录/笔记app，点击黄圈白色加号创建新笔记，输入赛事时间、地点和结果信息，点击黑色对勾保存笔记内容。",
+        "referenced_apps": [
+            "YouTube",
+            "备忘录/笔记"
+        ],
+        "reason": "YouTube提供视频搜索功能可获取F1赛事信息，备忘录/笔记支持创建笔记和保存内容，通过跨应用协作完成赛事信息获取与记录任务",
+        "model": "qwen/qwen3-8b",
+        "token_usage": {
+            "prompt_tokens": 5497,
+            "completion_tokens": 818,
+            "total_tokens": 6315
+        },
+        "duration_seconds": 15.923518180847168,
+        "id": 11,
+        "timestamp": "2026-01-06T23:37:31.200027"
+    },
+    {
+        "original_instruction": "查看最近热映的电影并询问zyy的意见.",
+        "level2_instruction": "打开YouTube搜索最近热映的电影，再打开Facebook询问zyy的意见",
+        "level3_instruction": "首先打开YouTube app，点击右上角的搜索框输入'最近热映的电影'，点击第一个搜索结果进入视频页面。然后打开Facebook app，点击右上角的搜索框输入'zyy'，点击第一个搜索结果进入用户资料页，点击蓝色关注按钮。最后在Facebook的动态流中点击右上角的搜索框输入'zyy'，进入用户资料页后点击右上角的箭头分享按钮，选择'以图片格式分享'，点击微信图标，点击搜索框输入好友名称'zyy'，点击搜索结果，点击绿色发送按钮完成分享。",
+        "referenced_apps": [
+            "YouTube",
+            "Facebook"
+        ],
+        "reason": "YouTube用于搜索和查看最近热映的电影视频，Facebook用于通过搜索用户并分享内容的方式询问zyy的意见，这种跨平台的信息获取与社交互动模式符合用户需求",
+        "model": "qwen/qwen3-8b",
+        "token_usage": {
+            "prompt_tokens": 5013,
+            "completion_tokens": 1433,
+            "total_tokens": 6446
+        },
+        "duration_seconds": 44.210745096206665,
+        "id": 12,
+        "timestamp": "2026-01-06T23:38:55.696299"
+    },
+    {
+        "original_instruction": "分享歌曲蝴蝶给zyy",
+        "level2_instruction": "使用备忘录/笔记记录歌曲信息并分享给微信好友zyy",
+        "level3_instruction": "打开备忘录/笔记app，点击黄圈白色加号创建笔记，输入歌曲名称'蝴蝶'后点击黑色对勾保存。然后点击顶部的箭头分享按钮，选择'以图片格式分享'，点击微信图标，点击搜索框输入好友姓名'zyy'，点击搜索结果，点击绿色'发送'按钮完成分享。",
+        "referenced_apps": [
+            "备忘录/笔记",
+            "微信"
+        ],
+        "reason": "备忘录/笔记用于记录和分享内容，微信支持社交分享功能，通过笔记创建和分享流程实现歌曲信息的传递",
+        "model": "qwen/qwen3-8b",
+        "token_usage": {
+            "prompt_tokens": 5008,
+            "completion_tokens": 1407,
+            "total_tokens": 6415
+        },
+        "duration_seconds": 40.67826533317566,
+        "id": 13,
+        "timestamp": "2026-01-06T23:40:42.663054"
+    },
+    {
+        "original_instruction": "分享歌曲蝴蝶给zyy",
+        "level2_instruction": "打开YouTube搜索歌曲蝴蝶并分享给微信好友zyy",
+        "level3_instruction": "首先打开YouTube app，点击右上角搜索框输入'蝴蝶'，在搜索结果中点击第一个视频进入视频页面。然后点击右列的右箭头分享按钮，选择'以图片格式分享'，点击微信图标，点击搜索框输入好友姓名'zyy'，点击搜索结果，点击绿色'发送'按钮完成分享。",
+        "referenced_apps": [
+            "YouTube",
+            "微信"
+        ],
+        "reason": "YouTube提供视频搜索和分享功能，微信支持直接发送消息给好友。通过先搜索歌曲视频再使用微信分享功能，可以完成从内容获取到社交分享的完整流程。",
+        "model": "qwen/qwen3-8b",
+        "token_usage": {
+            "prompt_tokens": 5002,
+            "completion_tokens": 2551,
+            "total_tokens": 7553
+        },
+        "duration_seconds": 85.58656764030457,
+        "id": 14,
+        "timestamp": "2026-01-07T21:53:53.085383"
+    },
+    {
+        "original_instruction": "分享歌曲蝴蝶给zyy",
+        "level2_instruction": "使用音乐应用搜索歌曲蝴蝶并分享给微信好友zyy",
+        "level3_instruction": "首先打开音乐应用，点击搜索框输入'蝴蝶'，点击搜索结果播放歌曲。然后点击歌曲页面的分享按钮，选择微信图标，点击搜索框输入'zyy'，点击搜索结果，点击绿色'发送'按钮完成分享。",
+        "referenced_apps": [
+            "音乐应用",
+            "微信"
+        ],
+        "reason": "音乐应用用于搜索和播放歌曲，微信用于社交分享，通过音乐应用的分享功能和微信的社交功能，可以实现将歌曲分享给好友的任务。",
+        "model": "qwen/qwen2.5-vl-72b-instruct",
+        "token_usage": {
+            "prompt_tokens": 4996,
+            "completion_tokens": 201,
+            "total_tokens": 5197
+        },
+        "duration_seconds": 8.293265581130981,
+        "id": 15,
+        "timestamp": "2026-01-17T21:49:25.183272"
+    },
+    {
+        "original_instruction": "分享歌曲蝴蝶给zyy",
+        "level2_instruction": "使用音乐应用搜索歌曲《蝴蝶》，然后通过微信分享给好友zyy",
+        "level3_instruction": "首先打开音乐应用（如网易云音乐），点击搜索框输入'蝴蝶'，点击搜索结果中的歌曲播放。然后点击歌曲页面上的分享按钮，选择微信图标。在微信中，点击搜索框输入'zyy'，点击搜索结果，点击发送按钮完成分享。",
+        "referenced_apps": [
+            "网易云音乐",
+            "微信"
+        ],
+        "reason": "网易云音乐用于搜索和播放歌曲，微信用于社交分享，通过这两个应用可以实现从搜索歌曲到分享给好友的完整流程。",
+        "model": "qwen/qwen2.5-vl-72b-instruct",
+        "token_usage": {
+            "prompt_tokens": 5001,
+            "completion_tokens": 148,
+            "total_tokens": 5149
+        },
+        "duration_seconds": 6.600977659225464,
+        "id": 16,
+        "timestamp": "2026-01-28T16:32:54.148564"
+    }
+]

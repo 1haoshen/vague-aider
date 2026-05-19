@@ -1,0 +1,63 @@
+<!-- ============================================ -->
+<!--       VagueAider 核心对比展示区 (Start)       -->
+<!-- ============================================ -->
+<section class="section">
+    <div class="container is-max-desktop">
+      
+      <!-- 大标题 -->
+      <div class="columns is-centered has-text-centered">
+        <div class="column is-four-fifths">
+          <h2 class="title is-3">🔥 VagueAider vs. Baseline</h2>
+          <div class="content has-text-justified">
+            <p>
+              Current agents struggle with vague intents (e.g., "I'm hungry"). 
+              <b>VagueAider</b> bridges the gap by rewriting intents into executable steps.
+            </p>
+          </div>
+        </div>
+      </div>
+  
+      <!-- 案例 1: 外卖/点餐 (举例) -->
+      <div class="box" style="border: 1px solid #ddd; padding: 20px;">
+        <h3 class="title is-4">Case 1: "I'm hungry, please..."</h3>
+        
+        <div class="columns is-vcentered">
+          
+          <!-- 左边：Baseline -->
+          <div class="column has-text-centered">
+            <span class="tag is-danger is-medium" style="margin-bottom: 10px;">Baseline (MobileAgentV3)</span>
+            <!-- 视频容器 -->
+            <div class="video-container">
+              <video poster="" id="demo1_base" autoplay controls muted loop playsinline width="100%">
+                <!-- ⚠️ 这里稍后放你的视频文件路径 -->
+                <source src="./static/videos/placeholder_video.mp4" type="video/mp4">
+              </video>
+            </div>
+            <p class="is-size-7" style="color: red; margin-top: 5px;">❌ Fails to find app</p>
+          </div>
+  
+          <!-- 中间：箭头 -->
+          <div class="column is-narrow">
+            <i class="fas fa-arrow-right fa-2x"></i>
+          </div>
+  
+          <!-- 右边：VagueAider -->
+          <div class="column has-text-centered">
+            <span class="tag is-success is-medium" style="margin-bottom: 10px;">VagueAider (Ours)</span>
+            <!-- 视频容器 -->
+            <div class="video-container">
+              <video poster="" id="demo1_ours" autoplay controls muted loop playsinline width="100%">
+                <!-- ⚠️ 这里稍后放你的视频文件路径 -->
+                <source src="./static/videos/placeholder_video.mp4" type="video/mp4">
+              </video>
+            </div>
+            <p class="is-size-7" style="color: green; margin-top: 5px;">✅ Navigates to Food App</p>
+          </div>
+          
+        </div>
+      </div>
+  
+      <!-- 如果想加更多案例，复制上面的 <div class="box">...</div> 即可 -->
+  
+    </div>
+  </section>

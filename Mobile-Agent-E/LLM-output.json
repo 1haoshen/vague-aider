@@ -1,0 +1,646 @@
+[
+    {
+        "original_instruction": "帮我推荐一款性价比高的枕头",
+        "level2_instruction": "打开购物App，搜索高性价比枕头，通过比较销量、价格、材质和用户评价，筛选并选择最合适的一款。",
+        "level3_instruction": "1. 打开“淘宝”App。\n2. 在顶部搜索框输入“高性价比 枕头”并搜索。\n3. 在结果页点击“销量”排序，优先浏览排名靠前的商品。\n4. 进入几个商品的详情页，重点查看“产品参数”（如填充物、高度）和“用户评价”。\n5. 综合比较后，选择最符合个人需求和预算的枕头。",
+        "reason": "该指令是商品推荐请求，需要通过“搜索-筛选-比较-决策”的流程完成。因此，指令被分解为在购物平台上进行搜索、利用排序和筛选功能缩小范围，并根据关键指标（材质、价格、评价）进行对比，最终做出决策的清晰步骤。",
+        "token_usage": {
+            "prompt_tokens": 125,
+            "completion_tokens": 1783,
+            "total_tokens": 1908
+        },
+        "duration_seconds": 27.66107749938965,
+        "id": 1,
+        "timestamp": "2025-11-07T13:16:35.856086"
+    },
+    {
+        "original_instruction": "帮我推荐一款性价比高的枕头",
+        "level2_instruction": "打开购物软件，搜索枕头，并根据销量、价格和评价进行筛选，找到性价比高的产品。",
+        "level3_instruction": "1. 打开“淘宝”App。\n2. 在顶部搜索框输入“枕头”，点击“搜索”。\n3. 在结果页，点击“销量”进行排序，优先查看热门商品。\n4. 使用“筛选”功能，根据预算设置价格区间。\n5. 进入商品详情页，重点查看“评价”区，了解真实用户反馈。\n6. 综合比较几款备选商品，选择最合适的下单。",
+        "reason": "用户指令是寻求主观推荐，无法直接执行。因此，将其转化为一个通用的、可执行的商品筛选方法，引导用户利用购物平台的搜索和筛选功能，根据销量、价格和评价等客观指标，自主找到符合个人需求的高性价比商品。",
+        "token_usage": {
+            "prompt_tokens": 125,
+            "completion_tokens": 1742,
+            "total_tokens": 1867
+        },
+        "duration_seconds": 21.084314346313477,
+        "id": 2,
+        "timestamp": "2025-11-07T13:16:56.944364"
+    },
+    {
+        "original_instruction": "Help me follow rickandmorty's official account and send a message saying the anime is great.",
+        "level2_instruction": "On Instagram, search for and follow the 'rickandmorty' account, then send them a direct message saying 'the anime is great'.",
+        "level3_instruction": "1. Open the Instagram app.\n2. Tap the Search icon.\n3. Tap the search bar and type 'rickandmorty'.\n4. Tap on the official 'rickandmorty' account from the results.\n5. Tap the 'Follow' button on their profile.\n6. Tap the 'Message' button.\n7. Type 'the anime is great' in the message field.\n8. Tap 'Send'.",
+        "reason": "The instruction involves two main actions: following an account and sending a message. Instagram is chosen as a representative social media platform. Level 2 summarizes these core operations, while Level 3 provides a detailed, step-by-step guide within the app.",
+        "token_usage": {
+            "prompt_tokens": 140,
+            "completion_tokens": 1306,
+            "total_tokens": 1446
+        },
+        "duration_seconds": 34.67426085472107,
+        "id": 3,
+        "timestamp": "2025-11-14T16:12:00.025130"
+    },
+    {
+        "original_instruction": "Help me follow rickandmorty's official account and send a message saying the anime is great.",
+        "level2_instruction": "Open Instagram, search for and follow the 'rickandmorty' account, then send them a direct message saying 'the anime is great'.",
+        "level3_instruction": "1. Open the Instagram app.\n2. Tap the Search icon.\n3. Type 'rickandmorty' in the search bar.\n4. Select the official account (with a blue checkmark).\n5. Tap the 'Follow' button on their profile.\n6. Tap the 'Message' button.\n7. Type 'the anime is great' and tap 'Send'.",
+        "reason": "Instagram is a primary platform for official show accounts. The steps detail the standard user flow to find, follow, and send a direct message.",
+        "token_usage": {
+            "prompt_tokens": 141,
+            "completion_tokens": 1258,
+            "total_tokens": 1399
+        },
+        "duration_seconds": 77.59874176979065,
+        "id": 4,
+        "timestamp": "2025-11-14T16:13:17.627895"
+    },
+    {
+        "original_instruction": "Help me follow rickandmorty's official account and send a message saying the anime is great.",
+        "level2_instruction": "On Instagram, search for and follow the 'rickandmorty' account, then send it a direct message.",
+        "level3_instruction": "1. Open the Instagram app. 2. Tap the Search icon. 3. Type 'rickandmorty' in the search bar. 4. Tap on the official 'rickandmorty' account. 5. Tap the 'Follow' button. 6. Tap the 'Message' button. 7. Type 'the anime is great' and tap 'Send'.",
+        "reason": "Instagram is a primary platform for official media accounts. The steps represent the standard user flow for searching, following, and messaging on the platform.",
+        "token_usage": {
+            "prompt_tokens": 141,
+            "completion_tokens": 1185,
+            "total_tokens": 1326
+        },
+        "duration_seconds": 21.769256114959717,
+        "id": 5,
+        "timestamp": "2025-11-14T16:15:36.763263"
+    },
+    {
+        "original_instruction": "Help me follow rickandmorty's official account and send a message saying the anime is great.",
+        "level2_instruction": "Open Instagram, search for and follow the 'rickandmorty' official account, then send a message 'the anime is great'.",
+        "level3_instruction": "1. Open the Instagram app.\n2. Tap the Search icon.\n3. Type 'rickandmorty' in the search bar.\n4. Tap on the official account (with a blue checkmark).\n5. Tap the 'Follow' button.\n6. Tap the 'Message' button.\n7. Type 'the anime is great' and tap 'Send'.",
+        "reason": "Instagram is a primary social media platform for official show accounts. The instructions guide the user through the standard process of searching, following, and messaging an account.",
+        "token_usage": {
+            "prompt_tokens": 141,
+            "completion_tokens": 1105,
+            "total_tokens": 1246
+        },
+        "duration_seconds": 128.0386941432953,
+        "id": 6,
+        "timestamp": "2025-11-14T16:17:44.805936"
+    },
+    {
+        "original_instruction": "Tell me LeBron James' birth date and just give me the answer.",
+        "level2_instruction": "Use a web browser to search for LeBron James' birth date and find the answer.",
+        "level3_instruction": "1. Open the Web Browser app. 2. Tap the search bar. 3. Type 'LeBron James birth date'. 4. Tap the search button. 5. Find the birth date from the search results.",
+        "reason": "The user is asking for a specific piece of public information. A web search is the most direct and efficient way to find the answer.",
+        "token_usage": {
+            "prompt_tokens": 134,
+            "completion_tokens": 936,
+            "total_tokens": 1070
+        },
+        "duration_seconds": 88.24877619743347,
+        "id": 7,
+        "timestamp": "2025-11-14T16:21:07.469460"
+    },
+    {
+        "original_instruction": "Tell me LeBron James' birth date and just give me the answer.",
+        "level2_instruction": "Search for LeBron James' birth date and provide the answer.",
+        "level3_instruction": "1. Open a web browser and search for 'LeBron James birth date'. 2. Identify the birth date from the search results. 3. Output the date found.",
+        "reason": "The user wants a direct factual answer. The most efficient way to obtain this is by using a search engine to look up the specific information and provide the result.",
+        "token_usage": {
+            "prompt_tokens": 134,
+            "completion_tokens": 974,
+            "total_tokens": 1108
+        },
+        "duration_seconds": 59.351811170578,
+        "id": 8,
+        "timestamp": "2025-11-14T16:22:06.825272"
+    },
+    {
+        "original_instruction": "Check Vancouver's weather today and make a note of the climate.",
+        "level2_instruction": "Use a weather app to check Vancouver's weather and a notes app to record it.",
+        "level3_instruction": "1. Open the Weather app. 2. Search for and select 'Vancouver'. 3. Observe today's weather conditions. 4. Open the Notes app. 5. Create a new note. 6. Enter the weather details for Vancouver.",
+        "reason": "The instruction involves two separate tasks: checking weather and taking a note. The plan first uses a weather app to find the information and then a notes app to record it.",
+        "token_usage": {
+            "prompt_tokens": 134,
+            "completion_tokens": 1097,
+            "total_tokens": 1231
+        },
+        "duration_seconds": 15.727893829345703,
+        "id": 9,
+        "timestamp": "2025-11-14T16:26:49.284177"
+    },
+    {
+        "original_instruction": "Check Vancouver's weather today and make a note of the climate.",
+        "level2_instruction": "Use the Weather app to check Vancouver's weather, then use the Notes app to record it.",
+        "level3_instruction": "1. Open the Weather app, search for and select 'Vancouver' to view today's weather. 2. Open the Notes app, create a new note, and enter the weather details.",
+        "reason": "The user's request involves two distinct actions (checking information and recording it), which require two separate applications (Weather and Notes). The rewrite breaks down the process into a clear, sequential workflow.",
+        "token_usage": {
+            "prompt_tokens": 134,
+            "completion_tokens": 1208,
+            "total_tokens": 1342
+        },
+        "duration_seconds": 19.887840032577515,
+        "id": 10,
+        "timestamp": "2025-11-14T16:27:09.177083"
+    },
+    {
+        "original_instruction": "Look up information about Mobile-based Agent and make a summary note.",
+        "level2_instruction": "Use a browser to search for information on 'Mobile-based Agent' and summarize the key points in a new note.",
+        "level3_instruction": "1. Open the Browser app and search for 'Mobile-based Agent'.\n2. Open the Notes app.\n3. Create a new note titled 'Summary of Mobile-based Agent'.\n4. Write a summary of the search results in the note.",
+        "reason": "The instruction involves two main tasks: searching for information and creating a summary. The rewritten instructions break this down into a logical workflow using a web browser for research and a notes app for summarization.",
+        "token_usage": {
+            "prompt_tokens": 134,
+            "completion_tokens": 1136,
+            "total_tokens": 1270
+        },
+        "duration_seconds": 16.8839054107666,
+        "id": 11,
+        "timestamp": "2025-11-14T16:31:47.952765"
+    },
+    {
+        "original_instruction": "Look up information about Mobile-based Agent and make a summary note.",
+        "level2_instruction": "Search for 'Mobile-based Agent' in a browser, then create a new note to summarize the key findings.",
+        "level3_instruction": "1. Open Browser and search for 'Mobile-based Agent'.\n2. Review the search results.\n3. Open the Notes app.\n4. Create a new note titled 'Mobile-based Agent Summary'.\n5. Write a summary of the key information in the note.",
+        "reason": "The instruction involves two main tasks: information retrieval and note-taking. This requires using a web browser for searching and a notes application for summarizing and saving the content.",
+        "token_usage": {
+            "prompt_tokens": 134,
+            "completion_tokens": 1262,
+            "total_tokens": 1396
+        },
+        "duration_seconds": 107.32145738601685,
+        "id": 12,
+        "timestamp": "2025-11-14T16:33:35.279231"
+    },
+    {
+        "original_instruction": "Tell me the exact location of CMU and share it with wechat xxoo.",
+        "level2_instruction": "Search for the location of CMU on a map and share it with WeChat contact xxoo.",
+        "level3_instruction": "1. Open a map app and search for 'CMU'. 2. On the location details page, tap 'Share'. 3. Select 'WeChat' from the app list. 4. Find and select the contact 'xxoo'. 5. Tap 'Send' to share the location.",
+        "reason": "The instruction involves two main steps: first, using a map application to find the specific location of CMU, and second, using the sharing function to send this location to a designated WeChat contact.",
+        "token_usage": {
+            "prompt_tokens": 137,
+            "completion_tokens": 1201,
+            "total_tokens": 1338
+        },
+        "duration_seconds": 161.31857085227966,
+        "id": 13,
+        "timestamp": "2025-11-14T16:37:04.594306"
+    },
+    {
+        "original_instruction": "Tell me the exact location of CMU and share it with wechat xxoo.",
+        "level2_instruction": "Use a map app to search for CMU's location and share it with WeChat contact xxoo.",
+        "level3_instruction": "1. Open Google Maps. 2. Search for 'Carnegie Mellon University'. 3. Tap the 'Share' button on the location details page. 4. Select 'WeChat' from the sharing options. 5. Choose the contact 'xxoo' and send.",
+        "reason": "The instruction involves a cross-app operation: first finding a location in a map app, then sharing it to a contact in a social app.",
+        "token_usage": {
+            "prompt_tokens": 137,
+            "completion_tokens": 1219,
+            "total_tokens": 1356
+        },
+        "duration_seconds": 389.5000500679016,
+        "id": 14,
+        "timestamp": "2025-11-14T16:43:34.098356"
+    },
+    {
+        "original_instruction": "Choose the unlocked 5G smartphone with the best price-performance ratio from multiple platforms and add it to your shopping cart. ",
+        "level2_instruction": "1. Research and identify the unlocked 5G phone with the best price-performance ratio. 2. Compare its price across major e-commerce platforms. 3. Add the best-priced option to the shopping cart.",
+        "level3_instruction": "1. Open a web browser and go to a tech review site like GSMArena or a YouTube channel like MKBHD to find reviews on 'best value 5G phones'. 2. Identify a top-rated unlocked model. 3. Open the Amazon app, search for the model, and note the price. 4. Open the Best Buy app, search for the same model, and note the price. 5. In the app with the lower price, navigate to the product page and tap 'Add to Cart'.",
+        "reason": "This approach ensures the user makes an informed choice by first consulting expert reviews to satisfy the 'best price-performance' criteria, then comparing prices on major retail platforms to find the best deal before taking action.",
+        "token_usage": {
+            "prompt_tokens": 146,
+            "completion_tokens": 1436,
+            "total_tokens": 1582
+        },
+        "duration_seconds": 64.92878437042236,
+        "id": 15,
+        "timestamp": "2025-11-14T16:47:25.438588"
+    },
+    {
+        "original_instruction": "Choose the unlocked 5G smartphone with the best price-performance ratio from multiple platforms and add it to your shopping cart. ",
+        "level2_instruction": "Compare unlocked 5G smartphones across multiple online platforms to find the best price-performance ratio, then add the chosen device to your shopping cart.",
+        "level3_instruction": "1. Open a web browser or shopping app (e.g., Google Shopping, Amazon, Best Buy).\n2. Search for 'unlocked 5G smartphones'.\n3. Browse and compare models across different retailers, considering specifications, prices, and reviews to identify the best price-performance ratio.\n4. Select the desired smartphone.\n5. Navigate to the product page on the chosen retailer's website or app.\n6. Add the smartphone to your shopping cart.",
+        "reason": "This JSON output breaks down the user's request into a high-level summary (level 2) and a detailed, actionable step-by-step guide (level 3), suggesting common apps and paths for research, comparison, and purchase, while maintaining conciseness.",
+        "token_usage": {
+            "prompt_tokens": 146,
+            "completion_tokens": 955,
+            "total_tokens": 1101
+        },
+        "duration_seconds": 13.149824142456055,
+        "id": 16,
+        "timestamp": "2025-11-14T16:47:38.593424"
+    },
+    {
+        "original_instruction": "Choose the unlocked 5G smartphone with the best price-performance ratio from multiple platforms and add it to your shopping cart. ",
+        "level2_instruction": "Search for unlocked 5G smartphones on e-commerce platforms, compare prices and specifications to find the best value, and add the selected phone to the shopping cart.",
+        "level3_instruction": "1. Open the Amazon app and search for 'unlocked 5G smartphone'. 2. Review the top results, noting their prices, specs, and ratings. 3. Open the Best Buy app and repeat the search. 4. Compare the options from both platforms to decide on the best value phone. 5. Navigate to the product page of your chosen phone on the site with the better price and add it to your cart.",
+        "reason": "The instruction involves a multi-step process of cross-platform research, comparison, and decision-making before the final action. It requires breaking down the abstract goal of 'best price-performance' into concrete search and comparison steps on specific e-commerce apps.",
+        "token_usage": {
+            "prompt_tokens": 145,
+            "completion_tokens": 1394,
+            "total_tokens": 1539
+        },
+        "duration_seconds": 20.73915982246399,
+        "id": 17,
+        "timestamp": "2025-11-14T17:28:24.882765"
+    },
+    {
+        "original_instruction": "Choose the unlocked 5G smartphone with the best price-performance ratio from multiple platforms and add it to your shopping cart. ",
+        "level2_instruction": "Compare unlocked 5G smartphones across multiple online platforms to find the best price-performance ratio, then add the chosen device to your shopping cart.",
+        "level3_instruction": "1. Open a web browser or shopping app (e.g., Google Shopping, Amazon, Best Buy).\n2. Search for 'unlocked 5G smartphones'.\n3. Browse and compare models across different retailers, considering specifications, prices, and reviews to identify the best price-performance ratio.\n4. Select the desired smartphone.\n5. Navigate to the product page on the chosen retailer's website or app.\n6. Add the smartphone to your shopping cart.",
+        "reason": "This JSON output breaks down the user's request into a high-level summary (level 2) and a detailed, actionable step-by-step guide (level 3), suggesting common apps and paths for research, comparison, and purchase, while maintaining conciseness.",
+        "token_usage": {
+            "prompt_tokens": 146,
+            "completion_tokens": 955,
+            "total_tokens": 1101
+        },
+        "duration_seconds": 12.174928903579712,
+        "id": 18,
+        "timestamp": "2025-11-14T17:28:37.063691"
+    },
+    {
+        "original_instruction": "Find a highly-rated biography on social media and add it to your cart",
+        "level2_instruction": "Search for a highly-rated biography on a social media platform and add it to your cart.",
+        "level3_instruction": "1. Open Instagram. 2. Tap the search icon. 3. Type 'highly rated biographies' in the search bar. 4. Browse the 'Shop' tab or look for posts with product tags. 5. Select a biography with positive indicators (e.g., high engagement, visible reviews). 6. Tap the product tag to view details. 7. Tap 'Add to Cart' or 'Shop Now'. 8. Proceed to checkout if prompted.",
+        "reason": "The user wants to find a specific item (highly-rated biography) on a specific type of platform (social media) and perform a purchase action (add to cart). Instagram is chosen as a representative social media platform with integrated shopping features. The steps outline a logical path to achieve this, from searching to adding to the cart.",
+        "token_usage": {
+            "prompt_tokens": 135,
+            "completion_tokens": 910,
+            "total_tokens": 1045
+        },
+        "duration_seconds": 13.188953161239624,
+        "id": 19,
+        "timestamp": "2025-11-14T17:30:11.764669"
+    },
+    {
+        "original_instruction": "Find a highly-rated biography on social media and add it to your cart",
+        "level2_instruction": "Browse a social media app for a highly-rated biography, then find it on an e-commerce app and add it to the cart.",
+        "level3_instruction": "1. Open Instagram and search for #biographyrecommendations. 2. Find a book with good reviews and note its title. 3. Open the Amazon app. 4. Search for the book title. 5. On the product page, tap 'Add to Cart'.",
+        "reason": "The instruction involves two main operations: discovering a book on social media and purchasing it on an e-commerce platform. The levels break down this process, using popular apps like Instagram for discovery and Amazon for purchase to create a practical workflow.",
+        "token_usage": {
+            "prompt_tokens": 134,
+            "completion_tokens": 1120,
+            "total_tokens": 1254
+        },
+        "duration_seconds": 18.18177890777588,
+        "id": 20,
+        "timestamp": "2025-11-14T17:30:29.951446"
+    },
+    {
+        "original_instruction": "Play a lecture about large language models and share it with friend Kai Chen。",
+        "level2_instruction": "Search for a lecture on large language models on YouTube and share it with Kai Chen via a messaging app.",
+        "level3_instruction": "1. Open YouTube. 2. Search for 'large language model lecture'. 3. Tap a video to play. 4. Tap the 'Share' button. 5. Select WhatsApp. 6. Find and select 'Kai Chen'. 7. Tap 'Send'.",
+        "reason": "YouTube is a primary platform for video lectures, and WhatsApp is a common application for sharing links with contacts. The chosen path follows a logical find-then-share sequence.",
+        "token_usage": {
+            "prompt_tokens": 134,
+            "completion_tokens": 1142,
+            "total_tokens": 1276
+        },
+        "duration_seconds": 17.67841410636902,
+        "id": 21,
+        "timestamp": "2025-11-14T17:31:54.668231"
+    },
+    {
+        "original_instruction": "Play a lecture about large language models and share it with friend Kai Chen。",
+        "level2_instruction": "Search for and play a lecture on large language models in YouTube, then share it with Kai Chen via Messages.",
+        "level3_instruction": "1. Open the YouTube app. 2. Search for 'large language models lecture'. 3. Tap a video to play. 4. Tap the 'Share' button below the video. 5. Select the 'Messages' app. 6. In the recipient field, enter 'Kai Chen'. 7. Tap send.",
+        "reason": "The instruction involves two main tasks: finding content and sharing it. YouTube is a primary platform for educational lectures, and Messages is a standard application for sharing with a specific contact. The steps outline a common and efficient user path.",
+        "token_usage": {
+            "prompt_tokens": 134,
+            "completion_tokens": 1265,
+            "total_tokens": 1399
+        },
+        "duration_seconds": 19.966274738311768,
+        "id": 22,
+        "timestamp": "2025-11-14T17:32:14.638503"
+    },
+    {
+        "original_instruction": "Search for recipes on how to make chocolate cake and add the relevant ingredients to your cart. ",
+        "level2_instruction": "Search for a chocolate cake recipe in a recipe app, and then add the ingredients to the shopping cart in a grocery app.",
+        "level3_instruction": "1. In a recipe app, search for 'chocolate cake' and select a recipe. 2. Open a grocery app. 3. Search for each ingredient from the recipe and add them to the shopping cart.",
+        "reason": "The original instruction combines two distinct goals (information retrieval and shopping). The rewrite separates these into a logical, actionable workflow across two appropriate applications.",
+        "token_usage": {
+            "prompt_tokens": 138,
+            "completion_tokens": 1351,
+            "total_tokens": 1489
+        },
+        "duration_seconds": 19.932000637054443,
+        "id": 23,
+        "timestamp": "2025-11-14T17:32:53.999447"
+    },
+    {
+        "original_instruction": "Search for recipes on how to make chocolate cake and add the relevant ingredients to your cart. ",
+        "level2_instruction": "Search for a chocolate cake recipe in a recipe app, and then add the ingredients to the shopping cart in a grocery app.",
+        "level3_instruction": "1. In a recipe app, search for 'chocolate cake' and select a recipe. 2. Open a grocery app. 3. Search for each ingredient from the recipe and add them to the shopping cart.",
+        "reason": "The original instruction combines two distinct goals (information retrieval and shopping). The rewrite separates these into a logical, actionable workflow across two appropriate applications.",
+        "token_usage": {
+            "prompt_tokens": 138,
+            "completion_tokens": 1351,
+            "total_tokens": 1489
+        },
+        "duration_seconds": 20.771645069122314,
+        "id": 24,
+        "timestamp": "2025-11-14T17:33:14.777101"
+    },
+    {
+        "original_instruction": "Collect three of Elon Musk's latest published scientific research and share it with friends xxoo",
+        "level2_instruction": "Search for Elon Musk's three latest scientific papers online and email them to the contact xxoo.",
+        "level3_instruction": "1. Open the Browser and search for 'Elon Musk latest scientific papers'. 2. Identify and download the three most recent papers from the results. 3. Open the Email app and compose a new message to 'xxoo'. 4. Attach the three downloaded papers and send the email.",
+        "reason": "The instruction involves two main tasks: information retrieval and sharing. A web browser is the most suitable tool for finding scientific publications, and an email app is a standard way to share documents with a specific contact.",
+        "token_usage": {
+            "prompt_tokens": 137,
+            "completion_tokens": 1364,
+            "total_tokens": 1501
+        },
+        "duration_seconds": 19.260616779327393,
+        "id": 25,
+        "timestamp": "2025-11-14T17:33:45.181651"
+    },
+    {
+        "original_instruction": "Collect three of Elon Musk's latest published scientific research and share it with friends xxoo",
+        "level2_instruction": "Search for Elon Musk's latest scientific papers, save three of them, and share them with a friend.",
+        "level3_instruction": "1. Open Browser, go to Google Scholar, and search for recent papers by Elon Musk or his companies (e.g., Neuralink, SpaceX).\n2. Copy the links of three relevant papers.\n3. Open the Notes app, create a new note, and paste the three links.\n4. Tap the Share icon, select the Messages app, enter 'xxoo' as the recipient, and send.",
+        "reason": "The instruction requires finding and sharing specific academic information. This path uses a browser with an academic search engine for effective searching, a notes app for easy collection, and a messaging app for direct sharing, creating an efficient workflow.",
+        "token_usage": {
+            "prompt_tokens": 137,
+            "completion_tokens": 1616,
+            "total_tokens": 1753
+        },
+        "duration_seconds": 23.72359275817871,
+        "id": 26,
+        "timestamp": "2025-11-14T17:34:08.910243"
+    },
+    {
+        "original_instruction": "Check out recently released movies and ask Hao Alex for his opinion.",
+        "level2_instruction": "Search for recently released movies and send the results to Hao Alex to ask for his opinion.",
+        "level3_instruction": "1. Open Browser and search for 'recently released movies'. 2. Open Messages, find the contact Hao Alex, and send a message asking for his opinion on the movies.",
+        "reason": "The instruction involves two steps: finding movie information and sharing it. The rewritten instructions first use a browser to search for movies and then use a messaging app to contact a friend.",
+        "token_usage": {
+            "prompt_tokens": 132,
+            "completion_tokens": 1032,
+            "total_tokens": 1164
+        },
+        "duration_seconds": 16.677003622055054,
+        "id": 27,
+        "timestamp": "2025-11-14T17:34:48.162386"
+    },
+    {
+        "original_instruction": "Check out recently released movies and ask Hao Alex for his opinion.",
+        "level2_instruction": "Open a movie app to check for recently released movies, then open a messaging app to ask Hao Alex for his opinion.",
+        "level3_instruction": "1. Open the Movie App and go to the 'New Releases' or 'In Theaters' section. 2. Open the Messages app and start a new chat with 'Hao Alex'. 3. Type your question about the movies and send the message.",
+        "reason": "The instruction involves two separate tasks: finding information and communicating. The rewrite first uses a movie/search app to find recently released movies, and then uses a messaging app to contact the specified person and ask for their opinion.",
+        "token_usage": {
+            "prompt_tokens": 132,
+            "completion_tokens": 1173,
+            "total_tokens": 1305
+        },
+        "duration_seconds": 17.718590259552002,
+        "id": 28,
+        "timestamp": "2025-11-14T17:35:05.886981"
+    },
+    {
+        "original_instruction": "Please navigate from the National University of Singapore to Nanyang Technological University.",
+        "level2_instruction": "Use a map app to search for directions to Nanyang Technological University and start navigation.",
+        "level3_instruction": "1. Open the 'Google Maps' app. 2. Tap the search bar and type 'Nanyang Technological University'. 3. Select the correct location from the results. 4. Tap the 'Directions' button. 5. Tap the 'Start' button to begin navigation.",
+        "reason": "The user's request is a standard navigation task. Using a map application is the most direct method. Level 2 provides a high-level summary of the operation, while Level 3 offers a detailed, step-by-step guide for a common app like Google Maps.",
+        "token_usage": {
+            "prompt_tokens": 133,
+            "completion_tokens": 1235,
+            "total_tokens": 1368
+        },
+        "duration_seconds": 17.495326042175293,
+        "id": 29,
+        "timestamp": "2025-11-14T17:36:00.860566"
+    },
+    {
+        "original_instruction": "Please navigate from the National University of Singapore to Nanyang Technological University.",
+        "level2_instruction": "Use a map app to get directions from National University of Singapore to Nanyang Technological University and start navigation.",
+        "level3_instruction": "1. Open the Google Maps app. 2. In the search bar, enter 'Nanyang Technological University' and select it. 3. Tap the 'Directions' button. 4. Set the starting point to 'National University of Singapore'. 5. Choose a mode of transport. 6. Tap 'Start' to begin.",
+        "reason": "The user's request is a standard navigation task. A map application (e.g., Google Maps) is the most suitable tool. Level 2 outlines the overall operation, while Level 3 provides a detailed, actionable path within the app.",
+        "token_usage": {
+            "prompt_tokens": 133,
+            "completion_tokens": 1407,
+            "total_tokens": 1540
+        },
+        "duration_seconds": 19.041294813156128,
+        "id": 30,
+        "timestamp": "2025-11-14T17:36:19.907865"
+    },
+    {
+        "original_instruction": "View the latest trending news and record and share it with your friends xxoo ",
+        "level2_instruction": "Open a news app to screen record the trending news, then send the recording to your friend xxoo via a messaging app.",
+        "level3_instruction": "1. Open the X app, tap Search > Trending.\n2. Start screen recording from the Control Center.\n3. Stop screen recording; the video will be saved to Photos.\n4. Open WhatsApp and navigate to the chat with 'xxoo'.\n5. Tap the '+' icon, select 'Photo & Video Library', choose the latest recording, and tap Send.",
+        "reason": "The instruction involves viewing news, recording, and sharing. 'X' is selected for its real-time trending topics. Screen recording is a direct method to capture the content. 'WhatsApp' is a widely used messaging app for sharing. The path logically breaks down these actions into concrete steps.",
+        "token_usage": {
+            "prompt_tokens": 135,
+            "completion_tokens": 1416,
+            "total_tokens": 1551
+        },
+        "duration_seconds": 21.236361980438232,
+        "id": 31,
+        "timestamp": "2025-11-14T20:44:50.076487"
+    },
+    {
+        "original_instruction": "View the latest trending news and record and share it with your friends xxoo ",
+        "level2_instruction": "Open a news app to find trending news, start screen recording, then open a messaging app to share the recording with a friend.",
+        "level3_instruction": "1. Open the News app and go to the Trending section. 2. Start Screen Recording from the Control Center. 3. Stop the recording; it will be saved to Photos. 4. Open the Messages app and find the contact 'xxoo'. 5. Attach the screen recording from Photos and send.",
+        "reason": "The instruction is broken down into three main actions: 'view news', 'record', and 'share'. A news app is used to find trending topics, the system's screen recording function is used to capture the content, and a messaging app is used to send the resulting video to the specified contact.",
+        "token_usage": {
+            "prompt_tokens": 135,
+            "completion_tokens": 1427,
+            "total_tokens": 1562
+        },
+        "duration_seconds": 21.61431884765625,
+        "id": 32,
+        "timestamp": "2025-11-14T20:45:11.698002"
+    },
+    {
+        "original_instruction": "Check out the latest movies showing and reserve a ticket for tonight's screening.",
+        "level2_instruction": "Use a movie ticketing app to find a new movie, select a showtime for tonight, and book a ticket.",
+        "level3_instruction": "1. Open the Movie Ticketing App. 2. Go to the 'Now Playing' section. 3. Select a movie. 4. Choose a cinema and a showtime for tonight. 5. Select your seat. 6. Complete the payment to reserve the ticket.",
+        "reason": "The instruction involves two main actions: discovering new movies and booking a ticket. A movie ticketing app is the most direct tool. Level 2 outlines the main goals, while Level 3 provides a standard step-by-step process for completing the reservation within such an app.",
+        "token_usage": {
+            "prompt_tokens": 136,
+            "completion_tokens": 1022,
+            "total_tokens": 1158
+        },
+        "duration_seconds": 17.75078296661377,
+        "id": 33,
+        "timestamp": "2025-11-14T20:45:40.171078"
+    },
+    {
+        "original_instruction": "Check out the latest movies showing and reserve a ticket for tonight's screening.",
+        "level2_instruction": "Browse movie showtimes and book a ticket.",
+        "level3_instruction": "1. Open a movie ticketing app (e.g., Fandango, AMC Theatres). \n2. Navigate to 'Now Showing' or 'Movies'. \n3. Select a movie and choose a showtime for tonight. \n4. Pick your desired seats. \n5. Complete the purchase to reserve your ticket.",
+        "reason": "Level 2 summarizes the core actions: discovery and booking. Level 3 provides a sequential, actionable path using common movie ticketing app functionalities.",
+        "token_usage": {
+            "prompt_tokens": 136,
+            "completion_tokens": 801,
+            "total_tokens": 937
+        },
+        "duration_seconds": 13.283067226409912,
+        "id": 34,
+        "timestamp": "2025-11-14T20:45:53.459669"
+    },
+    {
+        "original_instruction": "Tell me the main results of the China-US trade negotiations and express your opinions on social media platforms.",
+        "level2_instruction": "Research China-US trade negotiation outcomes and share an opinion on social media.",
+        "level3_instruction": "1. Open a web browser and use a search engine (e.g., Google) to find reliable sources detailing the main results of China-US trade negotiations.\n2. Synthesize the key findings and outcomes from the research.\n3. Open a social media application (e.g., Twitter/X).\n4. Compose a post summarizing the negotiation results and expressing your opinion.\n5. Publish the post.",
+        "reason": "The user's request involves two distinct operations: information retrieval and summarization, followed by opinion expression and dissemination on a social platform. The chosen apps and steps directly address these two parts of the instruction.",
+        "token_usage": {
+            "prompt_tokens": 141,
+            "completion_tokens": 904,
+            "total_tokens": 1045
+        },
+        "duration_seconds": 13.340251684188843,
+        "id": 35,
+        "timestamp": "2025-11-14T20:46:13.943648"
+    },
+    {
+        "original_instruction": "Tell me the main results of the China-US trade negotiations and express your opinions on social media platforms.",
+        "level2_instruction": "Search for the main results of the China-US trade negotiations and post your views on social media.",
+        "level3_instruction": "1. Open a browser app.\n2. Search for 'main results of China-US trade negotiations'.\n3. Read the search results to form an opinion.\n4. Open a social media app (e.g., X/Twitter).\n5. Tap the compose button to create a new post.\n6. Write your opinion on the negotiation results.\n7. Tap 'Post'.",
+        "reason": "The original instruction involves two distinct tasks: information retrieval and content sharing. Level 2 separates these two core operations. Level 3 provides a concrete, step-by-step workflow using a browser for research and a social media app for posting.",
+        "token_usage": {
+            "prompt_tokens": 140,
+            "completion_tokens": 1227,
+            "total_tokens": 1367
+        },
+        "duration_seconds": 24.044594764709473,
+        "id": 36,
+        "timestamp": "2025-11-14T20:46:37.994239"
+    },
+    {
+        "original_instruction": "Please record the weather in Pittsburgh for the next three days and provide me with a travel plan.",
+        "level2_instruction": "Retrieve the 3-day weather forecast for Pittsburgh and generate a travel plan based on the forecast.",
+        "level3_instruction": "1. Open a Weather App or Search Engine. 2. Search for 'Pittsburgh weather forecast for the next 3 days'. 3. Review the forecast for temperature, precipitation, and conditions for each of the next three days. 4. Open a Calendar App or Notes App. 5. Based on the weather forecast, suggest suitable activities for each day (e.g., outdoor activities for sunny days, indoor attractions for rainy days). 6. Structure these suggestions into a daily itinerary and record it in the chosen app.",
+        "reason": "The user requires two distinct operations: information retrieval (weather forecast) and actionable planning (travel plan). Level 2 summarizes these operations. Level 3 details the steps using common applications like a Weather App/Search Engine for forecast retrieval and a Calendar/Notes App for organizing the travel plan, ensuring the plan is informed by the weather data.",
+        "token_usage": {
+            "prompt_tokens": 139,
+            "completion_tokens": 924,
+            "total_tokens": 1063
+        },
+        "duration_seconds": 14.847644805908203,
+        "id": 37,
+        "timestamp": "2025-11-14T20:47:17.829151"
+    },
+    {
+        "original_instruction": "Please record the weather in Pittsburgh for the next three days and provide me with a travel plan.",
+        "level2_instruction": "Retrieve the 3-day weather forecast for Pittsburgh and generate a travel plan based on the forecast.",
+        "level3_instruction": "1. Open a Weather App or Search Engine. 2. Search for 'Pittsburgh weather forecast for the next 3 days'. 3. Review the forecast for temperature, precipitation, and conditions for each of the next three days. 4. Open a Calendar App or Notes App. 5. Based on the weather forecast, suggest suitable activities for each day (e.g., outdoor activities for sunny days, indoor attractions for rainy days). 6. Structure these suggestions into a daily itinerary and record it in the chosen app.",
+        "reason": "The user requires two distinct operations: information retrieval (weather forecast) and actionable planning (travel plan). Level 2 summarizes these operations. Level 3 details the steps using common applications like a Weather App/Search Engine for forecast retrieval and a Calendar/Notes App for organizing the travel plan, ensuring the plan is informed by the weather data.",
+        "token_usage": {
+            "prompt_tokens": 139,
+            "completion_tokens": 924,
+            "total_tokens": 1063
+        },
+        "duration_seconds": 12.899606704711914,
+        "id": 38,
+        "timestamp": "2025-11-14T20:47:30.737762"
+    },
+    {
+        "original_instruction": "translated 'I miss you'into French and sent it to my friend xxoo",
+        "level2_instruction": "Translate 'I miss you' to French and send it to contact xxoo.",
+        "level3_instruction": "1. Open Google Translate, translate 'I miss you' from English to French. 2. Copy the result. 3. Open Messages, find contact 'xxoo'. 4. Paste the text and send.",
+        "reason": "The instruction involves two sequential tasks: translation and sending a message. Level 2 summarizes these two main operations. Level 3 provides a detailed, cross-application workflow, specifying the apps and concrete steps to complete the process.",
+        "token_usage": {
+            "prompt_tokens": 135,
+            "completion_tokens": 1143,
+            "total_tokens": 1278
+        },
+        "duration_seconds": 16.454384565353394,
+        "id": 39,
+        "timestamp": "2025-11-14T20:47:53.155730"
+    },
+    {
+        "original_instruction": "translated 'I miss you'into French and sent it to my friend xxoo",
+        "level2_instruction": "Use a translation app to translate 'I miss you' to French, then send the result to contact xxoo via a messaging app.",
+        "level3_instruction": "1. Open the Google Translate app.\n2. Set the languages to English to French.\n3. Enter 'I miss you' to get the translation.\n4. Copy the translated text.\n5. Open the WhatsApp app.\n6. Search for and select the contact 'xxoo'.\n7. Paste the text into the chat box.\n8. Tap send.",
+        "reason": "The instruction involves two distinct tasks: translation and sending a message. The chosen path first uses a common translation tool (Google Translate) and then a popular messaging app (WhatsApp) to complete the request in a logical, step-by-step manner.",
+        "token_usage": {
+            "prompt_tokens": 135,
+            "completion_tokens": 1017,
+            "total_tokens": 1152
+        },
+        "duration_seconds": 15.53867244720459,
+        "id": 40,
+        "timestamp": "2025-11-14T20:48:08.702405"
+    },
+    {
+        "original_instruction": "Check out the guides on buying guitars in the experience posts and recommend a guitar to me",
+        "level2_instruction": "Find and analyze guitar buying guides from experience posts to recommend a guitar.",
+        "level3_instruction": "1. Open a web browser.\n2. Search for 'guitar buying guides' and 'guitar experience posts'.\n3. Review relevant articles and forum discussions.\n4. Synthesize key advice and common recommendations.\n5. Recommend a suitable guitar based on the findings.",
+        "reason": "The user wants to find information on buying guitars from experience posts and then receive a recommendation. Level 2 summarizes this as finding, analyzing, and recommending. Level 3 breaks it down into specific steps using a web browser to search, review, synthesize, and finally recommend.",
+        "token_usage": {
+            "prompt_tokens": 137,
+            "completion_tokens": 850,
+            "total_tokens": 987
+        },
+        "duration_seconds": 12.866336584091187,
+        "id": 41,
+        "timestamp": "2025-11-14T20:48:29.875952"
+    },
+    {
+        "original_instruction": "Check out the guides on buying guitars in the experience posts and recommend a guitar to me",
+        "level2_instruction": "Find and analyze guitar buying guides from experience posts to recommend a guitar.",
+        "level3_instruction": "1. Open a web browser.\n2. Search for 'guitar buying guides' and 'guitar experience posts'.\n3. Review relevant articles and forum discussions.\n4. Synthesize key advice and common recommendations.\n5. Recommend a suitable guitar based on the findings.",
+        "reason": "The user wants to find information on buying guitars from experience posts and then receive a recommendation. Level 2 summarizes this as finding, analyzing, and recommending. Level 3 breaks it down into specific steps using a web browser to search, review, synthesize, and finally recommend.",
+        "token_usage": {
+            "prompt_tokens": 137,
+            "completion_tokens": 850,
+            "total_tokens": 987
+        },
+        "duration_seconds": 12.890394687652588,
+        "id": 42,
+        "timestamp": "2025-11-14T20:48:42.774359"
+    },
+    {
+        "original_instruction": "Search for China's most popular singer and play one of his songs. ",
+        "level2_instruction": "Find and play a song by a popular Chinese singer.",
+        "level3_instruction": "1. Open a music streaming application (e.g., QQ Music, NetEase Cloud Music). 2. Use the search function to find \"most popular Chinese singers\" or browse trending charts. 3. Select a singer from the results. 4. Choose and play one of their songs.",
+        "reason": "This approach uses a music streaming app's integrated search and playback features for efficiency.",
+        "token_usage": {
+            "prompt_tokens": 136,
+            "completion_tokens": 821,
+            "total_tokens": 957
+        },
+        "duration_seconds": 11.678794384002686,
+        "id": 43,
+        "timestamp": "2025-11-14T20:48:59.218962"
+    },
+    {
+        "original_instruction": "Search for China's most popular singer and play one of his songs. ",
+        "level2_instruction": "Use a search engine to find China's most popular singer, then open a music app to play one of their songs.",
+        "level3_instruction": "1. Open Browser and search for 'most popular singer in China'. 2. Note the singer's name from the results. 3. Open Spotify and search for that singer. 4. Select and play one of their songs.",
+        "reason": "The original instruction is a compound command requiring two distinct actions: information retrieval followed by media playback. The rewritten instructions break this down into a logical sequence across different applications (a browser and a music app).",
+        "token_usage": {
+            "prompt_tokens": 135,
+            "completion_tokens": 1176,
+            "total_tokens": 1311
+        },
+        "duration_seconds": 17.047401905059814,
+        "id": 44,
+        "timestamp": "2025-11-14T20:49:16.273404"
+    },
+    {
+        "original_instruction": "Book an off-season flight to Reykjavik, Iceland.",
+        "level2_instruction": "Search for and book an off-season flight to Reykjavik, Iceland.",
+        "level3_instruction": "1. Open a flight booking app or website. 2. Enter 'Reykjavik, Iceland' as the destination. 3. Select departure and return dates, focusing on off-peak months (e.g., September to May, avoiding major holidays). 4. Search for available flights. 5. Review and compare flight options. 6. Select your preferred flight and complete the booking process.",
+        "reason": "The user wants to book a flight to Reykjavik during the off-season. The level 2 instruction summarizes the core actions, and the level 3 instruction provides a detailed, actionable path using a generic flight booking service, specifying how to address the 'off-season' requirement.",
+        "token_usage": {
+            "prompt_tokens": 131,
+            "completion_tokens": 839,
+            "total_tokens": 970
+        },
+        "duration_seconds": 11.968661785125732,
+        "id": 45,
+        "timestamp": "2025-11-14T21:06:37.079767"
+    },
+    {
+        "original_instruction": "Book an off-season flight to Reykjavik, Iceland.",
+        "level2_instruction": "Search for and book an off-season flight to Reykjavik, Iceland.",
+        "level3_instruction": "1. Open a flight booking app or website. 2. Enter 'Reykjavik, Iceland' as the destination. 3. Select departure and return dates, focusing on off-peak months (e.g., September to May, avoiding major holidays). 4. Search for available flights. 5. Review and compare flight options. 6. Select your preferred flight and complete the booking process.",
+        "reason": "The user wants to book a flight to Reykjavik during the off-season. The level 2 instruction summarizes the core actions, and the level 3 instruction provides a detailed, actionable path using a generic flight booking service, specifying how to address the 'off-season' requirement.",
+        "token_usage": {
+            "prompt_tokens": 131,
+            "completion_tokens": 839,
+            "total_tokens": 970
+        },
+        "duration_seconds": 13.278615951538086,
+        "id": 46,
+        "timestamp": "2025-11-14T21:06:50.367350"
+    }
+]

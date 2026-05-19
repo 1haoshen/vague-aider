@@ -1,0 +1,1164 @@
+<!-- 
+### H5 file:
+Dir name1: [...150 digits number...]
+Dir name2: [...150 digits number...]
+Dir name3: [...150 digits number...]
+...
+
+### Ours file:
+150 digits number 
+-->
+
+<script src="http://www.google.com/jsapi" type="text/javascript"></script> 
+<script type="text/javascript">google.load("jquery", "1.3.2");</script>
+
+<style type="text/css">
+	body {
+		font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif; 
+		font-weight:300;
+		font-size:16px;
+		margin-left: auto;
+		margin-right: auto;
+		width: 800px;
+	}
+	
+	h1 {
+		font-weight:300;
+	}
+		
+	h2 {
+		font-weight:300;
+		font-size: 22px;
+		text-align: left;
+	}
+
+	#u-table {
+            margin-left: -50px; /* 负值将表格向左移动 */
+        }
+
+	.disclaimerbox {
+		background-color: #eee;		
+		border: 1px solid #eeeeee;
+		border-radius: 10px ;
+		-moz-border-radius: 10px ;
+		-webkit-border-radius: 10px ;
+		padding: 20px;
+	}
+
+	video.header-vid {
+		height: 140px;
+		border: 1px solid black;
+		border-radius: 10px ;
+		-moz-border-radius: 10px ;
+		-webkit-border-radius: 10px ;
+	}
+	
+	img.header-img {
+		height: 140px;
+		border: 1px solid black;
+		border-radius: 10px ;
+		-moz-border-radius: 10px ;
+		-webkit-border-radius: 10px ;
+	}
+	
+	img.rounded {
+		border: 1px solid #eeeeee;
+		border-radius: 10px ;
+		-moz-border-radius: 10px ;
+		-webkit-border-radius: 10px ;
+	}
+	
+	a:link,a:visited
+	{
+		color: #1367a7;
+		text-decoration: none;
+	}
+	a:hover {
+		color: #208799;
+	}
+	
+	td.dl-link {
+		height: 160px;
+		text-align: center;
+		font-size: 22px;
+	}
+	
+	.layered-paper-big { /* modified from: http://css-tricks.com/snippets/css/layered-paper/ */
+		box-shadow:
+		        0px 0px 1px 1px rgba(0,0,0,0.35), /* The top layer shadow */
+		        5px 5px 0 0px #fff, /* The second layer */
+		        5px 5px 1px 1px rgba(0,0,0,0.35), /* The second layer shadow */
+		        10px 10px 0 0px #fff, /* The third layer */
+		        10px 10px 1px 1px rgba(0,0,0,0.35), /* The third layer shadow */
+		        15px 15px 0 0px #fff, /* The fourth layer */
+		        15px 15px 1px 1px rgba(0,0,0,0.35), /* The fourth layer shadow */
+		        20px 20px 0 0px #fff, /* The fifth layer */
+		        20px 20px 1px 1px rgba(0,0,0,0.35), /* The fifth layer shadow */
+		        25px 25px 0 0px #fff, /* The fifth layer */
+		        25px 25px 1px 1px rgba(0,0,0,0.35); /* The fifth layer shadow */
+		margin-left: 10px;
+		margin-right: 45px;
+	}
+
+	.paper-big { /* modified from: http://css-tricks.com/snippets/css/layered-paper/ */
+		box-shadow:
+		        0px 0px 1px 1px rgba(0,0,0,0.35); /* The top layer shadow */
+
+		margin-left: 10px;
+		margin-right: 45px;
+	}
+
+
+	.layered-paper { /* modified from: http://css-tricks.com/snippets/css/layered-paper/ */
+		box-shadow:
+		        0px 0px 1px 1px rgba(0,0,0,0.35), /* The top layer shadow */
+		        5px 5px 0 0px #fff, /* The second layer */
+		        5px 5px 1px 1px rgba(0,0,0,0.35), /* The second layer shadow */
+		        10px 10px 0 0px #fff, /* The third layer */
+		        10px 10px 1px 1px rgba(0,0,0,0.35); /* The third layer shadow */
+		margin-top: 5px;
+		margin-left: 10px;
+		margin-right: 30px;
+		margin-bottom: 5px;
+	}
+	
+	.vert-cent {
+		position: relative;
+	    top: 50%;
+	    transform: translateY(-50%);
+	}
+	
+	hr
+	{
+		border: 0;
+		height: 1px;
+		background-image: linear-gradient(to right, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0));
+	}
+
+	pre {
+    text-align: left;
+    white-space: pre;
+	background-color: ghostwhite;
+	border: 1px solid #CCCCCC;
+	padding: 10px 20px;
+	margin: 10px;
+    tab-size:         4; /* Chrome 21+, Safari 6.1+, Opera 15+ */
+    -moz-tab-size:    4; /* Firefox 4+ */
+    -o-tab-size:      4; /* Opera 11.5 & 12.1 only */
+  	}
+
+</style>
+
+<style>
+    .scroll-container {
+      height: 50px;
+      width: 200px;
+      overflow-x: auto;
+      padding: 10px;
+      margin: 5px;
+      border: 1px solid #eee;
+      border-radius: 4px;
+      text-align: left;
+      -ms-overflow-style: none;  /* IE and Edge */
+      scrollbar-width: none;  /* Firefox */
+    }
+    
+    /* 默认隐藏滚动条 */
+    .scroll-container::-webkit-scrollbar {
+      display: none;
+    }
+    
+    /* 鼠标悬停时显示滚动条 */
+    .scroll-container:hover::-webkit-scrollbar {
+      display: block;
+      height: 8px;
+      background-color: #f5f5f5;
+    }
+    
+    .scroll-container:hover::-webkit-scrollbar-thumb {
+      background-color: #888;
+      border-radius: 4px;
+    }
+    
+    .scroll-container:hover::-webkit-scrollbar-track {
+      background-color: #f5f5f5;
+      border-radius: 4px;
+    }
+    
+    .content-wrap {
+      width: max-content;
+      text-align: left;
+    }
+    
+    .title-container {
+      margin: 5px 5px 0 5px;
+      text-align: center;
+    }
+    </style>
+
+<html>
+  <head>
+		<title>SignLLM: Sign Languages Production Large Language Models</title>
+		<meta property="og:image" content=""/>
+		<meta property="og:title" content="SignLLM: Sign Languages Production Large Language Models" />
+  </head>
+
+  <body>
+    <br>
+          <center>
+          	<span style="font-size:42px">SignLLM: Sign Languages Production Large Language Models</span>
+	  		  <table align=center width=700px style="margin-left: 90px;">
+	  			  <tr>
+	  	              <td align=center width=100px>
+	  					<center>
+	  						<span style="font-size:24px"><a href="https://x.com/SenFang01">Sen Fang</a><sup>1</sup></span>
+		  		  		</center>
+		  		  	  </td>
+			       <td align=center width=100px>
+	  					<center>
+	  						<span style="font-size:24px"><a href="https://scholar.google.com/citations?hl=en&user=TuEwcZ0AAAAJ">Chen Chen<sup>⍭</sup></a><sup>2</sup></span>
+		  		  		</center>
+		  		  	  </td>
+
+					  <td align=center width=100px>
+	  					<center>
+	  						<span style="font-size:24px"><a href="https://scholar.google.com/citations?user=VWCZLXgAAAAJ&hl=en">Lei Wang</a><sup>3,4</sup></span>
+		  		  		</center>
+		  		  	  </td>
+					  <td align=center width=100px>
+	  					<center>
+	  						<span style="font-size:24px"><a href="https://scholar.google.com/citations?user=YFKLC58AAAAJ&hl=en#">Ce Zheng</a><sup>5</sup></span>
+		  		  		</center>
+		  		  	  </td>
+
+				  </tr>
+				<br>
+				</table>
+                        <table align=center width=500px>
+	  			  <tr>
+						<td align=center width=100px>
+							<center>
+								<span style="font-size:24px"><a href="">Chunyu Sui</a><sup>6</sup></span>
+							  </center>
+							</td>
+                        <td align=center width=100px>
+	  					<center>
+	  						<span style="font-size:24px"><a href="https://scholar.google.com/citations?user=lxCqdpoAAAAJ&hl=en">Yapeng Tian</a><sup>7</sup></span>
+		  		  		</center>
+		  		  	  </td>
+
+			    </table>
+
+		  <table id="u-table" align=center width=1100px style="margin-left: -156px;">
+	  			  <tr>
+	  	              <td align=center width=180px>
+	  					<center>
+	  						<span style="font-size:20px"><sup>1</sup>Rutgers University</span>
+		  		  		</center>
+		  		  	  </td>
+			       <td align=center width=200px>
+	  					<center>
+	  						<span style="font-size:20px"><sup>2</sup>University of Central Florida</span>
+		  		  		</center>
+		  		  	  </td>
+					  <td align=center width=180px>
+	  					<center>
+	  						<span style="font-size:20px"><sup>3</sup>Australian National University</span>
+		  		  		</center>
+		  		  	  </td>
+					  <td align=center width=110px>
+	  					<center>
+	  						<span style="font-size:20px"><sup>4</sup>Data61/CSIRO</span>
+		  		  		</center>
+		  		  	  </td>
+
+				<br>
+				</table>
+				
+                        <table id="u-table" align=center width=900px>
+	  			  <tr>
+						  <td align=center width=180px>
+							<center>
+								<span style="font-size:20px"><sup>5</sup>Carnegie Mellon University</span>
+							  </center>
+							</td>
+
+				<td align=center width=200px>
+	  					<center>
+	  						<span style="font-size:20px"><sup>6</sup>Columbia University</span>
+		  		  		</center>
+		  		  	  </td>
+                               <td align=center width=200px>
+	  					<center>
+	  						<span style="font-size:20px"><sup>7</sup>University of Texas at Dallas</span>
+		  		  		</center>
+		  		  	  </td>
+
+			    </table>
+<!--
+				<div style="display: flex; justify-content: space-between; max-width: 1300px; margin: 0 auto;">
+					<div style="font-size: 16px;"><sup>1</sup>Rutgers University</div>
+					<div style="font-size: 16px;"><sup>2</sup>Australian National University</div>
+					<div style="font-size: 16px;"><sup>3</sup>Data61/CSIRO</div>
+					<div style="font-size: 16px;"><sup>4</sup>Carnegie Mellon University</div>
+				</div>
+		  
+				<div style="display: flex; justify-content: space-between; max-width: 1300px; margin: 0 auto;">
+					<div style="font-size: 16px;"><sup>1</sup>Rutgers University</div>
+					<div style="font-size: 16px;"><sup>2</sup>Australian National University</div>
+					<div style="font-size: 16px;"><sup>3</sup>Data61/CSIRO</div>
+				</div>
+-->
+          		<!-- <span style="font-size:30px">ECCV xxxx.</span> https://scholar.google.com/citations?hl=en&user=BJb9MsgAAAAJ-->
+
+			IEEE International Conference on Computer Vision (<a href="https://iccv.thecvf.com/" target="_blank">ICCV</a>) 2025, <a href="https://cv4a11y.github.io/ICCV2025/index.html"><font color="#e86e14">CV4A11y</font></a>
+          <br>
+		  <sup>⍭</sup>: Corresponding Author
+		</center>
+
+   		  <br><br>
+		  <hr>
+
+  		  <br>
+  		  <table align=center width=720px>
+  			  <tr>
+  	              <td width=400px>
+  					<center>
+  	                	<a href="./resources/images/cover_v12.drawio.png"><img class="rounded" src = "./resources/images/cover_v12.drawio.png" width="800px"></img></href></a><br>
+					</center>
+  	              </td>
+                </tr>
+  	              <td width=400px>
+  					<center>
+  	                	<span style="font-size:14px"><i> <b>Overview:</b> (Left) Major components(e.g., Text, Prompt, Compressed Pose, etc.) of Prompt2Sign dataset. Compressed Pose is reprocessed pose data that is suitable for training, we use public sign language videos to produce compressed pose data in our predefined format; (Right) Our proposed SignLLM aims to generate sign language poses for various application scenarios.</i>
+					</center>
+  	              </td>
+
+  		  </table>
+      	  <br><br>
+
+		  <table id="u-table" align=center width=920px>
+			<!-- <center><h1>Download</h1></center> -->
+			<tr>
+				<td width=300px>
+					<center>
+						<a href="https://arxiv.org/abs/2405.10718"><img class="rounded" onmouseover="this.src='./resources/images/paper.png';" onmouseout="this.src='./resources/images/paper.png';" src = "./resources/images/paper.png" height = "120px"></a><br>
+						<span style="font-size:16px">Paper</span><br>
+					</center>
+				</td>
+				<td width=300px>
+					<center>
+						<a href="https://github.com/SignLLM/Prompt2Sign"><img class="rounded" onmouseover="this.src='./resources/images/data_icon.png';" onmouseout="this.src='./resources/images/data_icon.png';" src = "./resources/images/data_icon.png" height = "120px"></a><br>
+						<span style="font-size:16px">Prompt2Sign (tools)</span><br>
+					</center>
+				</td>
+				<td width=300px>
+					<center>
+						<a href="#demo"><img class="rounded" onmouseover="this.src='./resources/images/video_icon.png';" onmouseout="this.src='./resources/images/video_icon.png';" src = "./resources/images/video_icon.png" height = "120px"></a><br>
+						<span style="font-size:16px">Additional details</span><br>
+					</center>
+				</td>
+				<td width=300px>
+					<center>
+						<a href="#analysis"><img class="rounded" onmouseover="this.src='./resources/images/magnify_glass.png';" onmouseout="this.src='./resources/images/magnify_glass.png';" src = "./resources/images/magnify_glass.png" height = "120px"></a><br>
+						<span style="font-size:16px">Methodology</span><br>
+					</center>
+				</td>
+				<!--
+				<td width=300px>
+					<center>
+					  <a href="https://github.com/SignLLM/"><img class="rounded" onmouseover="this.src='./resources/images/github_icon.png';" onmouseout="this.src='./resources/images/github_icon.png';" src = "./resources/images/github_icon.png" height = "120px"></a><br>
+					  <span style="font-size:16px">Code (stay tuned)</span><br>						
+					</center>
+				</td>
+				-->
+			</tr>
+		  </table>
+
+		  <br><br>
+		  <center>
+			Subscribe to the latest news of SignLLM by <span style="font-size:16px"><a href="https://x.com/SignLLM">Twitter</a>.</span>
+		  </center>
+		  <hr>
+			
+			
+  		  <table align=center width=720px>
+				<center><h1>Abstract</h1></center>
+		  </table>
+		  <center>
+			<span>
+				&nbsp;&nbsp;In this paper, we propose SignLLM, a multilingual Sign Language Production (SLP) large language model, which includes two novel multilingual SLP modes MLSF and Prompt2LangGloss that allow sign language gestures generation from query texts input and question-style prompts input respectively. Both modes can use a new RL loss based on reinforcement learning and a new RL module named Priority Learning Channel. These RL components can accelerate the training by enhancing the model's capability to sample high-quality data. For SignLLM's training, we introduce Prompt2Sign, a comprehensive multilingual sign language dataset, which builds from public data, including American Sign Language (ASL) and seven others. This dataset standardizes information by extracting pose information from sign language videos into a unified compressed format. We extensively evaluate SignLLM, demonstrating that our model achieves state-of-the-art performance on SLP tasks across eight sign languages.<br><br>
+			
+			</span>
+		  </center>
+  		  <br><br>
+			<center>
+				Besides the abstract, you can also read the unofficial <span style="font-size:14px"><a href="https://www.marktechpost.com/2024/05/30/signllm-a-multilingual-sign-language-model-that-can-generate-sign-language-gestures-from-input-text/">English</a></span> or <span style="font-size:14px"><a href="https://mp.weixin.qq.com/s/qrUGYDN9URIxQ8kmhdaCmw">Chinese</a></span> paper interpretation.
+			  </center>
+		  <hr>
+
+<!--<details class="tip">
+	<summary class="">Extend</summary> -->
+		<br>
+
+		  <table id="demo" align=center width=720px>
+			<center><h1>Demo Video</h1></center>
+			<tr>
+				<table align=center width=720px>
+					<tr>
+						<td align=center width=240px>
+							<video width="200" height="200" controls autoplay loop muted playsinline src="./resources/videos/p1.mp4" frameborder="0"></video>
+						</td>
+						<td align=center width=240px>
+							<video width="200" height="200" controls autoplay loop muted playsinline src="./resources/videos/p2.mp4" frameborder="0"></video>
+						</td>
+						<td align=center width=240px>
+							<video width="200" height="200" controls autoplay loop muted playsinline src="./resources/videos/p4.mp4" frameborder="0"></video>
+						</td>
+					  </tr>
+					<tr>
+						<td align=center width=240px>
+							<div class="scroll-container">
+					                    <div class="content-wrap">
+					                      <span style="font-size:14px">
+					                        <i>(a) The control surface on the wing, which is operated by horizontally shifting the stick to the right and left, enables lateral movement.</i>
+					                      </span>
+					                    </div>
+					                  </div>
+						   </td>
+						<td align=center width=240px>
+							<div class="scroll-container">
+					                    <div class="content-wrap">
+					                      <span style="font-size:14px">
+					                        <i>(b) Allow me to demonstrate the correct form for a proper pike position.</i>
+					                      </span>
+					                    </div>
+					                  </div>
+						   </td>
+						<td align=center width=240px>
+							<div class="scroll-container">
+					                    <div class="content-wrap">
+					                      <span style="font-size:14px">
+					                        <i>(c) Allow me to showcase this demonstration on my back as it is much more convenient.</i>
+					                      </span>
+					                    </div>
+					                  </div>
+						   </td>
+					  </tr>
+					<tr>
+						<td align=center colspan="3">
+						    <span style="font-size:18px; text-align:center;"><i>
+						      DEMO: We give some examples of better prediction results, below each video is their input text.
+						    </i></span>
+						  </td>
+					  </tr>
+					 </table>
+			  </tr>
+		  </table>
+		   <br><br>
+		  <hr>
+
+			<center><h1>Qualitative Presentation (Multilingual)</h1></center>
+          <table align="center" width="960px" style="margin-left: -82px;">
+            <tbody>
+              <tr>
+                <td align="center" width="240px">
+                  <video width="200" height="282" controls autoplay loop muted playsinline src="./resources/videos8/asl_vid3.mp4" frameborder="0"></video>
+                </td>
+                <td align="center" width="240px">
+                  <video width="200" height="282" controls autoplay loop muted playsinline src="./resources/videos8/gsl_vid3.mp4" frameborder="0"></video>
+                </td>
+                <td align="center" width="240px">
+                  <video width="200" height="282" controls autoplay loop muted playsinline src="./resources/videos8/ksl_vid2.mp4" frameborder="0"></video>
+                </td>
+                <td align="center" width="240px">
+                  <video width="200" height="282" controls autoplay loop muted playsinline src="./resources/videos8/dsgs_vid3.mp4" frameborder="0"></video>
+                </td>
+              </tr>
+              <tr>
+                <td align="center" width="240px">
+                  <div style="margin: 5px 5px 0 5px;">
+                    <strong>ASL</strong>
+                  </div>
+                  <div class="scroll-container">
+                    <div class="content-wrap">
+                      <span style="font-size:14px">
+                        <i>Input: Here's a little example here I'm going to give you some insight on though.</i><br>
+                        <i>Translation: Here's a little example here I'm going to give you some insight on though.</i>
+                      </span>
+                    </div>
+                  </div>
+                </td>
+                <td align="center" width="240px">
+                  <div style="margin: 5px 5px 0 5px;">
+                    <strong>DGS</strong>
+                  </div>
+                  <div class="scroll-container">
+                    <div class="content-wrap">
+                      <span style="font-size:14px">
+                        <i>Input: Im Südostraum ist es vorteilhaft, ein Hochdruckgebiet kommt von Belgien.</i><br>
+                        <i>Translation: In the southeastern region it is advantageous, a high-pressure system is coming from Belgium.</i>
+                      </span>
+                    </div>
+                  </div>
+                </td>
+                <td align="center" width="240px">
+                  <div style="margin: 5px 5px 0 5px;">
+                    <strong>KSL</strong>
+                  </div>
+                  <div class="scroll-container">
+                    <div class="content-wrap">
+                      <span style="font-size:14px">
+                        <i>Input: 염려하다.</i><br>
+                        <i>Translation: worried about.</i>
+                      </span>
+                    </div>
+                  </div>
+                </td>
+                <td align="center" width="240px">
+                  <div style="margin: 5px 5px 0 5px;">
+                    <strong>DSGS</strong>
+                  </div>
+                  <div class="scroll-container">
+                    <div class="content-wrap">
+                      <span style="font-size:14px">
+                        <i>Input: Bei dieser Firma bestelle ich immer die Plastikbecher.</i><br>
+                        <i>Translation: I always order plastic cups from this company.</i>
+                      </span>
+                    </div>
+                  </div>
+                </td>
+              </tr>
+          
+              <tr>
+                <td align="center" width="240px">
+                  <video width="200" height="282" controls autoplay loop muted playsinline src="./resources/videos8/lsf_vid2.mp4" frameborder="0"></video>
+                </td>
+                <td align="center" width="240px">
+                  <video width="200" height="282" controls autoplay loop muted playsinline src="./resources/videos8/lis_vid3.mp4" frameborder="0"></video>
+                </td>
+                <td align="center" width="240px">
+                  <video width="200" height="282" controls autoplay loop muted playsinline src="./resources/videos8/lsa_vid4.mp4" frameborder="0"></video>
+                </td>
+                <td align="center" width="240px">
+                  <video width="200" height="282" controls autoplay loop muted playsinline src="./resources/videos8/tsl_vid2.mp4" frameborder="0"></video>
+                </td>
+              </tr>
+              <tr>
+                <td align="center" width="240px">
+                  <div style="margin: 5px 5px 0 5px;">
+                    <strong>LSF-CH</strong>
+                  </div>
+                  <div class="scroll-container">
+                    <div class="content-wrap">
+                      <span style="font-size:14px">
+                        <i>Input: Le leader du parti socialiste.</i><br>
+                        <i>Translation: The leader of the Socialist Party.</i>
+                      </span>
+                    </div>
+                  </div>
+                </td>
+                <td align="center" width="240px">
+                  <div style="margin: 5px 5px 0 5px;">
+                    <strong>LIS-CH</strong>
+                  </div>
+                  <div class="scroll-container">
+                    <div class="content-wrap">
+                      <span style="font-size:14px">
+                        <i>Input: Io voglio comprare una nuova borsa.</i><br>
+                        <i>Translation: I want to buy a new bag.</i>
+                      </span>
+                    </div>
+                  </div>
+                </td>
+                <td align="center" width="240px">
+                  <div style="margin: 5px 5px 0 5px;">
+                    <strong>LSA</strong>
+                  </div>
+                  <div class="scroll-container">
+                    <div class="content-wrap">
+                      <span style="font-size:14px">
+                        <i>Input: desayuno.</i><br>
+                        <i>Translation: breakfast.</i>
+                      </span>
+                    </div>
+                  </div>
+                </td>
+                <td align="center" width="240px">
+                  <div style="margin: 5px 5px 0 5px;">
+                    <strong>TSL</strong>
+                  </div>
+                  <div class="scroll-container">
+                    <div class="content-wrap">
+                      <span style="font-size:14px">
+                        <i>Input: Animasyon atölyesinde 9-12 yaş arası işitme engelli çocuklar animasyon sanatını öğrenecekler.</i><br>
+                        <i>Translation: Children who are deaf or hard of hearing (aged 9-12) will learn about animation art at the animation workshop.</i>
+                      </span>
+                    </div>
+                  </div>
+                </td>
+              </tr>
+					<tr>
+						<td align=center colspan="4">
+						    <span style="font-size:18px; text-align:center;"><i>
+						      QP: Synthetic sign language video generated through style transfer modeling (intermediate input video has undergone processing like acceleration and rendering; results under Ideal Future Conditions). 
+							<br><br> 
+						      <!--  <span style="color: green;">Note: These videos are not direct output from our model and actually a lot of trouble to make, they are just for demonstration purposes. These videos are the result of reprocessing the pose videos output of our model using the style transfer model, a lot of the media spontaneously exaggerate our work, it is not what we want to see. The use of images processed by style transfer models for qualitative presentation is a common practice in previous SLP and may not be well known to people in other fields.</span> -->
+						    </i></span>
+						  </td>
+					  </tr>
+					  
+					 </table>
+			  </tr>
+		  </table>
+		  <br><br>
+
+	  <!--
+	  	<hr>
+
+		  <table id="video" align=center width=720px>
+			<center><h1>Qualitative Presentation</h1></center>
+			<tr>
+				<table align=center width=720px>
+					<tr>
+						<td align=center width=240px>
+							<iframe width="200" height="200" src="./resources/videos/q1.mp4" frameborder="0" allowfullscreen autoplay loop></iframe>
+						</td>
+						<td align=center width=240px>
+							<iframe width="200" height="200" src="./resources/videos/q2.mp4" frameborder="0" allowfullscreen autoplay loop></iframe>
+						</td>
+						<td align=center width=240px>
+							<iframe width="200" height="200" src="./resources/videos/q3.mp4" frameborder="0" allowfullscreen autoplay loop></iframe>
+						</td>
+					  </tr>
+					<tr>
+						<td align=center width=240px>
+						  <span style="font-size:14px"><i>
+							(a) Style transfer model of conditional input. </i>
+						</span>
+						   </td>
+						<td align=center width=240px>
+						  <span style="font-size:14px"><i>
+							(b) Video-based motion capture class model.</i>
+						</span>
+						   </td>
+						<td align=center width=240px>
+						  <span style="font-size:14px"><i>
+							(c) Key points drive model software.</i>
+						</span>
+						   </td>
+					  </tr>
+					<tr>
+						<td align=center colspan="3">
+						    <span style="font-size:18px; text-align:center;"><i>
+						      QP: Use the model output in different ways directly or indirectly to better demonstrate sign language.
+						    </i></span>
+						  </td>
+					  </tr>
+					 </table>
+			  </tr>
+		  </table>
+		  <br><br>
+	  
+		  <hr>
+
+		  <table id="video" align=center width=720px>
+			<center><h1>Bad Result</h1></center>
+			<tr>
+				<table align=center width=720px>
+					<tr>
+						<td align=center width=240px>
+							<iframe width="200" height="200" src="./resources/videos/b1.mp4" frameborder="0" allowfullscreen autoplay loop></iframe>
+						</td>
+						<td align=center width=240px>
+							<iframe width="200" height="200" src="./resources/videos/b2.mp4" frameborder="0" allowfullscreen autoplay loop></iframe>
+						</td>
+						<td align=center width=240px>
+							<iframe width="200" height="200" src="./resources/videos/b3.mp4" frameborder="0" allowfullscreen autoplay loop></iframe>
+						</td>
+					  </tr>
+					<tr>
+						<td align=center width=240px>
+						  <span style="font-size:14px"><i>
+							(a) Strange prediction crash. </i>
+						</span>
+						   </td>
+						<td align=center width=240px>
+						  <span style="font-size:14px"><i>
+							(b) Stroboscopic and fingerless problems of style transfer.</i>
+						</span>
+						   </td>
+						<td align=center width=240px>
+						  <span style="font-size:14px"><i>
+							(c) Video-based motion capture may have information loss and even motion recognition errors.</i>
+						</span>
+						   </td>
+					  </tr>
+					<tr>
+						<td align=center colspan="3">
+						    <span style="font-size:18px; text-align:center;"><i>
+						      BR: We show some bad results that are worth discussing and can be used by latecomers as directions for breakthroughs.
+						    </i></span>
+						  </td>
+					  </tr>
+					 </table>
+			  </tr>
+		  </table>
+		   <br><br>
+	  -->
+
+				<center><h2> Updates </h2></center>
+	            [2025.10.25] Our derived work has been developed into an app called <a href='https://stablesigner.github.io/'>"Stable Signer"</a>, and it has been accepted by the ICCV 2025 Demo Track.<br>
+	  			[2025.07.30] In May, we developed a faster tool. However, for some beginners, it was difficult for them to quickly perform various video processing tasks. Now, we have added a new "Pipeline" folder <a href='https://github.com/SignLLM/Prompt2Sign/tree/main/tools-new-2025'>here</a>, which is designed to handle all sign language videos more smoothly. This will be our new processing standard. The previous dataset page has been deprecated.<br>
+				[2025.07.10] Our paper has been accepted by the ICCV Workshop! In addition, we provide the <a href='https://huggingface.co/datasets/FangSen9000/How2Sign-dwpose-original-npz/tree/main'>Original DWPose keypoint npz</a> file for your use!<br>
+	  			[2025.05.24] We have recently developed a tool named <a href='https://github.com/FangSen9000/fast_dwpose'>fast_dwpose</a> for minimizing the extraction and visualization of DW Pose, and we hope it will be helpful to everyone.<br>
+	  			[2025.04.18] Surprise: We have released How2Sign <a href='https://huggingface.co/datasets/FangSen9000/How2Sign-dwpose/tree/main'>new compressed data</a> based on <a href='https://github.com/IDEA-Research/DWPose'>DWPose</a>, and an upgraded version of the SignLLM-based application will be launched strongly in the future.<br>
+				[2025.04.01] IMPORTANT: We will try to provide a new compression solution (maybe based DWpose) at some point. Therefore, for unreleased preprocessed data and for existing data processing, the best approach is to download the original dataset and then process it using our processing tools.<br>
+ 				[2025.03.31] The prompt template has been updated, more data information has been updated. In the past, I've been wanting to optimize filtering, re-normalize according to body type and improve data quality, this make me have severe procrastination. And later I noticed that DWpose might be a better training method, so unreleased data will not be maintained because our time should spent on better data formats.<br>
+				[2024.06.30] The <a href='https://github.com/SignLLM/Prompt2Sign/blob/main/tools/2D_to_3D/run.ipynb'>Jupyer Notebook</a> and <a href='https://www.codewithgpu.com/i/SignLLM/Prompt2Sign/Prompt2Sign'>Docker</a> for data processing has been released.<br>
+				[2024.05.17] The <a href='https://arxiv.org/abs/2405.10718'>arXiv version</a> of the paper is now available.<br>
+				[2024.01.16] Prompt2Sign homepage is available and data is expected to be released after accept (maybe at the end of 2024, so don't rush).<br>
+				[2023.12.14] We have made supplementary materials and demo available at this page.<br>
+				[2023.11.04] We have made Prompt2Sign and Tools available at GitHub. Check out <a href='https://github.com/SignLLM/Prompt2Sign'>here</a>.<br>
+
+		  <hr>
+
+		  <table align=center width=720px>
+			<center><h1>Main Method</h1></center>
+			<tr>
+				<td width=400px>
+				  <center>
+					  <a><img class="rounded" src = "./resources/images/method_v2.drawio.png" width="800px"></img></a><br>
+				</center>
+				</td>
+			</tr>
+				<td width=400px>
+				  <center>
+					  <span style="font-size:14px"><i>
+						(Left) MLSF contains parallel Enc-Dec groups (i.e., Text2Pose × number of languages), the Prompt2LangGloss adds a language attribute marker at the gloss channel (i.e., Text2Gloss2Pose → Prompt2LangGloss2Pose). 
+						(Right) The output of SignLLM can be converted into a skeletal pose video, which can then be rendered into a realistic human appearance by vid2vid models.
+						</i>
+				</center>
+				</td>
+
+		  </table>
+
+		 <!--
+		  <table align=center width=720px>
+			<center><h1>Dataset and Main Methods</h1></center>
+			<tr>
+				<td width=400px>
+				  <center>
+					  <a><img class="rounded" src = "./resources/images/method.drawio.png" width="800px"></img></a><br>
+				</center>
+				</td>
+			</tr>
+				<td width=400px>
+				  <center>
+					  <span style="font-size:14px"><i>
+						(left) An overview of the structure and form of Prompt2Sign dataset. 
+						(middle) The interaction principle of Text2LangGloss and MLSF, computational methods with reinforcement learning. 
+						(right) The output of SignLLM can be converted into most pose representation formats, which can then be rendered into realistic human appearance by style transfer/specifically fine-tuned generative model.
+						</i>
+				</center>
+				</td>
+
+		  </table>--> 
+	      <br><br>
+		  <hr>
+
+		  <table align=center width=720px>
+			<center><h1>Other Method</h1></center>
+			<tr>
+				<center>
+				<span>
+					In our work, we have improved upon the Text2Gloss framework by incorporating a marker that produces Gloss with the necessary linguistic attributes, 
+					while also representing profound characteristics through variables V<sub>t</sub> and X<sub>u</sub> within neural networks. Additionally, 
+					we have introduced five key elements—user, agent, environment, iterative update process, 
+					and PLC—which collectively outline a reinforcement learning process tailored for sequence prediction.</span>
+				<br>
+				</center>
+		  </table>
+		  <tr>
+			<td>
+			  <img src="./resources/images/RL.drawio_v2.png" alt="Reinforcement Learning Process" style="max-width:100%;height:auto;">
+			</td>
+			<td>
+			  <img src="./resources/images/text2langgloss_v2.drawio.png" alt="Text to Language Gloss Framework" style="max-width:100%;height:auto;">
+			</td>
+		  </tr>
+
+		  <br><br>
+		  <hr>
+
+		  <table id='analysis' align=center width=720px>
+			<center><h1>Empirical Studies and Analysis</h1></center>
+			<table>
+			<center><h2> (1) American Sign Language Production (ASLP). </h2></center>
+			<tr>
+				  <td width=400px>
+				  <center>
+					  <a><img class="rounded" src = "./resources/images/1.png" style="max-width:100%;height:auto;"></img></a><br>
+				</center>
+				</td>
+			</tr>
+			<tr>
+				<td align=center width=720px>
+				  <span style="font-size:14px"><i>
+					Comparison of different models of SignLLM with baseline. Models M and T represent MLSF and Text2LangGloss trained ASLP models, respectively.</i>
+				</span>
+				</td>
+			</tr>
+			</table>
+
+			<br>
+
+			<table>
+			<center><h2> (2) German Sign Language Production (GSLP). </h2></center>
+			<tr>
+				  <td width=400px>
+				  <center>
+					  <a><img class="rounded" src = "./resources/images/2.png" style="max-width:100%;height:auto;"></img></a><br>
+				</center>
+				</td>
+			</tr>
+			<tr>
+				<td align=center width=720px>
+				  <span style="font-size:14px"><i>
+					Comparison of different models of SignLLM with previous work.</i>
+				</span>
+				</td>
+			</tr>
+			</table>
+
+			<br>
+
+			<table>
+				<center><h2> (3) Ablation Study. </h2></center>
+				<tr>
+					  <td width=400px>
+					  <center>
+						  <a><img class="rounded" src = "./resources/images/3.png" style="max-width:100%;height:auto;"></img></a><br>
+					</center>
+					</td>
+				</tr>
+				<tr>
+					<td align=center width=720px>
+					  <span style="font-size:14px"><i>
+						SignLLM-40M-Base results for Text to Pose on the ASL part of Prompt2Sign, with multiple data augmentation techniques. Base: 
+						Multi-Language Switching Framework with Normal MSE Loss, FP: Future Prediction, GN: Gaussian Noise, Text2LangGloss: 
+						Text2LangGloss with Normal MSE Loss, PLC: Priority Learning Channe</i>
+					</span>
+					</td>
+				</tr>
+				</table>
+
+			<br>
+
+			<table>
+				<center><h2> (4) Training Efficiency Study. </h2></center>
+				<tr>
+					<td width=400px>
+					<center>
+						<a><img class="rounded" src = "./resources/images/4.png" style="max-width:100%;height:auto;"></img></a>
+					</center>
+					</td>
+				</tr>
+				<tr>
+					<td align=center width=720px>
+					<span style="font-size:14px"><i>
+					the comparison of the effect of different Settings on DTW values (the lower the better) at different times is determined by epoch.</i>
+					</span>
+					</td>
+				</tr>
+				</table>
+
+			<br>
+					
+		</table>
+	      <br><br>
+		  <hr>
+
+<!-- </details> -->
+	<br>
+
+		  <!-- 
+	       <table id="download" align=center width=720px>
+			<center><h1>Download</h1></center>
+			<tr>
+				<td width=300px>
+					<center>
+						<span style="font-size:24px">v1.0</span><br>
+						<br>
+						<img class="rounded" onmouseover="this.src='./resources/images/dataset_icon.jpg';" onmouseout="this.src='./resources/images/dataset_icon.jpg';" src = "./resources/images/dataset_icon.jpg" height = "150px"><br><br>
+						<span style="font-size:16px"><a href='https://signllm.github.io/Prompt2Sign'>Prompt2Sign</a></span><br>
+					<span style="font-size:16px"></span>
+					</center>
+				</td>
+				<table>
+				-->
+
+				<center><h2> FAQs </h2></center>
+				Q0: License issue:<br>
+				A0: The Prompt2Sign and SignLLM are copyright by us and published under the Creative Commons Attribution-NonCommercial 4.0 International License. Some subsets need to be implemented by users themselves.<br>
+				Q1: Some links are invalid on page. How can I obtain the missing information?<br>
+				Q1: I am located in mainland China and I cannot access Google Driver. How can I get the dataset?<br>
+				A1: Please submit a GitHub issue at <a href='https://github.com/SignLLM'>Any repository of user "SignLLM"</a>.
+				We may reach you shortly.<br>
+				Q2: Is the data in the data set complete relative to the original video? I feel like it's smaller than the actual data set.<br>
+				A2: We're using a dataset that is a subset of the video clips that correspond to the lines and then we compress those clips. Compression to 1/5 of the original size refers to 1/5 of the size of the clip.<br>
+				Q3: Can we fully achieve the actual effect in the paper or presentation?<br>
+				A3: No, according to the data and the actual situation, most of our cases are not up to the level of use. Dynamic or static display, we are selected to show the best effect.
+				Q4: How to complete the data conversion format? Specific to the level of each number. Too much remains unclear.<br>
+				A4: You can look at the <a href='https://signllm.github.io/Prompt2Sign/'>dataset</a> itself and the <a href='https://github.com/SignLLM/Prompt2Sign'>tools</a>, with an example and plenty of text describing it in detail.<br>
+				<center><h2> How to finish data format conversion (JSON->Ours)? </h2></center> 
+				Below, we show an example JSON:
+				<pre style='font-family: Courier; font-size:14px'>
+### JSON file:
+{
+    "version": 1.3,
+    "people": [
+        {
+            "person_id": [
+                -1
+            ],
+            "pose_keypoints_2d": [
+                666.535,
+                219.883,
+                ...
+	        # We only get eight key points in the upper body(24 number).
+            ],
+            "face_keypoints_2d": [
+                624.108,
+                204.299,
+                0.813047,
+                # We don't train the face.
+            ],
+            "hand_left_keypoints_2d": [
+                694.829,
+                455.679,
+                0.352355,
+                ...
+		# 21 key points, 63 values.
+		
+            ],
+            "hand_right_keypoints_2d": [
+                516.344,
+                348.757,
+                0.0184774,
+                ...
+		// 21 key points, 63 values.
+            ],
+            "pose_keypoints_3d": [],
+            "face_keypoints_3d": [],
+            "hand_left_keypoints_3d": [],
+            "hand_right_keypoints_3d": []
+        }
+    ]
+}
+				</pre>
+				</table>
+<br>
+<b>How to extract key points?</b> We extracted two-dimensional (2D) frontal human pose information from videos of different resolutions, including upper body pose information of the body and hands, through <a href='https://github.com/CMU-Perceptual-Computing-Lab/openpose'>OpenPose</a>. Includes 8 upper body key points. 21 keypoints in each hand, which is a total of 42 hand keypoints. These two parts add up to fifty keypoints, each of which has three XYZ messages, or 150 numbers.
+<br><br>
+Then in steps ``json (2D keypoints) to h5'', ``h5 to txt (3D keypoints)'', and ``txt to skels (Standard Pose Storage)'':
+<br><br>
+<b>How to complete ``json to h5''?</b> We successively obtain a json number in a folder (a frame of pose information, 50 key points, 150 numbers), and then read all the json numbers in a folder into the key name of an h5 (h5 is a format of numpy) file, multiple folders form multiple build names, and finally form an h5 file.
+<br><br>
+<b>How to complete ``h5 to txt''?</b> We read each key name of h5 in turn (the original folder name), create the corresponding folder, each folder generates 5 txt files, the last one is the result, the first 4 txt stores the intermediate variable. This is the part of 2D to 3D, and the key formula 3 in the text is the formula of this part. Additionally, we read the relevant data and delete the unqualified data such as NaN, 0, or replace it with the average median of the data. Finally, we condensed the data to about 1/5 of the original, this data comes from the processing of ASL part.
+<br><br>
+<b>How to complete ``txt to skels''?</b> We read the fifth txt file of each folder in turn, the number of lines in the txt file represents the number of frames of the folder corresponding to the video, we read a line of txt (150 numbers, separated by Spaces, a frame of information), plus a space, and then add a count value (the current line divided by the total number of lines, representing the progress bar), add a space after the count value, Then add the second line txt and continue to repeat the above. Then we put a txt (a video information, the total number of numbers in it = 151* video frames) into a line of content, in turn, tens of thousands of videos are all stored in our standard format.
+
+
+				<!--
+				The example shows the annotations related to this video.
+				First of all, we assign the unique identifier <a style='font-family: Courier'>"0LtLS9wROrk"</a> to that video,
+				which corresponds to the 11-digit YouTube identifier. <br>
+				It contains all action (event-level) instances, whose names follow the format of <a style='font-family: Courier'>"E_{XXXXXX}_{YYYYYY}"</a>.
+				Here, "E" indicates "Event", and "XXXXXX"/"YYYYYY" indicates the zero-padded starting and ending timestamp (in seconds and truncated to Int).
+				<br>
+				Each action instance includes (1) the exact timestamps in the original video ('timestamps', in seconds),
+				(2) event label ('event'), and
+				(3) a list of annotated subaction (element-level) instances ('segments').
+				<br>
+				The annotated subaction instances follow the format of <a style='font-family: Courier'>"A_{ZZZZ}_{WWWW}"</a>.
+				Here, "A" indicates "subAction", and "ZZZZ"/"WWWW" indicates the zero-padded starting and ending timestamp (in seconds and truncated to Int).
+				<br>
+				Ech subaction instance includes (1) the number of stages of this subaction instance ('stages', 3 for Vault and 1 for other events)
+				(2) the exact timestamps of each stage <i>relative</i> to the starting time of event. ('timestamps', in seconds)
+				As a result, each subaction instance has a unique identifier <a style='font-family: Courier'>"{VIDEO_ID}_E_{XXXXXX}_{YYYYYY}_A_{ZZZZ}_{WWWW}"</a>.
+				This identifier serves as the instance name in the train/val splits of Gym99 and Gym288.
+				-->
+			</tr>
+		   </table>
+
+		   <table>
+			<center><h2> How to complete h5 to txt conversion? </h2></center>
+			Above you mentioned TXT folder 12345, but what is TXT5? Below, we show an example the above data processing process:
+			<pre style='font-family: Courier; font-size:14px'>
+def getTXT(key, fnameIn, i, mode):
+  output_file = f"out_data/{mode}/{key}/demo5.txt"
+  if os.path.exists(output_file):
+            print(f"Skipping {key} as output file already exists.")
+            return
+  else:
+      # Getting our structure of skeletal model.
+      # For customizing the structure see a definition of getSkeletalModelStructure. 
+      dtype = "float32"
+      randomNubersGenerator = numpy.random.RandomState(1234) 
+      structure = skeletalModel.getSkeletalModelStructure()
+      with h5py.File(fnameIn, "r") as hfIn:
+            print("")
+            print("Now is processing the "+ key)
+            print("")
+            inputSequence_2D = numpy.array(hfIn.get(key))
+
+            # Decomposition of the single matrix into three matrices: x, y, w (=likelihood)
+            X = inputSequence_2D
+            print(X.shape)
+            Xx = X[0:X.shape[0], 0:(X.shape[1]):3]
+            Xy = X[0:X.shape[0], 1:(X.shape[1]):3]
+            Xw = X[0:X.shape[0], 2:(X.shape[1]):3]
+
+            # Normalization of the picture (x and y axis has the same scale)
+            Xx, Xy = pose2D.normalization(Xx, Xy)
+            save(f"out_data/{mode}/{key}/demo1.txt", [Xx, Xy, Xw])
+
+            # Delete all skeletal models which have a lot of missing parts.
+            Xx, Xy, Xw = pose2D.prune(Xx, Xy, Xw, (0, 1, 2, 3, 4, 5, 6, 7), 0.3, dtype)
+            save(f"out_data/{mode}/{key}/demo2.txt", [Xx, Xy, Xw])
+
+            # Preliminary filtering: weighted linear interpolation of missing points.
+            Xx, Xy, Xw = pose2D.interpolation(Xx, Xy, Xw, 0.99, dtype)
+            save(f"out_data/{mode}/{key}/demo3.txt", [Xx, Xy, Xw])
+
+            # Initial 3D pose estimation
+            ... = pose2Dto3D.initialization(
+                ...
+              )
+            save(f"out_data/{mode}/{key}/demo4.txt", [Yx0, Yy0, Yz0])
+
+              # Backpropagation-based filtering
+            Yx, Yy, Yz = pose3D.backpropagationBasedFiltering(
+                ...
+              )
+            save(f"out_data/{mode}/{key}/demo5.txt", [Yx, Yy, Yz])
+            # Called after each folder is processed to release GPU resources
+            print(f"Now we're working on folder {i} th, and will be finished")
+            i=i+1
+            tf.keras.backend.clear_session()
+			</pre>
+			</table>
+			The above <a href='https://github.com/SignLLM/Prompt2Sign/blob/main/2Dto3D/pipeline_demo_02_h5totxt_train.py'>code</a> shows the contents of our several TXT files, and it clearly shows that 1234 is mainly to store intermediate variables and related content, the fifth folder is the final product we need.
+			And for more details, see the <a href='https://signllm.github.io/Prompt2Sign/'>official documentation</a>.
+		</tr>
+	   </table>		   
+		 
+		 <br><br>
+		 <hr>
+
+		 <table align=center width=720px>
+			<center><h1>Paper</h1></center>
+			   <tr>
+				 <td align=center><a href=""><img class="layered-paper-big" style="height:160px" src="./resources/images/paper_pdf_thumb.png"/></a></td>
+				 <td><span style="font-size:14pt"> <br>
+				 SignLLM: Sign Languages Production Large Language Models<br>
+				 arXiv, 2024.<br>
+				 (<a href="https://arxiv.org/abs/2405.10718">arXiv</a>)</a>
+				 <span style="font-size:4pt"><a href=""><br></a>
+				 </span>
+				 </td>
+				 <td align=center><a href=""><img class="layered-paper-big" style="height:160px" src="./resources/images/supp_pdf_thumb.png"/></a></td>
+				 <td><span style="font-size:14pt">
+				 (<a href="resources/SM.pdf">Additional Details/<br>Supplementary Materials</a>)</a>
+				 <span style="font-size:4pt"><a href=""><br></a>
+				 </span>
+				 </td>
+			 </tr>
+		   </table>
+		 
+		 <br><br>
+		 <hr>
+
+		  <table align=center width=720px>
+			<center><h1>Cite</h1></center>
+		  <div class="disclaimerbox">
+			<!-- <center><h2>How to interpret the results</h2></center> -->
+
+		   <span>
+				<!-- <center><span style="font-size:28px"><b>Cite</b></span></center> -->
+<pre style="font-family:Courier; font-size:14px; white-space:pre-wrap;">
+@misc{fang2025signllmsignlanguageproduction,
+      title={SignLLM: Sign Language Production Large Language Models}, 
+      author={Sen Fang and Chen Chen and Lei Wang and Ce Zheng and Chunyu Sui and Yapeng Tian},
+      year={2025},
+      eprint={2405.10718},
+      archivePrefix={arXiv},
+      primaryClass={cs.CV},
+      url={https://arxiv.org/abs/2405.10718}, 
+}
+</pre>
+		  </div>
+  		  </table>
+
+			<br><br>
+			<hr>
+  
+		  	
+  		  <table align=center width=720px>
+  			  <tr>
+  	              <td width=400px>
+  					<left>
+	  		  <center><h1>Acknowledgements</h1></center>
+				We sincerely appreciate the previous work, open source tools, and researchers for underserved populations. We stand on the shoulders of their work to achieve further achievements. Readers can learn how we utilize and improve previous work through our citations.<br><br>
+				Additionally, we have noticed spontaneous promotion from over 80-120 marketing media outlets and independent content creators, but <span style="color: green;">they may have some misconceptions or exaggerations about our model</span>. Our model takes input text or prompts to generate videos of sign language pose in various languages. Certain conditions need to be input into the model for further processing to obtain the final videos, so we need to work even harder to strengthen the end-to-end capabilities (ie, <span style="color: green;">the pose video output from the model needs to be processed to achieve the effect of real people</span>). <br><br> <!--, and we not said that we could export real people directly-->
+				We are grateful to our supporters including Microsoft, Amazon, Swiss TV, as well as organizations and accessibility practitioners worldwide for their continued support.	
+			       <!--, many people's experiences have deeply moved us. As this system continues to iterate, we will gradually deepen our connection with you, and wish you all keep healthy and keep happiness.-->
+			</left>
+		</td>
+			 </tr>
+		</table>
+
+		<br><br>
+		<hr>
+
+		<table align=center width=720px>
+			<tr>
+				<td width=400px>
+				  <left>
+			<center><h1>Contact</h1></center>
+			For further questions and suggestions, please only contact <a href='mailto:sen.fang@rutgers.edu'>Sen Fang</a> or <a href='mailto:signllm@googlegroups.com'>SignLLM</a>. <br><br>
+			
+			If there are any commercial collaborations, funding arrangements, or sign language cooperation projects, please send the email to Sen's <a href='mailto:dnm@cs.rutgers.edu'>current advisor</a> to discuss the details (and cc Sen).
+			
+		</left>
+	</td>
+		 </tr>
+	</table>
+
+		<br><br>
+
+<script>
+	
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-75863369-1', 'auto');
+  ga('send', 'pageview');
+
+  // 获取 iframe 元素
+  const iframe = document.querySelector('iframe');
+
+  // 获取 iframe 中的音频元素
+  const audio = iframe.contentDocument.querySelector('audio');
+
+  // 暂停音频的播放
+  audio.pause();
+
+</script>
+              
+</body>
+</html>
+ 
