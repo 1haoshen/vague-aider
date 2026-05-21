@@ -1,0 +1,144 @@
+[
+  {
+    "source": "AndroidWorld",
+    "lang": "en",
+    "source_id": "CameraTakePhoto",
+    "instruction": "Take one photo.",
+    "difficulty": "easy",
+    "mapped_kb_apps": [
+      "相机"
+    ],
+    "vague_source": "heuristic: short, atomic, deduplicated by template root"
+  },
+  {
+    "source": "AndroidWorld",
+    "lang": "en",
+    "source_id": "CameraTakeVideo",
+    "instruction": "Take one video.",
+    "difficulty": "medium",
+    "mapped_kb_apps": [
+      "相机"
+    ],
+    "vague_source": "heuristic: short, atomic, deduplicated by template root"
+  },
+  {
+    "source": "AndroidWorld",
+    "lang": "en",
+    "source_id": "ClockStopWatchRunning",
+    "instruction": "Run the stopwatch.",
+    "difficulty": "easy",
+    "mapped_kb_apps": [
+      "闹钟"
+    ],
+    "vague_source": "heuristic: short, atomic, deduplicated by template root"
+  },
+  {
+    "source": "AndroidWorld",
+    "lang": "en",
+    "source_id": "ClockStopWatchPausedVerify",
+    "instruction": "Pause the stopwatch.",
+    "difficulty": "easy",
+    "mapped_kb_apps": [
+      "闹钟"
+    ],
+    "vague_source": "heuristic: short, atomic, deduplicated by template root"
+  },
+  {
+    "source": "AndroidWorld",
+    "lang": "en",
+    "source_id": "SystemWifiTurnOff",
+    "instruction": "Turn wifi {on_or_off}.",
+    "difficulty": "easy",
+    "mapped_kb_apps": [],
+    "vague_source": "heuristic: short, atomic, deduplicated by template root"
+  },
+  {
+    "source": "AndroidWorld",
+    "lang": "en",
+    "source_id": "SystemBluetoothTurnOff",
+    "instruction": "Turn bluetooth {on_or_off}.",
+    "difficulty": "easy",
+    "mapped_kb_apps": [],
+    "vague_source": "heuristic: short, atomic, deduplicated by template root"
+  },
+  {
+    "source": "AndroidWorld",
+    "lang": "en",
+    "source_id": "MarkorDeleteAllNotes",
+    "instruction": "Delete all my notes in Markor.",
+    "difficulty": "easy",
+    "mapped_kb_apps": [
+      "备忘录/笔记"
+    ],
+    "vague_source": "heuristic: short, atomic, deduplicated by template root"
+  },
+  {
+    "source": "AndroidWorld",
+    "lang": "en",
+    "source_id": "MarkorDeleteNewestNote",
+    "instruction": "Delete the newest note in Markor.",
+    "difficulty": "easy",
+    "mapped_kb_apps": [
+      "备忘录/笔记"
+    ],
+    "vague_source": "heuristic: short, atomic, deduplicated by template root"
+  },
+  {
+    "source": "AndroidWorld",
+    "lang": "en",
+    "source_id": "TurnOffWifiAndTurnOnBluetooth",
+    "instruction": "Turn off WiFi, then enable bluetooth",
+    "difficulty": "medium",
+    "mapped_kb_apps": [],
+    "vague_source": "heuristic: short, atomic, deduplicated by template root"
+  },
+  {
+    "source": "AndroidWorld",
+    "lang": "en",
+    "source_id": "SystemBrightnessMax",
+    "instruction": "Turn brightness to the {max_or_min} value.",
+    "difficulty": "easy",
+    "mapped_kb_apps": [],
+    "vague_source": "heuristic: short, atomic, deduplicated by template root"
+  },
+  {
+    "source": "AndroidWorld",
+    "lang": "en",
+    "source_id": "TurnOnWifiAndOpenApp",
+    "instruction": "Turn on Wifi, then open the {app_name} app",
+    "difficulty": "easy",
+    "mapped_kb_apps": [],
+    "vague_source": "heuristic: short, atomic, deduplicated by template root"
+  },
+  {
+    "source": "AndroidWorld",
+    "lang": "en",
+    "source_id": "MarkorDeleteNote",
+    "instruction": "Delete the note in Markor named {file_name}.",
+    "difficulty": "easy",
+    "mapped_kb_apps": [
+      "备忘录/笔记"
+    ],
+    "vague_source": "heuristic: short, atomic, deduplicated by template root"
+  },
+  {
+    "source": "AndroidWorld",
+    "lang": "en",
+    "source_id": "MarkorCreateFolder",
+    "instruction": "Create a new folder in Markor named {folder_name}.",
+    "difficulty": "easy",
+    "mapped_kb_apps": [
+      "备忘录/笔记"
+    ],
+    "vague_source": "heuristic: short, atomic, deduplicated by template root"
+  },
+  {
+    "source": "AndroidWorld",
+    "lang": "en",
+    "source_id": "RecipeAddSingleRecipe",
+    "instruction": "Add the following recipes into the Broccoli app:\n{recipe}",
+    "difficulty": "easy",
+    "mapped_kb_apps": [],
+    "vague_source": "heuristic: short, atomic, deduplicated by template root"
+  }
+]

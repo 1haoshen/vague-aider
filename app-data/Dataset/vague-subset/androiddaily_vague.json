@@ -1,0 +1,362 @@
+[
+  {
+    "source": "AndroidDaily",
+    "lang": "cn",
+    "source_id": "31",
+    "instruction": "帮我在携程上订一张去我学校的火车票,学生票,下周走。",
+    "declared_app": "携程",
+    "scenario": "出行交通",
+    "difficulty": "easy",
+    "mapped_kb_apps": [
+      "携程旅行"
+    ],
+    "vague_source": "label:任务模糊度==高模糊度"
+  },
+  {
+    "source": "AndroidDaily",
+    "lang": "cn",
+    "source_id": "32",
+    "instruction": "打开铁路12306,帮我查一下从老家到北京的高铁,要二等座,看看还有没有余票。",
+    "declared_app": "铁路12306",
+    "scenario": "出行交通",
+    "difficulty": "easy",
+    "mapped_kb_apps": [
+      "铁路12306"
+    ],
+    "vague_source": "label:任务模糊度==高模糊度"
+  },
+  {
+    "source": "AndroidDaily",
+    "lang": "cn",
+    "source_id": "38",
+    "instruction": "帮我看看从大恒科技大厦到机场的大巴票,买一张明天早上八点左右的。",
+    "declared_app": "携程旅行",
+    "scenario": "出行交通",
+    "difficulty": "easy",
+    "mapped_kb_apps": [
+      "携程旅行"
+    ],
+    "vague_source": "label:任务模糊度==高模糊度"
+  },
+  {
+    "source": "AndroidDaily",
+    "lang": "cn",
+    "source_id": "84",
+    "instruction": "搜索一下从深圳到厦门的火车票,优先显示高铁,如果没有或者票卖完了,再给我看动车。",
+    "declared_app": "铁路12306",
+    "scenario": "出行交通",
+    "difficulty": "medium",
+    "mapped_kb_apps": [
+      "铁路12306"
+    ],
+    "vague_source": "label:任务模糊度==高模糊度"
+  },
+  {
+    "source": "AndroidDaily",
+    "lang": "cn",
+    "source_id": "104",
+    "instruction": "飞猪上看看下周五回家的火车票。",
+    "declared_app": "飞猪",
+    "scenario": "出行交通",
+    "difficulty": "medium",
+    "mapped_kb_apps": [
+      "飞猪旅行"
+    ],
+    "vague_source": "label:任务模糊度==高模糊度"
+  },
+  {
+    "source": "AndroidDaily",
+    "lang": "cn",
+    "source_id": "106",
+    "instruction": "我想带孩子去趟迪士尼,在12306上查查到上海的卧铺票,要下铺。",
+    "declared_app": "12306",
+    "scenario": "出行交通",
+    "difficulty": "medium",
+    "mapped_kb_apps": [
+      "铁路12306"
+    ],
+    "vague_source": "label:任务模糊度==高模糊度"
+  },
+  {
+    "source": "AndroidDaily",
+    "lang": "cn",
+    "source_id": "109",
+    "instruction": "帮我用去哪儿网订一张最便宜的机票去青岛,下周任何一天走都行。",
+    "declared_app": "去哪儿网",
+    "scenario": "出行交通",
+    "difficulty": "medium",
+    "mapped_kb_apps": [
+      "去哪儿旅行"
+    ],
+    "vague_source": "label:任务模糊度==高模糊度"
+  },
+  {
+    "source": "AndroidDaily",
+    "lang": "cn",
+    "source_id": "124",
+    "instruction": "看看去哪儿旅行上我上次收藏的那个南京的酒店还有没有房间,就订下下周的。",
+    "declared_app": "去哪儿旅行",
+    "scenario": "出行交通",
+    "difficulty": "medium",
+    "mapped_kb_apps": [
+      "去哪儿旅行"
+    ],
+    "vague_source": "label:任务模糊度==高模糊度"
+  },
+  {
+    "source": "AndroidDaily",
+    "lang": "cn",
+    "source_id": "126",
+    "instruction": "帮我订个明晚的酒店,就在公司附近,要安静一点的。",
+    "declared_app": "携程",
+    "scenario": "出行交通",
+    "difficulty": "medium",
+    "mapped_kb_apps": [
+      "携程旅行"
+    ],
+    "vague_source": "label:任务模糊度==高模糊度"
+  },
+  {
+    "source": "AndroidDaily",
+    "lang": "cn",
+    "source_id": "151",
+    "instruction": "在携程上查一下元旦去北京的机票,如果往返超过2000块钱就提醒我,没超过就直接找个时间合适的订了。",
+    "declared_app": "携程",
+    "scenario": "出行交通",
+    "difficulty": "hard",
+    "mapped_kb_apps": [
+      "携程旅行"
+    ],
+    "vague_source": "label:任务模糊度==高模糊度"
+  },
+  {
+    "source": "AndroidDaily",
+    "lang": "cn",
+    "source_id": "154",
+    "instruction": "在携程上订一张下周五去三亚的机票,订好后把航班信息通过微信发给我老婆。",
+    "declared_app": "携程, 微信",
+    "scenario": "出行交通",
+    "difficulty": "hard",
+    "mapped_kb_apps": [
+      "微信",
+      "携程旅行"
+    ],
+    "vague_source": "label:任务模糊度==高模糊度"
+  },
+  {
+    "source": "AndroidDaily",
+    "lang": "cn",
+    "source_id": "163",
+    "instruction": "帮我回一下李总的消息",
+    "declared_app": "微信",
+    "scenario": "社交通讯",
+    "difficulty": "hard",
+    "mapped_kb_apps": [
+      "微信"
+    ],
+    "vague_source": "label:任务模糊度==高模糊度"
+  },
+  {
+    "source": "AndroidDaily",
+    "lang": "cn",
+    "source_id": "165",
+    "instruction": "帮我规划一下去三亚的行程,先看看机票。",
+    "declared_app": "携程",
+    "scenario": "出行交通",
+    "difficulty": "hard",
+    "mapped_kb_apps": [
+      "携程旅行"
+    ],
+    "vague_source": "label:任务模糊度==高模糊度"
+  },
+  {
+    "source": "AndroidDaily",
+    "lang": "cn",
+    "source_id": "166",
+    "instruction": "在同程旅行上找一下12月20号从上海出发去成都的机票,要往返的,看看哪个航空公司的最划算。",
+    "declared_app": "同程旅行",
+    "scenario": "出行交通",
+    "difficulty": "hard",
+    "mapped_kb_apps": [],
+    "vague_source": "label:任务模糊度==高模糊度"
+  },
+  {
+    "source": "AndroidDaily",
+    "lang": "cn",
+    "source_id": "188",
+    "instruction": "看看我关注的第一个博主发了什么新动态。",
+    "declared_app": "微博",
+    "scenario": "社交通讯",
+    "difficulty": "hard",
+    "mapped_kb_apps": [],
+    "vague_source": "label:任务模糊度==高模糊度"
+  },
+  {
+    "source": "AndroidDaily",
+    "lang": "cn",
+    "source_id": "194",
+    "instruction": "去铁路12306看看我下周回家的火车票,选个下午出发时间合适的二等座下单。",
+    "declared_app": "铁路12306",
+    "scenario": "出行交通",
+    "difficulty": "hard",
+    "mapped_kb_apps": [
+      "铁路12306"
+    ],
+    "vague_source": "label:任务模糊度==高模糊度"
+  },
+  {
+    "source": "AndroidDaily",
+    "lang": "cn",
+    "source_id": "195",
+    "instruction": "帮我查一下12月1号从广州到桂林的往返火车票,然后把价格最低的那趟车信息发给我。",
+    "declared_app": "铁路12306",
+    "scenario": "出行交通",
+    "difficulty": "easy",
+    "mapped_kb_apps": [
+      "铁路12306"
+    ],
+    "vague_source": "label:任务模糊度==高模糊度"
+  },
+  {
+    "source": "AndroidDaily",
+    "lang": "cn",
+    "source_id": "196",
+    "instruction": "打开美团酒店,看看我公司附近有啥特价酒店。",
+    "declared_app": "美团",
+    "scenario": "本地服务",
+    "difficulty": "medium",
+    "mapped_kb_apps": [
+      "美团"
+    ],
+    "vague_source": "label:任务模糊度==高模糊度"
+  },
+  {
+    "source": "AndroidDaily",
+    "lang": "cn",
+    "source_id": "202",
+    "instruction": "帮我找个周末能带孩子去玩的地方。",
+    "declared_app": "大众点评",
+    "scenario": "本地服务",
+    "difficulty": "easy",
+    "mapped_kb_apps": [
+      "大众点评"
+    ],
+    "vague_source": "label:任务模糊度==高模糊度"
+  },
+  {
+    "source": "AndroidDaily",
+    "lang": "cn",
+    "source_id": "206",
+    "instruction": "在B站罗翔最新视频的评论区里留个言。",
+    "declared_app": "哔哩哔哩",
+    "scenario": "内容消费",
+    "difficulty": "medium",
+    "mapped_kb_apps": [
+      "哔哩哔哩"
+    ],
+    "vague_source": "label:任务模糊度==高模糊度"
+  },
+  {
+    "source": "AndroidDaily",
+    "lang": "cn",
+    "source_id": "211",
+    "instruction": "用小红书帮我发个帖子安利一下上海。",
+    "declared_app": "小红书",
+    "scenario": "社交通讯",
+    "difficulty": "medium",
+    "mapped_kb_apps": [
+      "小红书"
+    ],
+    "vague_source": "label:任务模糊度==高模糊度"
+  },
+  {
+    "source": "AndroidDaily",
+    "lang": "cn",
+    "source_id": "213",
+    "instruction": "帮我在小红书上发个帖子，吐槽一下最近的天气。",
+    "declared_app": "小红书",
+    "scenario": "社交通讯",
+    "difficulty": "medium",
+    "mapped_kb_apps": [
+      "天气",
+      "小红书"
+    ],
+    "vague_source": "label:任务模糊度==高模糊度"
+  },
+  {
+    "source": "AndroidDaily",
+    "lang": "cn",
+    "source_id": "216",
+    "instruction": "去抖音评论一下那个很火的视频。",
+    "declared_app": "抖音",
+    "scenario": "社交通讯",
+    "difficulty": "medium",
+    "mapped_kb_apps": [
+      "抖音"
+    ],
+    "vague_source": "label:任务模糊度==高模糊度"
+  },
+  {
+    "source": "AndroidDaily",
+    "lang": "cn",
+    "source_id": "220",
+    "instruction": "给朋友的最新朋友圈写个有趣的评论。",
+    "declared_app": "微信",
+    "scenario": "社交通讯",
+    "difficulty": "medium",
+    "mapped_kb_apps": [
+      "微信"
+    ],
+    "vague_source": "label:任务模糊度==高模糊度"
+  },
+  {
+    "source": "AndroidDaily",
+    "lang": "cn",
+    "source_id": "193",
+    "instruction": "找点有意思的视频看看。",
+    "declared_app": "抖音",
+    "scenario": "内容消费",
+    "difficulty": "easy",
+    "mapped_kb_apps": [
+      "抖音"
+    ],
+    "vague_source": "label:任务模糊度==中模糊度 (length-topup)"
+  },
+  {
+    "source": "AndroidDaily",
+    "lang": "cn",
+    "source_id": "192",
+    "instruction": "在爱奇艺上找个下饭剧播放。",
+    "declared_app": "爱奇艺",
+    "scenario": "内容消费",
+    "difficulty": "easy",
+    "mapped_kb_apps": [
+      "爱奇艺"
+    ],
+    "vague_source": "label:任务模糊度==中模糊度 (length-topup)"
+  },
+  {
+    "source": "AndroidDaily",
+    "lang": "cn",
+    "source_id": "83",
+    "instruction": "帮我叫个车去最近的万达广场。",
+    "declared_app": "滴滴出行",
+    "scenario": "出行交通",
+    "difficulty": "medium",
+    "mapped_kb_apps": [],
+    "vague_source": "label:任务模糊度==中模糊度 (length-topup)"
+  },
+  {
+    "source": "AndroidDaily",
+    "lang": "cn",
+    "source_id": "197",
+    "instruction": "在去哪儿旅行上找个好点的民宿。",
+    "declared_app": "去哪儿旅行",
+    "scenario": "出行交通",
+    "difficulty": "easy",
+    "mapped_kb_apps": [
+      "去哪儿旅行"
+    ],
+    "vague_source": "label:任务模糊度==中模糊度 (length-topup)"
+  }
+]

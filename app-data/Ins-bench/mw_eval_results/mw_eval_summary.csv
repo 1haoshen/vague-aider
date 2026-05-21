@@ -1,0 +1,4 @@
+Task_id,task_class,task_path,apps,lang,L1_score,L2_score,L3_score,L1_pass,L2_pass,L3_pass
+56,SetAlarmTaskAskUser1,native/set_alarm_ask_user_1.py,闹钟,en,,,,0,0,0
+62,AcceptMeetingTask,gmail/accept_meeting.py,gmail,en,,,,0,0,0
+75,ReplyEmailViaSmsAskUserTask,gmail/reply_email_via_sms_ask_user.py,gmail、信息、日历,en,,,,0,0,0

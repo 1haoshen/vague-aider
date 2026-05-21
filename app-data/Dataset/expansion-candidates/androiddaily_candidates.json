@@ -1,0 +1,2632 @@
+[
+  {
+    "source": "AndroidDaily",
+    "source_id": "1",
+    "instruction_seed": "在铁路12306 App里买一张本周五晚上从广州南到长沙南的二等座高铁票。",
+    "declared_app": "铁路12306",
+    "scenario": "出行交通",
+    "ambiguity": "低模糊度",
+    "difficulty": "easy",
+    "mapped_kb_apps": [
+      "铁路12306"
+    ],
+    "suggested_role": "L3 agent-friendly seed"
+  },
+  {
+    "source": "AndroidDaily",
+    "source_id": "2",
+    "instruction_seed": "看看今天下午去天津的火车,要快一点的。",
+    "declared_app": "铁路12306",
+    "scenario": "出行交通",
+    "ambiguity": "中模糊度",
+    "difficulty": "easy",
+    "mapped_kb_apps": [
+      "铁路12306"
+    ],
+    "suggested_role": "L2 / Original"
+  },
+  {
+    "source": "AndroidDaily",
+    "source_id": "3",
+    "instruction_seed": "用高德地图打一辆出租车,从环中线大学城地铁站C口去南山区的万象天地。",
+    "declared_app": "高德地图",
+    "scenario": "出行交通",
+    "ambiguity": "低模糊度",
+    "difficulty": "medium",
+    "mapped_kb_apps": [
+      "高德地图(Amap)"
+    ],
+    "suggested_role": "L3 agent-friendly seed"
+  },
+  {
+    "source": "AndroidDaily",
+    "source_id": "4",
+    "instruction_seed": "去携程上预订两张下周六上海迪士尼乐园的成人一日票。",
+    "declared_app": "携程",
+    "scenario": "出行交通",
+    "ambiguity": "低模糊度",
+    "difficulty": "easy",
+    "mapped_kb_apps": [
+      "携程旅行"
+    ],
+    "suggested_role": "L3 agent-friendly seed"
+  },
+  {
+    "source": "AndroidDaily",
+    "source_id": "5",
+    "instruction_seed": "在B站播放罗翔的刑法课视频。",
+    "declared_app": "B站",
+    "scenario": "内容消费",
+    "ambiguity": "低模糊度",
+    "difficulty": "easy",
+    "mapped_kb_apps": [
+      "哔哩哔哩"
+    ],
+    "suggested_role": "L3 agent-friendly seed"
+  },
+  {
+    "source": "AndroidDaily",
+    "source_id": "6",
+    "instruction_seed": "用网易云音乐播放我收藏的“开车专用”歌单。",
+    "declared_app": "网易云音乐",
+    "scenario": "内容消费",
+    "ambiguity": "低模糊度",
+    "difficulty": "easy",
+    "mapped_kb_apps": [
+      "网易云音乐"
+    ],
+    "suggested_role": "L3 agent-friendly seed"
+  },
+  {
+    "source": "AndroidDaily",
+    "source_id": "7",
+    "instruction_seed": "在优酷上播放电视剧《甄嬛传》第15集。",
+    "declared_app": "优酷",
+    "scenario": "内容消费",
+    "ambiguity": "低模糊度",
+    "difficulty": "easy",
+    "mapped_kb_apps": [
+      "优酷视频"
+    ],
+    "suggested_role": "L3 agent-friendly seed"
+  },
+  {
+    "source": "AndroidDaily",
+    "source_id": "8",
+    "instruction_seed": "打开喜马拉雅,播放郭德纲的相声《济公传》。",
+    "declared_app": "喜马拉雅",
+    "scenario": "内容消费",
+    "ambiguity": "低模糊度",
+    "difficulty": "easy",
+    "mapped_kb_apps": [
+      "喜马拉雅"
+    ],
+    "suggested_role": "L3 agent-friendly seed"
+  },
+  {
+    "source": "AndroidDaily",
+    "source_id": "9",
+    "instruction_seed": "在芒果TV搜索并播放《你好,星期六》的最新一期。",
+    "declared_app": "芒果TV",
+    "scenario": "内容消费",
+    "ambiguity": "低模糊度",
+    "difficulty": "easy",
+    "mapped_kb_apps": [
+      "芒果TV"
+    ],
+    "suggested_role": "L3 agent-friendly seed"
+  },
+  {
+    "source": "AndroidDaily",
+    "source_id": "10",
+    "instruction_seed": "用QQ音乐播放周杰伦的歌曲《稻香》。",
+    "declared_app": "QQ音乐",
+    "scenario": "内容消费",
+    "ambiguity": "低模糊度",
+    "difficulty": "easy",
+    "mapped_kb_apps": [
+      "QQ音乐"
+    ],
+    "suggested_role": "L3 agent-friendly seed"
+  },
+  {
+    "source": "AndroidDaily",
+    "source_id": "12",
+    "instruction_seed": "打开网易云音乐,进入每日推荐,然后从第一首开始顺序播放。",
+    "declared_app": "网易云音乐",
+    "scenario": "内容消费",
+    "ambiguity": "低模糊度",
+    "difficulty": "easy",
+    "mapped_kb_apps": [
+      "网易云音乐"
+    ],
+    "suggested_role": "L3 agent-friendly seed"
+  },
+  {
+    "source": "AndroidDaily",
+    "source_id": "13",
+    "instruction_seed": "在B站搜索“AI教程”,然后播放那个播放量最高的视频。",
+    "declared_app": "哔哩哔哩",
+    "scenario": "内容消费",
+    "ambiguity": "中模糊度",
+    "difficulty": "easy",
+    "mapped_kb_apps": [
+      "哔哩哔哩"
+    ],
+    "suggested_role": "L2 / Original"
+  },
+  {
+    "source": "AndroidDaily",
+    "source_id": "14",
+    "instruction_seed": "打开支付宝,看看我的蚂蚁森林能量有多少克",
+    "declared_app": "支付宝",
+    "scenario": "购物消费",
+    "ambiguity": "低模糊度",
+    "difficulty": "easy",
+    "mapped_kb_apps": [
+      "支付宝"
+    ],
+    "suggested_role": "L3 agent-friendly seed"
+  },
+  {
+    "source": "AndroidDaily",
+    "source_id": "15",
+    "instruction_seed": "在京东金融里查看一下我的白条总额度是多少",
+    "declared_app": "京东金融",
+    "scenario": "购物消费",
+    "ambiguity": "低模糊度",
+    "difficulty": "medium",
+    "mapped_kb_apps": [
+      "京东"
+    ],
+    "suggested_role": "L3 agent-friendly seed"
+  },
+  {
+    "source": "AndroidDaily",
+    "source_id": "16",
+    "instruction_seed": "打开手机淘宝,搜索所有正在进行百亿补贴的iPhone 15 Pro,然后按价格从低到高排序",
+    "declared_app": "淘宝",
+    "scenario": "购物消费",
+    "ambiguity": "低模糊度",
+    "difficulty": "easy",
+    "mapped_kb_apps": [
+      "淘宝"
+    ],
+    "suggested_role": "L3 agent-friendly seed"
+  },
+  {
+    "source": "AndroidDaily",
+    "source_id": "17",
+    "instruction_seed": "在拼多多帮我搜索男士的短袖T恤。",
+    "declared_app": "拼多多",
+    "scenario": "购物消费",
+    "ambiguity": "低模糊度",
+    "difficulty": "easy",
+    "mapped_kb_apps": [
+      "拼多多"
+    ],
+    "suggested_role": "L3 agent-friendly seed"
+  },
+  {
+    "source": "AndroidDaily",
+    "source_id": "18",
+    "instruction_seed": "打开拼多多,帮我领一下百亿补贴的优惠券。",
+    "declared_app": "拼多多",
+    "scenario": "购物消费",
+    "ambiguity": "低模糊度",
+    "difficulty": "easy",
+    "mapped_kb_apps": [
+      "拼多多"
+    ],
+    "suggested_role": "L3 agent-friendly seed"
+  },
+  {
+    "source": "AndroidDaily",
+    "source_id": "20",
+    "instruction_seed": "在微信里把我的昵称改成'夏日微风'。",
+    "declared_app": "微信",
+    "scenario": "社交通讯",
+    "ambiguity": "低模糊度",
+    "difficulty": "easy",
+    "mapped_kb_apps": [
+      "微信"
+    ],
+    "suggested_role": "L3 agent-friendly seed"
+  },
+  {
+    "source": "AndroidDaily",
+    "source_id": "21",
+    "instruction_seed": "去小红书把我收藏的第一篇笔记取消收藏。",
+    "declared_app": "小红书",
+    "scenario": "社交通讯",
+    "ambiguity": "低模糊度",
+    "difficulty": "easy",
+    "mapped_kb_apps": [
+      "备忘录/笔记",
+      "小红书"
+    ],
+    "suggested_role": "L3 agent-friendly seed"
+  },
+  {
+    "source": "AndroidDaily",
+    "source_id": "23",
+    "instruction_seed": "检查B站里我的关注列表设置是不是‘不公开’。",
+    "declared_app": "哔哩哔哩",
+    "scenario": "社交通讯",
+    "ambiguity": "低模糊度",
+    "difficulty": "easy",
+    "mapped_kb_apps": [
+      "哔哩哔哩",
+      "设置"
+    ],
+    "suggested_role": "L3 agent-friendly seed"
+  },
+  {
+    "source": "AndroidDaily",
+    "source_id": "25",
+    "instruction_seed": "在B站上搜一下“智能手机评测”,然后按播放量排序",
+    "declared_app": "B站",
+    "scenario": "内容消费",
+    "ambiguity": "低模糊度",
+    "difficulty": "easy",
+    "mapped_kb_apps": [
+      "哔哩哔哩"
+    ],
+    "suggested_role": "L3 agent-friendly seed"
+  },
+  {
+    "source": "AndroidDaily",
+    "source_id": "26",
+    "instruction_seed": "发一条朋友圈,就说“今天好开心啊”",
+    "declared_app": "微信",
+    "scenario": "社交通讯",
+    "ambiguity": "中模糊度",
+    "difficulty": "easy",
+    "mapped_kb_apps": [
+      "微信"
+    ],
+    "suggested_role": "L2 / Original"
+  },
+  {
+    "source": "AndroidDaily",
+    "source_id": "28",
+    "instruction_seed": "打开铁路12306,查一下明天从北京到天津的所有高铁票。",
+    "declared_app": "铁路12306",
+    "scenario": "出行交通",
+    "ambiguity": "低模糊度",
+    "difficulty": "easy",
+    "mapped_kb_apps": [
+      "铁路12306"
+    ],
+    "suggested_role": "L3 agent-friendly seed"
+  },
+  {
+    "source": "AndroidDaily",
+    "source_id": "29",
+    "instruction_seed": "在携程上搜一下后天上海飞广州的机票。",
+    "declared_app": "携程",
+    "scenario": "出行交通",
+    "ambiguity": "低模糊度",
+    "difficulty": "easy",
+    "mapped_kb_apps": [
+      "携程旅行"
+    ],
+    "suggested_role": "L3 agent-friendly seed"
+  },
+  {
+    "source": "AndroidDaily",
+    "source_id": "30",
+    "instruction_seed": "查一下12月1号深圳到厦门的动车。",
+    "declared_app": "铁路12306",
+    "scenario": "出行交通",
+    "ambiguity": "中模糊度",
+    "difficulty": "easy",
+    "mapped_kb_apps": [
+      "铁路12306"
+    ],
+    "suggested_role": "L2 / Original"
+  },
+  {
+    "source": "AndroidDaily",
+    "source_id": "31",
+    "instruction_seed": "帮我在携程上订一张去我学校的火车票,学生票,下周走。",
+    "declared_app": "携程",
+    "scenario": "出行交通",
+    "ambiguity": "高模糊度",
+    "difficulty": "easy",
+    "mapped_kb_apps": [
+      "携程旅行"
+    ],
+    "suggested_role": "L1 user-friendly"
+  },
+  {
+    "source": "AndroidDaily",
+    "source_id": "32",
+    "instruction_seed": "打开铁路12306,帮我查一下从老家到北京的高铁,要二等座,看看还有没有余票。",
+    "declared_app": "铁路12306",
+    "scenario": "出行交通",
+    "ambiguity": "高模糊度",
+    "difficulty": "easy",
+    "mapped_kb_apps": [
+      "铁路12306"
+    ],
+    "suggested_role": "L1 user-friendly"
+  },
+  {
+    "source": "AndroidDaily",
+    "source_id": "33",
+    "instruction_seed": "在携程旅行上查询12月11日从北京首都国际机场到上海虹桥机场的机票,筛选只要上午起飞的航班,并按价格从低到高排序。",
+    "declared_app": "携程旅行",
+    "scenario": "出行交通",
+    "ambiguity": "低模糊度",
+    "difficulty": "easy",
+    "mapped_kb_apps": [
+      "携程旅行"
+    ],
+    "suggested_role": "L3 agent-friendly seed"
+  },
+  {
+    "source": "AndroidDaily",
+    "source_id": "34",
+    "instruction_seed": "使用去哪儿旅行App,搜索12月25日从哈尔滨飞往三亚的单程机票,航空公司限定为海南航空,并且必须是直飞。",
+    "declared_app": "去哪儿旅行",
+    "scenario": "出行交通",
+    "ambiguity": "低模糊度",
+    "difficulty": "easy",
+    "mapped_kb_apps": [
+      "去哪儿旅行"
+    ],
+    "suggested_role": "L3 agent-friendly seed"
+  },
+  {
+    "source": "AndroidDaily",
+    "source_id": "35",
+    "instruction_seed": "在飞猪App里帮我找一下明年1月25日从上海回武汉的火车票,筛选出所有动车和高铁,然后按照出发时间从早到晚显示。",
+    "declared_app": "飞猪",
+    "scenario": "出行交通",
+    "ambiguity": "低模糊度",
+    "difficulty": "easy",
+    "mapped_kb_apps": [
+      "飞猪旅行"
+    ],
+    "suggested_role": "L3 agent-friendly seed"
+  },
+  {
+    "source": "AndroidDaily",
+    "source_id": "37",
+    "instruction_seed": "打开铁路12306,看一眼今天还有没有从上海到苏州的高铁票。",
+    "declared_app": "铁路12306",
+    "scenario": "出行交通",
+    "ambiguity": "低模糊度",
+    "difficulty": "easy",
+    "mapped_kb_apps": [
+      "铁路12306"
+    ],
+    "suggested_role": "L3 agent-friendly seed"
+  },
+  {
+    "source": "AndroidDaily",
+    "source_id": "38",
+    "instruction_seed": "帮我看看从大恒科技大厦到机场的大巴票,买一张明天早上八点左右的。",
+    "declared_app": "携程旅行",
+    "scenario": "出行交通",
+    "ambiguity": "高模糊度",
+    "difficulty": "easy",
+    "mapped_kb_apps": [
+      "携程旅行"
+    ],
+    "suggested_role": "L1 user-friendly"
+  },
+  {
+    "source": "AndroidDaily",
+    "source_id": "39",
+    "instruction_seed": "用去哪儿查一下三亚的五星级酒店。",
+    "declared_app": "去哪儿",
+    "scenario": "出行交通",
+    "ambiguity": "低模糊度",
+    "difficulty": "easy",
+    "mapped_kb_apps": [
+      "去哪儿旅行"
+    ],
+    "suggested_role": "L3 agent-friendly seed"
+  },
+  {
+    "source": "AndroidDaily",
+    "source_id": "40",
+    "instruction_seed": "在飞猪上搜一下大理的民宿。",
+    "declared_app": "飞猪",
+    "scenario": "出行交通",
+    "ambiguity": "低模糊度",
+    "difficulty": "easy",
+    "mapped_kb_apps": [
+      "飞猪旅行"
+    ],
+    "suggested_role": "L3 agent-friendly seed"
+  },
+  {
+    "source": "AndroidDaily",
+    "source_id": "41",
+    "instruction_seed": "帮我查一下携程上广州评分最高的酒店是哪家。",
+    "declared_app": "携程",
+    "scenario": "出行交通",
+    "ambiguity": "低模糊度",
+    "difficulty": "easy",
+    "mapped_kb_apps": [
+      "携程旅行"
+    ],
+    "suggested_role": "L3 agent-friendly seed"
+  },
+  {
+    "source": "AndroidDaily",
+    "source_id": "42",
+    "instruction_seed": "在携程旅行上查一下12月15号到12月17号,青岛可以看海景的酒店,然后按好评排序。",
+    "declared_app": "携程旅行",
+    "scenario": "出行交通",
+    "ambiguity": "低模糊度",
+    "difficulty": "easy",
+    "mapped_kb_apps": [
+      "携程旅行"
+    ],
+    "suggested_role": "L3 agent-friendly seed"
+  },
+  {
+    "source": "AndroidDaily",
+    "source_id": "43",
+    "instruction_seed": "去哪儿旅行,给我推荐几个下周末去杭州的亲子酒店,要带儿童乐园的,价格在800块以内。",
+    "declared_app": "去哪儿旅行",
+    "scenario": "出行交通",
+    "ambiguity": "低模糊度",
+    "difficulty": "easy",
+    "mapped_kb_apps": [
+      "去哪儿旅行"
+    ],
+    "suggested_role": "L3 agent-friendly seed"
+  },
+  {
+    "source": "AndroidDaily",
+    "source_id": "44",
+    "instruction_seed": "在飞猪上搜一下重庆春节期间的酒店。",
+    "declared_app": "飞猪",
+    "scenario": "出行交通",
+    "ambiguity": "低模糊度",
+    "difficulty": "easy",
+    "mapped_kb_apps": [
+      "飞猪旅行"
+    ],
+    "suggested_role": "L3 agent-friendly seed"
+  },
+  {
+    "source": "AndroidDaily",
+    "source_id": "45",
+    "instruction_seed": "帮我看看这个周末去苏州有什么不错的民宿推荐吗？最好是园林风格的。",
+    "declared_app": "携程旅行",
+    "scenario": "本地服务",
+    "ambiguity": "中模糊度",
+    "difficulty": "easy",
+    "mapped_kb_apps": [
+      "携程旅行"
+    ],
+    "suggested_role": "L2 / Original"
+  },
+  {
+    "source": "AndroidDaily",
+    "source_id": "46",
+    "instruction_seed": "我想去滑雪,帮我看看崇礼的酒店,要离滑雪场近的,这个月底去。",
+    "declared_app": "携程",
+    "scenario": "出行交通",
+    "ambiguity": "中模糊度",
+    "difficulty": "easy",
+    "mapped_kb_apps": [
+      "携程旅行"
+    ],
+    "suggested_role": "L2 / Original"
+  },
+  {
+    "source": "AndroidDaily",
+    "source_id": "47",
+    "instruction_seed": "帮我找下周末去杭州的民宿,要离西湖近一点的,在美团上找。",
+    "declared_app": "美团",
+    "scenario": "本地服务",
+    "ambiguity": "低模糊度",
+    "difficulty": "easy",
+    "mapped_kb_apps": [
+      "美团"
+    ],
+    "suggested_role": "L3 agent-friendly seed"
+  },
+  {
+    "source": "AndroidDaily",
+    "source_id": "48",
+    "instruction_seed": "在去哪儿旅行上看看下个月去三亚的酒店,要五星级的,最好是海景房。",
+    "declared_app": "去哪儿旅行",
+    "scenario": "出行交通",
+    "ambiguity": "低模糊度",
+    "difficulty": "easy",
+    "mapped_kb_apps": [
+      "去哪儿旅行"
+    ],
+    "suggested_role": "L3 agent-friendly seed"
+  },
+  {
+    "source": "AndroidDaily",
+    "source_id": "49",
+    "instruction_seed": "在淘宝里查看我待收货的订单。",
+    "declared_app": "淘宝",
+    "scenario": "购物消费",
+    "ambiguity": "低模糊度",
+    "difficulty": "easy",
+    "mapped_kb_apps": [
+      "淘宝"
+    ],
+    "suggested_role": "L3 agent-friendly seed"
+  },
+  {
+    "source": "AndroidDaily",
+    "source_id": "51",
+    "instruction_seed": "把我京东里待付款的第一条订单取消掉。",
+    "declared_app": "京东",
+    "scenario": "购物消费",
+    "ambiguity": "低模糊度",
+    "difficulty": "easy",
+    "mapped_kb_apps": [
+      "京东"
+    ],
+    "suggested_role": "L3 agent-friendly seed"
+  },
+  {
+    "source": "AndroidDaily",
+    "source_id": "53",
+    "instruction_seed": "发一条朋友圈,内容是'今天天气真好',并定位到我当前的位置。",
+    "declared_app": "微信",
+    "scenario": "社交通讯",
+    "ambiguity": "中模糊度",
+    "difficulty": "easy",
+    "mapped_kb_apps": [
+      "天气",
+      "微信"
+    ],
+    "suggested_role": "L2 / Original"
+  },
+  {
+    "source": "AndroidDaily",
+    "source_id": "54",
+    "instruction_seed": "帮我建一个微信群,把张三和李四拉进来,群名就叫'周末出游讨论组'。",
+    "declared_app": "微信",
+    "scenario": "社交通讯",
+    "ambiguity": "低模糊度",
+    "difficulty": "easy",
+    "mapped_kb_apps": [
+      "微信"
+    ],
+    "suggested_role": "L3 agent-friendly seed"
+  },
+  {
+    "source": "AndroidDaily",
+    "source_id": "56",
+    "instruction_seed": "在淘宝上搜一下男士运动鞋。",
+    "declared_app": "淘宝",
+    "scenario": "购物消费",
+    "ambiguity": "低模糊度",
+    "difficulty": "easy",
+    "mapped_kb_apps": [
+      "淘宝"
+    ],
+    "suggested_role": "L3 agent-friendly seed"
+  },
+  {
+    "source": "AndroidDaily",
+    "source_id": "57",
+    "instruction_seed": "打开京东,把购物车里的第一件商品删掉。",
+    "declared_app": "京东",
+    "scenario": "购物消费",
+    "ambiguity": "低模糊度",
+    "difficulty": "easy",
+    "mapped_kb_apps": [
+      "京东"
+    ],
+    "suggested_role": "L3 agent-friendly seed"
+  },
+  {
+    "source": "AndroidDaily",
+    "source_id": "58",
+    "instruction_seed": "在京东搜索'筋膜枪',然后按价格从高到低排序。",
+    "declared_app": "京东",
+    "scenario": "购物消费",
+    "ambiguity": "低模糊度",
+    "difficulty": "easy",
+    "mapped_kb_apps": [
+      "京东"
+    ],
+    "suggested_role": "L3 agent-friendly seed"
+  },
+  {
+    "source": "AndroidDaily",
+    "source_id": "59",
+    "instruction_seed": "去拼多多帮我买一提卷纸,送到公司",
+    "declared_app": "拼多多",
+    "scenario": "购物消费",
+    "ambiguity": "低模糊度",
+    "difficulty": "easy",
+    "mapped_kb_apps": [
+      "拼多多"
+    ],
+    "suggested_role": "L3 agent-friendly seed"
+  },
+  {
+    "source": "AndroidDaily",
+    "source_id": "60",
+    "instruction_seed": "用高德地图导航去最近的24小时便利店。",
+    "declared_app": "高德地图",
+    "scenario": "出行交通",
+    "ambiguity": "低模糊度",
+    "difficulty": "easy",
+    "mapped_kb_apps": [
+      "高德地图(Amap)"
+    ],
+    "suggested_role": "L3 agent-friendly seed"
+  },
+  {
+    "source": "AndroidDaily",
+    "source_id": "61",
+    "instruction_seed": "用高德地图查一下从大恒科技大厦到北京首都国际机场T3航站楼的路线,优先选择地铁出行。",
+    "declared_app": "高德地图",
+    "scenario": "出行交通",
+    "ambiguity": "低模糊度",
+    "difficulty": "easy",
+    "mapped_kb_apps": [
+      "高德地图(Amap)"
+    ],
+    "suggested_role": "L3 agent-friendly seed"
+  },
+  {
+    "source": "AndroidDaily",
+    "source_id": "62",
+    "instruction_seed": "打开大众点评,预定一个明晚7点半在海底捞(中骏世界城店)的四人位。",
+    "declared_app": "大众点评",
+    "scenario": "本地服务",
+    "ambiguity": "低模糊度",
+    "difficulty": "easy",
+    "mapped_kb_apps": [
+      "大众点评"
+    ],
+    "suggested_role": "L3 agent-friendly seed"
+  },
+  {
+    "source": "AndroidDaily",
+    "source_id": "63",
+    "instruction_seed": "在携程旅行上预订一间下周五入住,周日退房的上海浦东香格里拉大酒店的江景房。",
+    "declared_app": "携程旅行",
+    "scenario": "出行交通",
+    "ambiguity": "低模糊度",
+    "difficulty": "easy",
+    "mapped_kb_apps": [
+      "携程旅行"
+    ],
+    "suggested_role": "L3 agent-friendly seed"
+  },
+  {
+    "source": "AndroidDaily",
+    "source_id": "64",
+    "instruction_seed": "打开高德地图,设置一个明天早上7点半去公司的出行提醒。",
+    "declared_app": "高德地图",
+    "scenario": "出行交通",
+    "ambiguity": "低模糊度",
+    "difficulty": "easy",
+    "mapped_kb_apps": [
+      "设置",
+      "高德地图(Amap)"
+    ],
+    "suggested_role": "L3 agent-friendly seed"
+  },
+  {
+    "source": "AndroidDaily",
+    "source_id": "65",
+    "instruction_seed": "用高德地图查一下从这里步行到最近的工商银行ATM机怎么走。",
+    "declared_app": "高德地图",
+    "scenario": "出行交通",
+    "ambiguity": "低模糊度",
+    "difficulty": "easy",
+    "mapped_kb_apps": [
+      "高德地图(Amap)"
+    ],
+    "suggested_role": "L3 agent-friendly seed"
+  },
+  {
+    "source": "AndroidDaily",
+    "source_id": "66",
+    "instruction_seed": "查一下从北京南站到天津站的高铁票,看看今天下午还有没有二等座的余票。",
+    "declared_app": "铁路12306",
+    "scenario": "出行交通",
+    "ambiguity": "中模糊度",
+    "difficulty": "easy",
+    "mapped_kb_apps": [
+      "铁路12306"
+    ],
+    "suggested_role": "L2 / Original"
+  },
+  {
+    "source": "AndroidDaily",
+    "source_id": "67",
+    "instruction_seed": "去B站搜“AI绘画教程”,然后按最多播放排序查看。",
+    "declared_app": "哔哩哔哩",
+    "scenario": "内容消费",
+    "ambiguity": "低模糊度",
+    "difficulty": "easy",
+    "mapped_kb_apps": [
+      "哔哩哔哩"
+    ],
+    "suggested_role": "L3 agent-friendly seed"
+  },
+  {
+    "source": "AndroidDaily",
+    "source_id": "68",
+    "instruction_seed": "打开小红书,找一下“周末探店”,看看第一个笔记是谁发的。",
+    "declared_app": "小红书",
+    "scenario": "内容消费",
+    "ambiguity": "低模糊度",
+    "difficulty": "easy",
+    "mapped_kb_apps": [
+      "备忘录/笔记",
+      "小红书"
+    ],
+    "suggested_role": "L3 agent-friendly seed"
+  },
+  {
+    "source": "AndroidDaily",
+    "source_id": "70",
+    "instruction_seed": "在淘宝里搜索“机械键盘”,然后筛选价格在500元以下,品牌是罗技的商品。",
+    "declared_app": "淘宝",
+    "scenario": "购物消费",
+    "ambiguity": "低模糊度",
+    "difficulty": "easy",
+    "mapped_kb_apps": [
+      "淘宝"
+    ],
+    "suggested_role": "L3 agent-friendly seed"
+  },
+  {
+    "source": "AndroidDaily",
+    "source_id": "72",
+    "instruction_seed": "去B站找一下罗翔的账号,然后进入他的视频列表,看看最新发布的视频是什么。",
+    "declared_app": "哔哩哔哩",
+    "scenario": "内容消费",
+    "ambiguity": "低模糊度",
+    "difficulty": "easy",
+    "mapped_kb_apps": [
+      "哔哩哔哩"
+    ],
+    "suggested_role": "L3 agent-friendly seed"
+  },
+  {
+    "source": "AndroidDaily",
+    "source_id": "73",
+    "instruction_seed": "在小红书上搜搜最近流行的夏日穿搭。",
+    "declared_app": "小红书",
+    "scenario": "内容消费",
+    "ambiguity": "低模糊度",
+    "difficulty": "easy",
+    "mapped_kb_apps": [
+      "小红书"
+    ],
+    "suggested_role": "L3 agent-friendly seed"
+  },
+  {
+    "source": "AndroidDaily",
+    "source_id": "74",
+    "instruction_seed": "在抖音里搜索“旅行Vlog”。",
+    "declared_app": "抖音",
+    "scenario": "内容消费",
+    "ambiguity": "低模糊度",
+    "difficulty": "easy",
+    "mapped_kb_apps": [
+      "抖音"
+    ],
+    "suggested_role": "L3 agent-friendly seed"
+  },
+  {
+    "source": "AndroidDaily",
+    "source_id": "76",
+    "instruction_seed": "在今日头条里搜索一下今天的天气预报。",
+    "declared_app": "今日头条",
+    "scenario": "本地服务",
+    "ambiguity": "低模糊度",
+    "difficulty": "easy",
+    "mapped_kb_apps": [
+      "天气"
+    ],
+    "suggested_role": "L3 agent-friendly seed"
+  },
+  {
+    "source": "AndroidDaily",
+    "source_id": "77",
+    "instruction_seed": "看看我的淘宝购物车的第一个商品。",
+    "declared_app": "淘宝",
+    "scenario": "购物消费",
+    "ambiguity": "低模糊度",
+    "difficulty": "easy",
+    "mapped_kb_apps": [
+      "淘宝"
+    ],
+    "suggested_role": "L3 agent-friendly seed"
+  },
+  {
+    "source": "AndroidDaily",
+    "source_id": "78",
+    "instruction_seed": "在B站随便打开一个热门视频,然后划到评论区看看热评第一条是什么。",
+    "declared_app": "哔哩哔哩",
+    "scenario": "内容消费",
+    "ambiguity": "中模糊度",
+    "difficulty": "easy",
+    "mapped_kb_apps": [
+      "哔哩哔哩"
+    ],
+    "suggested_role": "L2 / Original"
+  },
+  {
+    "source": "AndroidDaily",
+    "source_id": "79",
+    "instruction_seed": "在小红书里搜索“健身餐”,点开第一篇笔记,然后看看作者还发布了哪些其他笔记。",
+    "declared_app": "小红书",
+    "scenario": "内容消费",
+    "ambiguity": "低模糊度",
+    "difficulty": "easy",
+    "mapped_kb_apps": [
+      "备忘录/笔记",
+      "小红书"
+    ],
+    "suggested_role": "L3 agent-friendly seed"
+  },
+  {
+    "source": "AndroidDaily",
+    "source_id": "82",
+    "instruction_seed": "帮我找一家下周末在上海南京路附近的酒店,要求评分不低于4.8分,价格在1000元以内。",
+    "declared_app": "携程",
+    "scenario": "出行交通",
+    "ambiguity": "中模糊度",
+    "difficulty": "medium",
+    "mapped_kb_apps": [
+      "携程旅行"
+    ],
+    "suggested_role": "L2 / Original"
+  },
+  {
+    "source": "AndroidDaily",
+    "source_id": "84",
+    "instruction_seed": "搜索一下从深圳到厦门的火车票,优先显示高铁,如果没有或者票卖完了,再给我看动车。",
+    "declared_app": "铁路12306",
+    "scenario": "出行交通",
+    "ambiguity": "高模糊度",
+    "difficulty": "medium",
+    "mapped_kb_apps": [
+      "铁路12306"
+    ],
+    "suggested_role": "L1 user-friendly"
+  },
+  {
+    "source": "AndroidDaily",
+    "source_id": "85",
+    "instruction_seed": "帮我在去哪儿旅行上订一间大理古城里带院子的民宿,后天入住,只住一晚。",
+    "declared_app": "去哪儿旅行",
+    "scenario": "出行交通",
+    "ambiguity": "低模糊度",
+    "difficulty": "medium",
+    "mapped_kb_apps": [
+      "去哪儿旅行"
+    ],
+    "suggested_role": "L3 agent-friendly seed"
+  },
+  {
+    "source": "AndroidDaily",
+    "source_id": "87",
+    "instruction_seed": "在腾讯视频上找一部成龙的经典动作片播放。",
+    "declared_app": "腾讯视频",
+    "scenario": "内容消费",
+    "ambiguity": "低模糊度",
+    "difficulty": "medium",
+    "mapped_kb_apps": [
+      "腾讯视频"
+    ],
+    "suggested_role": "L3 agent-friendly seed"
+  },
+  {
+    "source": "AndroidDaily",
+    "source_id": "88",
+    "instruction_seed": "在淘宝里找一下我去年买的那双耐克鞋的订单",
+    "declared_app": "淘宝",
+    "scenario": "购物消费",
+    "ambiguity": "低模糊度",
+    "difficulty": "medium",
+    "mapped_kb_apps": [
+      "淘宝"
+    ],
+    "suggested_role": "L3 agent-friendly seed"
+  },
+  {
+    "source": "AndroidDaily",
+    "source_id": "89",
+    "instruction_seed": "在小红书里找找我上次收藏的那个露营攻略",
+    "declared_app": "小红书",
+    "scenario": "内容消费",
+    "ambiguity": "低模糊度",
+    "difficulty": "medium",
+    "mapped_kb_apps": [
+      "小红书"
+    ],
+    "suggested_role": "L3 agent-friendly seed"
+  },
+  {
+    "source": "AndroidDaily",
+    "source_id": "90",
+    "instruction_seed": "在微信读书里找一下我的读书排行榜",
+    "declared_app": "微信读书",
+    "scenario": "内容消费",
+    "ambiguity": "低模糊度",
+    "difficulty": "medium",
+    "mapped_kb_apps": [
+      "微信"
+    ],
+    "suggested_role": "L3 agent-friendly seed"
+  },
+  {
+    "source": "AndroidDaily",
+    "source_id": "92",
+    "instruction_seed": "去大众点评看看附近有没有人均消费在100元以下的火锅店,有的话告诉我评分最高的是哪家",
+    "declared_app": "大众点评",
+    "scenario": "本地服务",
+    "ambiguity": "低模糊度",
+    "difficulty": "medium",
+    "mapped_kb_apps": [
+      "大众点评"
+    ],
+    "suggested_role": "L3 agent-friendly seed"
+  },
+  {
+    "source": "AndroidDaily",
+    "source_id": "93",
+    "instruction_seed": "打开淘宝,进入我的订单页面,查看最近一笔交易的物流信息。",
+    "declared_app": "淘宝",
+    "scenario": "购物消费",
+    "ambiguity": "低模糊度",
+    "difficulty": "medium",
+    "mapped_kb_apps": [
+      "淘宝"
+    ],
+    "suggested_role": "L3 agent-friendly seed"
+  },
+  {
+    "source": "AndroidDaily",
+    "source_id": "95",
+    "instruction_seed": "在京东App里,把我常买的那个牌子的牛奶再买一次。",
+    "declared_app": "京东",
+    "scenario": "购物消费",
+    "ambiguity": "中模糊度",
+    "difficulty": "medium",
+    "mapped_kb_apps": [
+      "京东"
+    ],
+    "suggested_role": "L2 / Original"
+  },
+  {
+    "source": "AndroidDaily",
+    "source_id": "96",
+    "instruction_seed": "去抖音把我拉黑的第一个用户放出来。",
+    "declared_app": "抖音",
+    "scenario": "社交通讯",
+    "ambiguity": "低模糊度",
+    "difficulty": "medium",
+    "mapped_kb_apps": [
+      "抖音"
+    ],
+    "suggested_role": "L3 agent-friendly seed"
+  },
+  {
+    "source": "AndroidDaily",
+    "source_id": "97",
+    "instruction_seed": "检查一下我的知乎,如果开启了“允许别人在动态里找到我”,就把它关掉。",
+    "declared_app": "知乎",
+    "scenario": "社交通讯",
+    "ambiguity": "低模糊度",
+    "difficulty": "medium",
+    "mapped_kb_apps": [
+      "知乎"
+    ],
+    "suggested_role": "L3 agent-friendly seed"
+  },
+  {
+    "source": "AndroidDaily",
+    "source_id": "98",
+    "instruction_seed": "去我的大众点评主页,把我所有的评价都设置为“仅自己可见”。",
+    "declared_app": "大众点评",
+    "scenario": "本地服务",
+    "ambiguity": "低模糊度",
+    "difficulty": "medium",
+    "mapped_kb_apps": [
+      "大众点评",
+      "设置"
+    ],
+    "suggested_role": "L3 agent-friendly seed"
+  },
+  {
+    "source": "AndroidDaily",
+    "source_id": "99",
+    "instruction_seed": "如果我今天没在微信读书上进行任何阅读,就帮我签到一下。",
+    "declared_app": "微信读书",
+    "scenario": "内容消费",
+    "ambiguity": "低模糊度",
+    "difficulty": "medium",
+    "mapped_kb_apps": [
+      "微信"
+    ],
+    "suggested_role": "L3 agent-friendly seed"
+  },
+  {
+    "source": "AndroidDaily",
+    "source_id": "100",
+    "instruction_seed": "把我发在朋友圈的最近一条动态的权限改成“仅自己可见”。",
+    "declared_app": "微信",
+    "scenario": "社交通讯",
+    "ambiguity": "中模糊度",
+    "difficulty": "medium",
+    "mapped_kb_apps": [
+      "微信"
+    ],
+    "suggested_role": "L2 / Original"
+  },
+  {
+    "source": "AndroidDaily",
+    "source_id": "101",
+    "instruction_seed": "打开QQ音乐,找到我创建的歌单“跑步专用”,在里面随便添加一首。",
+    "declared_app": "QQ音乐",
+    "scenario": "内容消费",
+    "ambiguity": "中模糊度",
+    "difficulty": "medium",
+    "mapped_kb_apps": [
+      "QQ音乐"
+    ],
+    "suggested_role": "L2 / Original"
+  },
+  {
+    "source": "AndroidDaily",
+    "source_id": "102",
+    "instruction_seed": "用微信给妈妈发一个66元的红包,并留言“妈妈辛苦了”",
+    "declared_app": "微信",
+    "scenario": "社交通讯",
+    "ambiguity": "低模糊度",
+    "difficulty": "medium",
+    "mapped_kb_apps": [
+      "微信"
+    ],
+    "suggested_role": "L3 agent-friendly seed"
+  },
+  {
+    "source": "AndroidDaily",
+    "source_id": "103",
+    "instruction_seed": "把微信里“相亲相爱一家人”这个群聊设为置顶",
+    "declared_app": "微信",
+    "scenario": "社交通讯",
+    "ambiguity": "低模糊度",
+    "difficulty": "medium",
+    "mapped_kb_apps": [
+      "微信"
+    ],
+    "suggested_role": "L3 agent-friendly seed"
+  },
+  {
+    "source": "AndroidDaily",
+    "source_id": "104",
+    "instruction_seed": "飞猪上看看下周五回家的火车票。",
+    "declared_app": "飞猪",
+    "scenario": "出行交通",
+    "ambiguity": "高模糊度",
+    "difficulty": "medium",
+    "mapped_kb_apps": [
+      "飞猪旅行"
+    ],
+    "suggested_role": "L1 user-friendly"
+  },
+  {
+    "source": "AndroidDaily",
+    "source_id": "105",
+    "instruction_seed": "帮我看看去哪儿网上,下周末去青岛的火车票,最好是白天的车次。",
+    "declared_app": "去哪儿",
+    "scenario": "出行交通",
+    "ambiguity": "低模糊度",
+    "difficulty": "medium",
+    "mapped_kb_apps": [
+      "去哪儿旅行"
+    ],
+    "suggested_role": "L3 agent-friendly seed"
+  },
+  {
+    "source": "AndroidDaily",
+    "source_id": "106",
+    "instruction_seed": "我想带孩子去趟迪士尼,在12306上查查到上海的卧铺票,要下铺。",
+    "declared_app": "12306",
+    "scenario": "出行交通",
+    "ambiguity": "高模糊度",
+    "difficulty": "medium",
+    "mapped_kb_apps": [
+      "铁路12306"
+    ],
+    "suggested_role": "L1 user-friendly"
+  },
+  {
+    "source": "AndroidDaily",
+    "source_id": "108",
+    "instruction_seed": "打开飞猪App,查询一下从北京到西安的特价机票。",
+    "declared_app": "飞猪",
+    "scenario": "出行交通",
+    "ambiguity": "低模糊度",
+    "difficulty": "medium",
+    "mapped_kb_apps": [
+      "飞猪旅行"
+    ],
+    "suggested_role": "L3 agent-friendly seed"
+  },
+  {
+    "source": "AndroidDaily",
+    "source_id": "109",
+    "instruction_seed": "帮我用去哪儿网订一张最便宜的机票去青岛,下周任何一天走都行。",
+    "declared_app": "去哪儿网",
+    "scenario": "出行交通",
+    "ambiguity": "高模糊度",
+    "difficulty": "medium",
+    "mapped_kb_apps": [
+      "去哪儿旅行"
+    ],
+    "suggested_role": "L1 user-friendly"
+  },
+  {
+    "source": "AndroidDaily",
+    "source_id": "110",
+    "instruction_seed": "携程上有没有什么机票优惠券,帮我领一下。",
+    "declared_app": "携程",
+    "scenario": "出行交通",
+    "ambiguity": "低模糊度",
+    "difficulty": "medium",
+    "mapped_kb_apps": [
+      "携程旅行"
+    ],
+    "suggested_role": "L3 agent-friendly seed"
+  },
+  {
+    "source": "AndroidDaily",
+    "source_id": "111",
+    "instruction_seed": "在美团酒店里搜索一下杭州西湖文化广场周边的酒店。",
+    "declared_app": "美团",
+    "scenario": "本地服务",
+    "ambiguity": "低模糊度",
+    "difficulty": "medium",
+    "mapped_kb_apps": [
+      "美团"
+    ],
+    "suggested_role": "L3 agent-friendly seed"
+  },
+  {
+    "source": "AndroidDaily",
+    "source_id": "112",
+    "instruction_seed": "用美团帮我找一个下个月去西安的民宿,要住在钟楼附近,能做饭,两室一厅的。",
+    "declared_app": "美团",
+    "scenario": "本地服务",
+    "ambiguity": "低模糊度",
+    "difficulty": "medium",
+    "mapped_kb_apps": [
+      "美团"
+    ],
+    "suggested_role": "L3 agent-friendly seed"
+  },
+  {
+    "source": "AndroidDaily",
+    "source_id": "113",
+    "instruction_seed": "携程上找一下从12月20号到12月22号,去南京夫子庙附近住,要连锁品牌的经济型酒店,比如汉庭、如家。",
+    "declared_app": "携程",
+    "scenario": "出行交通",
+    "ambiguity": "低模糊度",
+    "difficulty": "medium",
+    "mapped_kb_apps": [
+      "携程旅行"
+    ],
+    "suggested_role": "L3 agent-friendly seed"
+  },
+  {
+    "source": "AndroidDaily",
+    "source_id": "114",
+    "instruction_seed": "帮我找一下下周五到周日,北京环球影城旁边的酒店,要四星级以上的,并且包含双人早餐。",
+    "declared_app": "携程",
+    "scenario": "出行交通",
+    "ambiguity": "中模糊度",
+    "difficulty": "medium",
+    "mapped_kb_apps": [
+      "携程旅行"
+    ],
+    "suggested_role": "L2 / Original"
+  },
+  {
+    "source": "AndroidDaily",
+    "source_id": "115",
+    "instruction_seed": "看看去哪儿上面有没有去阿那亚的便宜点的酒店,下个月去。",
+    "declared_app": "去哪儿",
+    "scenario": "出行交通",
+    "ambiguity": "中模糊度",
+    "difficulty": "medium",
+    "mapped_kb_apps": [
+      "去哪儿旅行"
+    ],
+    "suggested_role": "L2 / Original"
+  },
+  {
+    "source": "AndroidDaily",
+    "source_id": "116",
+    "instruction_seed": "帮我看看十一去成都,有没有能带狗的民宿？要评价好一点的。",
+    "declared_app": "美团",
+    "scenario": "出行交通",
+    "ambiguity": "中模糊度",
+    "difficulty": "medium",
+    "mapped_kb_apps": [
+      "美团"
+    ],
+    "suggested_role": "L2 / Original"
+  },
+  {
+    "source": "AndroidDaily",
+    "source_id": "117",
+    "instruction_seed": "在携程旅行上预订北京12月10日到12月12日,筛选五星级和有健身房的酒店后,按价格从低到高排序的第一个酒店。",
+    "declared_app": "携程旅行",
+    "scenario": "出行交通",
+    "ambiguity": "低模糊度",
+    "difficulty": "medium",
+    "mapped_kb_apps": [
+      "携程旅行"
+    ],
+    "suggested_role": "L3 agent-friendly seed"
+  },
+  {
+    "source": "AndroidDaily",
+    "source_id": "118",
+    "instruction_seed": "在去哪儿旅行App里预订厦门12月24日到12月26日,筛选看海和评分4.8以上的民宿,然后选择列表里的第三家。",
+    "declared_app": "去哪儿旅行",
+    "scenario": "出行交通",
+    "ambiguity": "低模糊度",
+    "difficulty": "medium",
+    "mapped_kb_apps": [
+      "去哪儿旅行"
+    ],
+    "suggested_role": "L3 agent-friendly seed"
+  },
+  {
+    "source": "AndroidDaily",
+    "source_id": "119",
+    "instruction_seed": "用美团帮我订一个成都的酒店,12月20号入住,住三晚,要求是连锁品牌并且要有停车场,选价格最便宜的那个。",
+    "declared_app": "美团",
+    "scenario": "出行交通",
+    "ambiguity": "低模糊度",
+    "difficulty": "medium",
+    "mapped_kb_apps": [
+      "美团"
+    ],
+    "suggested_role": "L3 agent-friendly seed"
+  },
+  {
+    "source": "AndroidDaily",
+    "source_id": "120",
+    "instruction_seed": "在飞猪上预订一个重庆的酒店,12月5号入住,12月7号离开,筛选条件是“火锅主题”,然后预订评分最高的那家的双床房。",
+    "declared_app": "飞猪",
+    "scenario": "出行交通",
+    "ambiguity": "低模糊度",
+    "difficulty": "medium",
+    "mapped_kb_apps": [
+      "飞猪旅行"
+    ],
+    "suggested_role": "L3 agent-friendly seed"
+  },
+  {
+    "source": "AndroidDaily",
+    "source_id": "121",
+    "instruction_seed": "在携程上预订长沙五一广场附近12月1日到12月2日的酒店,筛选带窗户和免费取消的,然后选择价格在500元左右的第二家。",
+    "declared_app": "携程",
+    "scenario": "出行交通",
+    "ambiguity": "低模糊度",
+    "difficulty": "medium",
+    "mapped_kb_apps": [
+      "携程旅行"
+    ],
+    "suggested_role": "L3 agent-friendly seed"
+  },
+  {
+    "source": "AndroidDaily",
+    "source_id": "122",
+    "instruction_seed": "我想订个去迪士尼的酒店,后天入住,住一晚,你帮我在携程上找找。",
+    "declared_app": "飞猪",
+    "scenario": "出行交通",
+    "ambiguity": "中模糊度",
+    "difficulty": "medium",
+    "mapped_kb_apps": [
+      "携程旅行",
+      "飞猪旅行"
+    ],
+    "suggested_role": "L2 / Original"
+  },
+  {
+    "source": "AndroidDaily",
+    "source_id": "123",
+    "instruction_seed": "在美团上找一个能带宠物的民宿,在成都,下周五入住。",
+    "declared_app": "美团",
+    "scenario": "出行交通",
+    "ambiguity": "低模糊度",
+    "difficulty": "medium",
+    "mapped_kb_apps": [
+      "美团"
+    ],
+    "suggested_role": "L3 agent-friendly seed"
+  },
+  {
+    "source": "AndroidDaily",
+    "source_id": "124",
+    "instruction_seed": "看看去哪儿旅行上我上次收藏的那个南京的酒店还有没有房间,就订下下周的。",
+    "declared_app": "去哪儿旅行",
+    "scenario": "出行交通",
+    "ambiguity": "高模糊度",
+    "difficulty": "medium",
+    "mapped_kb_apps": [
+      "去哪儿旅行"
+    ],
+    "suggested_role": "L1 user-friendly"
+  },
+  {
+    "source": "AndroidDaily",
+    "source_id": "125",
+    "instruction_seed": "在携程上找个适合情侣的酒店,在厦门,下个月中旬去。",
+    "declared_app": "携程",
+    "scenario": "出行交通",
+    "ambiguity": "中模糊度",
+    "difficulty": "medium",
+    "mapped_kb_apps": [
+      "携程旅行"
+    ],
+    "suggested_role": "L2 / Original"
+  },
+  {
+    "source": "AndroidDaily",
+    "source_id": "126",
+    "instruction_seed": "帮我订个明晚的酒店,就在公司附近,要安静一点的。",
+    "declared_app": "携程",
+    "scenario": "出行交通",
+    "ambiguity": "高模糊度",
+    "difficulty": "medium",
+    "mapped_kb_apps": [
+      "携程旅行"
+    ],
+    "suggested_role": "L1 user-friendly"
+  },
+  {
+    "source": "AndroidDaily",
+    "source_id": "127",
+    "instruction_seed": "打开猫眼,查看我所有已完成的演出订单。",
+    "declared_app": "猫眼",
+    "scenario": "购物消费",
+    "ambiguity": "低模糊度",
+    "difficulty": "medium",
+    "mapped_kb_apps": [
+      "猫眼"
+    ],
+    "suggested_role": "L3 agent-friendly seed"
+  },
+  {
+    "source": "AndroidDaily",
+    "source_id": "128",
+    "instruction_seed": "在淘宝的订单列表里搜索一下去年买的那个罗技鼠标。",
+    "declared_app": "淘宝",
+    "scenario": "购物消费",
+    "ambiguity": "低模糊度",
+    "difficulty": "medium",
+    "mapped_kb_apps": [
+      "淘宝"
+    ],
+    "suggested_role": "L3 agent-friendly seed"
+  },
+  {
+    "source": "AndroidDaily",
+    "source_id": "129",
+    "instruction_seed": "在去哪儿旅行里申请我上个已完成的酒店订单的发票。",
+    "declared_app": "去哪儿旅行",
+    "scenario": "出行交通",
+    "ambiguity": "低模糊度",
+    "difficulty": "medium",
+    "mapped_kb_apps": [
+      "去哪儿旅行"
+    ],
+    "suggested_role": "L3 agent-friendly seed"
+  },
+  {
+    "source": "AndroidDaily",
+    "source_id": "130",
+    "instruction_seed": "打开小红书,把我收藏的第一篇笔记用站内信分享给好友'小美爱旅游'。",
+    "declared_app": "小红书",
+    "scenario": "社交通讯",
+    "ambiguity": "低模糊度",
+    "difficulty": "medium",
+    "mapped_kb_apps": [
+      "备忘录/笔记",
+      "小红书"
+    ],
+    "suggested_role": "L3 agent-friendly seed"
+  },
+  {
+    "source": "AndroidDaily",
+    "source_id": "132",
+    "instruction_seed": "在QQ上找到'快乐一家人'群,把相册里'宠物'分类下的前两张照片发到群里。",
+    "declared_app": "QQ",
+    "scenario": "社交通讯",
+    "ambiguity": "低模糊度",
+    "difficulty": "medium",
+    "mapped_kb_apps": [
+      "相册"
+    ],
+    "suggested_role": "L3 agent-friendly seed"
+  },
+  {
+    "source": "AndroidDaily",
+    "source_id": "133",
+    "instruction_seed": "给通讯录里姓'王'的第一个联系人发短信,问他'晚上有空一起吃饭吗？'。",
+    "declared_app": "短信",
+    "scenario": "社交通讯",
+    "ambiguity": "低模糊度",
+    "difficulty": "medium",
+    "mapped_kb_apps": [
+      "信息"
+    ],
+    "suggested_role": "L3 agent-friendly seed"
+  },
+  {
+    "source": "AndroidDaily",
+    "source_id": "134",
+    "instruction_seed": "找到我昨天和李明的微信聊天记录,把他发的那张图片保存到手机相册。",
+    "declared_app": "微信",
+    "scenario": "社交通讯",
+    "ambiguity": "低模糊度",
+    "difficulty": "medium",
+    "mapped_kb_apps": [
+      "微信",
+      "相册"
+    ],
+    "suggested_role": "L3 agent-friendly seed"
+  },
+  {
+    "source": "AndroidDaily",
+    "source_id": "135",
+    "instruction_seed": "打开淘宝,搜索'猫砂',把销量最高的商品加入购物车,选择20斤的规格。",
+    "declared_app": "淘宝",
+    "scenario": "购物消费",
+    "ambiguity": "低模糊度",
+    "difficulty": "medium",
+    "mapped_kb_apps": [
+      "淘宝"
+    ],
+    "suggested_role": "L3 agent-friendly seed"
+  },
+  {
+    "source": "AndroidDaily",
+    "source_id": "136",
+    "instruction_seed": "去京东找一款罗技的无线鼠标,价格在200块钱左右的,然后把评分最高的那款加到购物车里。",
+    "declared_app": "京东",
+    "scenario": "购物消费",
+    "ambiguity": "低模糊度",
+    "difficulty": "medium",
+    "mapped_kb_apps": [
+      "京东"
+    ],
+    "suggested_role": "L3 agent-friendly seed"
+  },
+  {
+    "source": "AndroidDaily",
+    "source_id": "137",
+    "instruction_seed": "在拼多多上给我妈买件红色的毛衣,L号的,选百亿补贴里的商品,然后直接下单。",
+    "declared_app": "拼多多",
+    "scenario": "购物消费",
+    "ambiguity": "低模糊度",
+    "difficulty": "medium",
+    "mapped_kb_apps": [
+      "拼多多"
+    ],
+    "suggested_role": "L3 agent-friendly seed"
+  },
+  {
+    "source": "AndroidDaily",
+    "source_id": "138",
+    "instruction_seed": "帮我在淘宝上找找上次买的那种咖啡豆,再买两袋。",
+    "declared_app": "淘宝",
+    "scenario": "购物消费",
+    "ambiguity": "中模糊度",
+    "difficulty": "medium",
+    "mapped_kb_apps": [
+      "淘宝"
+    ],
+    "suggested_role": "L2 / Original"
+  },
+  {
+    "source": "AndroidDaily",
+    "source_id": "139",
+    "instruction_seed": "在拼多多搜'儿童绘本',找适合3岁小孩的,然后把最畅销的那一套买下来。",
+    "declared_app": "拼多多",
+    "scenario": "购物消费",
+    "ambiguity": "低模糊度",
+    "difficulty": "medium",
+    "mapped_kb_apps": [
+      "拼多多"
+    ],
+    "suggested_role": "L3 agent-friendly seed"
+  },
+  {
+    "source": "AndroidDaily",
+    "source_id": "140",
+    "instruction_seed": "在淘宝搜索'笔记本电脑',筛选出品牌'联想'和内存'16G',然后将结果按销量数从多到少排序。",
+    "declared_app": "淘宝",
+    "scenario": "购物消费",
+    "ambiguity": "低模糊度",
+    "difficulty": "medium",
+    "mapped_kb_apps": [
+      "备忘录/笔记",
+      "淘宝"
+    ],
+    "suggested_role": "L3 agent-friendly seed"
+  },
+  {
+    "source": "AndroidDaily",
+    "source_id": "141",
+    "instruction_seed": "打开京东到家,在附近超市里买一瓶生抽和两斤鸡蛋,预约一小时内送达。",
+    "declared_app": "京东到家",
+    "scenario": "购物消费",
+    "ambiguity": "低模糊度",
+    "difficulty": "medium",
+    "mapped_kb_apps": [
+      "京东"
+    ],
+    "suggested_role": "L3 agent-friendly seed"
+  },
+  {
+    "source": "AndroidDaily",
+    "source_id": "142",
+    "instruction_seed": "在淘宝上找一款白色的帆布鞋,37码的,价格不要超过100块,然后把符合条件的第一个商品收藏起来。",
+    "declared_app": "淘宝",
+    "scenario": "购物消费",
+    "ambiguity": "低模糊度",
+    "difficulty": "medium",
+    "mapped_kb_apps": [
+      "淘宝"
+    ],
+    "suggested_role": "L3 agent-friendly seed"
+  },
+  {
+    "source": "AndroidDaily",
+    "source_id": "143",
+    "instruction_seed": "打开美团,帮我找一家附近评分最高的烤肉店,要能在线排队取号的。",
+    "declared_app": "美团",
+    "scenario": "本地服务",
+    "ambiguity": "低模糊度",
+    "difficulty": "medium",
+    "mapped_kb_apps": [
+      "美团"
+    ],
+    "suggested_role": "L3 agent-friendly seed"
+  },
+  {
+    "source": "AndroidDaily",
+    "source_id": "144",
+    "instruction_seed": "在高德地图上搜索“故宫博物院”,然后把这个地点通过微信分享给我的朋友“李明”。",
+    "declared_app": "高德地图, 微信",
+    "scenario": "出行交通",
+    "ambiguity": "低模糊度",
+    "difficulty": "medium",
+    "mapped_kb_apps": [
+      "微信",
+      "高德地图(Amap)"
+    ],
+    "suggested_role": "L3 agent-friendly seed"
+  },
+  {
+    "source": "AndroidDaily",
+    "source_id": "146",
+    "instruction_seed": "在美团上找一家离我最近的、支持宠物入内的餐厅。",
+    "declared_app": "美团",
+    "scenario": "本地服务",
+    "ambiguity": "低模糊度",
+    "difficulty": "medium",
+    "mapped_kb_apps": [
+      "美团"
+    ],
+    "suggested_role": "L3 agent-friendly seed"
+  },
+  {
+    "source": "AndroidDaily",
+    "source_id": "147",
+    "instruction_seed": "在高德地图上找一下公司附近的停车场,要能显示实时空余车位信息的。",
+    "declared_app": "高德地图",
+    "scenario": "出行交通",
+    "ambiguity": "低模糊度",
+    "difficulty": "medium",
+    "mapped_kb_apps": [
+      "高德地图(Amap)"
+    ],
+    "suggested_role": "L3 agent-friendly seed"
+  },
+  {
+    "source": "AndroidDaily",
+    "source_id": "148",
+    "instruction_seed": "在抖音里搜索一下“萌宠”,然后给前三个视频点个赞。",
+    "declared_app": "抖音",
+    "scenario": "内容消费",
+    "ambiguity": "低模糊度",
+    "difficulty": "medium",
+    "mapped_kb_apps": [
+      "抖音"
+    ],
+    "suggested_role": "L3 agent-friendly seed"
+  },
+  {
+    "source": "AndroidDaily",
+    "source_id": "149",
+    "instruction_seed": "打开高德地图,搜索附近的星巴克,然后查看评分最高的那家店的营业时间。",
+    "declared_app": "高德地图",
+    "scenario": "本地服务",
+    "ambiguity": "低模糊度",
+    "difficulty": "medium",
+    "mapped_kb_apps": [
+      "高德地图(Amap)"
+    ],
+    "suggested_role": "L3 agent-friendly seed"
+  },
+  {
+    "source": "AndroidDaily",
+    "source_id": "150",
+    "instruction_seed": "去知乎搜索“MacBook Pro测评”,找到一篇发布日期在今年以内的文章并打开。",
+    "declared_app": "知乎",
+    "scenario": "内容消费",
+    "ambiguity": "低模糊度",
+    "difficulty": "medium",
+    "mapped_kb_apps": [
+      "知乎"
+    ],
+    "suggested_role": "L3 agent-friendly seed"
+  },
+  {
+    "source": "AndroidDaily",
+    "source_id": "151",
+    "instruction_seed": "在携程上查一下元旦去北京的机票,如果往返超过2000块钱就提醒我,没超过就直接找个时间合适的订了。",
+    "declared_app": "携程",
+    "scenario": "出行交通",
+    "ambiguity": "高模糊度",
+    "difficulty": "hard",
+    "mapped_kb_apps": [
+      "携程旅行"
+    ],
+    "suggested_role": "L1 user-friendly"
+  },
+  {
+    "source": "AndroidDaily",
+    "source_id": "152",
+    "instruction_seed": "先用12306查一下后天早上九点左右到杭州东的高铁,然后用高德地图查一下从杭州东站到西湖有多远。",
+    "declared_app": "12306, 高德地图",
+    "scenario": "出行交通",
+    "ambiguity": "低模糊度",
+    "difficulty": "hard",
+    "mapped_kb_apps": [
+      "铁路12306",
+      "高德地图(Amap)"
+    ],
+    "suggested_role": "L3 agent-friendly seed"
+  },
+  {
+    "source": "AndroidDaily",
+    "source_id": "154",
+    "instruction_seed": "在携程上订一张下周五去三亚的机票,订好后把航班信息通过微信发给我老婆。",
+    "declared_app": "携程, 微信",
+    "scenario": "出行交通",
+    "ambiguity": "高模糊度",
+    "difficulty": "hard",
+    "mapped_kb_apps": [
+      "微信",
+      "携程旅行"
+    ],
+    "suggested_role": "L1 user-friendly"
+  },
+  {
+    "source": "AndroidDaily",
+    "source_id": "155",
+    "instruction_seed": "在高德地图上规划一条从家到公司的驾车路线,如果有多条路线,选那条不走高速的。",
+    "declared_app": "高德地图",
+    "scenario": "出行交通",
+    "ambiguity": "低模糊度",
+    "difficulty": "hard",
+    "mapped_kb_apps": [
+      "高德地图(Amap)"
+    ],
+    "suggested_role": "L3 agent-friendly seed"
+  },
+  {
+    "source": "AndroidDaily",
+    "source_id": "156",
+    "instruction_seed": "用QQ音乐放一首陈奕迅的冷门歌曲。",
+    "declared_app": "QQ音乐",
+    "scenario": "内容消费",
+    "ambiguity": "中模糊度",
+    "difficulty": "hard",
+    "mapped_kb_apps": [
+      "QQ音乐"
+    ],
+    "suggested_role": "L2 / Original"
+  },
+  {
+    "source": "AndroidDaily",
+    "source_id": "158",
+    "instruction_seed": "在微信里找到我妈昨天发给我的那个地址,复制下来,然后在百度地图里搜索导航路线",
+    "declared_app": "微信, 百度地图",
+    "scenario": "出行交通",
+    "ambiguity": "低模糊度",
+    "difficulty": "hard",
+    "mapped_kb_apps": [
+      "微信",
+      "百度地图"
+    ],
+    "suggested_role": "L3 agent-friendly seed"
+  },
+  {
+    "source": "AndroidDaily",
+    "source_id": "159",
+    "instruction_seed": "在什么值得买App里找一下最近推荐的iPhone 15手机壳,然后去淘宝搜同款比个价。",
+    "declared_app": "什么值得买, 淘宝",
+    "scenario": "购物消费",
+    "ambiguity": "低模糊度",
+    "difficulty": "hard",
+    "mapped_kb_apps": [
+      "淘宝"
+    ],
+    "suggested_role": "L3 agent-friendly seed"
+  },
+  {
+    "source": "AndroidDaily",
+    "source_id": "160",
+    "instruction_seed": "去美团外卖帮我常点的那家麻辣烫点一份微辣的套餐,用支付宝付款。",
+    "declared_app": "美团外卖, 支付宝",
+    "scenario": "购物消费",
+    "ambiguity": "中模糊度",
+    "difficulty": "hard",
+    "mapped_kb_apps": [
+      "支付宝",
+      "美团"
+    ],
+    "suggested_role": "L2 / Original"
+  },
+  {
+    "source": "AndroidDaily",
+    "source_id": "161",
+    "instruction_seed": "帮我整理一下淘宝购物车,所有单价超过500块的商品都移到收藏夹里。",
+    "declared_app": "淘宝",
+    "scenario": "购物消费",
+    "ambiguity": "低模糊度",
+    "difficulty": "hard",
+    "mapped_kb_apps": [
+      "淘宝"
+    ],
+    "suggested_role": "L3 agent-friendly seed"
+  },
+  {
+    "source": "AndroidDaily",
+    "source_id": "162",
+    "instruction_seed": "打开抖音,把第一个视频分享给微信好友“小明”",
+    "declared_app": "抖音, 微信",
+    "scenario": "社交通讯",
+    "ambiguity": "低模糊度",
+    "difficulty": "hard",
+    "mapped_kb_apps": [
+      "微信",
+      "抖音"
+    ],
+    "suggested_role": "L3 agent-friendly seed"
+  },
+  {
+    "source": "AndroidDaily",
+    "source_id": "163",
+    "instruction_seed": "帮我回一下李总的消息",
+    "declared_app": "微信",
+    "scenario": "社交通讯",
+    "ambiguity": "高模糊度",
+    "difficulty": "hard",
+    "mapped_kb_apps": [
+      "微信"
+    ],
+    "suggested_role": "L1 user-friendly"
+  },
+  {
+    "source": "AndroidDaily",
+    "source_id": "164",
+    "instruction_seed": "去微博的“数码”超话里签到,然后把今天最热门的帖子链接发到“搞机群”里",
+    "declared_app": "微博, 微信",
+    "scenario": "社交通讯",
+    "ambiguity": "中模糊度",
+    "difficulty": "hard",
+    "mapped_kb_apps": [
+      "微信"
+    ],
+    "suggested_role": "L2 / Original"
+  },
+  {
+    "source": "AndroidDaily",
+    "source_id": "165",
+    "instruction_seed": "帮我规划一下去三亚的行程,先看看机票。",
+    "declared_app": "携程",
+    "scenario": "出行交通",
+    "ambiguity": "高模糊度",
+    "difficulty": "hard",
+    "mapped_kb_apps": [
+      "携程旅行"
+    ],
+    "suggested_role": "L1 user-friendly"
+  },
+  {
+    "source": "AndroidDaily",
+    "source_id": "167",
+    "instruction_seed": "在飞猪上看看下个月去日本的机票,东京或者大阪都行,哪个便宜就看哪个。",
+    "declared_app": "飞猪",
+    "scenario": "出行交通",
+    "ambiguity": "中模糊度",
+    "difficulty": "hard",
+    "mapped_kb_apps": [
+      "飞猪旅行"
+    ],
+    "suggested_role": "L2 / Original"
+  },
+  {
+    "source": "AndroidDaily",
+    "source_id": "168",
+    "instruction_seed": "在去哪儿旅行上找找从重庆到昆明的机票,下周三出发,要南航或者国航的,红眼航班就不要了。",
+    "declared_app": "去哪儿旅行",
+    "scenario": "出行交通",
+    "ambiguity": "中模糊度",
+    "difficulty": "hard",
+    "mapped_kb_apps": [
+      "去哪儿旅行"
+    ],
+    "suggested_role": "L2 / Original"
+  },
+  {
+    "source": "AndroidDaily",
+    "source_id": "169",
+    "instruction_seed": "看看美团上有没有去丽江的机加酒套餐。",
+    "declared_app": "美团",
+    "scenario": "出行交通",
+    "ambiguity": "低模糊度",
+    "difficulty": "hard",
+    "mapped_kb_apps": [
+      "美团"
+    ],
+    "suggested_role": "L3 agent-friendly seed"
+  },
+  {
+    "source": "AndroidDaily",
+    "source_id": "170",
+    "instruction_seed": "帮我看看上周在拼多多买的水果到哪了,如果还没发货就提醒商家。",
+    "declared_app": "拼多多",
+    "scenario": "购物消费",
+    "ambiguity": "中模糊度",
+    "difficulty": "hard",
+    "mapped_kb_apps": [
+      "拼多多"
+    ],
+    "suggested_role": "L2 / Original"
+  },
+  {
+    "source": "AndroidDaily",
+    "source_id": "171",
+    "instruction_seed": "在微信上给文件传输助手发送我最近的通话记录截图。",
+    "declared_app": "电话, 微信",
+    "scenario": "社交通讯",
+    "ambiguity": "低模糊度",
+    "difficulty": "hard",
+    "mapped_kb_apps": [
+      "微信"
+    ],
+    "suggested_role": "L3 agent-friendly seed"
+  },
+  {
+    "source": "AndroidDaily",
+    "source_id": "172",
+    "instruction_seed": "去B站把我关注的第三个UP主的最新视频分享到QQ空间。",
+    "declared_app": "B站, QQ",
+    "scenario": "社交通讯",
+    "ambiguity": "低模糊度",
+    "difficulty": "hard",
+    "mapped_kb_apps": [
+      "哔哩哔哩"
+    ],
+    "suggested_role": "L3 agent-friendly seed"
+  },
+  {
+    "source": "AndroidDaily",
+    "source_id": "173",
+    "instruction_seed": "打开抖音,把我点赞过的视频从新到旧数第五个,分享给微信好友'周扒皮'。",
+    "declared_app": "抖音, 微信",
+    "scenario": "社交通讯",
+    "ambiguity": "低模糊度",
+    "difficulty": "hard",
+    "mapped_kb_apps": [
+      "微信",
+      "抖音"
+    ],
+    "suggested_role": "L3 agent-friendly seed"
+  },
+  {
+    "source": "AndroidDaily",
+    "source_id": "174",
+    "instruction_seed": "给我的微信聊天里的第一个人发一个66元的红包,留言写'周末愉快'。",
+    "declared_app": "微信",
+    "scenario": "社交通讯",
+    "ambiguity": "低模糊度",
+    "difficulty": "hard",
+    "mapped_kb_apps": [
+      "微信"
+    ],
+    "suggested_role": "L3 agent-friendly seed"
+  },
+  {
+    "source": "AndroidDaily",
+    "source_id": "175",
+    "instruction_seed": "检查一下我的QQ邮箱,如果有来自'招聘'主题的邮件,就把它移动到'重要邮件'文件夹。",
+    "declared_app": "QQ邮箱",
+    "scenario": "社交通讯",
+    "ambiguity": "低模糊度",
+    "difficulty": "hard",
+    "mapped_kb_apps": [
+      "QQ邮箱",
+      "邮件"
+    ],
+    "suggested_role": "L3 agent-friendly seed"
+  },
+  {
+    "source": "AndroidDaily",
+    "source_id": "176",
+    "instruction_seed": "在微信读书上,把我正在阅读的书籍的当前章节分享给微信好友刘洋。",
+    "declared_app": "微信读书, 微信",
+    "scenario": "社交通讯",
+    "ambiguity": "低模糊度",
+    "difficulty": "hard",
+    "mapped_kb_apps": [
+      "微信"
+    ],
+    "suggested_role": "L3 agent-friendly seed"
+  },
+  {
+    "source": "AndroidDaily",
+    "source_id": "177",
+    "instruction_seed": "去大众点评,把我收藏的第二家餐厅通过微信分享给张伟,并告诉他'周末去这家'。",
+    "declared_app": "大众点评, 微信",
+    "scenario": "本地服务",
+    "ambiguity": "低模糊度",
+    "difficulty": "hard",
+    "mapped_kb_apps": [
+      "大众点评",
+      "微信"
+    ],
+    "suggested_role": "L3 agent-friendly seed"
+  },
+  {
+    "source": "AndroidDaily",
+    "source_id": "178",
+    "instruction_seed": "在知乎上关注'人工智能'这个话题,然后把该话题下的热门第一篇文章分享到我的微博。",
+    "declared_app": "知乎, 微博",
+    "scenario": "社交通讯",
+    "ambiguity": "低模糊度",
+    "difficulty": "hard",
+    "mapped_kb_apps": [
+      "知乎"
+    ],
+    "suggested_role": "L3 agent-friendly seed"
+  },
+  {
+    "source": "AndroidDaily",
+    "source_id": "179",
+    "instruction_seed": "打开腾讯会议App,用我的个人会议号创建一个预定会议,时间是明天上午10点,主题是'周度复盘会'。",
+    "declared_app": "腾讯会议",
+    "scenario": "社交通讯",
+    "ambiguity": "低模糊度",
+    "difficulty": "medium",
+    "mapped_kb_apps": [
+      "腾讯会议"
+    ],
+    "suggested_role": "L3 agent-friendly seed"
+  },
+  {
+    "source": "AndroidDaily",
+    "source_id": "180",
+    "instruction_seed": "去拼多多看看我收藏的那个加湿器降价了没。",
+    "declared_app": "拼多多",
+    "scenario": "购物消费",
+    "ambiguity": "中模糊度",
+    "difficulty": "hard",
+    "mapped_kb_apps": [
+      "拼多多"
+    ],
+    "suggested_role": "L2 / Original"
+  },
+  {
+    "source": "AndroidDaily",
+    "source_id": "181",
+    "instruction_seed": "我想买个新手机,预算五千,你帮我在京东上看看有什么推荐的,然后把评价最好的前三名都加到购物车里让我比较一下。",
+    "declared_app": "京东",
+    "scenario": "购物消费",
+    "ambiguity": "低模糊度",
+    "difficulty": "hard",
+    "mapped_kb_apps": [
+      "京东"
+    ],
+    "suggested_role": "L3 agent-friendly seed"
+  },
+  {
+    "source": "AndroidDaily",
+    "source_id": "183",
+    "instruction_seed": "查一下现在去西单大悦城的路况,如果开车超过一个小时,就给我规划一条最快的公交路线。",
+    "declared_app": "高德地图",
+    "scenario": "出行交通",
+    "ambiguity": "中模糊度",
+    "difficulty": "hard",
+    "mapped_kb_apps": [
+      "高德地图(Amap)"
+    ],
+    "suggested_role": "L2 / Original"
+  },
+  {
+    "source": "AndroidDaily",
+    "source_id": "184",
+    "instruction_seed": "查一下地铁1号线是不是在正常运行,然后导航到离我最近的1号线地铁站入口。",
+    "declared_app": "高德地图",
+    "scenario": "出行交通",
+    "ambiguity": "中模糊度",
+    "difficulty": "hard",
+    "mapped_kb_apps": [
+      "高德地图(Amap)"
+    ],
+    "suggested_role": "L2 / Original"
+  },
+  {
+    "source": "AndroidDaily",
+    "source_id": "185",
+    "instruction_seed": "帮我规划一条骑行路线,从奥林匹克森林公园南门出发,绕公园一圈。",
+    "declared_app": "高德地图",
+    "scenario": "出行交通",
+    "ambiguity": "中模糊度",
+    "difficulty": "hard",
+    "mapped_kb_apps": [
+      "高德地图(Amap)"
+    ],
+    "suggested_role": "L2 / Original"
+  },
+  {
+    "source": "AndroidDaily",
+    "source_id": "186",
+    "instruction_seed": "在知乎上搜索“如何学习理财”,如果第一个回答的点赞数超过一万,就点进去看看。",
+    "declared_app": "知乎",
+    "scenario": "内容消费",
+    "ambiguity": "低模糊度",
+    "difficulty": "hard",
+    "mapped_kb_apps": [
+      "知乎"
+    ],
+    "suggested_role": "L3 agent-friendly seed"
+  },
+  {
+    "source": "AndroidDaily",
+    "source_id": "191",
+    "instruction_seed": "我想在网易云音乐听点适合跑步的歌。",
+    "declared_app": "网易云音乐",
+    "scenario": "内容消费",
+    "ambiguity": "低模糊度",
+    "difficulty": "easy",
+    "mapped_kb_apps": [
+      "网易云音乐"
+    ],
+    "suggested_role": "L3 agent-friendly seed"
+  },
+  {
+    "source": "AndroidDaily",
+    "source_id": "192",
+    "instruction_seed": "在爱奇艺上找个下饭剧播放。",
+    "declared_app": "爱奇艺",
+    "scenario": "内容消费",
+    "ambiguity": "中模糊度",
+    "difficulty": "easy",
+    "mapped_kb_apps": [
+      "爱奇艺"
+    ],
+    "suggested_role": "L2 / Original"
+  },
+  {
+    "source": "AndroidDaily",
+    "source_id": "193",
+    "instruction_seed": "找点有意思的视频看看。",
+    "declared_app": "抖音",
+    "scenario": "内容消费",
+    "ambiguity": "中模糊度",
+    "difficulty": "easy",
+    "mapped_kb_apps": [
+      "抖音"
+    ],
+    "suggested_role": "L2 / Original"
+  },
+  {
+    "source": "AndroidDaily",
+    "source_id": "194",
+    "instruction_seed": "去铁路12306看看我下周回家的火车票,选个下午出发时间合适的二等座下单。",
+    "declared_app": "铁路12306",
+    "scenario": "出行交通",
+    "ambiguity": "高模糊度",
+    "difficulty": "hard",
+    "mapped_kb_apps": [
+      "铁路12306"
+    ],
+    "suggested_role": "L1 user-friendly"
+  },
+  {
+    "source": "AndroidDaily",
+    "source_id": "195",
+    "instruction_seed": "帮我查一下12月1号从广州到桂林的往返火车票,然后把价格最低的那趟车信息发给我。",
+    "declared_app": "铁路12306",
+    "scenario": "出行交通",
+    "ambiguity": "高模糊度",
+    "difficulty": "easy",
+    "mapped_kb_apps": [
+      "铁路12306"
+    ],
+    "suggested_role": "L1 user-friendly"
+  },
+  {
+    "source": "AndroidDaily",
+    "source_id": "196",
+    "instruction_seed": "打开美团酒店,看看我公司附近有啥特价酒店。",
+    "declared_app": "美团",
+    "scenario": "本地服务",
+    "ambiguity": "高模糊度",
+    "difficulty": "medium",
+    "mapped_kb_apps": [
+      "美团"
+    ],
+    "suggested_role": "L1 user-friendly"
+  },
+  {
+    "source": "AndroidDaily",
+    "source_id": "197",
+    "instruction_seed": "在去哪儿旅行上找个好点的民宿。",
+    "declared_app": "去哪儿旅行",
+    "scenario": "出行交通",
+    "ambiguity": "中模糊度",
+    "difficulty": "easy",
+    "mapped_kb_apps": [
+      "去哪儿旅行"
+    ],
+    "suggested_role": "L2 / Original"
+  },
+  {
+    "source": "AndroidDaily",
+    "source_id": "198",
+    "instruction_seed": "在拼多多里找到我买给妈妈的衣服订单,然后分享给爸爸看看。",
+    "declared_app": "拼多多, 微信",
+    "scenario": "购物消费",
+    "ambiguity": "中模糊度",
+    "difficulty": "hard",
+    "mapped_kb_apps": [
+      "微信",
+      "拼多多"
+    ],
+    "suggested_role": "L2 / Original"
+  },
+  {
+    "source": "AndroidDaily",
+    "source_id": "199",
+    "instruction_seed": "在京东搜索'乐高千年隼',然后把价格低于4000元的商品都加入我的收藏夹。",
+    "declared_app": "京东",
+    "scenario": "购物消费",
+    "ambiguity": "低模糊度",
+    "difficulty": "hard",
+    "mapped_kb_apps": [
+      "京东"
+    ],
+    "suggested_role": "L3 agent-friendly seed"
+  },
+  {
+    "source": "AndroidDaily",
+    "source_id": "200",
+    "instruction_seed": "去淘宝看看我关注的那几家服装店有没有上新,如果有,就把新品都浏览一遍。",
+    "declared_app": "淘宝",
+    "scenario": "购物消费",
+    "ambiguity": "低模糊度",
+    "difficulty": "hard",
+    "mapped_kb_apps": [
+      "淘宝"
+    ],
+    "suggested_role": "L3 agent-friendly seed"
+  },
+  {
+    "source": "AndroidDaily",
+    "source_id": "201",
+    "instruction_seed": "检查一下京东购物车里的所有商品,如果哪个商品降价了,就把它单独结算了。",
+    "declared_app": "京东",
+    "scenario": "购物消费",
+    "ambiguity": "低模糊度",
+    "difficulty": "hard",
+    "mapped_kb_apps": [
+      "京东"
+    ],
+    "suggested_role": "L3 agent-friendly seed"
+  },
+  {
+    "source": "AndroidDaily",
+    "source_id": "202",
+    "instruction_seed": "帮我找个周末能带孩子去玩的地方。",
+    "declared_app": "大众点评",
+    "scenario": "本地服务",
+    "ambiguity": "高模糊度",
+    "difficulty": "easy",
+    "mapped_kb_apps": [
+      "大众点评"
+    ],
+    "suggested_role": "L1 user-friendly"
+  },
+  {
+    "source": "AndroidDaily",
+    "source_id": "203",
+    "instruction_seed": "我有点饿了,帮我推荐点夜宵吧。",
+    "declared_app": "美团",
+    "scenario": "本地服务",
+    "ambiguity": "中模糊度",
+    "difficulty": "easy",
+    "mapped_kb_apps": [
+      "美团"
+    ],
+    "suggested_role": "L2 / Original"
+  },
+  {
+    "source": "AndroidDaily",
+    "source_id": "206",
+    "instruction_seed": "在B站罗翔最新视频的评论区里留个言。",
+    "declared_app": "哔哩哔哩",
+    "scenario": "内容消费",
+    "ambiguity": "高模糊度",
+    "difficulty": "medium",
+    "mapped_kb_apps": [
+      "哔哩哔哩"
+    ],
+    "suggested_role": "L1 user-friendly"
+  },
+  {
+    "source": "AndroidDaily",
+    "source_id": "207",
+    "instruction_seed": "发朋友圈吐槽一下今天上班路上堵车。",
+    "declared_app": "微信",
+    "scenario": "社交通讯",
+    "ambiguity": "低模糊度",
+    "difficulty": "medium",
+    "mapped_kb_apps": [
+      "微信"
+    ],
+    "suggested_role": "L3 agent-friendly seed"
+  },
+  {
+    "source": "AndroidDaily",
+    "source_id": "208",
+    "instruction_seed": "给海底捞写个大众点评好评，夸一下他们服务特别好，有个戴眼镜的小哥很热情，字数不用太多，50字左右。",
+    "declared_app": "大众点评",
+    "scenario": "本地服务",
+    "ambiguity": "低模糊度",
+    "difficulty": "medium",
+    "mapped_kb_apps": [
+      "大众点评"
+    ],
+    "suggested_role": "L3 agent-friendly seed"
+  },
+  {
+    "source": "AndroidDaily",
+    "source_id": "209",
+    "instruction_seed": "发条朋友圈庆祝我升职了，文案要低调凡尔赛一点，配上笑脸emoji。",
+    "declared_app": "微信",
+    "scenario": "社交通讯",
+    "ambiguity": "中模糊度",
+    "difficulty": "medium",
+    "mapped_kb_apps": [
+      "微信"
+    ],
+    "suggested_role": "L2 / Original"
+  },
+  {
+    "source": "AndroidDaily",
+    "source_id": "211",
+    "instruction_seed": "用小红书帮我发个帖子安利一下上海。",
+    "declared_app": "小红书",
+    "scenario": "社交通讯",
+    "ambiguity": "高模糊度",
+    "difficulty": "medium",
+    "mapped_kb_apps": [
+      "小红书"
+    ],
+    "suggested_role": "L1 user-friendly"
+  },
+  {
+    "source": "AndroidDaily",
+    "source_id": "212",
+    "instruction_seed": "去抖音搜索电影《热辣滚烫》，在官方账号最新的宣传视频下发表一条评论，表达对贾玲的敬佩之情，30字左右。",
+    "declared_app": "抖音",
+    "scenario": "内容消费",
+    "ambiguity": "低模糊度",
+    "difficulty": "medium",
+    "mapped_kb_apps": [
+      "抖音"
+    ],
+    "suggested_role": "L3 agent-friendly seed"
+  },
+  {
+    "source": "AndroidDaily",
+    "source_id": "213",
+    "instruction_seed": "帮我在小红书上发个帖子，吐槽一下最近的天气。",
+    "declared_app": "小红书",
+    "scenario": "社交通讯",
+    "ambiguity": "高模糊度",
+    "difficulty": "medium",
+    "mapped_kb_apps": [
+      "天气",
+      "小红书"
+    ],
+    "suggested_role": "L1 user-friendly"
+  },
+  {
+    "source": "AndroidDaily",
+    "source_id": "216",
+    "instruction_seed": "去抖音评论一下那个很火的视频。",
+    "declared_app": "抖音",
+    "scenario": "社交通讯",
+    "ambiguity": "高模糊度",
+    "difficulty": "medium",
+    "mapped_kb_apps": [
+      "抖音"
+    ],
+    "suggested_role": "L1 user-friendly"
+  },
+  {
+    "source": "AndroidDaily",
+    "source_id": "217",
+    "instruction_seed": "用B站账号在周杰伦新歌MV下面发一条评论，表达一下激动的心情",
+    "declared_app": "B站",
+    "scenario": "内容消费",
+    "ambiguity": "低模糊度",
+    "difficulty": "medium",
+    "mapped_kb_apps": [
+      "哔哩哔哩"
+    ],
+    "suggested_role": "L3 agent-friendly seed"
+  },
+  {
+    "source": "AndroidDaily",
+    "source_id": "218",
+    "instruction_seed": "帮我给微信好友‘TKJ’发一条生日祝福，要显得亲切热情，文案要提到祝她越来越年轻，身体健康，50字以内。",
+    "declared_app": "微信",
+    "scenario": "社交通讯",
+    "ambiguity": "低模糊度",
+    "difficulty": "medium",
+    "mapped_kb_apps": [
+      "微信"
+    ],
+    "suggested_role": "L3 agent-friendly seed"
+  },
+  {
+    "source": "AndroidDaily",
+    "source_id": "219",
+    "instruction_seed": "用小红书发一篇关于新买的Lululemon瑜伽裤的笔记，文案要突出它的舒适度和显瘦效果，加上#lululemon 和 #瑜伽裤穿搭 两个话题。",
+    "declared_app": "小红书",
+    "scenario": "社交通讯",
+    "ambiguity": "低模糊度",
+    "difficulty": "hard",
+    "mapped_kb_apps": [
+      "备忘录/笔记",
+      "小红书"
+    ],
+    "suggested_role": "L3 agent-friendly seed"
+  },
+  {
+    "source": "AndroidDaily",
+    "source_id": "220",
+    "instruction_seed": "给朋友的最新朋友圈写个有趣的评论。",
+    "declared_app": "微信",
+    "scenario": "社交通讯",
+    "ambiguity": "高模糊度",
+    "difficulty": "medium",
+    "mapped_kb_apps": [
+      "微信"
+    ],
+    "suggested_role": "L1 user-friendly"
+  },
+  {
+    "source": "AndroidDaily",
+    "source_id": "221",
+    "instruction_seed": "在去哪儿旅行、携程旅行和铁路12306看下11月30日天津市到武汉市只看有票中耗时最短的车票价格详情，告诉我最便宜的app",
+    "declared_app": "去哪儿旅行, 携程旅行, 铁路12306",
+    "scenario": "出行交通",
+    "ambiguity": "低模糊度",
+    "difficulty": "hard",
+    "mapped_kb_apps": [
+      "去哪儿旅行",
+      "携程旅行",
+      "铁路12306"
+    ],
+    "suggested_role": "L3 agent-friendly seed"
+  },
+  {
+    "source": "AndroidDaily",
+    "source_id": "222",
+    "instruction_seed": "晚上想吃周黑鸭的鸡翅尖了，买4盒的话，饿了么便宜还是美团或者京东闪送更便宜，离我最近的店铺就行",
+    "declared_app": "饿了么, 美团, 京东闪送",
+    "scenario": "购物消费",
+    "ambiguity": "低模糊度",
+    "difficulty": "hard",
+    "mapped_kb_apps": [
+      "京东",
+      "美团"
+    ],
+    "suggested_role": "L3 agent-friendly seed"
+  },
+  {
+    "source": "AndroidDaily",
+    "source_id": "223",
+    "instruction_seed": "去老百姓大药房看看买一盒布洛芬，24粒装的；在饿了么买划算，还是在淘宝闪购或者京东闪送上买划算？",
+    "declared_app": "饿了么, 淘宝, 京东",
+    "scenario": "购物消费",
+    "ambiguity": "低模糊度",
+    "difficulty": "hard",
+    "mapped_kb_apps": [
+      "京东",
+      "淘宝"
+    ],
+    "suggested_role": "L3 agent-friendly seed"
+  },
+  {
+    "source": "AndroidDaily",
+    "source_id": "224",
+    "instruction_seed": "去美团看看在前三家店铺，哪家店铺买新华盐酸苯海拉明片比较便宜？",
+    "declared_app": "美团",
+    "scenario": "购物消费",
+    "ambiguity": "中模糊度",
+    "difficulty": "medium",
+    "mapped_kb_apps": [
+      "美团"
+    ],
+    "suggested_role": "L2 / Original"
+  },
+  {
+    "source": "AndroidDaily",
+    "source_id": "225",
+    "instruction_seed": "去淘宝闪购看看买一盒感康复方氨酚烷胺片（6片*2板规格）要多少钱？在前三家店铺中，哪家店铺到手价最便宜？",
+    "declared_app": "淘宝",
+    "scenario": "购物消费",
+    "ambiguity": "低模糊度",
+    "difficulty": "medium",
+    "mapped_kb_apps": [
+      "淘宝"
+    ],
+    "suggested_role": "L3 agent-friendly seed"
+  },
+  {
+    "source": "AndroidDaily",
+    "source_id": "227",
+    "instruction_seed": "对比饿了么跟淘宝闪购，去离我最近的盒马鲜生购买：3桶统一汤达人日式豚骨拉面 83g/杯、5瓶Voss/芙丝饮用天然矿泉水500ml、1盒盒马瑞士卷（原味+伯爵+巧克力+红丝绒）480g8片、1瓶盒马12度浓醇豆浆、2袋麻辣王子地道辣条（微麻微辣）110g、2支【黑标系列】泰迪向日葵；哪里更便宜？",
+    "declared_app": "饿了么, 淘宝, 盒马",
+    "scenario": "购物消费",
+    "ambiguity": "低模糊度",
+    "difficulty": "hard",
+    "mapped_kb_apps": [
+      "淘宝"
+    ],
+    "suggested_role": "L3 agent-friendly seed"
+  },
+  {
+    "source": "AndroidDaily",
+    "source_id": "228",
+    "instruction_seed": "去饿了么跟淘宝闪购看看，在屈臣氏买理肤泉新B5多效舒缓修护霜40毫升，哪里便宜",
+    "declared_app": "饿了么, 淘宝",
+    "scenario": "购物消费",
+    "ambiguity": "低模糊度",
+    "difficulty": "hard",
+    "mapped_kb_apps": [
+      "淘宝"
+    ],
+    "suggested_role": "L3 agent-friendly seed"
+  },
+  {
+    "source": "AndroidDaily",
+    "source_id": "229",
+    "instruction_seed": "我想吃袁记云饺的鲜虾蟹籽云吞，要小份的，比对饿了么和京东闪送上，离我最近的店铺哪个平台更实惠？",
+    "declared_app": "饿了么, 京东到家",
+    "scenario": "购物消费",
+    "ambiguity": "中模糊度",
+    "difficulty": "hard",
+    "mapped_kb_apps": [
+      "京东"
+    ],
+    "suggested_role": "L2 / Original"
+  },
+  {
+    "source": "AndroidDaily",
+    "source_id": "230",
+    "instruction_seed": "帮我对比在饿了么和美团平台，购买西贝的西贝面筋正常辣、2份黄馍馍，西红柿炒鸡蛋，哪个平台花的钱最少？去离我最近的店铺看",
+    "declared_app": "饿了么, 美团",
+    "scenario": "购物消费",
+    "ambiguity": "低模糊度",
+    "difficulty": "hard",
+    "mapped_kb_apps": [
+      "美团"
+    ],
+    "suggested_role": "L3 agent-friendly seed"
+  },
+  {
+    "source": "AndroidDaily",
+    "source_id": "231",
+    "instruction_seed": "在美团的茶米有言看看，买一杯鲜米豆花煎米茶（中杯、不另外加糖、热饮）、1杯野杏子鲜米冰浆（少糖）、1杯木姜子酸嘢鲜米冻（中杯）要多少钱；在京东闪送又要多少钱，哪里便宜？",
+    "declared_app": "美团, 京东到家",
+    "scenario": "购物消费",
+    "ambiguity": "中模糊度",
+    "difficulty": "hard",
+    "mapped_kb_apps": [
+      "京东",
+      "美团"
+    ],
+    "suggested_role": "L2 / Original"
+  },
+  {
+    "source": "AndroidDaily",
+    "source_id": "232",
+    "instruction_seed": "去饿了么，修改定位到北京大恒科技大厦，看看在离这里最近的一点点奶茶，买1杯苹果奶绿，1杯草莓A2牛乳绿茶要多少钱，默认规格就行，但是有中杯的话选择中杯；如果在淘宝闪购又是多少钱？哪里便宜？",
+    "declared_app": "饿了么, 淘宝",
+    "scenario": "购物消费",
+    "ambiguity": "低模糊度",
+    "difficulty": "hard",
+    "mapped_kb_apps": [
+      "淘宝"
+    ],
+    "suggested_role": "L3 agent-friendly seed"
+  },
+  {
+    "source": "AndroidDaily",
+    "source_id": "233",
+    "instruction_seed": "帮我在饿了么跟京东闪送比较：在哪里买夏威夷风情披萨，12英寸，饼底要双层芝心卷边，更便宜？店铺是达美乐披萨",
+    "declared_app": "饿了么, 京东闪送",
+    "scenario": "购物消费",
+    "ambiguity": "低模糊度",
+    "difficulty": "hard",
+    "mapped_kb_apps": [
+      "京东"
+    ],
+    "suggested_role": "L3 agent-friendly seed"
+  },
+  {
+    "source": "AndroidDaily",
+    "source_id": "234",
+    "instruction_seed": "分别去淘宝闪购跟京东闪送把地址切换到上海的杜鹃园小区，去最近的福福饼店买3份酥皮菠萝油、2个层层蛋挞；哪里划算？",
+    "declared_app": "淘宝, 京东",
+    "scenario": "购物消费",
+    "ambiguity": "低模糊度",
+    "difficulty": "hard",
+    "mapped_kb_apps": [
+      "京东",
+      "淘宝"
+    ],
+    "suggested_role": "L3 agent-friendly seed"
+  },
+  {
+    "source": "AndroidDaily",
+    "source_id": "235",
+    "instruction_seed": "去美团跟京东闪送看看，在离北京大恒科技大厦最近的鲜芋仙买芋圆4号隐藏版，温度要热红豆汤、珍珠换成绿豆；哪里便宜？",
+    "declared_app": "美团, 京东到家",
+    "scenario": "购物消费",
+    "ambiguity": "中模糊度",
+    "difficulty": "hard",
+    "mapped_kb_apps": [
+      "京东",
+      "美团"
+    ],
+    "suggested_role": "L2 / Original"
+  }
+]

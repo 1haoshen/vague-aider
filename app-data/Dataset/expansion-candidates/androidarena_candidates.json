@@ -1,0 +1,2066 @@
+[
+  {
+    "source": "AndroidArena",
+    "source_id": "calendar_0",
+    "instruction_seed": "Open the calendar.",
+    "category": "calendar",
+    "mapped_kb_apps": [
+      "日历"
+    ],
+    "suggested_role": "L3 action-specific (English) — needs L1 vague rewrite"
+  },
+  {
+    "source": "AndroidArena",
+    "source_id": "calendar_1",
+    "instruction_seed": "Create a new event on Google Calendar with the title \"meeting\", start time the 13th of next month, and location \"Microsoft SVC Building\".",
+    "category": "calendar",
+    "mapped_kb_apps": [
+      "日历"
+    ],
+    "suggested_role": "L3 action-specific (English) — needs L1 vague rewrite"
+  },
+  {
+    "source": "AndroidArena",
+    "source_id": "calendar_2",
+    "instruction_seed": "Change the start date of an existing event on Google Calendar with the title \"meeting\" to the 12th of next month.",
+    "category": "calendar",
+    "mapped_kb_apps": [
+      "日历"
+    ],
+    "suggested_role": "L3 action-specific (English) — needs L1 vague rewrite"
+  },
+  {
+    "source": "AndroidArena",
+    "source_id": "calendar_3",
+    "instruction_seed": "Invite \"bob@example.com\" to the existing event with the title \"meeting\" on Google Calendar.",
+    "category": "calendar",
+    "mapped_kb_apps": [
+      "日历"
+    ],
+    "suggested_role": "L3 action-specific (English) — needs L1 vague rewrite"
+  },
+  {
+    "source": "AndroidArena",
+    "source_id": "calendar_4",
+    "instruction_seed": "Present all events on Google Calendar for this week.",
+    "category": "calendar",
+    "mapped_kb_apps": [
+      "日历"
+    ],
+    "suggested_role": "L3 action-specific (English) — needs L1 vague rewrite"
+  },
+  {
+    "source": "AndroidArena",
+    "source_id": "calendar_5",
+    "instruction_seed": "Present all events on Google Calendar for this month.",
+    "category": "calendar",
+    "mapped_kb_apps": [
+      "日历"
+    ],
+    "suggested_role": "L3 action-specific (English) — needs L1 vague rewrite"
+  },
+  {
+    "source": "AndroidArena",
+    "source_id": "calendar_6",
+    "instruction_seed": "Delete the event on Google Calendar with the title \"meeting\".",
+    "category": "calendar",
+    "mapped_kb_apps": [
+      "日历"
+    ],
+    "suggested_role": "L3 action-specific (English) — needs L1 vague rewrite"
+  },
+  {
+    "source": "AndroidArena",
+    "source_id": "camera_7",
+    "instruction_seed": "Take a picture.",
+    "category": "camera",
+    "mapped_kb_apps": [
+      "相机"
+    ],
+    "suggested_role": "L3 action-specific (English) — needs L1 vague rewrite"
+  },
+  {
+    "source": "AndroidArena",
+    "source_id": "camera_8",
+    "instruction_seed": "Start recording a video.",
+    "category": "camera",
+    "mapped_kb_apps": [
+      "相机"
+    ],
+    "suggested_role": "L3 action-specific (English) — needs L1 vague rewrite"
+  },
+  {
+    "source": "AndroidArena",
+    "source_id": "camera_9",
+    "instruction_seed": "Set the flash mode to off for the Camera.",
+    "category": "camera",
+    "mapped_kb_apps": [
+      "相机"
+    ],
+    "suggested_role": "L3 action-specific (English) — needs L1 vague rewrite"
+  },
+  {
+    "source": "AndroidArena",
+    "source_id": "camera_10",
+    "instruction_seed": "Set the flash mode to on for the Camera.",
+    "category": "camera",
+    "mapped_kb_apps": [
+      "相机"
+    ],
+    "suggested_role": "L3 action-specific (English) — needs L1 vague rewrite"
+  },
+  {
+    "source": "AndroidArena",
+    "source_id": "camera_11",
+    "instruction_seed": "Turn on save location function for the Camera.",
+    "category": "camera",
+    "mapped_kb_apps": [
+      "相机"
+    ],
+    "suggested_role": "L3 action-specific (English) — needs L1 vague rewrite"
+  },
+  {
+    "source": "AndroidArena",
+    "source_id": "camera_12",
+    "instruction_seed": "Turn off save location function for the Camera.",
+    "category": "camera",
+    "mapped_kb_apps": [
+      "相机"
+    ],
+    "suggested_role": "L3 action-specific (English) — needs L1 vague rewrite"
+  },
+  {
+    "source": "AndroidArena",
+    "source_id": "camera_13",
+    "instruction_seed": "Turn on the manual exposure compensation for the Camera.",
+    "category": "camera",
+    "mapped_kb_apps": [
+      "相机"
+    ],
+    "suggested_role": "L3 action-specific (English) — needs L1 vague rewrite"
+  },
+  {
+    "source": "AndroidArena",
+    "source_id": "camera_14",
+    "instruction_seed": "Turn off the manual exposure compensation for the Camera.",
+    "category": "camera",
+    "mapped_kb_apps": [
+      "相机"
+    ],
+    "suggested_role": "L3 action-specific (English) — needs L1 vague rewrite"
+  },
+  {
+    "source": "AndroidArena",
+    "source_id": "camera_15",
+    "instruction_seed": "Set the migapixels to maximum for the Camera.",
+    "category": "camera",
+    "mapped_kb_apps": [
+      "相机"
+    ],
+    "suggested_role": "L3 action-specific (English) — needs L1 vague rewrite"
+  },
+  {
+    "source": "AndroidArena",
+    "source_id": "camera_16",
+    "instruction_seed": "Set the migapixels to minimum for the Camera.",
+    "category": "camera",
+    "mapped_kb_apps": [
+      "相机"
+    ],
+    "suggested_role": "L3 action-specific (English) — needs L1 vague rewrite"
+  },
+  {
+    "source": "AndroidArena",
+    "source_id": "camera_17",
+    "instruction_seed": "Set the resolution to \"HD 720p\" for the Camera.",
+    "category": "camera",
+    "mapped_kb_apps": [
+      "相机"
+    ],
+    "suggested_role": "L3 action-specific (English) — needs L1 vague rewrite"
+  },
+  {
+    "source": "AndroidArena",
+    "source_id": "camera_18",
+    "instruction_seed": "Set the resolution to \"QVGA\" for the Camera.",
+    "category": "camera",
+    "mapped_kb_apps": [
+      "相机"
+    ],
+    "suggested_role": "L3 action-specific (English) — needs L1 vague rewrite"
+  },
+  {
+    "source": "AndroidArena",
+    "source_id": "camera_19",
+    "instruction_seed": "Change the timer to 10 seconds for the Camera.",
+    "category": "camera",
+    "mapped_kb_apps": [
+      "相机",
+      "闹钟"
+    ],
+    "suggested_role": "L3 action-specific (English) — needs L1 vague rewrite"
+  },
+  {
+    "source": "AndroidArena",
+    "source_id": "camera_20",
+    "instruction_seed": "Change the timer to 3 seconds for the Camera.",
+    "category": "camera",
+    "mapped_kb_apps": [
+      "相机",
+      "闹钟"
+    ],
+    "suggested_role": "L3 action-specific (English) — needs L1 vague rewrite"
+  },
+  {
+    "source": "AndroidArena",
+    "source_id": "clock_21",
+    "instruction_seed": "Open Google Clock.",
+    "category": "clock",
+    "mapped_kb_apps": [
+      "Google",
+      "闹钟"
+    ],
+    "suggested_role": "L3 action-specific (English) — needs L1 vague rewrite"
+  },
+  {
+    "source": "AndroidArena",
+    "source_id": "clock_22",
+    "instruction_seed": "Set an alarm for 3PM with the label \"meeting\" using Google Clock.",
+    "category": "clock",
+    "mapped_kb_apps": [
+      "Google",
+      "闹钟"
+    ],
+    "suggested_role": "L3 action-specific (English) — needs L1 vague rewrite"
+  },
+  {
+    "source": "AndroidArena",
+    "source_id": "clock_23",
+    "instruction_seed": "Turn off the alarm with the label \"meeting\" using Google Clock.",
+    "category": "clock",
+    "mapped_kb_apps": [
+      "Google",
+      "闹钟"
+    ],
+    "suggested_role": "L3 action-specific (English) — needs L1 vague rewrite"
+  },
+  {
+    "source": "AndroidArena",
+    "source_id": "clock_24",
+    "instruction_seed": "Delete the alarm with the label \"meeting\" using Google Clock.",
+    "category": "clock",
+    "mapped_kb_apps": [
+      "Google",
+      "闹钟"
+    ],
+    "suggested_role": "L3 action-specific (English) — needs L1 vague rewrite"
+  },
+  {
+    "source": "AndroidArena",
+    "source_id": "clock_25",
+    "instruction_seed": "Set a timer for 5 seconds using Google Clock.",
+    "category": "clock",
+    "mapped_kb_apps": [
+      "Google",
+      "闹钟"
+    ],
+    "suggested_role": "L3 action-specific (English) — needs L1 vague rewrite"
+  },
+  {
+    "source": "AndroidArena",
+    "source_id": "clock_26",
+    "instruction_seed": "Pause the timer using Google Clock.",
+    "category": "clock",
+    "mapped_kb_apps": [
+      "Google",
+      "闹钟"
+    ],
+    "suggested_role": "L3 action-specific (English) — needs L1 vague rewrite"
+  },
+  {
+    "source": "AndroidArena",
+    "source_id": "clock_27",
+    "instruction_seed": "Resume the timer using Google Clock.",
+    "category": "clock",
+    "mapped_kb_apps": [
+      "Google",
+      "闹钟"
+    ],
+    "suggested_role": "L3 action-specific (English) — needs L1 vague rewrite"
+  },
+  {
+    "source": "AndroidArena",
+    "source_id": "clock_28",
+    "instruction_seed": "Cancel the timer using Google Clock.",
+    "category": "clock",
+    "mapped_kb_apps": [
+      "Google",
+      "闹钟"
+    ],
+    "suggested_role": "L3 action-specific (English) — needs L1 vague rewrite"
+  },
+  {
+    "source": "AndroidArena",
+    "source_id": "clock_29",
+    "instruction_seed": "Start the stopwatch using Google Clock.",
+    "category": "clock",
+    "mapped_kb_apps": [
+      "Google",
+      "闹钟"
+    ],
+    "suggested_role": "L3 action-specific (English) — needs L1 vague rewrite"
+  },
+  {
+    "source": "AndroidArena",
+    "source_id": "clock_30",
+    "instruction_seed": "Stop the stopwatch using Google Clock.",
+    "category": "clock",
+    "mapped_kb_apps": [
+      "Google",
+      "闹钟"
+    ],
+    "suggested_role": "L3 action-specific (English) — needs L1 vague rewrite"
+  },
+  {
+    "source": "AndroidArena",
+    "source_id": "clock_31",
+    "instruction_seed": "Reset the stopwatch using Google Clock.",
+    "category": "clock",
+    "mapped_kb_apps": [
+      "Google",
+      "闹钟"
+    ],
+    "suggested_role": "L3 action-specific (English) — needs L1 vague rewrite"
+  },
+  {
+    "source": "AndroidArena",
+    "source_id": "clock_32",
+    "instruction_seed": "View the current time in London in Google Clock.",
+    "category": "clock",
+    "mapped_kb_apps": [
+      "Google",
+      "闹钟"
+    ],
+    "suggested_role": "L3 action-specific (English) — needs L1 vague rewrite"
+  },
+  {
+    "source": "AndroidArena",
+    "source_id": "clock_33",
+    "instruction_seed": "Add a new city Beijing to World Clock in Google Clock.",
+    "category": "clock",
+    "mapped_kb_apps": [
+      "Google",
+      "闹钟"
+    ],
+    "suggested_role": "L3 action-specific (English) — needs L1 vague rewrite"
+  },
+  {
+    "source": "AndroidArena",
+    "source_id": "clock_34",
+    "instruction_seed": "Delete the city Beijing to World Clock in Google Clock.",
+    "category": "clock",
+    "mapped_kb_apps": [
+      "Google",
+      "闹钟"
+    ],
+    "suggested_role": "L3 action-specific (English) — needs L1 vague rewrite"
+  },
+  {
+    "source": "AndroidArena",
+    "source_id": "constrain_35",
+    "instruction_seed": "Find the current weather forecast.",
+    "category": "constrain",
+    "mapped_kb_apps": [
+      "天气"
+    ],
+    "suggested_role": "L3 action-specific (English) — needs L1 vague rewrite"
+  },
+  {
+    "source": "AndroidArena",
+    "source_id": "constrain_36",
+    "instruction_seed": "Check the weather forecast for the next 3 days.",
+    "category": "constrain",
+    "mapped_kb_apps": [
+      "天气"
+    ],
+    "suggested_role": "L3 action-specific (English) — needs L1 vague rewrite"
+  },
+  {
+    "source": "AndroidArena",
+    "source_id": "constrain_37",
+    "instruction_seed": "Get the weather in \"London\"",
+    "category": "constrain",
+    "mapped_kb_apps": [
+      "天气"
+    ],
+    "suggested_role": "L3 action-specific (English) — needs L1 vague rewrite"
+  },
+  {
+    "source": "AndroidArena",
+    "source_id": "constrain_39",
+    "instruction_seed": "Search for the video \"ChatGPT Explained Completely\".",
+    "category": "constrain",
+    "mapped_kb_apps": [
+      "ChatGPT"
+    ],
+    "suggested_role": "L3 action-specific (English) — needs L1 vague rewrite"
+  },
+  {
+    "source": "AndroidArena",
+    "source_id": "constrain_40",
+    "instruction_seed": "View the current time in London in Google Clock.",
+    "category": "constrain",
+    "mapped_kb_apps": [
+      "Google",
+      "闹钟"
+    ],
+    "suggested_role": "L3 action-specific (English) — needs L1 vague rewrite"
+  },
+  {
+    "source": "AndroidArena",
+    "source_id": "constrain_41",
+    "instruction_seed": "Open the latest email received from google in Gmail.",
+    "category": "constrain",
+    "mapped_kb_apps": [
+      "Google",
+      "gmail"
+    ],
+    "suggested_role": "L3 action-specific (English) — needs L1 vague rewrite"
+  },
+  {
+    "source": "AndroidArena",
+    "source_id": "constrain_42",
+    "instruction_seed": "Star the latest draft email send to \"bob@example.com\" in Gmail.",
+    "category": "constrain",
+    "mapped_kb_apps": [
+      "gmail"
+    ],
+    "suggested_role": "L3 action-specific (English) — needs L1 vague rewrite"
+  },
+  {
+    "source": "AndroidArena",
+    "source_id": "constrain_43",
+    "instruction_seed": "Add the first file in the file system to the saved draft email with the subject \"meeting details\" in Gmail.",
+    "category": "constrain",
+    "mapped_kb_apps": [
+      "gmail"
+    ],
+    "suggested_role": "L3 action-specific (English) — needs L1 vague rewrite"
+  },
+  {
+    "source": "AndroidArena",
+    "source_id": "constrain_44",
+    "instruction_seed": "Mark the latest email sent from Google as unread in Gmail.",
+    "category": "constrain",
+    "mapped_kb_apps": [
+      "Google",
+      "gmail"
+    ],
+    "suggested_role": "L3 action-specific (English) — needs L1 vague rewrite"
+  },
+  {
+    "source": "AndroidArena",
+    "source_id": "constrain_48",
+    "instruction_seed": "Open YouTube and share the first video with bob@example.com through Gmail.",
+    "category": "constrain",
+    "mapped_kb_apps": [
+      "gmail",
+      "youtube"
+    ],
+    "suggested_role": "L3 action-specific (English) — needs L1 vague rewrite"
+  },
+  {
+    "source": "AndroidArena",
+    "source_id": "constrain_49",
+    "instruction_seed": "Find the introduction of ChatGPT.",
+    "category": "constrain",
+    "mapped_kb_apps": [
+      "ChatGPT"
+    ],
+    "suggested_role": "L3 action-specific (English) — needs L1 vague rewrite"
+  },
+  {
+    "source": "AndroidArena",
+    "source_id": "constrain_50",
+    "instruction_seed": "Create a new label called \"work\" in Google Contacts.",
+    "category": "constrain",
+    "mapped_kb_apps": [
+      "Google"
+    ],
+    "suggested_role": "L3 action-specific (English) — needs L1 vague rewrite"
+  },
+  {
+    "source": "AndroidArena",
+    "source_id": "constrain_51",
+    "instruction_seed": "Delete the contact \"John\" in Google Contacts.",
+    "category": "constrain",
+    "mapped_kb_apps": [
+      "Google"
+    ],
+    "suggested_role": "L3 action-specific (English) — needs L1 vague rewrite"
+  },
+  {
+    "source": "AndroidArena",
+    "source_id": "constrain_55",
+    "instruction_seed": "Send a text message to \"Bob\" saying \"hello\".",
+    "category": "constrain",
+    "mapped_kb_apps": [
+      "信息"
+    ],
+    "suggested_role": "L3 action-specific (English) — needs L1 vague rewrite"
+  },
+  {
+    "source": "AndroidArena",
+    "source_id": "constrain_56",
+    "instruction_seed": "Search for the messages containing \"hello\".",
+    "category": "constrain",
+    "mapped_kb_apps": [
+      "信息"
+    ],
+    "suggested_role": "L3 action-specific (English) — needs L1 vague rewrite"
+  },
+  {
+    "source": "AndroidArena",
+    "source_id": "constrain_57",
+    "instruction_seed": "Search for the messages containing \"hello\" using Google Messages.",
+    "category": "constrain",
+    "mapped_kb_apps": [
+      "Google",
+      "信息"
+    ],
+    "suggested_role": "L3 action-specific (English) — needs L1 vague rewrite"
+  },
+  {
+    "source": "AndroidArena",
+    "source_id": "constrain_58",
+    "instruction_seed": "Compose an email with the subject \"meeting details\" and the content \"weekly meeting on 13 Oct, Room 101\" to be sent to \"bob@example.com\".",
+    "category": "constrain",
+    "mapped_kb_apps": [
+      "邮件"
+    ],
+    "suggested_role": "L3 action-specific (English) — needs L1 vague rewrite"
+  },
+  {
+    "source": "AndroidArena",
+    "source_id": "constrain_59",
+    "instruction_seed": "Open the latest draft email send to \"bob@example.com\" in Gmail.",
+    "category": "constrain",
+    "mapped_kb_apps": [
+      "gmail"
+    ],
+    "suggested_role": "L3 action-specific (English) — needs L1 vague rewrite"
+  },
+  {
+    "source": "AndroidArena",
+    "source_id": "constrain_60",
+    "instruction_seed": "Search for emails containing \"meeting\" in Gmail.",
+    "category": "constrain",
+    "mapped_kb_apps": [
+      "gmail"
+    ],
+    "suggested_role": "L3 action-specific (English) — needs L1 vague rewrite"
+  },
+  {
+    "source": "AndroidArena",
+    "source_id": "constrain_61",
+    "instruction_seed": "Open the latest draft email send to \"bob@example.com\" in Gmail.",
+    "category": "constrain",
+    "mapped_kb_apps": [
+      "gmail"
+    ],
+    "suggested_role": "L3 action-specific (English) — needs L1 vague rewrite"
+  },
+  {
+    "source": "AndroidArena",
+    "source_id": "constrain_62",
+    "instruction_seed": "Invite \"bob@example.com\" to the existing event with the title \"meeting\" on Google Calendar.",
+    "category": "constrain",
+    "mapped_kb_apps": [
+      "日历"
+    ],
+    "suggested_role": "L3 action-specific (English) — needs L1 vague rewrite"
+  },
+  {
+    "source": "AndroidArena",
+    "source_id": "constrain_63",
+    "instruction_seed": "Find \"Bob\" in Google Contacts.",
+    "category": "constrain",
+    "mapped_kb_apps": [
+      "Google"
+    ],
+    "suggested_role": "L3 action-specific (English) — needs L1 vague rewrite"
+  },
+  {
+    "source": "AndroidArena",
+    "source_id": "constrain_64",
+    "instruction_seed": "Send a text message to \"Bob\" saying \"hello\" using Google Messages.",
+    "category": "constrain",
+    "mapped_kb_apps": [
+      "Google",
+      "信息"
+    ],
+    "suggested_role": "L3 action-specific (English) — needs L1 vague rewrite"
+  },
+  {
+    "source": "AndroidArena",
+    "source_id": "constrain_65",
+    "instruction_seed": "Schedule a message \"hello\" to be sent to \"Bob\" at tomorrow morning using Google Messages.",
+    "category": "constrain",
+    "mapped_kb_apps": [
+      "Google",
+      "信息"
+    ],
+    "suggested_role": "L3 action-specific (English) — needs L1 vague rewrite"
+  },
+  {
+    "source": "AndroidArena",
+    "source_id": "constrain_66",
+    "instruction_seed": "Reply to the latest email sent from Google with content \"Got it.\" in Gmail.",
+    "category": "constrain",
+    "mapped_kb_apps": [
+      "Google",
+      "gmail"
+    ],
+    "suggested_role": "L3 action-specific (English) — needs L1 vague rewrite"
+  },
+  {
+    "source": "AndroidArena",
+    "source_id": "constrain_67",
+    "instruction_seed": "Forward the latest email sent from Google to \"bob@example.com\" in Gmail.",
+    "category": "constrain",
+    "mapped_kb_apps": [
+      "Google",
+      "gmail"
+    ],
+    "suggested_role": "L3 action-specific (English) — needs L1 vague rewrite"
+  },
+  {
+    "source": "AndroidArena",
+    "source_id": "constrain_68",
+    "instruction_seed": "Send a message \"hello\" to \"bob\" in Slack.",
+    "category": "constrain",
+    "mapped_kb_apps": [
+      "Slack",
+      "信息"
+    ],
+    "suggested_role": "L3 action-specific (English) — needs L1 vague rewrite"
+  },
+  {
+    "source": "AndroidArena",
+    "source_id": "constrain_69",
+    "instruction_seed": "Share the most recent file with \"bob\" in Slack.",
+    "category": "constrain",
+    "mapped_kb_apps": [
+      "Slack"
+    ],
+    "suggested_role": "L3 action-specific (English) — needs L1 vague rewrite"
+  },
+  {
+    "source": "AndroidArena",
+    "source_id": "contacts_70",
+    "instruction_seed": "Create a new contact with the first name \"John\", last name \"Smith\", email address \"john@example.com\", and phone number \"010-123456\" in Google Contacts.",
+    "category": "contacts",
+    "mapped_kb_apps": [
+      "Google",
+      "邮件"
+    ],
+    "suggested_role": "L3 action-specific (English) — needs L1 vague rewrite"
+  },
+  {
+    "source": "AndroidArena",
+    "source_id": "contacts_71",
+    "instruction_seed": "Add the Field Company as \"Microsoft\" to the contact \"John\" in Google Contacts.",
+    "category": "contacts",
+    "mapped_kb_apps": [
+      "Google"
+    ],
+    "suggested_role": "L3 action-specific (English) — needs L1 vague rewrite"
+  },
+  {
+    "source": "AndroidArena",
+    "source_id": "contacts_72",
+    "instruction_seed": "Create a new label called \"colleague\" in Google Contacts.",
+    "category": "contacts",
+    "mapped_kb_apps": [
+      "Google"
+    ],
+    "suggested_role": "L3 action-specific (English) — needs L1 vague rewrite"
+  },
+  {
+    "source": "AndroidArena",
+    "source_id": "contacts_73",
+    "instruction_seed": "Add \"John\" to the existing label \"colleague\" in Google Contacts.",
+    "category": "contacts",
+    "mapped_kb_apps": [
+      "Google"
+    ],
+    "suggested_role": "L3 action-specific (English) — needs L1 vague rewrite"
+  },
+  {
+    "source": "AndroidArena",
+    "source_id": "contacts_74",
+    "instruction_seed": "Remove \"John\" from the existing label \"colleague\" in Google Contacts.",
+    "category": "contacts",
+    "mapped_kb_apps": [
+      "Google"
+    ],
+    "suggested_role": "L3 action-specific (English) — needs L1 vague rewrite"
+  },
+  {
+    "source": "AndroidArena",
+    "source_id": "contacts_75",
+    "instruction_seed": "Delete the label \"colleague\" in Google Contacts.",
+    "category": "contacts",
+    "mapped_kb_apps": [
+      "Google"
+    ],
+    "suggested_role": "L3 action-specific (English) — needs L1 vague rewrite"
+  },
+  {
+    "source": "AndroidArena",
+    "source_id": "contacts_76",
+    "instruction_seed": "Export all contacts from Google Contacts to a VCF file.",
+    "category": "contacts",
+    "mapped_kb_apps": [
+      "Google"
+    ],
+    "suggested_role": "L3 action-specific (English) — needs L1 vague rewrite"
+  },
+  {
+    "source": "AndroidArena",
+    "source_id": "contacts_77",
+    "instruction_seed": "Search for contacts with the name \"John\" in Google Contacts.",
+    "category": "contacts",
+    "mapped_kb_apps": [
+      "Google"
+    ],
+    "suggested_role": "L3 action-specific (English) — needs L1 vague rewrite"
+  },
+  {
+    "source": "AndroidArena",
+    "source_id": "contacts_78",
+    "instruction_seed": "Merge duplicate contacts in Google Contacts.",
+    "category": "contacts",
+    "mapped_kb_apps": [
+      "Google"
+    ],
+    "suggested_role": "L3 action-specific (English) — needs L1 vague rewrite"
+  },
+  {
+    "source": "AndroidArena",
+    "source_id": "contacts_79",
+    "instruction_seed": "Delete \"John\" from Google Contacts.",
+    "category": "contacts",
+    "mapped_kb_apps": [
+      "Google"
+    ],
+    "suggested_role": "L3 action-specific (English) — needs L1 vague rewrite"
+  },
+  {
+    "source": "AndroidArena",
+    "source_id": "contacts_80",
+    "instruction_seed": "Sort contacts by first name in Google Contacts.",
+    "category": "contacts",
+    "mapped_kb_apps": [
+      "Google"
+    ],
+    "suggested_role": "L3 action-specific (English) — needs L1 vague rewrite"
+  },
+  {
+    "source": "AndroidArena",
+    "source_id": "cross-app_81",
+    "instruction_seed": "Find the email titled \"OpenAI website\" in Gmail, extract the first URL in the email content, and open the URL in Firefox.",
+    "category": "cross-app",
+    "mapped_kb_apps": [
+      "gmail",
+      "邮件"
+    ],
+    "suggested_role": "L3 action-specific (English) — needs L1 vague rewrite"
+  },
+  {
+    "source": "AndroidArena",
+    "source_id": "cross-app_82",
+    "instruction_seed": "Extract the date and time from the email titled \"meeting details\" in Gmail, and create a calendar event in Google Calendar.",
+    "category": "cross-app",
+    "mapped_kb_apps": [
+      "gmail",
+      "日历"
+    ],
+    "suggested_role": "L3 action-specific (English) — needs L1 vague rewrite"
+  },
+  {
+    "source": "AndroidArena",
+    "source_id": "cross-app_83",
+    "instruction_seed": "Search Gmail for the latest email titled \"restaurant reservation\", extract the restaurant name, and open Google Maps with the restaurant name for directions.",
+    "category": "cross-app",
+    "mapped_kb_apps": [
+      "gmail",
+      "googleMap",
+      "邮件"
+    ],
+    "suggested_role": "L3 action-specific (English) — needs L1 vague rewrite"
+  },
+  {
+    "source": "AndroidArena",
+    "source_id": "cross-app_84",
+    "instruction_seed": "Scan Gmail for the latest email titled \"flight confirmation\", extract the airport details, and open Google Maps with the airport for directions.",
+    "category": "cross-app",
+    "mapped_kb_apps": [
+      "gmail",
+      "googleMap",
+      "邮件"
+    ],
+    "suggested_role": "L3 action-specific (English) — needs L1 vague rewrite"
+  },
+  {
+    "source": "AndroidArena",
+    "source_id": "cross-app_85",
+    "instruction_seed": "Create a new contact in Google Contacts from a website \"https://profiles.stanford.edu/fei-fei-li\" visited in Firefox, and automatically fill in the contact's name, email, and phone number.",
+    "category": "cross-app",
+    "mapped_kb_apps": [
+      "Google",
+      "邮件"
+    ],
+    "suggested_role": "L3 action-specific (English) — needs L1 vague rewrite"
+  },
+  {
+    "source": "AndroidArena",
+    "source_id": "cross-app_86",
+    "instruction_seed": "Export all contacts from Google Contacts to a VCF file and save it to Google Drive.",
+    "category": "cross-app",
+    "mapped_kb_apps": [
+      "Google"
+    ],
+    "suggested_role": "L3 action-specific (English) — needs L1 vague rewrite"
+  },
+  {
+    "source": "AndroidArena",
+    "source_id": "cross-app_87",
+    "instruction_seed": "Scan Gmail for the email titled \"meeting details\" containing a meeting invitation, extract the meeting details, and send a message in Google Messages to \"John\" with the meeting details.",
+    "category": "cross-app",
+    "mapped_kb_apps": [
+      "Google",
+      "gmail",
+      "信息",
+      "邮件"
+    ],
+    "suggested_role": "L3 action-specific (English) — needs L1 vague rewrite"
+  },
+  {
+    "source": "AndroidArena",
+    "source_id": "cross-app_88",
+    "instruction_seed": "Scan Google Messages for the latest message regarding a meeting, extract the meeting details, and create an event in Google Calendar.",
+    "category": "cross-app",
+    "mapped_kb_apps": [
+      "Google",
+      "信息",
+      "日历"
+    ],
+    "suggested_role": "L3 action-specific (English) — needs L1 vague rewrite"
+  },
+  {
+    "source": "AndroidArena",
+    "source_id": "cross-app_89",
+    "instruction_seed": "Take a photo with a camera and send it as an email attachment to bob@example.com, and the subject of the email is \"landscape photo\".",
+    "category": "cross-app",
+    "mapped_kb_apps": [
+      "相机",
+      "邮件"
+    ],
+    "suggested_role": "L3 action-specific (English) — needs L1 vague rewrite"
+  },
+  {
+    "source": "AndroidArena",
+    "source_id": "cross-app_90",
+    "instruction_seed": "Take a photo using Android Camera and set it as the wallpaper of homescreen through Android Settings.",
+    "category": "cross-app",
+    "mapped_kb_apps": [
+      "相机",
+      "设置"
+    ],
+    "suggested_role": "L3 action-specific (English) — needs L1 vague rewrite"
+  },
+  {
+    "source": "AndroidArena",
+    "source_id": "cross-app_91",
+    "instruction_seed": "Take a photo using Android Camera and set it as the lock screen wallpaper through Android Settings.",
+    "category": "cross-app",
+    "mapped_kb_apps": [
+      "相机",
+      "设置"
+    ],
+    "suggested_role": "L3 action-specific (English) — needs L1 vague rewrite"
+  },
+  {
+    "source": "AndroidArena",
+    "source_id": "cross-app_92",
+    "instruction_seed": "Find the contact information for \"John\" in Google Contacts and create an event titled \"meeting\" in Google Calendar with him.",
+    "category": "cross-app",
+    "mapped_kb_apps": [
+      "Google",
+      "日历"
+    ],
+    "suggested_role": "L3 action-specific (English) — needs L1 vague rewrite"
+  },
+  {
+    "source": "AndroidArena",
+    "source_id": "cross-app_93",
+    "instruction_seed": "Find the company address of a Google contact of \"John\" and create a Google Maps route to their location.",
+    "category": "cross-app",
+    "mapped_kb_apps": [
+      "Google",
+      "googleMap"
+    ],
+    "suggested_role": "L3 action-specific (English) — needs L1 vague rewrite"
+  },
+  {
+    "source": "AndroidArena",
+    "source_id": "cross-app_94",
+    "instruction_seed": "Check the current weather forecast for the location of \"John\" in Google Contacts.",
+    "category": "cross-app",
+    "mapped_kb_apps": [
+      "Google",
+      "天气"
+    ],
+    "suggested_role": "L3 action-specific (English) — needs L1 vague rewrite"
+  },
+  {
+    "source": "AndroidArena",
+    "source_id": "cross-app_95",
+    "instruction_seed": "Search for the nearest gas station in Google Maps and send the address to the \"john@example.com\" in Google Messages.",
+    "category": "cross-app",
+    "mapped_kb_apps": [
+      "Google",
+      "googleMap",
+      "信息"
+    ],
+    "suggested_role": "L3 action-specific (English) — needs L1 vague rewrite"
+  },
+  {
+    "source": "AndroidArena",
+    "source_id": "cross-app_96",
+    "instruction_seed": "Search Google Contacts for John's email address and send it to the Slack channel \"work\".",
+    "category": "cross-app",
+    "mapped_kb_apps": [
+      "Google",
+      "Slack",
+      "邮件"
+    ],
+    "suggested_role": "L3 action-specific (English) — needs L1 vague rewrite"
+  },
+  {
+    "source": "AndroidArena",
+    "source_id": "cross-app_97",
+    "instruction_seed": "Send a message to the \"work\" channel in Slack with the content of the latest SMS containing \"hello\" in Google Messages.",
+    "category": "cross-app",
+    "mapped_kb_apps": [
+      "Google",
+      "Slack",
+      "信息"
+    ],
+    "suggested_role": "L3 action-specific (English) — needs L1 vague rewrite"
+  },
+  {
+    "source": "AndroidArena",
+    "source_id": "cross-app_98",
+    "instruction_seed": "Search for the keyword \"ChatGPT\" in Firefox, extract the title of the first searched result, and send it as a message to the \"work\" channel in Slack.",
+    "category": "cross-app",
+    "mapped_kb_apps": [
+      "ChatGPT",
+      "Slack",
+      "信息"
+    ],
+    "suggested_role": "L3 action-specific (English) — needs L1 vague rewrite"
+  },
+  {
+    "source": "AndroidArena",
+    "source_id": "cross-app_99",
+    "instruction_seed": "Find the nearest coffee shop using Google Maps and send a message to \"Bob\" on Slack with the shop name.",
+    "category": "cross-app",
+    "mapped_kb_apps": [
+      "Slack",
+      "googleMap",
+      "信息"
+    ],
+    "suggested_role": "L3 action-specific (English) — needs L1 vague rewrite"
+  },
+  {
+    "source": "AndroidArena",
+    "source_id": "cross-app_100",
+    "instruction_seed": "Use Google Maps to find the nearest restaurant and send a message to \"Bob\" on Slack with the restaurant name.",
+    "category": "cross-app",
+    "mapped_kb_apps": [
+      "Slack",
+      "googleMap",
+      "信息"
+    ],
+    "suggested_role": "L3 action-specific (English) — needs L1 vague rewrite"
+  },
+  {
+    "source": "AndroidArena",
+    "source_id": "cross-app_101",
+    "instruction_seed": "Send a message to the \"work\" channel in Slack with the content of the latest SMS containing \"hello\" in Google Messages.",
+    "category": "cross-app",
+    "mapped_kb_apps": [
+      "Google",
+      "Slack",
+      "信息"
+    ],
+    "suggested_role": "L3 action-specific (English) — needs L1 vague rewrite"
+  },
+  {
+    "source": "AndroidArena",
+    "source_id": "cross-app_102",
+    "instruction_seed": "Find the email with the subject \"meeting details\" in my Gmail, extract the content, and send a message to the \"work\" channel on Slack.",
+    "category": "cross-app",
+    "mapped_kb_apps": [
+      "Slack",
+      "gmail",
+      "信息"
+    ],
+    "suggested_role": "L3 action-specific (English) — needs L1 vague rewrite"
+  },
+  {
+    "source": "AndroidArena",
+    "source_id": "gmail_108",
+    "instruction_seed": "Compose a draft email with the subject \"meeting details\" and the content \"weekly meeting on 13 Oct, Room 101\" to be sent to \"bob@example.com\".",
+    "category": "gmail",
+    "mapped_kb_apps": [
+      "gmail",
+      "邮件"
+    ],
+    "suggested_role": "L3 action-specific (English) — needs L1 vague rewrite"
+  },
+  {
+    "source": "AndroidArena",
+    "source_id": "gmail_109",
+    "instruction_seed": "Schedule an email with the subject \"meeting details\" and the content \"weekly meeting on 13 Oct, Room 101\" to be sent to \"bob@example.com\" at tomorrow morning in Gmail.",
+    "category": "gmail",
+    "mapped_kb_apps": [
+      "gmail"
+    ],
+    "suggested_role": "L3 action-specific (English) — needs L1 vague rewrite"
+  },
+  {
+    "source": "AndroidArena",
+    "source_id": "gmail_110",
+    "instruction_seed": "Add the first file in the file system to the saved draft email with the subject \"meeting details\" in Gmail.",
+    "category": "gmail",
+    "mapped_kb_apps": [
+      "gmail"
+    ],
+    "suggested_role": "L3 action-specific (English) — needs L1 vague rewrite"
+  },
+  {
+    "source": "AndroidArena",
+    "source_id": "gmail_111",
+    "instruction_seed": "Open the latest draft email send to \"bob@example.com\" in Gmail.",
+    "category": "gmail",
+    "mapped_kb_apps": [
+      "gmail"
+    ],
+    "suggested_role": "L3 action-specific (English) — needs L1 vague rewrite"
+  },
+  {
+    "source": "AndroidArena",
+    "source_id": "gmail_112",
+    "instruction_seed": "Star the latest email in sent box in Gmail.",
+    "category": "gmail",
+    "mapped_kb_apps": [
+      "gmail"
+    ],
+    "suggested_role": "L3 action-specific (English) — needs L1 vague rewrite"
+  },
+  {
+    "source": "AndroidArena",
+    "source_id": "gmail_113",
+    "instruction_seed": "Search for emails containing \"meeting\" in Gmail.",
+    "category": "gmail",
+    "mapped_kb_apps": [
+      "gmail"
+    ],
+    "suggested_role": "L3 action-specific (English) — needs L1 vague rewrite"
+  },
+  {
+    "source": "AndroidArena",
+    "source_id": "gmail_114",
+    "instruction_seed": "Mark the latest email sent from Google as unread in Gmail.",
+    "category": "gmail",
+    "mapped_kb_apps": [
+      "Google",
+      "gmail"
+    ],
+    "suggested_role": "L3 action-specific (English) — needs L1 vague rewrite"
+  },
+  {
+    "source": "AndroidArena",
+    "source_id": "gmail_115",
+    "instruction_seed": "Reply to the latest email sent from Google with content \"Got it.\" in Gmail.",
+    "category": "gmail",
+    "mapped_kb_apps": [
+      "Google",
+      "gmail"
+    ],
+    "suggested_role": "L3 action-specific (English) — needs L1 vague rewrite"
+  },
+  {
+    "source": "AndroidArena",
+    "source_id": "gmail_116",
+    "instruction_seed": "Forward the latest email sent from Google to \"bob@example.com\" in Gmail.",
+    "category": "gmail",
+    "mapped_kb_apps": [
+      "Google",
+      "gmail"
+    ],
+    "suggested_role": "L3 action-specific (English) — needs L1 vague rewrite"
+  },
+  {
+    "source": "AndroidArena",
+    "source_id": "gmail_117",
+    "instruction_seed": "Search for emails sent to \"bob@example.com\" in Gmail.",
+    "category": "gmail",
+    "mapped_kb_apps": [
+      "gmail"
+    ],
+    "suggested_role": "L3 action-specific (English) — needs L1 vague rewrite"
+  },
+  {
+    "source": "AndroidArena",
+    "source_id": "gmail_118",
+    "instruction_seed": "Delete the latest draft email to be send to \"bob@example.com\" in Gmail.",
+    "category": "gmail",
+    "mapped_kb_apps": [
+      "gmail"
+    ],
+    "suggested_role": "L3 action-specific (English) — needs L1 vague rewrite"
+  },
+  {
+    "source": "AndroidArena",
+    "source_id": "gmail_119",
+    "instruction_seed": "Mark important to the latest email sent from Google in Gmail.",
+    "category": "gmail",
+    "mapped_kb_apps": [
+      "Google",
+      "gmail"
+    ],
+    "suggested_role": "L3 action-specific (English) — needs L1 vague rewrite"
+  },
+  {
+    "source": "AndroidArena",
+    "source_id": "gmail_120",
+    "instruction_seed": "Archive the latest email sent from Google in Gmail.",
+    "category": "gmail",
+    "mapped_kb_apps": [
+      "Google",
+      "gmail"
+    ],
+    "suggested_role": "L3 action-specific (English) — needs L1 vague rewrite"
+  },
+  {
+    "source": "AndroidArena",
+    "source_id": "gmail_121",
+    "instruction_seed": "Search for all emails sent from Google in Gmail.",
+    "category": "gmail",
+    "mapped_kb_apps": [
+      "Google",
+      "gmail"
+    ],
+    "suggested_role": "L3 action-specific (English) — needs L1 vague rewrite"
+  },
+  {
+    "source": "AndroidArena",
+    "source_id": "gmail_122",
+    "instruction_seed": "Open Gmail settings.",
+    "category": "gmail",
+    "mapped_kb_apps": [
+      "gmail",
+      "设置"
+    ],
+    "suggested_role": "L3 action-specific (English) — needs L1 vague rewrite"
+  },
+  {
+    "source": "AndroidArena",
+    "source_id": "gmail_123",
+    "instruction_seed": "Turn off notifications of the current account for Gmail.",
+    "category": "gmail",
+    "mapped_kb_apps": [
+      "gmail"
+    ],
+    "suggested_role": "L3 action-specific (English) — needs L1 vague rewrite"
+  },
+  {
+    "source": "AndroidArena",
+    "source_id": "gmail_124",
+    "instruction_seed": "Change the conversation list density of emails to \"Comfortable\" in Gmail.",
+    "category": "gmail",
+    "mapped_kb_apps": [
+      "gmail"
+    ],
+    "suggested_role": "L3 action-specific (English) — needs L1 vague rewrite"
+  },
+  {
+    "source": "AndroidArena",
+    "source_id": "gmail_125",
+    "instruction_seed": "Change the theme to \"Dark\" of Gmail.",
+    "category": "gmail",
+    "mapped_kb_apps": [
+      "gmail"
+    ],
+    "suggested_role": "L3 action-specific (English) — needs L1 vague rewrite"
+  },
+  {
+    "source": "AndroidArena",
+    "source_id": "google-maps_138",
+    "instruction_seed": "Get directions from my current location to \"Microsoft SVC Building\".",
+    "category": "google-maps",
+    "mapped_kb_apps": [
+      "googleMap"
+    ],
+    "suggested_role": "L3 action-specific (English) — needs L1 vague rewrite"
+  },
+  {
+    "source": "AndroidArena",
+    "source_id": "google-maps_139",
+    "instruction_seed": "Show me the traffic conditions on my route to \"Microsoft SVC Building\".",
+    "category": "google-maps",
+    "mapped_kb_apps": [
+      "googleMap"
+    ],
+    "suggested_role": "L3 action-specific (English) — needs L1 vague rewrite"
+  },
+  {
+    "source": "AndroidArena",
+    "source_id": "google-maps_140",
+    "instruction_seed": "Switch to satellite view.",
+    "category": "google-maps",
+    "mapped_kb_apps": [
+      "googleMap"
+    ],
+    "suggested_role": "L3 action-specific (English) — needs L1 vague rewrite"
+  },
+  {
+    "source": "AndroidArena",
+    "source_id": "google-maps_141",
+    "instruction_seed": "Find the nearest gas station.",
+    "category": "google-maps",
+    "mapped_kb_apps": [
+      "googleMap"
+    ],
+    "suggested_role": "L3 action-specific (English) — needs L1 vague rewrite"
+  },
+  {
+    "source": "AndroidArena",
+    "source_id": "google-maps_142",
+    "instruction_seed": "Show me the Street View of \"Microsoft SVC Building\".",
+    "category": "google-maps",
+    "mapped_kb_apps": [
+      "googleMap"
+    ],
+    "suggested_role": "L3 action-specific (English) — needs L1 vague rewrite"
+  },
+  {
+    "source": "AndroidArena",
+    "source_id": "google-maps_143",
+    "instruction_seed": "Find the best route for walking to \"Microsoft SVC Building\".",
+    "category": "google-maps",
+    "mapped_kb_apps": [
+      "googleMap"
+    ],
+    "suggested_role": "L3 action-specific (English) — needs L1 vague rewrite"
+  },
+  {
+    "source": "AndroidArena",
+    "source_id": "google-maps_144",
+    "instruction_seed": "Show me the public transportation options to \"Microsoft SVC Building\".",
+    "category": "google-maps",
+    "mapped_kb_apps": [
+      "googleMap"
+    ],
+    "suggested_role": "L3 action-specific (English) — needs L1 vague rewrite"
+  },
+  {
+    "source": "AndroidArena",
+    "source_id": "google-maps_145",
+    "instruction_seed": "Save the address \"Los Altos Gardens\" for quick access.",
+    "category": "google-maps",
+    "mapped_kb_apps": [
+      "googleMap"
+    ],
+    "suggested_role": "L3 action-specific (English) — needs L1 vague rewrite"
+  },
+  {
+    "source": "AndroidArena",
+    "source_id": "google-maps_146",
+    "instruction_seed": "Find the nearest restaurant available now.",
+    "category": "google-maps",
+    "mapped_kb_apps": [
+      "googleMap"
+    ],
+    "suggested_role": "L3 action-specific (English) — needs L1 vague rewrite"
+  },
+  {
+    "source": "AndroidArena",
+    "source_id": "google-maps_147",
+    "instruction_seed": "Show me the distance from \"Los Altos Gardens\" to \"Microsoft SVC Building\".",
+    "category": "google-maps",
+    "mapped_kb_apps": [
+      "googleMap"
+    ],
+    "suggested_role": "L3 action-specific (English) — needs L1 vague rewrite"
+  },
+  {
+    "source": "AndroidArena",
+    "source_id": "google-maps_148",
+    "instruction_seed": "Find the nearest ATM.",
+    "category": "google-maps",
+    "mapped_kb_apps": [
+      "googleMap"
+    ],
+    "suggested_role": "L3 action-specific (English) — needs L1 vague rewrite"
+  },
+  {
+    "source": "AndroidArena",
+    "source_id": "google-maps_149",
+    "instruction_seed": "Find the nearest parking lot.",
+    "category": "google-maps",
+    "mapped_kb_apps": [
+      "googleMap"
+    ],
+    "suggested_role": "L3 action-specific (English) — needs L1 vague rewrite"
+  },
+  {
+    "source": "AndroidArena",
+    "source_id": "google-maps_150",
+    "instruction_seed": "Find the nearest hospital.",
+    "category": "google-maps",
+    "mapped_kb_apps": [
+      "googleMap"
+    ],
+    "suggested_role": "L3 action-specific (English) — needs L1 vague rewrite"
+  },
+  {
+    "source": "AndroidArena",
+    "source_id": "google-maps_151",
+    "instruction_seed": "Find the nearest hotel.",
+    "category": "google-maps",
+    "mapped_kb_apps": [
+      "googleMap"
+    ],
+    "suggested_role": "L3 action-specific (English) — needs L1 vague rewrite"
+  },
+  {
+    "source": "AndroidArena",
+    "source_id": "messages_152",
+    "instruction_seed": "Send a text message to \"Bob\" saying \"hello\" using Google Messages.",
+    "category": "messages",
+    "mapped_kb_apps": [
+      "Google",
+      "信息"
+    ],
+    "suggested_role": "L3 action-specific (English) — needs L1 vague rewrite"
+  },
+  {
+    "source": "AndroidArena",
+    "source_id": "messages_153",
+    "instruction_seed": "Send a text message to \"Bob\" saying \"here is a good YouTube video 'ChatGPT Explained Completely'\" using Google Messages.",
+    "category": "messages",
+    "mapped_kb_apps": [
+      "ChatGPT",
+      "Google",
+      "youtube",
+      "信息"
+    ],
+    "suggested_role": "L3 action-specific (English) — needs L1 vague rewrite"
+  },
+  {
+    "source": "AndroidArena",
+    "source_id": "messages_154",
+    "instruction_seed": "Schedule a message \"hello\" to be sent to \"Bob\" at tomorrow morning using Google Messages.",
+    "category": "messages",
+    "mapped_kb_apps": [
+      "Google",
+      "信息"
+    ],
+    "suggested_role": "L3 action-specific (English) — needs L1 vague rewrite"
+  },
+  {
+    "source": "AndroidArena",
+    "source_id": "messages_155",
+    "instruction_seed": "Search for the messages containing \"hello\" using Google Messages.",
+    "category": "messages",
+    "mapped_kb_apps": [
+      "Google",
+      "信息"
+    ],
+    "suggested_role": "L3 action-specific (English) — needs L1 vague rewrite"
+  },
+  {
+    "source": "AndroidArena",
+    "source_id": "messages_156",
+    "instruction_seed": "Mark the message containing \"hello\" as important using Google Messages.",
+    "category": "messages",
+    "mapped_kb_apps": [
+      "Google",
+      "信息"
+    ],
+    "suggested_role": "L3 action-specific (English) — needs L1 vague rewrite"
+  },
+  {
+    "source": "AndroidArena",
+    "source_id": "messages_157",
+    "instruction_seed": "Archive the message containing \"hello\" using Google Messages.",
+    "category": "messages",
+    "mapped_kb_apps": [
+      "Google",
+      "信息"
+    ],
+    "suggested_role": "L3 action-specific (English) — needs L1 vague rewrite"
+  },
+  {
+    "source": "AndroidArena",
+    "source_id": "messages_158",
+    "instruction_seed": "Delete the message containing \"hello\" using Google Messages.",
+    "category": "messages",
+    "mapped_kb_apps": [
+      "Google",
+      "信息"
+    ],
+    "suggested_role": "L3 action-specific (English) — needs L1 vague rewrite"
+  },
+  {
+    "source": "AndroidArena",
+    "source_id": "messages_159",
+    "instruction_seed": "Block a specific phone number \"010-654321\" using Google Messages.",
+    "category": "messages",
+    "mapped_kb_apps": [
+      "Google",
+      "信息"
+    ],
+    "suggested_role": "L3 action-specific (English) — needs L1 vague rewrite"
+  },
+  {
+    "source": "AndroidArena",
+    "source_id": "messages_160",
+    "instruction_seed": "Unblock the specific phone number \"010-654321\" using Google Messages.",
+    "category": "messages",
+    "mapped_kb_apps": [
+      "Google",
+      "信息"
+    ],
+    "suggested_role": "L3 action-specific (English) — needs L1 vague rewrite"
+  },
+  {
+    "source": "AndroidArena",
+    "source_id": "messages_161",
+    "instruction_seed": "Create a chat group called \"work\" with the first two people on the contact list using Google Messages.",
+    "category": "messages",
+    "mapped_kb_apps": [
+      "Google",
+      "信息"
+    ],
+    "suggested_role": "L3 action-specific (English) — needs L1 vague rewrite"
+  },
+  {
+    "source": "AndroidArena",
+    "source_id": "messages_162",
+    "instruction_seed": "Pin the specific chat \"work\" to the top of my chat list using Google Messages.",
+    "category": "messages",
+    "mapped_kb_apps": [
+      "Google",
+      "信息"
+    ],
+    "suggested_role": "L3 action-specific (English) — needs L1 vague rewrite"
+  },
+  {
+    "source": "AndroidArena",
+    "source_id": "messages_163",
+    "instruction_seed": "Delete the chat group called \"work\" in Google Messages.",
+    "category": "messages",
+    "mapped_kb_apps": [
+      "Google",
+      "信息"
+    ],
+    "suggested_role": "L3 action-specific (English) — needs L1 vague rewrite"
+  },
+  {
+    "source": "AndroidArena",
+    "source_id": "messages_164",
+    "instruction_seed": "Mute notifications for all chats using Google Messages.",
+    "category": "messages",
+    "mapped_kb_apps": [
+      "Google",
+      "信息"
+    ],
+    "suggested_role": "L3 action-specific (English) — needs L1 vague rewrite"
+  },
+  {
+    "source": "AndroidArena",
+    "source_id": "messages_165",
+    "instruction_seed": "Unmute notifications for all chats using Google Messages.",
+    "category": "messages",
+    "mapped_kb_apps": [
+      "Google",
+      "信息"
+    ],
+    "suggested_role": "L3 action-specific (English) — needs L1 vague rewrite"
+  },
+  {
+    "source": "AndroidArena",
+    "source_id": "photos_171",
+    "instruction_seed": "View my Google Photos information, including storage usage and account settings.",
+    "category": "photos",
+    "mapped_kb_apps": [
+      "设置"
+    ],
+    "suggested_role": "L3 action-specific (English) — needs L1 vague rewrite"
+  },
+  {
+    "source": "AndroidArena",
+    "source_id": "settings_172",
+    "instruction_seed": "Turn off Bluetooth.",
+    "category": "settings",
+    "mapped_kb_apps": [
+      "设置"
+    ],
+    "suggested_role": "L3 action-specific (English) — needs L1 vague rewrite"
+  },
+  {
+    "source": "AndroidArena",
+    "source_id": "settings_173",
+    "instruction_seed": "Turn on Bluetooth.",
+    "category": "settings",
+    "mapped_kb_apps": [
+      "设置"
+    ],
+    "suggested_role": "L3 action-specific (English) — needs L1 vague rewrite"
+  },
+  {
+    "source": "AndroidArena",
+    "source_id": "settings_174",
+    "instruction_seed": "Change the wallpaper to the first photo in the 'Life' category.",
+    "category": "settings",
+    "mapped_kb_apps": [
+      "设置"
+    ],
+    "suggested_role": "L3 action-specific (English) — needs L1 vague rewrite"
+  },
+  {
+    "source": "AndroidArena",
+    "source_id": "settings_175",
+    "instruction_seed": "Enable Wi-Fi.",
+    "category": "settings",
+    "mapped_kb_apps": [
+      "设置"
+    ],
+    "suggested_role": "L3 action-specific (English) — needs L1 vague rewrite"
+  },
+  {
+    "source": "AndroidArena",
+    "source_id": "settings_176",
+    "instruction_seed": "Disable Wi-Fi.",
+    "category": "settings",
+    "mapped_kb_apps": [
+      "设置"
+    ],
+    "suggested_role": "L3 action-specific (English) — needs L1 vague rewrite"
+  },
+  {
+    "source": "AndroidArena",
+    "source_id": "settings_177",
+    "instruction_seed": "Check the battery usage.",
+    "category": "settings",
+    "mapped_kb_apps": [
+      "设置"
+    ],
+    "suggested_role": "L3 action-specific (English) — needs L1 vague rewrite"
+  },
+  {
+    "source": "AndroidArena",
+    "source_id": "settings_178",
+    "instruction_seed": "Add 'Aghem' language of my Android device.",
+    "category": "settings",
+    "mapped_kb_apps": [
+      "设置"
+    ],
+    "suggested_role": "L3 action-specific (English) — needs L1 vague rewrite"
+  },
+  {
+    "source": "AndroidArena",
+    "source_id": "settings_179",
+    "instruction_seed": "Change the phone ringtone to \"Pixel Sounds Copycat\" on my Android device.",
+    "category": "settings",
+    "mapped_kb_apps": [
+      "设置"
+    ],
+    "suggested_role": "L3 action-specific (English) — needs L1 vague rewrite"
+  },
+  {
+    "source": "AndroidArena",
+    "source_id": "settings_180",
+    "instruction_seed": "Disable location services on my Android device.",
+    "category": "settings",
+    "mapped_kb_apps": [
+      "设置"
+    ],
+    "suggested_role": "L3 action-specific (English) — needs L1 vague rewrite"
+  },
+  {
+    "source": "AndroidArena",
+    "source_id": "settings_181",
+    "instruction_seed": "Enable location services on my Android device.",
+    "category": "settings",
+    "mapped_kb_apps": [
+      "设置"
+    ],
+    "suggested_role": "L3 action-specific (English) — needs L1 vague rewrite"
+  },
+  {
+    "source": "AndroidArena",
+    "source_id": "settings_182",
+    "instruction_seed": "Check the storage usage of my Android device.",
+    "category": "settings",
+    "mapped_kb_apps": [
+      "设置"
+    ],
+    "suggested_role": "L3 action-specific (English) — needs L1 vague rewrite"
+  },
+  {
+    "source": "AndroidArena",
+    "source_id": "settings_183",
+    "instruction_seed": "Change the font size on my Android device and make the text bigger.",
+    "category": "settings",
+    "mapped_kb_apps": [
+      "设置"
+    ],
+    "suggested_role": "L3 action-specific (English) — needs L1 vague rewrite"
+  },
+  {
+    "source": "AndroidArena",
+    "source_id": "settings_184",
+    "instruction_seed": "Enable airplane mode on my Android device.",
+    "category": "settings",
+    "mapped_kb_apps": [
+      "设置"
+    ],
+    "suggested_role": "L3 action-specific (English) — needs L1 vague rewrite"
+  },
+  {
+    "source": "AndroidArena",
+    "source_id": "settings_185",
+    "instruction_seed": "Disable airplane mode on my Android device.",
+    "category": "settings",
+    "mapped_kb_apps": [
+      "设置"
+    ],
+    "suggested_role": "L3 action-specific (English) — needs L1 vague rewrite"
+  },
+  {
+    "source": "AndroidArena",
+    "source_id": "settings_186",
+    "instruction_seed": "Change the screen timeout to '1 minute' on my Android device.",
+    "category": "settings",
+    "mapped_kb_apps": [
+      "设置"
+    ],
+    "suggested_role": "L3 action-specific (English) — needs L1 vague rewrite"
+  },
+  {
+    "source": "AndroidArena",
+    "source_id": "settings_187",
+    "instruction_seed": "Change the screen timeout to '30 seconds' on my Android device.",
+    "category": "settings",
+    "mapped_kb_apps": [
+      "设置"
+    ],
+    "suggested_role": "L3 action-specific (English) — needs L1 vague rewrite"
+  },
+  {
+    "source": "AndroidArena",
+    "source_id": "settings_188",
+    "instruction_seed": "Check for system updates on my Android device.",
+    "category": "settings",
+    "mapped_kb_apps": [
+      "设置"
+    ],
+    "suggested_role": "L3 action-specific (English) — needs L1 vague rewrite"
+  },
+  {
+    "source": "AndroidArena",
+    "source_id": "settings_189",
+    "instruction_seed": "Change the default web browser to chrome on my Android device.",
+    "category": "settings",
+    "mapped_kb_apps": [
+      "Chrome",
+      "设置"
+    ],
+    "suggested_role": "L3 action-specific (English) — needs L1 vague rewrite"
+  },
+  {
+    "source": "AndroidArena",
+    "source_id": "settings_190",
+    "instruction_seed": "Change the default web browser to firefox on my Android device.",
+    "category": "settings",
+    "mapped_kb_apps": [
+      "设置"
+    ],
+    "suggested_role": "L3 action-specific (English) — needs L1 vague rewrite"
+  },
+  {
+    "source": "AndroidArena",
+    "source_id": "weather_191",
+    "instruction_seed": "Get the current weather for my current location.",
+    "category": "weather",
+    "mapped_kb_apps": [
+      "天气"
+    ],
+    "suggested_role": "L3 action-specific (English) — needs L1 vague rewrite"
+  },
+  {
+    "source": "AndroidArena",
+    "source_id": "weather_192",
+    "instruction_seed": "Check the weather forecast for the next 3 days.",
+    "category": "weather",
+    "mapped_kb_apps": [
+      "天气"
+    ],
+    "suggested_role": "L3 action-specific (English) — needs L1 vague rewrite"
+  },
+  {
+    "source": "AndroidArena",
+    "source_id": "weather_193",
+    "instruction_seed": "View the wind speed and direction for the current weather.",
+    "category": "weather",
+    "mapped_kb_apps": [
+      "天气"
+    ],
+    "suggested_role": "L3 action-specific (English) — needs L1 vague rewrite"
+  },
+  {
+    "source": "AndroidArena",
+    "source_id": "weather_194",
+    "instruction_seed": "Check the chance of rain for the current weather.",
+    "category": "weather",
+    "mapped_kb_apps": [
+      "天气"
+    ],
+    "suggested_role": "L3 action-specific (English) — needs L1 vague rewrite"
+  },
+  {
+    "source": "AndroidArena",
+    "source_id": "weather_195",
+    "instruction_seed": "View the humidity level for the current weather.",
+    "category": "weather",
+    "mapped_kb_apps": [
+      "天气"
+    ],
+    "suggested_role": "L3 action-specific (English) — needs L1 vague rewrite"
+  },
+  {
+    "source": "AndroidArena",
+    "source_id": "weather_196",
+    "instruction_seed": "Check the UV index for the current weather.",
+    "category": "weather",
+    "mapped_kb_apps": [
+      "天气"
+    ],
+    "suggested_role": "L3 action-specific (English) — needs L1 vague rewrite"
+  },
+  {
+    "source": "AndroidArena",
+    "source_id": "weather_197",
+    "instruction_seed": "Find out the sunrise and sunset times for my current location.",
+    "category": "weather",
+    "mapped_kb_apps": [
+      "天气"
+    ],
+    "suggested_role": "L3 action-specific (English) — needs L1 vague rewrite"
+  },
+  {
+    "source": "AndroidArena",
+    "source_id": "weather_198",
+    "instruction_seed": "Switch from Celsius to Fahrenheit units in the Weather APP.",
+    "category": "weather",
+    "mapped_kb_apps": [
+      "天气"
+    ],
+    "suggested_role": "L3 action-specific (English) — needs L1 vague rewrite"
+  },
+  {
+    "source": "AndroidArena",
+    "source_id": "weather_199",
+    "instruction_seed": "Switch from Fahrenheit to Celsius units in the Weather APP.",
+    "category": "weather",
+    "mapped_kb_apps": [
+      "天气"
+    ],
+    "suggested_role": "L3 action-specific (English) — needs L1 vague rewrite"
+  },
+  {
+    "source": "AndroidArena",
+    "source_id": "weather_200",
+    "instruction_seed": "Get a detailed hourly forecast for the next 3 hours.",
+    "category": "weather",
+    "mapped_kb_apps": [
+      "天气"
+    ],
+    "suggested_role": "L3 action-specific (English) — needs L1 vague rewrite"
+  },
+  {
+    "source": "AndroidArena",
+    "source_id": "weather_201",
+    "instruction_seed": "View the weather radar for my current location.",
+    "category": "weather",
+    "mapped_kb_apps": [
+      "天气"
+    ],
+    "suggested_role": "L3 action-specific (English) — needs L1 vague rewrite"
+  },
+  {
+    "source": "AndroidArena",
+    "source_id": "weather_202",
+    "instruction_seed": "Get the weather for \"London\" by searching for it.",
+    "category": "weather",
+    "mapped_kb_apps": [
+      "天气"
+    ],
+    "suggested_role": "L3 action-specific (English) — needs L1 vague rewrite"
+  },
+  {
+    "source": "AndroidArena",
+    "source_id": "weather_203",
+    "instruction_seed": "Turn on significant weather forecast alerts for severe weather conditions.",
+    "category": "weather",
+    "mapped_kb_apps": [
+      "天气"
+    ],
+    "suggested_role": "L3 action-specific (English) — needs L1 vague rewrite"
+  },
+  {
+    "source": "AndroidArena",
+    "source_id": "weather_204",
+    "instruction_seed": "Turn off significant weather forecast alerts for severe weather conditions.",
+    "category": "weather",
+    "mapped_kb_apps": [
+      "天气"
+    ],
+    "suggested_role": "L3 action-specific (English) — needs L1 vague rewrite"
+  },
+  {
+    "source": "AndroidArena",
+    "source_id": "youtube_205",
+    "instruction_seed": "Search for videos using keywords \"ChatGPT\".",
+    "category": "youtube",
+    "mapped_kb_apps": [
+      "ChatGPT",
+      "youtube"
+    ],
+    "suggested_role": "L3 action-specific (English) — needs L1 vague rewrite"
+  },
+  {
+    "source": "AndroidArena",
+    "source_id": "youtube_206",
+    "instruction_seed": "Play the first video from the first page of YouTube.",
+    "category": "youtube",
+    "mapped_kb_apps": [
+      "youtube"
+    ],
+    "suggested_role": "L3 action-specific (English) — needs L1 vague rewrite"
+  },
+  {
+    "source": "AndroidArena",
+    "source_id": "youtube_207",
+    "instruction_seed": "Like the YouTube video titled \"ChatGPT Explained Completely\".",
+    "category": "youtube",
+    "mapped_kb_apps": [
+      "ChatGPT",
+      "youtube"
+    ],
+    "suggested_role": "L3 action-specific (English) — needs L1 vague rewrite"
+  },
+  {
+    "source": "AndroidArena",
+    "source_id": "youtube_208",
+    "instruction_seed": "Leave a comment \"Great!\" on the video titled \"ChatGPT Explained Completely\".",
+    "category": "youtube",
+    "mapped_kb_apps": [
+      "ChatGPT",
+      "youtube"
+    ],
+    "suggested_role": "L3 action-specific (English) — needs L1 vague rewrite"
+  },
+  {
+    "source": "AndroidArena",
+    "source_id": "youtube_209",
+    "instruction_seed": "Copy the share link of the YouTube video titled \"ChatGPT Explained Completely\".",
+    "category": "youtube",
+    "mapped_kb_apps": [
+      "ChatGPT",
+      "youtube"
+    ],
+    "suggested_role": "L3 action-specific (English) — needs L1 vague rewrite"
+  },
+  {
+    "source": "AndroidArena",
+    "source_id": "youtube_210",
+    "instruction_seed": "Subscribe to the YouTube channel \"Ted-Ed\".",
+    "category": "youtube",
+    "mapped_kb_apps": [
+      "youtube"
+    ],
+    "suggested_role": "L3 action-specific (English) — needs L1 vague rewrite"
+  },
+  {
+    "source": "AndroidArena",
+    "source_id": "youtube_211",
+    "instruction_seed": "Unsubscribe from the YouTube channel \"Ted-Ed\".",
+    "category": "youtube",
+    "mapped_kb_apps": [
+      "youtube"
+    ],
+    "suggested_role": "L3 action-specific (English) — needs L1 vague rewrite"
+  },
+  {
+    "source": "AndroidArena",
+    "source_id": "youtube_212",
+    "instruction_seed": "Create a YouTube playlist \"work\".",
+    "category": "youtube",
+    "mapped_kb_apps": [
+      "youtube"
+    ],
+    "suggested_role": "L3 action-specific (English) — needs L1 vague rewrite"
+  },
+  {
+    "source": "AndroidArena",
+    "source_id": "youtube_213",
+    "instruction_seed": "Add the online video titled \"ChatGPT Explained Completely\" to the YouTube playlist \"work\".",
+    "category": "youtube",
+    "mapped_kb_apps": [
+      "ChatGPT",
+      "youtube"
+    ],
+    "suggested_role": "L3 action-specific (English) — needs L1 vague rewrite"
+  },
+  {
+    "source": "AndroidArena",
+    "source_id": "youtube_214",
+    "instruction_seed": "Remove the video titled \"ChatGPT Explained Completely\" from the YouTube playlist \"work\".",
+    "category": "youtube",
+    "mapped_kb_apps": [
+      "ChatGPT",
+      "youtube"
+    ],
+    "suggested_role": "L3 action-specific (English) — needs L1 vague rewrite"
+  },
+  {
+    "source": "AndroidArena",
+    "source_id": "youtube_215",
+    "instruction_seed": "Rename the YouTube playlist \"work\" to \"test\".",
+    "category": "youtube",
+    "mapped_kb_apps": [
+      "youtube"
+    ],
+    "suggested_role": "L3 action-specific (English) — needs L1 vague rewrite"
+  },
+  {
+    "source": "AndroidArena",
+    "source_id": "youtube_216",
+    "instruction_seed": "Delete the YouTube playlist \"test\".",
+    "category": "youtube",
+    "mapped_kb_apps": [
+      "youtube"
+    ],
+    "suggested_role": "L3 action-specific (English) — needs L1 vague rewrite"
+  },
+  {
+    "source": "AndroidArena",
+    "source_id": "slack_217",
+    "instruction_seed": "Create a new workspace with the name \"myspace\" for project \"myproject\" in Slack and do not invite anyone.",
+    "category": "slack",
+    "mapped_kb_apps": [
+      "Slack"
+    ],
+    "suggested_role": "L3 action-specific (English) — needs L1 vague rewrite"
+  },
+  {
+    "source": "AndroidArena",
+    "source_id": "slack_218",
+    "instruction_seed": "Create a new public channel with the name \"work_channel\" in Slack.",
+    "category": "slack",
+    "mapped_kb_apps": [
+      "Slack"
+    ],
+    "suggested_role": "L3 action-specific (English) — needs L1 vague rewrite"
+  },
+  {
+    "source": "AndroidArena",
+    "source_id": "slack_219",
+    "instruction_seed": "Invite \"bob@example.com\" to join channel \"work_channel\" in Slack.",
+    "category": "slack",
+    "mapped_kb_apps": [
+      "Slack"
+    ],
+    "suggested_role": "L3 action-specific (English) — needs L1 vague rewrite"
+  },
+  {
+    "source": "AndroidArena",
+    "source_id": "slack_220",
+    "instruction_seed": "Send a message \"hello\" to \"bob\" in Slack.",
+    "category": "slack",
+    "mapped_kb_apps": [
+      "Slack",
+      "信息"
+    ],
+    "suggested_role": "L3 action-specific (English) — needs L1 vague rewrite"
+  },
+  {
+    "source": "AndroidArena",
+    "source_id": "slack_221",
+    "instruction_seed": "Mark a \"heart\" emoji to the most recent message from \"bob\" in Slack.",
+    "category": "slack",
+    "mapped_kb_apps": [
+      "Slack",
+      "信息"
+    ],
+    "suggested_role": "L3 action-specific (English) — needs L1 vague rewrite"
+  },
+  {
+    "source": "AndroidArena",
+    "source_id": "slack_222",
+    "instruction_seed": "Share the most recent file with \"bob\" in Slack.",
+    "category": "slack",
+    "mapped_kb_apps": [
+      "Slack"
+    ],
+    "suggested_role": "L3 action-specific (English) — needs L1 vague rewrite"
+  },
+  {
+    "source": "AndroidArena",
+    "source_id": "slack_223",
+    "instruction_seed": "Search for a specific conversation containing \"hello\" in Slack.",
+    "category": "slack",
+    "mapped_kb_apps": [
+      "Slack"
+    ],
+    "suggested_role": "L3 action-specific (English) — needs L1 vague rewrite"
+  },
+  {
+    "source": "AndroidArena",
+    "source_id": "slack_224",
+    "instruction_seed": "Mute the specific channel \"work_channel\" in Slack.",
+    "category": "slack",
+    "mapped_kb_apps": [
+      "Slack"
+    ],
+    "suggested_role": "L3 action-specific (English) — needs L1 vague rewrite"
+  },
+  {
+    "source": "AndroidArena",
+    "source_id": "slack_225",
+    "instruction_seed": "Change the slack theme to the dark mode.",
+    "category": "slack",
+    "mapped_kb_apps": [
+      "Slack"
+    ],
+    "suggested_role": "L3 action-specific (English) — needs L1 vague rewrite"
+  }
+]

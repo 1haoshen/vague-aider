@@ -1,0 +1,402 @@
+[
+  {
+    "source": "VagueBench",
+    "lang": "cn",
+    "source_id": 1,
+    "instruction": "把最新的自拍美颜后发给clock",
+    "declared_app": "美图、微信",
+    "vague_source": "paper-annotated Level1-INS"
+  },
+  {
+    "source": "VagueBench",
+    "lang": "cn",
+    "source_id": 2,
+    "instruction": "查一下正在热映的电影，问问好友clock想看其中哪一部电影。",
+    "declared_app": "猫眼、微信",
+    "vague_source": "paper-annotated Level1-INS"
+  },
+  {
+    "source": "VagueBench",
+    "lang": "cn",
+    "source_id": 3,
+    "instruction": "找几件300元左右的Nike运动短袖，比较推荐的放进购物车，并记录一份对比分析报告。",
+    "declared_app": "京东 笔记",
+    "vague_source": "paper-annotated Level1-INS"
+  },
+  {
+    "source": "VagueBench",
+    "lang": "cn",
+    "source_id": 4,
+    "instruction": "帮我找广州的度假村，整理用户评价后记录下来。",
+    "declared_app": "小红书、大众点评",
+    "vague_source": "paper-annotated Level1-INS"
+  },
+  {
+    "source": "VagueBench",
+    "lang": "cn",
+    "source_id": 6,
+    "instruction": "下载游戏水果忍者。",
+    "declared_app": "应用商店",
+    "vague_source": "paper-annotated Level1-INS"
+  },
+  {
+    "source": "VagueBench",
+    "lang": "cn",
+    "source_id": 7,
+    "instruction": "找到一本值得阅读的悬疑小说，并添加到我的购物车",
+    "declared_app": "京东 知乎",
+    "vague_source": "paper-annotated Level1-INS"
+  },
+  {
+    "source": "VagueBench",
+    "lang": "cn",
+    "source_id": 8,
+    "instruction": "定一个今天晚上8点的闹钟，我要看球赛。",
+    "declared_app": "闹钟",
+    "vague_source": "paper-annotated Level1-INS"
+  },
+  {
+    "source": "VagueBench",
+    "lang": "cn",
+    "source_id": 9,
+    "instruction": "查看阅兵的视频并发到朋友圈",
+    "declared_app": "bilibili 微信",
+    "vague_source": "paper-annotated Level1-INS"
+  },
+  {
+    "source": "VagueBench",
+    "lang": "cn",
+    "source_id": 11,
+    "instruction": "给我推荐一个性价比高的香水，并添加到我的购物车",
+    "declared_app": "小红书 京东 淘宝 拼多多",
+    "vague_source": "paper-annotated Level1-INS"
+  },
+  {
+    "source": "VagueBench",
+    "lang": "cn",
+    "source_id": 12,
+    "instruction": "播放凡人修仙传并分享给rui",
+    "declared_app": "哔哩哔哩 微信",
+    "vague_source": "paper-annotated Level1-INS"
+  },
+  {
+    "source": "VagueBench",
+    "lang": "cn",
+    "source_id": 13,
+    "instruction": "查看红米手机的价格。",
+    "declared_app": "",
+    "vague_source": "paper-annotated Level1-INS"
+  },
+  {
+    "source": "VagueBench",
+    "lang": "cn",
+    "source_id": 14,
+    "instruction": "推荐一个广州天河区的餐厅",
+    "declared_app": "大宗点评",
+    "vague_source": "paper-annotated Level1-INS"
+  },
+  {
+    "source": "VagueBench",
+    "lang": "cn",
+    "source_id": 15,
+    "instruction": "查看生活服务平台，推荐一个广州天河区的餐厅，并导航到该餐厅",
+    "declared_app": "大众点评 高德",
+    "vague_source": "paper-annotated Level1-INS"
+  },
+  {
+    "source": "VagueBench",
+    "lang": "cn",
+    "source_id": 16,
+    "instruction": "我想喝奶茶",
+    "declared_app": "美团",
+    "vague_source": "paper-annotated Level1-INS"
+  },
+  {
+    "source": "VagueBench",
+    "lang": "cn",
+    "source_id": 17,
+    "instruction": "帮我找推荐的健身歌单，把歌曲整理，并收集相关的乐评文章保存起来。",
+    "declared_app": "网易云、备忘录",
+    "vague_source": "paper-annotated Level1-INS"
+  },
+  {
+    "source": "VagueBench",
+    "lang": "cn",
+    "source_id": 18,
+    "instruction": "帮我找深圳科技展的介绍视频，筛选出点赞数最高的前三个评论，接着帮我在其他平台找用户体验，最终信息记录到手机上。",
+    "declared_app": "哔哩哔哩、知乎、备忘录",
+    "vague_source": "paper-annotated Level1-INS"
+  },
+  {
+    "source": "VagueBench",
+    "lang": "cn",
+    "source_id": 19,
+    "instruction": "找推荐度高且价格低的法国粉底液，然后把最便宜的那个加入购物车。",
+    "declared_app": "小红书、淘宝",
+    "vague_source": "paper-annotated Level1-INS"
+  },
+  {
+    "source": "VagueBench",
+    "lang": "cn",
+    "source_id": 20,
+    "instruction": "帮我查找飞韩国的机票什么航空公司好，总结出体验感前二好的航空公司，记录下来，然后帮我查询11月1日北京-首尔这两个航空公司的机票情况并添加到收藏夹。",
+    "declared_app": "小红书、携程",
+    "vague_source": "paper-annotated Level1-INS"
+  },
+  {
+    "source": "VagueBench",
+    "lang": "cn",
+    "source_id": 21,
+    "instruction": "分享歌曲蝴蝶给zyy",
+    "declared_app": "网易云、微信",
+    "vague_source": "paper-annotated Level1-INS"
+  },
+  {
+    "source": "VagueBench",
+    "lang": "cn",
+    "source_id": 22,
+    "instruction": "查看最近热映的电影并询问zyy的意见.",
+    "declared_app": "猫眼 微信",
+    "vague_source": "paper-annotated Level1-INS"
+  },
+  {
+    "source": "VagueBench",
+    "lang": "cn",
+    "source_id": 23,
+    "instruction": "查看广州最近的天气并记录",
+    "declared_app": "天气 笔记",
+    "vague_source": "paper-annotated Level1-INS"
+  },
+  {
+    "source": "VagueBench",
+    "lang": "cn",
+    "source_id": 24,
+    "instruction": "告诉我agent方向最新的论文",
+    "declared_app": "夸克",
+    "vague_source": "paper-annotated Level1-INS"
+  },
+  {
+    "source": "VagueBench",
+    "lang": "cn",
+    "source_id": 25,
+    "instruction": "查看最近F1赛事并记录赛程结果",
+    "declared_app": "夸克 备忘录",
+    "vague_source": "paper-annotated Level1-INS"
+  },
+  {
+    "source": "VagueBench",
+    "lang": "cn",
+    "source_id": 26,
+    "instruction": "帮我制定一份新加坡的旅游规划",
+    "declared_app": "携程",
+    "vague_source": "paper-annotated Level1-INS"
+  },
+  {
+    "source": "VagueBench",
+    "lang": "en",
+    "source_id": 29,
+    "instruction": "Help me follow rickandmorty’s official account and send a message saying the anime is great.",
+    "declared_app": "tiktok",
+    "vague_source": "paper-annotated Level1-INS"
+  },
+  {
+    "source": "VagueBench",
+    "lang": "en",
+    "source_id": 30,
+    "instruction": "Tell me LeBron James' birth date and stop at the answer screen.",
+    "declared_app": "edge",
+    "vague_source": "paper-annotated Level1-INS"
+  },
+  {
+    "source": "VagueBench",
+    "lang": "en",
+    "source_id": 31,
+    "instruction": "Please help me generate a one-day itinerary for New York City and save it.",
+    "declared_app": "tripadvisor  notes",
+    "vague_source": "paper-annotated Level1-INS"
+  },
+  {
+    "source": "VagueBench",
+    "lang": "en",
+    "source_id": 32,
+    "instruction": "Check Vancouver’s weather today and make a note of the climate.",
+    "declared_app": "weather、notepad",
+    "vague_source": "paper-annotated Level1-INS"
+  },
+  {
+    "source": "VagueBench",
+    "lang": "en",
+    "source_id": 33,
+    "instruction": "Check the Los Angeles weather forecast for the day after tomorrow and inform Kai Chen.",
+    "declared_app": "",
+    "vague_source": "paper-annotated Level1-INS"
+  },
+  {
+    "source": "VagueBench",
+    "lang": "en",
+    "source_id": 34,
+    "instruction": "Look up information about Mobile-based Agent and make a summary note.",
+    "declared_app": "",
+    "vague_source": "paper-annotated Level1-INS"
+  },
+  {
+    "source": "VagueBench",
+    "lang": "en",
+    "source_id": 35,
+    "instruction": "Tell me the exact location of CMU and share it with wechat xxoo.",
+    "declared_app": "googlemaps   wechat",
+    "vague_source": "paper-annotated Level1-INS"
+  },
+  {
+    "source": "VagueBench",
+    "lang": "en",
+    "source_id": 37,
+    "instruction": "Choose the unlocked 5G smartphone with the best price-performance ratio from multiple platforms and add it to your shopping cart.",
+    "declared_app": "walmart、ebay、amazon",
+    "vague_source": "paper-annotated Level1-INS"
+  },
+  {
+    "source": "VagueBench",
+    "lang": "en",
+    "source_id": 38,
+    "instruction": "Choose a cost-effective 5G phone under $200 and add it to my cart.",
+    "declared_app": "",
+    "vague_source": "paper-annotated Level1-INS"
+  },
+  {
+    "source": "VagueBench",
+    "lang": "en",
+    "source_id": 39,
+    "instruction": "Book an off-season flight to Reykjavik, Iceland.",
+    "declared_app": "booking",
+    "vague_source": "paper-annotated Level1-INS"
+  },
+  {
+    "source": "VagueBench",
+    "lang": "en",
+    "source_id": 40,
+    "instruction": "Find a highly-rated biography on social media planform and add it to your cart。",
+    "declared_app": "X,amazon",
+    "vague_source": "paper-annotated Level1-INS"
+  },
+  {
+    "source": "VagueBench",
+    "lang": "en",
+    "source_id": 41,
+    "instruction": "Play a lecture about large language models and share it with friend Kai Chen。",
+    "declared_app": "Youtube,facebook",
+    "vague_source": "paper-annotated Level1-INS"
+  },
+  {
+    "source": "VagueBench",
+    "lang": "en",
+    "source_id": 42,
+    "instruction": "Search for recipes on how to make chocolate cake and add the relevant ingredients to your cart.",
+    "declared_app": "\t\n,\n\"Google chorme\",\n\"Amazon\"\n",
+    "vague_source": "paper-annotated Level1-INS"
+  },
+  {
+    "source": "VagueBench",
+    "lang": "en",
+    "source_id": 43,
+    "instruction": "Search for and record Elon Musk's latest technological research.",
+    "declared_app": "chorme X notes",
+    "vague_source": "paper-annotated Level1-INS"
+  },
+  {
+    "source": "VagueBench",
+    "lang": "en",
+    "source_id": 44,
+    "instruction": "Collect three of Elon Musk's latest published scientific research and share it with friends xxoo",
+    "declared_app": "wechat Chorme",
+    "vague_source": "paper-annotated Level1-INS"
+  },
+  {
+    "source": "VagueBench",
+    "lang": "en",
+    "source_id": 45,
+    "instruction": "Check out recently released movies and ask Hao Alex for his opinion.",
+    "declared_app": "fandango、facebook",
+    "vague_source": "paper-annotated Level1-INS"
+  },
+  {
+    "source": "VagueBench",
+    "lang": "en",
+    "source_id": 46,
+    "instruction": "Please navigate from the National University of Singapore to Nanyang Technological University.",
+    "declared_app": "maps",
+    "vague_source": "paper-annotated Level1-INS"
+  },
+  {
+    "source": "VagueBench",
+    "lang": "en",
+    "source_id": 47,
+    "instruction": "View the latest trending news and record and share it with your friends xxoo",
+    "declared_app": "X notes wechat",
+    "vague_source": "paper-annotated Level1-INS"
+  },
+  {
+    "source": "VagueBench",
+    "lang": "en",
+    "source_id": 48,
+    "instruction": "Check out the latest critically acclaimed movies and reserve a movie ticket.",
+    "declared_app": "fandango",
+    "vague_source": "paper-annotated Level1-INS"
+  },
+  {
+    "source": "VagueBench",
+    "lang": "en",
+    "source_id": 49,
+    "instruction": "Check out the latest movies showing and reserve a ticket for tonight's screening.",
+    "declared_app": "fandango",
+    "vague_source": "paper-annotated Level1-INS"
+  },
+  {
+    "source": "VagueBench",
+    "lang": "en",
+    "source_id": 50,
+    "instruction": "Tell me the main results of the China-US trade negotiations and express your opinions on social media platforms.",
+    "declared_app": "chorme 、X/zhihu 、X/facebook",
+    "vague_source": "paper-annotated Level1-INS"
+  },
+  {
+    "source": "VagueBench",
+    "lang": "en",
+    "source_id": 51,
+    "instruction": "Please record the weather in Pittsburgh for the next three days and provTask_ide me with a travel plan.",
+    "declared_app": "weather、 tripadvisor、 notes",
+    "vague_source": "paper-annotated Level1-INS"
+  },
+  {
+    "source": "VagueBench",
+    "lang": "en",
+    "source_id": 52,
+    "instruction": "translated 'I miss you'into French and sent it to my friend Kai Chen.",
+    "declared_app": "chorme facebook",
+    "vague_source": "paper-annotated Level1-INS"
+  },
+  {
+    "source": "VagueBench",
+    "lang": "en",
+    "source_id": 53,
+    "instruction": "Check out the guTask_ides on buying guitars in the experience posts and recommend a guitar to me.",
+    "declared_app": "chorme/X/facebook  、 amazon/ebay",
+    "vague_source": "paper-annotated Level1-INS"
+  },
+  {
+    "source": "VagueBench",
+    "lang": "en",
+    "source_id": 54,
+    "instruction": "Search for China's most popular singer and play one of his songs.",
+    "declared_app": "Netease Cloud Music、chorme",
+    "vague_source": "paper-annotated Level1-INS"
+  },
+  {
+    "source": "VagueBench",
+    "lang": "en",
+    "source_id": 55,
+    "instruction": "Check the prices of AirPods Pro 3 on different shopping platforms, add the one with the lowest price to your shopping cart, and write a comparison report.",
+    "declared_app": "walmart、ebay、amazon",
+    "vague_source": "paper-annotated Level1-INS"
+  }
+]

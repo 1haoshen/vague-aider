@@ -1,0 +1,660 @@
+[
+  {
+    "source": "MVISU-Bench",
+    "lang": "cn",
+    "source_id": 41,
+    "instruction": "来点LLM相关文章。",
+    "declared_apps": [],
+    "mapped_kb_apps": [],
+    "vague_source": "label:TaskType==Vague"
+  },
+  {
+    "source": "MVISU-Bench",
+    "lang": "cn",
+    "source_id": 42,
+    "instruction": "我想听音乐。",
+    "declared_apps": [],
+    "mapped_kb_apps": [],
+    "vague_source": "label:TaskType==Vague"
+  },
+  {
+    "source": "MVISU-Bench",
+    "lang": "cn",
+    "source_id": 43,
+    "instruction": "我要看视频。",
+    "declared_apps": [],
+    "mapped_kb_apps": [],
+    "vague_source": "label:TaskType==Vague"
+  },
+  {
+    "source": "MVISU-Bench",
+    "lang": "cn",
+    "source_id": 44,
+    "instruction": "我想去北京旅游3天, 帮我生成一个旅游攻略。",
+    "declared_apps": [],
+    "mapped_kb_apps": [],
+    "vague_source": "label:TaskType==Vague"
+  },
+  {
+    "source": "MVISU-Bench",
+    "lang": "cn",
+    "source_id": 45,
+    "instruction": "帮我点杯冰美式咖啡。",
+    "declared_apps": [],
+    "mapped_kb_apps": [],
+    "vague_source": "label:TaskType==Vague"
+  },
+  {
+    "source": "MVISU-Bench",
+    "lang": "cn",
+    "source_id": 46,
+    "instruction": "我要听歌。",
+    "declared_apps": [],
+    "mapped_kb_apps": [],
+    "vague_source": "label:TaskType==Vague"
+  },
+  {
+    "source": "MVISU-Bench",
+    "lang": "cn",
+    "source_id": 47,
+    "instruction": "推荐点好玩的手机游戏。",
+    "declared_apps": [],
+    "mapped_kb_apps": [],
+    "vague_source": "label:TaskType==Vague"
+  },
+  {
+    "source": "MVISU-Bench",
+    "lang": "cn",
+    "source_id": 48,
+    "instruction": "放一首周传雄的歌。",
+    "declared_apps": [],
+    "mapped_kb_apps": [],
+    "vague_source": "label:TaskType==Vague"
+  },
+  {
+    "source": "MVISU-Bench",
+    "lang": "cn",
+    "source_id": 49,
+    "instruction": "打开一个关于曼联的视频。",
+    "declared_apps": [],
+    "mapped_kb_apps": [],
+    "vague_source": "label:TaskType==Vague"
+  },
+  {
+    "source": "MVISU-Bench",
+    "lang": "cn",
+    "source_id": 50,
+    "instruction": "帮我下载保存一个可爱的表情包图片。",
+    "declared_apps": [],
+    "mapped_kb_apps": [],
+    "vague_source": "label:TaskType==Vague"
+  },
+  {
+    "source": "MVISU-Bench",
+    "lang": "cn",
+    "source_id": 51,
+    "instruction": "推荐点吃的。",
+    "declared_apps": [],
+    "mapped_kb_apps": [],
+    "vague_source": "label:TaskType==Vague"
+  },
+  {
+    "source": "MVISU-Bench",
+    "lang": "cn",
+    "source_id": 52,
+    "instruction": "最近有什么好看的电影。",
+    "declared_apps": [],
+    "mapped_kb_apps": [],
+    "vague_source": "label:TaskType==Vague"
+  },
+  {
+    "source": "MVISU-Bench",
+    "lang": "cn",
+    "source_id": 53,
+    "instruction": "今天有发生什么重要新闻吗。",
+    "declared_apps": [],
+    "mapped_kb_apps": [],
+    "vague_source": "label:TaskType==Vague"
+  },
+  {
+    "source": "MVISU-Bench",
+    "lang": "cn",
+    "source_id": 54,
+    "instruction": "我该订外卖了。",
+    "declared_apps": [],
+    "mapped_kb_apps": [],
+    "vague_source": "label:TaskType==Vague"
+  },
+  {
+    "source": "MVISU-Bench",
+    "lang": "cn",
+    "source_id": 55,
+    "instruction": "记录一个待办事项。",
+    "declared_apps": [],
+    "mapped_kb_apps": [],
+    "vague_source": "label:TaskType==Vague"
+  },
+  {
+    "source": "MVISU-Bench",
+    "lang": "cn",
+    "source_id": 56,
+    "instruction": "设定一个提醒。",
+    "declared_apps": [],
+    "mapped_kb_apps": [],
+    "vague_source": "label:TaskType==Vague"
+  },
+  {
+    "source": "MVISU-Bench",
+    "lang": "cn",
+    "source_id": 57,
+    "instruction": "查一下快递到了没。",
+    "declared_apps": [],
+    "mapped_kb_apps": [],
+    "vague_source": "label:TaskType==Vague"
+  },
+  {
+    "source": "MVISU-Bench",
+    "lang": "cn",
+    "source_id": 58,
+    "instruction": "添加一个新的联系人。",
+    "declared_apps": [],
+    "mapped_kb_apps": [],
+    "vague_source": "label:TaskType==Vague"
+  },
+  {
+    "source": "MVISU-Bench",
+    "lang": "cn",
+    "source_id": 59,
+    "instruction": "我想购物。",
+    "declared_apps": [],
+    "mapped_kb_apps": [],
+    "vague_source": "label:TaskType==Vague"
+  },
+  {
+    "source": "MVISU-Bench",
+    "lang": "cn",
+    "source_id": 60,
+    "instruction": "我准备拍照。",
+    "declared_apps": [],
+    "mapped_kb_apps": [],
+    "vague_source": "label:TaskType==Vague"
+  },
+  {
+    "source": "MVISU-Bench",
+    "lang": "cn",
+    "source_id": 61,
+    "instruction": "请分享一些好用的手机应用。",
+    "declared_apps": [],
+    "mapped_kb_apps": [],
+    "vague_source": "label:TaskType==Vague"
+  },
+  {
+    "source": "MVISU-Bench",
+    "lang": "cn",
+    "source_id": 62,
+    "instruction": "帮我找找热门的短视频软件。",
+    "declared_apps": [],
+    "mapped_kb_apps": [],
+    "vague_source": "label:TaskType==Vague"
+  },
+  {
+    "source": "MVISU-Bench",
+    "lang": "cn",
+    "source_id": 63,
+    "instruction": "放点我喜欢的视频。",
+    "declared_apps": [],
+    "mapped_kb_apps": [],
+    "vague_source": "label:TaskType==Vague"
+  },
+  {
+    "source": "MVISU-Bench",
+    "lang": "cn",
+    "source_id": 64,
+    "instruction": "把文件发给小明。",
+    "declared_apps": [],
+    "mapped_kb_apps": [],
+    "vague_source": "label:TaskType==Vague"
+  },
+  {
+    "source": "MVISU-Bench",
+    "lang": "cn",
+    "source_id": 65,
+    "instruction": "买一台小米手机。",
+    "declared_apps": [],
+    "mapped_kb_apps": [],
+    "vague_source": "label:TaskType==Vague"
+  },
+  {
+    "source": "MVISU-Bench",
+    "lang": "cn",
+    "source_id": 66,
+    "instruction": "在美团上搜索一家附近的火锅店。",
+    "declared_apps": [],
+    "mapped_kb_apps": [
+      "美团"
+    ],
+    "vague_source": "label:TaskType==Vague"
+  },
+  {
+    "source": "MVISU-Bench",
+    "lang": "cn",
+    "source_id": 67,
+    "instruction": "关注”向前的赵“。",
+    "declared_apps": [],
+    "mapped_kb_apps": [],
+    "vague_source": "label:TaskType==Vague"
+  },
+  {
+    "source": "MVISU-Bench",
+    "lang": "cn",
+    "source_id": 68,
+    "instruction": "帮我点一份重庆小面。",
+    "declared_apps": [],
+    "mapped_kb_apps": [],
+    "vague_source": "label:TaskType==Vague"
+  },
+  {
+    "source": "MVISU-Bench",
+    "lang": "cn",
+    "source_id": 69,
+    "instruction": "叫辆车吧。",
+    "declared_apps": [],
+    "mapped_kb_apps": [],
+    "vague_source": "label:TaskType==Vague"
+  },
+  {
+    "source": "MVISU-Bench",
+    "lang": "cn",
+    "source_id": 70,
+    "instruction": "寻个乐子。",
+    "declared_apps": [],
+    "mapped_kb_apps": [],
+    "vague_source": "label:TaskType==Vague"
+  },
+  {
+    "source": "MVISU-Bench",
+    "lang": "cn",
+    "source_id": 71,
+    "instruction": "最近有哪些热门的电视剧。",
+    "declared_apps": [],
+    "mapped_kb_apps": [],
+    "vague_source": "label:TaskType==Vague"
+  },
+  {
+    "source": "MVISU-Bench",
+    "lang": "cn",
+    "source_id": 72,
+    "instruction": "有哪些好用的购物App推荐一下。",
+    "declared_apps": [],
+    "mapped_kb_apps": [],
+    "vague_source": "label:TaskType==Vague"
+  },
+  {
+    "source": "MVISU-Bench",
+    "lang": "cn",
+    "source_id": 73,
+    "instruction": "查看一下我最近的运动情况。",
+    "declared_apps": [],
+    "mapped_kb_apps": [],
+    "vague_source": "label:TaskType==Vague"
+  },
+  {
+    "source": "MVISU-Bench",
+    "lang": "cn",
+    "source_id": 74,
+    "instruction": "查看一下雷蛇键盘的性能。",
+    "declared_apps": [],
+    "mapped_kb_apps": [],
+    "vague_source": "label:TaskType==Vague"
+  },
+  {
+    "source": "MVISU-Bench",
+    "lang": "cn",
+    "source_id": 75,
+    "instruction": "订个五星级酒店。",
+    "declared_apps": [],
+    "mapped_kb_apps": [],
+    "vague_source": "label:TaskType==Vague"
+  },
+  {
+    "source": "MVISU-Bench",
+    "lang": "cn",
+    "source_id": 76,
+    "instruction": "查询怎么植发。",
+    "declared_apps": [],
+    "mapped_kb_apps": [],
+    "vague_source": "label:TaskType==Vague"
+  },
+  {
+    "source": "MVISU-Bench",
+    "lang": "en",
+    "source_id": 36,
+    "instruction": "I want to watch video.",
+    "declared_apps": [],
+    "mapped_kb_apps": [],
+    "vague_source": "label:TaskType==Vague"
+  },
+  {
+    "source": "MVISU-Bench",
+    "lang": "en",
+    "source_id": 37,
+    "instruction": "I want to eat.",
+    "declared_apps": [],
+    "mapped_kb_apps": [],
+    "vague_source": "label:TaskType==Vague"
+  },
+  {
+    "source": "MVISU-Bench",
+    "lang": "en",
+    "source_id": 38,
+    "instruction": "I want to listen music.",
+    "declared_apps": [],
+    "mapped_kb_apps": [],
+    "vague_source": "label:TaskType==Vague"
+  },
+  {
+    "source": "MVISU-Bench",
+    "lang": "en",
+    "source_id": 39,
+    "instruction": "Are there any good movies recently.",
+    "declared_apps": [],
+    "mapped_kb_apps": [],
+    "vague_source": "label:TaskType==Vague"
+  },
+  {
+    "source": "MVISU-Bench",
+    "lang": "en",
+    "source_id": 40,
+    "instruction": "Open a video about funny things.",
+    "declared_apps": [],
+    "mapped_kb_apps": [],
+    "vague_source": "label:TaskType==Vague"
+  },
+  {
+    "source": "MVISU-Bench",
+    "lang": "en",
+    "source_id": 41,
+    "instruction": "What's the weather like in Washington today.",
+    "declared_apps": [],
+    "mapped_kb_apps": [
+      "天气"
+    ],
+    "vague_source": "label:TaskType==Vague"
+  },
+  {
+    "source": "MVISU-Bench",
+    "lang": "en",
+    "source_id": 42,
+    "instruction": "Download and save a picture of cute sticker for me.",
+    "declared_apps": [],
+    "mapped_kb_apps": [],
+    "vague_source": "label:TaskType==Vague"
+  },
+  {
+    "source": "MVISU-Bench",
+    "lang": "en",
+    "source_id": 43,
+    "instruction": "Is there any important news happening in the United States today.",
+    "declared_apps": [],
+    "mapped_kb_apps": [],
+    "vague_source": "label:TaskType==Vague"
+  },
+  {
+    "source": "MVISU-Bench",
+    "lang": "en",
+    "source_id": 44,
+    "instruction": "Recommend some fun mobile games.",
+    "declared_apps": [],
+    "mapped_kb_apps": [],
+    "vague_source": "label:TaskType==Vague"
+  },
+  {
+    "source": "MVISU-Bench",
+    "lang": "en",
+    "source_id": 45,
+    "instruction": "I want to buy books.",
+    "declared_apps": [],
+    "mapped_kb_apps": [],
+    "vague_source": "label:TaskType==Vague"
+  },
+  {
+    "source": "MVISU-Bench",
+    "lang": "en",
+    "source_id": 46,
+    "instruction": "We are planning to play games.",
+    "declared_apps": [],
+    "mapped_kb_apps": [],
+    "vague_source": "label:TaskType==Vague"
+  },
+  {
+    "source": "MVISU-Bench",
+    "lang": "en",
+    "source_id": 47,
+    "instruction": "Help me order an iced Americano.",
+    "declared_apps": [],
+    "mapped_kb_apps": [],
+    "vague_source": "label:TaskType==Vague"
+  },
+  {
+    "source": "MVISU-Bench",
+    "lang": "en",
+    "source_id": 48,
+    "instruction": "Play a song by Wang Leehom.",
+    "declared_apps": [],
+    "mapped_kb_apps": [],
+    "vague_source": "label:TaskType==Vague"
+  },
+  {
+    "source": "MVISU-Bench",
+    "lang": "en",
+    "source_id": 49,
+    "instruction": "I would like to have a meal.",
+    "declared_apps": [],
+    "mapped_kb_apps": [],
+    "vague_source": "label:TaskType==Vague"
+  },
+  {
+    "source": "MVISU-Bench",
+    "lang": "en",
+    "source_id": 50,
+    "instruction": "I am hungry for some food.",
+    "declared_apps": [],
+    "mapped_kb_apps": [],
+    "vague_source": "label:TaskType==Vague"
+  },
+  {
+    "source": "MVISU-Bench",
+    "lang": "en",
+    "source_id": 51,
+    "instruction": "Open a video about Manchester City.",
+    "declared_apps": [],
+    "mapped_kb_apps": [],
+    "vague_source": "label:TaskType==Vague"
+  },
+  {
+    "source": "MVISU-Bench",
+    "lang": "en",
+    "source_id": 52,
+    "instruction": "I hopes to visit the museum.",
+    "declared_apps": [],
+    "mapped_kb_apps": [],
+    "vague_source": "label:TaskType==Vague"
+  },
+  {
+    "source": "MVISU-Bench",
+    "lang": "en",
+    "source_id": 53,
+    "instruction": "We plan on watching a movie.",
+    "declared_apps": [],
+    "mapped_kb_apps": [],
+    "vague_source": "label:TaskType==Vague"
+  },
+  {
+    "source": "MVISU-Bench",
+    "lang": "en",
+    "source_id": 54,
+    "instruction": "Add a new contact named Jerry.",
+    "declared_apps": [],
+    "mapped_kb_apps": [],
+    "vague_source": "label:TaskType==Vague"
+  },
+  {
+    "source": "MVISU-Bench",
+    "lang": "en",
+    "source_id": 55,
+    "instruction": "Check if the package has arrived.",
+    "declared_apps": [],
+    "mapped_kb_apps": [],
+    "vague_source": "label:TaskType==Vague"
+  },
+  {
+    "source": "MVISU-Bench",
+    "lang": "en",
+    "source_id": 56,
+    "instruction": "Record a to-do list.",
+    "declared_apps": [],
+    "mapped_kb_apps": [],
+    "vague_source": "label:TaskType==Vague"
+  },
+  {
+    "source": "MVISU-Bench",
+    "lang": "en",
+    "source_id": 57,
+    "instruction": "Play a documentary on Chelsea FC.",
+    "declared_apps": [],
+    "mapped_kb_apps": [],
+    "vague_source": "label:TaskType==Vague"
+  },
+  {
+    "source": "MVISU-Bench",
+    "lang": "en",
+    "source_id": 58,
+    "instruction": "Load a film featuring Liverpool players.",
+    "declared_apps": [],
+    "mapped_kb_apps": [],
+    "vague_source": "label:TaskType==Vague"
+  },
+  {
+    "source": "MVISU-Bench",
+    "lang": "en",
+    "source_id": 59,
+    "instruction": "Start streaming content related to Arsenal Football Club.",
+    "declared_apps": [],
+    "mapped_kb_apps": [],
+    "vague_source": "label:TaskType==Vague"
+  },
+  {
+    "source": "MVISU-Bench",
+    "lang": "en",
+    "source_id": 60,
+    "instruction": "How's the weather in Berlin today?",
+    "declared_apps": [],
+    "mapped_kb_apps": [
+      "天气"
+    ],
+    "vague_source": "label:TaskType==Vague"
+  },
+  {
+    "source": "MVISU-Bench",
+    "lang": "en",
+    "source_id": 61,
+    "instruction": "Tell me the current weather condition in my school.",
+    "declared_apps": [],
+    "mapped_kb_apps": [
+      "天气"
+    ],
+    "vague_source": "label:TaskType==Vague"
+  },
+  {
+    "source": "MVISU-Bench",
+    "lang": "en",
+    "source_id": 62,
+    "instruction": "Buy an Apple phone.",
+    "declared_apps": [],
+    "mapped_kb_apps": [],
+    "vague_source": "label:TaskType==Vague"
+  },
+  {
+    "source": "MVISU-Bench",
+    "lang": "en",
+    "source_id": 63,
+    "instruction": "Grab and download an image of the cute emoji.",
+    "declared_apps": [],
+    "mapped_kb_apps": [
+      "grab"
+    ],
+    "vague_source": "label:TaskType==Vague"
+  },
+  {
+    "source": "MVISU-Bench",
+    "lang": "en",
+    "source_id": 64,
+    "instruction": "Order a car.",
+    "declared_apps": [],
+    "mapped_kb_apps": [],
+    "vague_source": "label:TaskType==Vague"
+  },
+  {
+    "source": "MVISU-Bench",
+    "lang": "en",
+    "source_id": 65,
+    "instruction": "Search for a hotpot restaurant nearby.",
+    "declared_apps": [],
+    "mapped_kb_apps": [],
+    "vague_source": "label:TaskType==Vague"
+  },
+  {
+    "source": "MVISU-Bench",
+    "lang": "en",
+    "source_id": 66,
+    "instruction": "What's the latest significant development in the United States today?",
+    "declared_apps": [],
+    "mapped_kb_apps": [],
+    "vague_source": "label:TaskType==Vague"
+  },
+  {
+    "source": "MVISU-Bench",
+    "lang": "en",
+    "source_id": 67,
+    "instruction": "Have fun.",
+    "declared_apps": [],
+    "mapped_kb_apps": [],
+    "vague_source": "label:TaskType==Vague"
+  },
+  {
+    "source": "MVISU-Bench",
+    "lang": "en",
+    "source_id": 68,
+    "instruction": "Tell me if there's any crucial information regarding the US today.",
+    "declared_apps": [],
+    "mapped_kb_apps": [],
+    "vague_source": "label:TaskType==Vague"
+  },
+  {
+    "source": "MVISU-Bench",
+    "lang": "en",
+    "source_id": 69,
+    "instruction": "Check my recent workout status.",
+    "declared_apps": [],
+    "mapped_kb_apps": [],
+    "vague_source": "label:TaskType==Vague"
+  },
+  {
+    "source": "MVISU-Bench",
+    "lang": "en",
+    "source_id": 70,
+    "instruction": "Take a look at the performance of the Alienware desktop.",
+    "declared_apps": [],
+    "mapped_kb_apps": [],
+    "vague_source": "label:TaskType==Vague"
+  },
+  {
+    "source": "MVISU-Bench",
+    "lang": "en",
+    "source_id": 71,
+    "instruction": "Help me book a coastal hotel.",
+    "declared_apps": [],
+    "mapped_kb_apps": [],
+    "vague_source": "label:TaskType==Vague"
+  }
+]

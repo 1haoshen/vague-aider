@@ -1,0 +1,1827 @@
+[
+  {
+    "source": "MobileWorld",
+    "source_id": "work/calculate_walking_route_email.py",
+    "instruction_seed": "我想每天晚饭后从阿里巴巴西溪园区散步到西溪湿地。 我家在「浙江省杭州市余杭区文一西路阿里巴巴西溪园区C区三号楼」， 公园在「西溪国家湿地公园周家村主入口」，",
+    "declared_apps": [
+      "MCP-Amap",
+      "Mail"
+    ],
+    "mapped_kb_apps": [
+      "邮件",
+      "高德地图(Amap)"
+    ],
+    "suggested_role": "L1/L2 goal-style — needs L3 expand"
+  },
+  {
+    "source": "MobileWorld",
+    "source_id": "work/mattermost_project_status_report.py",
+    "instruction_seed": "I need a comprehensive project status report. Check these Mattermost channels:  'backend-team', 'frontend-team', and 'qa-team' for status updates.  For each team, identify items marked as 'blocked', 'at-risk', or 'on-track'.  Cross-reference with calendar milestones to verify if timeline claims are accurate.  Generate a risk matrix report in the following format: \\n",
+    "declared_apps": [
+      "Calendar",
+      "Mail",
+      "Mattermost"
+    ],
+    "mapped_kb_apps": [
+      "日历",
+      "邮件"
+    ],
+    "suggested_role": "L1/L2 goal-style — needs L3 expand"
+  },
+  {
+    "source": "MobileWorld",
+    "source_id": "work/mattermost_shift_coverage.py",
+    "instruction_seed": "Review shift swap requests in 'shift-requests' channel.  Check the Calendar for any conflicts on the requested dates.  All Hands Training",
+    "declared_apps": [
+      "Calendar",
+      "Mail",
+      "Mattermost"
+    ],
+    "mapped_kb_apps": [
+      "日历",
+      "邮件"
+    ],
+    "suggested_role": "L1/L2 goal-style — needs L3 expand"
+  },
+  {
+    "source": "MobileWorld",
+    "source_id": "work/extract_benchmark_comparison_email.py",
+    "instruction_seed": "I am checking some benchmark numbers for our paper.\\n Please open the paper at: https://arxiv.org/pdf/2508.15144\\n In this paper, locate the results on the **MMBench-GUI L1** test set.\\n From that benchmark, extract the performance scores of uitars-72B and Claude-3.7\\n Then determine:\\n",
+    "declared_apps": [
+      "Chrome",
+      "MCP-arXiv",
+      "Mail"
+    ],
+    "mapped_kb_apps": [
+      "Chrome",
+      "邮件"
+    ],
+    "suggested_role": "L1/L2 goal-style — needs L3 expand"
+  },
+  {
+    "source": "MobileWorld",
+    "source_id": "work/get_arxiv_paper_email.py",
+    "instruction_seed": "I just came across a paper at https://arxiv.org/pdf/2510.20286 — please parse its content, extract the abstract, and email it to mikeshow@gmail.com with the paper title as the subject and the abstract as the body.",
+    "declared_apps": [
+      "MCP-arXiv",
+      "Mail"
+    ],
+    "mapped_kb_apps": [
+      "gmail"
+    ],
+    "suggested_role": "L1/L2 goal-style — needs L3 expand"
+  },
+  {
+    "source": "MobileWorld",
+    "source_id": "work/mattermost_deadline_reconciliation.py",
+    "instruction_seed": "I suspect there's a discrepancy between what was discussed and what got documented.  Please verify by checking the project-updates channel on Mattermost for any messages  mentioning 'deadline' or 'milestone'. For each deadline mentioned, check if there's a  corresponding calendar event within ±2 days of the mentioned date.  Generate a reconciliation report showing:",
+    "declared_apps": [
+      "Calendar",
+      "Mail",
+      "Mattermost"
+    ],
+    "mapped_kb_apps": [
+      "信息",
+      "日历",
+      "邮件"
+    ],
+    "suggested_role": "L1/L2 goal-style — needs L3 expand"
+  },
+  {
+    "source": "MobileWorld",
+    "source_id": "work/mattermost_email.py",
+    "instruction_seed": "Sam has sent me a signed contract on Mattermost. Send it to our Legal (legal@company.com) through email. Include the tracking code. Send sam a quick confirmation when you're done. Thanks.",
+    "declared_apps": [
+      "Mail",
+      "Mattermost"
+    ],
+    "mapped_kb_apps": [
+      "邮件"
+    ],
+    "suggested_role": "L1/L2 goal-style — needs L3 expand"
+  },
+  {
+    "source": "MobileWorld",
+    "source_id": "work/extract_trajectory_environments_email.py",
+    "instruction_seed": "Please open the paper at: https://arxiv.org/pdf/2508.15144\\n My collaborator asked me to study how this paper collects trajectory data.\\n",
+    "declared_apps": [
+      "MCP-arXiv",
+      "Mail"
+    ],
+    "mapped_kb_apps": [
+      "邮件"
+    ],
+    "suggested_role": "L1/L2 goal-style — needs L3 expand"
+  },
+  {
+    "source": "MobileWorld",
+    "source_id": "work/mattermost_send_file.py",
+    "instruction_seed": "It's alex's 21st birthday today. Send a birthday message to him privately on mattermost. Upload a birthday cake image to the message.",
+    "declared_apps": [
+      "Mattermost"
+    ],
+    "mapped_kb_apps": [
+      "信息"
+    ],
+    "suggested_role": "L1/L2 goal-style — needs L3 expand"
+  },
+  {
+    "source": "MobileWorld",
+    "source_id": "work/download_readme_task.py",
+    "instruction_seed": "Download the README content from the repository google-research/android_world and send an email to mike@gmail.com with the subject `aw_readme notes for macos` about the notes for macos from the README when setting up the environment.",
+    "declared_apps": [
+      "MCP-Github",
+      "Mail"
+    ],
+    "mapped_kb_apps": [
+      "Google",
+      "gmail",
+      "备忘录/笔记",
+      "设置"
+    ],
+    "suggested_role": "L1/L2 goal-style — needs L3 expand"
+  },
+  {
+    "source": "MobileWorld",
+    "source_id": "work/mattermost_project_handover.py",
+    "instruction_seed": "I'm passing the Phoenix project to Alex. Add Alex to the phoenix channel on mattermost.  ping everyone to schedule a 1-hour project meeting on Monday (find an available time slot from my calendar). Use this exact format in your message: `Meeting Time: [YYYY-MM-DD] from [HH:MM] to [HH:MM]`",
+    "declared_apps": [
+      "Calendar",
+      "Mattermost"
+    ],
+    "mapped_kb_apps": [
+      "信息",
+      "日历"
+    ],
+    "suggested_role": "L1/L2 goal-style — needs L3 expand"
+  },
+  {
+    "source": "MobileWorld",
+    "source_id": "work/mattermost_incident_escalation.py",
+    "instruction_seed": "Monitor the 'support-tickets' channel for CRITICAL incidents.  If a critical ticket is found:\\n incident-<ticket_id>",
+    "declared_apps": [
+      "Calendar",
+      "Mail",
+      "Mattermost"
+    ],
+    "mapped_kb_apps": [
+      "日历",
+      "邮件"
+    ],
+    "suggested_role": "L1/L2 goal-style — needs L3 expand"
+  },
+  {
+    "source": "MobileWorld",
+    "source_id": "work/mattermost_reading_group.py",
+    "instruction_seed": "Please help me complete the task in mattermost reading group following sam's request.",
+    "declared_apps": [
+      "Chrome",
+      "Mattermost"
+    ],
+    "mapped_kb_apps": [
+      "Chrome"
+    ],
+    "suggested_role": "L1/L2 goal-style — needs L3 expand"
+  },
+  {
+    "source": "MobileWorld",
+    "source_id": "work/mattermost_customer_feedback_analysis.py",
+    "instruction_seed": "customer-feedback",
+    "declared_apps": [
+      "Calendar",
+      "Mail",
+      "Mattermost"
+    ],
+    "mapped_kb_apps": [
+      "日历",
+      "邮件"
+    ],
+    "suggested_role": "L1/L2 goal-style — needs L3 expand"
+  },
+  {
+    "source": "MobileWorld",
+    "source_id": "work/photo_management.py",
+    "instruction_seed": "Find all my food pics from the past month and help me classify them into different folders named travel locations. You can find where I visited from calendar.",
+    "declared_apps": [
+      "Calendar",
+      "Gallery"
+    ],
+    "mapped_kb_apps": [
+      "日历",
+      "相册"
+    ],
+    "suggested_role": "L1/L2 goal-style — needs L3 expand"
+  },
+  {
+    "source": "MobileWorld",
+    "source_id": "work/mattermost_resource_conflict_resolution.py",
+    "instruction_seed": "Check the 'resource-booking' channel on Mattermost for resource requests.  Cross-reference each request with the calendar to determine status.  Send a report email to 'facilities@company.com' with subject 'Resource Booking Conflicts'  in the following format:\\n",
+    "declared_apps": [
+      "Calendar",
+      "Mail",
+      "Mattermost"
+    ],
+    "mapped_kb_apps": [
+      "booking",
+      "日历",
+      "邮件"
+    ],
+    "suggested_role": "L1/L2 goal-style — needs L3 expand"
+  },
+  {
+    "source": "MobileWorld",
+    "source_id": "work/search_python_repos_email.py",
+    "instruction_seed": "I'm on the subway and want to find some Python open source projects to learn from.  Help me search on GitHub for repositories with language:Python stars:>1000,  select the most starred 5 repositories, format it as 'repo name -- repo link',  organize them into the email content with line breaks between different repository information,  set the email title to \"Python Learning\", and send it to mike@gmail.com",
+    "declared_apps": [
+      "MCP-Github",
+      "Mail"
+    ],
+    "mapped_kb_apps": [
+      "gmail"
+    ],
+    "suggested_role": "L1/L2 goal-style — needs L3 expand"
+  },
+  {
+    "source": "MobileWorld",
+    "source_id": "work/search_mllm_papers_email.py",
+    "instruction_seed": "我准备写博士 thesis 相关工作，方向是「multimodal large language models」， 帮我在 arXiv 搜索 multimodal large language model 相关论文，找最近发表的5篇， 把论文的链接email给mikeshow@gmail.com, 标题为mllm，内容为5篇论文的链接，链接之间有换行符",
+    "declared_apps": [
+      "MCP-arXiv",
+      "Mail"
+    ],
+    "mapped_kb_apps": [
+      "gmail"
+    ],
+    "suggested_role": "L1/L2 goal-style — needs L3 expand"
+  },
+  {
+    "source": "MobileWorld",
+    "source_id": "work/mattermost_reply_to_message.py",
+    "instruction_seed": "I just got our OSWorld eval SR result (35.5). Reply to my own earlier message in AI-Research on mattermost with the result.",
+    "declared_apps": [
+      "Mattermost"
+    ],
+    "mapped_kb_apps": [
+      "信息"
+    ],
+    "suggested_role": "L1/L2 goal-style — needs L3 expand"
+  },
+  {
+    "source": "MobileWorld",
+    "source_id": "work/mattermost_visual_instruction_response.py",
+    "instruction_seed": "Check the 'emergency-response' channel on Mattermost. The operations manager  has posted a whiteboard photo with emergency contacts and shift times.  Please:\\n 1. Create new contacts for the people listed in the 'Emergency Contacts' image. Only fill the first name and phone number.\\n 2. Set alarms for the shift start times listed in the 'Shift Schedule' image,  using the shift name as the alarm label.",
+    "declared_apps": [
+      "Clock",
+      "Contacts",
+      "Mattermost"
+    ],
+    "mapped_kb_apps": [
+      "闹钟"
+    ],
+    "suggested_role": "L1/L2 goal-style — needs L3 expand"
+  },
+  {
+    "source": "MobileWorld",
+    "source_id": "work/search_rust_users_task.py",
+    "instruction_seed": "I've been learning Rust recently, help me search on GitHub for active users related to rust,  find the top 5 with the most followers, format their usernames and profile pages as \"username: profile link\" per line,  email to mikeshow@gmail.com with the title 'top-5 rust users'",
+    "declared_apps": [
+      "MCP-Github",
+      "Mail"
+    ],
+    "mapped_kb_apps": [
+      "gmail"
+    ],
+    "suggested_role": "L1/L2 goal-style — needs L3 expand"
+  },
+  {
+    "source": "MobileWorld",
+    "source_id": "work/mattermost_create_channel.py",
+    "instruction_seed": "Create a channel on Mattermost called 'reading' for paper reading. Add everyone to the channel and greet everyone with a welcome message.",
+    "declared_apps": [
+      "Mattermost"
+    ],
+    "mapped_kb_apps": [
+      "信息"
+    ],
+    "suggested_role": "L1/L2 goal-style — needs L3 expand"
+  },
+  {
+    "source": "MobileWorld",
+    "source_id": "work/extract_webpage_links_email.py",
+    "instruction_seed": "获取网页https://yenanliu.github.io/AVSS.github.io/的所有子链接， 用英文逗号分隔返回，例如：url1,url2,url3， 把得到的链接发送到chen@gmail.com，自拟邮件标题。",
+    "declared_apps": [
+      "MCP-jina",
+      "Mail"
+    ],
+    "mapped_kb_apps": [
+      "gmail",
+      "邮件"
+    ],
+    "suggested_role": "L1/L2 goal-style — needs L3 expand"
+  },
+  {
+    "source": "MobileWorld",
+    "source_id": "work/mattermost_technical_debt_triage.py",
+    "instruction_seed": "Review the 'tech-debt-review' channel on Mattermost for technical debt discussions.  Team members have posted complexity analysis using mathematical formulas.  Your tasks:\\n",
+    "declared_apps": [
+      "Contacts",
+      "Mattermost",
+      "Messages"
+    ],
+    "mapped_kb_apps": [
+      "信息"
+    ],
+    "suggested_role": "L1/L2 goal-style — needs L3 expand"
+  },
+  {
+    "source": "MobileWorld",
+    "source_id": "work/extract_multilingual_scores_email.py",
+    "instruction_seed": "I am preparing the multilingual evaluation section of my paper.\\n \\n Please open the paper at: https://arxiv.org/pdf/2505.09388\\n In this paper, the Multilingual Tasks results are presented in a table where the columns\\n correspond to the two models \"DeepSeek-V3 base\" and \"Qwen3-235B-A22B base\",\\n and each row corresponds to a benchmark such as MGSM, MMMLU, and INCLUDE.\\n From this table, extract the scores of these two models on the following three benchmarks:\\n - MGSM\\n - MMMLU\\n - INCLUDE\\n \\n Format the results so that each line corresponds to one benchmark, with the pattern:\\n Benchmark: DeepSeek-V3 base=xx.xx, Qwen3-235B-A22B base=yy.yy\\n For example:\\n MGSM: DeepSeek-V3 base=82.68, Qwen3-235B-A22B base=83.53\\n \\n Then send an email to my advisor at advisor@example.com with:\\n - Subject: Baseline comparison table from 2403.15137\\n - Body: exactly three lines, in this order: MGSM, MMMLU, INCLUDE,\\n each line following the specified format, and no extra text.\\n",
+    "declared_apps": [
+      "MCP-arXiv",
+      "Mail"
+    ],
+    "mapped_kb_apps": [
+      "DeepSeek",
+      "邮件"
+    ],
+    "suggested_role": "L1/L2 goal-style — needs L3 expand"
+  },
+  {
+    "source": "MobileWorld",
+    "source_id": "work/extract_pipeline_stages_email.py",
+    "instruction_seed": "I have just discussed with my collaborator, and they asked me to carefully review the\\n data pipeline figure in the paper: https://arxiv.org/pdf/2505.09388.\\n Please open this paper, locate the data pipeline figure, and focus on the\\n upper part of the figure, which is divided into four stages.\\n For each of these four stages, extract its step description in the figure.\\n Format each line as:\\n stage N: content\\n Then send an email to chen@gmail.com with:\\n - Subject: Data pipeline stages from 2505.09388\\n - Body: exactly four lines, one for each stage, in the order stage 1 to stage N,\\n   each following the format 'stage N: content' with no extra text.\\n",
+    "declared_apps": [
+      "MCP-arXiv",
+      "Mail"
+    ],
+    "mapped_kb_apps": [
+      "gmail"
+    ],
+    "suggested_role": "L1/L2 goal-style — needs L3 expand"
+  },
+  {
+    "source": "MobileWorld",
+    "source_id": "work/local_file_management_2.py",
+    "instruction_seed": "There are too many files in my download folder, can you check my files and compress files that are older than 1 year in a single `old_files.zip` file. Delete the files after compression. Send myself an email with the list of deleted files just for record",
+    "declared_apps": [
+      "Files",
+      "Mail"
+    ],
+    "mapped_kb_apps": [
+      "邮件"
+    ],
+    "suggested_role": "L1/L2 goal-style — needs L3 expand"
+  },
+  {
+    "source": "MobileWorld",
+    "source_id": "work/parse_reading_group_paper_email.py",
+    "instruction_seed": "我刚听完一场线上 reading group，报告是一篇 arXiv 论文，ID 是 2401.01234， 帮我把这篇论文摘要email给mikeshow@gmail.com，标题为\"reading group paper\"",
+    "declared_apps": [
+      "MCP-arXiv",
+      "Mail"
+    ],
+    "mapped_kb_apps": [
+      "gmail"
+    ],
+    "suggested_role": "L1/L2 goal-style — needs L3 expand"
+  },
+  {
+    "source": "MobileWorld",
+    "source_id": "work/get_issue_email_task.py",
+    "instruction_seed": "I came across a complex issue #242 while browsing on the subway.  Please help me get the title and main content of this issue from google-research/android_world,  and abstract the question body into an email to send to myself at mike@gmail.com with the subject 'Read Later: Issue 242'",
+    "declared_apps": [
+      "MCP-Github",
+      "Mail"
+    ],
+    "mapped_kb_apps": [
+      "Google",
+      "gmail"
+    ],
+    "suggested_role": "L1/L2 goal-style — needs L3 expand"
+  },
+  {
+    "source": "MobileWorld",
+    "source_id": "mastodon/mastodon_share_photos_ask_user.py",
+    "instruction_seed": "Share all photos of flowers from the Pictures album (in Gallery app) via Mastodon, and add a caption.",
+    "declared_apps": [
+      "Gallery",
+      "Mastodon"
+    ],
+    "mapped_kb_apps": [
+      "相册"
+    ],
+    "suggested_role": "L1/L2 goal-style — needs L3 expand"
+  },
+  {
+    "source": "MobileWorld",
+    "source_id": "mastodon/mastodon_server_info_report.py",
+    "instruction_seed": "switch to owner account in mastodon, then go to account backend to  find the number of reports not tackled yet, and send the number as an email content in the format: \"Recent reports: xxx\"  to owner@mastodon_example.com by email, the number should be in Arabic numerals.",
+    "declared_apps": [
+      "Mail",
+      "Mastodon"
+    ],
+    "mapped_kb_apps": [
+      "邮件"
+    ],
+    "suggested_role": "L1/L2 goal-style — needs L3 expand"
+  },
+  {
+    "source": "MobileWorld",
+    "source_id": "mastodon/mastodon_export_follows.py",
+    "instruction_seed": "In Mastodon, export my follows in settings and save it as my_following.csv.",
+    "declared_apps": [
+      "Mastodon"
+    ],
+    "mapped_kb_apps": [
+      "设置"
+    ],
+    "suggested_role": "L1/L2 goal-style — needs L3 expand"
+  },
+  {
+    "source": "MobileWorld",
+    "source_id": "mastodon/mastodon_calendar_multi_memos.py",
+    "instruction_seed": "On Mastodon, find lectures in the #openTalk hashtag for the current month,",
+    "declared_apps": [
+      "Calendar",
+      "Mastodon"
+    ],
+    "mapped_kb_apps": [
+      "日历"
+    ],
+    "suggested_role": "L1/L2 goal-style — needs L3 expand"
+  },
+  {
+    "source": "MobileWorld",
+    "source_id": "mastodon/mastodon_post_edited_photo.py",
+    "instruction_seed": "Select a random photo from the gallery, crop it to a 9:16 ratio, and post it with the tag #onePhoto. Post with the account @test.",
+    "declared_apps": [
+      "Gallery",
+      "Mastodon"
+    ],
+    "mapped_kb_apps": [
+      "相册"
+    ],
+    "suggested_role": "L1/L2 goal-style — needs L3 expand"
+  },
+  {
+    "source": "MobileWorld",
+    "source_id": "mastodon/mastodon_post_poll.py",
+    "instruction_seed": "Search on Google for the '2025 Nobel Prize in Economics' and use the names of the winners  as the poll options. Post a poll on Mastodon with the hashtag '#vote2025', allowing multiple  selections and lasting for one week.",
+    "declared_apps": [
+      "Chrome",
+      "Mastodon"
+    ],
+    "mapped_kb_apps": [
+      "Chrome",
+      "Google"
+    ],
+    "suggested_role": "L1/L2 goal-style — needs L3 expand"
+  },
+  {
+    "source": "MobileWorld",
+    "source_id": "mastodon/mastodon_multi_invite.py",
+    "instruction_seed": "Generate two invite links with different conditions.  One with validity days of 1 day and max uses of 1,  send it to my friend Leonard by SMS.  Another with validity days of 7 days and auto-follow me,  send it to my friend Ella by SMS.",
+    "declared_apps": [
+      "Mastodon",
+      "Messages"
+    ],
+    "mapped_kb_apps": [
+      "信息"
+    ],
+    "suggested_role": "L1/L2 goal-style — needs L3 expand"
+  },
+  {
+    "source": "MobileWorld",
+    "source_id": "mastodon/mastodon_change_header.py",
+    "instruction_seed": "On Mastodon, replace my profile header with the tiger photo from my photo gallery.",
+    "declared_apps": [
+      "Gallery",
+      "Mastodon"
+    ],
+    "mapped_kb_apps": [
+      "相册"
+    ],
+    "suggested_role": "L1/L2 goal-style — needs L3 expand"
+  },
+  {
+    "source": "MobileWorld",
+    "source_id": "mastodon/mastodon_update_contacts.py",
+    "instruction_seed": "My friend Olivia has left new phone and email information in the latest post on Mastodon,  please update the information to my contacts, and send a text message to Olivia, the content of the  text message should be 'Hello, how are you'. Remember to set the email label to internet.",
+    "declared_apps": [
+      "Contacts",
+      "Mastodon"
+    ],
+    "mapped_kb_apps": [
+      "信息",
+      "邮件"
+    ],
+    "suggested_role": "L1/L2 goal-style — needs L3 expand"
+  },
+  {
+    "source": "MobileWorld",
+    "source_id": "mastodon/mastodon_share_location.py",
+    "instruction_seed": "Search for the location Eiffel Tower on Google Map, and share the link to Mastodon, add the Eiffel Tower image in my photo gallery, then post it.",
+    "declared_apps": [
+      "Gallery",
+      "Maps",
+      "Mastodon"
+    ],
+    "mapped_kb_apps": [
+      "googleMap",
+      "相册"
+    ],
+    "suggested_role": "L1/L2 goal-style — needs L3 expand"
+  },
+  {
+    "source": "MobileWorld",
+    "source_id": "mastodon/mastodon_save_photos.py",
+    "instruction_seed": "Find the post that Alice published on October 5th on Mastodon, and save all the images to the phone.",
+    "declared_apps": [
+      "Gallery",
+      "Mastodon"
+    ],
+    "mapped_kb_apps": [
+      "相册"
+    ],
+    "suggested_role": "L1/L2 goal-style — needs L3 expand"
+  },
+  {
+    "source": "MobileWorld",
+    "source_id": "mastodon/mastodon_create_calendar_memo.py",
+    "instruction_seed": "Find information under #openTalk on Mastodon about the topic of Urban Mobility lectures,  then create a event on my calendar with time, location, and topic as title, and set a reminder 1 day before.",
+    "declared_apps": [
+      "Calendar",
+      "Mastodon"
+    ],
+    "mapped_kb_apps": [
+      "日历"
+    ],
+    "suggested_role": "L1/L2 goal-style — needs L3 expand"
+  },
+  {
+    "source": "MobileWorld",
+    "source_id": "mastodon/mastodon_get_server_info.py",
+    "instruction_seed": "On mastodon, switch to owner account, then go to settings backend to query the database size, and post a toot to tell the result, use MB as the unit",
+    "declared_apps": [
+      "Mastodon"
+    ],
+    "mapped_kb_apps": [
+      "设置"
+    ],
+    "suggested_role": "L1/L2 goal-style — needs L3 expand"
+  },
+  {
+    "source": "MobileWorld",
+    "source_id": "mastodon/mastodon_invite.py",
+    "instruction_seed": "Generate a one-person invite link that expires in one day,  auto-follows me, and send it to my friend Leonard by SMS.",
+    "declared_apps": [
+      "Mastodon",
+      "Messages"
+    ],
+    "mapped_kb_apps": [
+      "信息"
+    ],
+    "suggested_role": "L1/L2 goal-style — needs L3 expand"
+  },
+  {
+    "source": "MobileWorld",
+    "source_id": "gmail/compare_esg_ratings_email.py",
+    "instruction_seed": "请查询证券代码 600000 在妙盈科技和华证指数的 ESG 评级是否一致。 请email 给chen@gmail.com，title为股票价格， 内容取决于判别结果，如果两家返回的 esg_rate 完全相同， 则内容为\"600000在妙盈科技和华证指数的ESG评级一致\"， 否则发送\"600000在妙盈科技和华证指数的ESG评级不一致\"。",
+    "declared_apps": [
+      "MCP-stockstar",
+      "Mail"
+    ],
+    "mapped_kb_apps": [
+      "gmail"
+    ],
+    "suggested_role": "L1/L2 goal-style — needs L3 expand"
+  },
+  {
+    "source": "MobileWorld",
+    "source_id": "gmail/cancel_meeting.py",
+    "instruction_seed": "Could you reply to Daniel's most recent email to tell him I'll have to cancel the meeting on Thursday?",
+    "declared_apps": [
+      "Mail"
+    ],
+    "mapped_kb_apps": [
+      "邮件"
+    ],
+    "suggested_role": "L1/L2 goal-style — needs L3 expand"
+  },
+  {
+    "source": "MobileWorld",
+    "source_id": "gmail/check_registration.py",
+    "instruction_seed": "Check my email for Putnam registration confirmation. If no such email exists, email kathy@gmail.com asking about it with the subject 'Putnam Registration Confirmation'",
+    "declared_apps": [
+      "Mail"
+    ],
+    "mapped_kb_apps": [
+      "gmail"
+    ],
+    "suggested_role": "L1/L2 goal-style — needs L3 expand"
+  },
+  {
+    "source": "MobileWorld",
+    "source_id": "gmail/download_send_receipt.py",
+    "instruction_seed": "Look for a file in my email titled 'receipts.jpg' and download it. Then, send it to to treasurer@gmail.com with the subject 'Proof of purchase', the email should mention the total amount spent in the email.",
+    "declared_apps": [
+      "Mail"
+    ],
+    "mapped_kb_apps": [
+      "gmail",
+      "邮件"
+    ],
+    "suggested_role": "L1/L2 goal-style — needs L3 expand"
+  },
+  {
+    "source": "MobileWorld",
+    "source_id": "gmail/send_interview_email.py",
+    "instruction_seed": "Find Kevin's resume and send an email to Kevin saying:  \"Your interview is scheduled for tomorrow morning at 10:30 AM.\"",
+    "declared_apps": [
+      "Files",
+      "Mail"
+    ],
+    "mapped_kb_apps": [
+      "邮件"
+    ],
+    "suggested_role": "L1/L2 goal-style — needs L3 expand"
+  },
+  {
+    "source": "MobileWorld",
+    "source_id": "gmail/send_forms.py",
+    "instruction_seed": "Please check my email for any field trip forms sent from October 3rd onward. Download all of them and send them to principal@school.edu with the subject 'Field Trip Forms'. Then, tell me how many forms you found as a single number.",
+    "declared_apps": [
+      "Mail"
+    ],
+    "mapped_kb_apps": [
+      "邮件"
+    ],
+    "suggested_role": "L1/L2 goal-style — needs L3 expand"
+  },
+  {
+    "source": "MobileWorld",
+    "source_id": "gmail/check_set_meet_time.py",
+    "instruction_seed": "Check my email for the date and time of my meeting with Carl. Then, set a one hour calendar event titled 'Board Meeting'",
+    "declared_apps": [
+      "Calendar",
+      "Mail"
+    ],
+    "mapped_kb_apps": [
+      "日历",
+      "邮件"
+    ],
+    "suggested_role": "L1/L2 goal-style — needs L3 expand"
+  },
+  {
+    "source": "MobileWorld",
+    "source_id": "gmail/check_interview_times.py",
+    "instruction_seed": "Check my email for any job interviews I have in November. Set calendar events for each of them. Use the company name as the title and the interview time as the start and end time.",
+    "declared_apps": [
+      "Calendar",
+      "Mail"
+    ],
+    "mapped_kb_apps": [
+      "日历",
+      "邮件"
+    ],
+    "suggested_role": "L1/L2 goal-style — needs L3 expand"
+  },
+  {
+    "source": "MobileWorld",
+    "source_id": "gmail/send_phone_number_ask_user.py",
+    "instruction_seed": "Send Kevin's phone number (in message body) to Grace via email.",
+    "declared_apps": [
+      "Contacts",
+      "Mail"
+    ],
+    "mapped_kb_apps": [
+      "信息",
+      "邮件"
+    ],
+    "suggested_role": "L1/L2 goal-style — needs L3 expand"
+  },
+  {
+    "source": "MobileWorld",
+    "source_id": "gmail/plan_route_task.py",
+    "instruction_seed": "帮我规划从杭州亲橙酒店到萧山机场之间规划一条驾车路线， 把返回的路线信息组织成一段内容，instructions用逗号分隔， 发送到我的生活邮箱dylan@gmail.com，标题为`daily travel`",
+    "declared_apps": [
+      "MCP-Amap",
+      "Mail"
+    ],
+    "mapped_kb_apps": [
+      "gmail",
+      "高德地图(Amap)"
+    ],
+    "suggested_role": "L1/L2 goal-style — needs L3 expand"
+  },
+  {
+    "source": "MobileWorld",
+    "source_id": "gmail/check_depart_time.py",
+    "instruction_seed": "Check if I've received an email about the depart time for the CoolHacks hackathon.",
+    "declared_apps": [
+      "Mail",
+      "Messages"
+    ],
+    "mapped_kb_apps": [
+      "信息",
+      "邮件"
+    ],
+    "suggested_role": "L1/L2 goal-style — needs L3 expand"
+  },
+  {
+    "source": "MobileWorld",
+    "source_id": "gmail/accept_meeting.py",
+    "instruction_seed": "Reply to Daniel's most recent email to tell him: 'I'll be there at 10:00 AM on Thursday.'",
+    "declared_apps": [
+      "Mail"
+    ],
+    "mapped_kb_apps": [
+      "邮件"
+    ],
+    "suggested_role": "L1/L2 goal-style — needs L3 expand"
+  },
+  {
+    "source": "MobileWorld",
+    "source_id": "gmail/send_waiver.py",
+    "instruction_seed": "Send the file 'waiver.jpg' as an email attachment to bob@gmail.com.  Title the email 'Updated waiver'.",
+    "declared_apps": [
+      "Mail"
+    ],
+    "mapped_kb_apps": [
+      "gmail",
+      "邮件"
+    ],
+    "suggested_role": "L1/L2 goal-style — needs L3 expand"
+  },
+  {
+    "source": "MobileWorld",
+    "source_id": "gmail/graduation_mass_email.py",
+    "instruction_seed": "Search up the UF academic calendar and find out the week that grades are due in the Spring 2026 semester. Then, set a calendar event at 6pm on the Saturday of that week titled 'Graduation Party' Search my email for the list of students graduating from the math department this year. Send an email to all the graduates with the subject 'Graduation Party' and body 'Don't forget about this year's graduation party! More details coming soon.'",
+    "declared_apps": [
+      "Calendar",
+      "Chrome",
+      "Mail"
+    ],
+    "mapped_kb_apps": [
+      "Chrome",
+      "日历",
+      "邮件"
+    ],
+    "suggested_role": "L1/L2 goal-style — needs L3 expand"
+  },
+  {
+    "source": "MobileWorld",
+    "source_id": "gmail/check_event_time.py",
+    "instruction_seed": "Check my email for the time of the Christmas party today.  Set an alarm for one hour before then.",
+    "declared_apps": [
+      "Clock",
+      "Mail"
+    ],
+    "mapped_kb_apps": [
+      "邮件",
+      "闹钟"
+    ],
+    "suggested_role": "L1/L2 goal-style — needs L3 expand"
+  },
+  {
+    "source": "MobileWorld",
+    "source_id": "gmail/reply_email_via_sms_ask_user.py",
+    "instruction_seed": "I received an email about the Next.js Conf. Please check my calendar. If I'm available, send the sender an SMS saying, 'I can attend the conference.' If not, reply with, 'Sorry, I can't attend.'",
+    "declared_apps": [
+      "Calendar",
+      "Mail",
+      "Messages"
+    ],
+    "mapped_kb_apps": [
+      "信息",
+      "日历",
+      "邮件"
+    ],
+    "suggested_role": "L1/L2 goal-style — needs L3 expand"
+  },
+  {
+    "source": "MobileWorld",
+    "source_id": "gmail/request_carpooling.py",
+    "instruction_seed": "Check my email for the time of the math competition tomorrow.",
+    "declared_apps": [
+      "Mail",
+      "Messages"
+    ],
+    "mapped_kb_apps": [
+      "信息",
+      "邮件"
+    ],
+    "suggested_role": "L1/L2 goal-style — needs L3 expand"
+  },
+  {
+    "source": "MobileWorld",
+    "source_id": "chrome/check_github_info.py",
+    "instruction_seed": "Please check the number of stars and contributors on the AndroidWorld GitHub repository, then send an email to kevin_zhang@example.com  with the subject line \"AndroidWorld Repository Stats\" and the following message body:\\n There are XXX stars and XXX contributors in the AndroidWorld repository.\\n\\n Replace \"XXX\" with the actual numbers you find.",
+    "declared_apps": [
+      "Chrome",
+      "Mail"
+    ],
+    "mapped_kb_apps": [
+      "Chrome",
+      "信息",
+      "邮件"
+    ],
+    "suggested_role": "L1/L2 goal-style — needs L3 expand"
+  },
+  {
+    "source": "MobileWorld",
+    "source_id": "chrome/check_weather_ask_user.py",
+    "instruction_seed": "What will be the maximum temperature at my hometown tomorrow? Answer with only an integer (the number of Celsius degree) and no other text.",
+    "declared_apps": [
+      "Chrome"
+    ],
+    "mapped_kb_apps": [
+      "Chrome"
+    ],
+    "suggested_role": "L1/L2 goal-style — needs L3 expand"
+  },
+  {
+    "source": "MobileWorld",
+    "source_id": "chrome/check_weather.py",
+    "instruction_seed": "Use Chrome to search for Beijing highest temperature today. ONLY give a integer number denoted Celsius degree.",
+    "declared_apps": [
+      "Chrome"
+    ],
+    "mapped_kb_apps": [
+      "Chrome"
+    ],
+    "suggested_role": "L1/L2 goal-style — needs L3 expand"
+  },
+  {
+    "source": "MobileWorld",
+    "source_id": "chrome/search_top_info_ask_user.py",
+    "instruction_seed": "Search for the recent news in the field I am interested,  and send an email to Kevin with a subject line that includes the field name  and the following message:\\n Here is the recent news in the [field name] field:\\n [One sentence summary of the recent news you found]",
+    "declared_apps": [
+      "Chrome",
+      "Mail"
+    ],
+    "mapped_kb_apps": [
+      "Chrome",
+      "信息",
+      "邮件"
+    ],
+    "suggested_role": "L1/L2 goal-style — needs L3 expand"
+  },
+  {
+    "source": "MobileWorld",
+    "source_id": "settings/adjust_font_icon_max.py",
+    "instruction_seed": "Increase the font size and icons on your phone to the maximum setting.",
+    "declared_apps": [
+      "Settings"
+    ],
+    "mapped_kb_apps": [
+      "设置"
+    ],
+    "suggested_role": "L1/L2 goal-style — needs L3 expand"
+  },
+  {
+    "source": "MobileWorld",
+    "source_id": "settings/adjust_brigtness_max.py",
+    "instruction_seed": "Set the brightness to the maximum level.",
+    "declared_apps": [
+      "Settings"
+    ],
+    "mapped_kb_apps": [
+      "设置"
+    ],
+    "suggested_role": "L1/L2 goal-style — needs L3 expand"
+  },
+  {
+    "source": "MobileWorld",
+    "source_id": "settings/adjust_brigtness_min.py",
+    "instruction_seed": "Set the brightness to the minimum level.",
+    "declared_apps": [
+      "Settings"
+    ],
+    "mapped_kb_apps": [
+      "设置"
+    ],
+    "suggested_role": "L1/L2 goal-style — needs L3 expand"
+  },
+  {
+    "source": "MobileWorld",
+    "source_id": "settings/change_wallpaper.py",
+    "instruction_seed": "Change the wallpaper to a photo from the album that features sunflowers.",
+    "declared_apps": [
+      "Gallery",
+      "Settings"
+    ],
+    "mapped_kb_apps": [
+      "相册",
+      "设置"
+    ],
+    "suggested_role": "L1/L2 goal-style — needs L3 expand"
+  },
+  {
+    "source": "MobileWorld",
+    "source_id": "settings/adjust_font_icon_min.py",
+    "instruction_seed": "Decrease the font size and icons on your phone to the minimum setting.",
+    "declared_apps": [
+      "Settings"
+    ],
+    "mapped_kb_apps": [
+      "设置"
+    ],
+    "suggested_role": "L1/L2 goal-style — needs L3 expand"
+  },
+  {
+    "source": "MobileWorld",
+    "source_id": "settings/open_flight_mode.py",
+    "instruction_seed": "Turn on device flight mode",
+    "declared_apps": [
+      "Settings"
+    ],
+    "mapped_kb_apps": [
+      "设置"
+    ],
+    "suggested_role": "L1/L2 goal-style — needs L3 expand"
+  },
+  {
+    "source": "MobileWorld",
+    "source_id": "settings/close_flight_mode.py",
+    "instruction_seed": "Turn off device flight mode",
+    "declared_apps": [
+      "Settings"
+    ],
+    "mapped_kb_apps": [
+      "设置"
+    ],
+    "suggested_role": "L1/L2 goal-style — needs L3 expand"
+  },
+  {
+    "source": "MobileWorld",
+    "source_id": "messages/send_weather_sms.py",
+    "instruction_seed": "明天下午我朋友要来杭州西溪这边，你帮我查一下杭州明天白天的天气和情况和温度发送给我的朋友，电话100077788236",
+    "declared_apps": [
+      "MCP-Amap",
+      "Messages"
+    ],
+    "mapped_kb_apps": [
+      "信息",
+      "天气",
+      "高德地图(Amap)"
+    ],
+    "suggested_role": "L1/L2 goal-style — needs L3 expand"
+  },
+  {
+    "source": "MobileWorld",
+    "source_id": "messages/fact_check_lemon_water_sms.py",
+    "instruction_seed": "帮我查一下这句话是不是靠谱：'每天喝柠檬水可以预防癌症。' 可靠的话，编辑短信内容'每天喝柠檬水可以预防癌症'， 不可靠的话编辑短信内容为'每天喝柠檬水不可以预防癌症'， 发送给我妻子1665347803。",
+    "declared_apps": [
+      "MCP-jina",
+      "Messages"
+    ],
+    "mapped_kb_apps": [
+      "信息"
+    ],
+    "suggested_role": "L1/L2 goal-style — needs L3 expand"
+  },
+  {
+    "source": "MobileWorld",
+    "source_id": "messages/delete_single_message_ask_user.py",
+    "instruction_seed": "Delete the message about deployment issues in SMS app sent from my company.",
+    "declared_apps": [
+      "Messages"
+    ],
+    "mapped_kb_apps": [
+      "信息"
+    ],
+    "suggested_role": "L1/L2 goal-style — needs L3 expand"
+  },
+  {
+    "source": "MobileWorld",
+    "source_id": "messages/search_github_issues_sms.py",
+    "instruction_seed": "我手机上看到一段报错信息里有关键字 TurnOffWifi， 帮我在 GitHub 上搜索仓库google-research/android_world里相关issue， 如果找到类似问题，就所有 issue 链接（\",\"分隔）发短信给同事1776652334， 如果没有搜索到issue短信内容为\"no turnoffwifi issues\"",
+    "declared_apps": [
+      "MCP-Github",
+      "Messages"
+    ],
+    "mapped_kb_apps": [
+      "信息"
+    ],
+    "suggested_role": "L1/L2 goal-style — needs L3 expand"
+  },
+  {
+    "source": "MobileWorld",
+    "source_id": "messages/search_benchmark_tasks_sms.py",
+    "instruction_seed": "帮我在google-research/android_world里搜一下该benchmark构建任务的数量，短信给16655342。",
+    "declared_apps": [
+      "MCP-Github",
+      "Messages"
+    ],
+    "mapped_kb_apps": [
+      "信息"
+    ],
+    "suggested_role": "L1/L2 goal-style — needs L3 expand"
+  },
+  {
+    "source": "MobileWorld",
+    "source_id": "messages/send_webpage_audio_count_sms.py",
+    "instruction_seed": "audio",
+    "declared_apps": [
+      "MCP-jina",
+      "Messages"
+    ],
+    "mapped_kb_apps": [
+      "信息"
+    ],
+    "suggested_role": "L1/L2 goal-style — needs L3 expand"
+  },
+  {
+    "source": "MobileWorld",
+    "source_id": "messages/compare_apartments_distance_sms.py",
+    "instruction_seed": "中介给我发了两套房子的信息，我想比较一下哪一套离阿里西溪c园区开车更近，好决定租哪一间。 把最近那套房子的地址发给我朋友 Mia",
+    "declared_apps": [
+      "MCP-Amap",
+      "Messages"
+    ],
+    "mapped_kb_apps": [
+      "信息",
+      "高德地图(Amap)"
+    ],
+    "suggested_role": "L1/L2 goal-style — needs L3 expand"
+  },
+  {
+    "source": "MobileWorld",
+    "source_id": "messages/send_high_dividend_stocks_sms.py",
+    "instruction_seed": "我想长期拿一点高股息的蓝筹股，帮我筛一下当前股息率大于 4% 的股票名单，",
+    "declared_apps": [
+      "MCP-stockstar",
+      "Messages"
+    ],
+    "mapped_kb_apps": [
+      "信息"
+    ],
+    "suggested_role": "L1/L2 goal-style — needs L3 expand"
+  },
+  {
+    "source": "MobileWorld",
+    "source_id": "messages/send_arxiv_papers_sms.py",
+    "instruction_seed": "先帮我看一下最近 arXiv 上 cs.AI 分类的新论文， 帮我调5篇最新的，按照\"题目：arXiv 链接\"每行的格式发送给mike 18753923900",
+    "declared_apps": [
+      "MCP-arXiv",
+      "Messages"
+    ],
+    "mapped_kb_apps": [
+      "信息"
+    ],
+    "suggested_role": "L1/L2 goal-style — needs L3 expand"
+  },
+  {
+    "source": "MobileWorld",
+    "source_id": "messages/delete_messages_ask_user.py",
+    "instruction_seed": "Delete all messages in SMS app sent from my company.",
+    "declared_apps": [
+      "Messages"
+    ],
+    "mapped_kb_apps": [
+      "信息"
+    ],
+    "suggested_role": "L1/L2 goal-style — needs L3 expand"
+  },
+  {
+    "source": "MobileWorld",
+    "source_id": "messages/plan_taxi_route_sms.py",
+    "instruction_seed": "Please help me plan exactly 1 shortest taxi route in Chengdu that:\\n Starts at \"成都双流国际机场T2航站楼\" and ends at my hotel \"成都市锦江区春熙路南段8号\".\\n",
+    "declared_apps": [
+      "MCP-Amap",
+      "Messages"
+    ],
+    "mapped_kb_apps": [
+      "信息",
+      "高德地图(Amap)"
+    ],
+    "suggested_role": "L1/L2 goal-style — needs L3 expand"
+  },
+  {
+    "source": "MobileWorld",
+    "source_id": "messages/say_hello_roommates_ask_user_1.py",
+    "instruction_seed": "Add my new roommates contacts to favorites and text 'hello' to each of them.",
+    "declared_apps": [
+      "Contacts",
+      "Messages"
+    ],
+    "mapped_kb_apps": [
+      "信息"
+    ],
+    "suggested_role": "L1/L2 goal-style — needs L3 expand"
+  },
+  {
+    "source": "MobileWorld",
+    "source_id": "messages/send_interview_invitation.py",
+    "instruction_seed": "Find Kevin's resume and send a text message to Kevin saying:  \"Your interview is scheduled for tomorrow morning at 10:30 AM.\"",
+    "declared_apps": [
+      "Files",
+      "Messages"
+    ],
+    "mapped_kb_apps": [
+      "信息"
+    ],
+    "suggested_role": "L1/L2 goal-style — needs L3 expand"
+  },
+  {
+    "source": "MobileWorld",
+    "source_id": "messages/plan_driving_route_sms.py",
+    "instruction_seed": "Please help me plan exactly 1 self-driving sightseeing shortest path route in Jiangsu that:\\n 南京市玄武区龙蟠路100号",
+    "declared_apps": [
+      "MCP-Amap",
+      "Messages"
+    ],
+    "mapped_kb_apps": [
+      "信息",
+      "高德地图(Amap)"
+    ],
+    "suggested_role": "L1/L2 goal-style — needs L3 expand"
+  },
+  {
+    "source": "MobileWorld",
+    "source_id": "messages/plan_commute_route_sms.py",
+    "instruction_seed": "Please help me design exactly 1 multimodal commute route in Shanghai that:\\n Starts at my home: \"上海市徐汇区漕溪北路41号\" and ends at my office: \"上海市浦东新区世纪大道100号\".\\n The route must contain exactly 3 segments in this fixed order:\\n",
+    "declared_apps": [
+      "MCP-Amap",
+      "Messages"
+    ],
+    "mapped_kb_apps": [
+      "信息",
+      "高德地图(Amap)"
+    ],
+    "suggested_role": "L1/L2 goal-style — needs L3 expand"
+  },
+  {
+    "source": "MobileWorld",
+    "source_id": "messages/plan_cycling_route_sms.py",
+    "instruction_seed": "Please help me plan exactly 1 cycling route in Hangzhou that:",
+    "declared_apps": [
+      "MCP-Amap",
+      "Messages"
+    ],
+    "mapped_kb_apps": [
+      "信息",
+      "高德地图(Amap)"
+    ],
+    "suggested_role": "L1/L2 goal-style — needs L3 expand"
+  },
+  {
+    "source": "MobileWorld",
+    "source_id": "messages/send_stock_esg_rating_sms.py",
+    "instruction_seed": "请先筛选出近三年ROE大于250的全部股票，然后将结果中的证券代码按从小到大排序， 取排序后的第一只股票，查询这只股票在妙盈科技的ESG评级。 最终将这只股票的security_code和esg_rate按照\"code:rate\"的格式短信发送给177663344",
+    "declared_apps": [
+      "MCP-stockstar",
+      "Messages"
+    ],
+    "mapped_kb_apps": [
+      "信息"
+    ],
+    "suggested_role": "L1/L2 goal-style — needs L3 expand"
+  },
+  {
+    "source": "MobileWorld",
+    "source_id": "messages/search_pharmacy_task.py",
+    "instruction_seed": "我现在的位置在西溪园区亲橙客栈，家里有人突然感冒，你帮我查500米范围内的药店， 以`name：address`的格式，每个药店一行，帮我短信给我妻子1997777900",
+    "declared_apps": [
+      "MCP-Amap",
+      "Messages"
+    ],
+    "mapped_kb_apps": [
+      "信息",
+      "高德地图(Amap)"
+    ],
+    "suggested_role": "L1/L2 goal-style — needs L3 expand"
+  },
+  {
+    "source": "MobileWorld",
+    "source_id": "messages/check_candidate_ask_user_1.py",
+    "instruction_seed": "Find Kevin's resume and check whether his skills in database matches my job requirements.  If yes, send a text message to HR: 'please kickoff the interview for Kevin.'  If no, send a text message to HR: 'please reject the application for Kevin.'",
+    "declared_apps": [
+      "Files",
+      "Messages"
+    ],
+    "mapped_kb_apps": [
+      "信息"
+    ],
+    "suggested_role": "L1/L2 goal-style — needs L3 expand"
+  },
+  {
+    "source": "MobileWorld",
+    "source_id": "messages/say_hello_roommates_ask_user_2.py",
+    "instruction_seed": "Add my new roommates contacts to favorites and text 'hello' to each of them.",
+    "declared_apps": [
+      "Contacts",
+      "Messages"
+    ],
+    "mapped_kb_apps": [
+      "信息"
+    ],
+    "suggested_role": "L1/L2 goal-style — needs L3 expand"
+  },
+  {
+    "source": "MobileWorld",
+    "source_id": "messages/send_location_address_sms.py",
+    "instruction_seed": "我从高德复制了一段终点坐标 120.0351,30.2809（阿里西溪附近）， 帮我用它查出详细的行政区划地址，然后短信给1766242644， 按照\"坐标：地址\"的格式编写短信内容",
+    "declared_apps": [
+      "MCP-Amap",
+      "Messages"
+    ],
+    "mapped_kb_apps": [
+      "信息",
+      "高德地图(Amap)"
+    ],
+    "suggested_role": "L1/L2 goal-style — needs L3 expand"
+  },
+  {
+    "source": "MobileWorld",
+    "source_id": "messages/check_candidate_ask_user_2.py",
+    "instruction_seed": "Find Kevin's resume and check whether his GPA matches my job requirements.  If yes, send a text message to HR: 'please pass the application for Kevin.'  If no, send a text message to HR: 'please reject the application for Kevin.'",
+    "declared_apps": [
+      "Files",
+      "Messages"
+    ],
+    "mapped_kb_apps": [
+      "信息"
+    ],
+    "suggested_role": "L1/L2 goal-style — needs L3 expand"
+  },
+  {
+    "source": "MobileWorld",
+    "source_id": "messages/send_interview_invitation_ask_user.py",
+    "instruction_seed": "Send a message to Kevin to information him \"Your interview is scheduled for tomorrow morning at 10:30 AM\".",
+    "declared_apps": [
+      "Messages"
+    ],
+    "mapped_kb_apps": [
+      "信息"
+    ],
+    "suggested_role": "L1/L2 goal-style — needs L3 expand"
+  },
+  {
+    "source": "MobileWorld",
+    "source_id": "map/check_distance_mcp.py",
+    "instruction_seed": "我在做一个咖啡连锁品牌发展史的研究，上次我去了Manner的全国首店，这次想实地考察Manner咖啡全国第二家店的选址。帮我用高德mcp查一下从杭州东站到它的直线距离？只需要回答数字。",
+    "declared_apps": [
+      "Chrome",
+      "MCP-Amap"
+    ],
+    "mapped_kb_apps": [
+      "Chrome",
+      "高德地图(Amap)"
+    ],
+    "suggested_role": "L1/L2 goal-style — needs L3 expand"
+  },
+  {
+    "source": "MobileWorld",
+    "source_id": "map/text_arrival_time.py",
+    "instruction_seed": "Search up how long it takes to drive from Orlando to Miami.",
+    "declared_apps": [
+      "Maps",
+      "Messages"
+    ],
+    "mapped_kb_apps": [
+      "信息"
+    ],
+    "suggested_role": "L1/L2 goal-style — needs L3 expand"
+  },
+  {
+    "source": "MobileWorld",
+    "source_id": "map/download_poi_images_mcp.py",
+    "instruction_seed": "帮我找到全国第一家Manner咖啡店，用高德mcp工具获取图片url和id，在mattermost上发给Sam并介绍一下这家店的历史（markdown格式）",
+    "declared_apps": [
+      "Chrome",
+      "MCP-Amap"
+    ],
+    "mapped_kb_apps": [
+      "Chrome",
+      "高德地图(Amap)"
+    ],
+    "suggested_role": "L1/L2 goal-style — needs L3 expand"
+  },
+  {
+    "source": "MobileWorld",
+    "source_id": "map/check_distance_mcp_2.py",
+    "instruction_seed": "我的常用收货地址到杭州东站的直线距离是多少公里？只需要回答最终数字",
+    "declared_apps": [
+      "MCP-Amap",
+      "Taodian"
+    ],
+    "mapped_kb_apps": [
+      "高德地图(Amap)"
+    ],
+    "suggested_role": "L1/L2 goal-style — needs L3 expand"
+  },
+  {
+    "source": "MobileWorld",
+    "source_id": "map/check_phone_numbers_ask_user.py",
+    "instruction_seed": "Find the Kevin's componany phone number using the google map, and based on that, create a new contact named Kevin Zhang with the company.",
+    "declared_apps": [
+      "Contacts",
+      "Maps"
+    ],
+    "mapped_kb_apps": [
+      "googleMap"
+    ],
+    "suggested_role": "L1/L2 goal-style — needs L3 expand"
+  },
+  {
+    "source": "MobileWorld",
+    "source_id": "map/check_neighbours.py",
+    "instruction_seed": "Open Google Maps and find which company is directly south of Alibaba Hangzhou headquarters in Binjiang District.  ONLY output the company name in English.",
+    "declared_apps": [
+      "Maps"
+    ],
+    "mapped_kb_apps": [
+      "alibaba",
+      "googleMap"
+    ],
+    "suggested_role": "L1/L2 goal-style — needs L3 expand"
+  },
+  {
+    "source": "MobileWorld",
+    "source_id": "map/check_neighbours_ask_user.py",
+    "instruction_seed": "Open Google Maps and find which company is directly south of my company.  ONLY output the company name in English.",
+    "declared_apps": [
+      "Maps"
+    ],
+    "mapped_kb_apps": [
+      "googleMap"
+    ],
+    "suggested_role": "L1/L2 goal-style — needs L3 expand"
+  },
+  {
+    "source": "MobileWorld",
+    "source_id": "map/check_phone_numbers.py",
+    "instruction_seed": "Find the phone number of Alibaba's Hangzhou headquarters on the google map, and based on that, create a new contact named Kevin Zhang with the company.",
+    "declared_apps": [
+      "Contacts",
+      "Maps"
+    ],
+    "mapped_kb_apps": [
+      "alibaba",
+      "googleMap"
+    ],
+    "suggested_role": "L1/L2 goal-style — needs L3 expand"
+  },
+  {
+    "source": "MobileWorld",
+    "source_id": "native/take_selfie_and_share_ask_user_2.py",
+    "instruction_seed": "Take a photo, and share it with Henry via email.",
+    "declared_apps": [
+      "Camera",
+      "Gallery",
+      "Mail"
+    ],
+    "mapped_kb_apps": [
+      "相册",
+      "相机",
+      "邮件"
+    ],
+    "suggested_role": "L1/L2 goal-style — needs L3 expand"
+  },
+  {
+    "source": "MobileWorld",
+    "source_id": "native/check_invoice_3.py",
+    "instruction_seed": "Read the invoice PDF file in the download directory.  Send a SMS to Mia and report how many hours of the Consulting Services larger than Software Development hours.",
+    "declared_apps": [
+      "Docreader",
+      "Files",
+      "Messages"
+    ],
+    "mapped_kb_apps": [
+      "信息"
+    ],
+    "suggested_role": "L1/L2 goal-style — needs L3 expand"
+  },
+  {
+    "source": "MobileWorld",
+    "source_id": "native/send_invoice_with_info.py",
+    "instruction_seed": "Send the invoice PDF file in the download directory to Mia.  And attach the following information to the email: the total amount of the invoice and exchange to RMB according to the latest exchange rate.  The format is total amount: xxx, exchange rate: xxx, total amount in RMB: xxx.",
+    "declared_apps": [
+      "Chrome",
+      "Docreader",
+      "Files",
+      "Mail"
+    ],
+    "mapped_kb_apps": [
+      "Chrome",
+      "邮件"
+    ],
+    "suggested_role": "L1/L2 goal-style — needs L3 expand"
+  },
+  {
+    "source": "MobileWorld",
+    "source_id": "native/check_invoice_2.py",
+    "instruction_seed": "Read the invoice PDF file in the download directory.  The customer has notified that payment will be made 45 days after the due date.  Please recalculate the total amount payable and forward the result number to the customer via Email.",
+    "declared_apps": [
+      "Docreader",
+      "Files",
+      "Mail"
+    ],
+    "mapped_kb_apps": [
+      "邮件"
+    ],
+    "suggested_role": "L1/L2 goal-style — needs L3 expand"
+  },
+  {
+    "source": "MobileWorld",
+    "source_id": "native/set_alarm_ask_user_3.py",
+    "instruction_seed": "Please set a morning wake-up alarm for my weekend at 9:45 p.m. Choose the ringtone 'beebeep' for the alarm.",
+    "declared_apps": [
+      "Clock"
+    ],
+    "mapped_kb_apps": [
+      "闹钟"
+    ],
+    "suggested_role": "L1/L2 goal-style — needs L3 expand"
+  },
+  {
+    "source": "MobileWorld",
+    "source_id": "native/send_zip_files_ask_user_1.py",
+    "instruction_seed": "Compress all downloaded files in the \"Download\" folder from the past three months into a single file, renamed as \"documents.zip\", email it to Kevin using `Mail` app with the list of compressed files, seprated by comma. No other text.",
+    "declared_apps": [
+      "Files",
+      "Mail"
+    ],
+    "mapped_kb_apps": [
+      "邮件"
+    ],
+    "suggested_role": "L1/L2 goal-style — needs L3 expand"
+  },
+  {
+    "source": "MobileWorld",
+    "source_id": "native/check_invoice_4_ask_user.py",
+    "instruction_seed": "Read the invoice PDF file in the download directory.  3rd party API will increase 25% of the unit price.  Notify Kevin via SMS the new total amount.",
+    "declared_apps": [
+      "Docreader",
+      "Files",
+      "Messages"
+    ],
+    "mapped_kb_apps": [
+      "信息"
+    ],
+    "suggested_role": "L1/L2 goal-style — needs L3 expand"
+  },
+  {
+    "source": "MobileWorld",
+    "source_id": "native/review_paper_email_task.py",
+    "instruction_seed": "查找手机Documents文件夹内所有review开头的pdf文件，移动在Document/paper下，并将paper目录下的所有文件，发送到chen@gmail.com，标题为paper。",
+    "declared_apps": [
+      "Files",
+      "Mail"
+    ],
+    "mapped_kb_apps": [
+      "gmail"
+    ],
+    "suggested_role": "L1/L2 goal-style — needs L3 expand"
+  },
+  {
+    "source": "MobileWorld",
+    "source_id": "native/send_zip_files_ask_user_2.py",
+    "instruction_seed": "Compress the earliest 5 downloaded files into a single file, renamed as \"documents.zip\", email it to Kevin using `Mail` app with the list of compressed files, seprated by comma. No other text.",
+    "declared_apps": [
+      "Files",
+      "Mail"
+    ],
+    "mapped_kb_apps": [
+      "邮件"
+    ],
+    "suggested_role": "L1/L2 goal-style — needs L3 expand"
+  },
+  {
+    "source": "MobileWorld",
+    "source_id": "native/set_alarm_ask_user_1.py",
+    "instruction_seed": "Please set a wake-up alarm for me on Friday.",
+    "declared_apps": [
+      "Clock"
+    ],
+    "mapped_kb_apps": [
+      "闹钟"
+    ],
+    "suggested_role": "L1/L2 goal-style — needs L3 expand"
+  },
+  {
+    "source": "MobileWorld",
+    "source_id": "native/cv_email_ask_user.py",
+    "instruction_seed": "在Download内找到最近一个月下载的简历文件，把文件发送给我的HR同事，标题为candiaditaes_cv。",
+    "declared_apps": [
+      "Files",
+      "Mail"
+    ],
+    "mapped_kb_apps": [
+      "邮件"
+    ],
+    "suggested_role": "L1/L2 goal-style — needs L3 expand"
+  },
+  {
+    "source": "MobileWorld",
+    "source_id": "native/share_photos.py",
+    "instruction_seed": "Find all flowers pictures in gallery and send them via email to kevin_zhang@example.com, with text \"Here are some flowers for you.\"",
+    "declared_apps": [
+      "Gallery",
+      "Mail"
+    ],
+    "mapped_kb_apps": [
+      "相册",
+      "邮件"
+    ],
+    "suggested_role": "L1/L2 goal-style — needs L3 expand"
+  },
+  {
+    "source": "MobileWorld",
+    "source_id": "native/project_paper_email_task_ask_user.py",
+    "instruction_seed": "查找手机Documents文件夹内所有project开头的pdf文件，移动到我指定的文件夹下，并把文件夹下的所有文件发送到Catherine，标题为project。",
+    "declared_apps": [
+      "Files",
+      "Mail"
+    ],
+    "mapped_kb_apps": [
+      "邮件"
+    ],
+    "suggested_role": "L1/L2 goal-style — needs L3 expand"
+  },
+  {
+    "source": "MobileWorld",
+    "source_id": "native/take_selfie.py",
+    "instruction_seed": "Take a photo.",
+    "declared_apps": [
+      "Camera"
+    ],
+    "mapped_kb_apps": [
+      "相机"
+    ],
+    "suggested_role": "L1/L2 goal-style — needs L3 expand"
+  },
+  {
+    "source": "MobileWorld",
+    "source_id": "native/sms_management.py",
+    "instruction_seed": "Check all unread sms messages, delete spams, and provide a summary of recruitment messages to me via email by sending to dylan@gmail.com. Note I'm only interested in open data scientist role.",
+    "declared_apps": [
+      "Mail",
+      "Messages"
+    ],
+    "mapped_kb_apps": [
+      "gmail",
+      "信息"
+    ],
+    "suggested_role": "L1/L2 goal-style — needs L3 expand"
+  },
+  {
+    "source": "MobileWorld",
+    "source_id": "native/set_alarm.py",
+    "instruction_seed": "Set a weekend alarm for 8:25 a.m. with the ringtone \"beebeep\" and vibration off.",
+    "declared_apps": [
+      "Clock"
+    ],
+    "mapped_kb_apps": [
+      "闹钟"
+    ],
+    "suggested_role": "L1/L2 goal-style — needs L3 expand"
+  },
+  {
+    "source": "MobileWorld",
+    "source_id": "native/take_selfie_and_share_ask_user_1.py",
+    "instruction_seed": "Take a selfie, and share it with Jimmy via email.",
+    "declared_apps": [
+      "Camera",
+      "Gallery",
+      "Mail"
+    ],
+    "mapped_kb_apps": [
+      "相册",
+      "相机",
+      "邮件"
+    ],
+    "suggested_role": "L1/L2 goal-style — needs L3 expand"
+  },
+  {
+    "source": "MobileWorld",
+    "source_id": "native/cv_email_task.py",
+    "instruction_seed": "在Download内找到最近一个月下载的简历文件，把文件发送给HR_chen@gmail.com，标题为candidates_cv。",
+    "declared_apps": [
+      "Files",
+      "Mail"
+    ],
+    "mapped_kb_apps": [
+      "gmail"
+    ],
+    "suggested_role": "L1/L2 goal-style — needs L3 expand"
+  },
+  {
+    "source": "MobileWorld",
+    "source_id": "native/share_photos_ask_user.py",
+    "instruction_seed": "Send some photos to Kevin via email, with text \"Here are some pictures for you.\"",
+    "declared_apps": [
+      "Gallery",
+      "Mail"
+    ],
+    "mapped_kb_apps": [
+      "相册",
+      "邮件"
+    ],
+    "suggested_role": "L1/L2 goal-style — needs L3 expand"
+  },
+  {
+    "source": "MobileWorld",
+    "source_id": "native/set_alarm_ask_user_2.py",
+    "instruction_seed": "Please set a wake-up alarm for my weekend, and choose my favorite ringtone.",
+    "declared_apps": [
+      "Clock"
+    ],
+    "mapped_kb_apps": [
+      "闹钟"
+    ],
+    "suggested_role": "L1/L2 goal-style — needs L3 expand"
+  },
+  {
+    "source": "MobileWorld",
+    "source_id": "mall/cart_info_notification.py",
+    "instruction_seed": "Find the items awaiting shipment in TaoDian and send an SMS reminder to the recipient, including the product name and order number, with no other text.",
+    "declared_apps": [
+      "Messages",
+      "Taodian"
+    ],
+    "mapped_kb_apps": [
+      "信息"
+    ],
+    "suggested_role": "L1/L2 goal-style — needs L3 expand"
+  },
+  {
+    "source": "MobileWorld",
+    "source_id": "mall/cart_management.py",
+    "instruction_seed": "最近天气变冷了，请帮我从淘店app的购物车中删除所有短袖T恤衬衫。如果需要登录，可以通过短信验证码登录。",
+    "declared_apps": [
+      "Taodian"
+    ],
+    "mapped_kb_apps": [
+      "天气"
+    ],
+    "suggested_role": "L1/L2 goal-style — needs L3 expand"
+  },
+  {
+    "source": "MobileWorld",
+    "source_id": "calendar/check_conference_and_send_sms_1.py",
+    "instruction_seed": "Check my calendar and send an SMS notification to Mia with the dates of my arrival and departure from Paris. The message should contain only the two dates in MM/DD/YYYY format, separated by a comma.",
+    "declared_apps": [
+      "Calendar",
+      "Messages"
+    ],
+    "mapped_kb_apps": [
+      "信息",
+      "日历"
+    ],
+    "suggested_role": "L1/L2 goal-style — needs L3 expand"
+  },
+  {
+    "source": "MobileWorld",
+    "source_id": "calendar/check_meeting_event_ask_user.py",
+    "instruction_seed": "Check next week's schedule. If there is a meeting with someone, email them to ask if it can be canceled.",
+    "declared_apps": [
+      "Calendar",
+      "Contacts",
+      "Mail"
+    ],
+    "mapped_kb_apps": [
+      "日历",
+      "邮件"
+    ],
+    "suggested_role": "L1/L2 goal-style — needs L3 expand"
+  },
+  {
+    "source": "MobileWorld",
+    "source_id": "calendar/check_event_and_set_alarm.py",
+    "instruction_seed": "Set an alarm in Clock app to remind me of my meeting with Sam 5 minutes in advance.",
+    "declared_apps": [
+      "Calendar",
+      "Clock"
+    ],
+    "mapped_kb_apps": [
+      "日历",
+      "闹钟"
+    ],
+    "suggested_role": "L1/L2 goal-style — needs L3 expand"
+  },
+  {
+    "source": "MobileWorld",
+    "source_id": "calendar/check_deduplicated_events.py",
+    "instruction_seed": "How many deduplicated events are there in the calendar, from October 20 to October 26?",
+    "declared_apps": [
+      "Calendar"
+    ],
+    "mapped_kb_apps": [
+      "日历"
+    ],
+    "suggested_role": "L1/L2 goal-style — needs L3 expand"
+  },
+  {
+    "source": "MobileWorld",
+    "source_id": "calendar/schedule_coffee_time_via_sms.py",
+    "instruction_seed": "I've received a coffee time invitation via text message; please check the calendar. If I am available in this time slot, reply \"OK\" and schedule a corresponding event on my calendar. Otherwise reply \"Not available in this time slot.\"",
+    "declared_apps": [
+      "Calendar",
+      "Messages"
+    ],
+    "mapped_kb_apps": [
+      "信息",
+      "日历"
+    ],
+    "suggested_role": "L1/L2 goal-style — needs L3 expand"
+  },
+  {
+    "source": "MobileWorld",
+    "source_id": "calendar/delete_event_ask_user.py",
+    "instruction_seed": "My schedule on 10/20 is a bit full, please remove a few events.",
+    "declared_apps": [
+      "Calendar"
+    ],
+    "mapped_kb_apps": [
+      "日历"
+    ],
+    "suggested_role": "L1/L2 goal-style — needs L3 expand"
+  },
+  {
+    "source": "MobileWorld",
+    "source_id": "calendar/check_conference_and_send_sms_2.py",
+    "instruction_seed": "Check my calendar and send an SMS notification to Mia with the dates of my arrival and departure from Tokyo. The message should contain only the two dates in MM/DD/YYYY format, separated by a comma.",
+    "declared_apps": [
+      "Calendar",
+      "Messages"
+    ],
+    "mapped_kb_apps": [
+      "信息",
+      "日历"
+    ],
+    "suggested_role": "L1/L2 goal-style — needs L3 expand"
+  },
+  {
+    "source": "MobileWorld",
+    "source_id": "calendar/add_business_trip_with_cafe.py",
+    "instruction_seed": "我下周六10:00am-12:30pm要去「上海虹桥火车站」，添加事项到calender，事项为出差， 你帮我找到离上海虹桥火车站10公里以内的景点，我周一上班前去参观下，按照\"景点名字：地址\"放入calender事件的描述中，多个景点按逗号分隔",
+    "declared_apps": [
+      "Calendar",
+      "MCP-Amap"
+    ],
+    "mapped_kb_apps": [
+      "日历",
+      "高德地图(Amap)"
+    ],
+    "suggested_role": "L1/L2 goal-style — needs L3 expand"
+  },
+  {
+    "source": "MobileWorld",
+    "source_id": "calendar/add_business_trip_with_cafe_ask_user.py",
+    "instruction_seed": "我下周六10:00am-12:30am要上海虹桥火车站， 你帮我找到离上海虹桥火车站10公里以内的景点，我周一上班前去参观下，添加事项到calender，事项为出差游玩，把找到的景点按照\"景点名字：地址\"放入calender事件的描述中，多个景点按逗号分隔",
+    "declared_apps": [
+      "Calendar",
+      "MCP-Amap"
+    ],
+    "mapped_kb_apps": [
+      "日历",
+      "高德地图(Amap)"
+    ],
+    "suggested_role": "L1/L2 goal-style — needs L3 expand"
+  },
+  {
+    "source": "MobileWorld",
+    "source_id": "calendar/check_meal_event_ask_user.py",
+    "instruction_seed": "Check next week's schedule. If there is a meal with someone, email them to ask if it can be canceled.",
+    "declared_apps": [
+      "Calendar",
+      "Contacts",
+      "Mail"
+    ],
+    "mapped_kb_apps": [
+      "日历",
+      "邮件"
+    ],
+    "suggested_role": "L1/L2 goal-style — needs L3 expand"
+  },
+  {
+    "source": "MobileWorld",
+    "source_id": "calendar/check_conference_duration.py",
+    "instruction_seed": "How many days of conference meetings did I schedule in October? Please only return the number of days, no other text.",
+    "declared_apps": [
+      "Calendar"
+    ],
+    "mapped_kb_apps": [
+      "日历"
+    ],
+    "suggested_role": "L1/L2 goal-style — needs L3 expand"
+  },
+  {
+    "source": "MobileWorld",
+    "source_id": "calendar/schedule_oneone_via_sms_ask_user.py",
+    "instruction_seed": "I've received a one-on-one meeting invitation from my boss.  Please check my calendar and reply 'OK' if it's clear.  If there's a scheduling conflict, please notify the person in the conflict event by SMS:  'Sorry, I can't attend the meeting.'",
+    "declared_apps": [
+      "Calendar",
+      "Messages"
+    ],
+    "mapped_kb_apps": [
+      "信息",
+      "日历"
+    ],
+    "suggested_role": "L1/L2 goal-style — needs L3 expand"
+  }
+]

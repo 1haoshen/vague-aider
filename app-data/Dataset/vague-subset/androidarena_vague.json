@@ -1,0 +1,474 @@
+[
+  {
+    "source": "AndroidArena",
+    "lang": "en",
+    "source_id": "settings_3",
+    "instruction": "Enable Wi-Fi.",
+    "category": "settings",
+    "mapped_kb_apps": [
+      "设置"
+    ],
+    "vague_source": "heuristic: 43 shortest unique instructions"
+  },
+  {
+    "source": "AndroidArena",
+    "lang": "en",
+    "source_id": "settings_4",
+    "instruction": "Disable Wi-Fi.",
+    "category": "settings",
+    "mapped_kb_apps": [
+      "设置"
+    ],
+    "vague_source": "heuristic: 43 shortest unique instructions"
+  },
+  {
+    "source": "AndroidArena",
+    "lang": "en",
+    "source_id": "camera_0",
+    "instruction": "Take a picture.",
+    "category": "camera",
+    "mapped_kb_apps": [
+      "相机"
+    ],
+    "vague_source": "heuristic: 43 shortest unique instructions"
+  },
+  {
+    "source": "AndroidArena",
+    "lang": "en",
+    "source_id": "calendar_0",
+    "instruction": "Open the calendar.",
+    "category": "calendar",
+    "mapped_kb_apps": [
+      "日历"
+    ],
+    "vague_source": "heuristic: 43 shortest unique instructions"
+  },
+  {
+    "source": "AndroidArena",
+    "lang": "en",
+    "source_id": "clock_0",
+    "instruction": "Open Google Clock.",
+    "category": "clock",
+    "mapped_kb_apps": [
+      "Google",
+      "闹钟"
+    ],
+    "vague_source": "heuristic: 43 shortest unique instructions"
+  },
+  {
+    "source": "AndroidArena",
+    "lang": "en",
+    "source_id": "settings_1",
+    "instruction": "Turn on Bluetooth.",
+    "category": "settings",
+    "mapped_kb_apps": [
+      "设置"
+    ],
+    "vague_source": "heuristic: 43 shortest unique instructions"
+  },
+  {
+    "source": "AndroidArena",
+    "lang": "en",
+    "source_id": "settings_0",
+    "instruction": "Turn off Bluetooth.",
+    "category": "settings",
+    "mapped_kb_apps": [
+      "设置"
+    ],
+    "vague_source": "heuristic: 43 shortest unique instructions"
+  },
+  {
+    "source": "AndroidArena",
+    "lang": "en",
+    "source_id": "gmail_14",
+    "instruction": "Open Gmail settings.",
+    "category": "gmail",
+    "mapped_kb_apps": [
+      "gmail",
+      "设置"
+    ],
+    "vague_source": "heuristic: 43 shortest unique instructions"
+  },
+  {
+    "source": "AndroidArena",
+    "lang": "en",
+    "source_id": "google-maps_10",
+    "instruction": "Find the nearest ATM.",
+    "category": "google-maps",
+    "mapped_kb_apps": [
+      "googleMap"
+    ],
+    "vague_source": "heuristic: 43 shortest unique instructions"
+  },
+  {
+    "source": "AndroidArena",
+    "lang": "en",
+    "source_id": "google-maps_13",
+    "instruction": "Find the nearest hotel.",
+    "category": "google-maps",
+    "mapped_kb_apps": [
+      "googleMap"
+    ],
+    "vague_source": "heuristic: 43 shortest unique instructions"
+  },
+  {
+    "source": "AndroidArena",
+    "lang": "en",
+    "source_id": "camera_1",
+    "instruction": "Start recording a video.",
+    "category": "camera",
+    "mapped_kb_apps": [
+      "相机"
+    ],
+    "vague_source": "heuristic: 43 shortest unique instructions"
+  },
+  {
+    "source": "AndroidArena",
+    "lang": "en",
+    "source_id": "settings_5",
+    "instruction": "Check the battery usage.",
+    "category": "settings",
+    "mapped_kb_apps": [
+      "设置"
+    ],
+    "vague_source": "heuristic: 43 shortest unique instructions"
+  },
+  {
+    "source": "AndroidArena",
+    "lang": "en",
+    "source_id": "google-maps_2",
+    "instruction": "Switch to satellite view.",
+    "category": "google-maps",
+    "mapped_kb_apps": [
+      "googleMap"
+    ],
+    "vague_source": "heuristic: 43 shortest unique instructions"
+  },
+  {
+    "source": "AndroidArena",
+    "lang": "en",
+    "source_id": "google-maps_12",
+    "instruction": "Find the nearest hospital.",
+    "category": "google-maps",
+    "mapped_kb_apps": [
+      "googleMap"
+    ],
+    "vague_source": "heuristic: 43 shortest unique instructions"
+  },
+  {
+    "source": "AndroidArena",
+    "lang": "en",
+    "source_id": "constrain_2",
+    "instruction": "Get the weather in \"London\"",
+    "category": "constrain",
+    "mapped_kb_apps": [
+      "天气"
+    ],
+    "vague_source": "heuristic: 43 shortest unique instructions"
+  },
+  {
+    "source": "AndroidArena",
+    "lang": "en",
+    "source_id": "firefox_4",
+    "instruction": "View my history in Firefox.",
+    "category": "firefox",
+    "mapped_kb_apps": [],
+    "vague_source": "heuristic: 43 shortest unique instructions"
+  },
+  {
+    "source": "AndroidArena",
+    "lang": "en",
+    "source_id": "firefox_3",
+    "instruction": "View my bookmarks in Firefox.",
+    "category": "firefox",
+    "mapped_kb_apps": [],
+    "vague_source": "heuristic: 43 shortest unique instructions"
+  },
+  {
+    "source": "AndroidArena",
+    "lang": "en",
+    "source_id": "google-maps_3",
+    "instruction": "Find the nearest gas station.",
+    "category": "google-maps",
+    "mapped_kb_apps": [
+      "googleMap"
+    ],
+    "vague_source": "heuristic: 43 shortest unique instructions"
+  },
+  {
+    "source": "AndroidArena",
+    "lang": "en",
+    "source_id": "google-maps_11",
+    "instruction": "Find the nearest parking lot.",
+    "category": "google-maps",
+    "mapped_kb_apps": [
+      "googleMap"
+    ],
+    "vague_source": "heuristic: 43 shortest unique instructions"
+  },
+  {
+    "source": "AndroidArena",
+    "lang": "en",
+    "source_id": "constrain_28",
+    "instruction": "Find \"Bob\" in Google Contacts.",
+    "category": "constrain",
+    "mapped_kb_apps": [
+      "Google"
+    ],
+    "vague_source": "heuristic: 43 shortest unique instructions"
+  },
+  {
+    "source": "AndroidArena",
+    "lang": "en",
+    "source_id": "constrain_14",
+    "instruction": "Find the introduction of ChatGPT.",
+    "category": "constrain",
+    "mapped_kb_apps": [
+      "ChatGPT"
+    ],
+    "vague_source": "heuristic: 43 shortest unique instructions"
+  },
+  {
+    "source": "AndroidArena",
+    "lang": "en",
+    "source_id": "youtube_7",
+    "instruction": "Create a YouTube playlist \"work\".",
+    "category": "youtube",
+    "mapped_kb_apps": [
+      "youtube"
+    ],
+    "vague_source": "heuristic: 43 shortest unique instructions"
+  },
+  {
+    "source": "AndroidArena",
+    "lang": "en",
+    "source_id": "constrain_0",
+    "instruction": "Find the current weather forecast.",
+    "category": "constrain",
+    "mapped_kb_apps": [
+      "天气"
+    ],
+    "vague_source": "heuristic: 43 shortest unique instructions"
+  },
+  {
+    "source": "AndroidArena",
+    "lang": "en",
+    "source_id": "constrain_18",
+    "instruction": "Search for \"large language model\".",
+    "category": "constrain",
+    "mapped_kb_apps": [],
+    "vague_source": "heuristic: 43 shortest unique instructions"
+  },
+  {
+    "source": "AndroidArena",
+    "lang": "en",
+    "source_id": "clock_5",
+    "instruction": "Pause the timer using Google Clock.",
+    "category": "clock",
+    "mapped_kb_apps": [
+      "Google",
+      "闹钟"
+    ],
+    "vague_source": "heuristic: 43 shortest unique instructions"
+  },
+  {
+    "source": "AndroidArena",
+    "lang": "en",
+    "source_id": "contacts_9",
+    "instruction": "Delete \"John\" from Google Contacts.",
+    "category": "contacts",
+    "mapped_kb_apps": [
+      "Google"
+    ],
+    "vague_source": "heuristic: 43 shortest unique instructions"
+  },
+  {
+    "source": "AndroidArena",
+    "lang": "en",
+    "source_id": "youtube_11",
+    "instruction": "Delete the YouTube playlist \"test\".",
+    "category": "youtube",
+    "mapped_kb_apps": [
+      "youtube"
+    ],
+    "vague_source": "heuristic: 43 shortest unique instructions"
+  },
+  {
+    "source": "AndroidArena",
+    "lang": "en",
+    "source_id": "clock_6",
+    "instruction": "Resume the timer using Google Clock.",
+    "category": "clock",
+    "mapped_kb_apps": [
+      "Google",
+      "闹钟"
+    ],
+    "vague_source": "heuristic: 43 shortest unique instructions"
+  },
+  {
+    "source": "AndroidArena",
+    "lang": "en",
+    "source_id": "clock_7",
+    "instruction": "Cancel the timer using Google Clock.",
+    "category": "clock",
+    "mapped_kb_apps": [
+      "Google",
+      "闹钟"
+    ],
+    "vague_source": "heuristic: 43 shortest unique instructions"
+  },
+  {
+    "source": "AndroidArena",
+    "lang": "en",
+    "source_id": "gmail_17",
+    "instruction": "Change the theme to \"Dark\" of Gmail.",
+    "category": "gmail",
+    "mapped_kb_apps": [
+      "gmail"
+    ],
+    "vague_source": "heuristic: 43 shortest unique instructions"
+  },
+  {
+    "source": "AndroidArena",
+    "lang": "en",
+    "source_id": "clock_9",
+    "instruction": "Stop the stopwatch using Google Clock.",
+    "category": "clock",
+    "mapped_kb_apps": [
+      "Google",
+      "闹钟"
+    ],
+    "vague_source": "heuristic: 43 shortest unique instructions"
+  },
+  {
+    "source": "AndroidArena",
+    "lang": "en",
+    "source_id": "clock_8",
+    "instruction": "Start the stopwatch using Google Clock.",
+    "category": "clock",
+    "mapped_kb_apps": [
+      "Google",
+      "闹钟"
+    ],
+    "vague_source": "heuristic: 43 shortest unique instructions"
+  },
+  {
+    "source": "AndroidArena",
+    "lang": "en",
+    "source_id": "clock_10",
+    "instruction": "Reset the stopwatch using Google Clock.",
+    "category": "clock",
+    "mapped_kb_apps": [
+      "Google",
+      "闹钟"
+    ],
+    "vague_source": "heuristic: 43 shortest unique instructions"
+  },
+  {
+    "source": "AndroidArena",
+    "lang": "en",
+    "source_id": "constrain_10",
+    "instruction": "View the reminders for the next 3 days.",
+    "category": "constrain",
+    "mapped_kb_apps": [],
+    "vague_source": "heuristic: 43 shortest unique instructions"
+  },
+  {
+    "source": "AndroidArena",
+    "lang": "en",
+    "source_id": "camera_3",
+    "instruction": "Set the flash mode to on for the Camera.",
+    "category": "camera",
+    "mapped_kb_apps": [
+      "相机"
+    ],
+    "vague_source": "heuristic: 43 shortest unique instructions"
+  },
+  {
+    "source": "AndroidArena",
+    "lang": "en",
+    "source_id": "slack_8",
+    "instruction": "Change the slack theme to the dark mode.",
+    "category": "slack",
+    "mapped_kb_apps": [
+      "Slack"
+    ],
+    "vague_source": "heuristic: 43 shortest unique instructions"
+  },
+  {
+    "source": "AndroidArena",
+    "lang": "en",
+    "source_id": "camera_2",
+    "instruction": "Set the flash mode to off for the Camera.",
+    "category": "camera",
+    "mapped_kb_apps": [
+      "相机"
+    ],
+    "vague_source": "heuristic: 43 shortest unique instructions"
+  },
+  {
+    "source": "AndroidArena",
+    "lang": "en",
+    "source_id": "constrain_33",
+    "instruction": "Send a message \"hello\" to \"bob\" in Slack.",
+    "category": "constrain",
+    "mapped_kb_apps": [
+      "Slack",
+      "信息"
+    ],
+    "vague_source": "heuristic: 43 shortest unique instructions"
+  },
+  {
+    "source": "AndroidArena",
+    "lang": "en",
+    "source_id": "google-drive_9",
+    "instruction": "Delete the \"test\" folder on Google Drive.",
+    "category": "google-drive",
+    "mapped_kb_apps": [],
+    "vague_source": "heuristic: 43 shortest unique instructions"
+  },
+  {
+    "source": "AndroidArena",
+    "lang": "en",
+    "source_id": "google-maps_8",
+    "instruction": "Find the nearest restaurant available now.",
+    "category": "google-maps",
+    "mapped_kb_apps": [
+      "googleMap"
+    ],
+    "vague_source": "heuristic: 43 shortest unique instructions"
+  },
+  {
+    "source": "AndroidArena",
+    "lang": "en",
+    "source_id": "settings_6",
+    "instruction": "Add 'Aghem' language of my Android device.",
+    "category": "settings",
+    "mapped_kb_apps": [
+      "设置"
+    ],
+    "vague_source": "heuristic: 43 shortest unique instructions"
+  },
+  {
+    "source": "AndroidArena",
+    "lang": "en",
+    "source_id": "settings_12",
+    "instruction": "Enable airplane mode on my Android device.",
+    "category": "settings",
+    "mapped_kb_apps": [
+      "设置"
+    ],
+    "vague_source": "heuristic: 43 shortest unique instructions"
+  },
+  {
+    "source": "AndroidArena",
+    "lang": "en",
+    "source_id": "youtube_5",
+    "instruction": "Subscribe to the YouTube channel \"Ted-Ed\".",
+    "category": "youtube",
+    "mapped_kb_apps": [
+      "youtube"
+    ],
+    "vague_source": "heuristic: 43 shortest unique instructions"
+  }
+]

@@ -18,9 +18,9 @@ logging.basicConfig(level=logging.DEBUG)  # 设置日志级别
 # 默认路径：相对本脚本定位到仓库根目录下的 app-data（不依赖当前工作目录）
 _SCRIPT_DIR = os.path.dirname(os.path.abspath(__file__))
 APP_DATA_PATH = os.path.normpath(
-    os.path.join(_SCRIPT_DIR, "..", "..", "app-data", "cn-en-app-data-action-str.json")
+    os.path.join(_SCRIPT_DIR, "..", "..", "app-data","knowledge-base", "cn-en-app-data-action-str.json")
 )
-GEMINI_MODEL = "google/gemini-2.5-pro"  # 指定模型
+GEMINI_MODEL = "qwen/qwen3-8b"  # 指定模型
 API_ENDPOINT = f"https://openrouter.ai/api/v1/chat/completions"
 
 def load_app_data(file_path: str = APP_DATA_PATH) -> dict:

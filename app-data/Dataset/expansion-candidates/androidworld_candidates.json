@@ -1,0 +1,855 @@
+[
+  {
+    "source": "AndroidWorld",
+    "source_id": "BrowserDraw",
+    "instruction_seed": "Open the file task.html in Downloads in the file manager; when prompted open it with Chrome. Then create a drawing using the three colors shown at the top and hit submit.",
+    "mapped_kb_apps": [
+      "Chrome"
+    ],
+    "difficulty": "easy",
+    "tags": [
+      "game_playing",
+      "parameterized"
+    ],
+    "optimal_steps": "5",
+    "suggested_role": "L3-template (parameterized, English) — needs L1 vague rewrite"
+  },
+  {
+    "source": "AndroidWorld",
+    "source_id": "BrowserMaze",
+    "instruction_seed": "Open the file task.html in Downloads in the file manager; when prompted open it with Chrome. Then navigate the X to the bottom-right cell, by using the direction buttons.",
+    "mapped_kb_apps": [
+      "Chrome"
+    ],
+    "difficulty": "easy",
+    "tags": [
+      "game_playing",
+      "multi_app",
+      "complex_ui_understanding",
+      "memorization",
+      "parameterized"
+    ],
+    "optimal_steps": "9",
+    "suggested_role": "L3-template (parameterized, English) — needs L1 vague rewrite"
+  },
+  {
+    "source": "AndroidWorld",
+    "source_id": "BrowserMultiply",
+    "instruction_seed": "Open the file task.html in Downloads in the file manager; when prompted open it with Chrome. Then click the button 5 times, remember the numbers displayed, and enter their product in the form.",
+    "mapped_kb_apps": [
+      "Chrome"
+    ],
+    "difficulty": "hard",
+    "tags": [
+      "math_counting",
+      "memorization",
+      "screen_reading"
+    ],
+    "optimal_steps": "11",
+    "suggested_role": "L3-template (parameterized, English) — needs L1 vague rewrite"
+  },
+  {
+    "source": "AndroidWorld",
+    "source_id": "CameraTakePhoto",
+    "instruction_seed": "Take one photo.",
+    "mapped_kb_apps": [
+      "相机"
+    ],
+    "difficulty": "easy",
+    "tags": [
+      ""
+    ],
+    "optimal_steps": "2",
+    "suggested_role": "L3-template (parameterized, English) — needs L1 vague rewrite"
+  },
+  {
+    "source": "AndroidWorld",
+    "source_id": "CameraTakeVideo",
+    "instruction_seed": "Take one video.",
+    "mapped_kb_apps": [
+      "相机"
+    ],
+    "difficulty": "medium",
+    "tags": [
+      ""
+    ],
+    "optimal_steps": "3",
+    "suggested_role": "L3-template (parameterized, English) — needs L1 vague rewrite"
+  },
+  {
+    "source": "AndroidWorld",
+    "source_id": "ClockStopWatchPausedVerify",
+    "instruction_seed": "Pause the stopwatch.",
+    "mapped_kb_apps": [
+      "闹钟"
+    ],
+    "difficulty": "easy",
+    "tags": [
+      "verification"
+    ],
+    "optimal_steps": "1",
+    "suggested_role": "L3-template (parameterized, English) — needs L1 vague rewrite"
+  },
+  {
+    "source": "AndroidWorld",
+    "source_id": "ClockStopWatchRunning",
+    "instruction_seed": "Run the stopwatch.",
+    "mapped_kb_apps": [
+      "闹钟"
+    ],
+    "difficulty": "easy",
+    "tags": [
+      ""
+    ],
+    "optimal_steps": "3",
+    "suggested_role": "L3-template (parameterized, English) — needs L1 vague rewrite"
+  },
+  {
+    "source": "AndroidWorld",
+    "source_id": "ClockTimerEntry",
+    "instruction_seed": "Create a timer with {hours} hours, {minutes} minutes, and {seconds} seconds. Do not start the timer.",
+    "mapped_kb_apps": [
+      "闹钟"
+    ],
+    "difficulty": "easy",
+    "tags": [
+      "data_entry",
+      "parameterized"
+    ],
+    "optimal_steps": "3",
+    "suggested_role": "L3-template (parameterized, English) — needs L1 vague rewrite"
+  },
+  {
+    "source": "AndroidWorld",
+    "source_id": "ExpenseAddMultipleFromGallery",
+    "instruction_seed": "Add the expenses from expenses.jpg in Simple Gallery Pro to pro expense.",
+    "mapped_kb_apps": [
+      "相册"
+    ],
+    "difficulty": "hard",
+    "tags": [
+      "multi_app",
+      "screen_reading",
+      "data_entry",
+      "information_retrieval",
+      "parameterized"
+    ],
+    "optimal_steps": "10",
+    "suggested_role": "L3-template (parameterized, English) — needs L1 vague rewrite"
+  },
+  {
+    "source": "AndroidWorld",
+    "source_id": "ExpenseAddMultipleFromMarkor",
+    "instruction_seed": "Go through the transactions in my_expenses.txt in Markor. Log the reimbursable transactions in the arduia pro expense.",
+    "mapped_kb_apps": [
+      "备忘录/笔记"
+    ],
+    "difficulty": "hard",
+    "tags": [
+      "transcription",
+      "repetition",
+      "multi_app",
+      "data_entry",
+      "memorization",
+      "parameterized"
+    ],
+    "optimal_steps": "15",
+    "suggested_role": "L3-template (parameterized, English) — needs L1 vague rewrite"
+  },
+  {
+    "source": "AndroidWorld",
+    "source_id": "MarkorAddNoteHeader",
+    "instruction_seed": "Update the Markor note {file_name} by adding the following text, along with a new blank line before the existing content: \"{header}\".",
+    "mapped_kb_apps": [
+      "备忘录/笔记"
+    ],
+    "difficulty": "medium",
+    "tags": [
+      "data_entry",
+      "parameterized"
+    ],
+    "optimal_steps": "6",
+    "suggested_role": "L3-template (parameterized, English) — needs L1 vague rewrite"
+  },
+  {
+    "source": "AndroidWorld",
+    "source_id": "MarkorChangeNoteContent",
+    "instruction_seed": "Update the content of {file_name} to \"{updated_content}\" in Markor.",
+    "mapped_kb_apps": [
+      "备忘录/笔记"
+    ],
+    "difficulty": "medium",
+    "tags": [
+      "data_entry",
+      "requires_setup",
+      "parameterized"
+    ],
+    "optimal_steps": "5",
+    "suggested_role": "L3-template (parameterized, English) — needs L1 vague rewrite"
+  },
+  {
+    "source": "AndroidWorld",
+    "source_id": "MarkorCreateFolder",
+    "instruction_seed": "Create a new folder in Markor named {folder_name}.",
+    "mapped_kb_apps": [
+      "备忘录/笔记"
+    ],
+    "difficulty": "easy",
+    "tags": [
+      "data_entry",
+      "parameterized"
+    ],
+    "optimal_steps": "4",
+    "suggested_role": "L3-template (parameterized, English) — needs L1 vague rewrite"
+  },
+  {
+    "source": "AndroidWorld",
+    "source_id": "MarkorCreateNote",
+    "instruction_seed": "Create a new note in Markor named {file_name} with the following text: {text}",
+    "mapped_kb_apps": [
+      "备忘录/笔记"
+    ],
+    "difficulty": "medium",
+    "tags": [
+      "data_entry",
+      "parameterized"
+    ],
+    "optimal_steps": "8",
+    "suggested_role": "L3-template (parameterized, English) — needs L1 vague rewrite"
+  },
+  {
+    "source": "AndroidWorld",
+    "source_id": "MarkorCreateNoteAndSms",
+    "instruction_seed": "Create a new note in Markor named {file_name} with the following text: {text}. Share the entire content of the note with the phone number {number} via SMS using Simple SMS Messenger",
+    "mapped_kb_apps": [
+      "信息",
+      "备忘录/笔记"
+    ],
+    "difficulty": "hard",
+    "tags": [
+      "multi_app",
+      "data_entry",
+      "parameterized"
+    ],
+    "optimal_steps": "9",
+    "suggested_role": "L3-template (parameterized, English) — needs L1 vague rewrite"
+  },
+  {
+    "source": "AndroidWorld",
+    "source_id": "MarkorCreateNoteFromClipboard",
+    "instruction_seed": "Create a note in Markor named {file_name}. Perform a paste operation in the note and save the note.",
+    "mapped_kb_apps": [
+      "备忘录/笔记"
+    ],
+    "difficulty": "medium",
+    "tags": [
+      "data_entry",
+      "parameterized"
+    ],
+    "optimal_steps": "7",
+    "suggested_role": "L3-template (parameterized, English) — needs L1 vague rewrite"
+  },
+  {
+    "source": "AndroidWorld",
+    "source_id": "MarkorDeleteAllNotes",
+    "instruction_seed": "Delete all my notes in Markor.",
+    "mapped_kb_apps": [
+      "备忘录/笔记"
+    ],
+    "difficulty": "easy",
+    "tags": [
+      "data_edit",
+      "repetition",
+      "parameterized"
+    ],
+    "optimal_steps": "7",
+    "suggested_role": "L3-template (parameterized, English) — needs L1 vague rewrite"
+  },
+  {
+    "source": "AndroidWorld",
+    "source_id": "MarkorDeleteNewestNote",
+    "instruction_seed": "Delete the newest note in Markor.",
+    "mapped_kb_apps": [
+      "备忘录/笔记"
+    ],
+    "difficulty": "easy",
+    "tags": [
+      "data_edit",
+      "parameterized"
+    ],
+    "optimal_steps": "4",
+    "suggested_role": "L3-template (parameterized, English) — needs L1 vague rewrite"
+  },
+  {
+    "source": "AndroidWorld",
+    "source_id": "MarkorDeleteNote",
+    "instruction_seed": "Delete the note in Markor named {file_name}.",
+    "mapped_kb_apps": [
+      "备忘录/笔记"
+    ],
+    "difficulty": "easy",
+    "tags": [
+      "data_edit",
+      "requires_setup",
+      "parameterized"
+    ],
+    "optimal_steps": "5",
+    "suggested_role": "L3-template (parameterized, English) — needs L1 vague rewrite"
+  },
+  {
+    "source": "AndroidWorld",
+    "source_id": "MarkorEditNote",
+    "instruction_seed": "Edit {file_name} in Markor. Add to the top of the note {header}",
+    "mapped_kb_apps": [
+      "备忘录/笔记"
+    ],
+    "difficulty": "easy",
+    "tags": [
+      "data_edit",
+      "transcription",
+      "parameterized"
+    ],
+    "optimal_steps": "4",
+    "suggested_role": "L3-template (parameterized, English) — needs L1 vague rewrite"
+  },
+  {
+    "source": "AndroidWorld",
+    "source_id": "MarkorMergeNotes",
+    "instruction_seed": "Merge the contents of Markor notes {file1_name}, {file2_name} and {file3_name} (in the same order) into a new Markor note named {new_file_name} and save it. Add a new line between the content of each note.",
+    "mapped_kb_apps": [
+      "备忘录/笔记"
+    ],
+    "difficulty": "hard",
+    "tags": [
+      "data_edit",
+      "data_entry",
+      "parameterized"
+    ],
+    "optimal_steps": "39",
+    "suggested_role": "L3-template (parameterized, English) — needs L1 vague rewrite"
+  },
+  {
+    "source": "AndroidWorld",
+    "source_id": "MarkorMoveNote",
+    "instruction_seed": "In Markor, move the note {file_name} from {source_folder} to {destination_folder}.",
+    "mapped_kb_apps": [
+      "备忘录/笔记"
+    ],
+    "difficulty": "medium",
+    "tags": [
+      "parameterized",
+      "complex_ui_understanding"
+    ],
+    "optimal_steps": "7",
+    "suggested_role": "L3-template (parameterized, English) — needs L1 vague rewrite"
+  },
+  {
+    "source": "AndroidWorld",
+    "source_id": "MarkorTranscribeReceipt",
+    "instruction_seed": "Create a file in Markor, called receipt.md with the transactions from the receipt.png. Use Simple Gallery to view the receipt. Please enter transactions in csv format including the header \"Date, Item, Amount\".",
+    "mapped_kb_apps": [
+      "备忘录/笔记",
+      "相册"
+    ],
+    "difficulty": "medium",
+    "tags": [
+      "transcription",
+      "data_entry",
+      "multi_app",
+      "screen_reading",
+      "memorization",
+      "parameterized"
+    ],
+    "optimal_steps": "9",
+    "suggested_role": "L3-template (parameterized, English) — needs L1 vague rewrite"
+  },
+  {
+    "source": "AndroidWorld",
+    "source_id": "MarkorTranscribeVideo",
+    "instruction_seed": "Transcribe the contents of video {video_name} by watching it in VLC player (located in Download) and writing the sequence of strings shown on each frame to the text file {file_name} in Markor as a comma separated list. For example, if the first frame shows the text \"edna\" and the second frame shows the text \"pineapple\", then the text file should contains only the following text: \"edna, pineapple\".",
+    "mapped_kb_apps": [
+      "备忘录/笔记"
+    ],
+    "difficulty": "hard",
+    "tags": [
+      "multi_app",
+      "transcription",
+      "requires_setup",
+      "memorization",
+      "screen_reading",
+      "parameterized"
+    ],
+    "optimal_steps": "10",
+    "suggested_role": "L3-template (parameterized, English) — needs L1 vague rewrite"
+  },
+  {
+    "source": "AndroidWorld",
+    "source_id": "NotesIsTodo",
+    "instruction_seed": "Is the note titled '{title}' in the Joplin app marked as a todo item? Respond with either 'True' if it is a todo or 'False' if not.",
+    "mapped_kb_apps": [
+      "备忘录/笔记"
+    ],
+    "difficulty": "easy",
+    "tags": [
+      "information_retrieval",
+      "parameterized"
+    ],
+    "optimal_steps": "2",
+    "suggested_role": "L3-template (parameterized, English) — needs L1 vague rewrite"
+  },
+  {
+    "source": "AndroidWorld",
+    "source_id": "NotesMeetingAttendeeCount",
+    "instruction_seed": "How many attendees were present in the meeting titled '{title}' in the Joplin app? Express your answer as just a single number.",
+    "mapped_kb_apps": [
+      "备忘录/笔记"
+    ],
+    "difficulty": "easy",
+    "tags": [
+      "search",
+      "parameterized"
+    ],
+    "optimal_steps": "3",
+    "suggested_role": "L3-template (parameterized, English) — needs L1 vague rewrite"
+  },
+  {
+    "source": "AndroidWorld",
+    "source_id": "NotesRecipeIngredientCount",
+    "instruction_seed": "What quantity of {ingredient} do I need for the recipe '{title}' in the Joplin app? Express your answer in the format <amount> <unit> without using abbreviations.",
+    "mapped_kb_apps": [
+      "备忘录/笔记"
+    ],
+    "difficulty": "easy",
+    "tags": [
+      "search",
+      "parameterized"
+    ],
+    "optimal_steps": "2",
+    "suggested_role": "L3-template (parameterized, English) — needs L1 vague rewrite"
+  },
+  {
+    "source": "AndroidWorld",
+    "source_id": "NotesTodoItemCount",
+    "instruction_seed": "How many to-dos do I have in the '{folder}' folder in the Joplin app? Express your answer as just a single number.",
+    "mapped_kb_apps": [
+      "备忘录/笔记"
+    ],
+    "difficulty": "medium",
+    "tags": [
+      "information_retrieval",
+      "math_counting",
+      "parameterized"
+    ],
+    "optimal_steps": "5",
+    "suggested_role": "L3-template (parameterized, English) — needs L1 vague rewrite"
+  },
+  {
+    "source": "AndroidWorld",
+    "source_id": "RecipeAddMultipleRecipesFromImage",
+    "instruction_seed": "Add the recipes from recipes.jpg in Simple Gallery Pro to the Broccoli recipe app.",
+    "mapped_kb_apps": [
+      "相册"
+    ],
+    "difficulty": "hard",
+    "tags": [
+      "transcription",
+      "screen_reading",
+      "data_entry",
+      "complex_ui_understanding",
+      "parameterized"
+    ],
+    "optimal_steps": "13",
+    "suggested_role": "L3-template (parameterized, English) — needs L1 vague rewrite"
+  },
+  {
+    "source": "AndroidWorld",
+    "source_id": "RecipeAddMultipleRecipesFromMarkor",
+    "instruction_seed": "Add the recipes from recipes.txt in Markor to the Broccoli recipe app.",
+    "mapped_kb_apps": [
+      "备忘录/笔记"
+    ],
+    "difficulty": "hard",
+    "tags": [
+      "data_entry",
+      "multi_app",
+      "screen_reading",
+      "memorization",
+      "parameterized"
+    ],
+    "optimal_steps": "24",
+    "suggested_role": "L3-template (parameterized, English) — needs L1 vague rewrite"
+  },
+  {
+    "source": "AndroidWorld",
+    "source_id": "RecipeAddMultipleRecipesFromMarkor2",
+    "instruction_seed": "Add the recipes from recipes.txt in Markor that take {prep_time} to prepare into the Broccoli recipe app.",
+    "mapped_kb_apps": [
+      "备忘录/笔记"
+    ],
+    "difficulty": "hard",
+    "tags": [
+      "parameterized",
+      "screen_reading",
+      "complex_ui_understanding",
+      "repetition",
+      "multi_app",
+      "data_entry",
+      "information_retrieval"
+    ],
+    "optimal_steps": "26",
+    "suggested_role": "L3-template (parameterized, English) — needs L1 vague rewrite"
+  },
+  {
+    "source": "AndroidWorld",
+    "source_id": "SimpleCalendarAddOneEvent",
+    "instruction_seed": "In Simple Calendar Pro, create a calendar event on {year}-{month}-{day} at {hour}h with the title '{event_title}' and the description '{event_description}'. The event should last for {duration_mins} mins.",
+    "mapped_kb_apps": [
+      "日历"
+    ],
+    "difficulty": "hard",
+    "tags": [
+      "data_entry",
+      "complex_ui_understanding",
+      "parameterized"
+    ],
+    "optimal_steps": "17",
+    "suggested_role": "L3-template (parameterized, English) — needs L1 vague rewrite"
+  },
+  {
+    "source": "AndroidWorld",
+    "source_id": "SimpleCalendarAddOneEventInTwoWeeks",
+    "instruction_seed": "In Simple Calendar Pro, create a calendar event in two weeks from today at {hour}h with the title '{event_title}' and the description '{event_description}'. The event should last for {duration_mins} mins.",
+    "mapped_kb_apps": [
+      "日历"
+    ],
+    "difficulty": "medium",
+    "tags": [
+      "data_entry",
+      "math_counting",
+      "parameterized"
+    ],
+    "optimal_steps": "10",
+    "suggested_role": "L3-template (parameterized, English) — needs L1 vague rewrite"
+  },
+  {
+    "source": "AndroidWorld",
+    "source_id": "SimpleCalendarAddOneEventRelativeDay",
+    "instruction_seed": "In Simple Calendar Pro, create a calendar event for this {day_of_week} at {hour}h with the title '{event_title}' and the description '{event_description}'. The event should last for {duration_mins} mins.",
+    "mapped_kb_apps": [
+      "日历"
+    ],
+    "difficulty": "easy",
+    "tags": [
+      "data_entry",
+      "parameterized"
+    ],
+    "optimal_steps": "17",
+    "suggested_role": "L3-template (parameterized, English) — needs L1 vague rewrite"
+  },
+  {
+    "source": "AndroidWorld",
+    "source_id": "SimpleCalendarAddOneEventTomorrow",
+    "instruction_seed": "In Simple Calendar Pro, create a calendar event for tomorrow at {hour}h with the title '{event_title}' and the description '{event_description}'. The event should last for {duration_mins} mins.",
+    "mapped_kb_apps": [
+      "日历"
+    ],
+    "difficulty": "easy",
+    "tags": [
+      "data_entry",
+      "parameterized"
+    ],
+    "optimal_steps": "13",
+    "suggested_role": "L3-template (parameterized, English) — needs L1 vague rewrite"
+  },
+  {
+    "source": "AndroidWorld",
+    "source_id": "SimpleCalendarAddRepeatingEvent",
+    "instruction_seed": "In Simple Calendar Pro, create a recurring calendar event titled '{event_title}' starting on {year}-{month}-{day} at {hour}h. The event recurs {repeat_rule}, forever, and lasts for {duration_mins} minutes each occurrence. The event description should be '{event_description}'.",
+    "mapped_kb_apps": [
+      "日历"
+    ],
+    "difficulty": "easy",
+    "tags": [
+      "data_entry",
+      "complex_ui_understanding",
+      "parameterized"
+    ],
+    "optimal_steps": "14",
+    "suggested_role": "L3-template (parameterized, English) — needs L1 vague rewrite"
+  },
+  {
+    "source": "AndroidWorld",
+    "source_id": "SimpleCalendarAnyEventsOnDate",
+    "instruction_seed": "Do I have any events {date} in Simple Calendar Pro? Answer with the titles only. If there are multiples titles, format your answer in a comma separated list.",
+    "mapped_kb_apps": [
+      "日历"
+    ],
+    "difficulty": "easy",
+    "tags": [
+      "information_retrieval",
+      "parameterized"
+    ],
+    "optimal_steps": "4",
+    "suggested_role": "L3-template (parameterized, English) — needs L1 vague rewrite"
+  },
+  {
+    "source": "AndroidWorld",
+    "source_id": "SimpleCalendarDeleteEvents",
+    "instruction_seed": "In Simple Calendar Pro, delete all the calendar events on {year}-{month}-{day}",
+    "mapped_kb_apps": [
+      "日历"
+    ],
+    "difficulty": "easy",
+    "tags": [
+      "parameterized",
+      "data_edit"
+    ],
+    "optimal_steps": "7",
+    "suggested_role": "L3-template (parameterized, English) — needs L1 vague rewrite"
+  },
+  {
+    "source": "AndroidWorld",
+    "source_id": "SimpleCalendarDeleteEventsOnRelativeDay",
+    "instruction_seed": "In Simple Calendar Pro, delete all events scheduled for this {day_of_week}.",
+    "mapped_kb_apps": [
+      "日历"
+    ],
+    "difficulty": "medium",
+    "tags": [
+      "data_edit",
+      "parameterized"
+    ],
+    "optimal_steps": "6",
+    "suggested_role": "L3-template (parameterized, English) — needs L1 vague rewrite"
+  },
+  {
+    "source": "AndroidWorld",
+    "source_id": "SimpleCalendarDeleteOneEvent",
+    "instruction_seed": "In Simple Calendar Pro, delete the calendar event on {year}-{month}-{day} at {hour}h with the title '{event_title}'",
+    "mapped_kb_apps": [
+      "日历"
+    ],
+    "difficulty": "easy",
+    "tags": [
+      "data_edit",
+      "complex_ui_understanding",
+      "parameterized"
+    ],
+    "optimal_steps": "6",
+    "suggested_role": "L3-template (parameterized, English) — needs L1 vague rewrite"
+  },
+  {
+    "source": "AndroidWorld",
+    "source_id": "SimpleCalendarEventOnDateAtTime",
+    "instruction_seed": "What is on my schedule for {date} at {time} in Simple Calendar Pro? Answer with the titles only. If there are multiples titles, format your answer in a comma separated list.",
+    "mapped_kb_apps": [
+      "日历"
+    ],
+    "difficulty": "medium",
+    "tags": [
+      "information_retrieval",
+      "parameterized"
+    ],
+    "optimal_steps": "3",
+    "suggested_role": "L3-template (parameterized, English) — needs L1 vague rewrite"
+  },
+  {
+    "source": "AndroidWorld",
+    "source_id": "SimpleCalendarEventsInNextWeek",
+    "instruction_seed": "What events do I have in the next week in Simple Calendar Pro? Answer with the titles only. If there are multiples titles, format your answer in a comma separated list.",
+    "mapped_kb_apps": [
+      "日历"
+    ],
+    "difficulty": "easy",
+    "tags": [
+      "data_entry",
+      "parameterized"
+    ],
+    "optimal_steps": "3",
+    "suggested_role": "L3-template (parameterized, English) — needs L1 vague rewrite"
+  },
+  {
+    "source": "AndroidWorld",
+    "source_id": "SimpleCalendarEventsInTimeRange",
+    "instruction_seed": "Do I have any events between {start_time} and 8pm {date} in Simple Calendar Pro? Answer with the titles only. If there are multiples titles, format your answer in a comma separated list.",
+    "mapped_kb_apps": [
+      "日历"
+    ],
+    "difficulty": "easy",
+    "tags": [
+      "complex_ui_understanding",
+      "screen_reading",
+      "search",
+      "transcription",
+      "information_retrieval",
+      "parameterized"
+    ],
+    "optimal_steps": "2",
+    "suggested_role": "L3-template (parameterized, English) — needs L1 vague rewrite"
+  },
+  {
+    "source": "AndroidWorld",
+    "source_id": "SimpleCalendarEventsOnDate",
+    "instruction_seed": "What events do I have {date} in Simple Calendar Pro? Answer with the titles only. If there are multiple titles, format your answer as a comma separated list.",
+    "mapped_kb_apps": [
+      "日历"
+    ],
+    "difficulty": "medium",
+    "tags": [
+      "information_retrieval",
+      "parameterized"
+    ],
+    "optimal_steps": "4",
+    "suggested_role": "L3-template (parameterized, English) — needs L1 vague rewrite"
+  },
+  {
+    "source": "AndroidWorld",
+    "source_id": "SimpleCalendarFirstEventAfterStartTime",
+    "instruction_seed": "What is my first event after {time} {date} in Simple Calendar Pro? Answer with the titles only. If there are multiples titles, format your answer in a comma separated list.",
+    "mapped_kb_apps": [
+      "日历"
+    ],
+    "difficulty": "easy",
+    "tags": [
+      "parameterized",
+      "screen_reading"
+    ],
+    "optimal_steps": "2",
+    "suggested_role": "L3-template (parameterized, English) — needs L1 vague rewrite"
+  },
+  {
+    "source": "AndroidWorld",
+    "source_id": "SimpleCalendarLocationOfEvent",
+    "instruction_seed": "What is the location of my {title} event in Simple Calendar Pro? Answer with the location only.",
+    "mapped_kb_apps": [
+      "日历"
+    ],
+    "difficulty": "easy",
+    "tags": [
+      "search",
+      "parameterized"
+    ],
+    "optimal_steps": "4",
+    "suggested_role": "L3-template (parameterized, English) — needs L1 vague rewrite"
+  },
+  {
+    "source": "AndroidWorld",
+    "source_id": "SimpleCalendarNextEvent",
+    "instruction_seed": "What is my next upcoming event in Simple Calendar Pro? Answer with the title only. If there are multiples titles, format your answer in a comma separated list.",
+    "mapped_kb_apps": [
+      "日历"
+    ],
+    "difficulty": "easy",
+    "tags": [
+      "complex_ui_understanding",
+      "screen_reading",
+      "information_retrieval",
+      "parameterized"
+    ],
+    "optimal_steps": "4",
+    "suggested_role": "L3-template (parameterized, English) — needs L1 vague rewrite"
+  },
+  {
+    "source": "AndroidWorld",
+    "source_id": "SimpleCalendarNextMeetingWithPerson",
+    "instruction_seed": "When is my next meeting with {person} in Simple Calendar Pro? Express your answer in the format <month name> <day> <year> <hour in 24-hour format>:<minutes>.",
+    "mapped_kb_apps": [
+      "日历"
+    ],
+    "difficulty": "medium",
+    "tags": [
+      "information_retrieval",
+      "parameterized"
+    ],
+    "optimal_steps": "5",
+    "suggested_role": "L3-template (parameterized, English) — needs L1 vague rewrite"
+  },
+  {
+    "source": "AndroidWorld",
+    "source_id": "SimpleSmsReply",
+    "instruction_seed": "Reply to {number} with message: {message} in Simple SMS Messenger",
+    "mapped_kb_apps": [
+      "信息"
+    ],
+    "difficulty": "easy",
+    "tags": [
+      "search",
+      "data_entry",
+      "parameterized"
+    ],
+    "optimal_steps": "4",
+    "suggested_role": "L3-template (parameterized, English) — needs L1 vague rewrite"
+  },
+  {
+    "source": "AndroidWorld",
+    "source_id": "SimpleSmsReplyMostRecent",
+    "instruction_seed": "Reply to the most recent text message using Simple SMS Messenger with message: {message}",
+    "mapped_kb_apps": [
+      "信息"
+    ],
+    "difficulty": "medium",
+    "tags": [
+      "parameterized"
+    ],
+    "optimal_steps": "5",
+    "suggested_role": "L3-template (parameterized, English) — needs L1 vague rewrite"
+  },
+  {
+    "source": "AndroidWorld",
+    "source_id": "SimpleSmsResend",
+    "instruction_seed": "Resend the message I just sent to {name} in Simple SMS Messenger",
+    "mapped_kb_apps": [
+      "信息"
+    ],
+    "difficulty": "medium",
+    "tags": [
+      "parameterized"
+    ],
+    "optimal_steps": "6",
+    "suggested_role": "L3-template (parameterized, English) — needs L1 vague rewrite"
+  },
+  {
+    "source": "AndroidWorld",
+    "source_id": "SimpleSmsSend",
+    "instruction_seed": "Send a text message using Simple SMS Messenger to {number} with message: {message}",
+    "mapped_kb_apps": [
+      "信息"
+    ],
+    "difficulty": "medium",
+    "tags": [
+      "parameterized"
+    ],
+    "optimal_steps": "6",
+    "suggested_role": "L3-template (parameterized, English) — needs L1 vague rewrite"
+  },
+  {
+    "source": "AndroidWorld",
+    "source_id": "SimpleSmsSendClipboardContent",
+    "instruction_seed": "Send a message to {number} with the clipboard content in Simple SMS Messenger",
+    "mapped_kb_apps": [
+      "信息"
+    ],
+    "difficulty": "easy",
+    "tags": [
+      "data_entry",
+      "parameterized"
+    ],
+    "optimal_steps": "6",
+    "suggested_role": "L3-template (parameterized, English) — needs L1 vague rewrite"
+  },
+  {
+    "source": "AndroidWorld",
+    "source_id": "SimpleSmsSendReceivedAddress",
+    "instruction_seed": "Text the address of the event to {name1} that {name2} just sent me in Simple SMS Messenger",
+    "mapped_kb_apps": [
+      "信息"
+    ],
+    "difficulty": "medium",
+    "tags": [
+      "information_retrieval",
+      "parameterized"
+    ],
+    "optimal_steps": "9",
+    "suggested_role": "L3-template (parameterized, English) — needs L1 vague rewrite"
+  }
+]

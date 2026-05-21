@@ -1,0 +1,576 @@
+[
+  {
+    "source": "MobileWorld",
+    "lang": "en",
+    "source_id": "settings/open_flight_mode.py",
+    "instruction": "Turn on device flight mode",
+    "declared_apps": [
+      "Settings"
+    ],
+    "mapped_kb_apps": [
+      "设置"
+    ],
+    "vague_source": "heuristic: 45 shortest unique goals (len≥20)"
+  },
+  {
+    "source": "MobileWorld",
+    "lang": "en",
+    "source_id": "settings/close_flight_mode.py",
+    "instruction": "Turn off device flight mode",
+    "declared_apps": [
+      "Settings"
+    ],
+    "mapped_kb_apps": [
+      "设置"
+    ],
+    "vague_source": "heuristic: 45 shortest unique goals (len≥20)"
+  },
+  {
+    "source": "MobileWorld",
+    "lang": "cn",
+    "source_id": "mall/search_item_and_checkout.py",
+    "instruction": "万圣节快到了，帮我在淘店下单买一套临时纹身，在支付页面让我操作",
+    "declared_apps": [
+      "Taodian"
+    ],
+    "mapped_kb_apps": [],
+    "vague_source": "heuristic: 45 shortest unique goals (len≥20)"
+  },
+  {
+    "source": "MobileWorld",
+    "lang": "cn",
+    "source_id": "mall/buy_cola_ask_user.py",
+    "instruction": "帮我在淘店上买一箱无糖可乐，寄到我这次上班的地址，不要寄错到家里",
+    "declared_apps": [
+      "Taodian"
+    ],
+    "mapped_kb_apps": [],
+    "vague_source": "heuristic: 45 shortest unique goals (len≥20)"
+  },
+  {
+    "source": "MobileWorld",
+    "lang": "cn",
+    "source_id": "map/check_distance_mcp_2.py",
+    "instruction": "我的常用收货地址到杭州东站的直线距离是多少公里？只需要回答最终数字",
+    "declared_apps": [
+      "MCP-Amap",
+      "Taodian"
+    ],
+    "mapped_kb_apps": [
+      "高德地图(Amap)"
+    ],
+    "vague_source": "heuristic: 45 shortest unique goals (len≥20)"
+  },
+  {
+    "source": "MobileWorld",
+    "lang": "cn",
+    "source_id": "mall/search_white_sneakers_checkout_ask_user.py",
+    "instruction": "帮我在淘店上找一双白色的鞋，日常通勤穿的，按我平时穿的码下单，默认收件人和地址",
+    "declared_apps": [
+      "Taodian"
+    ],
+    "mapped_kb_apps": [],
+    "vague_source": "heuristic: 45 shortest unique goals (len≥20)"
+  },
+  {
+    "source": "MobileWorld",
+    "lang": "en",
+    "source_id": "settings/adjust_brigtness_max.py",
+    "instruction": "Set the brightness to the maximum level.",
+    "declared_apps": [
+      "Settings"
+    ],
+    "mapped_kb_apps": [
+      "设置"
+    ],
+    "vague_source": "heuristic: 45 shortest unique goals (len≥20)"
+  },
+  {
+    "source": "MobileWorld",
+    "lang": "en",
+    "source_id": "settings/adjust_brigtness_min.py",
+    "instruction": "Set the brightness to the minimum level.",
+    "declared_apps": [
+      "Settings"
+    ],
+    "mapped_kb_apps": [
+      "设置"
+    ],
+    "vague_source": "heuristic: 45 shortest unique goals (len≥20)"
+  },
+  {
+    "source": "MobileWorld",
+    "lang": "en",
+    "source_id": "native/set_alarm_ask_user_1.py",
+    "instruction": "Please set a wake-up alarm for me on Friday.",
+    "declared_apps": [
+      "Clock"
+    ],
+    "mapped_kb_apps": [
+      "闹钟"
+    ],
+    "vague_source": "heuristic: 45 shortest unique goals (len≥20)"
+  },
+  {
+    "source": "MobileWorld",
+    "lang": "cn",
+    "source_id": "mall/recent_total_expense.py",
+    "instruction": "请帮我算一下在淘店上最近1个月我总共花了多少钱。请只回答一个整数, 不要返回任何其他文本.",
+    "declared_apps": [
+      "Taodian"
+    ],
+    "mapped_kb_apps": [],
+    "vague_source": "heuristic: 45 shortest unique goals (len≥20)"
+  },
+  {
+    "source": "MobileWorld",
+    "lang": "en",
+    "source_id": "native/take_selfie_and_share_ask_user_2.py",
+    "instruction": "Take a photo, and share it with Henry via email.",
+    "declared_apps": [
+      "Camera",
+      "Gallery",
+      "Mail"
+    ],
+    "mapped_kb_apps": [
+      "相册",
+      "相机",
+      "邮件"
+    ],
+    "vague_source": "heuristic: 45 shortest unique goals (len≥20)"
+  },
+  {
+    "source": "MobileWorld",
+    "lang": "en",
+    "source_id": "native/take_selfie_and_share_ask_user_1.py",
+    "instruction": "Take a selfie, and share it with Jimmy via email.",
+    "declared_apps": [
+      "Camera",
+      "Gallery",
+      "Mail"
+    ],
+    "mapped_kb_apps": [
+      "相册",
+      "相机",
+      "邮件"
+    ],
+    "vague_source": "heuristic: 45 shortest unique goals (len≥20)"
+  },
+  {
+    "source": "MobileWorld",
+    "lang": "cn",
+    "source_id": "mall/check_purchased_item.py",
+    "instruction": "之前我给朋友在淘店上买了一双鞋，帮我看一下他脚多少尺码。请只回答一个整数, 不要返回任何其他文本.",
+    "declared_apps": [
+      "Taodian"
+    ],
+    "mapped_kb_apps": [],
+    "vague_source": "heuristic: 45 shortest unique goals (len≥20)"
+  },
+  {
+    "source": "MobileWorld",
+    "lang": "en",
+    "source_id": "messages/delete_messages_ask_user.py",
+    "instruction": "Delete all messages in SMS app sent from my company.",
+    "declared_apps": [
+      "Messages"
+    ],
+    "mapped_kb_apps": [
+      "信息"
+    ],
+    "vague_source": "heuristic: 45 shortest unique goals (len≥20)"
+  },
+  {
+    "source": "MobileWorld",
+    "lang": "cn",
+    "source_id": "native/bid_file_rename_ask_user.py",
+    "instruction": "将Download中前缀为bid_的文件, 按照一定的顺序，统一改为'bid_{序号}.{原扩展名}'。",
+    "declared_apps": [
+      "Files"
+    ],
+    "mapped_kb_apps": [],
+    "vague_source": "heuristic: 45 shortest unique goals (len≥20)"
+  },
+  {
+    "source": "MobileWorld",
+    "lang": "cn",
+    "source_id": "mall/cart_management.py",
+    "instruction": "最近天气变冷了，请帮我从淘店app的购物车中删除所有短袖T恤衬衫。如果需要登录，可以通过短信验证码登录。",
+    "declared_apps": [
+      "Taodian"
+    ],
+    "mapped_kb_apps": [
+      "天气"
+    ],
+    "vague_source": "heuristic: 45 shortest unique goals (len≥20)"
+  },
+  {
+    "source": "MobileWorld",
+    "lang": "cn",
+    "source_id": "native/cv_email_ask_user.py",
+    "instruction": "在Download内找到最近一个月下载的简历文件，把文件发送给我的HR同事，标题为candiaditaes_cv。",
+    "declared_apps": [
+      "Files",
+      "Mail"
+    ],
+    "mapped_kb_apps": [
+      "邮件"
+    ],
+    "vague_source": "heuristic: 45 shortest unique goals (len≥20)"
+  },
+  {
+    "source": "MobileWorld",
+    "lang": "cn",
+    "source_id": "mastodon/mastodon_mall_share_order.py",
+    "instruction": "在淘店中,找到我的订单中的手表商品,然后在mastodon发布一条推文介绍商品,内容包括商品名称,购买价格和商品图片。",
+    "declared_apps": [
+      "Mastodon",
+      "Taodian"
+    ],
+    "mapped_kb_apps": [],
+    "vague_source": "heuristic: 45 shortest unique goals (len≥20)"
+  },
+  {
+    "source": "MobileWorld",
+    "lang": "cn",
+    "source_id": "messages/send_weather_sms.py",
+    "instruction": "明天下午我朋友要来杭州西溪这边，你帮我查一下杭州明天白天的天气和情况和温度发送给我的朋友，电话100077788236",
+    "declared_apps": [
+      "MCP-Amap",
+      "Messages"
+    ],
+    "mapped_kb_apps": [
+      "信息",
+      "天气",
+      "高德地图(Amap)"
+    ],
+    "vague_source": "heuristic: 45 shortest unique goals (len≥20)"
+  },
+  {
+    "source": "MobileWorld",
+    "lang": "cn",
+    "source_id": "native/bid_file_rename.py",
+    "instruction": "将Download中前缀为bid_的文件, 按创建日期由早到晚，统一按照'bid_{序号}.{原扩展名}'进行重命名。",
+    "declared_apps": [
+      "Files"
+    ],
+    "mapped_kb_apps": [],
+    "vague_source": "heuristic: 45 shortest unique goals (len≥20)"
+  },
+  {
+    "source": "MobileWorld",
+    "lang": "cn",
+    "source_id": "native/invoice_receipt_copy_ask_user_task.py",
+    "instruction": "在Download里找到11月内文件名包含invoice或者receipt的PDF复制进我专门用来收录发票和收据的文件夹。",
+    "declared_apps": [
+      "Files"
+    ],
+    "mapped_kb_apps": [],
+    "vague_source": "heuristic: 45 shortest unique goals (len≥20)"
+  },
+  {
+    "source": "MobileWorld",
+    "lang": "cn",
+    "source_id": "messages/compare_apartments_distance_sms.py",
+    "instruction": "中介给我发了两套房子的信息，我想比较一下哪一套离阿里西溪c园区开车更近，好决定租哪一间。把最近那套房子的地址发给我朋友 Mia",
+    "declared_apps": [
+      "MCP-Amap",
+      "Messages"
+    ],
+    "mapped_kb_apps": [
+      "信息",
+      "高德地图(Amap)"
+    ],
+    "vague_source": "heuristic: 45 shortest unique goals (len≥20)"
+  },
+  {
+    "source": "MobileWorld",
+    "lang": "cn",
+    "source_id": "native/invoice_receipt_copy_task.py",
+    "instruction": "在Download里找到11月内文件名包含invoice或者receipt的PDF复制进Finance/invoice文件夹。",
+    "declared_apps": [
+      "Files"
+    ],
+    "mapped_kb_apps": [],
+    "vague_source": "heuristic: 45 shortest unique goals (len≥20)"
+  },
+  {
+    "source": "MobileWorld",
+    "lang": "en",
+    "source_id": "calendar/delete_event_ask_user.py",
+    "instruction": "My schedule on 10/20 is a bit full, please remove a few events.",
+    "declared_apps": [
+      "Calendar"
+    ],
+    "mapped_kb_apps": [
+      "日历"
+    ],
+    "vague_source": "heuristic: 45 shortest unique goals (len≥20)"
+  },
+  {
+    "source": "MobileWorld",
+    "lang": "en",
+    "source_id": "gmail/send_phone_number_ask_user.py",
+    "instruction": "Send Kevin's phone number (in message body) to Grace via email.",
+    "declared_apps": [
+      "Contacts",
+      "Mail"
+    ],
+    "mapped_kb_apps": [
+      "信息",
+      "邮件"
+    ],
+    "vague_source": "heuristic: 45 shortest unique goals (len≥20)"
+  },
+  {
+    "source": "MobileWorld",
+    "lang": "en",
+    "source_id": "mastodon/mastodon_favorite_toots.py",
+    "instruction": "Search for toots tagged “#dogs” on Mastodon, favorite all of them.",
+    "declared_apps": [
+      "Mastodon"
+    ],
+    "mapped_kb_apps": [],
+    "vague_source": "heuristic: 45 shortest unique goals (len≥20)"
+  },
+  {
+    "source": "MobileWorld",
+    "lang": "cn",
+    "source_id": "messages/search_benchmark_tasks_sms.py",
+    "instruction": "帮我在google-research/android_world里搜一下该benchmark构建任务的数量，短信给16655342。",
+    "declared_apps": [
+      "MCP-Github",
+      "Messages"
+    ],
+    "mapped_kb_apps": [
+      "信息"
+    ],
+    "vague_source": "heuristic: 45 shortest unique goals (len≥20)"
+  },
+  {
+    "source": "MobileWorld",
+    "lang": "cn",
+    "source_id": "native/cv_email_task.py",
+    "instruction": "在Download内找到最近一个月下载的简历文件，把文件发送给HR_chen@gmail.com，标题为candidates_cv。",
+    "declared_apps": [
+      "Files",
+      "Mail"
+    ],
+    "mapped_kb_apps": [
+      "gmail"
+    ],
+    "vague_source": "heuristic: 45 shortest unique goals (len≥20)"
+  },
+  {
+    "source": "MobileWorld",
+    "lang": "en",
+    "source_id": "mastodon/mastodon_change_language.py",
+    "instruction": "In Mastodon, set the language of the account to Chinese Simplified.",
+    "declared_apps": [
+      "Mastodon"
+    ],
+    "mapped_kb_apps": [],
+    "vague_source": "heuristic: 45 shortest unique goals (len≥20)"
+  },
+  {
+    "source": "MobileWorld",
+    "lang": "en",
+    "source_id": "settings/adjust_font_icon_max.py",
+    "instruction": "Increase the font size and icons on your phone to the maximum setting.",
+    "declared_apps": [
+      "Settings"
+    ],
+    "mapped_kb_apps": [
+      "设置"
+    ],
+    "vague_source": "heuristic: 45 shortest unique goals (len≥20)"
+  },
+  {
+    "source": "MobileWorld",
+    "lang": "en",
+    "source_id": "settings/adjust_font_icon_min.py",
+    "instruction": "Decrease the font size and icons on your phone to the minimum setting.",
+    "declared_apps": [
+      "Settings"
+    ],
+    "mapped_kb_apps": [
+      "设置"
+    ],
+    "vague_source": "heuristic: 45 shortest unique goals (len≥20)"
+  },
+  {
+    "source": "MobileWorld",
+    "lang": "en",
+    "source_id": "mastodon/mastodon_manage_hashtags.py",
+    "instruction": "In Mastodon, unfollow the hashtags I followed before related to animals.",
+    "declared_apps": [
+      "Mastodon"
+    ],
+    "mapped_kb_apps": [],
+    "vague_source": "heuristic: 45 shortest unique goals (len≥20)"
+  },
+  {
+    "source": "MobileWorld",
+    "lang": "en",
+    "source_id": "settings/change_wallpaper.py",
+    "instruction": "Change the wallpaper to a photo from the album that features sunflowers.",
+    "declared_apps": [
+      "Gallery",
+      "Settings"
+    ],
+    "mapped_kb_apps": [
+      "相册",
+      "设置"
+    ],
+    "vague_source": "heuristic: 45 shortest unique goals (len≥20)"
+  },
+  {
+    "source": "MobileWorld",
+    "lang": "en",
+    "source_id": "mastodon/mastodon_add_bookmark.py",
+    "instruction": "In Mastodon, add all posts of user kitty that have #cats tag to bookmarks.",
+    "declared_apps": [
+      "Mastodon"
+    ],
+    "mapped_kb_apps": [],
+    "vague_source": "heuristic: 45 shortest unique goals (len≥20)"
+  },
+  {
+    "source": "MobileWorld",
+    "lang": "en",
+    "source_id": "mastodon/mastodon_remove_bookmark.py",
+    "instruction": "In Mastodon, remove the posts with #pets tag from bookmarks on my account.",
+    "declared_apps": [
+      "Mastodon"
+    ],
+    "mapped_kb_apps": [],
+    "vague_source": "heuristic: 45 shortest unique goals (len≥20)"
+  },
+  {
+    "source": "MobileWorld",
+    "lang": "en",
+    "source_id": "mastodon/mastodon_export_follows.py",
+    "instruction": "In Mastodon, export my follows in settings and save it as my_following.csv.",
+    "declared_apps": [
+      "Mastodon"
+    ],
+    "mapped_kb_apps": [
+      "设置"
+    ],
+    "vague_source": "heuristic: 45 shortest unique goals (len≥20)"
+  },
+  {
+    "source": "MobileWorld",
+    "lang": "en",
+    "source_id": "messages/delete_single_message_ask_user.py",
+    "instruction": "Delete the message about deployment issues in SMS app sent from my company.",
+    "declared_apps": [
+      "Messages"
+    ],
+    "mapped_kb_apps": [
+      "信息"
+    ],
+    "vague_source": "heuristic: 45 shortest unique goals (len≥20)"
+  },
+  {
+    "source": "MobileWorld",
+    "lang": "en",
+    "source_id": "native/set_alarm_ask_user_2.py",
+    "instruction": "Please set a wake-up alarm for my weekend, and choose my favorite ringtone.",
+    "declared_apps": [
+      "Clock"
+    ],
+    "mapped_kb_apps": [
+      "闹钟"
+    ],
+    "vague_source": "heuristic: 45 shortest unique goals (len≥20)"
+  },
+  {
+    "source": "MobileWorld",
+    "lang": "en",
+    "source_id": "messages/say_hello_roommates_ask_user_1.py",
+    "instruction": "Add my new roommates contacts to favorites and text 'hello' to each of them.",
+    "declared_apps": [
+      "Contacts",
+      "Messages"
+    ],
+    "mapped_kb_apps": [
+      "信息"
+    ],
+    "vague_source": "heuristic: 45 shortest unique goals (len≥20)"
+  },
+  {
+    "source": "MobileWorld",
+    "lang": "en",
+    "source_id": "mastodon/mastodon_new_post.py",
+    "instruction": "Open Mastodon app and post a new toot with the content 'Hello from AI agent!'",
+    "declared_apps": [
+      "Mastodon"
+    ],
+    "mapped_kb_apps": [],
+    "vague_source": "heuristic: 45 shortest unique goals (len≥20)"
+  },
+  {
+    "source": "MobileWorld",
+    "lang": "en",
+    "source_id": "native/delete_useless_files_ask_user.py",
+    "instruction": "Help me to clean the useless files in download directory for stoarage saving.",
+    "declared_apps": [
+      "Files"
+    ],
+    "mapped_kb_apps": [],
+    "vague_source": "heuristic: 45 shortest unique goals (len≥20)"
+  },
+  {
+    "source": "MobileWorld",
+    "lang": "en",
+    "source_id": "mastodon/mastodon_dump_img_ask_user.py",
+    "instruction": "Save the images from pupper's earliest post on Mastodon to the specified path.",
+    "declared_apps": [
+      "Mastodon"
+    ],
+    "mapped_kb_apps": [],
+    "vague_source": "heuristic: 45 shortest unique goals (len≥20)"
+  },
+  {
+    "source": "MobileWorld",
+    "lang": "cn",
+    "source_id": "messages/send_arxiv_papers_sms.py",
+    "instruction": "先帮我看一下最近 arXiv 上 cs.AI 分类的新论文，帮我调5篇最新的，按照\"题目：arXiv 链接\"每行的格式发送给mike 18753923900",
+    "declared_apps": [
+      "MCP-arXiv",
+      "Messages"
+    ],
+    "mapped_kb_apps": [
+      "信息"
+    ],
+    "vague_source": "heuristic: 45 shortest unique goals (len≥20)"
+  },
+  {
+    "source": "MobileWorld",
+    "lang": "cn",
+    "source_id": "map/download_poi_images_mcp.py",
+    "instruction": "帮我找到全国第一家Manner咖啡店，用高德mcp工具获取图片url和id，在mattermost上发给Sam并介绍一下这家店的历史（markdown格式）",
+    "declared_apps": [
+      "Chrome",
+      "MCP-Amap"
+    ],
+    "mapped_kb_apps": [
+      "Chrome",
+      "高德地图(Amap)"
+    ],
+    "vague_source": "heuristic: 45 shortest unique goals (len≥20)"
+  },
+  {
+    "source": "MobileWorld",
+    "lang": "en",
+    "source_id": "mastodon/mastodon_follow.py",
+    "instruction": "Find Robert's nickname in Contacts, then search it on Mastodon, and follow him.",
+    "declared_apps": [
+      "Contacts",
+      "Mastodon"
+    ],
+    "mapped_kb_apps": [],
+    "vague_source": "heuristic: 45 shortest unique goals (len≥20)"
+  }
+]
