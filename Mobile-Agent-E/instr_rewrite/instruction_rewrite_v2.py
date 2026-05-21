@@ -53,7 +53,7 @@ DEFAULT_OUT = os.path.join(REPO_ROOT, "app-data", "Ins-bench", "Vague-ins-rewrit
 
 MODEL = "qwen/qwen3-8b"
 API_ENDPOINT = "https://openrouter.ai/api/v1/chat/completions"
-FALLBACK_API_KEY = "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"
+FALLBACK_API_KEY = " "
 
 
 # ---------------------------------------------------------------------------
