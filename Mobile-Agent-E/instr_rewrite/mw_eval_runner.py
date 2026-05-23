@@ -60,6 +60,42 @@ LEVEL_TO_KEY = {"L1": "Level1-INS", "L2": "Level2-INS", "L3": "Level3-INS"}
 SCORE_FILE_NAME = "result.txt"  # matches mobile_world.runtime.utils.trajectory_logger
 
 
+def default_mw_cmd() -> str:
+    """Prefer the project's own uv venv binary (its shebang is an absolute path
+    to the right python, so it works regardless of PATH / conda / sudo). Fall
+    back to `uv run mw` if the venv isn't built yet.
+
+    NOTE: no `sudo` by default. If your Docker requires root, prepend it:
+      --mw-cmd "sudo <printed-default>"
+    """
+    venv_mw = MW_ROOT / ".venv" / "bin" / "mw"
+    if venv_mw.exists():
+        return str(venv_mw)
+    return "uv run mw"
+
+
+def preflight_mw_cmd(mw_cmd: str, cwd: str) -> tuple[bool, str]:
+    """Actually invoke `<mw_cmd> --help` (with a timeout) so we catch BOTH a
+    missing binary AND the `sudo: <bin>: command not found` case where sudo's
+    secure_path can't see conda/uv binaries. Runs BEFORE any task files are
+    patched, so a failure costs nothing."""
+    cmd = mw_cmd.split() + ["--help"]
+    try:
+        r = subprocess.run(cmd, cwd=cwd, capture_output=True, text=True, timeout=120)
+    except FileNotFoundError:
+        return False, f"executable '{cmd[0]}' not found on PATH"
+    except subprocess.TimeoutExpired:
+        return False, ("`--help` timed out (likely a sudo password prompt). "
+                       "Run once interactively to cache sudo, or drop sudo.")
+    out = (r.stdout or "") + (r.stderr or "")
+    if "command not found" in out:
+        # e.g. "sudo: uv: command not found"
+        return False, out.strip().splitlines()[-1] if out.strip() else "command not found"
+    if r.returncode != 0:
+        return False, f"`{' '.join(cmd)}` exited {r.returncode}: {out.strip()[:200]}"
+    return True, "ok"
+
+
 # ----------------------------------------------------------------------------
 # Task-file patching
 # ----------------------------------------------------------------------------
@@ -184,8 +220,8 @@ def run_one_level(
         class_list = ",".join(t["_mw_task_class"] for t in mw_entries)
         cmd = build_mw_eval_cmd(args, class_list, level_log)
         print(f"\n========== Running {level} ({len(mw_entries)} tasks) ==========")
-        print(" ".join(cmd))
-        rc = subprocess.call(cmd)
+        print(f"(cwd={args.mw_cwd})\n  " + " ".join(cmd))
+        rc = subprocess.call(cmd, cwd=args.mw_cwd)
         if rc != 0:
             print(f"⚠ mw eval exited with code {rc} for {level}; collecting whatever it managed to write.")
 
@@ -196,7 +232,8 @@ def run_one_level(
 
 
 def build_mw_eval_cmd(args: argparse.Namespace, class_list: str, level_log: Path) -> list[str]:
-    cmd = ["sudo", "mw", "eval",
+    # `--mw-cmd` is split on spaces so it can carry e.g. "sudo uv run mw".
+    cmd = args.mw_cmd.split() + ["eval",
            "--agent_type", args.agent,
            "--task", class_list,
            "--max_round", str(args.max_round),
@@ -295,6 +332,14 @@ def main() -> None:
     p.add_argument("--task-ids", default=None,
                    help="Optional comma list of Task_ids to restrict to")
 
+    # how to invoke the mw CLI + from which directory
+    p.add_argument("--mw-cmd", default=default_mw_cmd(),
+                   help="Command prefix to invoke the mw CLI. Default auto-detects "
+                        "MobileWorld/.venv/bin/mw (absolute, PATH-independent). "
+                        "Prepend 'sudo ' if your Docker needs root.")
+    p.add_argument("--mw-cwd", default=str(MW_ROOT),
+                   help="Working dir to run mw from (default: the MobileWorld repo)")
+
     # mw eval pass-through
     p.add_argument("--agent", default="qwen3vl",
                    help="agent_type for mw eval (e.g. qwen3vl, general_e2e)")
@@ -354,6 +399,25 @@ def main() -> None:
     print(f"MobileWorld entries to evaluate: {len(mw_entries)}")
     print(f"Levels: {levels}")
     print(f"Agent: {args.agent}  Model: {args.model_name}  Log root: {args.log_root}")
+    print(f"mw-cmd: {args.mw_cmd}   (cwd: {args.mw_cwd})")
+
+    # Preflight: make sure the mw executable resolves BEFORE patching any files,
+    # so a PATH/sudo problem fails fast instead of after a patch+restore cycle.
+    if not args.dry_run:
+        ok, msg = preflight_mw_cmd(args.mw_cmd, args.mw_cwd)
+        if not ok:
+            sys.exit(
+                f"\n✗ mw preflight failed for --mw-cmd {args.mw_cmd!r}:\n    {msg}\n\n"
+                f"  Common cause: `sudo` resets PATH and can't see conda/uv binaries.\n"
+                f"  Fixes:\n"
+                f"    • use the venv binary directly (current default):\n"
+                f"        --mw-cmd \"{MW_ROOT / '.venv' / 'bin' / 'mw'}\"\n"
+                f"    • if Docker needs root, prepend sudo to that absolute path:\n"
+                f"        --mw-cmd \"sudo {MW_ROOT / '.venv' / 'bin' / 'mw'}\"\n"
+                f"    • or preserve PATH through sudo:\n"
+                f"        --mw-cmd \"sudo env PATH=$PATH uv run mw\"\n"
+            )
+        print(f"✓ mw preflight ok")
     if args.dry_run:
         print("[DRY-RUN] no actual mw eval will be invoked.")
 

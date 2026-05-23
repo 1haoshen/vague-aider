@@ -1,24 +1,48 @@
-"""expand_vague_ins.py  (v2 — MobileWorld-prioritized, AOS-only)
+"""expand_vague_ins.py  (v3 — Taodian added, near-duplicates pruned)
 
 Adjusted strategy:
   1. MobileWorld is the PRIMARY source so we can directly reuse its built-in
      deterministic eval environment (Docker'd Pixel-8 + per-task is_successful
      checkers in src/mobile_world/tasks/definitions/<folder>/*.py).
      Each MobileWorld entry carries `_mw_task_path` pointing to the original
-     checker file.
+     checker file; `_mw_task_class` is auto-resolved by AST parsing.
   2. EVERY app referenced in any new entry has populated `action_object_str`
      in app-data/knowledge-base/AppUi-final.json — guaranteeing VagueAider's
      L3 generation has real action chains to draw from.
+  3. Near-duplicate MobileWorld variants (set_alarm × 4, plan_route_sms × 4,
+     schedule_lunch × 2, share_photos × 2) have been pruned from earlier
+     versions; one canonical entry kept per task pattern.
 
-Apps WITHOUT action_object_str (do NOT use):
-  铁路12306 / 飞猪旅行 / 去哪儿网 (note: '去哪儿旅行' id=97 DOES have AOS)
+MobileWorld declared app_names  ->  KB AppUi-final.json canonical name
+(only mappings with KB AOS coverage are usable; others are skipped):
+  Mail        -> gmail              (KB id 23, 6 AOS funcs)        ✓ used
+  Messages    -> 信息                (KB id 85, 7 AOS funcs)        ✓ used
+  Calendar    -> 日历                (KB id 92, 5 AOS funcs)        ✓ used
+  MCP-Amap    -> 高德地图(Amap)       (KB id 29, 5 AOS funcs)        ✓ used
+  Maps        -> googleMap          (KB id 40, 8 AOS funcs)        ✓ used
+  Chrome      -> Chrome / GoogleChrome (KB id 68/100, 5/7 AOS)    ✓ used
+  Gallery     -> 相册                (KB id 88, 7 AOS funcs)        ✓ used
+  Clock       -> 闹钟                (KB id 89, 10 AOS funcs)       ✓ used
+  Taodian     -> 淘宝                (KB id 112, 12 AOS funcs)      ✓ used  ⭐ new
+  --------- NOT usable ----------
+  Camera      -> 相机 (KB id 83, NO AOS)                            ✗ skip
+  Settings    -> 设置 (KB id 84, NO AOS)                            ✗ skip
+  Contacts    -> (no KB equivalent)                                ✗ skip
+  Files       -> (no KB equivalent)                                ✗ skip
+  Mastodon    -> (no KB equivalent — X is closest, no AOS)         ✗ skip
+  Mattermost  -> (no KB equivalent — Slack closest, no AOS)        ✗ skip
+  Docreader   -> (no KB equivalent)                                ✗ skip
+  MCP-arXiv / MCP-Github / MCP-jina / MCP-stockstar -> n/a         ✗ skip
+
+KB apps WITHOUT action_object_str (do NOT use for L3 synthesis):
+  铁路12306 / 飞猪旅行 / 去哪儿网 (note: '去哪儿旅行' id 97 DOES have AOS)
   设置 / 相机 / 邮件 / 应用商店 / DeepSeek / Google / Gemini / Slack /
   Zoom / Teams / Microsoft / 钉钉 / Steam / spotify / Twitch / Strava /
-  Duolingo / Classroom / MyFitnessPal / 喜马拉雅(只 76 有, 77 无) / PS /
-  剪映 / 醒图 / 美图秀秀-(Meitu) / wps_office / Airbnb / Uber / 支付宝 /
-  PayPal / Binance / Revolut / Wise / 云闪付 / 百度网盘 / 迅雷 / 飞书 /
-  QQ邮箱 / grok / Doubao / 元宝 / 腾讯地图 / 航旅纵横 / trip / citymapper /
-  grab / 扫描全能王
+  Duolingo / Classroom / MyFitnessPal / 喜马拉雅 / PS / 剪映 / 醒图 /
+  美图秀秀-(Meitu) / wps_office / Airbnb / Uber / 支付宝 / PayPal / Binance /
+  Revolut / Wise / 云闪付 / 百度网盘 / 迅雷 / 飞书 / QQ邮箱 / grok /
+  Doubao / 元宝 / 腾讯地图 / 航旅纵横 / trip / citymapper / grab /
+  扫描全能王
 """
 
 from __future__ import annotations
@@ -50,16 +74,6 @@ NEW_TASKS: list[dict] = [
         "Level3-INS": "Open the Clock app, tap the '+' button in the top right corner of the Alarm tab, choose a wake-up time (e.g. 7:00 AM), tap the repeat option and select only 'Friday', then tap the 'Save' button in the top right corner.",
         "_source_bench": "MobileWorld",
         "_mw_task_path": "native/set_alarm_ask_user_1.py",
-    },
-    {
-        "Task_id": 57, "Task Type": "系统软件",
-        "Invovled_App_Name": "闹钟",
-        "Original-INS": "Set a weekend alarm for 8:25 a.m. with the ringtone \"beebeep\" and vibration off.",
-        "Level1-INS": "Set a weekend alarm for 8:25 with the beebeep ringtone and no vibration.",
-        "Level2-INS": "Open the Clock app and create a recurring weekend alarm at 8:25 AM, choose the 'beebeep' ringtone, and turn off vibration.",
-        "Level3-INS": "Open the Clock app, tap the '+' button in the top right corner of the Alarm tab, set the time to 8:25 AM, tap the repeat option and select Saturday and Sunday only, tap 'More settings' then 'Ringtone' and choose 'beebeep' from the list, toggle the vibration switch off, then tap 'Save' in the top right corner.",
-        "_source_bench": "MobileWorld",
-        "_mw_task_path": "native/set_alarm.py",
     },
     {
         "Task_id": 58, "Task Type": "社交媒体",
@@ -214,16 +228,6 @@ NEW_TASKS: list[dict] = [
         "_mw_task_path": "chrome/check_github_info.py",
     },
     {
-        "Task_id": 73, "Task Type": "社交媒体",
-        "Invovled_App_Name": "信息、日历",
-        "Original-INS": "I've received a lunch invitation via text message; please reply \"OK\" and schedule a corresponding event on my calendar.",
-        "Level1-INS": "I got a lunch invite by SMS, accept it and put it on my calendar.",
-        "Level2-INS": "Open the Messages app to find the lunch invitation, reply 'OK' to it, then open the Calendar app and add a corresponding event matching the invited time.",
-        "Level3-INS": "Open the Messages app, locate the SMS containing the lunch invitation, tap to open the thread, type 'OK' in the input box and tap send. Open the Calendar app, tap the '+' to add a new event, type 'Lunch' as the title, set the date and time to match the invitation, then tap 'Save'.",
-        "_source_bench": "MobileWorld",
-        "_mw_task_path": "calendar/schedule_lunch_via_sms.py",
-    },
-    {
         "Task_id": 74, "Task Type": "办公协助",
         "Invovled_App_Name": "gmail、日历",
         "Original-INS": "Check my email for the date and time of my meeting with Carl. Then, set a one hour calendar event titled 'Board Meeting'",
@@ -256,93 +260,12 @@ NEW_TASKS: list[dict] = [
         "Level3-INS": "打开网易云音乐app，点击底部的'每日推荐'或首页的推荐歌单，点击其中一首歌曲的播放按钮(黄底黑色三角形)开始播放。",
         "_source_bench": "MVISU-cn",
     },
-    {
-        "Task_id": 77, "Task Type": "娱乐",
-        "Invovled_App_Name": "爱奇艺",
-        "Original-INS": "我要看视频。",
-        "Level1-INS": "我要看视频。",
-        "Level2-INS": "打开爱奇艺，从首页推荐中选择一个视频播放。",
-        "Level3-INS": "打开爱奇艺app，在首页向下滚动浏览推荐内容，点击任意一个剧集或电影海报，进入播放页后默认开始播放。",
-        "_source_bench": "MVISU-cn",
-    },
-    {
-        "Task_id": 78, "Task Type": "旅游",
-        "Invovled_App_Name": "携程旅行",
-        "Original-INS": "我想去北京旅游3天, 帮我生成一个旅游攻略。",
-        "Level1-INS": "我想去北京旅游3天, 帮我生成一个旅游攻略。",
-        "Level2-INS": "打开携程旅行，查询北京3天行程的攻略，浏览路线与景点推荐。",
-        "Level3-INS": "打开携程app，点击底部的'攻略'入口，在搜索框中输入'北京 3天'并点击搜索，进入旅游攻略列表后选择一份高赞的3日游攻略查看详细路线与景点推荐。",
-        "_source_bench": "MVISU-cn",
-    },
-    {
-        "Task_id": 79, "Task Type": "生活",
-        "Invovled_App_Name": "美团",
-        "Original-INS": "帮我点杯冰美式咖啡。",
-        "Level1-INS": "帮我点杯冰美式咖啡。",
-        "Level2-INS": "打开美团外卖，搜索冰美式咖啡并下单一杯。",
-        "Level3-INS": "打开美团app，点击首页左上角的'外卖'图标，在搜索框中输入'冰美式咖啡'并点击搜索，从结果中挑选附近评分较高的咖啡店，进入店铺后将冰美式加入购物车并提交订单。",
-        "_source_bench": "MVISU-cn",
-    },
-    {
-        "Task_id": 80, "Task Type": "娱乐",
-        "Invovled_App_Name": "QQ音乐",
-        "Original-INS": "放一首周传雄的歌。",
-        "Level1-INS": "放一首周传雄的歌。",
-        "Level2-INS": "用QQ音乐搜索歌手周传雄，播放其代表作。",
-        "Level3-INS": "打开QQ音乐app，点击顶部的搜索栏，输入'周传雄'并点击搜索按钮，从搜索结果中点击其热门歌曲(例如《黄昏》)开始播放，若出现会员弹窗点击X关闭。",
-        "_source_bench": "MVISU-cn",
-    },
 
     # ----- MVISU-Bench Vague (en) -----
-    {
-        "Task_id": 81, "Task Type": "",
-        "Invovled_App_Name": "youtube",
-        "Original-INS": "I want to watch video.",
-        "Level1-INS": "I want to watch video.",
-        "Level2-INS": "Open YouTube and play one of the recommended videos from the home feed.",
-        "Level3-INS": "Open the YouTube app, scroll through the recommended videos on the home feed, and tap a video thumbnail to start playback.",
-        "_source_bench": "MVISU-en",
-    },
-    {
-        "Task_id": 82, "Task Type": "",
-        "Invovled_App_Name": "Amazon Shopping",
-        "Original-INS": "I want to buy books.",
-        "Level1-INS": "I want to buy books.",
-        "Level2-INS": "Open Amazon Shopping and browse the Books category to pick a book to purchase.",
-        "Level3-INS": "Open the Amazon Shopping app, tap the search bar at the top, type 'books' and tap search. Tap a book from the results to view its detail page, then tap 'Add to Cart' followed by 'Proceed to Checkout'.",
-        "_source_bench": "MVISU-en",
-    },
-    {
-        "Task_id": 83, "Task Type": "",
-        "Invovled_App_Name": "天气",
-        "Original-INS": "What's the weather like in Washington today.",
-        "Level1-INS": "What's the weather like in Washington today.",
-        "Level2-INS": "Open the Weather app and check today's forecast for Washington.",
-        "Level3-INS": "Open the Weather app, tap the city list / search icon at the top, type 'Washington' and select it from the suggestions, then view the current conditions and today's hourly forecast on the main screen.",
-        "_source_bench": "MVISU-en",
-    },
 
     # ============================================================
     # AndroidDaily 高模糊度 — only KB-AOS apps (携程旅行 / 微信)
     # ============================================================
-    {
-        "Task_id": 84, "Task Type": "出行",
-        "Invovled_App_Name": "携程旅行",
-        "Original-INS": "帮我在携程上订一张去我学校的火车票,学生票,下周走。",
-        "Level1-INS": "帮我订一张下周回学校的学生火车票。",
-        "Level2-INS": "在携程旅行app上查询并预订下周出发去学校所在城市的学生票火车票。",
-        "Level3-INS": "打开携程app，点击首页的'火车票'图标，输入出发地和目的地(学校所在城市)，选择下周的出发日期，在乘客信息处切换为'学生票'，从车次列表中挑选合适的车次并点击'预订'完成支付。",
-        "_source_bench": "AndroidDaily",
-    },
-    {
-        "Task_id": 85, "Task Type": "出行",
-        "Invovled_App_Name": "携程旅行",
-        "Original-INS": "帮我订个明晚的酒店,就在公司附近,要安静一点的。",
-        "Level1-INS": "帮我在公司附近订一家明晚的安静酒店。",
-        "Level2-INS": "在携程旅行app中按公司位置搜索明晚的酒店，挑选评价中提及安静的一家完成预订。",
-        "Level3-INS": "打开携程app，点击首页的'酒店'图标，将位置设为'公司附近'(或手动输入公司所在街道)，入住日期选明晚、退房日期选后天，点击查询后在筛选条件中按用户评价排序，挑选一家评论中提到'安静'的酒店点击预订。",
-        "_source_bench": "AndroidDaily",
-    },
     {
         "Task_id": 86, "Task Type": "出行",
         "Invovled_App_Name": "携程旅行、微信",
@@ -350,15 +273,6 @@ NEW_TASKS: list[dict] = [
         "Level1-INS": "订一张下周五去三亚的机票，订好后把航班信息发给我老婆。",
         "Level2-INS": "在携程旅行app中预订下周五飞往三亚的机票，然后切到微信将航班信息发送给微信好友'老婆'。",
         "Level3-INS": "打开携程app，点击首页'机票'图标，输入出发城市与目的地'三亚'，日期选下周五，从航班列表中挑选合适的一班点击预订完成支付，截图航班详情；切换到微信app，点击右上角放大镜搜索好友'老婆'，进入聊天页将截图发送过去。",
-        "_source_bench": "AndroidDaily",
-    },
-    {
-        "Task_id": 87, "Task Type": "出行",
-        "Invovled_App_Name": "携程旅行",
-        "Original-INS": "帮我规划一下去三亚的行程,先看看机票。",
-        "Level1-INS": "帮我规划一下去三亚的行程，先看看机票。",
-        "Level2-INS": "在携程旅行app里查询飞往三亚的机票班次，再翻一翻三亚的攻略。",
-        "Level3-INS": "打开携程app，点击首页'机票'图标，输入出发城市与目的地'三亚'，选择出行日期后点击搜索浏览航班；返回首页点击'攻略'入口，搜索'三亚 3日游'阅读热门攻略以辅助规划。",
         "_source_bench": "AndroidDaily",
     },
 
@@ -374,72 +288,16 @@ NEW_TASKS: list[dict] = [
         "Level3-INS": "Open the Google Maps app, tap the search bar at the top, type 'ATM' and tap the search icon. Pick the first result on the map (closest by distance) to view its details and directions.",
         "_source_bench": "AndroidArena",
     },
-    {
-        "Task_id": 89, "Task Type": "",
-        "Invovled_App_Name": "googleMap",
-        "Original-INS": "Find the nearest hospital.",
-        "Level1-INS": "Find the nearest hospital.",
-        "Level2-INS": "Open Google Maps and search for the nearest hospital.",
-        "Level3-INS": "Open the Google Maps app, tap the search bar at the top, type 'hospital' and tap search. Tap the result closest to your current location to view its details and route.",
-        "_source_bench": "AndroidArena",
-    },
-    {
-        "Task_id": 90, "Task Type": "",
-        "Invovled_App_Name": "天气",
-        "Original-INS": "Get the weather in 'London'",
-        "Level1-INS": "What's the weather in London?",
-        "Level2-INS": "Open the Weather app and check the forecast for London.",
-        "Level3-INS": "Open the Weather app, tap the city list / search icon at the top, type 'London' and select it from the suggestions, then view the current conditions and hourly forecast on the main screen.",
-        "_source_bench": "AndroidArena",
-    },
 
     # ============================================================
     # AndroidWorld — only KB-AOS apps (闹钟 / 备忘录)
     # ============================================================
-    {
-        "Task_id": 91, "Task Type": "",
-        "Invovled_App_Name": "闹钟",
-        "Original-INS": "Run the stopwatch.",
-        "Level1-INS": "Start the stopwatch.",
-        "Level2-INS": "Open the Clock app's Stopwatch tab and start it.",
-        "Level3-INS": "Open the Clock app, tap the 'Stopwatch' tab at the bottom, then tap the 'Start' button to begin timing.",
-        "_source_bench": "AndroidWorld",
-    },
-    {
-        "Task_id": 92, "Task Type": "系统软件",
-        "Invovled_App_Name": "备忘录",
-        "Original-INS": "Delete all my notes in Markor.",
-        "Level1-INS": "Clear out all my notes.",
-        "Level2-INS": "Open the Notes app and delete every existing note.",
-        "Level3-INS": "Open the Notes app, long-press the first note to enter multi-select mode, tap the 'Select all' option, then tap the trash icon at the top to delete all notes and confirm in the dialog.",
-        "_source_bench": "AndroidWorld",
-    },
 
     # ============================================================
     # MobileWorld — 30 additional entries (Task_id 93-122)
     # All KB-AOS-only; goals lifted from MobileWorld task definitions.
     # ============================================================
     # ---- single-app: 闹钟 / 信息 / Chrome / googleMap / 日历 / gmail ----
-    {
-        "Task_id": 93, "Task Type": "系统软件",
-        "Invovled_App_Name": "闹钟",
-        "Original-INS": "Please set a wake-up alarm for my weekend, and choose my favorite ringtone.",
-        "Level1-INS": "Set a weekend wake-up alarm with my favorite ringtone.",
-        "Level2-INS": "Open the Clock app and add a weekend wake-up alarm using my preferred ringtone.",
-        "Level3-INS": "Open the Clock app, tap the '+' button in the Alarm tab, set the time to a typical wake-up hour, tap the repeat option and select Saturday and Sunday only, tap 'More settings' then 'Ringtone' and choose the favorite ringtone from the list, then tap 'Save' in the top right.",
-        "_source_bench": "MobileWorld",
-        "_mw_task_path": "native/set_alarm_ask_user_2.py",
-    },
-    {
-        "Task_id": 94, "Task Type": "系统软件",
-        "Invovled_App_Name": "闹钟",
-        "Original-INS": "Please set a morning wake-up alarm for my weekend at 9:45 p.m. Choose the ringtone 'beebeep' for the alarm.",
-        "Level1-INS": "Set a weekend wake-up alarm at 9:45 with the beebeep ringtone.",
-        "Level2-INS": "Open the Clock app and add a weekend morning alarm at 9:45 using the 'beebeep' ringtone.",
-        "Level3-INS": "Open the Clock app, tap the '+' button in the Alarm tab, set the time to 9:45, tap the repeat option and select Saturday and Sunday, tap 'More settings' then 'Ringtone' and choose 'beebeep', then tap 'Save' in the top right corner.",
-        "_source_bench": "MobileWorld",
-        "_mw_task_path": "native/set_alarm_ask_user_3.py",
-    },
     {
         "Task_id": 95, "Task Type": "社交媒体",
         "Invovled_App_Name": "信息",
@@ -542,36 +400,6 @@ NEW_TASKS: list[dict] = [
         "_source_bench": "MobileWorld",
         "_mw_task_path": "messages/plan_taxi_route_sms.py",
     },
-    {
-        "Task_id": 105, "Task Type": "出行",
-        "Invovled_App_Name": "高德地图(Amap)、信息",
-        "Original-INS": "上海多模式通勤路线：从徐汇区漕溪北路41号到浦东新区世纪大道100号，须为'步行→地铁/公交→步行'三段，总时长<50min且步行最短，把方案短信发给同事Tom 13800138000。",
-        "Level1-INS": "帮我规划一条上海通勤路线，步行尽量少，把方案发给Tom。",
-        "Level2-INS": "在高德地图中规划从徐汇漕溪北路41号到浦东世纪大道100号的'步行+地铁+步行'三段通勤，要求总时长小于50分钟且步行最短，然后用信息app将起终点坐标、地铁起止站坐标、步行段instructions和距离发送给Tom 13800138000。",
-        "Level3-INS": "打开高德地图app，在路线规划页选择公交模式，输入起点'上海市徐汇区漕溪北路41号'与终点'上海市浦东新区世纪大道100号'，筛选'步行+地铁+步行'结构、总时长<50分钟，挑出步行段最短的一组方案，记下两个步行段的instruction与距离、地铁起止站名及坐标。打开信息app新建消息，收件人填13800138000，按要求格式键入起点终点和地铁站坐标、步行instructions、各段距离，点击发送。",
-        "_source_bench": "MobileWorld",
-        "_mw_task_path": "messages/plan_commute_route_sms.py",
-    },
-    {
-        "Task_id": 106, "Task Type": "出行",
-        "Invovled_App_Name": "高德地图(Amap)、信息",
-        "Original-INS": "江苏自驾观光路线：从南京站到苏州站，途经5个候选景点中的3个，最短总距离，把5个地点的名称坐标与分段距离短信发给自驾伙伴Jack 13600136000。",
-        "Level1-INS": "帮我规划江苏自驾经3个景点的最短路线，把方案发给Jack。",
-        "Level2-INS": "在高德地图中规划从南京站到苏州站、途经'夫子庙/中山陵/鼋头渚/灵山大佛/拙政园'5个景点中选3个的自驾最短观光路线，然后用信息app将5地点坐标、相邻段距离和总直线距离发送给Jack 13600136000。",
-        "Level3-INS": "打开高德地图app，在路线页选择驾车模式，依次试算不同三景点组合的路线总距离，挑出总距离最短的一组，记下5个地点(起点、3个景点、终点)的名称与经纬度，以及相邻段驾车距离(米)。打开信息app新建消息，收件人填13600136000，按驾车顺序键入5个'名称：经度,纬度'、相邻段距离和总直线距离，点击发送。",
-        "_source_bench": "MobileWorld",
-        "_mw_task_path": "messages/plan_driving_route_sms.py",
-    },
-    {
-        "Task_id": 107, "Task Type": "出行",
-        "Invovled_App_Name": "高德地图(Amap)、信息",
-        "Original-INS": "杭州骑行环线：从杭州东站出发并回到杭州东站，途经保俶塔/雷峰塔/杨公堤/奥体中心主体育场，相邻段直线距离3-15km且总骑行20-42km，把方案短信发给mike 18756627900。",
-        "Level1-INS": "帮我规划一条杭州骑行环线，途经4个地标，把方案发给mike。",
-        "Level2-INS": "在高德地图中规划从杭州东站出发并回到杭州东站、途经保俶塔/雷峰塔/杨公堤/奥体中心主体育场的骑行环线，满足相邻段直线距离3-15km、总骑行距离20-42km，然后用信息app将5地点坐标、骑行顺序、相邻段距离和总距离发送给mike 18756627900。",
-        "Level3-INS": "打开高德地图app，在路线页选择骑行模式，分别测试4个地标的不同访问顺序，确保相邻直线距离都在3-15km且总骑行距离在20-42km之间，记下5个点的经纬度和分段距离。打开信息app新建消息，收件人填18756627900，按骑行顺序键入5个'地点：坐标'、地点名顺序、相邻段距离和总距离，点击发送。",
-        "_source_bench": "MobileWorld",
-        "_mw_task_path": "messages/plan_cycling_route_sms.py",
-    },
 
     # ---- two-app: 信息+日历 (sms <-> calendar workflows) ----
     {
@@ -647,16 +475,6 @@ NEW_TASKS: list[dict] = [
         "_mw_task_path": "work/photo_management.py",
     },
     {
-        "Task_id": 115, "Task Type": "办公协助",
-        "Invovled_App_Name": "相册、gmail",
-        "Original-INS": "Find all flowers pictures in gallery and send them via email to kevin_zhang@example.com, with text \"Here are some flowers for you.\"",
-        "Level1-INS": "Email Kevin my flower photos.",
-        "Level2-INS": "Open Gallery to collect all flower pictures, then use Gmail to email them to kevin_zhang@example.com with the message 'Here are some flowers for you.'",
-        "Level3-INS": "Open the Gallery app, switch to Albums and look through 'All Photos' or any flower-tagged album to multi-select every flower picture, tap the share icon and choose Gmail. In the compose screen, enter kevin_zhang@example.com in To, type 'Here are some flowers for you.' in the body, then tap the send icon.",
-        "_source_bench": "MobileWorld",
-        "_mw_task_path": "native/share_photos.py",
-    },
-    {
         "Task_id": 116, "Task Type": "办公协助",
         "Invovled_App_Name": "gmail、信息",
         "Original-INS": "Check if I've received an email about the depart time for the CoolHacks hackathon. If not, text Carl (345 6784 3456) 'Do you know what time we're leaving tomorrow?'",
@@ -725,6 +543,93 @@ NEW_TASKS: list[dict] = [
         "Level3-INS": "打开高德地图app，路线规划起点输入'浙江省杭州市余杭区文一西路阿里巴巴西溪园区C区三号楼'，终点输入'西溪国家湿地公园周家村主入口'，切换步行模式，记下显示的距离(公里)与时长(分钟)。打开gmail app，撰写新邮件，To栏填dylan@gmail.com，主题栏填'daily walking'，正文写入'距离x.xx公里，时长xx分钟'，点击发送。",
         "_source_bench": "MobileWorld",
         "_mw_task_path": "work/calculate_walking_route_email.py",
+    },
+
+    # ============================================================
+    # MobileWorld — Taodian (mall/) entries (Task_id 123-130)
+    # MW's `Taodian` app maps to KB's `淘宝` (id=112, 12 AOS funcs).
+    # L3 chains adapted from 淘宝's action_object_str:
+    #   商品搜索 / 下单购买 / 加入购物车 / 订单物流查询 / 新增地址 / 售后服务
+    # ============================================================
+    {
+        "Task_id": 123, "Task Type": "生活",
+        "Invovled_App_Name": "淘宝",
+        "Original-INS": "帮我在淘店下单购物车里的iphone 15 pro，寄到浙江省杭州市余杭区阿里巴巴西溪C区，收件人张先生，收件人电话13800138000。如需登录，可以通过短信验证码。在支付页面让我操作",
+        "Level1-INS": "帮我下单购物车里的iPhone 15 Pro，寄到公司收件人张先生。",
+        "Level2-INS": "在淘宝app的购物车中勾选iPhone 15 Pro下单，收货地址填'浙江省杭州市余杭区阿里巴巴西溪C区 张先生 13800138000'，在支付页让我操作。",
+        "Level3-INS": "打开淘宝app，若提示登录则切换'短信验证码登录'输入手机号收码登录。点击右下角笑脸图标进入'我的淘宝'，进入购物车页，勾选iPhone 15 Pro，点击'结算'。若收件人地址中没有目标地址，点击'新增地址'输入'浙江省杭州市余杭区阿里巴巴西溪C区 张先生 13800138000'并保存。回到结算页选中该地址，点击'提交订单'进入支付页等待用户操作。",
+        "_source_bench": "MobileWorld",
+        "_mw_task_path": "mall/item_checkout.py",
+    },
+    {
+        "Task_id": 124, "Task Type": "生活",
+        "Invovled_App_Name": "淘宝",
+        "Original-INS": "最近天气变冷了，请帮我从淘店app的购物车中删除所有短袖T恤衬衫。如果需要登录，可以通过短信验证码登录。",
+        "Level1-INS": "天冷了，把我购物车里的短袖T恤都删掉。",
+        "Level2-INS": "在淘宝app的购物车中找出所有短袖T恤衬衫并删除；若需登录用短信验证码。",
+        "Level3-INS": "打开淘宝app，若弹出登录则切换'短信验证码登录'输入手机号收码登录。点击右下角笑脸图标进入'我的淘宝'，进入'购物车'页，浏览每件商品的标题，找到含'短袖T恤/衬衫/T-shirt'字样的商品，左滑或长按后点击'删除'确认；逐件重复直至全部删除。",
+        "_source_bench": "MobileWorld",
+        "_mw_task_path": "mall/cart_management.py",
+    },
+    {
+        "Task_id": 125, "Task Type": "生活",
+        "Invovled_App_Name": "淘宝",
+        "Original-INS": "Find the three most expensive items in the TaoDian app shopping cart and calculate their total price. Respond only with an integer representing the total price, with no other text.",
+        "Level1-INS": "What's the total price of the three priciest items in my cart?",
+        "Level2-INS": "Open Taobao's cart, identify the three most expensive items, sum their prices, and report only the integer total.",
+        "Level3-INS": "Open the Taobao app, tap the smiley-face icon labelled '我的淘宝' at the bottom right, enter the '购物车' (cart) page, scroll through every item and note its price, pick the three highest, add them up, and report the integer total with no other text.",
+        "_source_bench": "MobileWorld",
+        "_mw_task_path": "mall/check_cart_price_1.py",
+    },
+    {
+        "Task_id": 126, "Task Type": "生活",
+        "Invovled_App_Name": "淘宝",
+        "Original-INS": "请帮我算一下在淘店上最近1个月我总共花了多少钱。请只回答一个整数, 不要返回任何其他文本.",
+        "Level1-INS": "我最近一个月在淘宝花了多少钱？",
+        "Level2-INS": "在淘宝app里查看最近1个月的订单总金额，只回答整数。",
+        "Level3-INS": "打开淘宝app，点击右下角笑脸图标进入'我的淘宝'，点击'我的订单'(或'查看全部订单')，将筛选时间范围设为最近1个月，向下滚动遍历订单列表，把每单实付金额累加起来，最终只回复整数总额。",
+        "_source_bench": "MobileWorld",
+        "_mw_task_path": "mall/recent_total_expense.py",
+    },
+    {
+        "Task_id": 127, "Task Type": "生活",
+        "Invovled_App_Name": "淘宝",
+        "Original-INS": "帮我在淘店上找一双白色的鞋，日常通勤穿的，按我平时穿的码下单，默认收件人和地址",
+        "Level1-INS": "帮我买一双日常通勤的白色鞋，按我平时穿的码。",
+        "Level2-INS": "在淘宝app搜索白色通勤鞋，挑一双合适的按我常用尺码下单，地址用默认。",
+        "Level3-INS": "打开淘宝app，点击顶部搜索栏输入'白色 通勤 鞋'，点击右侧红色'搜索'按钮，从结果列表里点开一款评价好的商品进入详情页，在尺码选项中选择我常穿的码数，点击底部红色'立即购买'，结算页保留默认收件人地址，点击'提交订单'进入支付页。",
+        "_source_bench": "MobileWorld",
+        "_mw_task_path": "mall/search_white_sneakers_checkout_ask_user.py",
+    },
+    {
+        "Task_id": 128, "Task Type": "生活",
+        "Invovled_App_Name": "淘宝、信息",
+        "Original-INS": "Find the items awaiting shipment in TaoDian and send an SMS reminder to the recipient, including the product name and order number, with no other text.",
+        "Level1-INS": "Text the recipient the product name and order number for my pending-shipment items.",
+        "Level2-INS": "Open the Taobao app, list items awaiting shipment in My Orders, then open the Messages app and SMS each recipient the product name and order number (text only).",
+        "Level3-INS": "Open the Taobao app, tap '我的淘宝' at the bottom right, tap the truck icon labelled '待发货' to view items awaiting shipment. For each item, read its product name, order number, and the recipient's phone in the order detail. Open the Messages app, compose a new SMS to that phone, type only '<product name> <order number>' in the body, and send.",
+        "_source_bench": "MobileWorld",
+        "_mw_task_path": "mall/cart_info_notification.py",
+    },
+    {
+        "Task_id": 129, "Task Type": "生活",
+        "Invovled_App_Name": "淘宝",
+        "Original-INS": "之前我给朋友在淘店上买了一双鞋，帮我看一下他脚多少尺码。请只回答一个整数, 不要返回任何其他文本.",
+        "Level1-INS": "我之前给朋友买了一双鞋，他脚多少码？",
+        "Level2-INS": "在淘宝app的历史订单里找之前给朋友买的鞋，查看下单时选的尺码，只回答整数。",
+        "Level3-INS": "打开淘宝app，点击右下角笑脸图标进入'我的淘宝'，点击'我的订单'，向下滚动找到那笔给朋友买鞋的订单，点击订单进入详情页，查看商品规格栏中的尺码数字，只回复该整数。",
+        "_source_bench": "MobileWorld",
+        "_mw_task_path": "mall/check_purchased_item.py",
+    },
+    {
+        "Task_id": 130, "Task Type": "生活",
+        "Invovled_App_Name": "淘宝",
+        "Original-INS": "Help me calculate the prices of items in the Taodian shopping cart separately for me and my roommate, tell me how much each person needs to pay. Answer in the format 'me/roommate:amount,amount'.",
+        "Level1-INS": "Split my cart between me and my roommate and tell me what each of us owes.",
+        "Level2-INS": "Open Taobao's cart, group items by owner (me vs roommate) using their memos, sum each bucket, and report 'me/roommate:amount,amount'.",
+        "Level3-INS": "Open the Taobao app, tap '我的淘宝' at the bottom right, enter the '购物车' page. For each item, expand the entry to read its memo/owner tag to determine if it's mine or my roommate's. Sum the prices in each bucket, then report the result in the exact format 'me/roommate:<my_total>,<roommate_total>'.",
+        "_source_bench": "MobileWorld",
+        "_mw_task_path": "mall/calculate_cart_prices_by_owner_ask_user.py",
     },
 ]
 
@@ -800,6 +705,16 @@ def main() -> None:
         print("✓ all new entries use only KB-AOS apps")
 
     merged = existing + NEW_TASKS
+
+    # Reindex Task_id sequentially 1..N (original 50 first, then new entries),
+    # removing the historical gaps. Stable keys for MobileWorld entries are
+    # _mw_task_class / _mw_task_path (NOT Task_id), so the eval runner is
+    # unaffected. Keep the pre-reindex id under `_orig_task_id` for traceback.
+    for new_id, t in enumerate(merged, start=1):
+        if t.get("Task_id") != new_id:
+            t["_orig_task_id"] = t.get("Task_id")
+        t["Task_id"] = new_id
+
     with open(OUT, "w", encoding="utf-8") as f:
         json.dump(merged, f, ensure_ascii=False, indent=2)
 

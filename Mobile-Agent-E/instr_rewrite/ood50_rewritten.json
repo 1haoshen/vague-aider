@@ -1,0 +1,410 @@
+[
+  {
+    "Task_id": 51,
+    "involved_apps": "闹钟",
+    "hidden_kb_keys": [
+      "闹钟 "
+    ],
+    "unmapped_surface_forms": [],
+    "original_instruction": "Please set a wake-up alarm for me on Friday."
+  },
+  {
+    "Task_id": 52,
+    "involved_apps": "信息",
+    "hidden_kb_keys": [],
+    "unmapped_surface_forms": [],
+    "original_instruction": "Delete all messages in SMS app sent from my company."
+  },
+  {
+    "Task_id": 53,
+    "involved_apps": "信息",
+    "hidden_kb_keys": [],
+    "unmapped_surface_forms": [],
+    "original_instruction": "Delete the message about deployment issues in SMS app sent from my company."
+  },
+  {
+    "Task_id": 54,
+    "involved_apps": "日历",
+    "hidden_kb_keys": [],
+    "unmapped_surface_forms": [],
+    "original_instruction": "My schedule on 10/20 is a bit full, please remove a few events."
+  },
+  {
+    "Task_id": 55,
+    "involved_apps": "日历",
+    "hidden_kb_keys": [],
+    "unmapped_surface_forms": [],
+    "original_instruction": "How many deduplicated events are there in the calendar, from October 20 to October 26?"
+  },
+  {
+    "Task_id": 56,
+    "involved_apps": "gmail",
+    "hidden_kb_keys": [],
+    "unmapped_surface_forms": [],
+    "original_instruction": "Reply to Daniel's most recent email to tell him: 'I'll be there at 10:00 AM on Thursday.'"
+  },
+  {
+    "Task_id": 57,
+    "involved_apps": "gmail",
+    "hidden_kb_keys": [],
+    "unmapped_surface_forms": [],
+    "original_instruction": "Send the file 'waiver.jpg' as an email attachment to bob@gmail.com. Title the email 'Updated waiver'."
+  },
+  {
+    "Task_id": 58,
+    "involved_apps": "gmail",
+    "hidden_kb_keys": [],
+    "unmapped_surface_forms": [],
+    "original_instruction": "Could you reply to Daniel's most recent email to tell him I'll have to cancel the meeting on Thursday?"
+  },
+  {
+    "Task_id": 59,
+    "involved_apps": "高德地图(Amap)、信息",
+    "hidden_kb_keys": [
+      "高德地图"
+    ],
+    "unmapped_surface_forms": [],
+    "original_instruction": "明天下午我朋友要来杭州西溪这边，你帮我查一下杭州明天白天的天气和情况和温度发送给我的朋友，电话100077788236"
+  },
+  {
+    "Task_id": 60,
+    "involved_apps": "高德地图(Amap)、信息",
+    "hidden_kb_keys": [
+      "高德地图"
+    ],
+    "unmapped_surface_forms": [],
+    "original_instruction": "中介给我发了两套房子的信息，我想比较一下哪一套离阿里西溪c园区开车更近，好决定租哪一间。把最近那套房子的地址发给我朋友 Mia"
+  },
+  {
+    "Task_id": 61,
+    "involved_apps": "高德地图(Amap)、信息",
+    "hidden_kb_keys": [
+      "高德地图"
+    ],
+    "unmapped_surface_forms": [],
+    "original_instruction": "我现在的位置在西溪园区亲橙客栈，家里有人突然感冒，你帮我查500米范围内的药店，以`name：address`的格式，每个药店一行，帮我短信给我妻子1997777900"
+  },
+  {
+    "Task_id": 62,
+    "involved_apps": "日历、闹钟",
+    "hidden_kb_keys": [
+      "闹钟 "
+    ],
+    "unmapped_surface_forms": [],
+    "original_instruction": "Set an alarm in Clock app to remind me of my meeting with Sam 5 minutes in advance."
+  },
+  {
+    "Task_id": 63,
+    "involved_apps": "相册、gmail",
+    "hidden_kb_keys": [
+      "相册"
+    ],
+    "unmapped_surface_forms": [],
+    "original_instruction": "Send some photos to Kevin via email, with text \"Here are some pictures for you.\""
+  },
+  {
+    "Task_id": 64,
+    "involved_apps": "gmail、闹钟",
+    "hidden_kb_keys": [
+      "闹钟 "
+    ],
+    "unmapped_surface_forms": [],
+    "original_instruction": "Check my email for the time of the Christmas party today. Set an alarm for one hour before then."
+  },
+  {
+    "Task_id": 65,
+    "involved_apps": "高德地图(Amap)、gmail",
+    "hidden_kb_keys": [
+      "高德地图"
+    ],
+    "unmapped_surface_forms": [],
+    "original_instruction": "我打算骑车上班，帮我估算萧山到阿里西溪C园区的距离(公里)和时间（分钟）把结果按`距离(公里),时间(分钟)`的格式发送到我的生活邮箱dylan@gmail.com，标题为`daily bike`"
+  },
+  {
+    "Task_id": 66,
+    "involved_apps": "Chrome、gmail",
+    "hidden_kb_keys": [
+      "Google/Chorme"
+    ],
+    "unmapped_surface_forms": [],
+    "original_instruction": "Please check the number of stars and contributors on the AndroidWorld GitHub repository, then send an email to kevin_zhang@example.com with the subject line \"AndroidWorld Repository Stats\" and the following message body: There are XXX stars and XXX contributors in the AndroidWorld repository."
+  },
+  {
+    "Task_id": 67,
+    "involved_apps": "gmail、日历",
+    "hidden_kb_keys": [],
+    "unmapped_surface_forms": [],
+    "original_instruction": "Check my email for the date and time of my meeting with Carl. Then, set a one hour calendar event titled 'Board Meeting'"
+  },
+  {
+    "Task_id": 68,
+    "involved_apps": "gmail、信息、日历",
+    "hidden_kb_keys": [],
+    "unmapped_surface_forms": [],
+    "original_instruction": "I received an email about the Next.js Conf. Please check my calendar. If I'm available, send the sender an SMS saying, 'I can attend the conference.' If not, reply with, 'Sorry, I"
+  },
+  {
+    "Task_id": 72,
+    "involved_apps": "信息",
+    "hidden_kb_keys": [],
+    "unmapped_surface_forms": [],
+    "original_instruction": "Send a message to Kevin to information him \"Your interview is scheduled for tomorrow morning at 10:30 AM\"."
+  },
+  {
+    "Task_id": 73,
+    "involved_apps": "Chrome",
+    "hidden_kb_keys": [
+      "Google/Chorme"
+    ],
+    "unmapped_surface_forms": [],
+    "original_instruction": "Use Chrome to search for Beijing highest temperature today. ONLY give a integer number denoted Celsius degree."
+  },
+  {
+    "Task_id": 74,
+    "involved_apps": "googleMap",
+    "hidden_kb_keys": [
+      "Google Maps"
+    ],
+    "unmapped_surface_forms": [],
+    "original_instruction": "Open Google Maps and find which company is directly south of my company. ONLY output the company name in English."
+  },
+  {
+    "Task_id": 75,
+    "involved_apps": "googleMap",
+    "hidden_kb_keys": [
+      "Google Maps"
+    ],
+    "unmapped_surface_forms": [],
+    "original_instruction": "Open Google Maps and find which company is directly south of Alibaba Hangzhou headquarters in Binjiang District. ONLY output the company name in English."
+  },
+  {
+    "Task_id": 76,
+    "involved_apps": "googleMap",
+    "hidden_kb_keys": [
+      "Google Maps"
+    ],
+    "unmapped_surface_forms": [],
+    "original_instruction": "What is the driving distance in kilometers from Beijing to my hometown? Response as the following format: beijing to xxx: distance km. xxx denotes the name of the hometown."
+  },
+  {
+    "Task_id": 77,
+    "involved_apps": "日历",
+    "hidden_kb_keys": [],
+    "unmapped_surface_forms": [],
+    "original_instruction": "How many days of conference meetings did I schedule in October? Please only return the number of days, no other text."
+  },
+  {
+    "Task_id": 78,
+    "involved_apps": "gmail",
+    "hidden_kb_keys": [],
+    "unmapped_surface_forms": [],
+    "original_instruction": "Look for a file in my email titled 'receipts.jpg' and download it. Then, send it to to treasurer@gmail.com with the subject 'Proof of purchase', the email should mention the total amount spent in the email."
+  },
+  {
+    "Task_id": 79,
+    "involved_apps": "gmail",
+    "hidden_kb_keys": [],
+    "unmapped_surface_forms": [],
+    "original_instruction": "Please check my email for any field trip forms sent from October 3rd onward. Download all of them and send them to principal@school.edu with the subject 'Field Trip Forms'. Then, tell me how many forms you found as a single number."
+  },
+  {
+    "Task_id": 80,
+    "involved_apps": "高德地图(Amap)、信息",
+    "hidden_kb_keys": [
+      "高德地图"
+    ],
+    "unmapped_surface_forms": [],
+    "original_instruction": "我从高德复制了一段终点坐标 120.0351,30.2809（阿里西溪附近），帮我用它查出详细的行政区划地址，然后短信给1766242644，按照\"坐标：地址\"的格式编写短信内容"
+  },
+  {
+    "Task_id": 81,
+    "involved_apps": "高德地图(Amap)、信息",
+    "hidden_kb_keys": [
+      "高德地图"
+    ],
+    "unmapped_surface_forms": [],
+    "original_instruction": "成都打车路线：从成都双流国际机场T2航站楼到锦江区春熙路南段8号酒店，途经宽窄巷子和锦里古街，把路线信息按规定格式短信发给Lucy 13900139000。"
+  },
+  {
+    "Task_id": 82,
+    "involved_apps": "信息、日历",
+    "hidden_kb_keys": [],
+    "unmapped_surface_forms": [],
+    "original_instruction": "I've received a lunch invitation via text message; please reply \"OK\" and schedule a lunch event ranging from 11 a.m. to 12 a.m. on Oct 16."
+  },
+  {
+    "Task_id": 83,
+    "involved_apps": "信息、日历",
+    "hidden_kb_keys": [],
+    "unmapped_surface_forms": [],
+    "original_instruction": "I've received a coffee time invitation via text message; please check the calendar. If I am available in this time slot, reply \"OK\" and schedule a corresponding event on my calendar. Otherwise reply \"Not available in this time slot.\""
+  },
+  {
+    "Task_id": 84,
+    "involved_apps": "信息、日历",
+    "hidden_kb_keys": [],
+    "unmapped_surface_forms": [],
+    "original_instruction": "I've received a one-on-one meeting invitation from my boss. Please check my calendar and reply 'OK' if it's clear. If there's a scheduling conflict, please notify the person in the conflict event by SMS: 'Sorry, I can't attend the meeting.'"
+  },
+  {
+    "Task_id": 85,
+    "involved_apps": "信息、日历",
+    "hidden_kb_keys": [],
+    "unmapped_surface_forms": [],
+    "original_instruction": "Check my calendar and send an SMS notification to Mia with the dates of my arrival and departure from Paris. The message should contain only the two dates in MM/DD/YYYY format, separated by a comma."
+  },
+  {
+    "Task_id": 86,
+    "involved_apps": "信息、日历",
+    "hidden_kb_keys": [],
+    "unmapped_surface_forms": [],
+    "original_instruction": "Check my calendar and send an SMS notification to Mia with the dates of my arrival and departure from Tokyo. The message should contain only the two dates in MM/DD/YYYY format, separated by a comma."
+  },
+  {
+    "Task_id": 87,
+    "involved_apps": "日历、高德地图(Amap)",
+    "hidden_kb_keys": [
+      "高德地图"
+    ],
+    "unmapped_surface_forms": [],
+    "original_instruction": "我下周六10:00am-12:30pm要去「上海虹桥火车站」，添加事项到calender，事项为出差，你帮我找到离上海虹桥火车站10公里以内的景点，我周一上班前去参观下，按照\"景点名字：地址\"放入calender事件的描述中，多个景点按逗号分隔"
+  },
+  {
+    "Task_id": 88,
+    "involved_apps": "日历、相册",
+    "hidden_kb_keys": [
+      "相册"
+    ],
+    "unmapped_surface_forms": [],
+    "original_instruction": "Find all my food pics from the past month and help me classify them into different folders named travel locations. You can find where I visited from calendar."
+  },
+  {
+    "Task_id": 89,
+    "involved_apps": "gmail、信息",
+    "hidden_kb_keys": [],
+    "unmapped_surface_forms": [],
+    "original_instruction": "Check if I've received an email about the depart time for the CoolHacks hackathon. If not, text Carl (345 6784 3456) 'Do you know what time we're leaving tomorrow?'"
+  },
+  {
+    "Task_id": 90,
+    "involved_apps": "gmail、信息",
+    "hidden_kb_keys": [],
+    "unmapped_surface_forms": [],
+    "original_instruction": "Check my email for the time of the math competition tomorrow. If it's between 12 and 5 pm, text Daniel (3522228876) 'Hey, could you help send Bob to the competition tomorrow? Thanks.'"
+  },
+  {
+    "Task_id": 91,
+    "involved_apps": "信息、gmail",
+    "hidden_kb_keys": [],
+    "unmapped_surface_forms": [],
+    "original_instruction": "Check all unread sms messages, delete spams, and provide a summary of recruitment messages to me via email by sending to dylan@gmail.com. Note I'm only interested in open data scientist role."
+  },
+  {
+    "Task_id": 92,
+    "involved_apps": "googleMap、信息",
+    "hidden_kb_keys": [
+      "Google Maps"
+    ],
+    "unmapped_surface_forms": [],
+    "original_instruction": "Search up how long it takes to drive from Orlando to Miami. Text Susan (4538997638) the approximate time I'll be there if I leave at 5 pm."
+  },
+  {
+    "Task_id": 93,
+    "involved_apps": "googleMap、信息",
+    "hidden_kb_keys": [
+      "Google Maps"
+    ],
+    "unmapped_surface_forms": [],
+    "original_instruction": "Check my email for the location of the MCFT conference hotel, then text the address to Tom (4456547865). Use Google maps to tell me how long it would take to walk from the MIT Stata center to there. Only response the time in minutes. No other text."
+  },
+  {
+    "Task_id": 94,
+    "involved_apps": "高德地图(Amap)、gmail",
+    "hidden_kb_keys": [
+      "高德地图"
+    ],
+    "unmapped_surface_forms": [],
+    "original_instruction": "帮我规划从杭州亲橙酒店到萧山机场之间规划一条驾车路线，把返回的路线信息组织成一段内容，instructions用逗号分隔，发送到我的生活邮箱dylan@gmail.com，标题为`daily travel`"
+  },
+  {
+    "Task_id": 95,
+    "involved_apps": "高德地图(Amap)、gmail",
+    "hidden_kb_keys": [
+      "高德地图"
+    ],
+    "unmapped_surface_forms": [],
+    "original_instruction": "我想每天晚饭后从阿里巴巴西溪园区散步到西溪湿地。我家在「浙江省杭州市余杭区文一西路阿里巴巴西溪园区C区三号楼」，公园在「西溪国家湿地公园周家村主入口」，评估把总距离（公里）和预计时长(分钟)email到我的生活邮箱dylan@gmail.com，标题为daily walking"
+  },
+  {
+    "Task_id": 96,
+    "involved_apps": "淘宝",
+    "hidden_kb_keys": [
+      "淘宝"
+    ],
+    "unmapped_surface_forms": [],
+    "original_instruction": "帮我在淘店下单购物车里的iphone 15 pro，寄到浙江省杭州市余杭区阿里巴巴西溪C区，收件人张先生，收件人电话13800138000。如需登录，可以通过短信验证码。在支付页面让我操作"
+  },
+  {
+    "Task_id": 97,
+    "involved_apps": "淘宝",
+    "hidden_kb_keys": [
+      "淘宝"
+    ],
+    "unmapped_surface_forms": [],
+    "original_instruction": "最近天气变冷了，请帮我从淘店app的购物车中删除所有短袖T恤衬衫。如果需要登录，可以通过短信验证码登录。"
+  },
+  {
+    "Task_id": 98,
+    "involved_apps": "淘宝",
+    "hidden_kb_keys": [
+      "淘宝"
+    ],
+    "unmapped_surface_forms": [],
+    "original_instruction": "Find the three most expensive items in the TaoDian app shopping cart and calculate their total price. Respond only with an integer representing the total price, with no other text."
+  },
+  {
+    "Task_id": 99,
+    "involved_apps": "淘宝",
+    "hidden_kb_keys": [
+      "淘宝"
+    ],
+    "unmapped_surface_forms": [],
+    "original_instruction": "请帮我算一下在淘店上最近1个月我总共花了多少钱。请只回答一个整数, 不要返回任何其他文本."
+  },
+  {
+    "Task_id": 100,
+    "involved_apps": "淘宝",
+    "hidden_kb_keys": [
+      "淘宝"
+    ],
+    "unmapped_surface_forms": [],
+    "original_instruction": "帮我在淘店上找一双白色的鞋，日常通勤穿的，按我平时穿的码下单，默认收件人和地址"
+  },
+  {
+    "Task_id": 101,
+    "involved_apps": "淘宝、信息",
+    "hidden_kb_keys": [
+      "淘宝"
+    ],
+    "unmapped_surface_forms": [],
+    "original_instruction": "Find the items awaiting shipment in TaoDian and send an SMS reminder to the recipient, including the product name and order number, with no other text."
+  },
+  {
+    "Task_id": 102,
+    "involved_apps": "淘宝",
+    "hidden_kb_keys": [
+      "淘宝"
+    ],
+    "unmapped_surface_forms": [],
+    "original_instruction": "之前我给朋友在淘店上买了一双鞋，帮我看一下他脚多少尺码。请只回答一个整数, 不要返回任何其他文本."
+  },
+  {
+    "Task_id": 103,
+    "involved_apps": "淘宝",
+    "hidden_kb_keys": [
+      "淘宝"
+    ],
+    "unmapped_surface_forms": [],
+    "original_instruction": "Help me calculate the prices of items in the Taodian shopping cart separately for me and my roommate, tell me how much each person needs to pay. Answer in the format 'me/roommate:amount,amount'."
+  }
+]

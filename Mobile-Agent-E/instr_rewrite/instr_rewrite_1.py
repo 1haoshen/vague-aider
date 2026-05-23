@@ -741,10 +741,19 @@ def call_qwen(prompt: str) -> tuple[str, dict]:
         raise ValueError("Qwen API 响应格式无效")
 
 # 更新解析以匹配新输出结构
-def rewrite_instruction(user_instruction: str, action_object_str: str = None, save_to_file: str = None) -> dict:  # 修改返回类型为dict
-    """主函数：补充用户指令（支持多级和action_object_str）"""
+def rewrite_instruction(user_instruction: str, action_object_str: str = None, save_to_file: str = None,
+                        app_data_override: list = None, model_override: str = None) -> dict:  # 修改返回类型为dict
+    """主函数：补充用户指令（支持多级和action_object_str）
+
+    app_data_override: 若给定，用它替代 load_app_data() 的全表（OOD 实验用：
+        调用方可先从 KB 删去/隐藏目标 app，迫使改写器仅靠其余 app 知识泛化）。
+    model_override: 若给定，覆盖全局 QWEN_MODEL（OOD 用 qwen3-8b）。
+    """
+    global QWEN_MODEL
     start_time = time.time()  # 开始计时
-    app_data = load_app_data()
+    if model_override:
+        QWEN_MODEL = model_override
+    app_data = app_data_override if app_data_override is not None else load_app_data()
     prompt = build_prompt(user_instruction, app_data, action_object_str)
 
     # 新增：验证action_object_str
