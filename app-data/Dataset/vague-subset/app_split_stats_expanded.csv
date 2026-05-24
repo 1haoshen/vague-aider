@@ -1,7 +1,7 @@
 group,bench,lang,n,mean,median,std,min,max,p25,p75
-A:atomic,VagueBench-L1 single,all,14,14.6,14.5,4.0,9,21,12.2,17.5
-A:atomic,VagueBench-L1 single,cn,7,13.6,12.0,4.8,9,21,9.5,17.0
-A:atomic,VagueBench-L1 single,en,7,15.7,15.0,2.9,13,21,13.5,17.0
+A:atomic,VagueBench-exp single,all,39,14.7,14.0,5.8,5,29,10.0,17.5
+A:atomic,VagueBench-exp single,cn,13,17.5,18.0,7.5,8,29,10.0,24.0
+A:atomic,VagueBench-exp single,en,26,13.3,13.0,4.2,5,24,10.5,16.0
 A:atomic,AndroidArena,all,43,6.9,7.0,2.3,4,13,5.0,8.0
 A:atomic,AndroidArena,en,43,6.9,7.0,2.3,4,13,5.0,8.0
 A:atomic,AndroidWorld,all,14,8,7.5,3.3,4,13,4.8,11.0
@@ -9,9 +9,9 @@ A:atomic,AndroidWorld,en,14,8,7.5,3.3,4,13,4.8,11.0
 A:atomic,MVISU-Bench,all,72,9.4,8.0,3.8,3,25,7.0,11.0
 A:atomic,MVISU-Bench,cn,36,11.1,10.5,4.2,5,25,8.0,14.2
 A:atomic,MVISU-Bench,en,36,7.7,7.0,2.3,3,13,6.0,9.0
-B:composit,VagueBench-L1 multi,all,36,22.8,17.0,13.7,11,77,15.0,24.0
-B:composit,VagueBench-L1 multi,cn,17,28.8,23.0,17.5,12,77,15.0,36.0
-B:composit,VagueBench-L1 multi,en,19,17.5,17.0,5.0,11,33,14.5,19.0
+B:composit,VagueBench-exp multi,all,64,23.5,19.5,12.6,9,77,15.0,29.2
+B:composit,VagueBench-exp multi,cn,27,31.8,34.0,14.9,12,77,21.0,40.0
+B:composit,VagueBench-exp multi,en,37,17.5,17.0,5.0,9,33,14.0,20.0
 B:composit,MobileWorld,all,45,27.1,18.0,17.6,5,76,15.0,40.0
 B:composit,MobileWorld,cn,19,44.9,44.0,12.4,28,76,35.0,53.0
 B:composit,MobileWorld,en,26,14.1,15.0,4.1,5,19,12.0,17.8

@@ -1,0 +1,3 @@
+level,n_total,n_completed,completion_rate,avg_steps,avg_duration_s,avg_total_tokens,sum_total_tokens,sum_prompt_tokens,sum_completion_tokens
+L1,4,4,1.0,9.75,34.12,5525,22100,17680,4420
+L3,4,2,0.5,5,17.5,2471.25,9885,7910,1975

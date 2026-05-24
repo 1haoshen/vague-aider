@@ -1,0 +1,9 @@
+task_id,level,repeat,lang,task_type,apps,finish_flag,finished_success,n_steps,duration_s,prompt_tokens,completion_tokens,total_tokens,manual_correct,instruction,result,steps_json
+56,L1,1,en,x,闹钟,max_steps_reached,False,12,42.0,4800,1200,6000,1,Run the stopwatch.,Max steps reached,app-data/Ins-bench/phoneagent_logs/demo/t56_L1_r1/20260101-000000/steps.json
+56,L1,2,en,x,闹钟,max_steps_reached,False,10,35.0,4200,1050,5250,1,Run the stopwatch.,Max steps reached,app-data/Ins-bench/phoneagent_logs/demo/t56_L1_r2/20260101-000000/steps.json
+56,L3,1,en,x,闹钟,success,True,4,14.0,1200,300,1500,0,Open Clock...,ok,app-data/Ins-bench/phoneagent_logs/demo/t56_L3_r1/20260101-000000/steps.json
+56,L3,2,en,x,闹钟,success,True,5,17.5,1550,385,1935,0,Open Clock...,ok,app-data/Ins-bench/phoneagent_logs/demo/t56_L3_r2/20260101-000000/steps.json
+57,L1,1,cn,x,美团,success,True,8,28.0,4000,1000,5000,1,美团火锅,ok,app-data/Ins-bench/phoneagent_logs/demo/t57_L1_r1/20260101-000000/steps.json
+57,L1,2,cn,x,美团,success,True,9,31.5,4680,1170,5850,1,美团火锅,ok,app-data/Ins-bench/phoneagent_logs/demo/t57_L1_r2/20260101-000000/steps.json
+57,L3,1,cn,x,美团,success,True,5,17.5,2400,600,3000,1,打开美团...,ok,app-data/Ins-bench/phoneagent_logs/demo/t57_L3_r1/20260101-000000/steps.json
+57,L3,2,cn,x,美团,success,True,6,21.0,2760,690,3450,1,打开美团...,ok,app-data/Ins-bench/phoneagent_logs/demo/t57_L3_r2/20260101-000000/steps.json

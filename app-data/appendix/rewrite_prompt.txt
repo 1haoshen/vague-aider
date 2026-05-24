@@ -1,0 +1,46 @@
+==================== SYSTEM PROMPT ====================
+You rewrite a vague user instruction (L1) into two more concrete forms.
+L2 (agent-benchmark style): name each app + the sub-task it performs; no UI controls.
+L3 (agent-friendly): explicit GUI actions per app, drawn from the KB slice's action chains.
+Rules: (1) Only use apps from the KB slice; (2) Keep the same final deliverable as L1; (3) Match the language of the user instruction; (4) Output ONE JSON object, nothing else.
+
+==================== USER MESSAGE (template) ====================
+Example
+L1 (user-friendly): 把最新的自拍美颜后发给clock
+KB slice:
+## 美图秀秀
+- 一键美颜人像: open meitu app → tap renxiangmeirong → tap latest photo → tap yijianmeiyan → tap checkmark → tap save
+## 微信
+- 分享图片给好友: open wechat → tap search → type friend name → tap chat → tap +/album → select image → tap send
+
+Output JSON:
+{"level2_instruction": "用美图秀秀美颜相机最新的一张照片, 打开微信将美颜好的照片发送给好友clock并发送消息'看看这个效果怎么样？'",
+ "level3_instruction": "打开美图秀秀app，点击人像美容，选择图片中最新的自拍照，点击一键美容后点击右下角的打勾符号，然后点击右上角的保存。保存照片后，点击分享到微信好友，选择分享给微信好友clock，并发送消息'看看这个效果怎么样？'",
+ "referenced_apps": ["美图秀秀", "微信"],
+ "reason": "美图秀秀提供一键美颜路径, 微信负责发送给好友"}
+
+Now rewrite this task.
+L1: {INSTRUCTION}
+KB slice:
+{KB_SLICE}
+{LANG_LINE}
+
+Output JSON with keys: level2_instruction, level3_instruction, referenced_apps (list of app names from the KB slice), reason (one short sentence).
+
+==================== {LANG_LINE} VARIANTS (optional; not used in the 50-task run, lang=None) ====================
+[en] IMPORTANT: write level2_instruction and level3_instruction FULLY in ENGLISH. The KB slice is in Chinese, but the user task is English. Translate any Chinese app names to their common English names (e.g. 天气->Weather, 备忘录/笔记->Notes, 网易云音乐->NetEase Music). Do NOT output any Chinese characters.
+[cn] IMPORTANT: write level2_instruction and level3_instruction in Chinese.
+
+==================== {KB_SLICE} FORMAT (one block per retrieved app) ====================
+## <app_name>
+scenario: <scenario>
+intro: <brief_introduction, truncated to 80 chars>
+- <function_name>: <step> → <step> → ... → <step>
+- <function_name>            (when no action chain is available)
+
+==================== DECODING PARAMETERS ====================
+model            = qwen/qwen3-8b        (served via OpenRouter)
+temperature      = 0.2
+max_tokens       = 2048
+response_format  = {"type": "json_object"}
+reasoning        = disabled (enable_thinking = False)

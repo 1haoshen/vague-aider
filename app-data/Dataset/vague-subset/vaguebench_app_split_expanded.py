@@ -1,24 +1,26 @@
-"""VagueBench-L1 length comparison for the paper appendix.
+"""Expanded VagueBench (Level1-INS, n=103) length comparison for the paper appendix.
+
+Same protocol as vaguebench_app_split.py (which uses the original n=50 set), but
+the VagueBench instructions are read from the expanded benchmark
+  ../../Ins-bench/Vague-ins-expanded.json
+using the `Level1-INS` field. Language (cn/en) is auto-detected from the text
+(presence of CJK characters), since the expanded file has no `lang` field.
+App count is parsed from `Invovled_App_Name`; 4 entries with an empty app field
+are inferred from the instruction (EMPTY_INFER).
 
 Two complexity-matched comparison groups, each reported with a cn/en split:
-
   Group A (atomic / single-app):
-    VagueBench-L1 single-app  vs  AndroidArena, AndroidWorld, MVISU-Bench
+    VagueBench-exp single-app  vs  AndroidArena, AndroidWorld, MVISU-Bench
   Group B (compositional / multi-app):
-    VagueBench-L1 multi-app   vs  MobileWorld, AndroidDaily
-
-VagueBench-L1 is split by declared app count. The declared_app field uses mixed
-separators (、 , space, /, quotes, newlines); parse_apps() normalizes them, and
-"a/b" (alternative apps for one role) counts as one slot. Four entries have an
-empty declared_app and are inferred from the instruction (EMPTY_INFER).
+    VagueBench-exp multi-app   vs  MobileWorld, AndroidDaily
 
 Primary metric: tiktoken cl100k_base token count.
 
-Outputs:
-  - app_split_stats.csv          per-group, per-language token stats
-  - length_boxplot_appsplit.png  two-panel boxplot, cn / en separated
+Outputs (parallel to the n=50 artifacts; originals are NOT overwritten):
+  - app_split_stats_expanded.csv
+  - length_boxplot_appsplit_expanded.png
 
-Run:  python app-data/Dataset/vague-subset/vaguebench_app_split.py
+Run:  python app-data/Dataset/vague-subset/vaguebench_app_split_expanded.py
 """
 import json
 import re
@@ -33,14 +35,15 @@ matplotlib.rcParams['font.sans-serif'] = ['DejaVu Sans']
 matplotlib.rcParams['axes.unicode_minus'] = False
 
 ROOT = Path(__file__).resolve().parent
+EXPANDED = ROOT / '..' / '..' / 'Ins-bench' / 'Vague-ins-expanded.json'
 enc = tiktoken.get_encoding('cl100k_base')
 
-# entries whose declared_app is empty -> app count inferred from the instruction
+# Task_id -> inferred app count for the 4 entries with empty Invovled_App_Name
 EMPTY_INFER = {
-    13: 1,  # 查看红米手机的价格。                                  -> shopping (1)
-    33: 2,  # Check LA weather ... and inform Kai Chen.            -> weather + messaging (2)
-    34: 2,  # Look up info about Mobile-based Agent and make note. -> browser + notes (2)
-    38: 1,  # Choose a 5G phone under $200 and add it to my cart.  -> shopping (1)
+    11: 1,  # 查看红米手机的价格。                                  -> shopping (1)
+    29: 2,  # Check LA weather ... and inform Kai Chen.            -> weather + messaging (2)
+    30: 2,  # Look up info about Mobile-based Agent and make note. -> browser + notes (2)
+    33: 1,  # Choose a 5G phone under $200 and add it to my cart.  -> shopping (1)
 }
 
 CN, EN = '#d62728', '#1f77b4'
@@ -60,9 +63,8 @@ def parse_apps(s):
     return [p for p in parts if p]
 
 
-def app_count(entry):
-    n = len(parse_apps(entry['declared_app']))
-    return EMPTY_INFER.get(entry['source_id'], 0) if n == 0 else n
+def lang_of(s):
+    return 'cn' if re.search(r'[一-鿿]', s or '') else 'en'
 
 
 def tokens(text):
@@ -85,10 +87,18 @@ def describe(values):
                 min=min(vs), max=max(vs), p25=q(0.25), p75=q(0.75))
 
 
+_EXP = json.load(open(EXPANDED))
+
+
+def app_count(entry):
+    n = len(parse_apps(entry['Invovled_App_Name']))
+    return EMPTY_INFER.get(entry['Task_id'], 0) if n == 0 else n
+
+
 def vb_tokens(multi, lang=None):
-    vb = json.load(open(ROOT / 'vaguebench_L1.json'))
-    return [tokens(x['instruction']) for x in vb
-            if ((app_count(x) >= 2) == multi) and (lang is None or x.get('lang') == lang)]
+    return [tokens(x['Level1-INS']) for x in _EXP
+            if ((app_count(x) >= 2) == multi)
+            and (lang is None or lang_of(x['Level1-INS']) == lang)]
 
 
 def bench_tokens(fname, lang=None):
@@ -96,17 +106,16 @@ def bench_tokens(fname, lang=None):
     return [tokens(x['instruction']) for x in d if lang is None or x.get('lang') == lang]
 
 
-# (short label, all-token-list-fn) per group; languages resolved at plot time
 GROUP_A = [
-    ('VagueBench\nsingle', lambda lang: vb_tokens(False, lang)),
-    ('Android\nArena',     lambda lang: bench_tokens('androidarena_vague.json', lang)),
-    ('Android\nWorld',     lambda lang: bench_tokens('androidworld_vague.json', lang)),
-    ('MVISU',              lambda lang: bench_tokens('mvisu_vague.json', lang)),
+    ('VagueBench-exp\nsingle', lambda lang: vb_tokens(False, lang)),
+    ('Android\nArena',         lambda lang: bench_tokens('androidarena_vague.json', lang)),
+    ('Android\nWorld',         lambda lang: bench_tokens('androidworld_vague.json', lang)),
+    ('MVISU',                  lambda lang: bench_tokens('mvisu_vague.json', lang)),
 ]
 GROUP_B = [
-    ('VagueBench\nmulti',  lambda lang: vb_tokens(True, lang)),
-    ('Mobile\nWorld',      lambda lang: bench_tokens('mobileworld_vague.json', lang)),
-    ('Android\nDaily',     lambda lang: bench_tokens('androiddaily_vague.json', lang)),
+    ('VagueBench-exp\nmulti', lambda lang: vb_tokens(True, lang)),
+    ('Mobile\nWorld',         lambda lang: bench_tokens('mobileworld_vague.json', lang)),
+    ('Android\nDaily',        lambda lang: bench_tokens('androiddaily_vague.json', lang)),
 ]
 
 
@@ -141,16 +150,15 @@ def panel(ax, groups, title):
 
 
 def main():
-    # ---- stats table / CSV ----
     rows = []
     spec = [
-        ('A:atomic',  'VagueBench-L1 single', lambda l: vb_tokens(False, l)),
-        ('A:atomic',  'AndroidArena',         lambda l: bench_tokens('androidarena_vague.json', l)),
-        ('A:atomic',  'AndroidWorld',         lambda l: bench_tokens('androidworld_vague.json', l)),
-        ('A:atomic',  'MVISU-Bench',          lambda l: bench_tokens('mvisu_vague.json', l)),
-        ('B:composit','VagueBench-L1 multi',  lambda l: vb_tokens(True, l)),
-        ('B:composit','MobileWorld',          lambda l: bench_tokens('mobileworld_vague.json', l)),
-        ('B:composit','AndroidDaily',         lambda l: bench_tokens('androiddaily_vague.json', l)),
+        ('A:atomic',   'VagueBench-exp single', lambda l: vb_tokens(False, l)),
+        ('A:atomic',   'AndroidArena',          lambda l: bench_tokens('androidarena_vague.json', l)),
+        ('A:atomic',   'AndroidWorld',          lambda l: bench_tokens('androidworld_vague.json', l)),
+        ('A:atomic',   'MVISU-Bench',           lambda l: bench_tokens('mvisu_vague.json', l)),
+        ('B:composit', 'VagueBench-exp multi',  lambda l: vb_tokens(True, l)),
+        ('B:composit', 'MobileWorld',           lambda l: bench_tokens('mobileworld_vague.json', l)),
+        ('B:composit', 'AndroidDaily',          lambda l: bench_tokens('androiddaily_vague.json', l)),
     ]
     for group, name, fn in spec:
         for lang in ['all', 'cn', 'en']:
@@ -159,20 +167,20 @@ def main():
                 continue
             rows.append({'group': group, 'bench': name, 'lang': lang, **describe(vals)})
 
-    with open(ROOT / 'app_split_stats.csv', 'w', newline='') as f:
+    with open(ROOT / 'app_split_stats_expanded.csv', 'w', newline='') as f:
         w = csv.DictWriter(f, fieldnames=list(rows[0].keys()))
         w.writeheader()
         w.writerows(rows)
 
     hdr = (f"{'group':11s} {'bench':22s} {'lang':4s} {'n':>3} {'mean':>6} "
            f"{'med':>5} {'std':>5} {'min':>4} {'max':>4} {'p25':>5} {'p75':>5}")
-    print("tiktoken cl100k_base token count\n" + hdr + "\n" + "-" * len(hdr))
+    print("EXPANDED set (Level1-INS, n=103) — tiktoken cl100k_base token count")
+    print(hdr + "\n" + "-" * len(hdr))
     for r in rows:
         print(f"{r['group']:11s} {r['bench']:22s} {r['lang']:4s} {r['n']:>3} "
               f"{r['mean']:>6} {r['median']:>5} {r['std']:>5} {r['min']:>4} "
               f"{r['max']:>4} {r['p25']:>5} {r['p75']:>5}")
 
-    # ---- two-panel cn/en boxplot ----
     fig, (axA, axB) = plt.subplots(1, 2, figsize=(13, 5.5), sharey=True)
     panel(axA, GROUP_A, 'Group A: atomic / single-app')
     panel(axB, GROUP_B, 'Group B: compositional / multi-app')
@@ -180,14 +188,14 @@ def main():
     handles = [plt.Rectangle((0, 0), 1, 1, fc=CN, alpha=0.55),
                plt.Rectangle((0, 0), 1, 1, fc=EN, alpha=0.55)]
     axB.legend(handles, ['cn', 'en'], loc='upper right', fontsize=9)
-    fig.suptitle('L1 Vague Instruction Length: VagueBench-L1 vs other benchmarks (cn / en)',
+    fig.suptitle('L1 Vague Instruction Length: VagueBench (expanded, n=103) vs other benchmarks (cn / en)',
                  fontsize=12)
     plt.tight_layout(rect=[0, 0, 1, 0.96])
-    plt.savefig(ROOT / 'length_boxplot_appsplit.png', dpi=160)
+    plt.savefig(ROOT / 'length_boxplot_appsplit_expanded.png', dpi=160)
     plt.close()
 
     print('\nFiles written:')
-    for f in ['app_split_stats.csv', 'length_boxplot_appsplit.png']:
+    for f in ['app_split_stats_expanded.csv', 'length_boxplot_appsplit_expanded.png']:
         p = ROOT / f
         print(f'  {p}  ({p.stat().st_size} bytes)')
 

@@ -1,0 +1,341 @@
+[
+  {
+    "instruction": "Check the weather in London for the next three days and jot it down.",
+    "mapped_kb_apps": [
+      "天气",
+      "备忘录/笔记"
+    ],
+    "lang": "en",
+    "scenario": "生活",
+    "source": "Authored"
+  },
+  {
+    "instruction": "Will it rain in Tokyo this weekend?",
+    "mapped_kb_apps": [
+      "天气"
+    ],
+    "lang": "en",
+    "scenario": "生活",
+    "source": "Authored"
+  },
+  {
+    "instruction": "Find a good coffee shop near me and save its address.",
+    "mapped_kb_apps": [
+      "googleMap",
+      "备忘录/笔记"
+    ],
+    "lang": "en",
+    "scenario": "旅游出行",
+    "source": "Authored"
+  },
+  {
+    "instruction": "Navigate to the nearest gym.",
+    "mapped_kb_apps": [
+      "googleMap"
+    ],
+    "lang": "en",
+    "scenario": "旅游出行",
+    "source": "Authored"
+  },
+  {
+    "instruction": "Play a TED talk about productivity and share it on X.",
+    "mapped_kb_apps": [
+      "youtube",
+      "X"
+    ],
+    "lang": "en",
+    "scenario": "社交媒体",
+    "source": "Authored"
+  },
+  {
+    "instruction": "I want to watch something about deep learning.",
+    "mapped_kb_apps": [
+      "youtube"
+    ],
+    "lang": "en",
+    "scenario": "娱乐",
+    "source": "Authored"
+  },
+  {
+    "instruction": "Reply to my boss's latest email that I'll join the meeting.",
+    "mapped_kb_apps": [
+      "gmail"
+    ],
+    "lang": "en",
+    "scenario": "办公协助",
+    "source": "Authored"
+  },
+  {
+    "instruction": "Post a tweet about how nice the weather is today.",
+    "mapped_kb_apps": [
+      "X",
+      "天气"
+    ],
+    "lang": "en",
+    "scenario": "社交媒体",
+    "source": "Authored"
+  },
+  {
+    "instruction": "Comment on my friend Kai Chen's latest Facebook post.",
+    "mapped_kb_apps": [
+      "Facebook"
+    ],
+    "lang": "en",
+    "scenario": "社交媒体",
+    "source": "Authored"
+  },
+  {
+    "instruction": "Find a highly-rated wireless mouse and add it to my Amazon cart.",
+    "mapped_kb_apps": [
+      "Amazon"
+    ],
+    "lang": "en",
+    "scenario": "购物",
+    "source": "Authored"
+  },
+  {
+    "instruction": "Compare the price of AirPods Pro across shopping apps and add the cheapest to my cart.",
+    "mapped_kb_apps": [
+      "Amazon",
+      "Walmart",
+      "eBay"
+    ],
+    "lang": "en",
+    "scenario": "购物",
+    "source": "Authored"
+  },
+  {
+    "instruction": "Search for a vintage film camera on eBay and add it to my watchlist.",
+    "mapped_kb_apps": [
+      "eBay"
+    ],
+    "lang": "en",
+    "scenario": "购物",
+    "source": "Authored"
+  },
+  {
+    "instruction": "Add milk and eggs to my Walmart cart.",
+    "mapped_kb_apps": [
+      "Walmart"
+    ],
+    "lang": "en",
+    "scenario": "购物",
+    "source": "Authored"
+  },
+  {
+    "instruction": "Book a cheap hotel in Bangkok for next weekend.",
+    "mapped_kb_apps": [
+      "agoda"
+    ],
+    "lang": "en",
+    "scenario": "旅游出行",
+    "source": "Authored"
+  },
+  {
+    "instruction": "Find an off-season flight to Reykjavik.",
+    "mapped_kb_apps": [
+      "booking"
+    ],
+    "lang": "en",
+    "scenario": "旅游出行",
+    "source": "Authored"
+  },
+  {
+    "instruction": "Plan a one-day trip in New York and save the itinerary.",
+    "mapped_kb_apps": [
+      "tripadvisor",
+      "备忘录/笔记"
+    ],
+    "lang": "en",
+    "scenario": "旅游出行",
+    "source": "Authored"
+  },
+  {
+    "instruction": "Recommend a nice restaurant near Times Square.",
+    "mapped_kb_apps": [
+      "tripadvisor"
+    ],
+    "lang": "en",
+    "scenario": "旅游出行",
+    "source": "Authored"
+  },
+  {
+    "instruction": "Look up when the next SpaceX launch is.",
+    "mapped_kb_apps": [
+      "Chrome"
+    ],
+    "lang": "en",
+    "scenario": "信息搜索",
+    "source": "Authored"
+  },
+  {
+    "instruction": "Research the best noise-cancelling headphones online and add one to my Amazon cart.",
+    "mapped_kb_apps": [
+      "Chrome",
+      "Amazon"
+    ],
+    "lang": "en",
+    "scenario": "购物",
+    "source": "Authored"
+  },
+  {
+    "instruction": "Find skincare tips and follow a beauty blogger.",
+    "mapped_kb_apps": [
+      "rednote"
+    ],
+    "lang": "en",
+    "scenario": "社交媒体",
+    "source": "Authored"
+  },
+  {
+    "instruction": "Play a relaxing playlist and share my favorite song on X.",
+    "mapped_kb_apps": [
+      "网易云音乐",
+      "X"
+    ],
+    "lang": "en",
+    "scenario": "社交媒体",
+    "source": "Authored"
+  },
+  {
+    "instruction": "I want to listen to some chill music.",
+    "mapped_kb_apps": [
+      "网易云音乐"
+    ],
+    "lang": "en",
+    "scenario": "娱乐",
+    "source": "Authored"
+  },
+  {
+    "instruction": "帮我查一下今年考研的报名时间，记到备忘录里。",
+    "mapped_kb_apps": [
+      "夸克",
+      "备忘录/笔记"
+    ],
+    "lang": "cn",
+    "scenario": "信息搜索",
+    "source": "Authored"
+  },
+  {
+    "instruction": "看看最近有什么热映的电影，买两张这周末的票。",
+    "mapped_kb_apps": [
+      "猫眼"
+    ],
+    "lang": "cn",
+    "scenario": "娱乐",
+    "source": "Authored"
+  },
+  {
+    "instruction": "看看周杰伦最近有没有演唱会，有的话帮我预约。",
+    "mapped_kb_apps": [
+      "大麦"
+    ],
+    "lang": "cn",
+    "scenario": "娱乐",
+    "source": "Authored"
+  },
+  {
+    "instruction": "在B站找个Python入门教程看看。",
+    "mapped_kb_apps": [
+      "哔哩哔哩"
+    ],
+    "lang": "cn",
+    "scenario": "娱乐",
+    "source": "Authored"
+  },
+  {
+    "instruction": "在B站看看这款相机的评测，再去知乎看看大家的口碑。",
+    "mapped_kb_apps": [
+      "哔哩哔哩",
+      "知乎"
+    ],
+    "lang": "cn",
+    "scenario": "社交媒体",
+    "source": "Authored"
+  },
+  {
+    "instruction": "我想买双适合跑步的运动鞋。",
+    "mapped_kb_apps": [
+      "淘宝"
+    ],
+    "lang": "cn",
+    "scenario": "购物",
+    "source": "Authored"
+  },
+  {
+    "instruction": "帮我挑台性价比高的笔记本加入购物车，先去知乎看看推荐。",
+    "mapped_kb_apps": [
+      "知乎",
+      "京东"
+    ],
+    "lang": "cn",
+    "scenario": "购物",
+    "source": "Authored"
+  },
+  {
+    "instruction": "在拼多多上找点便宜的家居小物。",
+    "mapped_kb_apps": [
+      "拼多多"
+    ],
+    "lang": "cn",
+    "scenario": "购物",
+    "source": "Authored"
+  },
+  {
+    "instruction": "比一下这款扫地机器人在淘宝、京东、拼多多的价格，把最便宜的加入购物车。",
+    "mapped_kb_apps": [
+      "淘宝",
+      "京东",
+      "拼多多"
+    ],
+    "lang": "cn",
+    "scenario": "购物",
+    "source": "Authored"
+  },
+  {
+    "instruction": "在知乎上提个关于职业规划的问题。",
+    "mapped_kb_apps": [
+      "知乎"
+    ],
+    "lang": "cn",
+    "scenario": "社交媒体",
+    "source": "Authored"
+  },
+  {
+    "instruction": "帮我规划一下国庆去成都的行程，先看看机票。",
+    "mapped_kb_apps": [
+      "携程旅行"
+    ],
+    "lang": "cn",
+    "scenario": "旅游出行",
+    "source": "Authored"
+  },
+  {
+    "instruction": "在抖音上找个三亚的旅游攻略，然后用携程订酒店。",
+    "mapped_kb_apps": [
+      "抖音",
+      "携程旅行"
+    ],
+    "lang": "cn",
+    "scenario": "旅游出行",
+    "source": "Authored"
+  },
+  {
+    "instruction": "刷点搞笑视频放松一下。",
+    "mapped_kb_apps": [
+      "抖音"
+    ],
+    "lang": "cn",
+    "scenario": "娱乐",
+    "source": "Authored"
+  },
+  {
+    "instruction": "用夸克查一下最近的AI新闻。",
+    "mapped_kb_apps": [
+      "夸克"
+    ],
+    "lang": "cn",
+    "scenario": "信息搜索",
+    "source": "Authored"
+  }
+]

@@ -195,40 +195,43 @@ def run_one_level(
     mw_entries: list[dict],
     level: str,
 ) -> dict[str, float | None]:
-    """Patch goals → run `mw eval` → restore. Returns {class_name: score|None}."""
+    """Inject the level's instruction as the agent-facing goal (via the
+    MW_GOAL_OVERRIDE json that the patched mobile_world/core/runner.py reads),
+    run `mw eval`, collect scores. The task setup + is_successful checker in the
+    container are untouched, so only the agent's instruction varies by level."""
     level_key = LEVEL_TO_KEY[level]
-    patched: list[Path] = []
-    try:
-        for t in mw_entries:
-            tf = MW_TASK_DEFS / t["_mw_task_path"]
-            back_up(tf)
-            patch_goal(tf, t[level_key])
-            patched.append(tf)
-            if args.verbose:
-                print(f"  patched {t['_mw_task_class']:42s} -> {t[level_key][:60]!r}")
 
-        if args.dry_run:
-            print(f"[dry-run] level={level}: patched {len(patched)} task files; "
-                  f"would call mw eval next. Restoring.")
-            return {t["_mw_task_class"]: None for t in mw_entries}
+    # Build {task_class: level_instruction} — keyed by class name because
+    # mobile_world resolves the goal by task_name == class name.
+    override = {t["_mw_task_class"]: t[level_key] for t in mw_entries}
+    if args.verbose:
+        for cls, ins in override.items():
+            print(f"  {level} {cls:42s} -> {ins[:60]!r}")
 
-        log_root = Path(args.log_root)
-        log_root.mkdir(parents=True, exist_ok=True)
-        level_log = log_root / level
-        level_log.mkdir(parents=True, exist_ok=True)
+    log_root = Path(args.log_root)
+    level_log = log_root / level
+    ov_path = log_root / f"goal_override_{level}.json"
 
-        class_list = ",".join(t["_mw_task_class"] for t in mw_entries)
-        cmd = build_mw_eval_cmd(args, class_list, level_log)
-        print(f"\n========== Running {level} ({len(mw_entries)} tasks) ==========")
-        print(f"(cwd={args.mw_cwd})\n  " + " ".join(cmd))
-        rc = subprocess.call(cmd, cwd=args.mw_cwd)
-        if rc != 0:
-            print(f"⚠ mw eval exited with code {rc} for {level}; collecting whatever it managed to write.")
+    if args.dry_run:
+        print(f"[dry-run] level={level}: would inject {len(override)} goal overrides "
+              f"via MW_GOAL_OVERRIDE and call mw eval.")
+        return {t["_mw_task_class"]: None for t in mw_entries}
 
-        return collect_level_scores(log_root, level, [t["_mw_task_class"] for t in mw_entries])
-    finally:
-        n = restore_all(patched)
-        print(f"  restored {n}/{len(patched)} task files for {level}")
+    log_root.mkdir(parents=True, exist_ok=True)
+    level_log.mkdir(parents=True, exist_ok=True)
+    with ov_path.open("w", encoding="utf-8") as f:
+        json.dump(override, f, ensure_ascii=False, indent=2)
+
+    class_list = ",".join(t["_mw_task_class"] for t in mw_entries)
+    cmd = build_mw_eval_cmd(args, class_list, level_log)
+    env = dict(os.environ, MW_GOAL_OVERRIDE=str(ov_path))
+    print(f"\n========== Running {level} ({len(mw_entries)} tasks) ==========")
+    print(f"(cwd={args.mw_cwd})  MW_GOAL_OVERRIDE={ov_path}\n  " + " ".join(cmd))
+    rc = subprocess.call(cmd, cwd=args.mw_cwd, env=env)
+    if rc != 0:
+        print(f"⚠ mw eval exited with code {rc} for {level}; collecting whatever it managed to write.")
+
+    return collect_level_scores(log_root, level, [t["_mw_task_class"] for t in mw_entries])
 
 
 def build_mw_eval_cmd(args: argparse.Namespace, class_list: str, level_log: Path) -> list[str]:

@@ -1,0 +1,904 @@
+[
+  {
+    "Task_id": 56,
+    "Task Type": "出行交通",
+    "Invovled_App_Name": "携程旅行",
+    "Original-INS": "帮我在携程上订一张去我学校的火车票,学生票,下周走。",
+    "Level1-INS": "帮我在携程上订一张去我学校的火车票,学生票,下周走。",
+    "Level2-INS": "用携程订一张下周去我学校的火车票，选择学生票",
+    "Level3-INS": "打开携程app，点击火车票图标，进入查询页面，选择下周的车次，选择前往我学校的站点，点击预订按钮，选择学生票类型并完成支付",
+    "lang": "cn",
+    "_source": "AndroidDaily",
+    "_source_id": "31",
+    "_referenced_apps": [
+      "携程旅行"
+    ]
+  },
+  {
+    "Task_id": 57,
+    "Task Type": "出行交通",
+    "Invovled_App_Name": "携程旅行",
+    "Original-INS": "帮我看看从大恒科技大厦到机场的大巴票,买一张明天早上八点左右的。",
+    "Level1-INS": "帮我看看从大恒科技大厦到机场的大巴票,买一张明天早上八点左右的。",
+    "Level2-INS": "使用携程旅行查找从大恒科技大厦到机场的大巴票，购买一张明天早上八点左右的车票",
+    "Level3-INS": "打开携程旅行app，点击首页的酒店图标，进入搜索页面，点击搜索按钮，输入大恒科技大厦到机场的大巴票，选择合适的车次并购买明天早上八点左右的车票",
+    "lang": "cn",
+    "_source": "AndroidDaily",
+    "_source_id": "38",
+    "_referenced_apps": [
+      "携程旅行"
+    ]
+  },
+  {
+    "Task_id": 58,
+    "Task Type": "出行交通",
+    "Invovled_App_Name": "去哪儿旅行",
+    "Original-INS": "帮我用去哪儿网订一张最便宜的机票去青岛,下周任何一天走都行。",
+    "Level1-INS": "帮我用去哪儿网订一张最便宜的机票去青岛,下周任何一天走都行。",
+    "Level2-INS": "用去哪儿网查找下周最便宜的机票去青岛",
+    "Level3-INS": "打开去哪儿旅行app，点击页面顶部第二列蓝色框中的飞机图标进入机票预订页面，点击第一列左侧选择出发地，点击第一列右侧选择目的地，点击第二列选择下周任意一天作为出发日期，点击页面中间红色框中的'搜素'按钮，向下滑动查看更多航空公司，点击航空公司选项，点击红色框中的'订'按钮进行预订，点击橙色框中的'下一步'按钮，点击橙色框中的'去支付'按钮完成购票",
+    "lang": "cn",
+    "_source": "AndroidDaily",
+    "_source_id": "109",
+    "_referenced_apps": [
+      "去哪儿旅行"
+    ]
+  },
+  {
+    "Task_id": 59,
+    "Task Type": "出行交通",
+    "Invovled_App_Name": "去哪儿旅行",
+    "Original-INS": "看看去哪儿旅行上我上次收藏的那个南京的酒店还有没有房间,就订下下周的。",
+    "Level1-INS": "看看去哪儿旅行上我上次收藏的那个南京的酒店还有没有房间,就订下下周的。",
+    "Level2-INS": "在去哪儿旅行上查看我上次收藏的南京酒店是否还有下下周的房间，并预订。",
+    "Level3-INS": "打开去哪儿旅行app，点击首页顶部第一列橙色框中的'酒店'图标，点击左侧选择目的地，输入南京作为详细地址，点击第二列选择入住和退房日期为下下周，点击第三列选择房间和人数，点击页面中间红色框中的'开始搜索'按钮，向下滑动查看更多酒店，点击列表中我上次收藏的南京酒店，点击红色框中的'订'按钮预订，最后点击底部红色框中的'提交订单'按钮完成预订。",
+    "lang": "cn",
+    "_source": "AndroidDaily",
+    "_source_id": "124",
+    "_referenced_apps": [
+      "去哪儿旅行"
+    ]
+  },
+  {
+    "Task_id": 60,
+    "Task Type": "出行交通",
+    "Invovled_App_Name": "携程旅行",
+    "Original-INS": "帮我订个明晚的酒店,就在公司附近,要安静一点的。",
+    "Level1-INS": "帮我订个明晚的酒店,就在公司附近,要安静一点的。",
+    "Level2-INS": "用携程旅行搜索明晚公司附近的安静酒店并预订",
+    "Level3-INS": "打开携程旅行app，点击酒店图标，进入酒店搜索页面，输入公司附近的地点，选择明晚入住日期，筛选安静的酒店选项，点击预订按钮完成预订",
+    "lang": "cn",
+    "_source": "AndroidDaily",
+    "_source_id": "126",
+    "_referenced_apps": [
+      "携程旅行"
+    ]
+  },
+  {
+    "Task_id": 61,
+    "Task Type": "出行交通",
+    "Invovled_App_Name": "携程旅行",
+    "Original-INS": "在携程上查一下元旦去北京的机票,如果往返超过2000块钱就提醒我,没超过就直接找个时间合适的订了。",
+    "Level1-INS": "在携程上查一下元旦去北京的机票,如果往返超过2000块钱就提醒我,没超过就直接找个时间合适的订了。",
+    "Level2-INS": "在携程上查询元旦去北京的机票，如果往返价格超过2000元就提醒我，否则直接预订一张时间合适的机票。",
+    "Level3-INS": "打开携程旅行app，点击飞机图标进入机票页面，输入目的地为北京，点击搜索按钮，查看元旦期间的航班信息，如果往返总价格超过2000元，则点击提醒按钮；如果价格在2000元以内，选择一个时间合适的航班，点击预订按钮完成订票。",
+    "lang": "cn",
+    "_source": "AndroidDaily",
+    "_source_id": "151",
+    "_referenced_apps": [
+      "携程旅行"
+    ]
+  },
+  {
+    "Task_id": 62,
+    "Task Type": "出行交通",
+    "Invovled_App_Name": "微信、携程旅行",
+    "Original-INS": "在携程上订一张下周五去三亚的机票,订好后把航班信息通过微信发给我老婆。",
+    "Level1-INS": "在携程上订一张下周五去三亚的机票,订好后把航班信息通过微信发给我老婆。",
+    "Level2-INS": "在携程上预订下周五去三亚的机票，订好后通过微信将航班信息发送给老婆",
+    "Level3-INS": "打开携程旅行app，点击机票图标，输入目的地为三亚，点击搜索，选择航班信息，点击预订按钮完成订票。订票完成后，打开微信app，点击添加好友，搜索并选择老婆的微信账号，点击聊天窗口，发送航班信息并发送消息'航班信息已订好'。",
+    "lang": "cn",
+    "_source": "AndroidDaily",
+    "_source_id": "154",
+    "_referenced_apps": [
+      "携程旅行",
+      "微信"
+    ]
+  },
+  {
+    "Task_id": 63,
+    "Task Type": "社交通讯",
+    "Invovled_App_Name": "微信",
+    "Original-INS": "帮我回一下李总的消息",
+    "Level1-INS": "帮我回一下李总的消息",
+    "Level2-INS": "用微信回复李总的消息",
+    "Level3-INS": "打开微信app，点击右上角的放大镜按钮，输入李总的姓名并点击进入聊天页面，点击底部的输入框，输入回复消息，点击绿色发送按钮发送消息",
+    "lang": "cn",
+    "_source": "AndroidDaily",
+    "_source_id": "163",
+    "_referenced_apps": [
+      "微信"
+    ]
+  },
+  {
+    "Task_id": 64,
+    "Task Type": "出行交通",
+    "Invovled_App_Name": "携程旅行",
+    "Original-INS": "帮我规划一下去三亚的行程,先看看机票。",
+    "Level1-INS": "帮我规划一下去三亚的行程,先看看机票。",
+    "Level2-INS": "使用携程旅行规划去三亚的行程，并查看机票信息",
+    "Level3-INS": "打开携程旅行app，点击行程规划按钮，搜索三亚作为目的地，点击下一步，选择智能推荐的行程路线，点击保存并编辑行程。然后返回首页，点击机票选项，输入目的地海口，搜索航班信息，选择合适的航班并点击预订按钮完成机票预订",
+    "lang": "cn",
+    "_source": "AndroidDaily",
+    "_source_id": "165",
+    "_referenced_apps": [
+      "携程旅行"
+    ]
+  },
+  {
+    "Task_id": 65,
+    "Task Type": "本地服务",
+    "Invovled_App_Name": "美团",
+    "Original-INS": "打开美团酒店,看看我公司附近有啥特价酒店。",
+    "Level1-INS": "打开美团酒店,看看我公司附近有啥特价酒店。",
+    "Level2-INS": "用美团打开酒店预订功能，查看我公司附近的特价酒店信息。",
+    "Level3-INS": "打开美团app，点击酒店图标，选择目的地和入住时间确认酒店信息，点击'找酒店'按钮，浏览搜索结果并查看我公司附近的特价酒店详情。",
+    "lang": "cn",
+    "_source": "AndroidDaily",
+    "_source_id": "196",
+    "_referenced_apps": [
+      "美团"
+    ]
+  },
+  {
+    "Task_id": 66,
+    "Task Type": "本地服务",
+    "Invovled_App_Name": "大众点评",
+    "Original-INS": "帮我找个周末能带孩子去玩的地方。",
+    "Level1-INS": "帮我找个周末能带孩子去玩的地方。",
+    "Level2-INS": "使用大众点评搜索并推荐一个适合周末带孩子去玩的地方。",
+    "Level3-INS": "打开大众点评app，点击顶部的搜索框，输入'适合孩子玩的地方'，点击搜索框右侧的黑色'搜索'文字，然后点击顶部右角的地图图标，查看推荐地点并选择适合周末游玩的地点。",
+    "lang": "cn",
+    "_source": "AndroidDaily",
+    "_source_id": "202",
+    "_referenced_apps": [
+      "大众点评"
+    ]
+  },
+  {
+    "Task_id": 67,
+    "Task Type": "内容消费",
+    "Invovled_App_Name": "哔哩哔哩",
+    "Original-INS": "在B站罗翔最新视频的评论区里留个言。",
+    "Level1-INS": "在B站罗翔最新视频的评论区里留个言。",
+    "Level2-INS": "在B站罗翔最新视频的评论区里发表一条留言",
+    "Level3-INS": "打开哔哩哔哩app，点击顶部的搜索栏，输入搜索内容，点击搜索栏右侧的粉色搜索按钮，点击视频列表中的视频，点击视频左下角的评论按钮，点击底部输入框，输入留言内容，点击输入框右下角的粉色发布按钮",
+    "lang": "cn",
+    "_source": "AndroidDaily",
+    "_source_id": "206",
+    "_referenced_apps": [
+      "哔哩哔哩"
+    ]
+  },
+  {
+    "Task_id": 68,
+    "Task Type": "社交通讯",
+    "Invovled_App_Name": "小红书",
+    "Original-INS": "用小红书帮我发个帖子安利一下上海。",
+    "Level1-INS": "用小红书帮我发个帖子安利一下上海。",
+    "Level2-INS": "用小红书发布一个帖子，推荐上海的旅游景点和美食",
+    "Level3-INS": "打开小红书app，点击首页的搜索图标，输入关键词'上海旅游'，点击搜索按钮，浏览搜索结果，选择一个合适的笔记进行关注，然后点击首页的创作按钮，发布新的图文笔记，内容包括上海的景点和美食推荐，并添加相关标签后点击发布",
+    "lang": "cn",
+    "_source": "AndroidDaily",
+    "_source_id": "211",
+    "_referenced_apps": [
+      "小红书"
+    ]
+  },
+  {
+    "Task_id": 69,
+    "Task Type": "社交通讯",
+    "Invovled_App_Name": "天气、小红书",
+    "Original-INS": "帮我在小红书上发个帖子，吐槽一下最近的天气。",
+    "Level1-INS": "帮我在小红书上发个帖子，吐槽一下最近的天气。",
+    "Level2-INS": "用天气应用查看最近的天气情况，然后在小红书上发一个吐槽最近天气的帖子。",
+    "Level3-INS": "打开天气app，查看当前实时天气，然后打开小红书app，在首页顶部点击'城市'标签，选择'美食'筛选标签，再点击'热门打卡地'筛选标签，找到合适的地点后点击发布按钮，输入吐槽天气的内容并发布。",
+    "lang": "cn",
+    "_source": "AndroidDaily",
+    "_source_id": "213",
+    "_referenced_apps": [
+      "天气",
+      "小红书"
+    ]
+  },
+  {
+    "Task_id": 70,
+    "Task Type": "社交通讯",
+    "Invovled_App_Name": "抖音",
+    "Original-INS": "去抖音评论一下那个很火的视频。",
+    "Level1-INS": "去抖音评论一下那个很火的视频。",
+    "Level2-INS": "在抖音上找到那个很火的视频并进行评论",
+    "Level3-INS": "打开抖音app，向下滑动屏幕以刷新短视频列表，找到那个很火的视频，点击视频下方的评论图标，输入你的评论内容，然后点击发送按钮",
+    "lang": "cn",
+    "_source": "AndroidDaily",
+    "_source_id": "216",
+    "_referenced_apps": [
+      "抖音"
+    ]
+  },
+  {
+    "Task_id": 71,
+    "Task Type": "社交通讯",
+    "Invovled_App_Name": "微信",
+    "Original-INS": "给朋友的最新朋友圈写个有趣的评论。",
+    "Level1-INS": "给朋友的最新朋友圈写个有趣的评论。",
+    "Level2-INS": "在朋友的最新朋友圈中添加一条有趣的评论。",
+    "Level3-INS": "打开微信app，点击右下角的头像图标，点击'朋友圈'按钮，进入朋友圈页面后滑动上下查看更多动态，找到最新的朋友圈，点击右下角的'...'按钮，点击'评论'按钮，在输入框中输入有趣的评论内容，点击右上角的'发送'按钮。",
+    "lang": "cn",
+    "_source": "AndroidDaily",
+    "_source_id": "220",
+    "_referenced_apps": [
+      "微信"
+    ]
+  },
+  {
+    "Task_id": 72,
+    "Task Type": "内容消费",
+    "Invovled_App_Name": "抖音",
+    "Original-INS": "找点有意思的视频看看。",
+    "Level1-INS": "找点有意思的视频看看。",
+    "Level2-INS": "使用抖音浏览一些有趣的短视频内容",
+    "Level3-INS": "打开抖音app，向下滑动屏幕以刷新短视频流，然后向上滑动屏幕观看下一个视频，或向下滑动屏幕观看上一个视频，浏览一些有意思的视频内容",
+    "lang": "cn",
+    "_source": "AndroidDaily",
+    "_source_id": "193",
+    "_referenced_apps": [
+      "抖音"
+    ]
+  },
+  {
+    "Task_id": 73,
+    "Task Type": "内容消费",
+    "Invovled_App_Name": "爱奇艺",
+    "Original-INS": "在爱奇艺上找个下饭剧播放。",
+    "Level1-INS": "在爱奇艺上找个下饭剧播放。",
+    "Level2-INS": "在爱奇艺上查找并播放一部适合下饭的电视剧",
+    "Level3-INS": "打开爱奇艺app，点击底部导航栏的'我的'标签，查看观看历史记录，选择一部评分较高的电视剧，点击播放按钮开始观看",
+    "lang": "cn",
+    "_source": "AndroidDaily",
+    "_source_id": "192",
+    "_referenced_apps": [
+      "爱奇艺"
+    ]
+  },
+  {
+    "Task_id": 74,
+    "Task Type": "出行交通",
+    "Invovled_App_Name": "去哪儿旅行",
+    "Original-INS": "在去哪儿旅行上找个好点的民宿。",
+    "Level1-INS": "在去哪儿旅行上找个好点的民宿。",
+    "Level2-INS": "在去哪儿旅行上查找并选择一个评价较好的民宿",
+    "Level3-INS": "打开去哪儿旅行app，点击底部导航栏的'看世界'标签，浏览旅游攻略卡片，找到评价较好的民宿并进行预订",
+    "lang": "cn",
+    "_source": "AndroidDaily",
+    "_source_id": "197",
+    "_referenced_apps": [
+      "去哪儿旅行"
+    ]
+  },
+  {
+    "Task_id": 75,
+    "Task Type": "外卖平台",
+    "Invovled_App_Name": "美团",
+    "Original-INS": "在美团上搜索一家附近的火锅店。",
+    "Level1-INS": "在美团上搜索一家附近的火锅店。",
+    "Level2-INS": "在美团上搜索附近的一家火锅店并进入商家页面",
+    "Level3-INS": "打开美团app，点击搜索栏上方的搜索按钮，输入'火锅店'，点击搜索栏右侧的黄色按钮'搜索'，然后点击搜索结果中的第一家火锅店进入商家页面",
+    "lang": "cn",
+    "_source": "MVISU-Bench",
+    "_source_id": 66,
+    "_referenced_apps": [
+      "美团"
+    ]
+  },
+  {
+    "Task_id": 76,
+    "Task Type": "系统应用",
+    "Invovled_App_Name": "天气",
+    "Original-INS": "What's the weather like in Washington today.",
+    "Level1-INS": "What's the weather like in Washington today.",
+    "Level2-INS": "Check the current weather in Washington using the Weather app",
+    "Level3-INS": "Open the Weather app, navigate to the main screen, and view the current weather information for Washington",
+    "lang": "en",
+    "_source": "MVISU-Bench",
+    "_source_id": 41,
+    "_referenced_apps": [
+      "天气"
+    ]
+  },
+  {
+    "Task_id": 77,
+    "Task Type": "系统应用",
+    "Invovled_App_Name": "天气",
+    "Original-INS": "How's the weather in Berlin today?",
+    "Level1-INS": "How's the weather in Berlin today?",
+    "Level2-INS": "Check the current weather in Berlin using the Weather app",
+    "Level3-INS": "Open the Weather app, navigate to the main screen, and view the current weather information for Berlin",
+    "lang": "en",
+    "_source": "MVISU-Bench",
+    "_source_id": 60,
+    "_referenced_apps": [
+      "天气"
+    ]
+  },
+  {
+    "Task_id": 78,
+    "Task Type": "系统应用",
+    "Invovled_App_Name": "天气",
+    "Original-INS": "Tell me the current weather condition in my school.",
+    "Level1-INS": "Tell me the current weather condition in my school.",
+    "Level2-INS": "Check the current weather conditions at your school using the Weather app.",
+    "Level3-INS": "Open the Weather app, navigate to the main screen, and check the current weather information for your school location.",
+    "lang": "en",
+    "_source": "MVISU-Bench",
+    "_source_id": 61,
+    "_referenced_apps": [
+      "天气"
+    ]
+  },
+  {
+    "Task_id": 79,
+    "Task Type": "生活",
+    "Invovled_App_Name": "天气、备忘录/笔记",
+    "Original-INS": "Check the weather in London for the next three days and jot it down.",
+    "Level1-INS": "Check the weather in London for the next three days and jot it down.",
+    "Level2-INS": "Check the weather in London for the next three days and create a note with the information.",
+    "Level3-INS": "Open the Weather app and tap on the hourly forecast section to view the 24-hour forecast. Scroll through the forecast to check the weather for the next three days in London. Open the Notes app, tap the white plus sign in a yellow circle to create a new note, type the weather information, and tap the icon of the black correct symbol to complete the note.",
+    "lang": "en",
+    "_source": "Authored",
+    "_source_id": "",
+    "_referenced_apps": [
+      "天气",
+      "备忘录/笔记"
+    ]
+  },
+  {
+    "Task_id": 80,
+    "Task Type": "生活",
+    "Invovled_App_Name": "天气",
+    "Original-INS": "Will it rain in Tokyo this weekend?",
+    "Level1-INS": "Will it rain in Tokyo this weekend?",
+    "Level2-INS": "Check the weather in Tokyo for this weekend using the Weather app",
+    "Level3-INS": "Open the Weather app, navigate to the hourly forecast section, and check the weather conditions for Tokyo over the weekend",
+    "lang": "en",
+    "_source": "Authored",
+    "_source_id": "",
+    "_referenced_apps": [
+      "天气"
+    ]
+  },
+  {
+    "Task_id": 81,
+    "Task Type": "旅游出行",
+    "Invovled_App_Name": "googleMap、备忘录/笔记",
+    "Original-INS": "Find a good coffee shop near me and save its address.",
+    "Level1-INS": "Find a good coffee shop near me and save its address.",
+    "Level2-INS": "Find a good coffee shop near me using Google Maps and save its address in the Notes app",
+    "Level3-INS": "Open Google Maps app, tap the search box at the top, type the name of the area, tap the first search result in the list, tap the 'share' button in the light blue box at the bottom, swipe right to select a social software to tap, then open the Notes app, tap the white plus sign in a yellow circle, type the content of 'chuangjianbiji', and tap the icon of the black correct symbol representing completion",
+    "lang": "en",
+    "_source": "Authored",
+    "_source_id": "",
+    "_referenced_apps": [
+      "googleMap",
+      "备忘录/笔记"
+    ]
+  },
+  {
+    "Task_id": 82,
+    "Task Type": "旅游出行",
+    "Invovled_App_Name": "googleMap",
+    "Original-INS": "Navigate to the nearest gym.",
+    "Level1-INS": "Navigate to the nearest gym.",
+    "Level2-INS": "Use Google Maps to find the nearest gym and share your current location with it",
+    "Level3-INS": "Open Google Maps app, tap the search box at the top, type the name of the area, tap the first search result in the result list, tap the 'share' button in a light blue box at the bottom, swipe right to select a social software to tap",
+    "lang": "en",
+    "_source": "Authored",
+    "_source_id": "",
+    "_referenced_apps": [
+      "googleMap"
+    ]
+  },
+  {
+    "Task_id": 83,
+    "Task Type": "社交媒体",
+    "Invovled_App_Name": "youtube、X",
+    "Original-INS": "Play a TED talk about productivity and share it on X.",
+    "Level1-INS": "Play a TED talk about productivity and share it on X.",
+    "Level2-INS": "Use YouTube to play a TED talk about productivity, then share the video on X",
+    "Level3-INS": "Open the YouTube app, tap on a video thumbnail from the home feed or search results to play it, search for a TED talk about productivity, tap the play button to start the video, watch the full video, then open the X app, tap the post square to enter the post page, tap the share button, select the YouTube video, and post it on X",
+    "lang": "en",
+    "_source": "Authored",
+    "_source_id": "",
+    "_referenced_apps": [
+      "youtube",
+      "X"
+    ]
+  },
+  {
+    "Task_id": 84,
+    "Task Type": "娱乐",
+    "Invovled_App_Name": "youtube",
+    "Original-INS": "I want to watch something about deep learning.",
+    "Level1-INS": "I want to watch something about deep learning.",
+    "Level2-INS": "Use YouTube to watch a video about deep learning.",
+    "Level3-INS": "Open the YouTube app, search for 'deep learning' in the search bar, tap on a video thumbnail from the search results to play it.",
+    "lang": "en",
+    "_source": "Authored",
+    "_source_id": "",
+    "_referenced_apps": [
+      "youtube"
+    ]
+  },
+  {
+    "Task_id": 85,
+    "Task Type": "办公协助",
+    "Invovled_App_Name": "gmail",
+    "Original-INS": "Reply to my boss's latest email that I'll join the meeting.",
+    "Level1-INS": "Reply to my boss's latest email that I'll join the meeting.",
+    "Level2-INS": "Use Gmail to reply to the latest email from my boss confirming that I will join the meeting.",
+    "Level3-INS": "Open the Gmail app, tap on the latest email in the inbox to open it, tap the 'Reply' button at the bottom of the screen, type the message 'I will join the meeting' in the text field, and tap the send icon like a blue right-pointing triangle at the top right.",
+    "lang": "en",
+    "_source": "Authored",
+    "_source_id": "",
+    "_referenced_apps": [
+      "gmail"
+    ]
+  },
+  {
+    "Task_id": 86,
+    "Task Type": "社交媒体",
+    "Invovled_App_Name": "X、天气",
+    "Original-INS": "Post a tweet about how nice the weather is today.",
+    "Level1-INS": "Post a tweet about how nice the weather is today.",
+    "Level2-INS": "Use the Weather app to check the current weather, then post a tweet on X about how nice the weather is today.",
+    "Level3-INS": "Open the Weather app and view the current weather on the main screen. Then open the X app, tap the compose button, type a tweet about how nice the weather is today, and tap the send button to post it.",
+    "lang": "en",
+    "_source": "Authored",
+    "_source_id": "",
+    "_referenced_apps": [
+      "天气",
+      "X"
+    ]
+  },
+  {
+    "Task_id": 87,
+    "Task Type": "社交媒体",
+    "Invovled_App_Name": "Facebook",
+    "Original-INS": "Comment on my friend Kai Chen's latest Facebook post.",
+    "Level1-INS": "Comment on my friend Kai Chen's latest Facebook post.",
+    "Level2-INS": "Comment on Kai Chen's latest Facebook post",
+    "Level3-INS": "Open Facebook app, swipe down to view more posts, tap on the latest post by Kai Chen, then tap the comment button, type your comment, and tap send",
+    "lang": "en",
+    "_source": "Authored",
+    "_source_id": "",
+    "_referenced_apps": [
+      "Facebook"
+    ]
+  },
+  {
+    "Task_id": 88,
+    "Task Type": "购物",
+    "Invovled_App_Name": "Amazon",
+    "Original-INS": "Find a highly-rated wireless mouse and add it to my Amazon cart.",
+    "Level1-INS": "Find a highly-rated wireless mouse and add it to my Amazon cart.",
+    "Level2-INS": "Use Amazon to find a highly-rated wireless mouse and add it to the shopping cart",
+    "Level3-INS": "Open the Amazon app, tap the menu icon with three horizontal lines in the bottom navigation bar, tap 'Shop by Department', select the 'Computers & Accessories' category, browse through the products, find a wireless mouse with high ratings, tap the product to view details, and then tap 'Add to Cart' to add it to the shopping cart",
+    "lang": "en",
+    "_source": "Authored",
+    "_source_id": "",
+    "_referenced_apps": [
+      "Amazon"
+    ]
+  },
+  {
+    "Task_id": 89,
+    "Task Type": "购物",
+    "Invovled_App_Name": "Amazon、Walmart、eBay",
+    "Original-INS": "Compare the price of AirPods Pro across shopping apps and add the cheapest to my cart.",
+    "Level1-INS": "Compare the price of AirPods Pro across shopping apps and add the cheapest to my cart.",
+    "Level2-INS": "Compare the price of AirPods Pro across Amazon, Walmart, and eBay, then add the cheapest one to your cart.",
+    "Level3-INS": "Open Amazon app, tap the menu icon with three horizontal lines in the bottom navigation bar, tap 'Shop by Department', select 'Electronics', search for 'AirPods Pro', swipe down to view more products, note the price. Open Walmart app, tap the shopping cart icon at the right corner of the top, tap the 'Checkout all items' button in a blue box at the bottom to checkout the cart, search for 'AirPods Pro', swipe down to view more products, note the price. Open eBay app, tap the search box with magnifier icon at the top of home page, type 'AirPods Pro' in the search box, tap the first search result in the result list, swipe down to view more products, note the price. Compare the prices from all three apps, select the cheapest one, and add it to your cart.",
+    "lang": "en",
+    "_source": "Authored",
+    "_source_id": "",
+    "_referenced_apps": [
+      "Amazon",
+      "Walmart",
+      "eBay"
+    ]
+  },
+  {
+    "Task_id": 90,
+    "Task Type": "购物",
+    "Invovled_App_Name": "eBay",
+    "Original-INS": "Search for a vintage film camera on eBay and add it to my watchlist.",
+    "Level1-INS": "Search for a vintage film camera on eBay and add it to my watchlist.",
+    "Level2-INS": "Search for a vintage film camera on eBay and add it to my watchlist",
+    "Level3-INS": "Open eBay app, tap the search box with magnifier icon at the top of home page, type 'vintage film camera' in the search box, tap the first search result in the result list, swipe down to view more products, tap the heart icon to add the item to watchlist",
+    "lang": "en",
+    "_source": "Authored",
+    "_source_id": "",
+    "_referenced_apps": [
+      "eBay"
+    ]
+  },
+  {
+    "Task_id": 91,
+    "Task Type": "购物",
+    "Invovled_App_Name": "Walmart",
+    "Original-INS": "Add milk and eggs to my Walmart cart.",
+    "Level1-INS": "Add milk and eggs to my Walmart cart.",
+    "Level2-INS": "Add milk and eggs to the Walmart cart and checkout all items",
+    "Level3-INS": "Open the Walmart app, tap the shopping cart icon at the right corner of the top, select milk and eggs from the available items, add them to the cart, then tap the 'Checkout all items' button in a blue box at the bottom to checkout the cart",
+    "lang": "en",
+    "_source": "Authored",
+    "_source_id": "",
+    "_referenced_apps": [
+      "Walmart"
+    ]
+  },
+  {
+    "Task_id": 92,
+    "Task Type": "旅游出行",
+    "Invovled_App_Name": "agoda",
+    "Original-INS": "Book a cheap hotel in Bangkok for next weekend.",
+    "Level1-INS": "Book a cheap hotel in Bangkok for next weekend.",
+    "Level2-INS": "Use Agoda to book a cheap hotel in Bangkok for next weekend",
+    "Level3-INS": "Open Agoda app, tap the 'My Trips' button with suitcase icon in the bottom list, swipe down to view more trip records, tap a trip to enter the trip page to see the trip details, then tap the 'Book Now' button to search for hotels in Bangkok for next weekend, select a cheap hotel with good reviews, and complete the booking process",
+    "lang": "en",
+    "_source": "Authored",
+    "_source_id": "",
+    "_referenced_apps": [
+      "agoda"
+    ]
+  },
+  {
+    "Task_id": 93,
+    "Task Type": "旅游出行",
+    "Invovled_App_Name": "booking",
+    "Original-INS": "Find an off-season flight to Reykjavik.",
+    "Level1-INS": "Find an off-season flight to Reykjavik.",
+    "Level2-INS": "Use the booking app to find an off-season flight to Reykjavik.",
+    "Level3-INS": "Open the booking app, tap the Flights square at the top row first column, tap the first bar to search for the destination and type Reykjavik, tap the second bar to select the travel date, tap the search button in a blue box to scan the search result, swipe down to view more flights, tap a flight link to enter the flight detailed page, tap the 'Select' button in blue box to reserve the flight.",
+    "lang": "en",
+    "_source": "Authored",
+    "_source_id": "",
+    "_referenced_apps": [
+      "booking"
+    ]
+  },
+  {
+    "Task_id": 94,
+    "Task Type": "旅游出行",
+    "Invovled_App_Name": "tripadvisor、备忘录/笔记",
+    "Original-INS": "Plan a one-day trip in New York and save the itinerary.",
+    "Level1-INS": "Plan a one-day trip in New York and save the itinerary.",
+    "Level2-INS": "Plan a one-day trip in New York using Tripadvisor to find attractions and save the itinerary in the Notes app.",
+    "Level3-INS": "Open Tripadvisor app, tap the magnifier icon in the bottom list, type 'New York' in the search box, tap the first search result, swipe down to see more details, tap 'Read More' to read the location overview, tap the 'Map' button to view the location on the map, tap the heart icon to save the location, then tap the left-pointing arrow to share the location. Open the Notes app, tap the white plus sign in a yellow circle, type the itinerary details, and tap the black correct symbol to save the note.",
+    "lang": "en",
+    "_source": "Authored",
+    "_source_id": "",
+    "_referenced_apps": [
+      "tripadvisor",
+      "备忘录/笔记"
+    ]
+  },
+  {
+    "Task_id": 95,
+    "Task Type": "旅游出行",
+    "Invovled_App_Name": "tripadvisor",
+    "Original-INS": "Recommend a nice restaurant near Times Square.",
+    "Level1-INS": "Recommend a nice restaurant near Times Square.",
+    "Level2-INS": "Use TripAdvisor to recommend a highly-rated restaurant near Times Square",
+    "Level3-INS": "Open the TripAdvisor app, tap the magnifier icon in the bottom list to search, type 'Times Square' in the search box, tap the first search result, swipe down to see more details, tap the 'Read More' button to read the location overview, tap the 'Map' button to view the location on the map, tap the heart icon to save the location, and then tap the sharing icon to share the recommendation with friends",
+    "lang": "en",
+    "_source": "Authored",
+    "_source_id": "",
+    "_referenced_apps": [
+      "tripadvisor"
+    ]
+  },
+  {
+    "Task_id": 96,
+    "Task Type": "信息搜索",
+    "Invovled_App_Name": "Chrome",
+    "Original-INS": "Look up when the next SpaceX launch is.",
+    "Level1-INS": "Look up when the next SpaceX launch is.",
+    "Level2-INS": "Use Chrome to search for the next SpaceX launch date",
+    "Level3-INS": "Open Chrome app, tap the tab switcher icon at the top right to open a new tab, tap the plus icon at the top left to create a new tab, type 'next SpaceX launch' in the Omnibox search bar, press enter to search, and view the results to find the next launch date",
+    "lang": "en",
+    "_source": "Authored",
+    "_source_id": "",
+    "_referenced_apps": [
+      "Chrome"
+    ]
+  },
+  {
+    "Task_id": 97,
+    "Task Type": "购物",
+    "Invovled_App_Name": "Chrome、Amazon",
+    "Original-INS": "Research the best noise-cancelling headphones online and add one to my Amazon cart.",
+    "Level1-INS": "Research the best noise-cancelling headphones online and add one to my Amazon cart.",
+    "Level2-INS": "Use Chrome to search for the best noise-cancelling headphones online and add one to the Amazon cart.",
+    "Level3-INS": "Open Chrome app, tap the tab switcher icon at the top right to open a new tab, tap the plus icon at the top left to create a new tab, type 'best noise-cancelling headphones' in the Omnibox search bar, tap the search icon, scroll through the search results to find the best noise-cancelling headphones, tap the link to open the product page, tap the three-dot menu icon at the top right, tap the star icon to add the product page to bookmarks, open Amazon app, tap the menu icon with three horizontal lines in the bottom navigation bar, tap 'Shop by Department', select 'Electronics', scroll through the categories to find 'Headphones', tap the category, browse the products, select the best noise-cancelling headphones, tap the 'Add to Cart' button, tap the cart icon in the bottom navigation bar, and tap 'Checkout' to add the item to the cart.",
+    "lang": "en",
+    "_source": "Authored",
+    "_source_id": "",
+    "_referenced_apps": [
+      "Chrome",
+      "Amazon"
+    ]
+  },
+  {
+    "Task_id": 98,
+    "Task Type": "社交媒体",
+    "Invovled_App_Name": "rednote",
+    "Original-INS": "Find skincare tips and follow a beauty blogger.",
+    "Level1-INS": "Find skincare tips and follow a beauty blogger.",
+    "Level2-INS": "Use rednote to find skincare tips and follow a beauty blogger",
+    "Level3-INS": "Open rednote app, tap the search box above, type the search content 'skincare', tap the search result of 'skincare', tap the blog's box to enter, then tap the follow button on the blogger's profile",
+    "lang": "en",
+    "_source": "Authored",
+    "_source_id": "",
+    "_referenced_apps": [
+      "rednote"
+    ]
+  },
+  {
+    "Task_id": 99,
+    "Task Type": "社交媒体",
+    "Invovled_App_Name": "网易云音乐、X",
+    "Original-INS": "Play a relaxing playlist and share my favorite song on X.",
+    "Level1-INS": "Play a relaxing playlist and share my favorite song on X.",
+    "Level2-INS": "Play a relaxing playlist on NetEase Cloud Music and share my favorite song on X",
+    "Level3-INS": "Open NetEase Cloud Music app, tap 'manyou' with a radio icon, tap white border love heart to start a relaxing playlist. Once the playlist is playing, tap search box at the top, type the favorite song name, tap the search result to select it. Then open X app, tap the post square to enter the post page, tap the black border heart symbol at the bottom of the post to like it, and tap the black border bookmark symbol at the bottom of the post to save it.",
+    "lang": "en",
+    "_source": "Authored",
+    "_source_id": "",
+    "_referenced_apps": [
+      "网易云音乐",
+      "X"
+    ]
+  },
+  {
+    "Task_id": 100,
+    "Task Type": "娱乐",
+    "Invovled_App_Name": "网易云音乐",
+    "Original-INS": "I want to listen to some chill music.",
+    "Level1-INS": "I want to listen to some chill music.",
+    "Level2-INS": "Use NetEase Cloud Music to listen to some chill music.",
+    "Level3-INS": "Open NetEase Cloud Music app, tap the search box at the top, type 'chill music' and tap the search result to play the song.",
+    "lang": "en",
+    "_source": "Authored",
+    "_source_id": "",
+    "_referenced_apps": [
+      "网易云音乐"
+    ]
+  },
+  {
+    "Task_id": 101,
+    "Task Type": "信息搜索",
+    "Invovled_App_Name": "夸克、备忘录/笔记",
+    "Original-INS": "帮我查一下今年考研的报名时间，记到备忘录里。",
+    "Level1-INS": "帮我查一下今年考研的报名时间，记到备忘录里。",
+    "Level2-INS": "使用夸克搜索今年考研的报名时间，并将结果记录到备忘录中。",
+    "Level3-INS": "打开夸克app，点击中间的搜索框，输入'今年考研报名时间'，点击右侧蓝色框中的右箭头，向下滚动查看结果。找到报名时间后，点击右上角的分享按钮，选择'复制链接'。然后打开备忘录app，点击黄色圆圈中的白色加号，输入'今年考研报名时间'，粘贴复制的链接，点击完成图标保存笔记。",
+    "lang": "cn",
+    "_source": "Authored",
+    "_source_id": "",
+    "_referenced_apps": [
+      "夸克",
+      "备忘录/笔记"
+    ]
+  },
+  {
+    "Task_id": 102,
+    "Task Type": "娱乐",
+    "Invovled_App_Name": "猫眼",
+    "Original-INS": "看看最近有什么热映的电影，买两张这周末的票。",
+    "Level1-INS": "看看最近有什么热映的电影，买两张这周末的票。",
+    "Level2-INS": "使用猫眼查找最近热映的电影，购买两张这周末的电影票",
+    "Level3-INS": "打开猫眼app，点击顶部的搜索框，输入搜索关键词，点击右侧面红色的搜索按钮，向下滑动查看更多结果，点击第一个电影链接，点击下方浅白色框中的'想看'按钮，选择周末场次，点击选座并完成购票",
+    "lang": "cn",
+    "_source": "Authored",
+    "_source_id": "",
+    "_referenced_apps": [
+      "猫眼"
+    ]
+  },
+  {
+    "Task_id": 103,
+    "Task Type": "娱乐",
+    "Invovled_App_Name": "大麦",
+    "Original-INS": "看看周杰伦最近有没有演唱会，有的话帮我预约。",
+    "Level1-INS": "看看周杰伦最近有没有演唱会，有的话帮我预约。",
+    "Level2-INS": "使用大麦查找周杰伦最近的演唱会，并预约门票",
+    "Level3-INS": "打开大麦app，点击顶部的搜索框，输入'周杰伦'，点击右侧红色搜索按钮，选择搜索结果中的第一场演唱会，点击页面底部红色预约按钮进行预约",
+    "lang": "cn",
+    "_source": "Authored",
+    "_source_id": "",
+    "_referenced_apps": [
+      "大麦"
+    ]
+  },
+  {
+    "Task_id": 104,
+    "Task Type": "娱乐",
+    "Invovled_App_Name": "哔哩哔哩",
+    "Original-INS": "在B站找个Python入门教程看看。",
+    "Level1-INS": "在B站找个Python入门教程看看。",
+    "Level2-INS": "在哔哩哔哩上查找并观看一个Python入门教程视频",
+    "Level3-INS": "打开哔哩哔哩app，点击顶部的'追番'按钮，向下滑动查看更多动漫排行榜，点击排行榜右侧带有右箭头的'查更多'选项，进入视频列表后选择一个Python入门教程视频进行观看",
+    "lang": "cn",
+    "_source": "Authored",
+    "_source_id": "",
+    "_referenced_apps": [
+      "哔哩哔哩"
+    ]
+  },
+  {
+    "Task_id": 105,
+    "Task Type": "社交媒体",
+    "Invovled_App_Name": "哔哩哔哩、知乎",
+    "Original-INS": "在B站看看这款相机的评测，再去知乎看看大家的口碑。",
+    "Level1-INS": "在B站看看这款相机的评测，再去知乎看看大家的口碑。",
+    "Level2-INS": "在哔哩哔哩观看这款相机的评测视频，然后在知乎查看用户对这款相机的口碑评价。",
+    "Level3-INS": "打开哔哩哔哩app，点击顶部的'追番'按钮，向下滑动查看更多动漫排行榜，点击带有右箭头的'查看更多'进入视频播放页面。播放完视频后，打开知乎app，点击顶部的'热榜'文字按钮，向下滑动屏幕并点击一个关于这款相机的提问博客进入详情页。",
+    "lang": "cn",
+    "_source": "Authored",
+    "_source_id": "",
+    "_referenced_apps": [
+      "哔哩哔哩",
+      "知乎"
+    ]
+  },
+  {
+    "Task_id": 106,
+    "Task Type": "购物",
+    "Invovled_App_Name": "淘宝",
+    "Original-INS": "我想买双适合跑步的运动鞋。",
+    "Level1-INS": "我想买双适合跑步的运动鞋。",
+    "Level2-INS": "在淘宝上搜索适合跑步的运动鞋并购买",
+    "Level3-INS": "打开淘宝app，点击顶部的搜索栏，输入'适合跑步的运动鞋'，点击搜索栏右侧的红色搜索按钮，浏览搜索结果并选择合适的运动鞋进行购买",
+    "lang": "cn",
+    "_source": "Authored",
+    "_source_id": "",
+    "_referenced_apps": [
+      "淘宝"
+    ]
+  },
+  {
+    "Task_id": 107,
+    "Task Type": "购物",
+    "Invovled_App_Name": "知乎、京东",
+    "Original-INS": "帮我挑台性价比高的笔记本加入购物车，先去知乎看看推荐。",
+    "Level1-INS": "帮我挑台性价比高的笔记本加入购物车，先去知乎看看推荐。",
+    "Level2-INS": "在知乎上查找性价比高的笔记本推荐，然后将推荐的笔记本加入京东购物车",
+    "Level3-INS": "打开知乎app，点击顶部的'热榜'文字按钮，向下滑动屏幕并点击一个关于笔记本推荐的问题博客进入详情页面。在详情页面点击关注用户按钮。打开京东app，点击顶部的搜索框，输入'性价比高的笔记本'，点击红色的'搜索'文字按钮，向下滚动搜索列表，点击推荐的笔记本产品进入产品页面，点击底部棕色框中的'加入购物车'文字按钮，点击底部红色框中的'确定'按钮。",
+    "lang": "cn",
+    "_source": "Authored",
+    "_source_id": "",
+    "_referenced_apps": [
+      "知乎",
+      "京东"
+    ]
+  },
+  {
+    "Task_id": 108,
+    "Task Type": "购物",
+    "Invovled_App_Name": "拼多多",
+    "Original-INS": "在拼多多上找点便宜的家居小物。",
+    "Level1-INS": "在拼多多上找点便宜的家居小物。",
+    "Level2-INS": "在拼多多上查找并购买一些价格实惠的家居小物件",
+    "Level3-INS": "打开拼多多app，点击进入生活购物板块，浏览商品列表，选择一些价格实惠的家居小物，点击立即购买并完成支付",
+    "lang": "cn",
+    "_source": "Authored",
+    "_source_id": "",
+    "_referenced_apps": [
+      "拼多多"
+    ]
+  },
+  {
+    "Task_id": 109,
+    "Task Type": "购物",
+    "Invovled_App_Name": "淘宝、京东、拼多多",
+    "Original-INS": "比一下这款扫地机器人在淘宝、京东、拼多多的价格，把最便宜的加入购物车。",
+    "Level1-INS": "比一下这款扫地机器人在淘宝、京东、拼多多的价格，把最便宜的加入购物车。",
+    "Level2-INS": "在淘宝、京东、拼多多上分别查看这款扫地机器人的价格，将最便宜的价格对应的商品加入购物车。",
+    "Level3-INS": "打开淘宝app，点击顶部的搜索栏，输入扫地机器人，点击右侧的红色搜索按钮，滑动搜索结果列表，点击进入商品页面，点击底部黄色框中的'加入购物车'按钮。打开京东app，点击顶部的搜索框，输入扫地机器人，点击红色搜索按钮，下拉搜索列表，点击进入商品页面，点击底部棕色框中的'加入购物车'按钮，点击红色确认按钮。打开拼多多app，点击底部的开心脸图标进入个人中心，点击'我的订单'进入记录列表，点击'查看商品记录'，找到扫地机器人商品，点击'立即拼成'按钮。",
+    "lang": "cn",
+    "_source": "Authored",
+    "_source_id": "",
+    "_referenced_apps": [
+      "淘宝",
+      "京东",
+      "拼多多"
+    ]
+  },
+  {
+    "Task_id": 110,
+    "Task Type": "社交媒体",
+    "Invovled_App_Name": "知乎",
+    "Original-INS": "在知乎上提个关于职业规划的问题。",
+    "Level1-INS": "在知乎上提个关于职业规划的问题。",
+    "Level2-INS": "在知乎上提问关于职业规划的问题",
+    "Level3-INS": "打开知乎app，点击底部的加号按钮，点击'提个问题'文字按钮，输入关于职业规划的问题，点击蓝色框中的'发送'按钮",
+    "lang": "cn",
+    "_source": "Authored",
+    "_source_id": "",
+    "_referenced_apps": [
+      "知乎"
+    ]
+  },
+  {
+    "Task_id": 111,
+    "Task Type": "旅游出行",
+    "Invovled_App_Name": "携程旅行",
+    "Original-INS": "帮我规划一下国庆去成都的行程，先看看机票。",
+    "Level1-INS": "帮我规划一下国庆去成都的行程，先看看机票。",
+    "Level2-INS": "使用携程旅行规划国庆去成都的行程，并查看从海口出发的机票信息",
+    "Level3-INS": "打开携程旅行app，点击行程规划按钮，搜索目的地成都，点击下一步，选择智能推荐路线，选择一条地图线路，点击保存并编辑行程。然后返回首页，点击机票选项，输入目的地海口，搜索航班信息，选择合适的航班，点击预订按钮完成机票预订",
+    "lang": "cn",
+    "_source": "Authored",
+    "_source_id": "",
+    "_referenced_apps": [
+      "携程旅行"
+    ]
+  },
+  {
+    "Task_id": 112,
+    "Task Type": "旅游出行",
+    "Invovled_App_Name": "抖音、携程旅行",
+    "Original-INS": "在抖音上找个三亚的旅游攻略，然后用携程订酒店。",
+    "Level1-INS": "在抖音上找个三亚的旅游攻略，然后用携程订酒店。",
+    "Level2-INS": "在抖音上查找三亚的旅游攻略，然后用携程预订酒店",
+    "Level3-INS": "打开抖音app，点击顶部或底部导航栏的'商城'标签，使用搜索栏或浏览分类找到'三亚'相关内容，点击旅游攻略视频或图文，然后打开携程app，点击上方的'攻略/景点'图标，搜索'三亚'，点击搜索结果中的'三亚'，查看旅行博客信息。接着返回携程首页，点击上方的'酒店'图标，点击'查询'按钮，在列表中选择一家酒店进行预订。",
+    "lang": "cn",
+    "_source": "Authored",
+    "_source_id": "",
+    "_referenced_apps": [
+      "抖音",
+      "携程旅行"
+    ]
+  },
+  {
+    "Task_id": 113,
+    "Task Type": "娱乐",
+    "Invovled_App_Name": "抖音",
+    "Original-INS": "刷点搞笑视频放松一下。",
+    "Level1-INS": "刷点搞笑视频放松一下。",
+    "Level2-INS": "使用抖音刷新短视频流，观看一些搞笑内容来放松一下。",
+    "Level3-INS": "打开抖音app，向下滑动以刷新视频流，浏览视频时寻找搞笑内容，观看后向右滑动继续看下一个视频，或向左滑动返回上一个视频。",
+    "lang": "cn",
+    "_source": "Authored",
+    "_source_id": "",
+    "_referenced_apps": [
+      "抖音"
+    ]
+  },
+  {
+    "Task_id": 114,
+    "Task Type": "信息搜索",
+    "Invovled_App_Name": "夸克",
+    "Original-INS": "用夸克查一下最近的AI新闻。",
+    "Level1-INS": "用夸克查一下最近的AI新闻。",
+    "Level2-INS": "用夸克查找最近的AI新闻",
+    "Level3-INS": "打开夸克app，点击页面中间的搜索框，输入'最近的AI新闻'，点击搜索框右侧蓝色框中的右箭头，向下滑动查看更多结果",
+    "lang": "cn",
+    "_source": "Authored",
+    "_source_id": "",
+    "_referenced_apps": [
+      "夸克"
+    ]
+  }
+]

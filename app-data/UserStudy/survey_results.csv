@@ -1,0 +1,28 @@
+question,qtype,option,option_en,count,pct
+Q1,single,A,Multiple times a day,6,21.43
+Q1,single,B,1-2 times a day,2,7.14
+Q1,single,C,Several times a week,13,46.43
+Q1,single,D,Almost never,7,25.00
+Q2,single,A,Yes - follow or have tried such cutting-edge features,5,17.86
+Q2,single,B,Heard of it but never used it in depth,18,64.29
+Q2,single,C,Completely unaware,5,17.86
+Q3,multi,A,Slow execution / sluggish response,8,28.57
+Q3,multi,B,Cannot understand abstract ideas; must spell out every rigid step,18,64.29
+Q3,multi,C,Cannot complete complex cross-app tasks,20,71.43
+Q3,multi,D,Drains battery / heavy system-resource use,9,32.14
+Q3,multi,E,Privacy & account-credential security not guaranteed,12,42.86
+Q3,multi,F,Overall satisfied / no obvious inconvenience,4,14.29
+Q4,multi,A,Strong abstract-intent understanding (state a vague goal),18,64.29
+Q4,multi,B,Smooth cross-app coordination,23,82.14
+Q4,multi,C,Strict privacy & credential security,18,64.29
+Q4,multi,D,Fast response & low resource consumption,12,42.86
+Q4,multi,E,Other,3,10.71
+Q5,single,A,"User-friendly: state the goal only - get me a good-value, most-affordable controller (agent picks apps and compares)",9,32.14
+Q5,single,B,"Benchmark-style: check prices on Taobao and JD and pick a relatively cheap one (apps named, search/filter/checkout left to the agent)",14,50.00
+Q5,single,C,"Agent-friendly: open Taobao, tap search, type controller, sort price low-to-high, pick first; repeat on JD and stop on the cheaper payment page (every app and tap)",5,17.86
+Q6,single,A,Does not match: too tedious; I'd rather tap it myself,14,50.00
+Q6,single,B,Partially: only for very complex or error-prone tasks,11,39.29
+Q6,single,C,Matches: I should give all rigorous operation details,3,10.71
+Q7,single,A,Not smart enough; the semantic gap betrays 'intelligence',14,50.00
+Q7,single,B,Acceptable; current tech may only reach this level,11,39.29
+Q7,single,C,Good; I like fully controlling its execution path,3,10.71

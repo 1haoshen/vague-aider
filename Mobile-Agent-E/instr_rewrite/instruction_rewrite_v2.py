@@ -53,7 +53,7 @@ DEFAULT_OUT = os.path.join(REPO_ROOT, "app-data", "Ins-bench", "Vague-ins-rewrit
 
 MODEL = "qwen/qwen3-8b"
 API_ENDPOINT = "https://openrouter.ai/api/v1/chat/completions"
-FALLBACK_API_KEY = " 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"
+FALLBACK_API_KEY = "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"
 
 
 # ---------------------------------------------------------------------------
@@ -308,13 +308,25 @@ SYS_PROMPT = (
 )
 
 
-def build_prompt(instruction: str, kb_slice: str) -> str:
+def build_prompt(instruction: str, kb_slice: str, lang: str | None = None) -> str:
+    # The KB slice is Chinese, so the model tends to answer in Chinese even for
+    # English tasks. When lang is given, force the output language explicitly.
+    lang_line = ""
+    if lang == "en":
+        lang_line = ("\nIMPORTANT: write level2_instruction and level3_instruction FULLY in "
+                     "ENGLISH. The KB slice is in Chinese, but the user task is English. "
+                     "Translate any Chinese app names to their common English names "
+                     "(e.g. 天气->Weather, 备忘录/笔记->Notes, 网易云音乐->NetEase Music). "
+                     "Do NOT output any Chinese characters.")
+    elif lang == "cn":
+        lang_line = "\nIMPORTANT: write level2_instruction and level3_instruction in Chinese."
     return (
         FEW_SHOT
         + "\nNow rewrite this task.\nL1: "
         + instruction.strip()
         + "\nKB slice:\n"
         + kb_slice
+        + lang_line
         + "\n\nOutput JSON with keys: level2_instruction, level3_instruction, "
         "referenced_apps (list of app names from the KB slice), reason (one short sentence)."
     )
@@ -375,13 +387,14 @@ def rewrite_one(
     kb: dict[str, dict],
     api_key: str,
     max_retries: int = 2,
+    lang: str | None = None,
 ) -> dict[str, Any]:
     start = time.time()
     kb_slice, resolved = build_kb_slice(instruction, app_hint, kb)
     if not kb_slice:
         kb_slice = "(no matching apps; use general mobile UI logic)"
 
-    prompt = build_prompt(instruction, kb_slice)
+    prompt = build_prompt(instruction, kb_slice, lang=lang)
     total_usage = {"prompt_tokens": 0, "completion_tokens": 0, "total_tokens": 0}
     last_raw = ""
     for attempt in range(max_retries + 1):
