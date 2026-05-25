@@ -1,0 +1,225 @@
+{
+  "overall": {
+    "source_file": "app-data/Ins-bench/Vague-ins-expanded-rewritten-fresh.json",
+    "model": [
+      "qwen/qwen3-8b"
+    ],
+    "n_tasks": 103,
+    "n_ok": 103,
+    "n_failed": 0,
+    "input_tokens": {
+      "n": 103,
+      "total": 74224.0,
+      "mean": 720.62,
+      "median": 707.0,
+      "std": 208.28,
+      "min": 453.0,
+      "max": 2262.0
+    },
+    "output_tokens": {
+      "n": 103,
+      "total": 14544.0,
+      "mean": 141.2,
+      "median": 137.0,
+      "std": 38.69,
+      "min": 71.0,
+      "max": 281.0
+    },
+    "total_tokens": {
+      "n": 103,
+      "total": 88768.0,
+      "mean": 861.83,
+      "median": 847.0,
+      "std": 232.29,
+      "min": 562.0,
+      "max": 2464.0
+    },
+    "duration_s": {
+      "n": 103,
+      "total": 420.33,
+      "mean": 4.08,
+      "median": 3.64,
+      "std": 1.72,
+      "min": 2.47,
+      "max": 16.49
+    },
+    "kb_slice_chars": {
+      "n": 103,
+      "total": 91539.0,
+      "mean": 888.73,
+      "median": 784.0,
+      "std": 789.13,
+      "min": 47.0,
+      "max": 6973.0
+    },
+    "apps_per_task": {
+      "n": 103,
+      "total": 161.0,
+      "mean": 1.56,
+      "median": 1.0,
+      "std": 0.66,
+      "min": 0.0,
+      "max": 4.0
+    },
+    "distinct_apps": 43,
+    "output_input_ratio": 0.1959
+  },
+  "by_type": [
+    {
+      "task_type": "(unlabelled)",
+      "n": 32,
+      "in_total": 24514,
+      "in_mean": 766.1,
+      "out_total": 4634,
+      "out_mean": 144.8,
+      "tot_total": 29148,
+      "tot_mean": 910.9,
+      "dur_total": 137.4,
+      "dur_mean": 4.29,
+      "apps_mean": 1.69
+    },
+    {
+      "task_type": "办公协助",
+      "n": 18,
+      "in_total": 12769,
+      "in_mean": 709.4,
+      "out_total": 2454,
+      "out_mean": 136.3,
+      "tot_total": 15223,
+      "tot_mean": 845.7,
+      "dur_total": 70.7,
+      "dur_mean": 3.93,
+      "apps_mean": 1.67
+    },
+    {
+      "task_type": "生活",
+      "n": 17,
+      "in_total": 11891,
+      "in_mean": 699.5,
+      "out_total": 2355,
+      "out_mean": 138.5,
+      "tot_total": 14246,
+      "tot_mean": 838,
+      "dur_total": 71.0,
+      "dur_mean": 4.17,
+      "apps_mean": 1.35
+    },
+    {
+      "task_type": "社交媒体",
+      "n": 11,
+      "in_total": 7597,
+      "in_mean": 690.6,
+      "out_total": 1408,
+      "out_mean": 128,
+      "tot_total": 9005,
+      "tot_mean": 818.6,
+      "dur_total": 43.3,
+      "dur_mean": 3.93,
+      "apps_mean": 1.55
+    },
+    {
+      "task_type": "出行",
+      "n": 7,
+      "in_total": 5660,
+      "in_mean": 808.6,
+      "out_total": 1242,
+      "out_mean": 177.4,
+      "tot_total": 6902,
+      "tot_mean": 986,
+      "dur_total": 31.6,
+      "dur_mean": 4.52,
+      "apps_mean": 1.86
+    },
+    {
+      "task_type": "系统软件",
+      "n": 5,
+      "in_total": 2903,
+      "in_mean": 580.6,
+      "out_total": 517,
+      "out_mean": 103.4,
+      "tot_total": 3420,
+      "tot_mean": 684,
+      "dur_total": 16.6,
+      "dur_mean": 3.31,
+      "apps_mean": 1
+    },
+    {
+      "task_type": "旅游",
+      "n": 4,
+      "in_total": 2953,
+      "in_mean": 738.2,
+      "out_total": 595,
+      "out_mean": 148.8,
+      "tot_total": 3548,
+      "tot_mean": 887,
+      "dur_total": 18.2,
+      "dur_mean": 4.54,
+      "apps_mean": 1
+    },
+    {
+      "task_type": "购物",
+      "n": 3,
+      "in_total": 2179,
+      "in_mean": 726.3,
+      "out_total": 508,
+      "out_mean": 169.3,
+      "tot_total": 2687,
+      "tot_mean": 895.7,
+      "dur_total": 10.8,
+      "dur_mean": 3.59,
+      "apps_mean": 2
+    },
+    {
+      "task_type": "娱乐",
+      "n": 2,
+      "in_total": 1371,
+      "in_mean": 685.5,
+      "out_total": 266,
+      "out_mean": 133,
+      "tot_total": 1637,
+      "tot_mean": 818.5,
+      "dur_total": 6.8,
+      "dur_mean": 3.38,
+      "apps_mean": 1.5
+    },
+    {
+      "task_type": "信息搜索",
+      "n": 2,
+      "in_total": 1009,
+      "in_mean": 504.5,
+      "out_total": 210,
+      "out_mean": 105,
+      "tot_total": 1219,
+      "tot_mean": 609.5,
+      "dur_total": 5.7,
+      "dur_mean": 2.83,
+      "apps_mean": 1
+    },
+    {
+      "task_type": "学术搜索",
+      "n": 1,
+      "in_total": 589,
+      "in_mean": 589,
+      "out_total": 128,
+      "out_mean": 128,
+      "tot_total": 717,
+      "tot_mean": 717,
+      "dur_total": 2.8,
+      "dur_mean": 2.75,
+      "apps_mean": 1
+    },
+    {
+      "task_type": "比价",
+      "n": 1,
+      "in_total": 789,
+      "in_mean": 789,
+      "out_total": 227,
+      "out_mean": 227,
+      "tot_total": 1016,
+      "tot_mean": 1016,
+      "dur_total": 5.8,
+      "dur_mean": 5.77,
+      "apps_mean": 3
+    }
+  ]
+}

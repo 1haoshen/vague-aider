@@ -87,7 +87,7 @@
     "_rw_duration_s": 5.27
   },
   {
-    "Task_id": 6,
+    "Task_id": 5,
     "Task Type": "系统软件",
     "Invovled_App_Name": "应用商店",
     "Original-INS": "下载游戏水果忍者。",
@@ -108,7 +108,7 @@
     "_rw_duration_s": 2.63
   },
   {
-    "Task_id": 7,
+    "Task_id": 6,
     "Task Type": "",
     "Invovled_App_Name": "京东 知乎",
     "Original-INS": "找到一本值得阅读的悬疑小说，并添加到我的购物车",
@@ -130,7 +130,7 @@
     "_rw_duration_s": 3.37
   },
   {
-    "Task_id": 8,
+    "Task_id": 7,
     "Task Type": "生活",
     "Invovled_App_Name": "闹钟",
     "Original-INS": "定一个今天晚上8点的闹钟，我要看球赛。",
@@ -151,7 +151,7 @@
     "_rw_duration_s": 3.11
   },
   {
-    "Task_id": 9,
+    "Task_id": 8,
     "Task Type": "",
     "Invovled_App_Name": "bilibili 微信",
     "Original-INS": "查看阅兵的视频并发到朋友圈",
@@ -173,7 +173,7 @@
     "_rw_duration_s": 4.86
   },
   {
-    "Task_id": 11,
+    "Task_id": 9,
     "Task Type": "",
     "Invovled_App_Name": "小红书 京东 淘宝 拼多多",
     "Original-INS": "给我推荐一个性价比高的香水，并添加到我的购物车",
@@ -197,7 +197,7 @@
     "_rw_duration_s": 3.76
   },
   {
-    "Task_id": 12,
+    "Task_id": 10,
     "Task Type": "",
     "Invovled_App_Name": "哔哩哔哩 微信",
     "Original-INS": "播放凡人修仙传并分享给rui",
@@ -219,7 +219,7 @@
     "_rw_duration_s": 3.78
   },
   {
-    "Task_id": 13,
+    "Task_id": 11,
     "Task Type": "",
     "Invovled_App_Name": "",
     "Original-INS": "查看红米手机的价格。",
@@ -240,7 +240,7 @@
     "_rw_duration_s": 4.62
   },
   {
-    "Task_id": 14,
+    "Task_id": 12,
     "Task Type": "",
     "Invovled_App_Name": "大宗点评",
     "Original-INS": "推荐一个广州天河区的餐厅",
@@ -261,7 +261,7 @@
     "_rw_duration_s": 2.51
   },
   {
-    "Task_id": 15,
+    "Task_id": 13,
     "Task Type": "",
     "Invovled_App_Name": "大众点评 高德",
     "Original-INS": "查看生活服务平台，推荐一个广州天河区的餐厅，并导航到该餐厅",
@@ -283,7 +283,7 @@
     "_rw_duration_s": 4.89
   },
   {
-    "Task_id": 16,
+    "Task_id": 14,
     "Task Type": "",
     "Invovled_App_Name": "美团",
     "Original-INS": "我想喝奶茶",
@@ -304,7 +304,7 @@
     "_rw_duration_s": 3.19
   },
   {
-    "Task_id": 17,
+    "Task_id": 15,
     "Task Type": "生活",
     "Invovled_App_Name": "网易云、备忘录",
     "Original-INS": "帮我找推荐的健身歌单，把歌曲整理，并收集相关的乐评文章保存起来。",
@@ -326,7 +326,7 @@
     "_rw_duration_s": 4.99
   },
   {
-    "Task_id": 18,
+    "Task_id": 16,
     "Task Type": "社交媒体",
     "Invovled_App_Name": "哔哩哔哩、知乎、备忘录",
     "Original-INS": "帮我找深圳科技展的介绍视频，筛选出点赞数最高的前三个评论，接着帮我在其他平台找用户体验，最终信息记录到手机上。",
@@ -349,7 +349,7 @@
     "_rw_duration_s": 5.58
   },
   {
-    "Task_id": 19,
+    "Task_id": 17,
     "Task Type": "购物",
     "Invovled_App_Name": "小红书、淘宝",
     "Original-INS": "找推荐度高且价格低的法国粉底液，然后把最便宜的那个加入购物车。",
@@ -371,7 +371,7 @@
     "_rw_duration_s": 3.7
   },
   {
-    "Task_id": 20,
+    "Task_id": 18,
     "Task Type": "出行",
     "Invovled_App_Name": "小红书、携程",
     "Original-INS": "帮我查找飞韩国的机票什么航空公司好，总结出体验感前二好的航空公司，记录下来，然后帮我查询11月1日北京-首尔这两个航空公司的机票情况并添加到收藏夹。",
@@ -393,7 +393,7 @@
     "_rw_duration_s": 3.85
   },
   {
-    "Task_id": 21,
+    "Task_id": 19,
     "Task Type": "生活",
     "Invovled_App_Name": "网易云、微信",
     "Original-INS": "分享歌曲蝴蝶给zyy",
@@ -415,7 +415,7 @@
     "_rw_duration_s": 3.38
   },
   {
-    "Task_id": 22,
+    "Task_id": 20,
     "Task Type": "",
     "Invovled_App_Name": "猫眼 微信",
     "Original-INS": "查看最近热映的电影并询问zyy的意见.",
@@ -437,7 +437,7 @@
     "_rw_duration_s": 4.06
   },
   {
-    "Task_id": 23,
+    "Task_id": 21,
     "Task Type": "",
     "Invovled_App_Name": "天气 笔记",
     "Original-INS": "查看广州最近的天气并记录",
@@ -459,7 +459,7 @@
     "_rw_duration_s": 2.82
   },
   {
-    "Task_id": 24,
+    "Task_id": 22,
     "Task Type": "",
     "Invovled_App_Name": "夸克",
     "Original-INS": "告诉我agent方向最新的论文",
@@ -480,7 +480,7 @@
     "_rw_duration_s": 2.69
   },
   {
-    "Task_id": 25,
+    "Task_id": 23,
     "Task Type": "",
     "Invovled_App_Name": "夸克 备忘录",
     "Original-INS": "查看最近F1赛事并记录赛程结果",
@@ -502,7 +502,7 @@
     "_rw_duration_s": 3.21
   },
   {
-    "Task_id": 26,
+    "Task_id": 24,
     "Task Type": "旅游",
     "Invovled_App_Name": "携程",
     "Original-INS": "帮我制定一份新加坡的旅游规划",
@@ -523,7 +523,7 @@
     "_rw_duration_s": 3.41
   },
   {
-    "Task_id": 29,
+    "Task_id": 25,
     "Task Type": "社交媒体",
     "Invovled_App_Name": "tiktok",
     "Original-INS": "Help me follow rickandmorty’s official account and send a message saying the anime is great.",
@@ -544,7 +544,7 @@
     "_rw_duration_s": 3.32
   },
   {
-    "Task_id": 30,
+    "Task_id": 26,
     "Task Type": "信息搜索",
     "Invovled_App_Name": "edge",
     "Original-INS": "Tell me LeBron James' birth date and stop at the answer screen.",
@@ -565,7 +565,7 @@
     "_rw_duration_s": 3.18
   },
   {
-    "Task_id": 31,
+    "Task_id": 27,
     "Task Type": "旅游",
     "Invovled_App_Name": "tripadvisor  notes",
     "Original-INS": "Please help me generate a one-day itinerary for New York City and save it.",
@@ -586,7 +586,7 @@
     "_rw_duration_s": 4.42
   },
   {
-    "Task_id": 32,
+    "Task_id": 28,
     "Task Type": "生活",
     "Invovled_App_Name": "weather、notepad",
     "Original-INS": "Check Vancouver’s weather today and make a note of the climate. ",
@@ -608,7 +608,7 @@
     "_rw_duration_s": 3.08
   },
   {
-    "Task_id": 33,
+    "Task_id": 29,
     "Task Type": "",
     "Invovled_App_Name": "",
     "Original-INS": "Check the Los Angeles weather forecast for the day after tomorrow and inform Kai Chen.",
@@ -630,7 +630,7 @@
     "_rw_duration_s": 3.77
   },
   {
-    "Task_id": 34,
+    "Task_id": 30,
     "Task Type": "学术搜索",
     "Invovled_App_Name": "",
     "Original-INS": "Look up information about Mobile-based Agent and make a summary note.",
@@ -651,7 +651,7 @@
     "_rw_duration_s": 3.66
   },
   {
-    "Task_id": 35,
+    "Task_id": 31,
     "Task Type": "",
     "Invovled_App_Name": "googlemaps   wechat",
     "Original-INS": "Tell me the exact location of CMU and share it with wechat xxoo.",
@@ -673,7 +673,7 @@
     "_rw_duration_s": 3.09
   },
   {
-    "Task_id": 37,
+    "Task_id": 32,
     "Task Type": "比价",
     "Invovled_App_Name": "walmart、ebay、amazon",
     "Original-INS": "Choose the unlocked 5G smartphone with the best price-performance ratio from multiple platforms and add it to your shopping cart.",
@@ -696,7 +696,7 @@
     "_rw_duration_s": 5.08
   },
   {
-    "Task_id": 38,
+    "Task_id": 33,
     "Task Type": "",
     "Invovled_App_Name": "",
     "Original-INS": "Choose a cost-effective 5G phone under $200 and add it to my cart.",
@@ -715,13 +715,13 @@
     "_rw_duration_s": 4.74
   },
   {
-    "Task_id": 39,
+    "Task_id": 34,
     "Task Type": "旅游",
     "Invovled_App_Name": "booking",
     "Original-INS": "Book an off-season flight to Reykjavik, Iceland.",
     "Level1-INS": "Book an off-season flight to Reykjavik, Iceland.",
     "Level2-INS": "Use the booking app to book a flight to Reykjavik, Iceland during the off-season.",
-    "Level3-INS": "Open the booking app, tap the Flights square at the top, type Reykjavik, Iceland into the search bar, tap the search button, select the off-season date range, tap the flight option with the best price, tap the 'Select' button in the blue box to reserve the flight.",
+    "Level3-INS": "Open the booking app, tap the Flights square at the top, type Reykjavik, Iceland into the search bar, tap the search button, select the off-season date range, tap the flight option with the best price, tap the 'Select' button in the blue box to reach the payment/checkout page, then STOP — do NOT actually pay or place the order.",
     "lang": "en",
     "_source": "Vague-ins",
     "_source_id": 39,
@@ -736,7 +736,7 @@
     "_rw_duration_s": 3.17
   },
   {
-    "Task_id": 40,
+    "Task_id": 35,
     "Task Type": "购物",
     "Invovled_App_Name": "X,amazon",
     "Original-INS": "Find a highly-rated biography on social media planform and add it to your cart。",
@@ -758,7 +758,7 @@
     "_rw_duration_s": 4.41
   },
   {
-    "Task_id": 41,
+    "Task_id": 36,
     "Task Type": "社交媒体",
     "Invovled_App_Name": "Youtube,facebook",
     "Original-INS": "Play a lecture about large language models and share it with friend Kai Chen。",
@@ -780,7 +780,7 @@
     "_rw_duration_s": 5.2
   },
   {
-    "Task_id": 42,
+    "Task_id": 37,
     "Task Type": "生活",
     "Invovled_App_Name": "\t\n,\n\"Google chorme\",\n\"Amazon\"\n",
     "Original-INS": "Search for recipes on how to make chocolate cake and add the relevant ingredients to your cart. ",
@@ -802,7 +802,7 @@
     "_rw_duration_s": 3.65
   },
   {
-    "Task_id": 43,
+    "Task_id": 38,
     "Task Type": "社交媒体",
     "Invovled_App_Name": "chorme X notes",
     "Original-INS": "Search for and record Elon Musk's latest technological research. ",
@@ -824,7 +824,7 @@
     "_rw_duration_s": 2.98
   },
   {
-    "Task_id": 44,
+    "Task_id": 39,
     "Task Type": "",
     "Invovled_App_Name": "wechat Chorme",
     "Original-INS": "Collect three of Elon Musk's latest published scientific research and share it with friends xxoo ",
@@ -846,7 +846,7 @@
     "_rw_duration_s": 4.72
   },
   {
-    "Task_id": 45,
+    "Task_id": 40,
     "Task Type": "",
     "Invovled_App_Name": "fandango、facebook",
     "Original-INS": "Check out recently released movies and ask Hao Alex for his opinion.",
@@ -868,7 +868,7 @@
     "_rw_duration_s": 3.83
   },
   {
-    "Task_id": 46,
+    "Task_id": 41,
     "Task Type": "",
     "Invovled_App_Name": "maps",
     "Original-INS": "Please navigate from the National University of Singapore to Nanyang Technological University.",
@@ -889,7 +889,7 @@
     "_rw_duration_s": 2.89
   },
   {
-    "Task_id": 47,
+    "Task_id": 42,
     "Task Type": "",
     "Invovled_App_Name": "X notes wechat",
     "Original-INS": "View the latest trending news and record and share it with your friends xxoo",
@@ -911,7 +911,7 @@
     "_rw_duration_s": 2.74
   },
   {
-    "Task_id": 48,
+    "Task_id": 43,
     "Task Type": "",
     "Invovled_App_Name": "fandango",
     "Original-INS": "Check out the latest critically acclaimed movies and reserve a movie ticket.",
@@ -932,7 +932,7 @@
     "_rw_duration_s": 3.32
   },
   {
-    "Task_id": 49,
+    "Task_id": 44,
     "Task Type": "",
     "Invovled_App_Name": "fandango",
     "Original-INS": "Check out the latest movies showing and reserve a ticket for tonight's screening.",
@@ -953,7 +953,7 @@
     "_rw_duration_s": 3.22
   },
   {
-    "Task_id": 50,
+    "Task_id": 45,
     "Task Type": "",
     "Invovled_App_Name": "chorme 、X/zhihu 、X/facebook",
     "Original-INS": "Tell me the main results of the China-US trade negotiations and express your opinions on social media platforms.",
@@ -976,7 +976,7 @@
     "_rw_duration_s": 6.79
   },
   {
-    "Task_id": 51,
+    "Task_id": 46,
     "Task Type": "",
     "Invovled_App_Name": "weather、 tripadvisor、 notes",
     "Original-INS": "Please record the weather in Pittsburgh for the next three days and provTask_ide me with a travel plan.",
@@ -998,7 +998,7 @@
     "_rw_duration_s": 5.78
   },
   {
-    "Task_id": 52,
+    "Task_id": 47,
     "Task Type": "",
     "Invovled_App_Name": "chorme facebook",
     "Original-INS": "translated 'I miss you'into French and sent it to my friend Kai Chen. ",
@@ -1019,7 +1019,7 @@
     "_rw_duration_s": 4.22
   },
   {
-    "Task_id": 53,
+    "Task_id": 48,
     "Task Type": "",
     "Invovled_App_Name": "chorme/X/facebook  、 amazon/ebay",
     "Original-INS": "Check out the guTask_ides on buying guitars in the experience posts and recommend a guitar to me.",
@@ -1041,7 +1041,7 @@
     "_rw_duration_s": 4.24
   },
   {
-    "Task_id": 54,
+    "Task_id": 49,
     "Task Type": "",
     "Invovled_App_Name": "Netease Cloud Music、chorme",
     "Original-INS": "Search for China's most popular singer and play one of his songs. ",
@@ -1062,7 +1062,7 @@
     "_rw_duration_s": 2.84
   },
   {
-    "Task_id": 55,
+    "Task_id": 50,
     "Task Type": "",
     "Invovled_App_Name": "walmart、ebay、amazon",
     "Original-INS": "Check the prices of AirPods Pro 3 on different shopping platforms, add the one with the lowest price to your shopping cart, and write a comparison report.",
@@ -1085,55 +1085,13 @@
     "_rw_duration_s": 7.45
   },
   {
-    "Task_id": 56,
+    "Task_id": 51,
     "Task Type": "出行交通",
     "Invovled_App_Name": "携程旅行",
-    "Original-INS": "帮我在携程上订一张去我学校的火车票,学生票,下周走。",
-    "Level1-INS": "帮我在携程上订一张去我学校的火车票,学生票,下周走。",
-    "Level2-INS": "用携程订一张下周去我学校的火车票，选择学生票类型",
-    "Level3-INS": "打开携程app，点击火车票图标，进入查询页面，选择出发地为我的学校，出发时间为下周，选择学生票类型，然后点击预订按钮完成购票",
-    "lang": "cn",
-    "_source": "AndroidDaily",
-    "_source_id": "31",
-    "_referenced_apps": [
-      "携程旅行"
-    ],
-    "_rw_usage": {
-      "prompt_tokens": 580,
-      "completion_tokens": 91,
-      "total_tokens": 671
-    },
-    "_rw_duration_s": 3.16
-  },
-  {
-    "Task_id": 57,
-    "Task Type": "出行交通",
-    "Invovled_App_Name": "携程旅行",
-    "Original-INS": "帮我看看从大恒科技大厦到机场的大巴票,买一张明天早上八点左右的。",
-    "Level1-INS": "帮我看看从大恒科技大厦到机场的大巴票,买一张明天早上八点左右的。",
-    "Level2-INS": "用携程旅行查找从大恒科技大厦到机场的大巴票，购买一张明天早上八点左右的车票",
-    "Level3-INS": "打开携程旅行app，点击首页的酒店图标，进入搜索页面，输入'大恒科技大厦到机场的大巴票'进行搜索，选择符合条件的车次，点击购买并填写相关信息完成下单",
-    "lang": "cn",
-    "_source": "AndroidDaily",
-    "_source_id": "38",
-    "_referenced_apps": [
-      "携程旅行"
-    ],
-    "_rw_usage": {
-      "prompt_tokens": 616,
-      "completion_tokens": 112,
-      "total_tokens": 728
-    },
-    "_rw_duration_s": 2.89
-  },
-  {
-    "Task_id": 58,
-    "Task Type": "出行交通",
-    "Invovled_App_Name": "去哪儿旅行",
-    "Original-INS": "帮我用去哪儿网订一张最便宜的机票去青岛,下周任何一天走都行。",
-    "Level1-INS": "帮我用去哪儿网订一张最便宜的机票去青岛,下周任何一天走都行。",
-    "Level2-INS": "用去哪儿网查找下周最便宜的机票去青岛",
-    "Level3-INS": "打开去哪儿旅行app，点击页面顶部第二列蓝色框中的飞机图标进入机票预订页面，点击第一列左侧选择出发地，点击第一列右侧选择目的地，点击第二列选择出发日期，点击页面中间红色框中的'搜素'按钮，向下滑动查看更多航空公司，点击航空公司选项，点击红色框中的'订'按钮进行预订，点击橙色框中的'下一步'，点击橙色框中的'去支付'完成购买",
+    "Original-INS": "帮我用携程旅行订一张最便宜的机票去青岛,下周任何一天走都行。",
+    "Level1-INS": "帮我用携程订一张最便宜的机票去青岛,下周任何一天走都行。",
+    "Level2-INS": "用携程查找下周最便宜的机票去青岛",
+    "Level3-INS": "打开携程app，点击页面顶部第二列蓝色框中的飞机图标进入机票预订页面，点击第一列左侧选择出发地，点击第一列右侧选择目的地，点击第二列选择出发日期，点击页面中间红色框中的'搜素'按钮，向下滑动查看更多航空公司，点击航空公司选项，点击红色框中的'订'按钮进行预订，点击橙色框中的'下一步'，点击橙色框中的'去支付'进入付款页面，停留在付款页面即可，不要实际支付",
     "lang": "cn",
     "_source": "AndroidDaily",
     "_source_id": "109",
@@ -1148,55 +1106,13 @@
     "_rw_duration_s": 4.51
   },
   {
-    "Task_id": 59,
-    "Task Type": "出行交通",
-    "Invovled_App_Name": "去哪儿旅行",
-    "Original-INS": "看看去哪儿旅行上我上次收藏的那个南京的酒店还有没有房间,就订下下周的。",
-    "Level1-INS": "看看去哪儿旅行上我上次收藏的那个南京的酒店还有没有房间,就订下下周的。",
-    "Level2-INS": "查看去哪儿旅行上我上次收藏的南京酒店是否还有下下周的房间，如果有的话就预订。",
-    "Level3-INS": "打开去哪儿旅行app，点击首页顶部第一列橙色框中的'酒店'图标，点击左侧选择目的地，输入南京作为详细地址，点击第二列选择入住日期和退房日期，点击第三列选择房间和人数，点击页面中间红色框中的'开始搜索'按钮，向下滑动查看更多酒店，点击列表中我上次收藏的南京酒店，点击红色框中的'订'按钮进行预订，最后点击底部红色框中的'提交订单'按钮完成预订。",
-    "lang": "cn",
-    "_source": "AndroidDaily",
-    "_source_id": "124",
-    "_referenced_apps": [
-      "去哪儿旅行"
-    ],
-    "_rw_usage": {
-      "prompt_tokens": 683,
-      "completion_tokens": 169,
-      "total_tokens": 852
-    },
-    "_rw_duration_s": 3.92
-  },
-  {
-    "Task_id": 60,
-    "Task Type": "出行交通",
-    "Invovled_App_Name": "携程旅行",
-    "Original-INS": "帮我订个明晚的酒店,就在公司附近,要安静一点的。",
-    "Level1-INS": "帮我订个明晚的酒店,就在公司附近,要安静一点的。",
-    "Level2-INS": "用携程旅行搜索明晚公司附近的安静酒店并预订",
-    "Level3-INS": "打开携程旅行app，点击酒店图标，进入酒店搜索页面，输入公司附近的地点，选择明晚入住日期，筛选安静的酒店选项，点击预订按钮完成预订",
-    "lang": "cn",
-    "_source": "AndroidDaily",
-    "_source_id": "126",
-    "_referenced_apps": [
-      "携程旅行"
-    ],
-    "_rw_usage": {
-      "prompt_tokens": 564,
-      "completion_tokens": 89,
-      "total_tokens": 653
-    },
-    "_rw_duration_s": 2.66
-  },
-  {
-    "Task_id": 61,
+    "Task_id": 52,
     "Task Type": "出行交通",
     "Invovled_App_Name": "携程旅行",
     "Original-INS": "在携程上查一下元旦去北京的机票,如果往返超过2000块钱就提醒我,没超过就直接找个时间合适的订了。",
     "Level1-INS": "在携程上查一下元旦去北京的机票,如果往返超过2000块钱就提醒我,没超过就直接找个时间合适的订了。",
     "Level2-INS": "在携程上查询元旦去北京的机票价格，如果往返总价超过2000元就提醒我，如果没有超过就直接预订一张时间合适的机票。",
-    "Level3-INS": "打开携程旅行app，点击首页的飞机图标进入机票页面，输入目的地为北京，点击搜索按钮，查看元旦期间的航班信息，计算往返总价，如果超过2000元则点击提醒按钮，如果没有超过则选择一个时间合适的航班，点击预订按钮完成下单。",
+    "Level3-INS": "打开携程旅行app，点击首页的飞机图标进入机票页面，输入目的地为北京，点击搜索按钮，查看元旦期间的航班信息，计算往返总价，如果超过2000元则点击提醒按钮，如果没有超过则选择一个时间合适的航班，点击预订按钮进入付款页面，停留在付款页面即可，不要实际支付。",
     "lang": "cn",
     "_source": "AndroidDaily",
     "_source_id": "151",
@@ -1211,13 +1127,13 @@
     "_rw_duration_s": 3.76
   },
   {
-    "Task_id": 62,
+    "Task_id": 53,
     "Task Type": "出行交通",
     "Invovled_App_Name": "微信、携程旅行",
-    "Original-INS": "在携程上订一张下周五去三亚的机票,订好后把航班信息通过微信发给我老婆。",
-    "Level1-INS": "在携程上订一张下周五去三亚的机票,订好后把航班信息通过微信发给我老婆。",
-    "Level2-INS": "在携程上预订下周五飞往三亚的机票，订好后通过微信将航班信息发送给我老婆",
-    "Level3-INS": "打开携程旅行app，点击顶部的飞机图标进入机票预订页面，点击目的地输入框，输入目的地'三亚'，点击搜索结果，点击红色框中的'查询'按钮，选择航班后点击蓝色框中的'订'按钮完成预订。预订成功后，打开微信app，点击右上角的加号按钮，选择添加好友，搜索并选择我的老婆，点击聊天窗口，点击'+'号选择相册，上传航班信息图片，点击发送按钮发送消息。",
+    "Original-INS": "在携程上订一张下周五去三亚的机票,订好后把航班信息通过微信发给我xxoo。",
+    "Level1-INS": "在携程上订一张下周五去三亚的机票,订好后把航班信息通过微信发给我xxoo。",
+    "Level2-INS": "在携程上预订下周五飞往三亚的机票，订好后通过微信将航班信息发送给我xxoo",
+    "Level3-INS": "打开携程旅行app，点击顶部的飞机图标进入机票预订页面，点击目的地输入框，输入目的地'三亚'，点击搜索结果，点击红色框中的'查询'按钮，选择航班后点击蓝色框中的'订'按钮进入付款页面，停留在付款页面即可，不要实际支付。预订成功后，打开微信app，点击右上角的加号按钮，选择添加好友，搜索并选择xxoo，点击聊天窗口，点击'+'号选择相册，上传航班信息图片，点击发送按钮发送消息。",
     "lang": "cn",
     "_source": "AndroidDaily",
     "_source_id": "154",
@@ -1233,13 +1149,13 @@
     "_rw_duration_s": 9.42
   },
   {
-    "Task_id": 63,
+    "Task_id": 54,
     "Task Type": "社交通讯",
     "Invovled_App_Name": "微信",
-    "Original-INS": "帮我回一下李总的消息",
-    "Level1-INS": "帮我回一下李总的消息",
-    "Level2-INS": "在微信中查找李总并回复他的消息",
-    "Level3-INS": "打开微信app，点击右上角的放大镜按钮，输入李总的姓名并点击搜索，选择李总进入聊天页面，点击底部输入框，输入回复内容，点击绿色发送按钮",
+    "Original-INS": "帮我回一下xxoo的消息",
+    "Level1-INS": "帮我回一下xxoo的消息",
+    "Level2-INS": "在微信中查找xxoo并回复他的消息",
+    "Level3-INS": "打开微信app，点击右上角的放大镜按钮，输入xxoo的姓名并点击搜索，选择李总进入聊天页面，点击底部输入框，输入回复内容，点击绿色发送按钮",
     "lang": "cn",
     "_source": "AndroidDaily",
     "_source_id": "163",
@@ -1254,13 +1170,13 @@
     "_rw_duration_s": 6.71
   },
   {
-    "Task_id": 64,
+    "Task_id": 55,
     "Task Type": "出行交通",
     "Invovled_App_Name": "携程旅行",
     "Original-INS": "帮我规划一下去三亚的行程,先看看机票。",
     "Level1-INS": "帮我规划一下去三亚的行程,先看看机票。",
     "Level2-INS": "使用携程旅行规划去三亚的行程，并查看机票信息",
-    "Level3-INS": "打开携程旅行app，点击行程规划，搜索目的地三亚，点击下一步，选择智能推荐，选择一条路线，点击保存并编辑行程。然后返回首页，点击机票选项，输入目的地海口，搜索航班，选择合适的航班，点击预订按钮完成机票预订",
+    "Level3-INS": "打开携程旅行app，点击行程规划，搜索目的地三亚，点击下一步，选择智能推荐，选择一条路线，点击保存并编辑行程。然后返回首页，点击机票选项，输入目的地海口，搜索航班，选择合适的航班，点击预订按钮进入付款页面，停留在付款页面即可，不要实际支付",
     "lang": "cn",
     "_source": "AndroidDaily",
     "_source_id": "165",
@@ -1275,28 +1191,7 @@
     "_rw_duration_s": 2.97
   },
   {
-    "Task_id": 65,
-    "Task Type": "本地服务",
-    "Invovled_App_Name": "美团",
-    "Original-INS": "打开美团酒店,看看我公司附近有啥特价酒店。",
-    "Level1-INS": "打开美团酒店,看看我公司附近有啥特价酒店。",
-    "Level2-INS": "用美团酒店查看我公司附近的特价酒店信息",
-    "Level3-INS": "打开美团app，点击酒店图标，选择目的地和入住时间确认酒店信息，点击'找酒店'按钮，选择搜索结果中的酒店进入详情页并预订",
-    "lang": "cn",
-    "_source": "AndroidDaily",
-    "_source_id": "196",
-    "_referenced_apps": [
-      "美团"
-    ],
-    "_rw_usage": {
-      "prompt_tokens": 587,
-      "completion_tokens": 83,
-      "total_tokens": 670
-    },
-    "_rw_duration_s": 2.74
-  },
-  {
-    "Task_id": 66,
+    "Task_id": 56,
     "Task Type": "本地服务",
     "Invovled_App_Name": "大众点评",
     "Original-INS": "帮我找个周末能带孩子去玩的地方。",
@@ -1317,7 +1212,7 @@
     "_rw_duration_s": 3.99
   },
   {
-    "Task_id": 67,
+    "Task_id": 57,
     "Task Type": "内容消费",
     "Invovled_App_Name": "哔哩哔哩",
     "Original-INS": "在B站罗翔最新视频的评论区里留个言。",
@@ -1338,7 +1233,7 @@
     "_rw_duration_s": 4.2
   },
   {
-    "Task_id": 68,
+    "Task_id": 58,
     "Task Type": "社交通讯",
     "Invovled_App_Name": "小红书",
     "Original-INS": "用小红书帮我发个帖子安利一下上海。",
@@ -1359,7 +1254,7 @@
     "_rw_duration_s": 4.94
   },
   {
-    "Task_id": 69,
+    "Task_id": 59,
     "Task Type": "社交通讯",
     "Invovled_App_Name": "天气、小红书",
     "Original-INS": "帮我在小红书上发个帖子，吐槽一下最近的天气。",
@@ -1381,7 +1276,7 @@
     "_rw_duration_s": 2.93
   },
   {
-    "Task_id": 70,
+    "Task_id": 60,
     "Task Type": "社交通讯",
     "Invovled_App_Name": "抖音",
     "Original-INS": "去抖音评论一下那个很火的视频。",
@@ -1402,7 +1297,7 @@
     "_rw_duration_s": 2.35
   },
   {
-    "Task_id": 71,
+    "Task_id": 61,
     "Task Type": "社交通讯",
     "Invovled_App_Name": "微信",
     "Original-INS": "给朋友的最新朋友圈写个有趣的评论。",
@@ -1423,7 +1318,7 @@
     "_rw_duration_s": 3.3
   },
   {
-    "Task_id": 72,
+    "Task_id": 62,
     "Task Type": "内容消费",
     "Invovled_App_Name": "抖音",
     "Original-INS": "找点有意思的视频看看。",
@@ -1444,34 +1339,13 @@
     "_rw_duration_s": 3.0
   },
   {
-    "Task_id": 73,
-    "Task Type": "内容消费",
-    "Invovled_App_Name": "爱奇艺",
-    "Original-INS": "在爱奇艺上找个下饭剧播放。",
-    "Level1-INS": "在爱奇艺上找个下饭剧播放。",
-    "Level2-INS": "在爱奇艺上查找并播放一部适合下饭的电视剧",
-    "Level3-INS": "打开爱奇艺app，点击底部导航栏的'我的'标签，查看观看历史记录，找到最近观看的电视剧，点击播放按钮开始观看，并根据需要调整视频清晰度和播放速度。",
-    "lang": "cn",
-    "_source": "AndroidDaily",
-    "_source_id": "192",
-    "_referenced_apps": [
-      "爱奇艺"
-    ],
-    "_rw_usage": {
-      "prompt_tokens": 586,
-      "completion_tokens": 98,
-      "total_tokens": 684
-    },
-    "_rw_duration_s": 2.07
-  },
-  {
-    "Task_id": 74,
+    "Task_id": 63,
     "Task Type": "出行交通",
     "Invovled_App_Name": "去哪儿旅行",
     "Original-INS": "在去哪儿旅行上找个好点的民宿。",
     "Level1-INS": "在去哪儿旅行上找个好点的民宿。",
     "Level2-INS": "在去哪儿旅行上查找并选择一个评价较好的民宿",
-    "Level3-INS": "打开去哪儿旅行app，点击底部导航栏的'看世界'标签，浏览旅游攻略卡片，选择一个评价较好的民宿进行预订",
+    "Level3-INS": "打开去哪儿旅行app，点击底部导航栏的'看世界'标签，浏览旅游攻略卡片，选择一个评价较好的民宿，进入预订/付款页面后停留，不要实际支付",
     "lang": "cn",
     "_source": "AndroidDaily",
     "_source_id": "197",
@@ -1486,7 +1360,7 @@
     "_rw_duration_s": 2.51
   },
   {
-    "Task_id": 75,
+    "Task_id": 64,
     "Task Type": "外卖平台",
     "Invovled_App_Name": "美团",
     "Original-INS": "在美团上搜索一家附近的火锅店。",
@@ -1507,7 +1381,7 @@
     "_rw_duration_s": 2.65
   },
   {
-    "Task_id": 76,
+    "Task_id": 65,
     "Task Type": "系统应用",
     "Invovled_App_Name": "天气",
     "Original-INS": "What's the weather like in Washington today.",
@@ -1528,7 +1402,7 @@
     "_rw_duration_s": 2.99
   },
   {
-    "Task_id": 77,
+    "Task_id": 66,
     "Task Type": "系统应用",
     "Invovled_App_Name": "天气",
     "Original-INS": "How's the weather in Berlin today?",
@@ -1549,7 +1423,7 @@
     "_rw_duration_s": 2.47
   },
   {
-    "Task_id": 78,
+    "Task_id": 67,
     "Task Type": "系统应用",
     "Invovled_App_Name": "天气",
     "Original-INS": "Tell me the current weather condition in my school.",
@@ -1570,7 +1444,7 @@
     "_rw_duration_s": 2.7
   },
   {
-    "Task_id": 79,
+    "Task_id": 68,
     "Task Type": "生活",
     "Invovled_App_Name": "天气、备忘录/笔记",
     "Original-INS": "Check the weather in London for the next three days and jot it down.",
@@ -1592,7 +1466,7 @@
     "_rw_duration_s": 3.76
   },
   {
-    "Task_id": 80,
+    "Task_id": 69,
     "Task Type": "生活",
     "Invovled_App_Name": "天气",
     "Original-INS": "Will it rain in Tokyo this weekend?",
@@ -1613,7 +1487,7 @@
     "_rw_duration_s": 5.04
   },
   {
-    "Task_id": 81,
+    "Task_id": 70,
     "Task Type": "旅游出行",
     "Invovled_App_Name": "googleMap、备忘录/笔记",
     "Original-INS": "Find a good coffee shop near me and save its address.",
@@ -1635,7 +1509,7 @@
     "_rw_duration_s": 4.49
   },
   {
-    "Task_id": 82,
+    "Task_id": 71,
     "Task Type": "旅游出行",
     "Invovled_App_Name": "googleMap",
     "Original-INS": "Navigate to the nearest gym.",
@@ -1656,7 +1530,7 @@
     "_rw_duration_s": 3.01
   },
   {
-    "Task_id": 83,
+    "Task_id": 72,
     "Task Type": "社交媒体",
     "Invovled_App_Name": "youtube、X",
     "Original-INS": "Play a TED talk about productivity and share it on X.",
@@ -1678,7 +1552,7 @@
     "_rw_duration_s": 4.06
   },
   {
-    "Task_id": 84,
+    "Task_id": 73,
     "Task Type": "娱乐",
     "Invovled_App_Name": "youtube",
     "Original-INS": "I want to watch something about deep learning.",
@@ -1699,28 +1573,7 @@
     "_rw_duration_s": 2.6
   },
   {
-    "Task_id": 85,
-    "Task Type": "办公协助",
-    "Invovled_App_Name": "gmail",
-    "Original-INS": "Reply to my boss's latest email that I'll join the meeting.",
-    "Level1-INS": "Reply to my boss's latest email that I'll join the meeting.",
-    "Level2-INS": "Use Gmail to reply to the latest email from my boss indicating that I will join the meeting",
-    "Level3-INS": "Open the Gmail app, tap on the latest email in the inbox to open it, tap the 'Reply' button at the bottom of the screen, type the message 'I will join the meeting' in the text field, and tap the send icon like a blue right-pointing triangle at the top right",
-    "lang": "en",
-    "_source": "Authored",
-    "_source_id": "",
-    "_referenced_apps": [
-      "Gmail"
-    ],
-    "_rw_usage": {
-      "prompt_tokens": 687,
-      "completion_tokens": 122,
-      "total_tokens": 809
-    },
-    "_rw_duration_s": 3.32
-  },
-  {
-    "Task_id": 86,
+    "Task_id": 74,
     "Task Type": "社交媒体",
     "Invovled_App_Name": "X、天气",
     "Original-INS": "Post a tweet about how nice the weather is today.",
@@ -1742,28 +1595,7 @@
     "_rw_duration_s": 4.26
   },
   {
-    "Task_id": 87,
-    "Task Type": "社交媒体",
-    "Invovled_App_Name": "Facebook",
-    "Original-INS": "Comment on my friend Kai Chen's latest Facebook post.",
-    "Level1-INS": "Comment on my friend Kai Chen's latest Facebook post.",
-    "Level2-INS": "Comment on Kai Chen's latest Facebook post.",
-    "Level3-INS": "Open Facebook app, swipe down to view more posts, tap on the latest post by Kai Chen, then tap the comment button, type your comment, and tap send.",
-    "lang": "en",
-    "_source": "Authored",
-    "_source_id": "",
-    "_referenced_apps": [
-      "Facebook"
-    ],
-    "_rw_usage": {
-      "prompt_tokens": 650,
-      "completion_tokens": 78,
-      "total_tokens": 728
-    },
-    "_rw_duration_s": 2.29
-  },
-  {
-    "Task_id": 88,
+    "Task_id": 75,
     "Task Type": "购物",
     "Invovled_App_Name": "Amazon",
     "Original-INS": "Find a highly-rated wireless mouse and add it to my Amazon cart.",
@@ -1784,7 +1616,7 @@
     "_rw_duration_s": 3.64
   },
   {
-    "Task_id": 89,
+    "Task_id": 76,
     "Task Type": "购物",
     "Invovled_App_Name": "Amazon、Walmart、eBay",
     "Original-INS": "Compare the price of AirPods Pro across shopping apps and add the cheapest to my cart.",
@@ -1807,7 +1639,7 @@
     "_rw_duration_s": 7.83
   },
   {
-    "Task_id": 90,
+    "Task_id": 77,
     "Task Type": "购物",
     "Invovled_App_Name": "eBay",
     "Original-INS": "Search for a vintage film camera on eBay and add it to my watchlist.",
@@ -1828,7 +1660,7 @@
     "_rw_duration_s": 2.98
   },
   {
-    "Task_id": 91,
+    "Task_id": 78,
     "Task Type": "购物",
     "Invovled_App_Name": "Walmart",
     "Original-INS": "Add milk and eggs to my Walmart cart.",
@@ -1849,13 +1681,13 @@
     "_rw_duration_s": 3.63
   },
   {
-    "Task_id": 92,
+    "Task_id": 79,
     "Task Type": "旅游出行",
     "Invovled_App_Name": "agoda",
     "Original-INS": "Book a cheap hotel in Bangkok for next weekend.",
     "Level1-INS": "Book a cheap hotel in Bangkok for next weekend.",
     "Level2-INS": "Use Agoda to book a cheap hotel in Bangkok for next weekend.",
-    "Level3-INS": "Open the Agoda app, tap the 'My Trips' button with the suitcase icon at the bottom of the home page, swipe down to view more trip records, tap a trip to enter the trip page, then tap the 'Book Now' button, select a cheap hotel in Bangkok for next weekend, and complete the booking process.",
+    "Level3-INS": "Open the Agoda app, tap the 'My Trips' button with the suitcase icon at the bottom of the home page, swipe down to view more trip records, tap a trip to enter the trip page, then tap the 'Book Now' button, select a cheap hotel in Bangkok for next weekend, and proceed to the payment/checkout page, then STOP — do NOT actually pay or place the order.",
     "lang": "en",
     "_source": "Authored",
     "_source_id": "",
@@ -1870,13 +1702,13 @@
     "_rw_duration_s": 3.14
   },
   {
-    "Task_id": 93,
+    "Task_id": 80,
     "Task Type": "旅游出行",
     "Invovled_App_Name": "booking",
     "Original-INS": "Find an off-season flight to Reykjavik.",
     "Level1-INS": "Find an off-season flight to Reykjavik.",
     "Level2-INS": "Use the booking app to find an off-season flight to Reykjavik.",
-    "Level3-INS": "Open the booking app, tap the Flights square at the top, type Reykjavik in the destination bar, tap the calendar icon bar to select the travel date, tap the search button in the blue box to find flights, swipe down to view more options, tap a flight link to enter the flight detailed page, tap the 'Select' button in the blue box to reserve the flight.",
+    "Level3-INS": "Open the booking app, tap the Flights square at the top, type Reykjavik in the destination bar, tap the calendar icon bar to select the travel date, tap the search button in the blue box to find flights, swipe down to view more options, tap a flight link to enter the flight detailed page, tap the 'Select' button in the blue box to reach the payment/checkout page, then STOP — do NOT actually pay or place the order.",
     "lang": "en",
     "_source": "Authored",
     "_source_id": "",
@@ -1891,7 +1723,7 @@
     "_rw_duration_s": 8.55
   },
   {
-    "Task_id": 94,
+    "Task_id": 81,
     "Task Type": "旅游出行",
     "Invovled_App_Name": "tripadvisor、备忘录/笔记",
     "Original-INS": "Plan a one-day trip in New York and save the itinerary.",
@@ -1913,7 +1745,7 @@
     "_rw_duration_s": 5.89
   },
   {
-    "Task_id": 95,
+    "Task_id": 82,
     "Task Type": "旅游出行",
     "Invovled_App_Name": "tripadvisor",
     "Original-INS": "Recommend a nice restaurant near Times Square.",
@@ -1934,7 +1766,7 @@
     "_rw_duration_s": 4.55
   },
   {
-    "Task_id": 96,
+    "Task_id": 83,
     "Task Type": "信息搜索",
     "Invovled_App_Name": "Chrome",
     "Original-INS": "Look up when the next SpaceX launch is.",
@@ -1955,7 +1787,7 @@
     "_rw_duration_s": 5.39
   },
   {
-    "Task_id": 97,
+    "Task_id": 84,
     "Task Type": "购物",
     "Invovled_App_Name": "Chrome、Amazon",
     "Original-INS": "Research the best noise-cancelling headphones online and add one to my Amazon cart.",
@@ -1977,7 +1809,7 @@
     "_rw_duration_s": 5.6
   },
   {
-    "Task_id": 98,
+    "Task_id": 85,
     "Task Type": "社交媒体",
     "Invovled_App_Name": "rednote",
     "Original-INS": "Find skincare tips and follow a beauty blogger.",
@@ -1998,29 +1830,7 @@
     "_rw_duration_s": 3.11
   },
   {
-    "Task_id": 99,
-    "Task Type": "社交媒体",
-    "Invovled_App_Name": "网易云音乐、X",
-    "Original-INS": "Play a relaxing playlist and share my favorite song on X.",
-    "Level1-INS": "Play a relaxing playlist and share my favorite song on X.",
-    "Level2-INS": "Play a relaxing playlist on NetEase Music and share my favorite song on X",
-    "Level3-INS": "Open NetEase Music app, tap 'manyou' with a radio icon, tap white border love heart to start a relaxing playlist. Once the playlist is playing, tap search box at the top, type the favorite song name, tap the search result to select it. Then open X app, tap the post square to enter the post page, tap the black border heart symbol at the bottom of the post to like it, and tap the black border bookmark symbol at the bottom of the post to save it",
-    "lang": "en",
-    "_source": "Authored",
-    "_source_id": "",
-    "_referenced_apps": [
-      "NetEase Music",
-      "X"
-    ],
-    "_rw_usage": {
-      "prompt_tokens": 771,
-      "completion_tokens": 167,
-      "total_tokens": 938
-    },
-    "_rw_duration_s": 4.6
-  },
-  {
-    "Task_id": 100,
+    "Task_id": 86,
     "Task Type": "娱乐",
     "Invovled_App_Name": "网易云音乐",
     "Original-INS": "I want to listen to some chill music.",
@@ -2041,7 +1851,7 @@
     "_rw_duration_s": 2.45
   },
   {
-    "Task_id": 101,
+    "Task_id": 87,
     "Task Type": "信息搜索",
     "Invovled_App_Name": "夸克、备忘录/笔记",
     "Original-INS": "帮我查一下今年考研的报名时间，记到备忘录里。",
@@ -2063,13 +1873,13 @@
     "_rw_duration_s": 4.84
   },
   {
-    "Task_id": 102,
+    "Task_id": 88,
     "Task Type": "娱乐",
     "Invovled_App_Name": "猫眼",
     "Original-INS": "看看最近有什么热映的电影，买两张这周末的票。",
     "Level1-INS": "看看最近有什么热映的电影，买两张这周末的票。",
     "Level2-INS": "使用猫眼查找最近热映的电影，购买两张这周末的电影票",
-    "Level3-INS": "打开猫眼app，点击顶部的搜索框，输入搜索内容，点击右侧红色的搜索按钮，向下滑动查看更多结果，点击第一个电影链接，点击下方浅白色框中的'想看'按钮，选择这周末的场次，点击选座并完成购票",
+    "Level3-INS": "打开猫眼app，点击顶部的搜索框，输入搜索内容，点击右侧红色的搜索按钮，向下滑动查看更多结果，点击第一个电影链接，点击下方浅白色框中的'想看'按钮，选择这周末的场次，点击选座并进入付款页面，停留在付款页面即可，不要实际支付",
     "lang": "cn",
     "_source": "Authored",
     "_source_id": "",
@@ -2084,13 +1894,13 @@
     "_rw_duration_s": 3.42
   },
   {
-    "Task_id": 103,
+    "Task_id": 89,
     "Task Type": "娱乐",
     "Invovled_App_Name": "大麦",
     "Original-INS": "看看周杰伦最近有没有演唱会，有的话帮我预约。",
     "Level1-INS": "看看周杰伦最近有没有演唱会，有的话帮我预约。",
     "Level2-INS": "使用大麦查找周杰伦最近的演唱会，并预约门票。",
-    "Level3-INS": "打开大麦app，点击顶部的搜索框，在输入框中输入'周杰伦'，点击搜索框右侧的红色搜索按钮，在搜索结果中点击第一个演唱会链接，点击页面底部红色框中的'预约'按钮。",
+    "Level3-INS": "打开大麦app，点击顶部的搜索框，在输入框中输入'周杰伦'，点击搜索框右侧的红色搜索按钮，在搜索结果中点击第一个演唱会链接，点击页面底部红色框中的'预约'按钮（仅预约提醒/到确认页为止，不要实际支付）。",
     "lang": "cn",
     "_source": "Authored",
     "_source_id": "",
@@ -2105,7 +1915,7 @@
     "_rw_duration_s": 6.33
   },
   {
-    "Task_id": 104,
+    "Task_id": 90,
     "Task Type": "娱乐",
     "Invovled_App_Name": "哔哩哔哩",
     "Original-INS": "在B站找个Python入门教程看看。",
@@ -2126,7 +1936,7 @@
     "_rw_duration_s": 2.85
   },
   {
-    "Task_id": 105,
+    "Task_id": 91,
     "Task Type": "社交媒体",
     "Invovled_App_Name": "哔哩哔哩、知乎",
     "Original-INS": "在B站看看这款相机的评测，再去知乎看看大家的口碑。",
@@ -2148,7 +1958,7 @@
     "_rw_duration_s": 3.34
   },
   {
-    "Task_id": 106,
+    "Task_id": 92,
     "Task Type": "购物",
     "Invovled_App_Name": "淘宝",
     "Original-INS": "我想买双适合跑步的运动鞋。",
@@ -2169,7 +1979,7 @@
     "_rw_duration_s": 7.96
   },
   {
-    "Task_id": 107,
+    "Task_id": 93,
     "Task Type": "购物",
     "Invovled_App_Name": "知乎、京东",
     "Original-INS": "帮我挑台性价比高的笔记本加入购物车，先去知乎看看推荐。",
@@ -2191,28 +2001,7 @@
     "_rw_duration_s": 5.45
   },
   {
-    "Task_id": 108,
-    "Task Type": "购物",
-    "Invovled_App_Name": "拼多多",
-    "Original-INS": "在拼多多上找点便宜的家居小物。",
-    "Level1-INS": "在拼多多上找点便宜的家居小物。",
-    "Level2-INS": "在拼多多上查找一些价格便宜的家居小物件并完成购买",
-    "Level3-INS": "打开拼多多app，进入生活购物板块，浏览商品列表，选择一些价格便宜的家居小物，点击进入商品页面，点击'立即购买'按钮完成下单",
-    "lang": "cn",
-    "_source": "Authored",
-    "_source_id": "",
-    "_referenced_apps": [
-      "拼多多"
-    ],
-    "_rw_usage": {
-      "prompt_tokens": 577,
-      "completion_tokens": 98,
-      "total_tokens": 675
-    },
-    "_rw_duration_s": 2.99
-  },
-  {
-    "Task_id": 109,
+    "Task_id": 94,
     "Task Type": "购物",
     "Invovled_App_Name": "淘宝、京东、拼多多",
     "Original-INS": "比一下这款扫地机器人在淘宝、京东、拼多多的价格，把最便宜的加入购物车。",
@@ -2235,7 +2024,7 @@
     "_rw_duration_s": 6.81
   },
   {
-    "Task_id": 110,
+    "Task_id": 95,
     "Task Type": "社交媒体",
     "Invovled_App_Name": "知乎",
     "Original-INS": "在知乎上提个关于职业规划的问题。",
@@ -2256,34 +2045,13 @@
     "_rw_duration_s": 5.64
   },
   {
-    "Task_id": 111,
-    "Task Type": "旅游出行",
-    "Invovled_App_Name": "携程旅行",
-    "Original-INS": "帮我规划一下国庆去成都的行程，先看看机票。",
-    "Level1-INS": "帮我规划一下国庆去成都的行程，先看看机票。",
-    "Level2-INS": "使用携程旅行规划国庆去成都的行程，并查看从海口出发的机票信息",
-    "Level3-INS": "打开携程旅行app，点击行程规划，搜索目的地成都，点击下一步，选择智能推荐，选择一条路线，点击保存并编辑行程。然后返回首页，点击机票选项，输入目的地海口，搜索航班，选择合适的航班，点击预订按钮完成机票预订",
-    "lang": "cn",
-    "_source": "Authored",
-    "_source_id": "",
-    "_referenced_apps": [
-      "携程旅行"
-    ],
-    "_rw_usage": {
-      "prompt_tokens": 688,
-      "completion_tokens": 123,
-      "total_tokens": 811
-    },
-    "_rw_duration_s": 3.61
-  },
-  {
-    "Task_id": 112,
+    "Task_id": 96,
     "Task Type": "旅游出行",
     "Invovled_App_Name": "抖音、携程旅行",
     "Original-INS": "在抖音上找个三亚的旅游攻略，然后用携程订酒店。",
     "Level1-INS": "在抖音上找个三亚的旅游攻略，然后用携程订酒店。",
     "Level2-INS": "在抖音上查找三亚的旅游攻略，然后用携程预订酒店。",
-    "Level3-INS": "打开抖音app，点击顶部或底部导航栏的'商城'标签，使用搜索栏或浏览分类找到'三亚'相关内容，点击旅游攻略视频，查看三亚的旅游攻略。然后打开携程旅行app，点击上方的'攻略/景点'图标，点击上方的搜索框，输入目的地'三亚'，点击搜索结果中的'三亚'，点击查询旅行博客框。接着点击携程旅行app上方的'酒店'图标，点击查询按钮，在列表中选择一个酒店进行预订。",
+    "Level3-INS": "打开抖音app，点击顶部或底部导航栏的'商城'标签，使用搜索栏或浏览分类找到'三亚'相关内容，点击旅游攻略视频，查看三亚的旅游攻略。然后打开携程旅行app，点击上方的'攻略/景点'图标，点击上方的搜索框，输入目的地'三亚'，点击搜索结果中的'三亚'，点击查询旅行博客框。接着点击携程旅行app上方的'酒店'图标，点击查询按钮，在列表中选择一个酒店，进入预订/付款页面后停留，不要实际支付。",
     "lang": "cn",
     "_source": "Authored",
     "_source_id": "",
@@ -2299,7 +2067,7 @@
     "_rw_duration_s": 7.12
   },
   {
-    "Task_id": 113,
+    "Task_id": 97,
     "Task Type": "娱乐",
     "Invovled_App_Name": "抖音",
     "Original-INS": "刷点搞笑视频放松一下。",
@@ -2320,7 +2088,7 @@
     "_rw_duration_s": 2.52
   },
   {
-    "Task_id": 114,
+    "Task_id": 98,
     "Task Type": "信息搜索",
     "Invovled_App_Name": "夸克",
     "Original-INS": "用夸克查一下最近的AI新闻。",
@@ -2339,5 +2107,303 @@
       "total_tokens": 725
     },
     "_rw_duration_s": 3.93
+  },
+  {
+    "Task_id": 99,
+    "Task Type": "信息搜索",
+    "Invovled_App_Name": "夸克、备忘录/笔记",
+    "Original-INS": "查看一下父亲节是什么时候，并记录一下",
+    "Level1-INS": "查看一下父亲节是什么时候，并记录一下",
+    "Level2-INS": "使用夸克在首页搜索框搜索父亲节的具体日期，并用备忘录记录下来",
+    "Level3-INS": "打开夸克app，点击首页顶部的搜索框，输入'父亲节'并点击搜索，在搜索结果中查看父亲节的具体日期。然后打开备忘录/笔记app，点击右下角的加号新建笔记，输入'父亲节'及其日期，点击右上角完成保存。",
+    "lang": "cn",
+    "_source": "Authored2",
+    "_source_id": null,
+    "_referenced_apps": [
+      "夸克",
+      "备忘录/笔记"
+    ],
+    "_rw_usage": {
+      "prompt_tokens": 705,
+      "completion_tokens": 144,
+      "total_tokens": 849
+    },
+    "_rw_duration_s": 4.18
+  },
+  {
+    "Task_id": 100,
+    "Task Type": "信息搜索",
+    "Invovled_App_Name": "夸克、备忘录/笔记",
+    "Original-INS": "查看并记录今年6-8月的重要节日",
+    "Level1-INS": "查看并记录今年6-8月的重要节日",
+    "Level2-INS": "使用夸克搜索6-8月的重要节日并记录到备忘录中",
+    "Level3-INS": "打开夸克app，点击底部右上角的柱状图图标，点击'历史'按钮，在账号下方滑动查看更多历史记录。然后点击搜索框，输入'6-8月重要节日'，查看搜索结果并记录。接着打开备忘录app，点击顶部的加号按钮，输入'6-8月重要节日'，点击完成图标保存笔记。",
+    "lang": "cn",
+    "_source": "Authored2",
+    "_source_id": null,
+    "_referenced_apps": [
+      "夸克",
+      "备忘录/笔记"
+    ],
+    "_rw_usage": {
+      "prompt_tokens": 707,
+      "completion_tokens": 151,
+      "total_tokens": 858
+    },
+    "_rw_duration_s": 4.43
+  },
+  {
+    "Task_id": 101,
+    "Task Type": "社交媒体",
+    "Invovled_App_Name": "微信",
+    "Original-INS": "发一条朋友圈,就说“今天好开心啊”",
+    "Level1-INS": "发一条朋友圈,就说“今天好开心啊”",
+    "Level2-INS": "使用微信发布一条朋友圈，内容为'今天好开心啊'",
+    "Level3-INS": "打开微信app，点击右下角的我的头像，点击朋友圈按钮，点击我的朋友圈，点击相机按钮，从相册中选择不超过9张图片，点击完成按钮，输入内容'今天好开心啊'，点击发布按钮",
+    "lang": "cn",
+    "_source": "Authored2",
+    "_source_id": null,
+    "_referenced_apps": [
+      "微信"
+    ],
+    "_rw_usage": {
+      "prompt_tokens": 864,
+      "completion_tokens": 103,
+      "total_tokens": 967
+    },
+    "_rw_duration_s": 2.86
+  },
+  {
+    "Task_id": 102,
+    "Task Type": "购物",
+    "Invovled_App_Name": "京东",
+    "Original-INS": "打开京东,把购物车里的第一件商品删掉。",
+    "Level1-INS": "打开京东,把购物车里的第一件商品删掉。",
+    "Level2-INS": "用京东删除购物车里的第一件商品",
+    "Level3-INS": "打开京东app，点击顶部的搜索框，输入搜索对象，点击红色框中的'搜索'文字，下拉搜索列表，点击商品进入商品页面，点击底部棕色框中的'加入购物车'文字，点击底部红色框中的'确定'按钮。进入购物车页面后，点击购物车中第一件商品，点击删除按钮。",
+    "lang": "cn",
+    "_source": "Authored2",
+    "_source_id": null,
+    "_referenced_apps": [
+      "京东"
+    ],
+    "_rw_usage": {
+      "prompt_tokens": 680,
+      "completion_tokens": 123,
+      "total_tokens": 803
+    },
+    "_rw_duration_s": 2.92
+  },
+  {
+    "Task_id": 103,
+    "Task Type": "旅游出行",
+    "Invovled_App_Name": "高德地图(Amap)",
+    "Original-INS": "用高德地图导航去最近的24小时便利店",
+    "Level1-INS": "用高德地图导航去最近的24小时便利店",
+    "Level2-INS": "用高德地图找到最近的24小时便利店并开始导航",
+    "Level3-INS": "打开高德地图app，点击屏幕中间的放大镜图标进入搜索框，输入'最近的24小时便利店'，点击右侧蓝色字体的'搜索'按钮，选择搜索结果中的第一个地点，点击黑色边框星星图标保存位置，点击上方的搜索框，输入朋友名称，点击搜索结果准备发送，点击绿色框中的'发送'按钮，点击页面底部蓝色框中的'路线'按钮，点击页面底部蓝色框中的'开始导航'按钮",
+    "lang": "cn",
+    "_source": "Authored2",
+    "_source_id": null,
+    "_referenced_apps": [
+      "高德地图"
+    ],
+    "_rw_usage": {
+      "prompt_tokens": 716,
+      "completion_tokens": 164,
+      "total_tokens": 880
+    },
+    "_rw_duration_s": 4.07
+  },
+  {
+    "Task_id": 104,
+    "Task Type": "旅游出行",
+    "Invovled_App_Name": "高德地图(Amap)",
+    "Original-INS": "用高德地图查一下从香格里拉酒店到白云机场机场的路线,优先选择地铁出行。",
+    "Level1-INS": "用高德地图查一下从香格里拉酒店到白云机场机场的路线,优先选择地铁出行。",
+    "Level2-INS": "用高德地图查找从香格里拉酒店到白云机场的路线，并优先选择地铁出行。",
+    "Level3-INS": "打开高德地图app，点击搜索框中的放大镜图标，在搜索框中输入目的地位置，点击搜索框右侧蓝色字体的'搜索'按钮，点击搜索结果中的第一个地点，点击底部蓝色框中的'路线'按钮，点击'开始导航'按钮，选择地铁出行方式，点击开始导航。",
+    "lang": "cn",
+    "_source": "Authored2",
+    "_source_id": null,
+    "_referenced_apps": [
+      "高德地图"
+    ],
+    "_rw_usage": {
+      "prompt_tokens": 855,
+      "completion_tokens": 131,
+      "total_tokens": 986
+    },
+    "_rw_duration_s": 4.68
+  },
+  {
+    "Task_id": 105,
+    "Task Type": "社交媒体",
+    "Invovled_App_Name": "知乎、微信",
+    "Original-INS": "在知乎上关注'人工智能'这个话题,然后把该话题下的热门第一篇文章分享到我的微信",
+    "Level1-INS": "在知乎上关注'人工智能'这个话题,然后把该话题下的热门第一篇文章分享到我的微信",
+    "Level2-INS": "在知乎上关注'人工智能'这个话题，然后将该话题下的热门第一篇文章分享到微信好友",
+    "Level3-INS": "打开知乎app，点击进入一个话题页面，点击关注按钮关注'人工智能'这个话题，然后点击进入该话题下的热门第一篇文章，点击右上角的分享按钮，选择分享到微信好友，搜索并选择好友，点击发送按钮完成分享",
+    "lang": "cn",
+    "_source": "Authored2",
+    "_source_id": null,
+    "_referenced_apps": [
+      "知乎",
+      "微信"
+    ],
+    "_rw_usage": {
+      "prompt_tokens": 793,
+      "completion_tokens": 128,
+      "total_tokens": 921
+    },
+    "_rw_duration_s": 2.99
+  },
+  {
+    "Task_id": 106,
+    "Task Type": "娱乐",
+    "Invovled_App_Name": "猫眼",
+    "Original-INS": "帮我看看最近有什么好看的科幻电影",
+    "Level1-INS": "帮我看看最近有什么好看的科幻电影",
+    "Level2-INS": "使用猫眼app搜索最近的科幻电影，并查看电影的评价和推荐",
+    "Level3-INS": "打开猫眼app，点击顶部的搜索框，输入'科幻电影'，点击右侧红色的搜索按钮，向下滑动查看更多结果。点击第一个电影链接，向下滑动页面查看电影评论，点击评论下方红色的'查看全部'按钮查看全部评价。",
+    "lang": "cn",
+    "_source": "Authored2",
+    "_source_id": null,
+    "_referenced_apps": [
+      "猫眼"
+    ],
+    "_rw_usage": {
+      "prompt_tokens": 741,
+      "completion_tokens": 121,
+      "total_tokens": 862
+    },
+    "_rw_duration_s": 3.41
+  },
+  {
+    "Task_id": 107,
+    "Task Type": "社交媒体",
+    "Invovled_App_Name": "微信",
+    "Original-INS": "帮我给微信好友‘xxoo’发一条生日祝福，要显得亲切热情，文案要提到祝她越来越年轻，身体健康，50字以内",
+    "Level1-INS": "帮我给微信好友‘xxoo’发一条生日祝福，要显得亲切热情，文案要提到祝她越来越年轻，身体健康，50字以内",
+    "Level2-INS": "用微信给好友‘xxoo’发送一条生日祝福消息，内容亲切热情，提到祝她越来越年轻和身体健康，字数控制在50字以内",
+    "Level3-INS": "打开微信app，点击右上角的加号按钮，选择添加好友，搜索好友‘xxoo’并进入聊天界面，点击输入框，输入生日祝福文案‘祝xxoo生日快乐，越来越年轻，身体健康！’，点击发送按钮",
+    "lang": "cn",
+    "_source": "Authored2",
+    "_source_id": null,
+    "_referenced_apps": [
+      "微信"
+    ],
+    "_rw_usage": {
+      "prompt_tokens": 585,
+      "completion_tokens": 128,
+      "total_tokens": 713
+    },
+    "_rw_duration_s": 3.69
+  },
+  {
+    "Task_id": 108,
+    "Task Type": "出行交通",
+    "Invovled_App_Name": "携程旅行、微信",
+    "Original-INS": "帮我查一下12月1号从广州到桂林的往返火车票,然后把价格最低的那趟车信息发给我",
+    "Level1-INS": "帮我查一下12月1号从广州到桂林的往返火车票,然后把价格最低的那趟车信息发给我",
+    "Level2-INS": "用携程旅行查询12月1号从广州到桂林的往返火车票，找到价格最低的车次信息并发送给我",
+    "Level3-INS": "打开携程旅行app，点击火车票图标，进入查询页面，选择出发地为广州，目的地为桂林，出发时间为12月1日，返回时间自动匹配，点击搜索后在结果列表中找到价格最低的车次，点击预订按钮，确认信息后点击支付，支付成功后将车次信息发送到微信",
+    "lang": "cn",
+    "_source": "Authored2",
+    "_source_id": null,
+    "_referenced_apps": [
+      "携程旅行",
+      "微信"
+    ],
+    "_rw_usage": {
+      "prompt_tokens": 720,
+      "completion_tokens": 146,
+      "total_tokens": 866
+    },
+    "_rw_duration_s": 3.46
+  },
+  {
+    "Task_id": 109,
+    "Task Type": "信息搜索",
+    "Invovled_App_Name": "夸克",
+    "Original-INS": "告诉我今年的世界杯在哪里举行，日期是多少",
+    "Level1-INS": "告诉我今年的世界杯在哪里举行，日期是多少",
+    "Level2-INS": "使用夸克搜索引擎查找今年世界杯的举办地点和日期",
+    "Level3-INS": "打开夸克app，点击页面中间的搜索框，输入'今年世界杯举办地点和日期'，点击搜索框右侧蓝色框中的右箭头，向下滑动查看结果。",
+    "lang": "cn",
+    "_source": "Authored2",
+    "_source_id": null,
+    "_referenced_apps": [
+      "夸克"
+    ],
+    "_rw_usage": {
+      "prompt_tokens": 631,
+      "completion_tokens": 91,
+      "total_tokens": 722
+    },
+    "_rw_duration_s": 2.42
+  },
+  {
+    "Task_id": 110,
+    "Task Type": "系统软件",
+    "Invovled_App_Name": "设置",
+    "Original-INS": "在设置中打开wifi",
+    "Level1-INS": "在设置中打开wifi",
+    "Level2-INS": "在设置应用中打开WiFi连接功能",
+    "Level3-INS": "打开设置app，点击WiFi连接选项，开启WiFi开关",
+    "lang": "cn",
+    "_source": "Authored2",
+    "_source_id": null,
+    "_referenced_apps": [
+      "设置"
+    ],
+    "_rw_usage": {
+      "prompt_tokens": 552,
+      "completion_tokens": 57,
+      "total_tokens": 609
+    },
+    "_rw_duration_s": 2.37
+  },
+  {
+    "Task_id": 111,
+    "Task Type": "社交媒体",
+    "Invovled_App_Name": "微信",
+    "Original-INS": "打开微信给申睿发一个10块钱的红包",
+    "Level1-INS": "打开微信给申睿发一个10块钱的红包",
+    "Level2-INS": "用微信给申睿发送一个10块钱的红包",
+    "Level3-INS": "打开微信app，点击右上角的放大镜图标，输入好友名字申睿，点击进入聊天页面，点击输入框右侧的加号图标，点击下方带有'hongbao'文字的红色信封图标，输入金额10元，点击'塞钱进红包'按钮进入支付确认页面，停留在此页面即可，不要实际支付发送红包。",
+    "lang": "cn",
+    "_source": "Authored2",
+    "_source_id": null,
+    "_referenced_apps": [
+      "微信"
+    ],
+    "_rw_usage": {
+      "prompt_tokens": 617,
+      "completion_tokens": 120,
+      "total_tokens": 737
+    },
+    "_rw_duration_s": 3.71
+  },
+  {
+    "Task_id": 112,
+    "Task Type": "生活",
+    "Invovled_App_Name": "微信",
+    "Original-INS": "打开微信统计一下我最近一周的支付是多少",
+    "Level1-INS": "打开微信统计一下我最近一周的支付是多少",
+    "Level2-INS": "用微信在'我-服务-钱包-账单'中查看最近一周的支付金额",
+    "Level3-INS": "打开微信app，点击右下角的'我'，点击'服务'，点击'钱包'，点击'账单'，在账单页面查看并统计最近一周的支付记录金额。",
+    "lang": "cn",
+    "_source": "Authored2",
+    "_source_id": null,
+    "_referenced_apps": [
+      "微信"
+    ],
+    "_rw_usage": {
+      "prompt_tokens": 559,
+      "completion_tokens": 83,
+      "total_tokens": 642
+    },
+    "_rw_duration_s": 2.68
   }
 ]

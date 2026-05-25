@@ -52,6 +52,16 @@
       "min": 47.0,
       "max": 6973.0
     },
+    "apps_per_task": {
+      "n": 50,
+      "total": 84.0,
+      "mean": 1.68,
+      "median": 2.0,
+      "std": 0.79,
+      "min": 0.0,
+      "max": 4.0
+    },
+    "distinct_apps": 32,
     "output_input_ratio": 0.1893
   },
   "by_type": [
@@ -65,7 +75,8 @@
       "tot_total": 25606,
       "tot_mean": 948.4,
       "dur_total": 100.0,
-      "dur_mean": 3.7
+      "dur_mean": 3.7,
+      "apps_mean": 1.74
     },
     {
       "task_type": "社交媒体",
@@ -77,7 +88,8 @@
       "tot_total": 4545,
       "tot_mean": 909,
       "dur_total": 17.7,
-      "dur_mean": 3.53
+      "dur_mean": 3.53,
+      "apps_mean": 2
     },
     {
       "task_type": "生活",
@@ -89,7 +101,8 @@
       "tot_total": 4283,
       "tot_mean": 856.6,
       "dur_total": 17.8,
-      "dur_mean": 3.56
+      "dur_mean": 3.56,
+      "apps_mean": 1.4
     },
     {
       "task_type": "旅游",
@@ -101,7 +114,8 @@
       "tot_total": 3584,
       "tot_mean": 896,
       "dur_total": 17.2,
-      "dur_mean": 4.31
+      "dur_mean": 4.31,
+      "apps_mean": 1
     },
     {
       "task_type": "购物",
@@ -113,7 +127,8 @@
       "tot_total": 2731,
       "tot_mean": 910.3,
       "dur_total": 10.9,
-      "dur_mean": 3.64
+      "dur_mean": 3.64,
+      "apps_mean": 2
     },
     {
       "task_type": "娱乐",
@@ -125,7 +140,8 @@
       "tot_total": 1011,
       "tot_mean": 1011,
       "dur_total": 5.3,
-      "dur_mean": 5.35
+      "dur_mean": 5.35,
+      "apps_mean": 2
     },
     {
       "task_type": "系统软件",
@@ -137,7 +153,8 @@
       "tot_total": 618,
       "tot_mean": 618,
       "dur_total": 3.4,
-      "dur_mean": 3.38
+      "dur_mean": 3.38,
+      "apps_mean": 1
     },
     {
       "task_type": "出行",
@@ -149,7 +166,8 @@
       "tot_total": 944,
       "tot_mean": 944,
       "dur_total": 3.7,
-      "dur_mean": 3.68
+      "dur_mean": 3.68,
+      "apps_mean": 2
     },
     {
       "task_type": "信息搜索",
@@ -161,7 +179,8 @@
       "tot_total": 569,
       "tot_mean": 569,
       "dur_total": 2.9,
-      "dur_mean": 2.93
+      "dur_mean": 2.93,
+      "apps_mean": 1
     },
     {
       "task_type": "学术搜索",
@@ -173,7 +192,8 @@
       "tot_total": 719,
       "tot_mean": 719,
       "dur_total": 3.2,
-      "dur_mean": 3.18
+      "dur_mean": 3.18,
+      "apps_mean": 1
     },
     {
       "task_type": "比价",
@@ -185,7 +205,8 @@
       "tot_total": 998,
       "tot_mean": 998,
       "dur_total": 4.4,
-      "dur_mean": 4.4
+      "dur_mean": 4.4,
+      "apps_mean": 3
     }
   ]
 }

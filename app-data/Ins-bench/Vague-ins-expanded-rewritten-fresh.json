@@ -1,0 +1,3364 @@
+[
+  {
+    "Task_id": 1,
+    "Task Type": "社交媒体",
+    "Invovled_App_Name": "美图、微信",
+    "Original-INS": "把最新的自拍美颜后发给clock",
+    "Level1-INS": "把最新的自拍美颜后发给clock",
+    "Level2-INS": "用美图秀秀美颜相机最新的一张照片, 打开微信将美颜好的照片发送给好友clock并发送消息“看看这个效果怎么样？",
+    "Level3-INS": "打开美图秀秀app，点击人像美容，选择图片中最新的自拍照，点击一键美容后点击右下角的打勾符号，然后点击右上角的保存。保存照片后，点击分享到微信好友，选择分享给微信好友clock，并发送消息'看看这个效果怎么样？",
+    "Level2-INS_v2": "用美图秀秀美颜最新的一张自拍照，打开微信将美颜好的照片发送给好友clock",
+    "Level3-INS_v2": "打开美图秀秀app，点击'人像美容'，选择图片中最新的自拍照，点击'一键美颜'，选择一个滤镜，点击右下角的打勾符号，点击右上角的保存。保存照片后，打开微信，点击右上角的加号，点击'发送给好友'，选择好友clock，点击发送按钮",
+    "_rewrite_meta": {
+      "referenced_apps": [
+        "美图秀秀",
+        "微信"
+      ],
+      "reason": "美图秀秀提供一键美颜路径，微信负责发送给好友",
+      "kb_apps_injected": [
+        "美图秀秀",
+        "微信"
+      ],
+      "kb_slice_chars": 1030,
+      "usage": {
+        "prompt_tokens": 790,
+        "completion_tokens": 156,
+        "total_tokens": 946
+      },
+      "duration_s": 5.02,
+      "model": "qwen/qwen3-8b",
+      "timestamp": "2026-05-25T10:09:59"
+    }
+  },
+  {
+    "Task_id": 2,
+    "Task Type": "娱乐",
+    "Invovled_App_Name": "猫眼、微信",
+    "Original-INS": "查一下正在热映的电影，问问好友clock想看其中哪一部电影。",
+    "Level1-INS": "查一下正在热映的电影，问问好友clock想看其中哪一部电影。",
+    "Level2-INS": "在猫眼查看热映电影并截图, 然后打开微信将截图发送给好友clock, 最后发送消息“你想看什么电影？",
+    "Level3-INS": "打开猫眼app，点击下方的‘电影/影院’查看当前热映电影，在当前页面截图保存当前热映电影。打开微信，将截图发送给好友clock，最后发送消息‘你想看什么电影？’",
+    "Level2-INS_v2": "用猫眼查找正在热映的电影，然后通过微信询问好友clock想看哪一部电影。",
+    "Level3-INS_v2": "打开猫眼app，点击顶部的搜索框，输入搜索内容，点击右侧红色的搜索按钮，向下滑动查看更多结果，找到正在热映的电影。点击电影名称下方的‘想看’按钮。然后打开微信app，点击右上角的加号，点击‘添加好友’，在搜索栏中输入好友clock的名字，点击搜索结果中的第一个好友，点击‘发送’按钮发送消息‘看看你想看哪一部电影？’。",
+    "_rewrite_meta": {
+      "referenced_apps": [
+        "猫眼",
+        "微信"
+      ],
+      "reason": "猫眼提供电影搜索和想看功能，微信用于发送消息询问好友意见",
+      "kb_apps_injected": [
+        "猫眼",
+        "微信"
+      ],
+      "kb_slice_chars": 1340,
+      "usage": {
+        "prompt_tokens": 838,
+        "completion_tokens": 173,
+        "total_tokens": 1011
+      },
+      "duration_s": 3.61,
+      "model": "qwen/qwen3-8b",
+      "timestamp": "2026-05-25T10:10:02"
+    }
+  },
+  {
+    "Task_id": 3,
+    "Task Type": "购物",
+    "Invovled_App_Name": "京东 笔记",
+    "Original-INS": "找几件300元左右的Nike运动短袖，比较推荐的放进购物车，并记录一份对比分析报告。",
+    "Level1-INS": "找几件300元左右的Nike运动短袖，比较推荐的放进购物车，并记录一份对比分析报告。",
+    "Level2-INS": "打开京东并搜索品牌为Nike、尺码XL、300元左右的运动短袖, 上下滑动页面, 根据店铺评分、用户评论等依据选择三个加入购买车, 退出京东并生成选择这三个店铺的分析报告, 内容包括各自的优缺点等写入备忘录。",
+    "Level3-INS": "打开京东appp，点击顶部搜索框后搜索：'NIKE运动短袖 XL 300元'。滑动页面可以选择不同的商品。要求选择三个不同的商品加入购物车，在商品详情页下滑，点击买家评价，可查看评论。最后退出，打开备忘录，记录三个店铺的分析报告，记录优缺点。",
+    "Level2-INS_v2": "在京东上搜索几件价格在300元左右的Nike运动短袖，将推荐的商品加入购物车，并使用备忘录创建一份对比分析报告。",
+    "Level3-INS_v2": "打开京东app，点击顶部的搜索框，输入'Nike运动短袖'，点击红色的'搜索'按钮，下拉搜索列表，选择价格在300元左右的几件商品，点击进入商品页面，点击底部棕色框中的'加入购物车'，点击红色框中的'确定'按钮。然后打开备忘录app，点击顶部的按钮打开设置面板，点击'创建笔记'，输入'创建笔记'的内容，点击黑色对勾图标完成笔记。",
+    "_rewrite_meta": {
+      "referenced_apps": [
+        "京东",
+        "备忘录/笔记"
+      ],
+      "reason": "京东用于搜索和加入购物车，备忘录用于创建对比分析报告",
+      "kb_apps_injected": [
+        "京东",
+        "备忘录/笔记"
+      ],
+      "kb_slice_chars": 745,
+      "usage": {
+        "prompt_tokens": 741,
+        "completion_tokens": 187,
+        "total_tokens": 928
+      },
+      "duration_s": 3.81,
+      "model": "qwen/qwen3-8b",
+      "timestamp": "2026-05-25T10:10:06"
+    }
+  },
+  {
+    "Task_id": 4,
+    "Task Type": "旅游",
+    "Invovled_App_Name": "小红书、大众点评",
+    "Original-INS": "帮我找广州的度假村，整理用户评价后记录下来。",
+    "Level1-INS": "帮我找广州的度假村，整理用户评价后记录下来。",
+    "Level2-INS": "打开去哪儿网查找广州一个度假村的信息, 在大众点评查看该度假村的用户评价, 将用户评价记录到备忘录。",
+    "Level3-INS": "打开去哪儿旅行app，点击上方搜索框后搜索‘广州度假村’，记住一个度假村的信息，打开大众点评app，在大众点评app上方搜索框搜索该度假村信息，点击度假村后点击评价。打开备忘录，点击右下角＋号新建备忘录，将用户评价记录到备忘录。",
+    "Level2-INS_v2": "使用大众点评查找广州的度假村，整理用户评价后记录下来。",
+    "Level3-INS_v2": "打开大众点评app，点击顶部的搜索框，输入'广州度假村'，点击右侧的黑色'搜索'文字按钮，向下滑动查看更多度假村，点击度假村链接进入详情页面，点击页面中间的黑色'评价'按钮，向下滑动查看更多评论。整理好评价内容后，点击页面底部的'写评价'按钮，输入评论内容并上传照片，点击底部黄色框中的'发布'按钮完成发布。",
+    "_rewrite_meta": {
+      "referenced_apps": [
+        "大众点评"
+      ],
+      "reason": "大众点评提供查找度假村和查看用户评价的功能，可完成查找和记录评价的任务",
+      "kb_apps_injected": [
+        "小红书",
+        "大众点评"
+      ],
+      "kb_slice_chars": 1342,
+      "usage": {
+        "prompt_tokens": 834,
+        "completion_tokens": 163,
+        "total_tokens": 997
+      },
+      "duration_s": 3.43,
+      "model": "qwen/qwen3-8b",
+      "timestamp": "2026-05-25T10:10:10"
+    }
+  },
+  {
+    "Task_id": 5,
+    "Task Type": "系统软件",
+    "Invovled_App_Name": "应用商店",
+    "Original-INS": "下载游戏水果忍者。",
+    "Level1-INS": "下载游戏水果忍者。",
+    "Level2-INS": "在应用商店中下载游戏水果忍者。",
+    "Level3-INS": "打开应用市场，点击上方搜索框后搜索水果忍者，选择安装",
+    "_orig_task_id": 6,
+    "Level2-INS_v2": "在应用商店中搜索并下载游戏水果忍者",
+    "Level3-INS_v2": "打开应用商店app，点击搜索功能，输入'水果忍者'，在搜索结果中找到游戏水果忍者，点击下载安装按钮，等待下载完成后点击安装。",
+    "_rewrite_meta": {
+      "referenced_apps": [
+        "应用商店"
+      ],
+      "reason": "应用商店提供搜索和下载游戏水果忍者的功能",
+      "kb_apps_injected": [
+        "应用商店"
+      ],
+      "kb_slice_chars": 120,
+      "usage": {
+        "prompt_tokens": 509,
+        "completion_tokens": 92,
+        "total_tokens": 601
+      },
+      "duration_s": 3.25,
+      "model": "qwen/qwen3-8b",
+      "timestamp": "2026-05-25T10:10:13"
+    }
+  },
+  {
+    "Task_id": 6,
+    "Task Type": "",
+    "Invovled_App_Name": "京东 知乎",
+    "Original-INS": "找到一本值得阅读的悬疑小说，并添加到我的购物车",
+    "Level1-INS": "找到一本值得阅读的悬疑小说，并添加到我的购物车",
+    "Level2-INS": "打开小红书或知乎搜索悬疑小说推荐，然后在京东/淘宝/拼多多app搜索该书并加入购物车",
+    "Level3-INS": "首先打开小红书或知乎app，点击顶部搜索框，输入‘最值得阅读的悬疑小说’，浏览笔记或回答，找到推荐的小说Original-INS。然后打开京东、淘宝或拼多多app，在顶部的搜索框中输入刚刚找到的小说Original-INS并搜索，在搜索结果中选择一个商品，点击进入详\n情页，然后点击‘加入购物车’按钮。",
+    "_orig_task_id": 7,
+    "Level2-INS_v2": "在知乎上找到一本值得阅读的悬疑小说，然后在京东上将该小说添加到购物车",
+    "Level3-INS_v2": "打开知乎app，点击顶部的'热榜'文字按钮，下拉屏幕并点击一个悬疑小说相关的博客进入详情页，点击关注用户按钮。打开京东app，点击顶部的搜索框，输入'悬疑小说'，点击红色的'搜索'文字按钮，下拉搜索列表，点击一本值得阅读的悬疑小说进入商品页面，点击底部棕色框内的'加入购物车'文字，点击底部红色框内的'确定'按钮",
+    "_rewrite_meta": {
+      "referenced_apps": [
+        "知乎",
+        "京东"
+      ],
+      "reason": "知乎用于寻找值得阅读的悬疑小说，京东用于将小说加入购物车",
+      "kb_apps_injected": [
+        "京东",
+        "知乎"
+      ],
+      "kb_slice_chars": 713,
+      "usage": {
+        "prompt_tokens": 693,
+        "completion_tokens": 174,
+        "total_tokens": 867
+      },
+      "duration_s": 3.76,
+      "model": "qwen/qwen3-8b",
+      "timestamp": "2026-05-25T10:10:17"
+    }
+  },
+  {
+    "Task_id": 7,
+    "Task Type": "生活",
+    "Invovled_App_Name": "闹钟",
+    "Original-INS": "定一个今天晚上8点的闹钟，我要看球赛。",
+    "Level1-INS": "定一个今天晚上8点的闹钟，我要看球赛。",
+    "Level2-INS": "打开时钟, 定一个今天晚上8点的闹钟, 我要看球赛。",
+    "Level3-INS": "打开时钟，点击下方+号新建闹钟，滑动数字滚轮设置时间为今晚八点。点击闹钟名，设定为“看球赛”，点击确定。点击右上角的打勾符号确认保存。",
+    "_orig_task_id": 8,
+    "Level2-INS_v2": "在Clock应用中设置一个今晚8点的闹钟，并为其添加标签'看球赛'",
+    "Level3-INS_v2": "打开Clock应用，点击右上角的加号按钮，允许权限后点击右上角的保存按钮。设置时间为今晚8点，点击右上角的保存按钮。然后点击该闹钟，点击标签输入框，输入'看球赛'，点击右上角的保存按钮。",
+    "_rewrite_meta": {
+      "referenced_apps": [
+        "Clock"
+      ],
+      "reason": "Clock应用提供设置闹钟和添加标签的功能，满足设置时间及添加备注的需求",
+      "kb_apps_injected": [
+        "闹钟"
+      ],
+      "kb_slice_chars": 581,
+      "usage": {
+        "prompt_tokens": 630,
+        "completion_tokens": 134,
+        "total_tokens": 764
+      },
+      "duration_s": 3.69,
+      "model": "qwen/qwen3-8b",
+      "timestamp": "2026-05-25T10:10:20"
+    }
+  },
+  {
+    "Task_id": 8,
+    "Task Type": "",
+    "Invovled_App_Name": "bilibili 微信",
+    "Original-INS": "查看阅兵的视频并发到朋友圈",
+    "Level1-INS": "查看阅兵的视频并发到朋友圈",
+    "Level2-INS": "打开哔哩哔哩app搜索阅兵视频并分享到微信好友睿",
+    "Level3-INS": "打开哔哩哔哩app，点击顶部搜索框输入‘最近阅兵’，点击搜索并选择一个视频观看，然后点击分享箭头图标，选择微信图标跳转到微信app，搜索好友‘睿’并点击发送。",
+    "_orig_task_id": 9,
+    "Level2-INS_v2": "用哔哩哔哩查看阅兵的视频，然后将视频发布到微信朋友圈",
+    "Level3-INS_v2": "打开哔哩哔哩app，点击顶部的搜索栏，输入搜索内容，点击右侧的粉色搜索按钮，选择想要观看的阅兵视频，点击播放。播放完成后，点击右上角的分享按钮，选择分享到微信，然后在微信中点击发布朋友圈，选择从相册中选择图片，选择该视频，点击完成，输入朋友圈内容，点击发布。",
+    "_rewrite_meta": {
+      "referenced_apps": [
+        "哔哩哔哩",
+        "微信"
+      ],
+      "reason": "哔哩哔哩提供视频播放功能，微信负责发布朋友圈",
+      "kb_apps_injected": [
+        "哔哩哔哩",
+        "微信"
+      ],
+      "kb_slice_chars": 2161,
+      "usage": {
+        "prompt_tokens": 1045,
+        "completion_tokens": 150,
+        "total_tokens": 1195
+      },
+      "duration_s": 4.79,
+      "model": "qwen/qwen3-8b",
+      "timestamp": "2026-05-25T10:10:25"
+    }
+  },
+  {
+    "Task_id": 9,
+    "Task Type": "",
+    "Invovled_App_Name": "小红书 京东 淘宝 拼多多",
+    "Original-INS": "给我推荐一个性价比高的香水，并添加到我的购物车",
+    "Level1-INS": "给我推荐一个性价比高的香水，并添加到我的购物车",
+    "Level2-INS": "",
+    "Level3-INS": "打开小红书app,在顶部搜索框输入'性价比高的香水'并搜索,浏览笔记内容,找到一款推荐的香水并记住其Original-INS.接着,依次打开淘宝,京东,拼多多app,在各自的搜索框中输入该香水Original-INS进行搜索,查看商品价格.比较各平台价格后,跳转到价格最优惠的app商品界面,点击'加入购物车'按钮.",
+    "_orig_task_id": 11,
+    "Level2-INS_v2": "在小红书上搜索性价比高的香水推荐，并将推荐的商品添加到购物车",
+    "Level3-INS_v2": "打开小红书app，点击顶部的放大镜图标，输入关键词'性价比高的香水'，点击搜索按钮。浏览搜索结果，找到推荐的香水笔记，点击进入详情页。点击右上角的'加入购物车'按钮，将商品添加到购物车。",
+    "_rewrite_meta": {
+      "referenced_apps": [
+        "小红书",
+        "京东",
+        "淘宝",
+        "拼多多"
+      ],
+      "reason": "小红书提供香水推荐内容，京东、淘宝、拼多多支持将商品加入购物车",
+      "kb_apps_injected": [
+        "小红书",
+        "京东",
+        "淘宝",
+        "拼多多"
+      ],
+      "kb_slice_chars": 1672,
+      "usage": {
+        "prompt_tokens": 1024,
+        "completion_tokens": 139,
+        "total_tokens": 1163
+      },
+      "duration_s": 3.5,
+      "model": "qwen/qwen3-8b",
+      "timestamp": "2026-05-25T10:10:29"
+    }
+  },
+  {
+    "Task_id": 10,
+    "Task Type": "",
+    "Invovled_App_Name": "哔哩哔哩 微信",
+    "Original-INS": "播放凡人修仙传并分享给rui",
+    "Level1-INS": "播放凡人修仙传并分享给rui",
+    "Level2-INS": "打开哔哩哔哩app，搜索并播放《凡人修仙传》，然后分享给微信好友rui",
+    "Level3-INS": "打开哔哩哔哩app，点击顶部的搜索框，输入'凡人修仙传'并搜索。在搜索结果中点击要播放的视频。在视频播放界面，点击分享按钮（通常是一个向右的箭头图标），选择分享到微信好友。跳转到微信后，在搜索框中输入好友名'rui'，点击搜索到的好友，最后点击发送按钮完成分享。",
+    "_orig_task_id": 12,
+    "Level2-INS_v2": "用哔哩哔哩播放《凡人修仙传》并分享给好友rui",
+    "Level3-INS_v2": "打开哔哩哔哩app，在搜索栏输入'凡人修仙传'，点击搜索按钮，选择视频播放，点击右箭头图标，点击微信图标跳转到微信，点击搜索栏输入好友rui，点击搜索结果，点击发送按钮。",
+    "_rewrite_meta": {
+      "referenced_apps": [
+        "哔哩哔哩",
+        "微信"
+      ],
+      "reason": "哔哩哔哩提供视频播放和分享功能，微信负责发送给好友",
+      "kb_apps_injected": [
+        "哔哩哔哩",
+        "微信"
+      ],
+      "kb_slice_chars": 872,
+      "usage": {
+        "prompt_tokens": 725,
+        "completion_tokens": 129,
+        "total_tokens": 854
+      },
+      "duration_s": 3.02,
+      "model": "qwen/qwen3-8b",
+      "timestamp": "2026-05-25T10:10:32"
+    }
+  },
+  {
+    "Task_id": 11,
+    "Task Type": "",
+    "Invovled_App_Name": "",
+    "Original-INS": "查看红米手机的价格。",
+    "Level1-INS": "查看红米手机的价格。",
+    "Level2-INS": "在京东中查看红米手机的价格。",
+    "Level3-INS": "打开京东app，点击顶部搜索栏并输入红米手机，点击搜索查看红米手机的价格。",
+    "_orig_task_id": 13,
+    "Level2-INS_v2": "使用高德地图查看红米手机的价格。",
+    "Level3-INS_v2": "打开高德地图app，点击屏幕中间的放大镜搜索框，输入'红米手机'，点击右侧蓝色字体的'搜索'按钮，点击搜索结果列表中的第一个地点，点击页面底部左侧带有'周边'字样的放大镜图标，点击顶部列中带有'酒店'字样的蓝色图标，向下滑动查看更多酒店，点击一个酒店查看详细信息，点击底部蓝色框中的'路线'按钮，点击底部蓝色框中的'开始导航'按钮，点击黑色边框星星图标保存酒店，点击带有'分享'字样的向上箭头图标，点击微信图标分享酒店给微信好友clock，并发送消息'看看这个效果怎么样？'",
+    "_rewrite_meta": {
+      "referenced_apps": [
+        "高德地图"
+      ],
+      "reason": "高德地图提供周边酒店信息查询功能，可间接获取红米手机价格信息",
+      "kb_apps_injected": [
+        "去哪儿旅行",
+        "高德地图(Amap)",
+        "高德地图",
+        "闹钟"
+      ],
+      "kb_slice_chars": 6973,
+      "usage": {
+        "prompt_tokens": 2262,
+        "completion_tokens": 202,
+        "total_tokens": 2464
+      },
+      "duration_s": 4.75,
+      "model": "qwen/qwen3-8b",
+      "timestamp": "2026-05-25T10:10:36"
+    }
+  },
+  {
+    "Task_id": 12,
+    "Task Type": "",
+    "Invovled_App_Name": "大宗点评",
+    "Original-INS": "推荐一个广州天河区的餐厅",
+    "Level1-INS": "推荐一个广州天河区的餐厅",
+    "Level2-INS": "打开大众点评app，查找广州天河区的餐厅推荐。",
+    "Level3-INS": "打开大众点评app，点击顶部的搜索框，输入'广州天河区餐厅'，点击搜索按钮，然后浏览搜索结果列表以查找推荐。",
+    "_orig_task_id": 14,
+    "Level2-INS_v2": "使用大众点评搜索并推荐广州天河区的一家餐厅",
+    "Level3-INS_v2": "打开大众点评app，点击顶部的搜索框，输入'广州天河区'，点击搜索框右侧的黑色'搜索'文字，然后点击顶部右角的地图图标，选择合适的餐厅并推荐",
+    "_rewrite_meta": {
+      "referenced_apps": [
+        "大众点评"
+      ],
+      "reason": "大众点评提供搜索和地图导航功能，可用来查找并推荐广州天河区的餐厅",
+      "kb_apps_injected": [
+        "大众点评"
+      ],
+      "kb_slice_chars": 477,
+      "usage": {
+        "prompt_tokens": 592,
+        "completion_tokens": 107,
+        "total_tokens": 699
+      },
+      "duration_s": 3.82,
+      "model": "qwen/qwen3-8b",
+      "timestamp": "2026-05-25T10:10:40"
+    }
+  },
+  {
+    "Task_id": 13,
+    "Task Type": "",
+    "Invovled_App_Name": "大众点评 高德",
+    "Original-INS": "查看生活服务平台，推荐一个广州天河区的餐厅，并导航到该餐厅",
+    "Level1-INS": "查看生活服务平台，推荐一个广州天河区的餐厅，并导航到该餐厅",
+    "Level2-INS": "打开大众点评app搜索广州天河区的餐厅，然后使用高德地图app导航至该餐厅",
+    "Level3-INS": "打开大众点评app，点击顶部搜索框输入‘广州天河区餐厅’并搜索，在结果列表中浏览评价和信息，选择一家餐厅；然后打开高德地图app，在搜索框中输入该餐厅的Original-INS，点击搜索，在结果页面点击‘路线’，最后点击‘开始导航’前往该地。",
+    "_orig_task_id": 15,
+    "Level2-INS_v2": "使用大众点评查找广州天河区的餐厅并查看评价，使用高德地图导航到该餐厅",
+    "Level3-INS_v2": "打开大众点评app，点击顶部的搜索框，输入'广州天河区'，点击右侧黑色字体的'搜索'按钮，点击顶部右角的'地图'图标，查看地图上的餐厅信息，点击某个餐厅进入详情页，点击页面中间的'评价'按钮，向下滚动查看评论。然后打开高德地图app，点击中间的放大镜图标，输入'广州天河区'，点击右侧蓝色字体的'搜索'按钮，点击第一个搜索结果，点击页面底部左角的'周边'图标，点击顶部列中的'美食'图标，向下滚动查看餐厅信息，点击一个餐厅，点击底部蓝色框中的'路线'按钮，点击底部蓝色框中的'开始导航'按钮，点击黑色边框的星形图标保存该餐厅。",
+    "_rewrite_meta": {
+      "referenced_apps": [
+        "大众点评",
+        "高德地图"
+      ],
+      "reason": "大众点评提供餐厅搜索和评价功能，高德地图负责导航到餐厅",
+      "kb_apps_injected": [
+        "大众点评",
+        "高德地图"
+      ],
+      "kb_slice_chars": 3582,
+      "usage": {
+        "prompt_tokens": 1374,
+        "completion_tokens": 239,
+        "total_tokens": 1613
+      },
+      "duration_s": 6.38,
+      "model": "qwen/qwen3-8b",
+      "timestamp": "2026-05-25T10:10:47"
+    }
+  },
+  {
+    "Task_id": 14,
+    "Task Type": "",
+    "Invovled_App_Name": "美团",
+    "Original-INS": "我想喝奶茶",
+    "Level1-INS": "我想喝奶茶",
+    "Level2-INS": "打开美团app搜索并下单购买奶茶",
+    "Level3-INS": "打开美团app，点击外卖图标，在顶部搜索框中输入‘奶茶’并搜索，在结果列表中选择一家店铺，进入后选择喜欢的奶茶款式，加入购物车并完成下单购买。",
+    "_orig_task_id": 16,
+    "Level2-INS_v2": "使用美团应用咨询客服关于奶茶的推荐和购买方式",
+    "Level3-INS_v2": "打开美团app，点击右下角的微笑图标（下方有'wo de'文字），点击右上角的'kefu'按钮（带有耳机符号），在客服界面咨询关于奶茶的推荐和购买方式",
+    "_rewrite_meta": {
+      "referenced_apps": [
+        "美团"
+      ],
+      "reason": "美团提供客服咨询功能，可用于询问奶茶相关问题",
+      "kb_apps_injected": [
+        "美团"
+      ],
+      "kb_slice_chars": 469,
+      "usage": {
+        "prompt_tokens": 588,
+        "completion_tokens": 102,
+        "total_tokens": 690
+      },
+      "duration_s": 3.45,
+      "model": "qwen/qwen3-8b",
+      "timestamp": "2026-05-25T10:10:50"
+    }
+  },
+  {
+    "Task_id": 15,
+    "Task Type": "生活",
+    "Invovled_App_Name": "网易云、备忘录",
+    "Original-INS": "帮我找推荐的健身歌单，把歌曲整理，并收集相关的乐评文章保存起来。",
+    "Level1-INS": "帮我找推荐的健身歌单，把歌曲整理，并收集相关的乐评文章保存起来。",
+    "Level2-INS": "打开网易云音乐寻找“推荐的健身歌单”, 将热评中的歌曲名整理至清单中, 再通过豆瓣搜索相关的乐评文章并收藏。",
+    "Level3-INS": "打开网易云app，在上方搜索框搜索‘健身歌单’，点击一个歌单后，将其中所有歌收藏到歌单，新建歌单命为‘健身歌单’。之后打开豆瓣app，顶部搜索栏搜索相关乐评文章并收藏。",
+    "_orig_task_id": 17,
+    "Level2-INS_v2": "使用网易云音乐查找推荐的健身歌单，整理歌曲并收集相关的乐评文章，保存到备忘录中。",
+    "Level3-INS_v2": "打开网易云音乐app，点击'音乐电台'，点击白色边框爱心按钮以获取推荐歌单。在歌单页面中，点击搜索框，输入'健身'并搜索相关歌曲，然后点击'创建歌单'，输入歌单名称并完成创建。在网易云音乐中找到相关的乐评文章，点击分享按钮，选择'复制链接'。打开备忘录app，点击白色加号按钮创建新笔记，输入内容为'健身歌单推荐及乐评'，粘贴复制的链接并点击完成图标保存。",
+    "_rewrite_meta": {
+      "referenced_apps": [
+        "网易云音乐",
+        "备忘录/笔记"
+      ],
+      "reason": "网易云音乐提供健身歌单推荐和歌曲搜索功能，备忘录用于保存整理后的歌曲和乐评链接",
+      "kb_apps_injected": [
+        "网易云音乐",
+        "备忘录/笔记"
+      ],
+      "kb_slice_chars": 831,
+      "usage": {
+        "prompt_tokens": 757,
+        "completion_tokens": 211,
+        "total_tokens": 968
+      },
+      "duration_s": 5.16,
+      "model": "qwen/qwen3-8b",
+      "timestamp": "2026-05-25T10:10:55"
+    }
+  },
+  {
+    "Task_id": 16,
+    "Task Type": "社交媒体",
+    "Invovled_App_Name": "哔哩哔哩、知乎、备忘录",
+    "Original-INS": "帮我找深圳科技展的介绍视频，筛选出点赞数最高的前三个评论，接着帮我在其他平台找用户体验，最终信息记录到手机上。",
+    "Level1-INS": "帮我找深圳科技展的介绍视频，筛选出点赞数最高的前三个评论，接着帮我在其他平台找用户体验，最终信息记录到手机上。",
+    "Level2-INS": "使用哔哩哔哩观看深圳科技展的介绍视频, 筛选出点赞数最高的前三个评论, 接着在知乎上的评论区查看用户体验, 最后将相关信息记录到备忘录中。",
+    "Level3-INS": "打开bilibili，在上方搜索框搜索'深圳科技展'，选择播放量高的视频点击进入，点击‘评论’查看评论区，筛选出点赞数最高的前三个评论。接着打开知乎，搜索深圳科技展。最后在备忘录记录相关信息。",
+    "_orig_task_id": 18,
+    "Level2-INS_v2": "在哔哩哔哩上找到深圳科技展的介绍视频，筛选出点赞数最高的前三个评论，然后在其他平台查找用户体验，最后将信息记录到手机的备忘录中。",
+    "Level3-INS_v2": "打开哔哩哔哩app，点击顶部的搜索栏，输入'深圳科技展'，点击右侧的粉色'搜索'按钮，在视频列表中选择一个视频，点击视频进入播放页面，点击中间的点赞图标，进入视频评论页面，点击'评论'按钮，输入评论内容，点击'发布'按钮。重复此操作，筛选出点赞数最高的前三个评论。然后打开知乎app，点击顶部的搜索栏，输入'深圳科技展用户体验'，点击右侧的粉色'搜索'按钮，在结果中查找相关推文，点击推文进入详情页，点击消息气泡图标进入评论区，输入评论内容，点击'发布'按钮。最后打开备忘录app，点击顶部的加号按钮，输入'深圳科技展介绍视频评论及用户体验'，点击完成图标保存。",
+    "_rewrite_meta": {
+      "referenced_apps": [
+        "哔哩哔哩",
+        "知乎",
+        "备忘录/笔记"
+      ],
+      "reason": "哔哩哔哩用于查找视频及评论，知乎用于查找用户体验，备忘录用于记录信息",
+      "kb_apps_injected": [
+        "哔哩哔哩",
+        "知乎",
+        "备忘录/笔记"
+      ],
+      "kb_slice_chars": 1820,
+      "usage": {
+        "prompt_tokens": 1032,
+        "completion_tokens": 281,
+        "total_tokens": 1313
+      },
+      "duration_s": 6.23,
+      "model": "qwen/qwen3-8b",
+      "timestamp": "2026-05-25T10:11:01"
+    }
+  },
+  {
+    "Task_id": 17,
+    "Task Type": "购物",
+    "Invovled_App_Name": "小红书、淘宝",
+    "Original-INS": "找推荐度高且价格低的法国粉底液，然后把最便宜的那个加入购物车。",
+    "Level1-INS": "找推荐度高且价格低的法国粉底液，然后把最便宜的那个加入购物车。",
+    "Level2-INS": "在小红书搜索推荐的法国粉底液品牌, 根据帖子总结出推荐度最高的三个品牌, 打开天猫国际搜索这三个品牌的粉底液并对比价格, 将价格最低的品牌的粉底液加入购物车。",
+    "Level3-INS": "打开小红书app，点击右上角的放大镜按键进入搜索。搜索‘推荐的法国粉底液品牌’，点击帖子查看，总结出推荐度最高的三个品牌。打开天猫国际搜索三个品牌的粉底液并对比价格，最后将价格最低的品牌的粉底液加入购物车。",
+    "_orig_task_id": 19,
+    "Level2-INS_v2": "在小红书上查找推荐度高且价格低的法国粉底液，找到最便宜的一款并加入淘宝购物车",
+    "Level3-INS_v2": "打开小红书app，点击搜索图标，输入关键词'法国粉底液'，点击搜索按钮，浏览搜索结果，找到推荐度高且价格低的产品，点击进入产品页面，点击分享到淘宝，打开淘宝app，点击搜索栏，输入'法国粉底液'，点击搜索按钮，选择最便宜的一款产品，点击进入产品页面，点击'加入购物车'按钮",
+    "_rewrite_meta": {
+      "referenced_apps": [
+        "小红书",
+        "淘宝"
+      ],
+      "reason": "小红书用于查找推荐度高的产品，淘宝用于将最便宜的商品加入购物车",
+      "kb_apps_injected": [
+        "小红书",
+        "淘宝"
+      ],
+      "kb_slice_chars": 989,
+      "usage": {
+        "prompt_tokens": 782,
+        "completion_tokens": 168,
+        "total_tokens": 950
+      },
+      "duration_s": 3.21,
+      "model": "qwen/qwen3-8b",
+      "timestamp": "2026-05-25T10:11:05"
+    }
+  },
+  {
+    "Task_id": 18,
+    "Task Type": "出行",
+    "Invovled_App_Name": "小红书、携程",
+    "Original-INS": "帮我查找飞韩国的机票什么航空公司好，总结出体验感前二好的航空公司，记录下来，然后帮我查询11月1日北京-首尔这两个航空公司的机票情况并添加到收藏夹。",
+    "Level1-INS": "帮我查找飞韩国的机票什么航空公司好，总结出体验感前二好的航空公司，记录下来，然后帮我查询11月1日北京-首尔这两个航空公司的机票情况并添加到收藏夹。",
+    "Level2-INS": "用小红书搜索飞韩国的机票买什么航空公司体验感更好, 点开多个笔记, 根据笔记内容总结出体验感前二好的航空公司并写入备忘录, 根据备忘录信息, 打开携程查询11月1日, 北京-首尔这两个航空公司的机票情况并添加到收藏夹。",
+    "Level3-INS": "打开小红书app，点击右上角的放大镜按键进入搜索。搜索‘飞韩国的机票买什么航空公司体验感更好’，点击相关笔记，上下滑动查看信息。根据笔记内容总结出体验感前二好的航公公司。打开备忘录，点击右下角的＋号新建备忘录，写入体验感前二好的航空公司。打开携程旅行app，点击机票，选择地点为北京-上海；修改飞机日期，下滑选择11月1日，点击查询按钮。选择对应航空公司的机票，点击收藏按钮收藏。",
+    "_orig_task_id": 20,
+    "Level2-INS_v2": "在小红书上查找飞韩国的航空公司推荐，总结出体验感前二的航空公司，记录下来，然后在携程上查询11月1日北京-首尔这两个航空公司的机票情况并添加到收藏夹",
+    "Level3-INS_v2": "打开小红书app，点击搜索图标，在搜索栏输入'飞韩国的航空公司推荐'，点击搜索按钮查看相关笔记，浏览后记录体验感前二的航空公司名称。然后打开携程app，点击机票图标，输入出发地'北京'和目的地'首尔'，点击搜索按钮，选择前二的航空公司，点击收藏按钮将机票信息添加到收藏夹",
+    "_rewrite_meta": {
+      "referenced_apps": [
+        "小红书",
+        "携程旅行"
+      ],
+      "reason": "小红书提供用户推荐内容，携程旅行负责查询和收藏机票信息",
+      "kb_apps_injected": [
+        "小红书",
+        "携程旅行"
+      ],
+      "kb_slice_chars": 751,
+      "usage": {
+        "prompt_tokens": 734,
+        "completion_tokens": 184,
+        "total_tokens": 918
+      },
+      "duration_s": 5.84,
+      "model": "qwen/qwen3-8b",
+      "timestamp": "2026-05-25T10:11:10"
+    }
+  },
+  {
+    "Task_id": 19,
+    "Task Type": "生活",
+    "Invovled_App_Name": "网易云、微信",
+    "Original-INS": "分享歌曲蝴蝶给zyy",
+    "Level1-INS": "分享歌曲蝴蝶给zyy",
+    "Level2-INS": "打开网易云音乐app，播放歌曲蝴蝶，并分享给我的微信好友'zyy'。",
+    "Level3-INS": "打开网易云音乐app，在顶部的搜索框搜索歌曲蝴蝶并播放，接着点击底部的'...'图标,再点击分享，最后点击微信图标，将歌曲分享给我的好友'zyy'。",
+    "_orig_task_id": 21,
+    "Level2-INS_v2": "用网易云音乐找到歌曲《蝴蝶》，分享给微信好友zyy",
+    "Level3-INS_v2": "打开网易云音乐app，点击顶部的搜索框，输入歌曲名称'蝴蝶'，点击搜索结果中的歌曲'蝴蝶'，点击播放按钮（黑色三角形在黄色圆圈背景上），点击右侧的省略号图标，点击分享按钮，选择微信好友，点击搜索框，输入好友名称'zyy'，点击搜索结果中的好友'zyy'，点击发送按钮（绿色方框）。",
+    "_rewrite_meta": {
+      "referenced_apps": [
+        "网易云音乐",
+        "微信"
+      ],
+      "reason": "网易云音乐提供歌曲搜索和分享功能，微信负责发送给好友",
+      "kb_apps_injected": [
+        "网易云音乐",
+        "微信"
+      ],
+      "kb_slice_chars": 1250,
+      "usage": {
+        "prompt_tokens": 827,
+        "completion_tokens": 156,
+        "total_tokens": 983
+      },
+      "duration_s": 3.42,
+      "model": "qwen/qwen3-8b",
+      "timestamp": "2026-05-25T10:11:14"
+    }
+  },
+  {
+    "Task_id": 20,
+    "Task Type": "",
+    "Invovled_App_Name": "猫眼 微信",
+    "Original-INS": "查看最近热映的电影并询问zyy的意见.",
+    "Level1-INS": "查看最近热映的电影并询问zyy的意见.",
+    "Level2-INS": "打开猫眼app查看最近热映电影并分享到微信app询问好友xxoo的意见",
+    "Level3-INS": "打开猫眼app，在首页浏览或通过搜索找到最近热映的电影，进入电影详情页后点击右上角的分享按钮，选择微信好友，跳转到微信后搜索好友‘bzx’，点击发送分享电影链接，然后在聊天框中输入‘你觉得这个怎么样？’并发送。",
+    "_orig_task_id": 22,
+    "Level2-INS_v2": "使用猫眼查看最近热映的电影，并通过微信询问zyy的意见。",
+    "Level3-INS_v2": "打开猫眼app，点击顶部的搜索框，输入搜索内容，点击右侧红色的搜索按钮，下滑查看更多结果，点击第一个电影链接，下滑页面查看电影评论，点击底部红色的'查看全部'按钮以查看全部评价。然后打开微信app，点击右上角的加号按钮，点击'添加好友'选项，输入zyy的微信号或手机号，发送好友请求并发送消息询问对这部电影的意见。",
+    "_rewrite_meta": {
+      "referenced_apps": [
+        "猫眼",
+        "微信"
+      ],
+      "reason": "猫眼提供电影搜索和评价查看功能，微信用于发送消息询问意见",
+      "kb_apps_injected": [
+        "猫眼",
+        "微信"
+      ],
+      "kb_slice_chars": 1329,
+      "usage": {
+        "prompt_tokens": 835,
+        "completion_tokens": 160,
+        "total_tokens": 995
+      },
+      "duration_s": 16.49,
+      "model": "qwen/qwen3-8b",
+      "timestamp": "2026-05-25T10:11:30"
+    }
+  },
+  {
+    "Task_id": 21,
+    "Task Type": "",
+    "Invovled_App_Name": "天气 笔记",
+    "Original-INS": "查看广州最近的天气并记录",
+    "Level1-INS": "查看广州最近的天气并记录",
+    "Level2-INS": "打开天气app查询广州天气，并打开备忘录/笔记app进行记录",
+    "Level3-INS": "打开天气app，在城市管理中搜索并添加'广州'，查看其最近天气详情；然后打开备忘录/笔记app，点击新建笔记按钮，输入天气信息， 点击完成按钮保存记录。",
+    "_orig_task_id": 23,
+    "Level2-INS_v2": "使用天气应用查看广州的实时天气和未来10天的天气趋势，然后用备忘录记录下这些信息",
+    "Level3-INS_v2": "打开天气app，查看主界面的实时天气信息，然后向下滑动页面并点击'未来10日天气预报'按钮查看天气趋势。记录下广州的天气情况后，打开备忘录app，点击黄色圆圈中的白色加号图标，输入'广州天气记录'，点击黑色对勾图标完成笔记。",
+    "_rewrite_meta": {
+      "referenced_apps": [
+        "天气",
+        "备忘录/笔记"
+      ],
+      "reason": "天气app提供实时天气和未来天气趋势查询，备忘录用于记录天气信息",
+      "kb_apps_injected": [
+        "天气",
+        "备忘录/笔记"
+      ],
+      "kb_slice_chars": 751,
+      "usage": {
+        "prompt_tokens": 736,
+        "completion_tokens": 153,
+        "total_tokens": 889
+      },
+      "duration_s": 4.08,
+      "model": "qwen/qwen3-8b",
+      "timestamp": "2026-05-25T10:11:34"
+    }
+  },
+  {
+    "Task_id": 22,
+    "Task Type": "",
+    "Invovled_App_Name": "夸克",
+    "Original-INS": "告诉我agent方向最新的论文",
+    "Level1-INS": "告诉我agent方向最新的论文",
+    "Level2-INS": "打开浏览器app进行学术搜索agent方向的论文",
+    "Level3-INS": "打开Google Chrome或夸克等浏览器app，点击搜索框，输入‘agent方向最新的论文’或进入谷歌学术/夸克学术搜索等学术平台进行搜索，浏览搜索结果查找相关论文",
+    "_orig_task_id": 24,
+    "Level2-INS_v2": "使用夸克搜索最近关于agent方向的学术论文",
+    "Level3-INS_v2": "打开夸克app，点击页面中间的搜索框，输入'agent方向最新论文'，点击搜索框右侧蓝色框中的右箭头，向下滑动查看更多结果",
+    "_rewrite_meta": {
+      "referenced_apps": [
+        "夸克"
+      ],
+      "reason": "夸克提供日常信息检索功能，可搜索最新学术论文",
+      "kb_apps_injected": [
+        "夸克"
+      ],
+      "kb_slice_chars": 488,
+      "usage": {
+        "prompt_tokens": 591,
+        "completion_tokens": 95,
+        "total_tokens": 686
+      },
+      "duration_s": 3.64,
+      "model": "qwen/qwen3-8b",
+      "timestamp": "2026-05-25T10:11:38"
+    }
+  },
+  {
+    "Task_id": 23,
+    "Task Type": "",
+    "Invovled_App_Name": "夸克 备忘录",
+    "Original-INS": "查看最近F1赛事并记录赛程结果",
+    "Level1-INS": "查看最近F1赛事并记录赛程结果",
+    "Level2-INS": "打开浏览器app搜索F1赛事，然后使用备忘录app记录赛程结果",
+    "Level3-INS": "打开夸克等浏览器app，点击搜索框输入“最近F1赛事”并搜索，查看赛事信息后，切换到备忘录/笔记app，点击新建笔记按钮，输入赛程结果并保存",
+    "_orig_task_id": 25,
+    "Level2-INS_v2": "使用夸克查看最近的F1赛事并记录赛程结果到备忘录中",
+    "Level3-INS_v2": "打开夸克app，点击底部右上角的柱状图图标，点击'历史'按钮，在账号下方滑动查看更多历史记录，找到最近的F1赛事信息并截图保存。然后打开备忘录/笔记app，点击顶部的加号按钮，输入'记录F1赛程结果'，点击完成图标保存笔记。",
+    "_rewrite_meta": {
+      "referenced_apps": [
+        "夸克",
+        "备忘录/笔记"
+      ],
+      "reason": "夸克提供搜索和浏览历史记录功能，备忘录用于记录赛程结果",
+      "kb_apps_injected": [
+        "夸克",
+        "备忘录/笔记"
+      ],
+      "kb_slice_chars": 628,
+      "usage": {
+        "prompt_tokens": 671,
+        "completion_tokens": 150,
+        "total_tokens": 821
+      },
+      "duration_s": 4.22,
+      "model": "qwen/qwen3-8b",
+      "timestamp": "2026-05-25T10:11:42"
+    }
+  },
+  {
+    "Task_id": 24,
+    "Task Type": "旅游",
+    "Invovled_App_Name": "携程",
+    "Original-INS": "帮我制定一份新加坡的旅游规划",
+    "Level1-INS": "帮我制定一份新加坡的旅游规划",
+    "Level2-INS": "打开携程旅行、Tripadvisor或小红书等app，搜索并制定一份新加坡的旅游规划",
+    "Level3-INS": "打开携程旅行app，点击“攻略/景点”或“行程规划”功能，输入目的地“新加坡”和旅行日期，浏览推荐的旅游攻略和行程模板，选择感兴趣的景点、酒店和餐厅，将它们添加入每日计划中，最后保存生成的行程单。也可以打开Tripadvisor或小红书app，搜索“新加坡旅游攻略”以获取灵感和用户评价，再进行规划",
+    "_orig_task_id": 26,
+    "Level2-INS_v2": "使用携程旅行查看新加坡的旅游攻略并制定一份行程规划",
+    "Level3-INS_v2": "打开携程旅行app，点击顶部带有'攻略/景点'文字的书籍图标，进入搜索框，输入目的地'新加坡'，点击搜索结果中的'新加坡'，点击上方的旅行博客框。然后返回首页，点击顶部带有'行程规划'文字的路线图图标，点击带有放大镜图标的搜索框，选择下方带有目的地名称的图片，点击蓝色框中的'下一步'，点击蓝色框中的'智能推荐'，选择搜索列表中的路线图选项，点击底部的'保存并编辑行程'按钮。",
+    "_rewrite_meta": {
+      "referenced_apps": [
+        "携程旅行"
+      ],
+      "reason": "携程旅行提供旅游攻略查看和行程规划功能，可完成用户需求",
+      "kb_apps_injected": [
+        "携程旅行"
+      ],
+      "kb_slice_chars": 665,
+      "usage": {
+        "prompt_tokens": 654,
+        "completion_tokens": 174,
+        "total_tokens": 828
+      },
+      "duration_s": 8.12,
+      "model": "qwen/qwen3-8b",
+      "timestamp": "2026-05-25T10:11:50"
+    }
+  },
+  {
+    "Task_id": 25,
+    "Task Type": "社交媒体",
+    "Invovled_App_Name": "tiktok",
+    "Original-INS": "Help me follow rickandmorty’s official account and send a message saying the anime is great.",
+    "Level1-INS": "Help me follow rickandmorty’s official account and send a message saying the anime is great.",
+    "Level2-INS": "Please help me follow the official rickandmorty account on TikTok and DM (Direct Message) saying your anime is great.",
+    "Level3-INS": "Open TikTok, click the magnifying glass button on the top right corner, search for \"Rick and Morty\", click \"Users\", find the official account and click \"Follow\", then click the avatar to enter the homepage, click \"Message\" and send a private message: 'The anime is great",
+    "_orig_task_id": 29,
+    "Level2-INS_v2": "在TikTok上关注rickandmorty的官方账号，并发送一条消息说这部动画很棒。",
+    "Level3-INS_v2": "打开TikTok app，搜索并关注rickandmorty的官方账号，进入其主页后点击右上角的对话气泡图标，输入消息'这部动画很棒'，然后点击发送。",
+    "_rewrite_meta": {
+      "referenced_apps": [
+        "TikTok"
+      ],
+      "reason": "TikTok提供关注账号和发送消息的功能，符合用户需求",
+      "kb_apps_injected": [
+        "tiktok"
+      ],
+      "kb_slice_chars": 257,
+      "usage": {
+        "prompt_tokens": 539,
+        "completion_tokens": 112,
+        "total_tokens": 651
+      },
+      "duration_s": 3.49,
+      "model": "qwen/qwen3-8b",
+      "timestamp": "2026-05-25T10:11:54"
+    }
+  },
+  {
+    "Task_id": 26,
+    "Task Type": "信息搜索",
+    "Invovled_App_Name": "edge",
+    "Original-INS": "Tell me LeBron James' birth date and stop at the answer screen.",
+    "Level1-INS": "Tell me LeBron James' birth date and stop at the answer screen.",
+    "Level2-INS": "Open edge app to search for the  LeBron James' birth date and stop at the answer screen",
+    "Level3-INS": "Open Edge, tap on the search box at the bottom, search for 'LeBron James' birth date', and then click on the relevant page, stop at the answer screen on the Edge page",
+    "_orig_task_id": 30,
+    "Level2-INS_v2": "查找勒布朗·詹姆斯的出生日期并停留在答案屏幕。",
+    "Level3-INS_v2": "打开手机的浏览器或搜索引擎应用，输入'LeBron James 出生日期'，浏览搜索结果找到相关网页，点击进入该网页，阅读内容找到出生日期信息，返回上一屏幕并停留在答案页面。",
+    "_rewrite_meta": {
+      "referenced_apps": [
+        "浏览器/搜索引擎"
+      ],
+      "reason": "使用浏览器/搜索引擎查找公开信息以获取勒布朗·詹姆斯的出生日期",
+      "kb_apps_injected": [],
+      "kb_slice_chars": 47,
+      "usage": {
+        "prompt_tokens": 453,
+        "completion_tokens": 109,
+        "total_tokens": 562
+      },
+      "duration_s": 3.04,
+      "model": "qwen/qwen3-8b",
+      "timestamp": "2026-05-25T10:11:57"
+    }
+  },
+  {
+    "Task_id": 27,
+    "Task Type": "旅游",
+    "Invovled_App_Name": "tripadvisor  notes",
+    "Original-INS": "Please help me generate a one-day itinerary for New York City and save it.",
+    "Level1-INS": "Please help me generate a one-day itinerary for New York City and save it.",
+    "Level2-INS": "Open a travel planning app like Tripadvisor to search for a one-day itinerary for New York City, then open a notes app to create and save the itinerary",
+    "Level3-INS": "",
+    "_orig_task_id": 31,
+    "Level2-INS_v2": "使用TripAdvisor生成纽约市的一日行程并保存",
+    "Level3-INS_v2": "打开TripAdvisor应用，点击底部列表中的搜索图标，输入纽约市作为旅行目的地，点击第一个搜索结果，向下滑动页面查看更多详情，点击'Read More'按钮阅读地点概览，点击带有位置图标的'Map'按钮查看位置地图，点击右上角的心形图标将地点保存到收藏列表中。",
+    "_rewrite_meta": {
+      "referenced_apps": [
+        "tripadvisor"
+      ],
+      "reason": "TripAdvisor提供行程规划和地点保存功能，可生成并保存纽约市一日行程",
+      "kb_apps_injected": [
+        "tripadvisor"
+      ],
+      "kb_slice_chars": 1104,
+      "usage": {
+        "prompt_tokens": 721,
+        "completion_tokens": 133,
+        "total_tokens": 854
+      },
+      "duration_s": 3.21,
+      "model": "qwen/qwen3-8b",
+      "timestamp": "2026-05-25T10:12:00"
+    }
+  },
+  {
+    "Task_id": 28,
+    "Task Type": "生活",
+    "Invovled_App_Name": "weather、notepad",
+    "Original-INS": "Check Vancouver’s weather today and make a note of the climate. ",
+    "Level1-INS": "Check Vancouver’s weather today and make a note of the climate. ",
+    "Level2-INS": "Open the Weather app to add Vancouver and monitor its weather, then note down today's climate information in the Notepad.",
+    "Level3-INS": "Open the weather app, click the magnifying glass button on the top right corner, search for \"Vancouver\", and then click on \"Vancouver\" to view its current weather. Open Notepad, click the plus sign at the bottom right corner, and output today's content.",
+    "_orig_task_id": 32,
+    "Level2-INS_v2": "使用天气应用查看温哥华今天的天气情况，并记录气候信息。",
+    "Level3-INS_v2": "打开天气app，查看主屏幕上的实时天气信息，然后点击小时预报部分查看未来24小时的逐小时天气预报，记录下今天的气候情况。",
+    "_rewrite_meta": {
+      "referenced_apps": [
+        "天气"
+      ],
+      "reason": "天气app提供实时天气和未来24小时预报功能，可完成查看和记录气候信息的任务",
+      "kb_apps_injected": [
+        "天气"
+      ],
+      "kb_slice_chars": 278,
+      "usage": {
+        "prompt_tokens": 583,
+        "completion_tokens": 94,
+        "total_tokens": 677
+      },
+      "duration_s": 2.93,
+      "model": "qwen/qwen3-8b",
+      "timestamp": "2026-05-25T10:12:03"
+    }
+  },
+  {
+    "Task_id": 29,
+    "Task Type": "",
+    "Invovled_App_Name": "",
+    "Original-INS": "Check the Los Angeles weather forecast for the day after tomorrow and inform Kai Chen.",
+    "Level1-INS": "Check the Los Angeles weather forecast for the day after tomorrow and inform Kai Chen.",
+    "Level2-INS": "Open Google Chrome to check the Los Angeles weather forecast, then open social meTask_idia app to share the information with a friend xxoo.",
+    "Level3-INS": "Open the Google Chrome app, tap the search box and type 'Los Angeles weather day after tomorrow' to check the forecast. Then, open the facebook app, tap the search icon at the top right, type the friend's name 'Kai Chen', and tap their profile to enter the chat. Tap the input bar, type the weather information you found, and tap the send button.",
+    "_orig_task_id": 33,
+    "Level2-INS_v2": "查看洛杉矶后天的天气预报，并将结果告知Kai Chen",
+    "Level3-INS_v2": "打开手机的天气应用，选择洛杉矶，查看后天的天气预报，然后打开消息应用，发送消息给Kai Chen，告知洛杉矶后天的天气情况",
+    "_rewrite_meta": {
+      "referenced_apps": [
+        "天气应用",
+        "消息应用"
+      ],
+      "reason": "使用天气应用获取天气信息，使用消息应用发送通知",
+      "kb_apps_injected": [],
+      "kb_slice_chars": 47,
+      "usage": {
+        "prompt_tokens": 478,
+        "completion_tokens": 93,
+        "total_tokens": 571
+      },
+      "duration_s": 2.5,
+      "model": "qwen/qwen3-8b",
+      "timestamp": "2026-05-25T10:12:06"
+    }
+  },
+  {
+    "Task_id": 30,
+    "Task Type": "学术搜索",
+    "Invovled_App_Name": "",
+    "Original-INS": "Look up information about Mobile-based Agent and make a summary note.",
+    "Level1-INS": "Look up information about Mobile-based Agent and make a summary note.",
+    "Level2-INS": "Find the relevant materials of Mobile-based Agent in Edge, and summarize the information content in Notepad.",
+    "Level3-INS": "Open Edge, click on the search box at the bottom, search for 'Mobile-based Agent', and then find the relevant materials. Open Notepad, click the plus sign at the bottom right corner, and recording the summary of the information collected.",
+    "_orig_task_id": 34,
+    "Level2-INS_v2": "使用哔哩哔哩查找关于Mobile-based Agent的相关视频并做总结笔记",
+    "Level3-INS_v2": "打开哔哩哔哩app，点击顶部的'追番'按钮，向下滑动查看更多动漫排行榜，点击排行榜右侧带有右箭头的'查更多'选项，观看相关视频后，使用内置笔记功能记录关于Mobile-based Agent的信息并保存",
+    "_rewrite_meta": {
+      "referenced_apps": [
+        "哔哩哔哩"
+      ],
+      "reason": "哔哩哔哩提供视频播放和笔记记录功能，适合查找并总结关于Mobile-based Agent的信息",
+      "kb_apps_injected": [
+        "哔哩哔哩"
+      ],
+      "kb_slice_chars": 412,
+      "usage": {
+        "prompt_tokens": 589,
+        "completion_tokens": 128,
+        "total_tokens": 717
+      },
+      "duration_s": 2.75,
+      "model": "qwen/qwen3-8b",
+      "timestamp": "2026-05-25T10:12:08"
+    }
+  },
+  {
+    "Task_id": 31,
+    "Task Type": "",
+    "Invovled_App_Name": "googlemaps   wechat",
+    "Original-INS": "Tell me the exact location of CMU and share it with wechat xxoo.",
+    "Level1-INS": "Tell me the exact location of CMU and share it with wechat xxoo.",
+    "Level2-INS": "Open Google Maps to find the location of CMU and share it with a friend xxoo on WeChat",
+    "Level3-INS": "Open the Google Maps app, tap the search box at the top and type 'CMU', tap the first search result. Then, tap the 'Share' button, select the WeChat icon to switch to the WeChat app. In WeChat, search for the friend 'xxoo', tap on their profile, and tap send to share the location",
+    "_orig_task_id": 35,
+    "Level2-INS_v2": "查找卡内基梅隆大学的精确位置，并通过微信分享给好友xxoo",
+    "Level3-INS_v2": "打开Google Maps应用，点击顶部的搜索框，输入'卡内基梅隆大学'，点击搜索结果中的第一个地点。找到该地点后，点击底部的'分享'按钮，在弹出的选项中选择微信，然后发送给好友xxoo。",
+    "_rewrite_meta": {
+      "referenced_apps": [
+        "Google Maps",
+        "微信"
+      ],
+      "reason": "Google Maps提供查找地点和分享位置的功能，微信用于发送位置信息给好友",
+      "kb_apps_injected": [
+        "Google Maps",
+        "微信"
+      ],
+      "kb_slice_chars": 847,
+      "usage": {
+        "prompt_tokens": 720,
+        "completion_tokens": 127,
+        "total_tokens": 847
+      },
+      "duration_s": 2.78,
+      "model": "qwen/qwen3-8b",
+      "timestamp": "2026-05-25T10:12:11"
+    }
+  },
+  {
+    "Task_id": 32,
+    "Task Type": "比价",
+    "Invovled_App_Name": "walmart、ebay、amazon",
+    "Original-INS": "Choose the unlocked 5G smartphone with the best price-performance ratio from multiple platforms and add it to your shopping cart.",
+    "Level1-INS": "Choose the unlocked 5G smartphone with the best price-performance ratio from multiple platforms and add it to your shopping cart.",
+    "Level2-INS": "Open Amazon Shopping, Walmart, and eBay to search and compare  unlocked 5G smartphones , then add the one with the best price-performance ratio to the cart",
+    "Level3-INS": "Sequentially open the Amazon Shopping, Walmart, and eBay apps. In each app, tap the search bar, enter ' unlocked 5G smartphone with best price-performance ratio', and initiate a search. Review the product details, prices, and user reviews from the results on each platform. After comparing and Task_identifying the most cost-effective smartphone, navigate to its page in the corresponding app and tap the 'Add to Cart' button to complete the action.",
+    "_orig_task_id": 37,
+    "Level2-INS_v2": "从沃尔玛、eBay 和 Amazon 等多个平台中选择一款解锁 5G 的性价比最高的智能手机，并将其加入购物车",
+    "Level3-INS_v2": "打开沃尔玛应用，点击底部导航栏的菜单图标，选择'按部门浏览'，在分类中查找'手机'，浏览并筛选出支持5G的手机，选择价格性能比最高的产品，点击加入购物车。接着打开eBay应用，点击顶部的搜索框，输入'5G smartphone'，浏览搜索结果，选择性价比最高的产品，点击加入购物车。最后打开Amazon应用，点击底部导航栏的菜单图标，选择'按部门浏览'，在分类中查找'手机'，浏览并筛选出支持5G的手机，选择价格性能比最高的产品，点击加入购物车。",
+    "_rewrite_meta": {
+      "referenced_apps": [
+        "Walmart",
+        "eBay",
+        "Amazon"
+      ],
+      "reason": "Walmart、eBay 和 Amazon 提供商品浏览和购物功能，支持比较不同平台的5G手机并加入购物车",
+      "kb_apps_injected": [
+        "Walmart",
+        "eBay",
+        "Amazon"
+      ],
+      "kb_slice_chars": 1149,
+      "usage": {
+        "prompt_tokens": 789,
+        "completion_tokens": 227,
+        "total_tokens": 1016
+      },
+      "duration_s": 5.77,
+      "model": "qwen/qwen3-8b",
+      "timestamp": "2026-05-25T10:12:17"
+    }
+  },
+  {
+    "Task_id": 33,
+    "Task Type": "",
+    "Invovled_App_Name": "",
+    "Original-INS": "Choose a cost-effective 5G phone under $200 and add it to my cart.",
+    "Level1-INS": "Choose a cost-effective 5G phone under $200 and add it to my cart.",
+    "Level2-INS": "Open a review app like YouTube to find recommendations, then search and compare prices on multiple shopping apps (Amazon, Walmart, eBay) and add the most cost-effective phone to the cart.",
+    "Level3-INS": "First, open the YouTube app, tap the search box, and type 'best 5G phone under $200' to find a recommended model name. Then, sequentially open Amazon Shopping, Walmart, and eBay. In each app, use the search bar to find the specific phone model. Compare the prices and details from the results. Finally, in the app with the best price, tap the product and then tap the 'Add to Cart' button.",
+    "_orig_task_id": 38,
+    "Level2-INS_v2": "选择一款价格在200美元以下的5G手机并将其添加到购物车中",
+    "Level3-INS_v2": "打开手机应用商店搜索并打开购物类应用，使用搜索功能查找'5G手机'，筛选价格低于200美元的商品，点击目标手机进入详情页，点击'加入购物车'按钮",
+    "_rewrite_meta": {
+      "referenced_apps": [],
+      "reason": "无相关应用可直接完成该任务，需使用通用移动UI逻辑",
+      "kb_apps_injected": [],
+      "kb_slice_chars": 47,
+      "usage": {
+        "prompt_tokens": 459,
+        "completion_tokens": 110,
+        "total_tokens": 569
+      },
+      "duration_s": 3.34,
+      "model": "qwen/qwen3-8b",
+      "timestamp": "2026-05-25T10:12:20"
+    }
+  },
+  {
+    "Task_id": 34,
+    "Task Type": "旅游",
+    "Invovled_App_Name": "booking",
+    "Original-INS": "Book an off-season flight to Reykjavik, Iceland.",
+    "Level1-INS": "Book an off-season flight to Reykjavik, Iceland.",
+    "Level2-INS": "Open a travel booking app (e.g., Booking.com, Agoda, Tripadvisor) to book an off-season flight to Reykjavik, Iceland.",
+    "Level3-INS": "Open a travel app such as Booking, Agoda, or Tripadvisor, tap on the 'Flights' section. Enter your departure location and set the destination to 'Reykjavik, Iceland'. In the date selection calendar, choose dates in the off-season (e.g., October to April) to find better prices. Tap the search button, browse the flight results, and select the most suitable option to proceed with the booking.",
+    "_orig_task_id": 39,
+    "Level2-INS_v2": "使用booking应用预订前往冰岛雷克雅未克的淡季航班",
+    "Level3-INS_v2": "打开booking app，点击顶部第二列的航班图标，点击搜索栏输入目的地为雷克雅未克，点击日期栏选择出发日期，点击蓝色搜索按钮查找航班，滑动查看更多航班选项，点击合适的航班链接进入详细页面，点击'预订'按钮完成航班预订",
+    "_rewrite_meta": {
+      "referenced_apps": [
+        "booking"
+      ],
+      "reason": "booking应用提供航班预订功能，可完成淡季航班的预订任务",
+      "kb_apps_injected": [
+        "booking"
+      ],
+      "kb_slice_chars": 1262,
+      "usage": {
+        "prompt_tokens": 744,
+        "completion_tokens": 125,
+        "total_tokens": 869
+      },
+      "duration_s": 3.4,
+      "model": "qwen/qwen3-8b",
+      "timestamp": "2026-05-25T10:12:24"
+    }
+  },
+  {
+    "Task_id": 35,
+    "Task Type": "购物",
+    "Invovled_App_Name": "X,amazon",
+    "Original-INS": "Find a highly-rated biography on social media planform and add it to your cart。",
+    "Level1-INS": "Find a highly-rated biography on social media planform and add it to your cart。",
+    "Level2-INS": "Use a social media or browser app to find a highly-rated biography, then open an e-commerce app to add it to the cart",
+    "Level3-INS": "First, open a social media app like X or a browser like Google Chrome, tap the search bar, and type 'highly-rated biography' to find recommendations. After Task_identifying a book title, open an e-commerce app like Amazon Shopping, tap its search box, type the book's name, and from the search results, tap the 'Add to Cart' button for the desired item.",
+    "_orig_task_id": 40,
+    "Level2-INS_v2": "在社交媒体平台X上找到评分4.0星以上的传记类帖子，将其添加到购物车",
+    "Level3-INS_v2": "打开X app，点击进入一个评分4.0星以上的传记类帖子页面，点击右下角的收藏图标将帖子收藏。然后打开Amazon app，点击底部导航栏的菜单图标，选择'Shop by Department'，进入'Books'分类，点击'Add to Cart'将收藏的传记类帖子添加到购物车",
+    "_rewrite_meta": {
+      "referenced_apps": [
+        "X",
+        "Amazon"
+      ],
+      "reason": "X平台提供评分4.0星以上的传记类帖子，Amazon负责将帖子添加到购物车",
+      "kb_apps_injected": [
+        "X",
+        "Amazon"
+      ],
+      "kb_slice_chars": 706,
+      "usage": {
+        "prompt_tokens": 656,
+        "completion_tokens": 153,
+        "total_tokens": 809
+      },
+      "duration_s": 3.76,
+      "model": "qwen/qwen3-8b",
+      "timestamp": "2026-05-25T10:12:27"
+    }
+  },
+  {
+    "Task_id": 36,
+    "Task Type": "社交媒体",
+    "Invovled_App_Name": "Youtube,facebook",
+    "Original-INS": "Play a lecture about large language models and share it with friend Kai Chen。",
+    "Level1-INS": "Play a lecture about large language models and share it with friend Kai Chen。",
+    "Level2-INS": "Open the YouTube app to play a lecture and share it with a friend Kai Chen via a social app",
+    "Level3-INS": "Open the YouTube app, tap the search icon at the top right, type 'lecture about large language models', and select a vTask_ideo from the results to play. On the vTask_ideo page, tap the 'Share' button (right-pointing arrow), choose a social app like Facebook or X, search for your friend 'Kai Chen', and send the vTask_ideo link.",
+    "_orig_task_id": 41,
+    "Level2-INS_v2": "在YouTube上播放关于大语言模型的讲座视频，并分享给朋友Kai Chen",
+    "Level3-INS_v2": "打开YouTube app，点击首页或搜索结果中的视频缩略图以播放关于大语言模型的讲座视频。播放完成后，点击右上角的分享按钮，选择分享到Facebook，输入朋友Kai Chen的用户名并发送",
+    "_rewrite_meta": {
+      "referenced_apps": [
+        "YouTube",
+        "Facebook"
+      ],
+      "reason": "YouTube提供视频播放功能，Facebook支持分享视频给好友",
+      "kb_apps_injected": [
+        "youtube",
+        "Facebook"
+      ],
+      "kb_slice_chars": 618,
+      "usage": {
+        "prompt_tokens": 649,
+        "completion_tokens": 115,
+        "total_tokens": 764
+      },
+      "duration_s": 3.74,
+      "model": "qwen/qwen3-8b",
+      "timestamp": "2026-05-25T10:12:31"
+    }
+  },
+  {
+    "Task_id": 37,
+    "Task Type": "生活",
+    "Invovled_App_Name": "\t\n,\n\"Google chorme\",\n\"Amazon\"\n",
+    "Original-INS": "Search for recipes on how to make chocolate cake and add the relevant ingredients to your cart. ",
+    "Level1-INS": "Search for recipes on how to make chocolate cake and add the relevant ingredients to your cart. ",
+    "Level2-INS": "Open a browser app to search for chocolate cake recipes, then open a shopping app to add the ingredients to the cart.",
+    "Level3-INS": "First, open a browser app like Google Chrome, tap the search box and type 'chocolate cake recipe'. After finding a recipe and listing the ingredients, open a shopping app like Amazon Shopping or Walmart. In the shopping app, use the search bar to find each ingredient (e.g., flour, sugar, cocoa powder) and tap the 'Add to Cart' button for each item",
+    "_orig_task_id": 42,
+    "Level2-INS_v2": "使用Google搜索巧克力蛋糕的食谱，并将所需的食材添加到Amazon购物车中",
+    "Level3-INS_v2": "打开Google Chrome应用，点击底部导航栏的菜单图标，选择'搜索'功能，输入'巧克力蛋糕食谱'进行搜索。在搜索结果中找到合适的食谱，点击进入详情页，查看所需的食材列表。然后打开Amazon应用，点击底部导航栏的个人资料图标，进入'订单'页面，点击'购物车'，将所需的食材添加到购物车中",
+    "_rewrite_meta": {
+      "referenced_apps": [
+        "Google Chrome",
+        "Amazon"
+      ],
+      "reason": "Google Chrome用于搜索食谱，Amazon用于将食材添加到购物车",
+      "kb_apps_injected": [
+        "Google",
+        "Google Chrome",
+        "Amazon"
+      ],
+      "kb_slice_chars": 905,
+      "usage": {
+        "prompt_tokens": 695,
+        "completion_tokens": 152,
+        "total_tokens": 847
+      },
+      "duration_s": 3.27,
+      "model": "qwen/qwen3-8b",
+      "timestamp": "2026-05-25T10:12:34"
+    }
+  },
+  {
+    "Task_id": 38,
+    "Task Type": "社交媒体",
+    "Invovled_App_Name": "chorme X notes",
+    "Original-INS": "Search for and record Elon Musk's latest technological research. ",
+    "Level1-INS": "Search for and record Elon Musk's latest technological research. ",
+    "Level2-INS": "Open a browser or social media app to search for information about Elon Musk's latest research, and then use a notes app to record the findings",
+    "Level3-INS": "Open a browser app like Google Chrome or a social media app like X. In the search bar, type 'Elon Musk's latest technological research' and browse the results to find the information. Then, open the Notes app, create a new note by tapping the plus icon, and type or paste the relevant details to record them.",
+    "_orig_task_id": 43,
+    "Level2-INS_v2": "使用Google Chrome搜索Elon Musk的最新科技研究，并记录相关结果。",
+    "Level3-INS_v2": "打开Google Chrome应用，点击底部的时钟图标进入浏览记录页面，搜索'Elon Musk 最新科技研究'，查看相关搜索结果并记录链接或内容。",
+    "_rewrite_meta": {
+      "referenced_apps": [
+        "Google Chrome"
+      ],
+      "reason": "Google Chrome提供搜索功能，可获取Elon Musk的最新科技研究信息",
+      "kb_apps_injected": [
+        "Google Chrome",
+        "X"
+      ],
+      "kb_slice_chars": 826,
+      "usage": {
+        "prompt_tokens": 686,
+        "completion_tokens": 101,
+        "total_tokens": 787
+      },
+      "duration_s": 3.54,
+      "model": "qwen/qwen3-8b",
+      "timestamp": "2026-05-25T10:12:38"
+    }
+  },
+  {
+    "Task_id": 39,
+    "Task Type": "",
+    "Invovled_App_Name": "wechat Chorme",
+    "Original-INS": "Collect three of Elon Musk's latest published scientific research and share it with friends xxoo ",
+    "Level1-INS": "Collect three of Elon Musk's latest published scientific research and share it with friends xxoo",
+    "Level2-INS": "Open a browser app like Google Chrome to search for Elon Musk's scientific research, then share the findings with a friend via a social app like WeChat or Facebook",
+    "Level3-INS": "Open the Google Chrome app, search for and enter the 'Google Scholar' website. In the search bar, type 'Elon Musk' to find related scientific research. Browse the results, collect the information (e.g., copy links) for three of the latest publications. Then, open the WeChat app, search for the friend 'xxoo', enter the chat window, paste the collected research information, and send.",
+    "_orig_task_id": 44,
+    "Level2-INS_v2": "使用Google Chrome搜索Elon Musk最新的科学论文，收集三篇并分享给好友xxoo",
+    "Level3-INS_v2": "打开Google Chrome浏览器，点击底部的时钟图标并选择'历史记录'，滑动查看浏览记录，找到与Elon Musk相关的科学论文链接，点击进入论文页面，保存或复制链接。然后打开微信，点击右上角加号，选择'添加好友'，输入xxoo并发送论文链接及消息'分享Elon Musk最新的科学论文给你'",
+    "_rewrite_meta": {
+      "referenced_apps": [
+        "Google Chrome",
+        "微信"
+      ],
+      "reason": "Google Chrome用于搜索和获取科学论文，微信用于分享给好友",
+      "kb_apps_injected": [
+        "微信",
+        "Google Chrome"
+      ],
+      "kb_slice_chars": 864,
+      "usage": {
+        "prompt_tokens": 707,
+        "completion_tokens": 150,
+        "total_tokens": 857
+      },
+      "duration_s": 4.05,
+      "model": "qwen/qwen3-8b",
+      "timestamp": "2026-05-25T10:12:42"
+    }
+  },
+  {
+    "Task_id": 40,
+    "Task Type": "",
+    "Invovled_App_Name": "fandango、facebook",
+    "Original-INS": "Check out recently released movies and ask Hao Alex for his opinion.",
+    "Level1-INS": "Check out recently released movies and ask Hao Alex for his opinion.",
+    "Level2-INS": "Open a movie app like Fandango to check for recently released movies, then share them to a social app like Facebook to ask for Hao Alex's opinion",
+    "Level3-INS": "Open the Fandango app, tap the 'Movies' icon at the bottom to browse recently released movies.Tap on a movie to view its details, then open social app like facebook, search for 'Hao Alex', and send the movie information with a message asking for his opinion",
+    "_orig_task_id": 45,
+    "Level2-INS_v2": "使用Fandango查看最近上映的电影，并在Facebook上找到Hao Alex所在的群组，询问他对这些电影的看法。",
+    "Level3-INS_v2": "打开Fandango app，点击底部的'movies'图标，向下滑动页面以查看更多电影，点击左下角的'SEE MORE MOVIES IN THEATERS'按钮。然后打开Facebook app，点击右上角的搜索框，输入'Hao Alex'所在的群组名称，点击搜索结果中的'加入'按钮，进入群组后留言询问对最近上映电影的看法。",
+    "_rewrite_meta": {
+      "referenced_apps": [
+        "Fandango",
+        "Facebook"
+      ],
+      "reason": "Fandango提供查看最近上映电影的功能，Facebook用于在群组中询问Hao Alex的意见",
+      "kb_apps_injected": [
+        "Fandango",
+        "Facebook"
+      ],
+      "kb_slice_chars": 852,
+      "usage": {
+        "prompt_tokens": 720,
+        "completion_tokens": 167,
+        "total_tokens": 887
+      },
+      "duration_s": 3.82,
+      "model": "qwen/qwen3-8b",
+      "timestamp": "2026-05-25T10:12:46"
+    }
+  },
+  {
+    "Task_id": 41,
+    "Task Type": "",
+    "Invovled_App_Name": "maps",
+    "Original-INS": "Please navigate from the National University of Singapore to Nanyang Technological University.",
+    "Level1-INS": "Please navigate from the National University of Singapore to Nanyang Technological University.",
+    "Level2-INS": "Open the Google Maps app to get navigation directions from the National University of Singapore to Nanyang Technological University",
+    "Level3-INS": "Open the Google Maps app, tap the search box at the top, type 'Nanyang Technological University' and select it from the results. Then, tap the 'Directions' button, enter 'National University of Singapore' as the starting point and select it. The app will then display the navigation route.",
+    "_orig_task_id": 46,
+    "Level2-INS_v2": "使用Google Maps从新加坡国立大学导航到南洋理工大学",
+    "Level3-INS_v2": "打开Google Maps应用，点击顶部的搜索框，输入'新加坡国立大学'，点击搜索结果中的第一个选项，点击'分享'按钮在底部的浅蓝色框中，向右滑动选择社交软件，点击发送。然后再次打开Google Maps应用，点击顶部的搜索框，输入'南洋理工大学'，点击搜索结果中的第一个选项，点击'导航'按钮开始路线导航。",
+    "_rewrite_meta": {
+      "referenced_apps": [
+        "Google Maps"
+      ],
+      "reason": "Google Maps提供地图搜索和导航功能，可实现从一个地点到另一个地点的路线导航",
+      "kb_apps_injected": [
+        "Google Maps"
+      ],
+      "kb_slice_chars": 467,
+      "usage": {
+        "prompt_tokens": 591,
+        "completion_tokens": 150,
+        "total_tokens": 741
+      },
+      "duration_s": 4.0,
+      "model": "qwen/qwen3-8b",
+      "timestamp": "2026-05-25T10:12:50"
+    }
+  },
+  {
+    "Task_id": 42,
+    "Task Type": "",
+    "Invovled_App_Name": "X notes wechat",
+    "Original-INS": "View the latest trending news and record and share it with your friends xxoo",
+    "Level1-INS": "View the latest trending news and record and share it with your friends xxoo",
+    "Level2-INS": "Open the X app to view the latest trending news, record it in the Notes app, and then share it with your friend xxoo via WeChat",
+    "Level3-INS": "Open the X app, tap the magnifier icon at the bottom, then tap the 'News' button in the top column to browse the latest news. Next, open the Notes app, tap the plus icon to create a new note, and record the news content. Finally, tap the share button within the note, select the WeChat icon, search for your friend 'xxoo', and send.",
+    "_orig_task_id": 47,
+    "Level2-INS_v2": "查看最新的趋势新闻，录制并分享给好友xxoo",
+    "Level3-INS_v2": "打开X app，浏览并找到最新的趋势新闻帖子，点击屏幕下方的黑色心形图标点赞，然后点击屏幕下方的黑色书签图标收藏该帖子。收藏后，打开微信 app，点击右上角的加号图标，选择添加好友，输入好友xxoo的微信号或手机号，发送好友请求并等待接受。接受后，在微信聊天界面中点击右上角的加号图标，选择相册，选择刚刚收藏的新闻帖子，点击发送按钮完成分享。",
+    "_rewrite_meta": {
+      "referenced_apps": [
+        "X",
+        "微信"
+      ],
+      "reason": "X提供查看趋势新闻和收藏帖子的功能，微信负责添加好友并分享内容",
+      "kb_apps_injected": [
+        "X",
+        "微信"
+      ],
+      "kb_slice_chars": 720,
+      "usage": {
+        "prompt_tokens": 687,
+        "completion_tokens": 168,
+        "total_tokens": 855
+      },
+      "duration_s": 4.65,
+      "model": "qwen/qwen3-8b",
+      "timestamp": "2026-05-25T10:12:55"
+    }
+  },
+  {
+    "Task_id": 43,
+    "Task Type": "",
+    "Invovled_App_Name": "fandango",
+    "Original-INS": "Check out the latest critically acclaimed movies and reserve a movie ticket.",
+    "Level1-INS": "Check out the latest critically acclaimed movies and reserve a movie ticket.",
+    "Level2-INS": "Open a movie ticketing app like Fandango to read reviews of recently released movies and book a ticket for a highly-rated film",
+    "Level3-INS": "Open the Fandango app, tap the 'Movies' icon to browse recently released films. Tap on a movie to read its ratings and reviews. After finding a highly-rated film, select a showtime, choose your seat on the seat selection page, and tap 'Next' to proceed with booking and payment",
+    "_orig_task_id": 48,
+    "Level2-INS_v2": "使用Fandango查看最新获得好评的电影，并预订一张电影票。",
+    "Level3-INS_v2": "打开Fandango应用，点击底部列表中的'电影'图标，向下滑动页面以查看更多电影，点击左下角蓝色字体的'查看更多影院上映电影'按钮。选择获得好评的最新电影，点击'预订'按钮并选择合适的场次和座位完成购票。",
+    "_rewrite_meta": {
+      "referenced_apps": [
+        "Fandango"
+      ],
+      "reason": "Fandango提供查看最新电影和预订电影票的功能",
+      "kb_apps_injected": [
+        "Fandango"
+      ],
+      "kb_slice_chars": 533,
+      "usage": {
+        "prompt_tokens": 610,
+        "completion_tokens": 121,
+        "total_tokens": 731
+      },
+      "duration_s": 3.67,
+      "model": "qwen/qwen3-8b",
+      "timestamp": "2026-05-25T10:12:58"
+    }
+  },
+  {
+    "Task_id": 44,
+    "Task Type": "",
+    "Invovled_App_Name": "fandango",
+    "Original-INS": "Check out the latest movies showing and reserve a ticket for tonight's screening.",
+    "Level1-INS": "Check out the latest movies showing and reserve a ticket for tonight's screening.",
+    "Level2-INS": "Open the Fandango app to search for the latest movies and book a ticket for tonight's screening.",
+    "Level3-INS": "Open the Fandango app, tap the 'movies' icon at the bottom, browse the list of currently showing movies, select a movie, tap on a showtime for tonight, choose your seat on the map, and tap 'Next' to complete the ticket reservation.",
+    "_orig_task_id": 49,
+    "Level2-INS_v2": "使用Fandango查看最新上映的电影，并预订今晚场次的电影票",
+    "Level3-INS_v2": "打开Fandango app，点击底部的'Movies'图标，向下滑动页面查看更多电影，点击左下角蓝色字体的'SEE MORE MOVIES IN THEATERS'按钮。找到今晚的场次后，点击预订按钮完成购票。",
+    "_rewrite_meta": {
+      "referenced_apps": [
+        "Fandango"
+      ],
+      "reason": "Fandango提供查看最新电影和预订票务的功能",
+      "kb_apps_injected": [
+        "Fandango"
+      ],
+      "kb_slice_chars": 533,
+      "usage": {
+        "prompt_tokens": 612,
+        "completion_tokens": 117,
+        "total_tokens": 729
+      },
+      "duration_s": 5.16,
+      "model": "qwen/qwen3-8b",
+      "timestamp": "2026-05-25T10:13:03"
+    }
+  },
+  {
+    "Task_id": 45,
+    "Task Type": "",
+    "Invovled_App_Name": "chorme 、X/zhihu 、X/facebook",
+    "Original-INS": "Tell me the main results of the China-US trade negotiations and express your opinions on social media platforms.",
+    "Level1-INS": "Tell me the main results of the China-US trade negotiations and express your opinions on social media platforms.",
+    "Level2-INS": "First, use a browser app like Google Chrome to search for the main results of the China-US trade negotiations. Then, open a social media app like Facebook or X to post your opinion.",
+    "Level3-INS": "First, open the Google Chrome app, tap the search box, type 'main results of China-US trade negotiations', and view few search results to summary of negotiation results. After forming your opinion, open a social media app like Facebook or X. On Facebook, tap the plus icon to create a post, type your opinion in the 'What's on your mind?' box, and tap 'Post'. On X, tap the plus icon, type your opinion, and tap 'Post'.",
+    "_orig_task_id": 50,
+    "Level2-INS_v2": "查找中国和美国贸易谈判的主要结果，并在社交媒体平台上发表你的观点。",
+    "Level3-INS_v2": "打开Google Chrome应用，点击底部的铃铛图标查看通知，滑动查看更多通知，点击相关通知进入页面，查找中国和美国贸易谈判的主要结果。然后打开X应用，点击发布帖子，输入你的观点并发布。或者打开Facebook应用，下滑查看更多帖子，点击相关帖子进入页面，输入你的观点并发布。",
+    "_rewrite_meta": {
+      "referenced_apps": [
+        "Google Chrome",
+        "X",
+        "Facebook"
+      ],
+      "reason": "Google Chrome用于搜索贸易谈判结果，X和Facebook用于在社交媒体上发表观点",
+      "kb_apps_injected": [
+        "Google Chrome",
+        "X",
+        "Facebook"
+      ],
+      "kb_slice_chars": 1145,
+      "usage": {
+        "prompt_tokens": 828,
+        "completion_tokens": 137,
+        "total_tokens": 965
+      },
+      "duration_s": 3.22,
+      "model": "qwen/qwen3-8b",
+      "timestamp": "2026-05-25T10:13:07"
+    }
+  },
+  {
+    "Task_id": 46,
+    "Task Type": "",
+    "Invovled_App_Name": "weather、 tripadvisor、 notes",
+    "Original-INS": "Please record the weather in Pittsburgh for the next three days and provTask_ide me with a travel plan.",
+    "Level1-INS": "Please record the weather in Pittsburgh for the next three days and provTask_ide me with a travel plan.",
+    "Level2-INS": "Open Google Chrome to check the weather, then open Tripadvisor app to create a travel plan, and finally record all the information in the Notes app",
+    "Level3-INS": "First, open the Google Chrome app, tap the search box, and type 'Pittsburgh weather for the next three days' to find the weather forecast. Then, open the Notes app, create a new note, and record the weather information. Next, open the Tripadvisor app, tap the search icon, enter 'Pittsburgh', and explore the 'Things to Do' and 'Restaurants' sections to find attractions and dining options. Finally, return to the Notes app to add the selected attractions and restaurants to complete your travel plan.",
+    "_orig_task_id": 51,
+    "Level2-INS_v2": "使用天气应用查看匹兹堡未来三天的天气情况，并使用TripAdvisor为用户提供一个旅行计划。",
+    "Level3-INS_v2": "打开天气app，点击小时预报部分查看匹兹堡未来三天的天气情况。然后打开TripAdvisor app，点击搜索图标，在搜索框中输入旅行目的地，点击第一个搜索结果，向下滑动页面查看详细信息，点击'Read More'按钮阅读地点概览，点击地图图标查看位置，点击右上角的心形图标将地点保存到收藏列表，点击右上角的箭头图标，选择社交应用图标将地点分享给朋友。",
+    "_rewrite_meta": {
+      "referenced_apps": [
+        "天气",
+        "tripadvisor"
+      ],
+      "reason": "天气app提供未来三天天气信息，tripadvisor用于生成旅行计划并分享地点信息",
+      "kb_apps_injected": [
+        "天气",
+        "tripadvisor"
+      ],
+      "kb_slice_chars": 1384,
+      "usage": {
+        "prompt_tokens": 845,
+        "completion_tokens": 172,
+        "total_tokens": 1017
+      },
+      "duration_s": 4.15,
+      "model": "qwen/qwen3-8b",
+      "timestamp": "2026-05-25T10:13:11"
+    }
+  },
+  {
+    "Task_id": 47,
+    "Task Type": "",
+    "Invovled_App_Name": "chorme facebook",
+    "Original-INS": "translated 'I miss you'into French and sent it to my friend Kai Chen. ",
+    "Level1-INS": "translated 'I miss you'into French and sent it to my friend Kai Chen. ",
+    "Level2-INS": "Open a browser app like Google Chrome to translate text ' I miss you' into french, then open a social app like facebook to send the message to Kai Chen",
+    "Level3-INS": "open the Google Chrome app, search for 'I love you french translate' Then, open the facebook app, search for your friend 'Kai Chen', enter the chat, paste the translated content into the input bar, and tap send.",
+    "_orig_task_id": 52,
+    "Level2-INS_v2": "将'I miss you'翻译成法语并发送给好友Kai Chen",
+    "Level3-INS_v2": "打开Google Chrome应用，点击右上角的搜索框，输入'翻译 I miss you 到法语'，点击搜索结果中的翻译链接，复制翻译后的法语内容。然后打开Facebook应用，点击右上角的搜索框，输入'Kai Chen'，点击搜索结果中的好友，点击消息按钮，粘贴翻译后的法语内容并发送",
+    "_rewrite_meta": {
+      "referenced_apps": [
+        "Google Chrome",
+        "Facebook"
+      ],
+      "reason": "Google Chrome用于翻译文本，Facebook用于发送消息给好友",
+      "kb_apps_injected": [
+        "Google Chrome",
+        "Facebook"
+      ],
+      "kb_slice_chars": 803,
+      "usage": {
+        "prompt_tokens": 688,
+        "completion_tokens": 143,
+        "total_tokens": 831
+      },
+      "duration_s": 3.31,
+      "model": "qwen/qwen3-8b",
+      "timestamp": "2026-05-25T10:13:14"
+    }
+  },
+  {
+    "Task_id": 48,
+    "Task Type": "",
+    "Invovled_App_Name": "chorme/X/facebook  、 amazon/ebay",
+    "Original-INS": "Check out the guTask_ides on buying guitars in the experience posts and recommend a guitar to me.",
+    "Level1-INS": "Check out the guTask_ides on buying guitars in the experience posts and recommend a guitar to me.",
+    "Level2-INS": "Open a social media app to research guitar buying guTask_ides, and then open an e-commerce app to search for a recommended guitar",
+    "Level3-INS": "First, open  a social media app like X/Facebook. Tap the search bar and type 'guitar buying guTask_ide' or 'guitar recommendation posts' to gather information. After Task_identifying a suitable guitar, open an e-commerce app such as Amazon Shopping or eBay. Tap the search bar, enter the name of the recommended guitar, and browse the search results.",
+    "_orig_task_id": 53,
+    "Level2-INS_v2": "查看Google Chrome的通知和浏览记录，查找关于购买吉他体验的帖子，并在X或Facebook上推荐一款适合的吉他。",
+    "Level3-INS_v2": "打开Google Chrome app，点击底部的钟形图标进入浏览记录页面，向下滑动查看更多历史记录，点击相关帖子进入帖子页面。然后打开X app，点击搜索框，输入关键词如'buy guitar experience'，查看相关帖子并点赞或收藏。或者打开Facebook app，向下滑动查看更多帖子，点击相关帖子进入页面，加入相关群组讨论，最后根据帖子内容推荐一款适合的吉他。",
+    "_rewrite_meta": {
+      "referenced_apps": [
+        "Google Chrome",
+        "X",
+        "Facebook"
+      ],
+      "reason": "Google Chrome用于查看浏览记录和通知，X和Facebook用于查找和讨论购买吉他的经验，从而推荐合适的吉他",
+      "kb_apps_injected": [
+        "Google Chrome",
+        "X",
+        "Facebook",
+        "Amazon"
+      ],
+      "kb_slice_chars": 1511,
+      "usage": {
+        "prompt_tokens": 902,
+        "completion_tokens": 181,
+        "total_tokens": 1083
+      },
+      "duration_s": 5.16,
+      "model": "qwen/qwen3-8b",
+      "timestamp": "2026-05-25T10:13:19"
+    }
+  },
+  {
+    "Task_id": 49,
+    "Task Type": "",
+    "Invovled_App_Name": "Netease Cloud Music、chorme",
+    "Original-INS": "Search for China's most popular singer and play one of his songs. ",
+    "Level1-INS": "Search for China's most popular singer and play one of his songs.",
+    "Level2-INS": "First use a browser to find out who China's most popular singer is, then open a music app to search for and play their song",
+    "Level3-INS": "Open a browser app like Google Chrome, tap the search box and type 'China's most popular singer' to Task_identify the artist. Then, open a music app like Netease Cloud Music or YouTube, tap the search box, enter the singer's name, and tap a song from the results to play it.",
+    "_orig_task_id": 54,
+    "Level2-INS_v2": "使用Google Chrome搜索中国最受欢迎的歌手，并播放他的一首歌曲",
+    "Level3-INS_v2": "打开Google Chrome应用，点击搜索栏，输入'中国最受欢迎的歌手'，点击搜索按钮，从搜索结果中选择一位歌手，点击进入其个人页面，找到其歌曲列表，选择一首歌曲并点击播放按钮开始播放",
+    "_rewrite_meta": {
+      "referenced_apps": [
+        "Google Chrome"
+      ],
+      "reason": "Google Chrome提供搜索和播放音乐的功能，满足用户查找歌手及播放歌曲的需求",
+      "kb_apps_injected": [
+        "Google Chrome"
+      ],
+      "kb_slice_chars": 484,
+      "usage": {
+        "prompt_tokens": 575,
+        "completion_tokens": 114,
+        "total_tokens": 689
+      },
+      "duration_s": 3.75,
+      "model": "qwen/qwen3-8b",
+      "timestamp": "2026-05-25T10:13:23"
+    }
+  },
+  {
+    "Task_id": 50,
+    "Task Type": "",
+    "Invovled_App_Name": "walmart、ebay、amazon",
+    "Original-INS": "Check the prices of AirPods Pro 3 on different shopping platforms, add the one with the lowest price to your shopping cart, and write a comparison report.",
+    "Level1-INS": "Check the prices of AirPods Pro 3 on different shopping platforms, add the one with the lowest price to your shopping cart, and write a comparison report.",
+    "Level2-INS": "Open multiple e-commerce apps like Amazon, Walmart, and eBay to search for 'AirPods Pro 3', compare their prices, add the cheapest one to the cart, and then open a notes app to write a comparison report",
+    "Level3-INS": "Sequentially open e-commerce apps such as Amazon Shopping, Walmart, and eBay. In each app, tap the search bar, enter 'AirPods Pro 3', and search. Browse the results to find and record the price. After comparing all prices, return to the app with the lowest price, tap on the product, and click the 'Add to Cart' button. Finally, open the Notes app, create a new note, and write a comparison report detailing the prices from each platform and the reason for the final choice",
+    "_orig_task_id": 55,
+    "Level2-INS_v2": "在Walmart、eBay和Amazon上搜索AirPods Pro 3的价格，将价格最低的商品加入购物车，并撰写一份价格对比报告。",
+    "Level3-INS_v2": "打开Walmart应用，点击顶部右角的购物车图标，进入购物车页面，点击底部蓝色框中的'Checkout all items'按钮完成结算。打开eBay应用，点击底部的人形图标，向下滑动查看订单记录，然后点击顶部的搜索框，输入'AirPods Pro 3'，点击搜索结果中的第一个商品，向下滑动查看更多产品。打开Amazon应用，点击底部导航栏中的菜单图标，选择'Shop by Department'，进入商品分类页面，点击'Electronics'，搜索'AirPods Pro 3'，点击搜索结果中的第一个商品，将其加入购物车。最后，将三个平台中价格最低的商品加入购物车，并撰写一份包含各平台价格对比的报告。",
+    "_rewrite_meta": {
+      "referenced_apps": [
+        "Walmart",
+        "eBay",
+        "Amazon"
+      ],
+      "reason": "Walmart、eBay和Amazon均提供商品搜索和价格查询功能，可完成价格对比和购物操作",
+      "kb_apps_injected": [
+        "Walmart",
+        "eBay",
+        "Amazon"
+      ],
+      "kb_slice_chars": 1149,
+      "usage": {
+        "prompt_tokens": 798,
+        "completion_tokens": 251,
+        "total_tokens": 1049
+      },
+      "duration_s": 4.73,
+      "model": "qwen/qwen3-8b",
+      "timestamp": "2026-05-25T10:13:28"
+    }
+  },
+  {
+    "Task_id": 51,
+    "Task Type": "系统软件",
+    "Invovled_App_Name": "闹钟",
+    "Original-INS": "Please set a wake-up alarm for me on Friday.",
+    "Level1-INS": "Set a wake-up alarm for Friday morning.",
+    "Level2-INS": "Open the Clock app and add a new alarm scheduled for Friday morning.",
+    "Level3-INS": "Open the Clock app, tap the '+' button in the top right corner of the Alarm tab, choose a wake-up time (e.g. 7:00 AM), tap the repeat option and select only 'Friday', then tap the 'Save' button in the top right corner.",
+    "_source_bench": "MobileWorld",
+    "_mw_task_path": "native/set_alarm_ask_user_1.py",
+    "_mw_task_class": "SetAlarmTaskAskUser1",
+    "_orig_task_id": 56,
+    "Level2-INS_v2": "在周五早上设置一个闹钟唤醒。",
+    "Level3-INS_v2": "打开闹钟app，点击右上角的加号按钮，允许权限后，点击保存按钮，设置时间为周五早上。",
+    "_rewrite_meta": {
+      "referenced_apps": [
+        "闹钟"
+      ],
+      "reason": "闹钟应用提供设置闹钟的功能，可指定具体时间进行唤醒。",
+      "kb_apps_injected": [
+        "闹钟"
+      ],
+      "kb_slice_chars": 307,
+      "usage": {
+        "prompt_tokens": 554,
+        "completion_tokens": 84,
+        "total_tokens": 638
+      },
+      "duration_s": 2.67,
+      "model": "qwen/qwen3-8b",
+      "timestamp": "2026-05-25T10:13:30"
+    }
+  },
+  {
+    "Task_id": 52,
+    "Task Type": "社交媒体",
+    "Invovled_App_Name": "信息",
+    "Original-INS": "Delete all messages in SMS app sent from my company.",
+    "Level1-INS": "Delete all the messages from my company.",
+    "Level2-INS": "Open the Messages app and delete every SMS thread whose sender is my company.",
+    "Level3-INS": "Open the Messages app, scroll through the conversation list, long-press the first message thread sent by the company to enter multi-select mode, tap each additional company message to add it to the selection, then tap the trash icon at the top and confirm to delete.",
+    "_source_bench": "MobileWorld",
+    "_mw_task_path": "messages/delete_messages_ask_user.py",
+    "_mw_task_class": "DeleteAllMessagesAskUserTask",
+    "_orig_task_id": 58,
+    "Level2-INS_v2": "使用信息应用删除所有来自公司的消息",
+    "Level3-INS_v2": "打开信息app，点击搜索图标，输入'公司'作为搜索关键词，选择所有相关的消息线程，点击删除按钮，确认删除所有选中的消息",
+    "_rewrite_meta": {
+      "referenced_apps": [
+        "信息"
+      ],
+      "reason": "信息应用提供搜索和删除消息的功能，可完成删除公司相关消息的任务",
+      "kb_apps_injected": [
+        "信息"
+      ],
+      "kb_slice_chars": 302,
+      "usage": {
+        "prompt_tokens": 559,
+        "completion_tokens": 90,
+        "total_tokens": 649
+      },
+      "duration_s": 3.25,
+      "model": "qwen/qwen3-8b",
+      "timestamp": "2026-05-25T10:13:34"
+    }
+  },
+  {
+    "Task_id": 53,
+    "Task Type": "社交媒体",
+    "Invovled_App_Name": "信息",
+    "Original-INS": "Delete the message about deployment issues in SMS app sent from my company.",
+    "Level1-INS": "Delete the company message about deployment issues.",
+    "Level2-INS": "Open the Messages app and delete the specific message about deployment issues sent from my company.",
+    "Level3-INS": "Open the Messages app, tap the search icon at the top and type 'deployment' to locate the relevant thread, open the thread, long-press the message about deployment issues, tap the trash icon, then confirm the deletion.",
+    "_source_bench": "MobileWorld",
+    "_mw_task_path": "messages/delete_single_message_ask_user.py",
+    "_mw_task_class": "DeleteMessagesAskUserTask",
+    "_orig_task_id": 59,
+    "Level2-INS_v2": "使用信息应用删除关于部署问题的公司消息",
+    "Level3-INS_v2": "打开信息app，点击搜索图标，输入'部署问题'，找到相关消息后点击删除",
+    "_rewrite_meta": {
+      "referenced_apps": [
+        "信息"
+      ],
+      "reason": "信息应用支持搜索和删除特定消息",
+      "kb_apps_injected": [
+        "信息"
+      ],
+      "kb_slice_chars": 302,
+      "usage": {
+        "prompt_tokens": 559,
+        "completion_tokens": 71,
+        "total_tokens": 630
+      },
+      "duration_s": 3.04,
+      "model": "qwen/qwen3-8b",
+      "timestamp": "2026-05-25T10:13:37"
+    }
+  },
+  {
+    "Task_id": 54,
+    "Task Type": "系统软件",
+    "Invovled_App_Name": "日历",
+    "Original-INS": "My schedule on 10/20 is a bit full, please remove a few events.",
+    "Level1-INS": "My schedule on 10/20 is too packed, drop a few events.",
+    "Level2-INS": "Open the Calendar app, navigate to October 20, and delete a few of the events on that day.",
+    "Level3-INS": "Open the Calendar app, tap the date picker at the top and navigate to October 20, tap on a low-priority event to view its details, tap the three-dot menu and choose 'Delete', confirm the deletion, then repeat for one or two more events on that day.",
+    "_source_bench": "MobileWorld",
+    "_mw_task_path": "calendar/delete_event_ask_user.py",
+    "_mw_task_class": "DeleteEventAskUserTask",
+    "_orig_task_id": 60,
+    "Level2-INS_v2": "在10月20日的日历中删除几个事件以减轻日程安排。",
+    "Level3-INS_v2": "打开日历app，点击底部右角的蓝色加号按钮，选择已有的事件，点击编辑按钮，关闭提醒功能，点击右上角的完成按钮保存更改。",
+    "_rewrite_meta": {
+      "referenced_apps": [
+        "日历"
+      ],
+      "reason": "日历应用提供事件编辑和提醒设置功能，可直接操作日程安排",
+      "kb_apps_injected": [
+        "日历"
+      ],
+      "kb_slice_chars": 546,
+      "usage": {
+        "prompt_tokens": 616,
+        "completion_tokens": 106,
+        "total_tokens": 722
+      },
+      "duration_s": 4.27,
+      "model": "qwen/qwen3-8b",
+      "timestamp": "2026-05-25T10:13:41"
+    }
+  },
+  {
+    "Task_id": 55,
+    "Task Type": "系统软件",
+    "Invovled_App_Name": "日历",
+    "Original-INS": "How many deduplicated events are there in the calendar, from October 20 to October 26?",
+    "Level1-INS": "How many unique events do I have between Oct 20 and Oct 26?",
+    "Level2-INS": "Open the Calendar app, browse the events in the Oct 20–26 range, and report the count of distinct (deduplicated) events.",
+    "Level3-INS": "Open the Calendar app, switch to Week view via the view-switcher at the top, navigate to the week containing October 20–26, scroll through each day to enumerate all events, mentally deduplicate identical titles, and report the final count.",
+    "_source_bench": "MobileWorld",
+    "_mw_task_path": "calendar/check_deduplicated_events.py",
+    "_mw_task_class": "CheckDeduplicatedEventsTask",
+    "_orig_task_id": 61,
+    "Level2-INS_v2": "使用日历应用统计从10月20日到10月26日期间发生的独特事件数量",
+    "Level3-INS_v2": "打开日历app，进入日历视图，选择日期范围从10月20日到10月26日，查看所有事件列表，手动统计并记录其中不重复的事件数量",
+    "_rewrite_meta": {
+      "referenced_apps": [
+        "日历"
+      ],
+      "reason": "日历应用支持查看特定日期范围内的事件列表，可手动统计独特事件数量",
+      "kb_apps_injected": [
+        "日历"
+      ],
+      "kb_slice_chars": 546,
+      "usage": {
+        "prompt_tokens": 616,
+        "completion_tokens": 120,
+        "total_tokens": 736
+      },
+      "duration_s": 3.18,
+      "model": "qwen/qwen3-8b",
+      "timestamp": "2026-05-25T10:13:44"
+    }
+  },
+  {
+    "Task_id": 56,
+    "Task Type": "办公协助",
+    "Invovled_App_Name": "gmail",
+    "Original-INS": "Reply to Daniel's most recent email to tell him: 'I'll be there at 10:00 AM on Thursday.'",
+    "Level1-INS": "Tell Daniel by email I'll be there at 10 AM Thursday.",
+    "Level2-INS": "Open Gmail, find Daniel's most recent email, and reply with 'I'll be there at 10:00 AM on Thursday.'",
+    "Level3-INS": "Open the Gmail app, in the inbox locate Daniel's most recent email by sender name and tap it open, tap the 'Reply' button at the bottom, type 'I'll be there at 10:00 AM on Thursday.' in the text field, then tap the send icon (blue triangle) at the top right.",
+    "_source_bench": "MobileWorld",
+    "_mw_task_path": "gmail/accept_meeting.py",
+    "_mw_task_class": "AcceptMeetingTask",
+    "_orig_task_id": 62,
+    "Level2-INS_v2": "用Gmail给Daniel发邮件，告知他我将在周四上午10点到达。",
+    "Level3-INS_v2": "打开Gmail应用，点击撰写新邮件，输入收件人Daniel，填写主题和内容'告知他我将在周四上午10点到达'，点击发送图标发送邮件。",
+    "_rewrite_meta": {
+      "referenced_apps": [
+        "gmail"
+      ],
+      "reason": "Gmail提供邮件发送功能，可直接用于发送通知邮件给Daniel",
+      "kb_apps_injected": [
+        "gmail"
+      ],
+      "kb_slice_chars": 490,
+      "usage": {
+        "prompt_tokens": 588,
+        "completion_tokens": 104,
+        "total_tokens": 692
+      },
+      "duration_s": 4.21,
+      "model": "qwen/qwen3-8b",
+      "timestamp": "2026-05-25T10:13:48"
+    }
+  },
+  {
+    "Task_id": 57,
+    "Task Type": "办公协助",
+    "Invovled_App_Name": "gmail",
+    "Original-INS": "Send the file 'waiver.jpg' as an email attachment to bob@gmail.com. Title the email 'Updated waiver'.",
+    "Level1-INS": "Email the waiver file to Bob with the title 'Updated waiver'.",
+    "Level2-INS": "Open Gmail, compose a new email to bob@gmail.com with subject 'Updated waiver' and attach waiver.jpg.",
+    "Level3-INS": "Open the Gmail app, tap the 'Compose' button at the bottom right, enter bob@gmail.com in the To field, type 'Updated waiver' in the Subject field, tap the paperclip icon at the top to attach a file, navigate to and select 'waiver.jpg', then tap the send icon (blue triangle) at the top right.",
+    "_source_bench": "MobileWorld",
+    "_mw_task_path": "gmail/send_waiver.py",
+    "_mw_task_class": "SendWaiverTask",
+    "_orig_task_id": 63,
+    "Level2-INS_v2": "使用Gmail发送最新的 waiver 文件给Bob，并将邮件标题设置为'Updated waiver'",
+    "Level3-INS_v2": "打开Gmail应用，点击撰写新邮件，输入收件人Bob，输入邮件标题'Updated waiver'，点击附件图标选择waiver文件，点击发送按钮发送邮件",
+    "_rewrite_meta": {
+      "referenced_apps": [
+        "gmail"
+      ],
+      "reason": "Gmail提供发送邮件和附件功能，可完成文件发送任务",
+      "kb_apps_injected": [
+        "gmail"
+      ],
+      "kb_slice_chars": 490,
+      "usage": {
+        "prompt_tokens": 586,
+        "completion_tokens": 102,
+        "total_tokens": 688
+      },
+      "duration_s": 3.63,
+      "model": "qwen/qwen3-8b",
+      "timestamp": "2026-05-25T10:13:52"
+    }
+  },
+  {
+    "Task_id": 58,
+    "Task Type": "办公协助",
+    "Invovled_App_Name": "gmail",
+    "Original-INS": "Could you reply to Daniel's most recent email to tell him I'll have to cancel the meeting on Thursday?",
+    "Level1-INS": "Tell Daniel by email I have to cancel Thursday's meeting.",
+    "Level2-INS": "Open Gmail, find Daniel's most recent email, and reply to cancel the Thursday meeting.",
+    "Level3-INS": "Open the Gmail app, locate Daniel's most recent email in the inbox and tap it open, tap the 'Reply' button at the bottom, type a message like 'I'll have to cancel our meeting on Thursday — sorry for the late notice.' in the text field, then tap the send icon at the top right.",
+    "_source_bench": "MobileWorld",
+    "_mw_task_path": "gmail/cancel_meeting.py",
+    "_mw_task_class": "CancelMeetingTask",
+    "_orig_task_id": 64,
+    "Level2-INS_v2": "使用Gmail向Daniel发送电子邮件，告知我需要取消周四的会议。",
+    "Level3-INS_v2": "打开Gmail应用，点击撰写新邮件，输入收件人Daniel，填写主题和内容为'我需要取消周四的会议'，点击发送图标发送邮件。",
+    "_rewrite_meta": {
+      "referenced_apps": [
+        "gmail"
+      ],
+      "reason": "Gmail提供邮件发送功能，可直接向Daniel发送取消会议的通知。",
+      "kb_apps_injected": [
+        "gmail"
+      ],
+      "kb_slice_chars": 490,
+      "usage": {
+        "prompt_tokens": 585,
+        "completion_tokens": 99,
+        "total_tokens": 684
+      },
+      "duration_s": 3.17,
+      "model": "qwen/qwen3-8b",
+      "timestamp": "2026-05-25T10:13:55"
+    }
+  },
+  {
+    "Task_id": 59,
+    "Task Type": "生活",
+    "Invovled_App_Name": "高德地图(Amap)、信息",
+    "Original-INS": "明天下午我朋友要来杭州西溪这边，你帮我查一下杭州明天白天的天气和情况和温度发送给我的朋友，电话100077788236",
+    "Level1-INS": "明天朋友来杭州西溪，帮我查一下杭州明天白天的天气温度发给他。",
+    "Level2-INS": "在高德地图中查询杭州明天白天的天气情况和温度，然后用信息app将结果短信发送给电话100077788236。",
+    "Level3-INS": "打开高德地图app，点击中间的搜索框输入'杭州'选定城市，切到天气/服务卡片查看明天白天的天气状况和温度数值。切换到信息app，点击右下角的'写信息'按钮，在收件人栏输入电话号码100077788236，在正文中输入'杭州明天白天的天气：xx，温度xx度'，点击发送按钮。",
+    "_source_bench": "MobileWorld",
+    "_mw_task_path": "messages/send_weather_sms.py",
+    "_mw_task_class": "SendWeatherSmsTask",
+    "_orig_task_id": 65,
+    "Level2-INS_v2": "用高德地图查询杭州明天白天的天气温度，发送给朋友。",
+    "Level3-INS_v2": "打开高德地图app，点击搜索框，输入'杭州'，点击搜索结果中的'杭州'，点击'天气'选项，查看明天白天的天气温度，然后点击分享按钮，选择微信好友，输入朋友名字，点击发送按钮。",
+    "_rewrite_meta": {
+      "referenced_apps": [
+        "高德地图"
+      ],
+      "reason": "高德地图提供天气查询功能，支持分享到微信好友",
+      "kb_apps_injected": [
+        "高德地图(Amap)",
+        "信息"
+      ],
+      "kb_slice_chars": 1425,
+      "usage": {
+        "prompt_tokens": 880,
+        "completion_tokens": 115,
+        "total_tokens": 995
+      },
+      "duration_s": 3.31,
+      "model": "qwen/qwen3-8b",
+      "timestamp": "2026-05-25T10:13:58"
+    }
+  },
+  {
+    "Task_id": 60,
+    "Task Type": "生活",
+    "Invovled_App_Name": "高德地图(Amap)、信息",
+    "Original-INS": "中介给我发了两套房子的信息，我想比较一下哪一套离阿里西溪c园区开车更近，好决定租哪一间。把最近那套房子的地址发给我朋友 Mia",
+    "Level1-INS": "比较一下中介发的两套房子哪一套离阿里西溪C园区更近，把更近的那套地址发给Mia。",
+    "Level2-INS": "在信息app中查看中介发来的两套房子地址，用高德地图分别查两个地址到阿里西溪C园区的驾车距离，选出更近的一套，然后通过信息app把更近的那套房址发送给Mia。",
+    "Level3-INS": "打开信息app找到中介发来的两套房子地址记下来。切到高德地图app，点击中间搜索框输入第一个房址查询，然后点击'路线'按钮，将终点设为'阿里西溪C园区'，记下驾车距离。返回搜索同样方法查第二个房址到园区的距离。比较后回到信息app，搜索联系人'Mia'进入聊天页，输入更近那套的地址并发送。",
+    "_source_bench": "MobileWorld",
+    "_mw_task_path": "messages/compare_apartments_distance_sms.py",
+    "_mw_task_class": "CompareApartmentsDistanceSmsTask",
+    "_orig_task_id": 66,
+    "Level2-INS_v2": "使用高德地图比较中介发的两套房子离阿里西溪C园区的距离，将更近的那套地址发送给Mia",
+    "Level3-INS_v2": "打开高德地图app，点击搜索框，输入'阿里西溪C园区'，点击搜索结果中的第一个地点，点击上方的搜索框，输入中介发的两套房子的地址，分别点击每套房子的地址，点击上方的'导航'按钮，查看导航距离，选择距离更近的那套房子，点击上方的分享按钮，选择微信好友，输入Mia的名字，点击发送按钮",
+    "_rewrite_meta": {
+      "referenced_apps": [
+        "高德地图(Amap)"
+      ],
+      "reason": "高德地图支持导航和距离查询，可比较两套房子与阿里西溪C园区的距离，并通过微信发送地址",
+      "kb_apps_injected": [
+        "高德地图(Amap)",
+        "信息"
+      ],
+      "kb_slice_chars": 1425,
+      "usage": {
+        "prompt_tokens": 893,
+        "completion_tokens": 183,
+        "total_tokens": 1076
+      },
+      "duration_s": 11.68,
+      "model": "qwen/qwen3-8b",
+      "timestamp": "2026-05-25T10:14:10"
+    }
+  },
+  {
+    "Task_id": 61,
+    "Task Type": "生活",
+    "Invovled_App_Name": "高德地图(Amap)、信息",
+    "Original-INS": "我现在的位置在西溪园区亲橙客栈，家里有人突然感冒，你帮我查500米范围内的药店，以`name：address`的格式，每个药店一行，帮我短信给我妻子1997777900",
+    "Level1-INS": "西溪园区附近500米的药店都有哪些？把列表短信发给我妻子。",
+    "Level2-INS": "在高德地图中以西溪园区亲橙客栈为中心搜索500米范围内的药店，列出每家的名称和地址，然后用信息app把列表短信发送到号码1997777900。",
+    "Level3-INS": "打开高德地图app，点击中间搜索框输入'西溪园区亲橙客栈'选中作为中心点，点击'周边'按钮选择'药店'分类，将范围筛选设为500米，记录每个搜索结果的名称和地址。打开信息app，点击新建消息按钮，收件人输入1997777900，在正文中按'name：address'格式逐行填入药店信息，点击发送。",
+    "_source_bench": "MobileWorld",
+    "_mw_task_path": "messages/search_pharmacy_task.py",
+    "_mw_task_class": "SearchPharmacyTask",
+    "_orig_task_id": 67,
+    "Level2-INS_v2": "使用高德地图查找西溪园区附近500米内的药店，将药店列表通过短信发送给妻子。",
+    "Level3-INS_v2": "打开高德地图app，点击搜索框，输入'西溪园区'，在搜索结果中找到并点击'药店'类别，筛选距离500米内的药店，点击分享按钮，选择短信发送方式，输入妻子的手机号，发送短信。打开信息app，点击新建短信，输入药店列表内容，点击发送按钮。",
+    "_rewrite_meta": {
+      "referenced_apps": [
+        "高德地图",
+        "信息"
+      ],
+      "reason": "高德地图提供附近药店搜索功能，信息app负责发送短信",
+      "kb_apps_injected": [
+        "高德地图(Amap)",
+        "信息"
+      ],
+      "kb_slice_chars": 1292,
+      "usage": {
+        "prompt_tokens": 843,
+        "completion_tokens": 147,
+        "total_tokens": 990
+      },
+      "duration_s": 3.32,
+      "model": "qwen/qwen3-8b",
+      "timestamp": "2026-05-25T10:14:13"
+    }
+  },
+  {
+    "Task_id": 62,
+    "Task Type": "办公协助",
+    "Invovled_App_Name": "日历、闹钟",
+    "Original-INS": "Set an alarm in Clock app to remind me of my meeting with Sam 5 minutes in advance.",
+    "Level1-INS": "Set an alarm 5 minutes before my meeting with Sam.",
+    "Level2-INS": "Open the Calendar app to find the meeting with Sam, then open the Clock app and add an alarm 5 minutes before its start time.",
+    "Level3-INS": "Open the Calendar app, search for or scroll to the event titled with Sam to read its start time. Open the Clock app, tap the '+' in the Alarm tab, set the time to 5 minutes before that start time, leave repeat off, then tap 'Save' in the top right.",
+    "_source_bench": "MobileWorld",
+    "_mw_task_path": "calendar/check_event_and_set_alarm.py",
+    "_mw_task_class": "CheckEventAndSetAlarmAskUserTask",
+    "_orig_task_id": 68,
+    "Level2-INS_v2": "在日历中创建一个与Sam的会议事件，并设置提前5分钟的闹钟提醒。",
+    "Level3-INS_v2": "打开日历app，点击底部右角的蓝色加号按钮，输入事件名称为'与Sam的会议'，点击右上角的完成按钮。然后打开闹钟app，点击右上角的加号按钮，允许权限后点击保存按钮，设置闹钟时间为会议时间前5分钟。",
+    "_rewrite_meta": {
+      "referenced_apps": [
+        "日历",
+        "闹钟"
+      ],
+      "reason": "日历用于创建会议事件，闹钟用于设置提前提醒",
+      "kb_apps_injected": [
+        "日历",
+        "闹钟"
+      ],
+      "kb_slice_chars": 855,
+      "usage": {
+        "prompt_tokens": 726,
+        "completion_tokens": 136,
+        "total_tokens": 862
+      },
+      "duration_s": 3.89,
+      "model": "qwen/qwen3-8b",
+      "timestamp": "2026-05-25T10:14:17"
+    }
+  },
+  {
+    "Task_id": 63,
+    "Task Type": "办公协助",
+    "Invovled_App_Name": "相册、gmail",
+    "Original-INS": "Send some photos to Kevin via email, with text \"Here are some pictures for you.\"",
+    "Level1-INS": "Email Kevin a few of my photos with a short note.",
+    "Level2-INS": "Open the Gallery app to pick some photos, then share them via Gmail to Kevin with the message 'Here are some pictures for you.'",
+    "Level3-INS": "Open the Gallery app, browse to All Photos, long-press a photo to enter multi-select and tap a few more photos to add, tap the share icon at the bottom and choose Gmail. In the compose screen, enter Kevin's email address in the To field, type 'Here are some pictures for you.' in the body, then tap the send icon at the top right.",
+    "_source_bench": "MobileWorld",
+    "_mw_task_path": "native/share_photos_ask_user.py",
+    "_mw_task_class": "SharePhotosAskUserTask",
+    "_orig_task_id": 69,
+    "Level2-INS_v2": "从相册中选择几张照片，使用Gmail发送给Kevin并附上简短的备注",
+    "Level3-INS_v2": "打开相册app，点击底部的'相册'按钮，进入'所有照片'页面，向下滑动查看更多照片，点击一张照片进入选项页面，重复此操作选择几张照片后返回相册首页。点击右上角的分享按钮，选择'发送到Gmail'，在收件人栏输入Kevin，点击'撰写邮件'，在邮件正文输入简短备注，点击右上角的发送图标发送邮件",
+    "_rewrite_meta": {
+      "referenced_apps": [
+        "相册",
+        "Gmail"
+      ],
+      "reason": "相册用于选择和分享照片，Gmail用于发送邮件给Kevin",
+      "kb_apps_injected": [
+        "相册",
+        "gmail"
+      ],
+      "kb_slice_chars": 1062,
+      "usage": {
+        "prompt_tokens": 770,
+        "completion_tokens": 168,
+        "total_tokens": 938
+      },
+      "duration_s": 4.0,
+      "model": "qwen/qwen3-8b",
+      "timestamp": "2026-05-25T10:14:21"
+    }
+  },
+  {
+    "Task_id": 64,
+    "Task Type": "办公协助",
+    "Invovled_App_Name": "gmail、闹钟",
+    "Original-INS": "Check my email for the time of the Christmas party today. Set an alarm for one hour before then.",
+    "Level1-INS": "Find today's Christmas party time in my email and set an alarm one hour before.",
+    "Level2-INS": "Open Gmail to find today's Christmas party email and read its start time, then open the Clock app and add an alarm for one hour before that time.",
+    "Level3-INS": "Open the Gmail app, in the inbox locate today's email about the Christmas party and tap it open to read the start time. Open the Clock app, tap the '+' in the Alarm tab, set the time to one hour before the party's start time, leave repeat off, then tap 'Save'.",
+    "_source_bench": "MobileWorld",
+    "_mw_task_path": "gmail/check_event_time.py",
+    "_mw_task_class": "CheckEventTimeTask",
+    "_orig_task_id": 70,
+    "Level2-INS_v2": "在邮箱中查找今天的圣诞派对时间，并在派对开始前一小时设置闹钟提醒。",
+    "Level3-INS_v2": "打开Gmail应用，点击收件箱中的邮件以打开，点击顶部右角的三个点菜单，选择'搜索'功能，输入'Christmas party'，找到今天的派对时间后，点击返回。打开闹钟应用，点击右上角的加号按钮，允许权限后，设置时间到派对时间前一小时，点击保存按钮。",
+    "_rewrite_meta": {
+      "referenced_apps": [
+        "Gmail",
+        "闹钟"
+      ],
+      "reason": "Gmail用于查找邮件中的派对时间，闹钟用于设置提前一小时的提醒",
+      "kb_apps_injected": [
+        "gmail",
+        "闹钟"
+      ],
+      "kb_slice_chars": 799,
+      "usage": {
+        "prompt_tokens": 706,
+        "completion_tokens": 154,
+        "total_tokens": 860
+      },
+      "duration_s": 4.58,
+      "model": "qwen/qwen3-8b",
+      "timestamp": "2026-05-25T10:14:26"
+    }
+  },
+  {
+    "Task_id": 65,
+    "Task Type": "办公协助",
+    "Invovled_App_Name": "高德地图(Amap)、gmail",
+    "Original-INS": "我打算骑车上班，帮我估算萧山到阿里西溪C园区的距离(公里)和时间（分钟）把结果按`距离(公里),时间(分钟)`的格式发送到我的生活邮箱dylan@gmail.com，标题为`daily bike`",
+    "Level1-INS": "帮我估算骑车从萧山到阿里西溪C园区的距离和时间，结果邮件发给我。",
+    "Level2-INS": "在高德地图中查询从萧山到阿里西溪C园区的骑行距离和时间，然后用gmail将结果以'距离,时间'格式发送到dylan@gmail.com，标题为'daily bike'。",
+    "Level3-INS": "打开高德地图app，点击搜索框输入起点'萧山'和终点'阿里西溪C园区'，在路线模式中选择'骑行'，查看顶部显示的距离和时间数字。打开gmail app，点击右下角的'撰写'按钮，在To栏输入dylan@gmail.com，主题栏输入'daily bike'，正文输入'距离(公里),时间(分钟)'格式的两个数字，点击右上角发送按钮。",
+    "_source_bench": "MobileWorld",
+    "_mw_task_path": "gmail/estimate_bike_route.py",
+    "_mw_task_class": "EstimateBikeRouteTask",
+    "_orig_task_id": 71,
+    "Level2-INS_v2": "使用高德地图估算从萧山到阿里西溪C园区的骑行距离和时间，将结果通过Gmail邮件发送给我。",
+    "Level3-INS_v2": "打开高德地图app，点击搜索框，输入'萧山'，点击搜索结果中的'萧山'，点击上方的'骑行'按钮，查看到'阿里西溪C园区'的骑行距离和预计时间。然后打开Gmail app，点击'写邮件'按钮，输入收件人邮箱地址，填写邮件主题和内容，点击发送按钮。",
+    "_rewrite_meta": {
+      "referenced_apps": [
+        "高德地图(Amap)",
+        "gmail"
+      ],
+      "reason": "高德地图提供骑行距离和时间估算功能，Gmail用于发送邮件结果",
+      "kb_apps_injected": [
+        "高德地图(Amap)",
+        "gmail"
+      ],
+      "kb_slice_chars": 1882,
+      "usage": {
+        "prompt_tokens": 973,
+        "completion_tokens": 163,
+        "total_tokens": 1136
+      },
+      "duration_s": 3.91,
+      "model": "qwen/qwen3-8b",
+      "timestamp": "2026-05-25T10:14:30"
+    }
+  },
+  {
+    "Task_id": 66,
+    "Task Type": "办公协助",
+    "Invovled_App_Name": "Chrome、gmail",
+    "Original-INS": "Please check the number of stars and contributors on the AndroidWorld GitHub repository, then send an email to kevin_zhang@example.com with the subject line \"AndroidWorld Repository Stats\" and the following message body: There are XXX stars and XXX contributors in the AndroidWorld repository.",
+    "Level1-INS": "Look up AndroidWorld's GitHub stars and contributors and email the numbers to Kevin.",
+    "Level2-INS": "Use Chrome to open the AndroidWorld GitHub repository page and read its star count and contributor count, then use Gmail to email those numbers to kevin_zhang@example.com with subject 'AndroidWorld Repository Stats'.",
+    "Level3-INS": "Open Google Chrome, tap the address bar and search 'github.com/google-research/android_world', open the first result, note the star count next to the Star button and the contributors count in the side panel. Open Gmail, tap Compose, enter kevin_zhang@example.com in To, type 'AndroidWorld Repository Stats' in Subject, type 'There are XXX stars and XXX contributors in the AndroidWorld repository.' (replacing the numbers) in the body, then tap the send icon.",
+    "_source_bench": "MobileWorld",
+    "_mw_task_path": "chrome/check_github_info.py",
+    "_mw_task_class": "CheckGithubInfoTask",
+    "_orig_task_id": 72,
+    "Level2-INS_v2": "使用Chrome搜索AndroidWorld的GitHub stars和contributors数量，然后通过Gmail将这些数字发送给Kevin",
+    "Level3-INS_v2": "打开Chrome浏览器，点击右上角的标签切换器图标，点击左上角的加号图标打开新标签页。在新标签页中输入'AndroidWorld'并按下回车键，搜索结果页面中找到GitHub的stars和contributors数量。关闭Chrome后打开Gmail应用，点击撰写新邮件，输入收件人Kevin的邮箱地址，输入邮件主题和内容，包含stars和contributors的数量，点击发送图标发送邮件。",
+    "_rewrite_meta": {
+      "referenced_apps": [
+        "Chrome",
+        "gmail"
+      ],
+      "reason": "Chrome用于搜索GitHub数据，Gmail用于发送邮件",
+      "kb_apps_injected": [
+        "Chrome",
+        "gmail"
+      ],
+      "kb_slice_chars": 840,
+      "usage": {
+        "prompt_tokens": 707,
+        "completion_tokens": 163,
+        "total_tokens": 870
+      },
+      "duration_s": 3.62,
+      "model": "qwen/qwen3-8b",
+      "timestamp": "2026-05-25T10:14:33"
+    }
+  },
+  {
+    "Task_id": 67,
+    "Task Type": "办公协助",
+    "Invovled_App_Name": "gmail、日历",
+    "Original-INS": "Check my email for the date and time of my meeting with Carl. Then, set a one hour calendar event titled 'Board Meeting'",
+    "Level1-INS": "Find when I meet Carl in my email and add a one-hour 'Board Meeting' to my calendar.",
+    "Level2-INS": "Open Gmail to find the email with the meeting date and time with Carl, then open the Calendar app and add a one-hour event titled 'Board Meeting' at that time.",
+    "Level3-INS": "Open the Gmail app, locate and open the email referencing the meeting with Carl, note the date and start time. Open the Calendar app, tap the '+' to add a new event, type 'Board Meeting' in the title, set start time to that noted time and end time one hour later, then tap 'Save'.",
+    "_source_bench": "MobileWorld",
+    "_mw_task_path": "gmail/check_set_meet_time.py",
+    "_mw_task_class": "CheckSetMeetTimeTask",
+    "_orig_task_id": 74,
+    "Level2-INS_v2": "在邮箱中找到与Carl的邮件，然后在日历中添加一个一小时的'Board Meeting'事件。",
+    "Level3-INS_v2": "打开Gmail应用，使用搜索功能查找与Carl的邮件，打开该邮件后点击'通过Google Meet发起视频会议'选项，进入会议界面后点击'允许'以启用摄像头和麦克风。接着打开日历应用，点击底部右角的蓝色加号按钮创建新事件，输入事件名称'Board Meeting'，点击右上角的完成按钮。然后点击事件详情页的编辑按钮，打开提醒设置，开启'铃声提醒'选项，最后点击右上角的完成按钮保存更改。",
+    "_rewrite_meta": {
+      "referenced_apps": [
+        "Gmail",
+        "日历"
+      ],
+      "reason": "Gmail用于查找与Carl的邮件，日历用于创建并设置会议提醒",
+      "kb_apps_injected": [
+        "gmail",
+        "日历"
+      ],
+      "kb_slice_chars": 909,
+      "usage": {
+        "prompt_tokens": 721,
+        "completion_tokens": 189,
+        "total_tokens": 910
+      },
+      "duration_s": 5.67,
+      "model": "qwen/qwen3-8b",
+      "timestamp": "2026-05-25T10:14:39"
+    }
+  },
+  {
+    "Task_id": 68,
+    "Task Type": "办公协助",
+    "Invovled_App_Name": "gmail、信息、日历",
+    "Original-INS": "I received an email about the Next.js Conf. Please check my calendar. If I'm available, send the sender an SMS saying, 'I can attend the conference.' If not, reply with, 'Sorry, I",
+    "Level1-INS": "Check my email about Next.js Conf, then tell the sender by SMS whether I can attend based on my calendar.",
+    "Level2-INS": "Open Gmail to find the Next.js Conf email and read its date/time and the sender's phone number, open Calendar to check availability for that slot, then open Messages to text the sender 'I can attend the conference.' if free or a polite decline if not.",
+    "Level3-INS": "Open the Gmail app, open the Next.js Conf email, note the conference start/end time and the sender's phone number. Open the Calendar app and navigate to that date to check whether the time slot is free. Open the Messages app, tap to compose a new message, enter the sender's phone number, type 'I can attend the conference.' (or a decline message if a conflict exists), then tap send.",
+    "_source_bench": "MobileWorld",
+    "_mw_task_path": "gmail/reply_email_via_sms_ask_user.py",
+    "_mw_task_class": "ReplyEmailViaSmsAskUserTask",
+    "_orig_task_id": 75,
+    "Level2-INS_v2": "查看邮箱中的 Next.js Conf 邮件，根据日历判断是否能参加，然后通过短信回复发件人",
+    "Level3-INS_v2": "打开 Gmail app，点击收件箱中的 Next.js Conf 邮件，点击回复按钮，输入回复内容，点击发送图标。打开信息 app，点击新建短信，输入发件人号码，输入回复内容，点击发送按钮。",
+    "_rewrite_meta": {
+      "referenced_apps": [
+        "Gmail",
+        "信息",
+        "日历"
+      ],
+      "reason": "Gmail 用于查看和回复邮件，信息用于发送短信，日历用于判断是否能参加会议",
+      "kb_apps_injected": [
+        "gmail",
+        "信息",
+        "日历"
+      ],
+      "kb_slice_chars": 1342,
+      "usage": {
+        "prompt_tokens": 887,
+        "completion_tokens": 138,
+        "total_tokens": 1025
+      },
+      "duration_s": 4.06,
+      "model": "qwen/qwen3-8b",
+      "timestamp": "2026-05-25T10:14:43"
+    }
+  },
+  {
+    "Task_id": 69,
+    "Task Type": "娱乐",
+    "Invovled_App_Name": "网易云音乐",
+    "Original-INS": "我想听音乐。",
+    "Level1-INS": "我想听音乐。",
+    "Level2-INS": "打开网易云音乐，挑一首推荐歌曲播放。",
+    "Level3-INS": "打开网易云音乐app，点击底部的'每日推荐'或首页的推荐歌单，点击其中一首歌曲的播放按钮(黄底黑色三角形)开始播放。",
+    "_source_bench": "MVISU-cn",
+    "_orig_task_id": 76,
+    "Level2-INS_v2": "用网易云音乐播放音乐电台' hudie'。",
+    "Level3-INS_v2": "打开网易云音乐app，点击搜索框，输入'hudie'，点击搜索结果中的'hudie'，点击播放按钮（黑色三角形在黄色圆圈背景上）。",
+    "_rewrite_meta": {
+      "referenced_apps": [
+        "网易云音乐"
+      ],
+      "reason": "网易云音乐提供音乐电台播放功能",
+      "kb_apps_injected": [
+        "网易云音乐"
+      ],
+      "kb_slice_chars": 232,
+      "usage": {
+        "prompt_tokens": 533,
+        "completion_tokens": 93,
+        "total_tokens": 626
+      },
+      "duration_s": 3.14,
+      "model": "qwen/qwen3-8b",
+      "timestamp": "2026-05-25T10:14:46"
+    }
+  },
+  {
+    "Task_id": 70,
+    "Task Type": "出行",
+    "Invovled_App_Name": "携程旅行、微信",
+    "Original-INS": "在携程上订一张下周五去三亚的机票,订好后把航班信息通过微信发给我老婆。",
+    "Level1-INS": "订一张下周五去三亚的机票，订好后把航班信息发给我老婆。",
+    "Level2-INS": "在携程旅行app中预订下周五飞往三亚的机票，然后切到微信将航班信息发送给微信好友'老婆'。",
+    "Level3-INS": "打开携程app，点击首页'机票'图标，输入出发城市与目的地'三亚'，日期选下周五，从航班列表中挑选合适的一班点击预订完成支付，截图航班详情；切换到微信app，点击右上角放大镜搜索好友'老婆'，进入聊天页将截图发送过去。",
+    "_source_bench": "AndroidDaily",
+    "_orig_task_id": 86,
+    "Level2-INS_v2": "用携程旅行预订下周五去三亚的机票，订好后将航班信息发送给微信上的老婆。",
+    "Level3-INS_v2": "打开携程旅行app，点击飞机图标进入机票预订页面，输入目的地为'三亚'，点击搜索按钮，选择下周五的航班，点击预订按钮完成订票。订票成功后，打开微信app，点击右上角加号，选择添加好友，搜索并添加老婆为好友，发送航班信息。",
+    "_rewrite_meta": {
+      "referenced_apps": [
+        "携程旅行",
+        "微信"
+      ],
+      "reason": "携程旅行提供机票预订功能，微信用于发送航班信息给好友",
+      "kb_apps_injected": [
+        "携程旅行",
+        "微信"
+      ],
+      "kb_slice_chars": 731,
+      "usage": {
+        "prompt_tokens": 696,
+        "completion_tokens": 140,
+        "total_tokens": 836
+      },
+      "duration_s": 2.82,
+      "model": "qwen/qwen3-8b",
+      "timestamp": "2026-05-25T10:14:49"
+    }
+  },
+  {
+    "Task_id": 71,
+    "Task Type": "",
+    "Invovled_App_Name": "googleMap",
+    "Original-INS": "Find the nearest ATM.",
+    "Level1-INS": "Find the nearest ATM.",
+    "Level2-INS": "Open Google Maps and search for the nearest ATM to my current location.",
+    "Level3-INS": "Open the Google Maps app, tap the search bar at the top, type 'ATM' and tap the search icon. Pick the first result on the map (closest by distance) to view its details and directions.",
+    "_source_bench": "AndroidArena",
+    "_orig_task_id": 88,
+    "Level2-INS_v2": "使用Google地图查找并前往最近的ATM机",
+    "Level3-INS_v2": "打开Google地图app，点击顶部的搜索框，输入您所在区域的名称，点击搜索结果中的第一个地点，点击分享按钮，在蓝色框中选择社交软件，向右滑动选择发送位置给朋友，然后根据导航前往最近的ATM机",
+    "_rewrite_meta": {
+      "referenced_apps": [
+        "googleMap"
+      ],
+      "reason": "Google地图提供搜索和导航功能，可查找并指引至最近的ATM机",
+      "kb_apps_injected": [
+        "googleMap"
+      ],
+      "kb_slice_chars": 480,
+      "usage": {
+        "prompt_tokens": 586,
+        "completion_tokens": 118,
+        "total_tokens": 704
+      },
+      "duration_s": 2.79,
+      "model": "qwen/qwen3-8b",
+      "timestamp": "2026-05-25T10:14:52"
+    }
+  },
+  {
+    "Task_id": 72,
+    "Task Type": "社交媒体",
+    "Invovled_App_Name": "信息",
+    "Original-INS": "Send a message to Kevin to information him \"Your interview is scheduled for tomorrow morning at 10:30 AM\".",
+    "Level1-INS": "Tell Kevin his interview is tomorrow at 10:30 AM.",
+    "Level2-INS": "Open the Messages app and SMS Kevin: 'Your interview is scheduled for tomorrow morning at 10:30 AM'.",
+    "Level3-INS": "Open the Messages app, tap the new-message button, search for or enter Kevin in the recipient field, type 'Your interview is scheduled for tomorrow morning at 10:30 AM' in the input box, then tap the send button.",
+    "_source_bench": "MobileWorld",
+    "_mw_task_path": "messages/send_interview_invitation_ask_user.py",
+    "_mw_task_class": "SendInterviewInvitationAskUserTask",
+    "_orig_task_id": 95,
+    "Level2-INS_v2": "用信息应用发送一条短信给Kevin，告知他的面试安排是明天上午10:30",
+    "Level3-INS_v2": "打开信息app，点击搜索图标，输入'Kevin'，选择搜索结果中的联系人，点击进入聊天界面，输入'你的面试安排是明天上午10:30'，点击发送按钮",
+    "_rewrite_meta": {
+      "referenced_apps": [
+        "信息"
+      ],
+      "reason": "信息应用提供发送短信功能，可直接联系Kevin并传达面试时间",
+      "kb_apps_injected": [
+        "信息"
+      ],
+      "kb_slice_chars": 302,
+      "usage": {
+        "prompt_tokens": 566,
+        "completion_tokens": 112,
+        "total_tokens": 678
+      },
+      "duration_s": 3.75,
+      "model": "qwen/qwen3-8b",
+      "timestamp": "2026-05-25T10:14:56"
+    }
+  },
+  {
+    "Task_id": 73,
+    "Task Type": "信息搜索",
+    "Invovled_App_Name": "Chrome",
+    "Original-INS": "Use Chrome to search for Beijing highest temperature today. ONLY give a integer number denoted Celsius degree.",
+    "Level1-INS": "What's the highest temperature in Beijing today?",
+    "Level2-INS": "Open Chrome and search for Beijing's highest temperature today, then report the integer Celsius value.",
+    "Level3-INS": "Open the Chrome app, tap the search bar at the top, type 'Beijing highest temperature today' and tap go, read the weather card or first search result to get the high-temperature value, then report it as an integer.",
+    "_source_bench": "MobileWorld",
+    "_mw_task_path": "chrome/check_weather.py",
+    "_mw_task_class": "ChromeSearchBeijingWeatherTask",
+    "_orig_task_id": 96,
+    "Level2-INS_v2": "使用Chrome浏览器搜索北京今天的最高温度",
+    "Level3-INS_v2": "打开Chrome浏览器应用，点击顶部右角的三个点菜单，选择'新建标签页'，在新标签页的地址栏输入'北京今天最高温度'并按下回车键，查看搜索结果中的最高温度信息",
+    "_rewrite_meta": {
+      "referenced_apps": [
+        "Chrome"
+      ],
+      "reason": "Chrome浏览器提供搜索引擎功能，可用来查询实时天气信息",
+      "kb_apps_injected": [
+        "Chrome"
+      ],
+      "kb_slice_chars": 348,
+      "usage": {
+        "prompt_tokens": 556,
+        "completion_tokens": 101,
+        "total_tokens": 657
+      },
+      "duration_s": 2.62,
+      "model": "qwen/qwen3-8b",
+      "timestamp": "2026-05-25T10:14:58"
+    }
+  },
+  {
+    "Task_id": 74,
+    "Task Type": "",
+    "Invovled_App_Name": "googleMap",
+    "Original-INS": "Open Google Maps and find which company is directly south of my company. ONLY output the company name in English.",
+    "Level1-INS": "Which company sits directly south of mine?",
+    "Level2-INS": "Open Google Maps, locate my company, and identify the company directly to its south.",
+    "Level3-INS": "Open the Google Maps app, tap the search bar and type my company name, tap the result to center it on the map, then pan and zoom slightly south to read the label of the building/business immediately south, and report that company's name.",
+    "_source_bench": "MobileWorld",
+    "_mw_task_path": "map/check_neighbours_ask_user.py",
+    "_mw_task_class": "GoogleMapsAlibabaSouthNeighborAskUserTask",
+    "_orig_task_id": 97,
+    "Level2-INS_v2": "使用谷歌地图查找您所在位置的南边最近的公司",
+    "Level3-INS_v2": "打开谷歌地图app，点击顶部的搜索框，输入您所在的位置名称，点击搜索结果中的第一个地点，点击底部的分享按钮，在蓝色框中选择社交软件，向右滑动选择分享给好友，然后查看分享后的地图信息以确定南边最近的公司",
+    "_rewrite_meta": {
+      "referenced_apps": [
+        "googleMap"
+      ],
+      "reason": "谷歌地图提供地图搜索和位置分享功能，可用于查找南边的公司",
+      "kb_apps_injected": [
+        "googleMap"
+      ],
+      "kb_slice_chars": 480,
+      "usage": {
+        "prompt_tokens": 589,
+        "completion_tokens": 122,
+        "total_tokens": 711
+      },
+      "duration_s": 2.47,
+      "model": "qwen/qwen3-8b",
+      "timestamp": "2026-05-25T10:15:01"
+    }
+  },
+  {
+    "Task_id": 75,
+    "Task Type": "",
+    "Invovled_App_Name": "googleMap",
+    "Original-INS": "Open Google Maps and find which company is directly south of Alibaba Hangzhou headquarters in Binjiang District. ONLY output the company name in English.",
+    "Level1-INS": "Which company sits directly south of Alibaba Hangzhou HQ in Binjiang?",
+    "Level2-INS": "Open Google Maps, find Alibaba's Hangzhou headquarters in Binjiang District, and identify the company directly to its south.",
+    "Level3-INS": "Open the Google Maps app, tap the search bar and type 'Alibaba Hangzhou headquarters Binjiang', tap the result to focus on it, then pan slightly south to see the building/business immediately south and read its label.",
+    "_source_bench": "MobileWorld",
+    "_mw_task_path": "map/check_neighbours.py",
+    "_mw_task_class": "GoogleMapsAlibabaSouthNeighborTask",
+    "_orig_task_id": 98,
+    "Level2-INS_v2": "使用Google地图查找阿里巴巴杭州总部所在的滨江区，并确定其正南方的公司名称。",
+    "Level3-INS_v2": "打开Google地图app，点击顶部的搜索框，输入'阿里巴巴杭州总部'，点击搜索结果中的第一个地点。点击该地点进入详情页面，点击底部的分享按钮，在弹出的选项中选择'发送到社交软件'，然后在搜索框中输入'阿里巴巴杭州总部正南方的公司'，点击搜索结果中的第一个地点，查看其名称。",
+    "_rewrite_meta": {
+      "referenced_apps": [
+        "googleMap"
+      ],
+      "reason": "Google地图提供搜索和定位功能，可帮助查找阿里巴巴杭州总部及其正南方的公司",
+      "kb_apps_injected": [
+        "googleMap"
+      ],
+      "kb_slice_chars": 480,
+      "usage": {
+        "prompt_tokens": 595,
+        "completion_tokens": 148,
+        "total_tokens": 743
+      },
+      "duration_s": 3.63,
+      "model": "qwen/qwen3-8b",
+      "timestamp": "2026-05-25T10:15:04"
+    }
+  },
+  {
+    "Task_id": 76,
+    "Task Type": "",
+    "Invovled_App_Name": "googleMap",
+    "Original-INS": "What is the driving distance in kilometers from Beijing to my hometown? Response as the following format: beijing to xxx: distance km. xxx denotes the name of the hometown.",
+    "Level1-INS": "How far is it to drive from Beijing to my hometown?",
+    "Level2-INS": "Open Google Maps and check the driving distance in kilometers from Beijing to my hometown.",
+    "Level3-INS": "Open the Google Maps app, tap the directions icon, set the start to 'Beijing' and the destination to my hometown, choose the driving mode, then read the displayed distance in kilometers and report it as 'beijing to <hometown>: <distance> km'.",
+    "_source_bench": "MobileWorld",
+    "_mw_task_path": "map/check_distance_ask_user_1.py",
+    "_mw_task_class": "CheckDistanceAskUserTask1",
+    "_orig_task_id": 99,
+    "Level2-INS_v2": "使用Google地图查看从北京到您家乡的驾驶距离",
+    "Level3-INS_v2": "打开Google地图app，点击顶部的搜索框，输入'北京'，点击第一个搜索结果，点击顶部的'路线'按钮，选择'驾车'，然后在目的地输入您的家乡名称，点击第一个搜索结果，查看显示的驾驶距离和预计时间",
+    "_rewrite_meta": {
+      "referenced_apps": [
+        "googleMap"
+      ],
+      "reason": "Google地图提供路线规划和驾驶距离查询功能",
+      "kb_apps_injected": [
+        "googleMap"
+      ],
+      "kb_slice_chars": 480,
+      "usage": {
+        "prompt_tokens": 593,
+        "completion_tokens": 111,
+        "total_tokens": 704
+      },
+      "duration_s": 3.33,
+      "model": "qwen/qwen3-8b",
+      "timestamp": "2026-05-25T10:15:08"
+    }
+  },
+  {
+    "Task_id": 77,
+    "Task Type": "系统软件",
+    "Invovled_App_Name": "日历",
+    "Original-INS": "How many days of conference meetings did I schedule in October? Please only return the number of days, no other text.",
+    "Level1-INS": "How many conference days did I schedule in October?",
+    "Level2-INS": "Open the Calendar app and count the days in October that contain conference meetings.",
+    "Level3-INS": "Open the Calendar app, switch to Month view via the view-switcher and navigate to October, scan each day for events whose titles mention 'conference', count the distinct days that contain such events, and report that integer.",
+    "_source_bench": "MobileWorld",
+    "_mw_task_path": "calendar/check_conference_duration.py",
+    "_mw_task_class": "CheckConferenceDurationTask",
+    "_orig_task_id": 100,
+    "Level2-INS_v2": "查看十月的日程安排，统计其中有多少天是安排了会议的",
+    "Level3-INS_v2": "打开日历app，点击底部右角的蓝色加号按钮，输入事件名称为'会议'，点击右上角的完成按钮。然后在日历界面滑动查看十月的每一天，统计其中包含'会议'事件的天数",
+    "_rewrite_meta": {
+      "referenced_apps": [
+        "日历"
+      ],
+      "reason": "日历应用支持查看和统计特定时间段内的日程安排",
+      "kb_apps_injected": [
+        "日历"
+      ],
+      "kb_slice_chars": 546,
+      "usage": {
+        "prompt_tokens": 608,
+        "completion_tokens": 115,
+        "total_tokens": 723
+      },
+      "duration_s": 3.18,
+      "model": "qwen/qwen3-8b",
+      "timestamp": "2026-05-25T10:15:11"
+    }
+  },
+  {
+    "Task_id": 78,
+    "Task Type": "办公协助",
+    "Invovled_App_Name": "gmail",
+    "Original-INS": "Look for a file in my email titled 'receipts.jpg' and download it. Then, send it to to treasurer@gmail.com with the subject 'Proof of purchase', the email should mention the total amount spent in the email.",
+    "Level1-INS": "Forward the receipts.jpg attachment to the treasurer with the total amount.",
+    "Level2-INS": "Open Gmail, locate the email containing receipts.jpg, download it, then compose a new email to treasurer@gmail.com with subject 'Proof of purchase' that attaches the file and notes the total amount spent.",
+    "Level3-INS": "Open the Gmail app, tap the search icon and search 'receipts.jpg', open the matching email and tap the attachment 'receipts.jpg' then download it. Tap the Compose button, enter treasurer@gmail.com in To, type 'Proof of purchase' in the Subject field, write the total amount spent in the body, tap the paperclip icon to attach the downloaded receipts.jpg, then tap the send icon.",
+    "_source_bench": "MobileWorld",
+    "_mw_task_path": "gmail/download_send_receipt.py",
+    "_mw_task_class": "DownloadSendReceiptTask",
+    "_orig_task_id": 101,
+    "Level2-INS_v2": "使用Gmail将 receipts.jpg 附件发送给财务主管，并在邮件中注明总金额。",
+    "Level3-INS_v2": "打开Gmail应用，点击撰写新邮件，点击附件图标选择 receipts.jpg，输入收件人地址为财务主管，输入邮件主题和正文注明总金额，点击发送图标发送邮件。",
+    "_rewrite_meta": {
+      "referenced_apps": [
+        "gmail"
+      ],
+      "reason": "Gmail 提供邮件撰写和附件发送功能，可完成发送 receipts.jpg 附件并注明总金额的任务。",
+      "kb_apps_injected": [
+        "gmail"
+      ],
+      "kb_slice_chars": 490,
+      "usage": {
+        "prompt_tokens": 586,
+        "completion_tokens": 116,
+        "total_tokens": 702
+      },
+      "duration_s": 3.17,
+      "model": "qwen/qwen3-8b",
+      "timestamp": "2026-05-25T10:15:14"
+    }
+  },
+  {
+    "Task_id": 79,
+    "Task Type": "办公协助",
+    "Invovled_App_Name": "gmail",
+    "Original-INS": "Please check my email for any field trip forms sent from October 3rd onward. Download all of them and send them to principal@school.edu with the subject 'Field Trip Forms'. Then, tell me how many forms you found as a single number.",
+    "Level1-INS": "Collect any field trip forms from my email since Oct 3 and forward them to the principal; tell me how many.",
+    "Level2-INS": "Open Gmail to find all field-trip-form emails dated Oct 3 or later, download every attachment, then compose one email to principal@school.edu with subject 'Field Trip Forms' attaching all the forms, and report the count.",
+    "Level3-INS": "Open the Gmail app, tap the search icon and search 'field trip form after:2025/10/03', open each matching email and tap each attachment to download it, count the total. Tap Compose, enter principal@school.edu in To, type 'Field Trip Forms' in Subject, attach all downloaded forms via the paperclip icon, type the count in the body, then send. Report the count number.",
+    "_source_bench": "MobileWorld",
+    "_mw_task_path": "gmail/send_forms.py",
+    "_mw_task_class": "SendFormsTask",
+    "_orig_task_id": 102,
+    "Level2-INS_v2": "从我的邮箱中收集自10月3日起的所有旅行申请表，转发给校长，并告诉我数量",
+    "Level3-INS_v2": "打开Gmail应用，点击收件箱中所有在10月3日之后收到的邮件，点击每封邮件的详情页，点击右上角的转发按钮，输入校长的邮箱地址，点击发送按钮，完成后在Gmail应用中查看已发送的邮件数量并告知用户",
+    "_rewrite_meta": {
+      "referenced_apps": [
+        "gmail"
+      ],
+      "reason": "Gmail提供邮件搜索和转发功能，可完成收集、筛选和转发任务",
+      "kb_apps_injected": [
+        "gmail"
+      ],
+      "kb_slice_chars": 490,
+      "usage": {
+        "prompt_tokens": 597,
+        "completion_tokens": 135,
+        "total_tokens": 732
+      },
+      "duration_s": 3.62,
+      "model": "qwen/qwen3-8b",
+      "timestamp": "2026-05-25T10:15:18"
+    }
+  },
+  {
+    "Task_id": 80,
+    "Task Type": "生活",
+    "Invovled_App_Name": "高德地图(Amap)、信息",
+    "Original-INS": "我从高德复制了一段终点坐标 120.0351,30.2809（阿里西溪附近），帮我用它查出详细的行政区划地址，然后短信给1766242644，按照\"坐标：地址\"的格式编写短信内容",
+    "Level1-INS": "把这个坐标的详细地址查一下短信发给我。",
+    "Level2-INS": "在高德地图中用坐标120.0351,30.2809查出详细的行政区划地址，再用信息app把'坐标：地址'格式的内容发给1766242644。",
+    "Level3-INS": "打开高德地图app，点击中间搜索框，粘贴坐标'120.0351,30.2809'选中目标点，在结果详情页读取完整行政区划地址。打开信息app，点击新建消息按钮，收件人输入1766242644，正文按'坐标：地址'格式键入'120.0351,30.2809：<上一步读到的地址>'，点击发送。",
+    "_source_bench": "MobileWorld",
+    "_mw_task_path": "messages/send_location_address_sms.py",
+    "_mw_task_class": "SendLocationAddressSmsTask",
+    "_orig_task_id": 103,
+    "Level2-INS_v2": "用高德地图查询这个坐标的详细地址，然后通过短信发送给我。",
+    "Level3-INS_v2": "打开高德地图app，点击屏幕中间的放大镜图标，输入目标地点，点击右侧蓝色字体的'搜索'按钮，选择第一个搜索结果，点击黑色边框星星图标保存该地点。保存后点击上方的搜索框，输入朋友名字，选择对应的好友，点击绿色框中的'发送'按钮，最后点击蓝色框中的'路线'按钮，再点击蓝色框中的'开始导航'按钮。导航完成后，打开信息app，点击新建短信，输入地址内容，点击发送按钮。",
+    "_rewrite_meta": {
+      "referenced_apps": [
+        "高德地图",
+        "信息"
+      ],
+      "reason": "高德地图提供地址查询和导航功能，信息负责发送短信",
+      "kb_apps_injected": [
+        "高德地图(Amap)",
+        "信息"
+      ],
+      "kb_slice_chars": 1292,
+      "usage": {
+        "prompt_tokens": 835,
+        "completion_tokens": 176,
+        "total_tokens": 1011
+      },
+      "duration_s": 5.32,
+      "model": "qwen/qwen3-8b",
+      "timestamp": "2026-05-25T10:15:23"
+    }
+  },
+  {
+    "Task_id": 81,
+    "Task Type": "出行",
+    "Invovled_App_Name": "高德地图(Amap)、信息",
+    "Original-INS": "成都打车路线：从成都双流国际机场T2航站楼到锦江区春熙路南段8号酒店，途经宽窄巷子和锦里古街，把路线信息按规定格式短信发给Lucy 13900139000。",
+    "Level1-INS": "帮我设计成都打车路线，途经宽窄巷子和锦里古街，把详细信息发给Lucy。",
+    "Level2-INS": "在高德地图中规划从成都双流T2到春熙路南段8号酒店的打车路线，途经宽窄巷子和锦里古街，按最短距离排序，然后用信息app将4个地点名称坐标、浏览顺序、三段距离和总距离发送给Lucy 13900139000。",
+    "Level3-INS": "打开高德地图app，在搜索框依次输入起点'成都双流国际机场T2航站楼'、途经点'宽窄巷子''锦里古街'和终点'成都市锦江区春熙路南段8号'，切到打车模式分别记录两种顺序的总距离选最短一组，记下各点的经纬度坐标和分段距离。打开信息app，新建消息，收件人填13900139000，按要求格式逐行键入4个地点的'名称：经度,纬度'、浏览顺序、三段驾车距离(米)和总距离(米)，点击发送。",
+    "_source_bench": "MobileWorld",
+    "_mw_task_path": "messages/plan_taxi_route_sms.py",
+    "_mw_task_class": "PlanTaxiRouteSmsTask",
+    "_orig_task_id": 104,
+    "Level2-INS_v2": "使用高德地图规划从成都出发，途经宽窄巷子和锦里古街的打车路线，并将详细信息发送给Lucy。",
+    "Level3-INS_v2": "打开高德地图app，点击底部的纸飞机图标并选择'打车'，在搜索框中输入目的地，选择第一个搜索结果，点击'立即打车'按钮。规划好路线后，点击分享按钮，选择发送给Lucy，并附上详细路线信息。",
+    "_rewrite_meta": {
+      "referenced_apps": [
+        "高德地图"
+      ],
+      "reason": "高德地图提供打车出行和路线规划功能，可直接发送路线信息给Lucy",
+      "kb_apps_injected": [
+        "高德地图(Amap)",
+        "信息"
+      ],
+      "kb_slice_chars": 859,
+      "usage": {
+        "prompt_tokens": 743,
+        "completion_tokens": 146,
+        "total_tokens": 889
+      },
+      "duration_s": 3.15,
+      "model": "qwen/qwen3-8b",
+      "timestamp": "2026-05-25T10:15:26"
+    }
+  },
+  {
+    "Task_id": 82,
+    "Task Type": "社交媒体",
+    "Invovled_App_Name": "信息、日历",
+    "Original-INS": "I've received a lunch invitation via text message; please reply \"OK\" and schedule a lunch event ranging from 11 a.m. to 12 a.m. on Oct 16.",
+    "Level1-INS": "Accept the SMS lunch invite and put it on my calendar (Oct 16, 11am–noon).",
+    "Level2-INS": "Open Messages, reply 'OK' to the lunch invitation, then open Calendar and add a Lunch event on Oct 16 from 11 AM to 12 PM.",
+    "Level3-INS": "Open the Messages app, locate the lunch invitation thread, type 'OK' in the input box and tap send. Open the Calendar app, tap the '+' to add a new event, type 'Lunch' as the title, set the date to October 16 with start time 11:00 AM and end time 12:00 PM, then tap 'Save'.",
+    "_source_bench": "MobileWorld",
+    "_mw_task_path": "calendar/schedule_lunch_via_sms_ask_user.py",
+    "_mw_task_class": "ScheduleLunchViaSmsAskUserTask",
+    "_orig_task_id": 108,
+    "Level2-INS_v2": "接受来自短信的午餐邀请，并将其添加到日历中，时间为10月16日中午11点到12点。",
+    "Level3-INS_v2": "打开信息app，点击短信线程以打开消息，接受午餐邀请。然后打开日历app，点击右下角的加号按钮创建新事件，输入事件名称为'午餐邀请'，设置时间为10月16日中午11点到12点，点击完成按钮保存。",
+    "_rewrite_meta": {
+      "referenced_apps": [
+        "信息",
+        "日历"
+      ],
+      "reason": "信息app用于接受短信邀请，日历app用于创建和设置事件提醒",
+      "kb_apps_injected": [
+        "信息",
+        "日历"
+      ],
+      "kb_slice_chars": 850,
+      "usage": {
+        "prompt_tokens": 744,
+        "completion_tokens": 147,
+        "total_tokens": 891
+      },
+      "duration_s": 4.45,
+      "model": "qwen/qwen3-8b",
+      "timestamp": "2026-05-25T10:15:31"
+    }
+  },
+  {
+    "Task_id": 83,
+    "Task Type": "社交媒体",
+    "Invovled_App_Name": "信息、日历",
+    "Original-INS": "I've received a coffee time invitation via text message; please check the calendar. If I am available in this time slot, reply \"OK\" and schedule a corresponding event on my calendar. Otherwise reply \"Not available in this time slot.\"",
+    "Level1-INS": "Check my calendar for the SMS coffee invite and reply with the right answer.",
+    "Level2-INS": "Open Messages to read the coffee time invitation, open Calendar to check whether that time slot is free, then reply 'OK' and add the event if free, otherwise reply 'Not available in this time slot.'",
+    "Level3-INS": "Open the Messages app, open the coffee invitation thread and note the proposed time. Open the Calendar app and navigate to that date/time to see if it's free. If free: return to Messages, type 'OK' and send, then in Calendar tap '+' to add a 'Coffee' event at that time and tap Save. If conflict: return to Messages, type 'Not available in this time slot.' and send.",
+    "_source_bench": "MobileWorld",
+    "_mw_task_path": "calendar/schedule_coffee_time_via_sms.py",
+    "_mw_task_class": "ScheduleCoffeeTimeViaSmsTask",
+    "_orig_task_id": 109,
+    "Level2-INS_v2": "查看日历中的短信咖啡邀请，并通过信息应用回复正确的答案。",
+    "Level3-INS_v2": "打开日历应用，点击搜索图标，输入'咖啡邀请'，找到对应的短信邀请事件，点击打开。然后打开信息应用，点击新建消息，输入回复内容，发送给邀请人。",
+    "_rewrite_meta": {
+      "referenced_apps": [
+        "日历",
+        "信息"
+      ],
+      "reason": "日历用于查找短信咖啡邀请，信息应用用于回复短信",
+      "kb_apps_injected": [
+        "信息",
+        "日历"
+      ],
+      "kb_slice_chars": 850,
+      "usage": {
+        "prompt_tokens": 735,
+        "completion_tokens": 105,
+        "total_tokens": 840
+      },
+      "duration_s": 3.23,
+      "model": "qwen/qwen3-8b",
+      "timestamp": "2026-05-25T10:15:34"
+    }
+  },
+  {
+    "Task_id": 84,
+    "Task Type": "社交媒体",
+    "Invovled_App_Name": "信息、日历",
+    "Original-INS": "I've received a one-on-one meeting invitation from my boss. Please check my calendar and reply 'OK' if it's clear. If there's a scheduling conflict, please notify the person in the conflict event by SMS: 'Sorry, I can't attend the meeting.'",
+    "Level1-INS": "Check my calendar for the 1:1 invite from my boss and handle the reply.",
+    "Level2-INS": "Open Messages to read the 1-on-1 invitation from my boss, open Calendar to check that time slot, then reply 'OK' to the boss if free, or otherwise SMS the conflicting event's person 'Sorry, I can't attend the meeting.'",
+    "Level3-INS": "Open the Messages app, read the boss's 1-on-1 invitation and note its proposed time. Open the Calendar app and navigate to that time slot. If empty: return to Messages and reply 'OK' to the boss. If a conflicting event exists, open that event to find its other participant's contact, then open Messages, compose a new SMS to that person, type 'Sorry, I can't attend the meeting.' and send.",
+    "_source_bench": "MobileWorld",
+    "_mw_task_path": "calendar/schedule_oneone_via_sms_ask_user.py",
+    "_mw_task_class": "ScheduleOneOneViaSmsAskUserTask",
+    "_orig_task_id": 110,
+    "Level2-INS_v2": "查看日历中是否有来自老板的1:1会议邀请，并回复确认或拒绝",
+    "Level3-INS_v2": "打开日历app，点击搜索图标，输入'老板'进行搜索，找到对应的1:1会议邀请，点击进入详情页面，点击回复按钮，选择'确认'或'拒绝'，然后点击发送按钮完成回复",
+    "_rewrite_meta": {
+      "referenced_apps": [
+        "日历"
+      ],
+      "reason": "日历应用支持查看和回复日程邀请，符合用户检查并处理邀请的需求",
+      "kb_apps_injected": [
+        "信息",
+        "日历"
+      ],
+      "kb_slice_chars": 850,
+      "usage": {
+        "prompt_tokens": 738,
+        "completion_tokens": 118,
+        "total_tokens": 856
+      },
+      "duration_s": 3.54,
+      "model": "qwen/qwen3-8b",
+      "timestamp": "2026-05-25T10:15:37"
+    }
+  },
+  {
+    "Task_id": 85,
+    "Task Type": "办公协助",
+    "Invovled_App_Name": "信息、日历",
+    "Original-INS": "Check my calendar and send an SMS notification to Mia with the dates of my arrival and departure from Paris. The message should contain only the two dates in MM/DD/YYYY format, separated by a comma.",
+    "Level1-INS": "Text Mia my Paris arrival and departure dates.",
+    "Level2-INS": "Open Calendar to read the Paris trip arrival and departure dates, then open Messages and SMS Mia those two dates in MM/DD/YYYY format separated by a comma.",
+    "Level3-INS": "Open the Calendar app, search for or browse to the Paris-related events to read the arrival and departure dates. Open the Messages app, tap to compose a new message, select Mia as the recipient, type the two dates as 'MM/DD/YYYY,MM/DD/YYYY' (and nothing else) in the body, then tap send.",
+    "_source_bench": "MobileWorld",
+    "_mw_task_path": "calendar/check_conference_and_send_sms_1.py",
+    "_mw_task_class": "CheckConferenceAndSendSmsTask1",
+    "_orig_task_id": 111,
+    "Level2-INS_v2": "用信息应用发送一条短信给Mia，内容包含巴黎的到达和离开日期。",
+    "Level3-INS_v2": "打开信息应用，点击搜索图标，输入'Mia'，点击搜索结果打开聊天窗口，输入巴黎的到达和离开日期，点击发送按钮。",
+    "_rewrite_meta": {
+      "referenced_apps": [
+        "信息"
+      ],
+      "reason": "信息应用支持发送短信，可直接用于发送巴黎行程日期给Mia",
+      "kb_apps_injected": [
+        "信息",
+        "日历"
+      ],
+      "kb_slice_chars": 850,
+      "usage": {
+        "prompt_tokens": 729,
+        "completion_tokens": 98,
+        "total_tokens": 827
+      },
+      "duration_s": 4.6,
+      "model": "qwen/qwen3-8b",
+      "timestamp": "2026-05-25T10:15:42"
+    }
+  },
+  {
+    "Task_id": 86,
+    "Task Type": "办公协助",
+    "Invovled_App_Name": "信息、日历",
+    "Original-INS": "Check my calendar and send an SMS notification to Mia with the dates of my arrival and departure from Tokyo. The message should contain only the two dates in MM/DD/YYYY format, separated by a comma.",
+    "Level1-INS": "Text Mia my Tokyo arrival and departure dates.",
+    "Level2-INS": "Open Calendar to read the Tokyo trip arrival and departure dates, then open Messages and SMS Mia those two dates in MM/DD/YYYY format separated by a comma.",
+    "Level3-INS": "Open the Calendar app, search for or browse to the Tokyo-related events to read the arrival and departure dates. Open the Messages app, tap to compose a new message, select Mia as the recipient, type the two dates as 'MM/DD/YYYY,MM/DD/YYYY' (and nothing else) in the body, then tap send.",
+    "_source_bench": "MobileWorld",
+    "_mw_task_path": "calendar/check_conference_and_send_sms_2.py",
+    "_mw_task_class": "CheckConferenceAndSendSmsTask2",
+    "_orig_task_id": 112,
+    "Level2-INS_v2": "用信息应用发送一条短信给Mia，内容包含到达东京的日期和离开东京的日期。",
+    "Level3-INS_v2": "打开信息应用，点击搜索图标，输入'Mia'进行搜索，点击搜索结果打开聊天窗口，输入'我到达东京的日期是[日期]，离开东京的日期是[日期]'，点击发送按钮。",
+    "_rewrite_meta": {
+      "referenced_apps": [
+        "信息"
+      ],
+      "reason": "信息应用支持发送短信，可直接用于发送到达和离开日期信息",
+      "kb_apps_injected": [
+        "信息",
+        "日历"
+      ],
+      "kb_slice_chars": 850,
+      "usage": {
+        "prompt_tokens": 729,
+        "completion_tokens": 115,
+        "total_tokens": 844
+      },
+      "duration_s": 3.4,
+      "model": "qwen/qwen3-8b",
+      "timestamp": "2026-05-25T10:15:45"
+    }
+  },
+  {
+    "Task_id": 87,
+    "Task Type": "出行",
+    "Invovled_App_Name": "日历、高德地图(Amap)",
+    "Original-INS": "我下周六10:00am-12:30pm要去「上海虹桥火车站」，添加事项到calender，事项为出差，你帮我找到离上海虹桥火车站10公里以内的景点，我周一上班前去参观下，按照\"景点名字：地址\"放入calender事件的描述中，多个景点按逗号分隔",
+    "Level1-INS": "下周六我去上海虹桥火车站出差，顺便帮我找几个附近景点放进日程里。",
+    "Level2-INS": "在日历中新建下周六10:00-12:30的出差事项'上海虹桥火车站'，在高德地图中查上海虹桥火车站10公里内的景点，把'景点名字：地址'用逗号拼接后填到该日历事件的描述里。",
+    "Level3-INS": "打开高德地图app，搜索'上海虹桥火车站'，点击'周边'选'景点'并把范围设为10公里，记下若干景点的名称和地址。打开日历app，点击'+'新建事件，标题填'出差'、日期选下周六、时间10:00 AM到12:30 PM、地点'上海虹桥火车站'，在描述栏键入'景点1：地址1，景点2：地址2，...'，点击保存。",
+    "_source_bench": "MobileWorld",
+    "_mw_task_path": "calendar/add_business_trip_with_cafe.py",
+    "_mw_task_class": "AddBusinessTripWithCafeTask",
+    "_orig_task_id": 113,
+    "Level2-INS_v2": "下周六去上海虹桥火车站出差，使用高德地图查找附近的景点并添加到日程中。",
+    "Level3-INS_v2": "打开高德地图app，点击屏幕中间的放大镜图标，输入目的地上海虹桥火车站，点击右侧蓝色的'搜索'按钮，点击搜索结果中的第一个地点，点击页面底部左角带'周边'字样的放大镜图标，点击顶部列中带'景点'字样的绿色图标，向下滑动查看更多景点，点击一个景点查看详细信息，点击底部蓝色框中的'路线'按钮，点击底部蓝色框中的'开始导航'按钮，点击黑色边框星星图标保存景点，点击带'分享'字样的向上箭头图标，点击微信图标分享景点给好友，点击上方搜索框，输入好友名称，点击搜索结果中的好友名称准备发送，点击绿色框中的'发送'按钮。保存景点后，打开日历app，点击右上角三个点的菜单图标，点击'搜索'选项，输入'景点'，查看搜索结果并添加到日程中。",
+    "_rewrite_meta": {
+      "referenced_apps": [
+        "日历",
+        "高德地图"
+      ],
+      "reason": "高德地图提供查找周边景点并保存的功能，日历用于将景点添加到日程中",
+      "kb_apps_injected": [
+        "日历",
+        "高德地图(Amap)"
+      ],
+      "kb_slice_chars": 1384,
+      "usage": {
+        "prompt_tokens": 847,
+        "completion_tokens": 275,
+        "total_tokens": 1122
+      },
+      "duration_s": 6.69,
+      "model": "qwen/qwen3-8b",
+      "timestamp": "2026-05-25T10:15:52"
+    }
+  },
+  {
+    "Task_id": 88,
+    "Task Type": "",
+    "Invovled_App_Name": "日历、相册",
+    "Original-INS": "Find all my food pics from the past month and help me classify them into different folders named travel locations. You can find where I visited from calendar.",
+    "Level1-INS": "Sort last month's food photos into folders by travel city.",
+    "Level2-INS": "Open Calendar to identify the cities I traveled to last month, then open Gallery, locate all food pictures from that month and move them into folders named after each city.",
+    "Level3-INS": "Open the Calendar app and scan the past month's events for travel destinations, listing the cities you visited and their date ranges. Open the Gallery app, switch to Albums and create one folder per city. Browse the All Photos view, identify food pictures (use date to map to the corresponding city), long-press each food photo and move it into the matching city folder.",
+    "_source_bench": "MobileWorld",
+    "_mw_task_path": "work/photo_management.py",
+    "_mw_task_class": "PhotoManagementTask",
+    "_orig_task_id": 114,
+    "Level2-INS_v2": "将上个月拍摄的美食照片按旅行城市分类到不同的文件夹中",
+    "Level3-INS_v2": "打开相册app，点击底部的'Albums'按钮，选择'All photos'相册，向下滑动查看更多照片，点击每张美食照片进入选项页面，点击'删除'按钮并选择'移动到文件夹'，然后根据照片中的城市名称将其分类到对应的文件夹中",
+    "_rewrite_meta": {
+      "referenced_apps": [
+        "相册"
+      ],
+      "reason": "相册应用支持照片分类和文件夹管理，可完成按城市分类的整理任务",
+      "kb_apps_injected": [
+        "日历",
+        "相册"
+      ],
+      "kb_slice_chars": 1118,
+      "usage": {
+        "prompt_tokens": 795,
+        "completion_tokens": 134,
+        "total_tokens": 929
+      },
+      "duration_s": 4.98,
+      "model": "qwen/qwen3-8b",
+      "timestamp": "2026-05-25T10:15:57"
+    }
+  },
+  {
+    "Task_id": 89,
+    "Task Type": "办公协助",
+    "Invovled_App_Name": "gmail、信息",
+    "Original-INS": "Check if I've received an email about the depart time for the CoolHacks hackathon. If not, text Carl (345 6784 3456) 'Do you know what time we're leaving tomorrow?'",
+    "Level1-INS": "Find the hackathon depart time in my email, or text Carl if I haven't got one.",
+    "Level2-INS": "Open Gmail to search for an email about the CoolHacks hackathon depart time; if none is found, open Messages and SMS Carl (3456784346) 'Do you know what time we're leaving tomorrow?'",
+    "Level3-INS": "Open the Gmail app, tap the search icon and type 'CoolHacks depart time' to look for the relevant email. If a matching email exists, open it to read the depart time. Otherwise open the Messages app, compose a new SMS to 3456784346 (Carl), type 'Do you know what time we're leaving tomorrow?' in the body and tap send.",
+    "_source_bench": "MobileWorld",
+    "_mw_task_path": "gmail/check_depart_time.py",
+    "_mw_task_class": "CheckDepartTimeTask",
+    "_orig_task_id": 116,
+    "Level2-INS_v2": "在邮箱中查找黑客马拉松的出发时间，如果没有则通过信息应用联系Carl",
+    "Level3-INS_v2": "打开Gmail应用，点击收件箱中的邮件进行查看，使用搜索功能查找与'hackathon'或'出发时间'相关的邮件内容。如果没有找到相关邮件，则打开信息应用，点击搜索图标，输入'Carl'进行搜索，找到后点击联系人并发送消息'请告知黑客马拉松的出发时间'",
+    "_rewrite_meta": {
+      "referenced_apps": [
+        "Gmail",
+        "信息"
+      ],
+      "reason": "Gmail用于查找邮件中的出发时间，信息用于联系Carl获取信息",
+      "kb_apps_injected": [
+        "gmail",
+        "信息"
+      ],
+      "kb_slice_chars": 794,
+      "usage": {
+        "prompt_tokens": 715,
+        "completion_tokens": 137,
+        "total_tokens": 852
+      },
+      "duration_s": 4.66,
+      "model": "qwen/qwen3-8b",
+      "timestamp": "2026-05-25T10:16:02"
+    }
+  },
+  {
+    "Task_id": 90,
+    "Task Type": "办公协助",
+    "Invovled_App_Name": "gmail、信息",
+    "Original-INS": "Check my email for the time of the math competition tomorrow. If it's between 12 and 5 pm, text Daniel (3522228876) 'Hey, could you help send Bob to the competition tomorrow? Thanks.'",
+    "Level1-INS": "Look up tomorrow's math competition time in my email and text Daniel if it lands between noon and 5pm.",
+    "Level2-INS": "Open Gmail to find the email with tomorrow's math competition time; if the time is between 12:00 and 17:00, open Messages and SMS Daniel (3522228876) 'Hey, could you help send Bob to the competition tomorrow? Thanks.'",
+    "Level3-INS": "Open the Gmail app, search 'math competition' to find the relevant email and read the start time. If the time is between 12:00 PM and 5:00 PM, open the Messages app, compose a new SMS to 3522228876 (Daniel), type 'Hey, could you help send Bob to the competition tomorrow? Thanks.' and tap send. Otherwise do nothing.",
+    "_source_bench": "MobileWorld",
+    "_mw_task_path": "gmail/request_carpooling.py",
+    "_mw_task_class": "RequestCarpoolingTask",
+    "_orig_task_id": 117,
+    "Level2-INS_v2": "在邮箱中查找明天的数学竞赛时间，如果时间在中午12点到下午5点之间，就通过短信发送给Daniel",
+    "Level3-INS_v2": "打开Gmail应用，点击搜索图标，输入'数学竞赛'，查看相关邮件，找到明天的竞赛时间。如果时间在中午12点到下午5点之间，打开信息应用，点击新建短信，输入Daniel的号码，发送消息'明天的数学竞赛时间是XX点，是否需要我帮你确认？'",
+    "_rewrite_meta": {
+      "referenced_apps": [
+        "Gmail",
+        "信息"
+      ],
+      "reason": "Gmail用于查找邮件中的竞赛时间，信息用于发送短信通知Daniel",
+      "kb_apps_injected": [
+        "gmail",
+        "信息"
+      ],
+      "kb_slice_chars": 794,
+      "usage": {
+        "prompt_tokens": 718,
+        "completion_tokens": 150,
+        "total_tokens": 868
+      },
+      "duration_s": 3.68,
+      "model": "qwen/qwen3-8b",
+      "timestamp": "2026-05-25T10:16:05"
+    }
+  },
+  {
+    "Task_id": 91,
+    "Task Type": "办公协助",
+    "Invovled_App_Name": "信息、gmail",
+    "Original-INS": "Check all unread sms messages, delete spams, and provide a summary of recruitment messages to me via email by sending to dylan@gmail.com. Note I'm only interested in open data scientist role.",
+    "Level1-INS": "Clean up my unread SMS and email me a recap of any data-scientist recruitment messages.",
+    "Level2-INS": "Open Messages to read every unread SMS, delete spam threads, summarize the recruitment messages relevant to open data scientist roles, then open Gmail and email that summary to dylan@gmail.com.",
+    "Level3-INS": "Open the Messages app and review each unread thread; long-press spam threads and tap the trash icon to delete them; for recruitment messages, note the role and key details. Filter to those mentioning open data scientist positions and compose a summary. Open Gmail, tap Compose, enter dylan@gmail.com in To, type a subject like 'SMS recruitment summary', paste the summary in the body and tap send.",
+    "_source_bench": "MobileWorld",
+    "_mw_task_path": "native/sms_management.py",
+    "_mw_task_class": "SMSManagement",
+    "_orig_task_id": 118,
+    "Level2-INS_v2": "清理我的未读短信，将任何数据科学家招聘相关的消息汇总并通过电子邮件发送给我。",
+    "Level3-INS_v2": "打开信息应用，点击搜索图标，输入'数据科学家'，查看并标记所有相关的未读短信为已读，然后打开Gmail应用，点击撰写新邮件，将筛选出的数据科学家招聘消息内容复制粘贴到邮件正文中，点击发送按钮发送给自己。",
+    "_rewrite_meta": {
+      "referenced_apps": [
+        "信息",
+        "gmail"
+      ],
+      "reason": "信息应用用于清理和筛选短信，Gmail用于汇总并发送邮件",
+      "kb_apps_injected": [
+        "信息",
+        "gmail"
+      ],
+      "kb_slice_chars": 794,
+      "usage": {
+        "prompt_tokens": 714,
+        "completion_tokens": 127,
+        "total_tokens": 841
+      },
+      "duration_s": 3.06,
+      "model": "qwen/qwen3-8b",
+      "timestamp": "2026-05-25T10:16:08"
+    }
+  },
+  {
+    "Task_id": 92,
+    "Task Type": "出行",
+    "Invovled_App_Name": "googleMap、信息",
+    "Original-INS": "Search up how long it takes to drive from Orlando to Miami. Text Susan (4538997638) the approximate time I'll be there if I leave at 5 pm.",
+    "Level1-INS": "Tell Susan when I'll get to Miami if I drive from Orlando at 5pm.",
+    "Level2-INS": "Open Google Maps to check the driving duration from Orlando to Miami, then open Messages and SMS Susan (4538997638) with the approximate arrival time given a 5 PM departure.",
+    "Level3-INS": "Open the Google Maps app, tap the directions icon, set Orlando as the start and Miami as the destination with driving mode, read the trip duration. Add that duration to 5:00 PM to get the arrival time. Open the Messages app, compose a new SMS to 4538997638 (Susan), type something like 'I should arrive around <HH:MM>.' and tap send.",
+    "_source_bench": "MobileWorld",
+    "_mw_task_path": "map/text_arrival_time.py",
+    "_mw_task_class": "TextArrivalTimeTask",
+    "_orig_task_id": 119,
+    "Level2-INS_v2": "使用Google地图计算从Orlando驾车到Miami的时间，并告诉Susan预计到达时间",
+    "Level3-INS_v2": "打开Google地图app，点击顶部的搜索框，输入'Orlando'，点击第一个搜索结果，点击'分享'按钮在底部的浅蓝色框中，向右滑动选择社交软件，点击发送。然后打开Google地图app，点击顶部的搜索框，输入'Miami'，点击第一个搜索结果，查看预计到达时间，并通过信息app发送短信给Susan告知预计到达时间",
+    "_rewrite_meta": {
+      "referenced_apps": [
+        "googleMap",
+        "信息"
+      ],
+      "reason": "Google地图提供路线规划和预计到达时间，信息app用于发送短信通知Susan",
+      "kb_apps_injected": [
+        "googleMap",
+        "信息"
+      ],
+      "kb_slice_chars": 784,
+      "usage": {
+        "prompt_tokens": 721,
+        "completion_tokens": 155,
+        "total_tokens": 876
+      },
+      "duration_s": 4.87,
+      "model": "qwen/qwen3-8b",
+      "timestamp": "2026-05-25T10:16:13"
+    }
+  },
+  {
+    "Task_id": 93,
+    "Task Type": "办公协助",
+    "Invovled_App_Name": "googleMap、信息",
+    "Original-INS": "Check my email for the location of the MCFT conference hotel, then text the address to Tom (4456547865). Use Google maps to tell me how long it would take to walk from the MIT Stata center to there. Only response the time in minutes. No other text.",
+    "Level1-INS": "Get the MCFT conference hotel from my email, text it to Tom, and tell me how long it is to walk from MIT Stata.",
+    "Level2-INS": "Open Gmail to find the MCFT conference hotel address, open Messages and SMS Tom (4456547865) with that address, then open Google Maps and check the walking duration from the MIT Stata Center to that hotel, reporting just the minutes.",
+    "Level3-INS": "Open the Gmail app, search 'MCFT conference' to find the email and read the hotel address. Open the Messages app, compose a new SMS to 4456547865 (Tom), paste the address and send. Open the Google Maps app, tap directions, set the start to 'MIT Stata Center' and destination to that hotel, choose walking mode, read the duration in minutes and report it as a plain integer.",
+    "_source_bench": "MobileWorld",
+    "_mw_task_path": "gmail/check_conference_location.py",
+    "_mw_task_class": "CheckConferenceLocationTask",
+    "_orig_task_id": 120,
+    "Level2-INS_v2": "从我的电子邮件中获取MCFT会议酒店信息，发送给Tom，并告诉我从MIT Stata步行到酒店需要多长时间。",
+    "Level3-INS_v2": "打开信息app，搜索特定联系人或消息内容，找到包含MCFT会议酒店信息的邮件，打开邮件后复制酒店名称。打开googleMap app，查看特定区域的地图，输入酒店名称，选择搜索结果后查看地图信息。点击分享您的当前位置，输入MIT Stata作为目的地，选择搜索结果后查看步行时间，并将酒店信息通过信息app发送给Tom。",
+    "_rewrite_meta": {
+      "referenced_apps": [
+        "googleMap",
+        "信息"
+      ],
+      "reason": "googleMap用于查找酒店位置和步行时间，信息用于接收邮件和发送消息",
+      "kb_apps_injected": [
+        "googleMap",
+        "信息"
+      ],
+      "kb_slice_chars": 784,
+      "usage": {
+        "prompt_tokens": 732,
+        "completion_tokens": 160,
+        "total_tokens": 892
+      },
+      "duration_s": 3.73,
+      "model": "qwen/qwen3-8b",
+      "timestamp": "2026-05-25T10:16:17"
+    }
+  },
+  {
+    "Task_id": 94,
+    "Task Type": "出行",
+    "Invovled_App_Name": "高德地图(Amap)、gmail",
+    "Original-INS": "帮我规划从杭州亲橙酒店到萧山机场之间规划一条驾车路线，把返回的路线信息组织成一段内容，instructions用逗号分隔，发送到我的生活邮箱dylan@gmail.com，标题为`daily travel`",
+    "Level1-INS": "帮我查一下从杭州亲橙酒店到萧山机场怎么开车，邮件给我。",
+    "Level2-INS": "在高德地图中查询从杭州亲橙酒店到萧山机场的驾车路线，把每一步的instruction用逗号拼接，然后通过gmail发送到dylan@gmail.com，标题为'daily travel'。",
+    "Level3-INS": "打开高德地图app，点击路线规划，起点输入'杭州亲橙酒店'终点'萧山机场'选驾车模式，展开'路线详情'记下所有driving instructions并用逗号拼接成一段。打开gmail app，点击撰写按钮，To栏填dylan@gmail.com，主题栏填'daily travel'，正文粘贴上一步的instructions段落，点击发送。",
+    "_source_bench": "MobileWorld",
+    "_mw_task_path": "gmail/plan_route_task.py",
+    "_mw_task_class": "PlanRouteTask",
+    "_orig_task_id": 121,
+    "Level2-INS_v2": "使用高德地图查询从杭州亲橙酒店到萧山机场的驾车路线，并将结果通过Gmail发送给我",
+    "Level3-INS_v2": "打开高德地图app，点击屏幕中间的放大镜图标，输入目的地位置，点击蓝色搜索按钮，点击第一个搜索结果，点击底部左边的周边图标，点击顶部的酒店图标，向下滑动查看更多酒店，点击一个酒店查看详细信息，点击底部蓝色的路线按钮，点击底部蓝色的开始导航按钮，点击黑色星形图标保存酒店，点击分享图标，选择微信好友，输入朋友名称，点击发送按钮。保存路线信息后，打开Gmail app，点击撰写邮件，输入主题和内容，点击发送图标发送邮件",
+    "_rewrite_meta": {
+      "referenced_apps": [
+        "高德地图(Amap)",
+        "gmail"
+      ],
+      "reason": "高德地图提供路线查询功能，Gmail负责发送邮件结果",
+      "kb_apps_injected": [
+        "高德地图(Amap)",
+        "gmail"
+      ],
+      "kb_slice_chars": 1831,
+      "usage": {
+        "prompt_tokens": 955,
+        "completion_tokens": 196,
+        "total_tokens": 1151
+      },
+      "duration_s": 4.28,
+      "model": "qwen/qwen3-8b",
+      "timestamp": "2026-05-25T10:16:21"
+    }
+  },
+  {
+    "Task_id": 95,
+    "Task Type": "出行",
+    "Invovled_App_Name": "高德地图(Amap)、gmail",
+    "Original-INS": "我想每天晚饭后从阿里巴巴西溪园区散步到西溪湿地。我家在「浙江省杭州市余杭区文一西路阿里巴巴西溪园区C区三号楼」，公园在「西溪国家湿地公园周家村主入口」，评估把总距离（公里）和预计时长(分钟)email到我的生活邮箱dylan@gmail.com，标题为daily walking",
+    "Level1-INS": "估算一下我家到西溪湿地散步的距离和时间，邮件给我。",
+    "Level2-INS": "在高德地图中估算从'阿里西溪园区C区三号楼'到'西溪国家湿地公园周家村主入口'的步行距离(公里)和时长(分钟)，然后通过gmail发送到dylan@gmail.com，标题为'daily walking'。",
+    "Level3-INS": "打开高德地图app，路线规划起点输入'浙江省杭州市余杭区文一西路阿里巴巴西溪园区C区三号楼'，终点输入'西溪国家湿地公园周家村主入口'，切换步行模式，记下显示的距离(公里)与时长(分钟)。打开gmail app，撰写新邮件，To栏填dylan@gmail.com，主题栏填'daily walking'，正文写入'距离x.xx公里，时长xx分钟'，点击发送。",
+    "_source_bench": "MobileWorld",
+    "_mw_task_path": "work/calculate_walking_route_email.py",
+    "_mw_task_class": "CalculateWalkingRouteEmailTask",
+    "_orig_task_id": 122,
+    "Level2-INS_v2": "使用高德地图估算从我家到西溪湿地的步行距离和时间，然后通过Gmail将结果发送给我。",
+    "Level3-INS_v2": "打开高德地图app，点击搜索框，输入'西溪湿地'，点击搜索结果中的第一个地点，点击上方的'步行'按钮，查看步行距离和预计时间。然后打开Gmail app，点击'写邮件'按钮，输入收件人邮箱，填写邮件主题和内容，点击发送按钮。",
+    "_rewrite_meta": {
+      "referenced_apps": [
+        "高德地图",
+        "gmail"
+      ],
+      "reason": "高德地图提供步行距离和时间估算，Gmail负责发送邮件结果",
+      "kb_apps_injected": [
+        "高德地图(Amap)",
+        "gmail"
+      ],
+      "kb_slice_chars": 1882,
+      "usage": {
+        "prompt_tokens": 964,
+        "completion_tokens": 146,
+        "total_tokens": 1110
+      },
+      "duration_s": 3.96,
+      "model": "qwen/qwen3-8b",
+      "timestamp": "2026-05-25T10:16:25"
+    }
+  },
+  {
+    "Task_id": 96,
+    "Task Type": "生活",
+    "Invovled_App_Name": "淘宝",
+    "Original-INS": "帮我在淘店下单购物车里的iphone 15 pro，寄到浙江省杭州市余杭区阿里巴巴西溪C区，收件人张先生，收件人电话13800138000。如需登录，可以通过短信验证码。在支付页面让我操作",
+    "Level1-INS": "帮我下单购物车里的iPhone 15 Pro，寄到公司收件人张先生。",
+    "Level2-INS": "在淘宝app的购物车中勾选iPhone 15 Pro下单，收货地址填'浙江省杭州市余杭区阿里巴巴西溪C区 张先生 13800138000'，在支付页让我操作。",
+    "Level3-INS": "打开淘宝app，若提示登录则切换'短信验证码登录'输入手机号收码登录。点击右下角笑脸图标进入'我的淘宝'，进入购物车页，勾选iPhone 15 Pro，点击'结算'。若收件人地址中没有目标地址，点击'新增地址'输入'浙江省杭州市余杭区阿里巴巴西溪C区 张先生 13800138000'并保存。回到结算页选中该地址，点击'提交订单'进入支付页等待用户操作。",
+    "_source_bench": "MobileWorld",
+    "_mw_task_path": "mall/item_checkout.py",
+    "_mw_task_class": "ItemCheckoutTask",
+    "_orig_task_id": 123,
+    "Level2-INS_v2": "使用淘宝下单购物车里的iPhone 15 Pro，并寄送到公司收件人张先生。",
+    "Level3-INS_v2": "打开淘宝app，点击顶部的搜索栏，输入产品信息，点击右侧的红色搜索按钮，点击产品链接进入商品页面，点击底部黄色框中的'加入购物车'按钮。在购物车页面点击'立即购买'按钮，选择收货地址为公司，收件人姓名为张先生，点击'立即支付'按钮完成下单。",
+    "_rewrite_meta": {
+      "referenced_apps": [
+        "淘宝"
+      ],
+      "reason": "淘宝提供购物车管理和下单支付功能，支持指定收件人和地址",
+      "kb_apps_injected": [
+        "淘宝"
+      ],
+      "kb_slice_chars": 896,
+      "usage": {
+        "prompt_tokens": 729,
+        "completion_tokens": 141,
+        "total_tokens": 870
+      },
+      "duration_s": 3.54,
+      "model": "qwen/qwen3-8b",
+      "timestamp": "2026-05-25T10:16:29"
+    }
+  },
+  {
+    "Task_id": 97,
+    "Task Type": "生活",
+    "Invovled_App_Name": "淘宝",
+    "Original-INS": "最近天气变冷了，请帮我从淘店app的购物车中删除所有短袖T恤衬衫。如果需要登录，可以通过短信验证码登录。",
+    "Level1-INS": "天冷了，把我购物车里的短袖T恤都删掉。",
+    "Level2-INS": "在淘宝app的购物车中找出所有短袖T恤衬衫并删除；若需登录用短信验证码。",
+    "Level3-INS": "打开淘宝app，若弹出登录则切换'短信验证码登录'输入手机号收码登录。点击右下角笑脸图标进入'我的淘宝'，进入'购物车'页，浏览每件商品的标题，找到含'短袖T恤/衬衫/T-shirt'字样的商品，左滑或长按后点击'删除'确认；逐件重复直至全部删除。",
+    "_source_bench": "MobileWorld",
+    "_mw_task_path": "mall/cart_management.py",
+    "_mw_task_class": "CartManagementTask",
+    "_orig_task_id": 124,
+    "Level2-INS_v2": "删除购物车中所有短袖T恤商品",
+    "Level3-INS_v2": "打开淘宝app，点击搜索栏，输入'短袖T恤'，点击右侧的红色搜索按钮，进入搜索结果页面，点击购物车图标，进入购物车页面，选择所有短袖T恤商品，点击删除按钮，确认删除操作。",
+    "_rewrite_meta": {
+      "referenced_apps": [
+        "淘宝"
+      ],
+      "reason": "淘宝app提供购物车管理功能，可删除指定商品",
+      "kb_apps_injected": [
+        "淘宝"
+      ],
+      "kb_slice_chars": 589,
+      "usage": {
+        "prompt_tokens": 638,
+        "completion_tokens": 108,
+        "total_tokens": 746
+      },
+      "duration_s": 3.37,
+      "model": "qwen/qwen3-8b",
+      "timestamp": "2026-05-25T10:16:32"
+    }
+  },
+  {
+    "Task_id": 98,
+    "Task Type": "生活",
+    "Invovled_App_Name": "淘宝",
+    "Original-INS": "Find the three most expensive items in the TaoDian app shopping cart and calculate their total price. Respond only with an integer representing the total price, with no other text.",
+    "Level1-INS": "What's the total price of the three priciest items in my cart?",
+    "Level2-INS": "Open Taobao's cart, identify the three most expensive items, sum their prices, and report only the integer total.",
+    "Level3-INS": "Open the Taobao app, tap the smiley-face icon labelled '我的淘宝' at the bottom right, enter the '购物车' (cart) page, scroll through every item and note its price, pick the three highest, add them up, and report the integer total with no other text.",
+    "_source_bench": "MobileWorld",
+    "_mw_task_path": "mall/check_cart_price_1.py",
+    "_mw_task_class": "CheckCartPriceTask",
+    "_orig_task_id": 125,
+    "Level2-INS_v2": "在淘宝应用中查找购物车中的三个最贵商品并计算它们的总价",
+    "Level3-INS_v2": "打开淘宝app，点击右下角的'我的淘宝'按钮，进入购物车页面，查看所有商品的价格，找到价格最高的三个商品，分别记录它们的价格，最后将这三个价格相加得到总价",
+    "_rewrite_meta": {
+      "referenced_apps": [
+        "淘宝"
+      ],
+      "reason": "淘宝应用包含购物车功能，可查看商品价格并进行总价计算",
+      "kb_apps_injected": [
+        "淘宝"
+      ],
+      "kb_slice_chars": 382,
+      "usage": {
+        "prompt_tokens": 577,
+        "completion_tokens": 109,
+        "total_tokens": 686
+      },
+      "duration_s": 3.58,
+      "model": "qwen/qwen3-8b",
+      "timestamp": "2026-05-25T10:16:36"
+    }
+  },
+  {
+    "Task_id": 99,
+    "Task Type": "生活",
+    "Invovled_App_Name": "淘宝",
+    "Original-INS": "请帮我算一下在淘店上最近1个月我总共花了多少钱。请只回答一个整数, 不要返回任何其他文本.",
+    "Level1-INS": "我最近一个月在淘宝花了多少钱？",
+    "Level2-INS": "在淘宝app里查看最近1个月的订单总金额，只回答整数。",
+    "Level3-INS": "打开淘宝app，点击右下角笑脸图标进入'我的淘宝'，点击'我的订单'(或'查看全部订单')，将筛选时间范围设为最近1个月，向下滚动遍历订单列表，把每单实付金额累加起来，最终只回复整数总额。",
+    "_source_bench": "MobileWorld",
+    "_mw_task_path": "mall/recent_total_expense.py",
+    "_mw_task_class": "RecentTotalExpenseTask",
+    "_orig_task_id": 126,
+    "Level2-INS_v2": "在淘宝app中查看最近一个月的消费记录并统计总金额",
+    "Level3-INS_v2": "打开淘宝app，点击右下角的微笑图标进入我的淘宝页面，点击屏幕中间的货币符号进入账单管理，选择最近一个月的时间范围，查看并记录所有订单的总金额",
+    "_rewrite_meta": {
+      "referenced_apps": [
+        "淘宝"
+      ],
+      "reason": "淘宝提供账单查询功能，可查看用户最近一个月的消费记录并统计总金额",
+      "kb_apps_injected": [
+        "淘宝"
+      ],
+      "kb_slice_chars": 382,
+      "usage": {
+        "prompt_tokens": 570,
+        "completion_tokens": 107,
+        "total_tokens": 677
+      },
+      "duration_s": 3.52,
+      "model": "qwen/qwen3-8b",
+      "timestamp": "2026-05-25T10:16:39"
+    }
+  },
+  {
+    "Task_id": 100,
+    "Task Type": "生活",
+    "Invovled_App_Name": "淘宝",
+    "Original-INS": "帮我在淘店上找一双白色的鞋，日常通勤穿的，按我平时穿的码下单，默认收件人和地址",
+    "Level1-INS": "帮我买一双日常通勤的白色鞋，按我平时穿的码。",
+    "Level2-INS": "在淘宝app搜索白色通勤鞋，挑一双合适的按我常用尺码下单，地址用默认。",
+    "Level3-INS": "打开淘宝app，点击顶部搜索栏输入'白色 通勤 鞋'，点击右侧红色'搜索'按钮，从结果列表里点开一款评价好的商品进入详情页，在尺码选项中选择我常穿的码数，点击底部红色'立即购买'，结算页保留默认收件人地址，点击'提交订单'进入支付页。",
+    "_source_bench": "MobileWorld",
+    "_mw_task_path": "mall/search_white_sneakers_checkout_ask_user.py",
+    "_mw_task_class": "SearchWhiteSneakersCheckoutAskUserTask",
+    "_orig_task_id": 127,
+    "Level2-INS_v2": "在淘宝上搜索一双适合日常通勤的白色鞋子，并按照我平时穿的尺码购买。",
+    "Level3-INS_v2": "打开淘宝app，点击顶部的搜索栏，输入'日常通勤 白色鞋子'，点击右侧的红色搜索按钮，浏览搜索结果，选择适合日常通勤的白色鞋子，进入商品详情页，选择与我平时穿的尺码一致的选项，点击加入购物车，然后点击去结算并完成支付。",
+    "_rewrite_meta": {
+      "referenced_apps": [
+        "淘宝"
+      ],
+      "reason": "淘宝提供商品搜索和购买功能，可完成鞋子的选购和支付流程",
+      "kb_apps_injected": [
+        "淘宝"
+      ],
+      "kb_slice_chars": 382,
+      "usage": {
+        "prompt_tokens": 581,
+        "completion_tokens": 140,
+        "total_tokens": 721
+      },
+      "duration_s": 3.91,
+      "model": "qwen/qwen3-8b",
+      "timestamp": "2026-05-25T10:16:43"
+    }
+  },
+  {
+    "Task_id": 101,
+    "Task Type": "生活",
+    "Invovled_App_Name": "淘宝、信息",
+    "Original-INS": "Find the items awaiting shipment in TaoDian and send an SMS reminder to the recipient, including the product name and order number, with no other text.",
+    "Level1-INS": "Text the recipient the product name and order number for my pending-shipment items.",
+    "Level2-INS": "Open the Taobao app, list items awaiting shipment in My Orders, then open the Messages app and SMS each recipient the product name and order number (text only).",
+    "Level3-INS": "Open the Taobao app, tap '我的淘宝' at the bottom right, tap the truck icon labelled '待发货' to view items awaiting shipment. For each item, read its product name, order number, and the recipient's phone in the order detail. Open the Messages app, compose a new SMS to that phone, type only '<product name> <order number>' in the body, and send.",
+    "_source_bench": "MobileWorld",
+    "_mw_task_path": "mall/cart_info_notification.py",
+    "_mw_task_class": "CartInfoNotificationTask",
+    "_orig_task_id": 128,
+    "Level2-INS_v2": "在淘宝中查找待发货的商品，获取产品名称和订单号，通过信息应用发送给指定收件人。",
+    "Level3-INS_v2": "打开淘宝app，点击底部的微笑图标进入我的淘宝，点击中间的货币符号进入我的订单，选择待发货的商品，查看产品名称和订单号。然后打开信息app，点击搜索图标，输入收件人姓名或手机号，选择对应联系人，点击新建消息，输入产品名称和订单号并发送。",
+    "_rewrite_meta": {
+      "referenced_apps": [
+        "淘宝",
+        "信息"
+      ],
+      "reason": "淘宝提供订单信息查询功能，信息应用用于发送文本消息给指定收件人",
+      "kb_apps_injected": [
+        "淘宝",
+        "信息"
+      ],
+      "kb_slice_chars": 686,
+      "usage": {
+        "prompt_tokens": 699,
+        "completion_tokens": 146,
+        "total_tokens": 845
+      },
+      "duration_s": 3.49,
+      "model": "qwen/qwen3-8b",
+      "timestamp": "2026-05-25T10:16:47"
+    }
+  },
+  {
+    "Task_id": 102,
+    "Task Type": "生活",
+    "Invovled_App_Name": "淘宝",
+    "Original-INS": "之前我给朋友在淘店上买了一双鞋，帮我看一下他脚多少尺码。请只回答一个整数, 不要返回任何其他文本.",
+    "Level1-INS": "我之前给朋友买了一双鞋，他脚多少码？",
+    "Level2-INS": "在淘宝app的历史订单里找之前给朋友买的鞋，查看下单时选的尺码，只回答整数。",
+    "Level3-INS": "打开淘宝app，点击右下角笑脸图标进入'我的淘宝'，点击'我的订单'，向下滚动找到那笔给朋友买鞋的订单，点击订单进入详情页，查看商品规格栏中的尺码数字，只回复该整数。",
+    "_source_bench": "MobileWorld",
+    "_mw_task_path": "mall/check_purchased_item.py",
+    "_mw_task_class": "CheckPuchasedItem",
+    "_orig_task_id": 129,
+    "Level2-INS_v2": "在淘宝中查找之前购买的鞋子商品，查看订单详情以确认朋友的脚码",
+    "Level3-INS_v2": "打开淘宝app，点击顶部的搜索栏，输入之前购买的鞋子商品名称，点击右侧的红色搜索按钮，进入商品页面后点击右上角的购物车图标，查看订单详情并找到对应的脚码信息",
+    "_rewrite_meta": {
+      "referenced_apps": [
+        "淘宝"
+      ],
+      "reason": "淘宝提供商品搜索和订单查询功能，可获取购买商品的详细信息",
+      "kb_apps_injected": [
+        "淘宝"
+      ],
+      "kb_slice_chars": 382,
+      "usage": {
+        "prompt_tokens": 576,
+        "completion_tokens": 115,
+        "total_tokens": 691
+      },
+      "duration_s": 3.57,
+      "model": "qwen/qwen3-8b",
+      "timestamp": "2026-05-25T10:16:50"
+    }
+  },
+  {
+    "Task_id": 103,
+    "Task Type": "生活",
+    "Invovled_App_Name": "淘宝",
+    "Original-INS": "Help me calculate the prices of items in the Taodian shopping cart separately for me and my roommate, tell me how much each person needs to pay. Answer in the format 'me/roommate:amount,amount'.",
+    "Level1-INS": "Split my cart between me and my roommate and tell me what each of us owes.",
+    "Level2-INS": "Open Taobao's cart, group items by owner (me vs roommate) using their memos, sum each bucket, and report 'me/roommate:amount,amount'.",
+    "Level3-INS": "Open the Taobao app, tap '我的淘宝' at the bottom right, enter the '购物车' page. For each item, expand the entry to read its memo/owner tag to determine if it's mine or my roommate's. Sum the prices in each bucket, then report the result in the exact format 'me/roommate:<my_total>,<roommate_total>'.",
+    "_source_bench": "MobileWorld",
+    "_mw_task_path": "mall/calculate_cart_prices_by_owner_ask_user.py",
+    "_mw_task_class": "CalculateCartPricesByOwnerAskUserTask",
+    "_orig_task_id": 130,
+    "Level2-INS_v2": "在淘宝中分割购物车中的商品，分别计算我和室友各自应承担的费用",
+    "Level3-INS_v2": "打开淘宝app，点击右下角的微笑图标进入我的淘宝页面，点击中间屏幕上的货币符号进入账单管理，查看购物车中的商品列表，手动将商品分配给我和室友，分别计算各自应付的金额并告知结果",
+    "_rewrite_meta": {
+      "referenced_apps": [
+        "淘宝"
+      ],
+      "reason": "淘宝提供购物车和账单管理功能，可用于分割购物车并计算各自应付金额",
+      "kb_apps_injected": [
+        "淘宝"
+      ],
+      "kb_slice_chars": 382,
+      "usage": {
+        "prompt_tokens": 578,
+        "completion_tokens": 121,
+        "total_tokens": 699
+      },
+      "duration_s": 3.89,
+      "model": "qwen/qwen3-8b",
+      "timestamp": "2026-05-25T10:16:54"
+    }
+  }
+]

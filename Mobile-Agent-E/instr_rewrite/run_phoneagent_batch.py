@@ -35,7 +35,7 @@ REPO_ROOT = os.path.normpath(os.path.join(_SCRIPT_DIR, "..", ".."))
 AUTOGLM_DIR = os.path.join(REPO_ROOT, "Open-AutoGLM-main")
 sys.path.insert(0, AUTOGLM_DIR)
 
-DEFAULT_BENCH = os.path.join(REPO_ROOT, "app-data", "Ins-bench", "Vague-ins-expanded-local.json")
+DEFAULT_BENCH = os.path.join(REPO_ROOT, "app-data", "Ins-bench", "Vague-ins-full-112.json")
 DEFAULT_LOG_DIR = os.path.join(REPO_ROOT, "app-data", "Ins-bench", "phoneagent_logs")
 
 LEVEL_FIELD = {"L1": "Level1-INS", "L2": "Level2-INS", "L3": "Level3-INS"}
@@ -90,7 +90,8 @@ def main() -> None:
     ap.add_argument("--bench", default=DEFAULT_BENCH)
     ap.add_argument("--levels", default="L1,L3", help="comma list of L1/L2/L3")
     ap.add_argument("--repeats", type=int, default=2)
-    ap.add_argument("--task-ids", default=None, help="e.g. 56,57,60-65 (default: all)")
+    ap.add_argument("--task-ids", default="51-112",
+                    help="e.g. 56,57,60-65 (默认 51-112: 跳过前50条原始指令; 传 1-112 跑全部)")
     ap.add_argument("--lang-filter", default="all", choices=["all", "cn", "en"],
                     help="only run tasks of this language")
     ap.add_argument("--exp", default=time.strftime("run_%Y%m%d_%H%M%S"),
@@ -101,7 +102,10 @@ def main() -> None:
     ap.add_argument("--base-url", default=os.getenv("PHONE_AGENT_BASE_URL",
                     "https://open.bigmodel.cn/api/paas/v4"))
     ap.add_argument("--model", default=os.getenv("PHONE_AGENT_MODEL", "autoglm-phone"))
-    ap.add_argument("--apikey", default=os.getenv("PHONE_AGENT_API_KEY", ""))
+    # Fall back to the same built-in key main.py uses, so `python run_...` works
+    # without setting anything (override via --apikey or PHONE_AGENT_API_KEY).
+    ap.add_argument("--apikey", default=os.getenv("PHONE_AGENT_API_KEY")
+                    or "ef4ddb96c6cc4a61baa4fbf641d73a1c.W132vOIUSFKpJ0XF")
     ap.add_argument("--device-id", default=os.getenv("PHONE_AGENT_DEVICE_ID"))
     ap.add_argument("--max-steps", type=int, default=int(os.getenv("PHONE_AGENT_MAX_STEPS", "50")))
     ap.add_argument("--agent-lang", default="auto", choices=["auto", "cn", "en"],
