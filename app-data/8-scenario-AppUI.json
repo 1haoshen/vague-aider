@@ -1,0 +1,1450 @@
+[
+    {
+    "app_name": "WeChat",
+    "brief_introduction": "腾讯旗下的多元化社交平台，受众群体偏向年轻化，支持丰富的群组功能和娱乐交互 [2, 5]。",
+    "icon_description": "两个白色重叠的对话气泡，位于亮绿色圆角正方形背景中心 [2, 3]。",
+    "common_functions":[
+      "公众号订阅与阅读",
+      "访问各类生活服务小程序 [1]",
+      "收发群聊红包",
+      "状态设置与表情包管理"
+    ],
+    "ui_description": null
+  },
+  {
+    "app_name": "QQ",
+    "brief_introduction": "腾讯旗下的多元化社交平台，受众群体偏向年轻化，支持丰富的群组功能和娱乐交互 [2, 5]。",
+    "icon_description": "一只带着红色围巾的黑色企鹅，通常位于蓝色或白色背景中心 [3]。",
+    "common_functions": [
+      "高带宽文件传输与云存储",
+      "QQ空间（Qzone）动态发布",
+      "群组音视频通话与屏幕共享",
+      "个性化皮肤与厘米秀装扮",
+      "集成QQ音乐、阅读等娱乐频道 [5]",
+      "面对面快传"
+    ],
+    "ui_description": null
+  },
+  {
+    "app_name": "微博 (Weibo)",
+    "brief_introduction": "新浪旗下的公共微型博客平台，是中国最大的社交媒体广场，用于获取实时资讯和明星互动 [6, 2]。",
+    "icon_description": "橙色背景上一只白色大眼睛，象征观察与见证资讯流 [6]。",
+    "common_functions": [
+      "发布博文、图片及长视频",
+      "实时热搜榜查看 [1]",
+      "明星与KOL粉丝互动",
+      "开启直播与粉丝打赏 [5]",
+      "微博超级话题签到",
+      "私信交流"
+    ],
+    "ui_description": null
+  },
+  {
+    "app_name": "小红书 (Xiaohongshu)",
+    "brief_introduction": "社交电商与生活方式分享社区，以“种草”文化闻名，用户主要分享美妆、旅游与美食经验 [5, 7]。",
+    "icon_description": "鲜红色背景上印有白色的书法体“小红书”或英文“RED”字样 [8]。",
+    "common_functions": [
+      "发布图文或视频“笔记” [7]",
+      "搜索生活指南与产品测评 [8]",
+      "REDMall商城在线购物 [9]",
+      "笔记收藏与专辑整理 [8]",
+      "直播互动与带货",
+      "地理位置标签查看附近内容 [10]"
+    ],
+    "ui_description": null
+  },
+  {
+    "app_name": "Instagram",
+    "brief_introduction": "Meta旗下以视觉内容为主的社交平台，强调高质量图片、短视频（Reels）及快拍（Stories）的分享 [6, 11]。",
+    "icon_description": "紫、红、黄渐变色背景上的一个白色线条相机图案 [6]。",
+    "common_functions":[
+      "发布图片、视频、故事",
+      "关注和点赞其他用户",
+      "浏览和搜索热门内容",
+      "使用滤镜和编辑工具",
+      "与好友互动和聊天"
+    ],
+    "ui_description": null
+  },
+  {
+    "app_name": "Facebook",
+    "brief_introduction": "全球用户规模最大的社交网络，提供全方位的关系维护、资讯流及社群组建服务 [6, 12]。",
+    "icon_description": "亮蓝色圆角正方形内有一个白色的下划体小写字母“f” [6, 13]。",
+    "common_functions": [
+      "维护个人资料与好友关系网",
+      "加入并管理兴趣小组（Groups）",
+      "查看动态消息（News Feed） [6]",
+      "Facebook Marketplace本地二手交易",
+      "Watch频道视频消费",
+      "创建活动（Events）邀请"
+    ],
+    "ui_description": null
+  },
+  {
+    "app_name": "Threads",
+    "brief_introduction": "Meta推出的基于Instagram账号的文本驱动社交应用，旨在进行实时公共对话和趋势讨论 [12, 14]。",
+    "icon_description": "黑色背景上一个白色的“@”符号变体，形状类似环绕的线条 [15]。",
+    "common_functions": [
+      "发布不超过500字的短文本",
+      "跨平台同步Instagram关注列表 [15]",
+      "回复与转发布（Reproduction）",
+      "通过标签进行话题发现 [16]",
+      "设置帖子互动权限（如仅关注者回复） [17]",
+      "分享照片与长视频"
+    ],
+    "ui_description": null
+  },
+  {
+    "app_name": "WhatsApp",
+    "brief_introduction": "全球领先的端到端加密即时通讯工具，主打安全、极简且无广告的消息体验 [6, 12]。",
+    "icon_description": "绿色圆气泡背景内含一个白色的老式电话听筒及白色边框 [6, 18]。",
+    "common_functions": [
+      "端到端加密文字及语音消息 [11]",
+      "免费国际音视频通话",
+      "建立与管理大型群组",
+      "分享地理位置、文档及联系人",
+      "WhatsApp状态发布",
+      "电脑端与网页端同步连接 [6]"
+    ],
+    "ui_description": null
+  },
+  {
+    "app_name": "Telegram",
+    "brief_introduction": "以速度和安全性著称的开源即时通讯应用，支持超大型群组、频道及复杂的机器人API [6, 14]。",
+    "icon_description": "亮蓝色圆环背景中心有一架白色的纸飞机 [6]。",
+    "common_functions":[
+      "设置自动销毁的秘密聊天",
+      "开发与使用各类功能机器人 [19]",
+      "视频消息与动态贴纸"
+    ],
+    "ui_description": null
+  },
+  {
+    "app_name": "Discord",
+    "brief_introduction": "为兴趣社群（最初为游戏）设计的通讯应用，以“服务器-频道”结构组织大规模实时互动 [13, 19]。",
+    "icon_description": "紫蓝色背景上的白色机器人脸（Clyde），形状酷似游戏手柄 [20]。",
+    "common_functions": [
+      "加入或创建不同主题的服务器",
+      "建立语音、视频及文字频道 [21]",
+      "屏幕共享与直播互动",
+      "通过Bot进行自动化管理与娱乐 [20]",
+      "自定义成员角色与权限分级 [22]",
+      "集成Spotify、Steam等第三方平台 [21]"
+    ],
+    "ui_description": null
+  },
+  {
+    "app_name": "Snapchat",
+    "brief_introduction": "阅后即焚式多模态社交应用，以创意滤镜、地理位置地图和碎片化互动为核心特征 [6, 14]。",
+    "icon_description": "亮黄色背景中心有一个白色的幽灵轮廓图案 [6]。",
+    "common_functions":[
+      "与好友建立社交联系指数（Snapstreak）",
+      "My AI聊天机器人"
+    ],
+    "ui_description": null
+  },
+  {
+    "app_name": "Reddit",
+    "brief_introduction": "全球最具影响力的论坛式社群网络，由数万个名为“Subreddit”的兴趣社区构成 [13, 23]。",
+    "icon_description": "橙红色圆底背景中心是一个名为Snoo的白色天线小外星人头部 [13]。",
+    "common_functions":[
+      "发布帖子、评论和投票",
+      "浏览和搜索热门内容",
+      "使用表情和标签进行互动",
+      "关注和订阅感兴趣的社区"
+    ],
+    "ui_description": null
+  },
+  {
+    "app_name": "LinkedIn",
+    "brief_introduction": "全球最大的职场社交平台，专注于职业背景展示、行业脉络拓展及招聘求职 [6, 19]。",
+    "icon_description": "蓝色圆角背景上印有白色小写的“in”字样 [6]。",
+    "common_functions": [
+      "编辑与展示个人职业简历",
+      "申请职位及关注目标公司",
+      "发布职场观点与长篇文章",
+      "通过InMail与职场精英建立联系",
+      "获取AI驱动的职业技能培训建议 [6]",
+      "管理企业招聘页面 [19]"
+    ],
+    "ui_description": null
+  },
+  {
+    "app_name": "知乎 (Zhihu)",
+    "brief_introduction": "中国领先的高质量问答社区，聚集了各领域的专家学者，提供深度的知识性内容。",
+    "icon_description": "蓝色背景上白色的“知”字书法变体。",
+    "common_functions": [
+      "提问并获取专业人士回答",
+      "撰写专栏文章与想法发布",
+      "赞同或反对答案进行内容排序",
+      "知乎盐选会员付费内容阅读",
+      "参与实时圆桌直播讨论",
+      "搜索百科式词条"
+    ],
+    "ui_description": null
+  },
+  {
+    "app_name": "豆瓣 (Douban)",
+    "brief_introduction": "专注书影音评论的文艺社交平台，提供详细的作品评分、书单管理及兴趣小组互动 [2]。",
+    "icon_description": "浅绿色背景上白色的“豆瓣”二字。",
+    "common_functions": [
+      "为电影、书籍及音乐打分评价",
+      "标记“想看”、“看过”及“在看”",
+      "加入各类生活与文艺兴趣小组 [2]",
+      "同城活动查询",
+      "豆瓣广播动态发布",
+      "浏览书影音排行榜"
+    ],
+    "ui_description": null
+  },
+  {
+    "app_name": "淘宝 (Taobao)",
+    "brief_introduction": "阿里巴巴旗下的综合性购物平台，拥有全球最庞大的商品库，支持直播带货和二手交易 [2, 3]。",
+    "icon_description": "亮橙色背景中心有一个白色的“淘”字圆体变体 [1, 3]。",
+    "common_functions":[
+      "购买商品",
+      "浏览商品详情",
+      "搜索商品",
+      "浏览商品评价",
+      "浏览商品推荐",
+      "浏览商品分类"
+    ],
+    "ui_description": null
+  },
+  {
+    "app_name": "京东 (JD.com)",
+    "brief_introduction": "以自营和极速物流闻名的中国电商平台，主打正品保障，在数码家电领域具有绝对优势 [24, 2]。",
+    "icon_description": "一只名为“Joy”的白色3D金属质感小狗，背景为鲜红色 [24, 25]。",
+    "common_functions": [
+      "购买京东自营及第三方店铺商品 [26]",
+      "管理京东PLUS会员特权 [27]",
+      "实时追踪京东物流配送进度",
+      "使用“地址粘贴板”自动解析收货信息 [26]",
+      "京东到家（JD NOW）本地生活配送 [28]",
+      "以旧换新手机回收 [28]",
+      "JD.Vision AR实景购物体验 [28]"
+    ],
+    "ui_description": null
+  },
+  {
+    "app_name": "拼多多 (Pinduoduo)",
+    "brief_introduction": "中国领先的社交电商平台，开创了拼团模式，以高性价比和游戏化购物体验吸引用户 [2, 3, 29]。",
+    "icon_description": "鲜红色圆角正方形内有一个白色的爱心，爱心内由不同商品类别的方块图案组成 [29, 30]。",
+    "common_functions": [
+      "发起或加入拼单获取优惠价 [31]",
+      "在“多多果园”等小游戏中获取实物奖励 [32]",
+      "百亿补贴频道购买品牌折扣品 [33]",
+      "使用多多钱包（DuoDuo Wallet）支付 [34]",
+      "申请先用后付（Pay After Delivery） [35]",
+      "搜索同款商品并比价",
+      "观看店铺短视频介绍 [34]"
+    ],
+    "ui_description": null
+  },
+  {
+    "app_name": "美团 (Meituan)",
+    "brief_introduction": "中国领先的本地生活服务平台，涵盖外卖、到店、酒旅及即时零售等全方位服务 [36, 2]。",
+    "icon_description": "鲜黄色背景上有一个黑色的简约袋鼠图案或英文“Meituan” [36, 37]。",
+    "common_functions": [
+      "订购附近商家的餐饮外卖 [37]",
+      "预订酒店、机票及火车票 [37]",
+      "团购餐厅优惠券与电影票 [37]",
+      "呼叫快车、出租车及单车骑行 [37]",
+      "美团买菜即时配送 [37]",
+      "使用跑腿功能同城代送代买",
+      "美团买药24小时配送 [37]"
+    ],
+    "ui_description": null
+  },
+  {
+    "app_name": "闲鱼 (Xianyu)",
+    "brief_introduction": "阿里巴巴旗下的二手交易与共享经济平台，用户可以出售、交换或购买闲置物品 [1, 38]。",
+    "icon_description": "亮黄色背景中心有一条白色的、长着圆圆眼睛的简约鱼图案 [39]。",
+    "common_functions": [
+      "发布闲置商品进行转卖 [38]",
+      "通过鱼塘参与兴趣社区讨论 [40]",
+      "使用在线聊天进行砍价协商 [38]",
+      "进行信用评估（芝麻信用）筛选可靠卖家 [41]",
+      "预约上门回收服务 [40]",
+      "查找本地租房及兼职信息 [38]"
+    ],
+    "ui_description": null
+  },
+  {
+    "app_name": "Temu",
+    "brief_introduction": "拼多多推出的跨境电商平台，通过供应链直采提供极低价格的商品，在全球多国下载量领先 [12, 42]。",
+    "icon_description": "橙色背景中心印有白色的裙子、木马、高跟鞋等图案及Temu字样 [19, 43]。",
+    "common_functions": [
+      "全品类超低价跨境网购",
+      "管理免运费及配送时效预期 [44]",
+      "参与拼团（Group Buy）获取额外折扣 [45]",
+      "使用PayPal、Google Pay安全结账 [46]",
+      "追踪包裹跨国运输状态 [45]",
+      "发起90天内免费退货申请 [46]",
+      "分享邀请码获取返现或免费商品 [42]"
+    ],
+    "ui_description": null
+  },
+  {
+    "app_name": "SHEIN",
+    "brief_introduction": "全球领先的时尚快消电商，专注于女装及配饰，以数据驱动的设计和快速上新著称 [14, 47]。",
+    "icon_description": "简约的白色背景上印有黑色大写的“SHEIN”英文字母 [48]。",
+    "common_functions": [
+      "浏览每日数千款上新服饰 [48]",
+      "查看基于AI的个性化风格推荐 [49]",
+      "使用AR试穿功能预览效果 [50]",
+      "参与限时闪购（Flash Sale） [48]",
+      "在社区查看博主穿搭灵感",
+      "管理国际配送物流",
+      "发布带图评论赚取积分"
+    ],
+    "ui_description": null
+  },
+  {
+    "app_name": "亚马逊购物 (Amazon Shopping)",
+    "brief_introduction": "全球电商巨头，提供从日常消费品到电子产品的全品类购物，拥有完善的Prime会员体系 [6, 13]。",
+    "icon_description": "白色背景上有一个蓝色的购物推车或橙色箭头（从A指向Z，形似微笑） [6]。",
+    "common_functions": [
+      "使用“一键下单”（1-Click）快速购买",
+      "管理Prime会员权益（如视频、快速送达） [6]",
+      "通过Alexa语音搜索商品",
+      "实时追踪包裹递送位置",
+      "创建及管理愿望清单（Wish List）",
+      "查看详细的全球用户商品评论",
+      "全天候客户服务支持 [6]"
+    ],
+    "ui_description": null
+  },
+  {
+    "app_name": "饿了么 (Ele.me)",
+    "brief_introduction": "阿里巴巴旗下的本地生活服务应用，主打餐饮配送，深入集成支付宝生态 [2, 4]。",
+    "icon_description": "亮蓝色圆角正方形内有一个白色的下划体“e”字，形状类似一个盘子。",
+    "common_functions": [
+      "在线搜索并点餐配送 [4]",
+      "预订超时赔付计划",
+      "查看商户资质与食安评价",
+      "通过支付宝快捷结算",
+      "领取各类配送优惠券",
+      "超市便利店即时购"
+    ],
+    "ui_description": null
+  },
+  {
+    "app_name": "得物 (Dewu/Poizon)",
+    "brief_introduction": "专注潮流单品的鉴定与买卖平台，首创“先鉴别，后发货”的购物模式 [51, 52]。",
+    "icon_description": "黑色圆角背景内含有一个蓝绿色的、类似“Z”形状的抽象闪电或字母图标 [52]。",
+    "common_functions": [
+      "购买经过专业鉴定的潮流鞋履及配饰 [51]",
+      "提交单品进行在线或实物鉴定 [52]",
+      "在潮流社区分享穿搭心得 [52]",
+      "查看球鞋发售日历与价格趋势",
+      "AR试穿与3D看图功能 [52]",
+      "参与限量单品竞价"
+    ],
+    "ui_description": null
+  },
+  {
+    "app_name": "大众点评 (Dianping)",
+    "brief_introduction": "美团旗下的本地生活信息与评价平台，是中国版“Yelp”，提供详尽的商户评分和消费指南 [36, 2]。",
+    "icon_description": "亮橙色背景中心有一个黑色的汉字“评”，外圈为圆形线条。",
+    "common_functions": [
+      "查询餐厅、娱乐场所的星级评分",
+      "浏览用户发布的真实消费评价与图片 [2]",
+      "在线预订座位或领取排队号",
+      "购买团购套餐及代金券",
+      "查询周边电影放映时间及选座",
+      "发布笔记参与点评达人激励"
+    ],
+    "ui_description": null
+  },
+  {
+    "app_name": "Shopee",
+    "brief_introduction": "东南亚领先的电商平台，在印度尼西亚等地区占据市场主导地位，支持社交购物特征 [6, 19]。",
+    "icon_description": "橙色背景上有一个白色的购物袋，袋中印有英文字母“S” [19]。",
+    "common_functions":[
+      "通过Shopee Feed浏览关注的店铺"
+    ],
+    "ui_description": null
+  },
+  {
+    "app_name": "AliExpress (速卖通)",
+    "brief_introduction": "阿里巴巴旗下的全球性零售平台，将中国商品销往世界各地，支持多语言和多币种结账 [12, 19]。",
+    "icon_description": "橙红色背景上印有白色的字母“A”及一个带包边效果的弧线。",
+    "common_functions": [
+      "跨境购买中国制造的各类商品",
+      "多币种汇率自动折算结账",
+      "参与全球促销活动（如黑色星期五） [53]",
+      "利用图像搜索寻找同款廉价商品",
+      "管理冗长的国际转运包裹",
+      "通过买家保护计划解决争议"
+    ],
+    "ui_description": null
+  },
+  {
+    "app_name": "Mercado Libre",
+    "brief_introduction": "拉丁美洲最大的电商平台，集在线购物、电子钱包（Mercado Pago）和物流于一体 [12, 19]。",
+    "icon_description": "亮黄色背景中心有两个握在一起的黑色或深蓝色手，象征可信赖的交易。",
+    "common_functions": [
+      "在拉美地区购买新旧商品",
+      "使用Mercado Pago进行扫码支付",
+      "发布个人商品进行C2C转售",
+      "管理免费配送（Full）服务订单",
+      "分期付款管理",
+      "收藏心仪商品并追踪降价"
+    ],
+    "ui_description": null
+  },
+  {
+    "app_name": "eBay",
+    "brief_introduction": "老牌全球在线拍卖与购物网站，以其独特的出价拍卖模式和全球范围的稀有物品交易闻名 [38]。",
+    "icon_description": "白色背景上依次排列着红、蓝、黄、绿四种颜色的英文字母“ebay”。",
+    "common_functions": [
+      "对心仪商品进行实时出价拍卖",
+      "使用“立即购买”功能快速成交",
+      "卖家发布全球配送的二手或新品",
+      "使用PayPal进行安全支付保护",
+      "管理复杂的退货与争议处理流程",
+      "利用收藏夹功能监控稀缺物品"
+    ],
+    "ui_description": null
+  },
+  {
+    "app_name": "抖音 (Douyin)",
+    "brief_introduction": "字节跳动旗下的中国版TikTok，是全能型短视频、直播、社交及电商平台 [2, 5]。",
+    "icon_description": "黑色背景上有一个白色的三维动感音乐符，带青色和品红色的故障效果 [1, 2]。",
+    "common_functions": [
+      "上下滑动浏览算法推荐的短视频",
+      "进行直播创作及实时互动打赏 [2]",
+      "通过抖音商城（Douyin Mall）购物 [1]",
+      "录制视频并使用海量滤镜和模板",
+      "拍摄同款挑战并参与话题讨论",
+      "私信及群组社交沟通 [5]",
+      "搜索生活百科及同城资讯 [1]"
+    ],
+    "ui_description": null
+  },
+  {
+    "app_name": "TikTok",
+    "brief_introduction": "字节跳动面向全球的短视频平台，是当今全球流行文化和创作者经济的核心阵地 [12, 54]。",
+    "icon_description": "与抖音一致：黑色底色加青红色故障风白色音符 [6]。",
+    "common_functions":[
+      "加入创作者激励计划获取收益 [54]",
+      "发起并传播全球挑战赛（Challenges）",
+      "设置隐私权限管理评论与私信"
+    ],
+    "ui_description": null
+  },
+  {
+    "app_name": "快手 (Kuaishou)",
+    "brief_introduction": "中国领先的短视频社区，以真实、接地气的内容为特色，在下沉市场拥有极高忠诚度 [2, 3]。",
+    "icon_description": "橙色背景中心有一个白色的胶片摄像机图案 [2, 3]。",
+    "common_functions": [
+      "浏览具有生活气息的短视频",
+      "进行高频直播互动与实物带货",
+      "在快手极速版中赚取阅读金 [3]",
+      "发布每日心情动态或小剧场",
+      "通过快手小店进行日常购物",
+      "参与社区发起的红包活动"
+    ],
+    "ui_description": null
+  },
+  {
+    "app_name": "Bilibili (哔哩哔哩)",
+    "brief_introduction": "中国知名的中长视频分享社区，以ACG起家，拥有独特的弹幕文化和高活跃度的青年社群 [55, 56]。",
+    "icon_description": "亮粉色圆角正方形背景内有一台白色的小电视，带有两个天线和笑脸 [57]。",
+    "common_functions": [
+      "观看并发送实时弹幕进行社交 [55]",
+      "订阅UP主（创作者）并一键三连支持",
+      "浏览动漫、游戏及硬核知识视频 [57]",
+      "在Bilibili赛事频道看电竞直播 [55]",
+      "使用AI字幕与同声传译功能 [57]",
+      "管理大会员（Vip）特权 [55]",
+      "购买B站会员购周边商品"
+    ],
+    "ui_description": null
+  },
+  {
+    "app_name": "YouTube",
+    "brief_introduction": "全球最大的视频分享网站，支持超高清直播、短视频（Shorts）及音乐流媒体服务 [11, 12]。",
+    "icon_description": "红色圆角矩形内有一个白色的水平播放“三角形” [6, 11]。",
+    "common_functions":[
+      "管理YouTube Kids儿童账号安全 [12]",
+      "利用AI生成的章节和摘要快速导读 [6]"
+    ],
+    "ui_description": null
+  },
+  {
+    "app_name": "腾讯视频 (Tencent Video)",
+    "brief_introduction": "中国主流的综合性视频平台，拥有丰富的独家版权剧集、综艺及电影资源 [2, 3, 56]。",
+    "icon_description": "蓝色和绿色的渐变背景，中央有一个白色的、由三片花瓣组成的播放图标 [3, 56]。",
+    "common_functions": [
+      "追看独家热门电视剧及电影",
+      "观看腾讯自制综艺节目",
+      "缓存视频以便离线观看",
+      "通过微信/QQ登录同步会员权益 [56]",
+      "切换4K超高清与杜比音效画质",
+      "开启青少年模式进行家长控制"
+    ],
+    "ui_description": null
+  },
+  {
+    "app_name": "爱奇艺 (iQIYI)",
+    "brief_introduction": "百度旗下的长视频平台，以高品质的原创剧集（如“迷雾剧场”）和影院级视听体验著称 [2, 3, 56]。",
+    "icon_description": "亮绿色圆角背景内有一个白色的“Q”字变体，形似一个带有播放箭头的电视屏幕 [3, 56]。",
+    "common_functions": [
+      "浏览“迷雾剧场”等原创悬疑剧集 [56]",
+      "参与爱奇艺泡泡社区明星互动",
+      "调节帧琦（FrameQi）音画标准进行深度观影",
+      "管理爱奇艺体育频道的足球赛事直播",
+      "使用虚拟形象参与VR直播",
+      "管理会员自动续费及等级权益"
+    ],
+    "ui_description": null
+  },
+  {
+    "app_name": "芒果TV (Mango TV)",
+    "brief_introduction": "湖南广电旗下的流媒体应用，专注于娱乐综艺及年轻女性观众内容，拥有强大自制能力 [3, 56]。",
+    "icon_description": "橙黄色渐变背景中心有一个白色的、类似芒果形状的抽象“M”图标 [56]。",
+    "common_functions": [
+      "观看《浪姐》等独家芒果系综艺 [56]",
+      "追看湖南卫视同步直播剧集",
+      "通过“饭团”社区与节目嘉宾互动",
+      "参与芒果盲盒等周边产品的购买",
+      "管理多端登录的VIP账号",
+      "设置定时关闭功能"
+    ],
+    "ui_description": null
+  },
+  {
+    "app_name": "优酷 (Youku)",
+    "brief_introduction": "阿里大文娱核心平台，集成海量电影、纪录片及经典动漫，深入阿里电商生态 [3, 5, 56]。",
+    "icon_description": "蓝色圆底上有一个白色的“Y”和“K”字母组合，中心圆点为红色 [56]。",
+    "common_functions": [
+      "观看精品独家剧集与合集",
+      "使用淘宝积分兑换优酷会员权益 [56]",
+      "浏览海量纪录片与动画图书馆",
+      "通过视频浮窗进行多任务处理",
+      "开启色盲模式等无障碍功能 [5]",
+      "管理个人播放记录"
+    ],
+    "ui_description": null
+  },
+  {
+    "app_name": "Netflix",
+    "brief_introduction": "全球领先的付费订阅制流媒体，以其自制的高质量剧集和电影风靡全球 [6, 13]。",
+    "icon_description": "黑色背景上有一个鲜红色的立体“N”字母，形似两条交叠的红丝带 [6]。",
+    "common_functions": [
+      "按类别浏览并流式播放原创内容",
+      "为多位家庭成员创建独立配置文件",
+      "下载指定剧集至本地离线观看 [11]",
+      "使用Smart Downloads自动同步下一集",
+      "获取高度精准的个人化观影推荐",
+      "调整字幕样式及多国语言配音 [6]"
+    ],
+    "ui_description": null
+  },
+  {
+    "app_name": "Twitch",
+    "brief_introduction": "全球领先的实时流媒体平台，是电竞比赛、游戏实况及IRL内容分享的中心 [58, 59]。",
+    "icon_description": "亮紫色圆角矩形内有一个白色的对话框，对话框中有两个不规则的黑色方孔 [59]。",
+    "common_functions": [
+      "观看电竞选手及游戏主播直播",
+      "在聊天室发送全球及订阅专属表情（Emotes） [60]",
+      "使用Bits进行欢呼打赏（Cheering） [58]",
+      "管理Twitch Prime关联的免费游戏奖励 [58]",
+      "建立Squad Stream观看多视角直播 [60]",
+      "管理创作者控制面板进行推流 [59]"
+    ],
+    "ui_description": null
+  },
+  {
+    "app_name": "Spotify",
+    "brief_introduction": "全球最大的音乐流媒体服务商，提供精准的算法歌单和丰富的播客资源 [6, 13, 18]。",
+    "icon_description": "亮绿色圆底上有三条黑色的向右上方扩散的弧形声波线条 [6]。",
+    "common_functions":[
+      "开启Spotify Premium享受无广告音质"
+    ],
+    "ui_description": null
+  },
+  {
+    "app_name": "QQ音乐 (QQ Music)",
+    "brief_introduction": "腾讯旗下的数字音乐平台，拥有国内顶尖的曲库和丰富的社交互动、粉丝经济玩法 [3, 5, 61]。",
+    "icon_description": "亮绿色背景中央有一个白色的双音符图标 [61, 62]。",
+    "common_functions":[
+      "购买数字专辑（Digital Albums）支持偶像 [64]",
+      "在歌曲评论区查看感人故事 [63]",
+      "开启K歌模式进行个人演唱录制 [65]",
+      "使用“雷达”功能听歌识曲",
+      "切换各类精致的动效歌词皮肤 [66]"
+    ],
+    "ui_description": null
+  },
+  {
+    "app_name": "网易云音乐 (NetEase Cloud Music)",
+    "brief_introduction": "具有浓厚社区氛围的音乐平台，以独特的乐评、精准的个性化推荐和原创独立音乐著称 [67, 68]。",
+    "icon_description": "鲜红色圆底上有一个白色的简笔画唱片和唱针图案 [69, 70]。",
+    "common_functions": [
+      "浏览充满故事性的热门乐评",
+      "开启“一起听”功能与好友同步收听 [67]",
+      "在云村广场分享音乐心情动态 [71]",
+      "聆听每日自动生成的个性化私人FM",
+      "测试性格颜色及音乐人格等H5活动 [68]",
+      "关注并支持入驻的独立音乐人 [67]"
+    ],
+    "ui_description": null
+  },
+  {
+    "app_name": "Steam",
+    "brief_introduction": "全球最主流的PC游戏分发平台，提供游戏购买、社交及创意工坊服务 [72, 73]。",
+    "icon_description": "深蓝色/黑色圆底中心有一个白色的机械曲柄或活塞传动装置图标 [73]。",
+    "common_functions":[
+      "管理游戏好友列表与即时聊天",
+      "使用Steam令牌进行账号二级安全验证",
+      "追踪游戏成就与交易卡牌进度 [75]",
+      "远程玩（Remote Play）实现在移动端操作PC游戏 [75]"
+    ],
+    "ui_description": null
+  },
+  {
+    "app_name": "Microsoft Teams",
+    "brief_introduction": "微软旗下的企业级办公套件，集成了即时通讯、视频会议及文档协作功能 [76, 77]。",
+    "icon_description": "两条紫色和蓝色的交织丝带组成一个盾牌形状，内有一个白色的字母“T” [76]。",
+    "common_functions": [
+      "参与及预约高清在线视频会议 [78]",
+      "在团队频道中组织讨论与文件共享 [79]",
+      "在移动端即时编辑Office在线文档 [76]",
+      "使用AI智能辅助（Copilot）提取会议摘要 [78]",
+      "创建及分派任务清单 [80]",
+      "管理企业员工的实时出勤状态",
+      "通过应用商店集成第三方办公工具"
+    ],
+    "ui_description": null
+  },
+  {
+    "app_name": "Slack",
+    "brief_introduction": "灵活的团队协作平台，以其强大的插件集成、灵活的频道管理和高效的搜索功能闻名 [6, 81]。",
+    "icon_description": "白色圆底中心由四种颜色（蓝、绿、红、黄）的对话气泡交叠而成的“井”字/井号标志 [6]。",
+    "common_functions":[
+      "发送及接收Huddle即时音频交谈",
+      "设置自定义状态及通知勿扰模式 [6]",
+      "在移动端接收关键业务警报通知",
+      "管理连接的外部应用（如Google Drive/Zoom） [82]"
+    ],
+    "ui_description": null
+  },
+  {
+    "app_name": "Notion",
+    "brief_introduction": "一站式协作工作区，通过灵活的“块”结构实现笔记编写、项目管理及知识库构建 [82, 83]。",
+    "icon_description": "白色背景上一个黑色的四角圆润的方块，内含一个大写的斜体字母“N” [84]。",
+    "common_functions": [
+      "利用Markdown语法编写结构化文档 [85]",
+      "创建及筛选多维关系型数据库 [86]",
+      "搭建团队共享的Wiki知识库 [82]",
+      "通过Notion AI进行内容润色与摘要 [82]",
+      "切换看板（Kanban）、时间轴等多种视图 [86]",
+      "管理个人日程表与任务清单 [87]"
+    ],
+    "ui_description": null
+  },
+  {
+    "app_name": "Zoom",
+    "brief_introduction": "全球知名的云视频会议应用，以其极高的稳定性和简便的加入流程成为在线协作的首选 [6, 11]。",
+    "icon_description": "蓝色圆角正方形背景内含一个白色的摄像机图标 [6]。",
+    "common_functions":[
+      "开启AI智能会议助手（AI Companion） [6]",
+      "设置虚拟背景与磨皮美颜效果",
+      "录制会议视频至本地或云端",
+      "管理参会者的语音及互动权限 [20]"
+    ],
+    "ui_description": null
+  },
+  {
+    "app_name": "Google Drive",
+    "brief_introduction": "谷歌旗下的云存储服务，支持全域文件备份及与Google Workspace的深度无缝集成 [13, 18]。",
+    "icon_description": "蓝、绿、黄三色组成的封闭式等边三角形 [18]。",
+    "common_functions": [
+      "从手机相册及文档夹上传备份文件",
+      "为文件生成共享链接并设置权限 [88]",
+      "对PDF、Office等文档进行在线预览",
+      "在离线状态下编辑指定的重要文件 [88]",
+      "利用OCR技术搜索图片内的文字 [88]",
+      "管理文件的不同历史版本 [88]"
+    ],
+    "ui_description": null
+  },
+  {
+    "app_name": "Evernote (印象笔记)",
+    "brief_introduction": "老牌全能型笔记管理应用，支持网页剪取、手写扫描及复杂的多端笔记同步 [89, 90]。",
+    "icon_description": "浅绿色背景上一个大象头部的侧面轮廓，大象耳朵有一处折角，象征备忘 [90]。",
+    "common_functions":[
+      "通过手写扫描功能数字化纸质笔记 [91]",
+      "为笔记添加地理位置及时间标签 [92]",
+      "在笔记中嵌入语音录音与附件文档 [90]",
+      "使用AI进行笔记内容的一键总结 [89]",
+      "管理复杂的个人笔记本架构"
+    ],
+    "ui_description": null
+  },
+  {
+    "app_name": "Obsidian",
+    "brief_introduction": "本地优先的Markdown笔记应用，强调双向链接、反向链接及构建个人“第二大脑” [85, 93]。",
+    "icon_description": "深紫色/黑色背景上一个白色的多面体晶体或紫色晶体图标 [93]。",
+    "common_functions": [
+      "创建及管理本地Markdown文本文件 [94]",
+      "在“关系图谱”中可视化笔记关联 [93]",
+      "建立双向链接构建知识网 [94]",
+      "使用插件市场扩展万余种功能 [93]",
+      "利用Canvas画板进行自由头脑风暴 [93]",
+      "多端安全同步加密数据包 [93]"
+    ],
+    "ui_description": null
+  },
+  {
+    "app_name": "Chrome (谷歌浏览器)",
+    "brief_introduction": "谷歌开发的全球市场份额第一的移动浏览器，支持极速搜索与强大的跨端同步 [13, 18]。",
+    "icon_description": "核心为一个蓝色的圆圈，外围由红、黄、绿三色色块环绕成圆形 [18]。",
+    "common_functions": [
+      "在地址栏（Omnibox）进行智能搜索",
+      "管理并切换数百个开启的标签页",
+      "开启无痕（Incognito）模式保护隐私",
+      "自动填充表单及管理跨端密码",
+      "调用Google Lens进行视觉搜索与翻译",
+      "将网页添加至桌面主屏幕"
+    ],
+    "ui_description": null
+  },
+  {
+    "app_name": "夸克 (Quark Browser)",
+    "brief_introduction": "阿里旗下的极简浏览器，以简洁的UI、强大的AI搜索和实用工具箱深受好评 [1, 95]。",
+    "icon_description": "纯白色或蓝色背景中心有一个蓝白色的圆环或类似镜头的眼球 [96, 97]。",
+    "common_functions": [
+      "进行无广告干扰的AI智能精准搜索 [95]",
+      "使用夸克网盘进行大文件云同步",
+      "调用夸克扫描王处理PDF及证件扫描",
+      "观看并缓存网页在线视频流",
+      "在工具箱中使用网速测试及清理工具 [95]",
+      "快速访问夸克学习等教育频道"
+    ],
+    "ui_description": null
+  },
+  {
+    "app_name": "钉钉 (DingTalk)",
+    "brief_introduction": "阿里旗下的企业级办公与教培平台，支持大规模组织协作、考勤管理及视频会议。",
+    "icon_description": "蓝色圆角背景内含有一个白色且带有翅膀的“闪电”符号，象征快速响应。",
+    "common_functions":[
+      "发送和接收消息",
+      "进行语音和视频通话",
+      "管理联系人列表",
+      "查看和编辑日程安排",
+      "创建和编辑文档",
+      "进行团队协作"
+    ],
+    "ui_description": null
+  },
+  {
+    "app_name": "飞书 (Lark)",
+    "brief_introduction": "字节跳动出品的高效协作套件，将日历、文档、群聊和音视频深度整合。",
+    "icon_description": "渐变蓝色的动态翅膀图案，外包圆形。",
+    "common_functions": [
+      "在聊天群组中直接插入及协作编辑文档",
+      "共享日历并进行多方时区预约",
+      "视频会议中开启“妙记”文字实时转录",
+      "通过服务台进行自动化的入职导引",
+      "搭建多维表格进行项目进度管理",
+      "跨国团队沟通时的实时翻译功能"
+    ],
+    "ui_description": null
+  },
+  {
+    "app_name": "Google Keep",
+    "brief_introduction": "谷歌出品的轻量化记事工具，通过“便利贴”式UI实现快速灵感采集与提醒 [18, 98]。",
+    "icon_description": "亮黄色正方形背景内含一个白色点亮的灯泡图标 [98, 99]。",
+    "common_functions": [
+      "快速记录图文及语音笔记 [98]",
+      "设置基于时间或特定地理位置的提醒 [100]",
+      "利用OCR抓取图片中的文本 [100]",
+      "与家人协作编辑共享清单 [101]",
+      "为笔记设置不同的底色分类管理 [100]",
+      "将长笔记一键导出至Google Docs [101]"
+    ],
+    "ui_description": null
+  },
+  {
+    "app_name": "Google 相册 (Google Photos)",
+    "brief_introduction": "谷歌的智能云端相册，提供无限量的高效图片备份、AI分类与精美回忆生成 [13, 18]。",
+    "icon_description": "白色背景上一个由红、蓝、黄、绿四色组成的动感风车图案 [18]。",
+    "common_functions": [
+      "自动备份手机照片并释放本地存储空间",
+      "通过人脸识别与物体标签搜索照片",
+      "自动生成“回忆录”短片与拼图",
+      "与亲友建立共享相册同步更新",
+      "使用AI橡皮擦功能消除照片杂物",
+      "调整照片的基础及专业滤镜参数"
+    ],
+    "ui_description": null
+  },
+  {
+    "app_name": "Trello",
+    "brief_introduction": "基于看板管理逻辑的协作工具，通过卡片和列表实现项目进度的可视化 [82, 83]。",
+    "icon_description": "蓝色圆角矩形内有两个垂直排列的、圆角的白色矩形。",
+    "common_functions":[
+      "拖拽卡片实现任务状态转换",
+      "在卡片评论区进行团队讨论",
+      "集成Slack等外部沟通渠道 [82]"
+    ],
+    "ui_description": null
+  },
+  {
+    "app_name": "WPS Office",
+    "brief_introduction": "全球领先的办公套件，支持移动端编辑Word、PPT及Excel，深度契合国人习惯。",
+    "icon_description": "橙红色背景上印有白色的字母“W”。",
+    "common_functions":[
+      "编辑和创建文档",
+      "创建和编辑表格",
+      "创建和编辑幻灯片",
+      "创建和编辑公式",
+      "创建和编辑图表",
+      "创建和编辑图形"
+    ],
+    "ui_description": null
+  },
+  {
+    "app_name": "高德地图 (Amap)",
+    "brief_introduction": "中国领先的数字地图与位置服务商，提供精准导航、打车聚合及周边生活搜索 [1, 2, 3]。",
+    "icon_description": "亮蓝色底色，中央是一架由蓝白折叠效果组成的动感纸飞机 [1, 2]。",
+    "common_functions":[
+      "实时查询公交到站及地铁线路信息",
+      "聚合全网主流网约车平台进行一键呼叫 [1]",
+      "查询周边美食、油站及充电桩分布",
+      "离线下载分城市地图数据包",
+      "获取名家配音的趣味导航",
+      "记录并分析年度个人足迹数据"
+    ],
+    "ui_description": null
+  },
+  {
+    "app_name": "百度地图 (Baidu Maps)",
+    "brief_introduction": "百度旗下的位置服务应用，以丰富的全景图库和强大的智能路线规划著称 [1, 3]。",
+    "icon_description": "白色背景上一个红蓝两色罗盘指针，外圈带有蓝色边框 [1, 3]。",
+    "common_functions":[
+      "多目的地智能路线规划避开拥堵",
+      "预约百度自动驾驶（萝卜快跑）服务",
+      "管理及分享位置共享轨迹",
+      "查询附近共享单车停放区域",
+      "查询全国范围内的景点解说"
+    ],
+    "ui_description": null
+  },
+  {
+    "app_name": "Google 地图 (Google Maps)",
+    "brief_introduction": "全球通用的地图导航服务，提供海量的商户评论和详尽的国际交通数据 [13, 18]。",
+    "icon_description": "纯白底色，中心是一个由红、黄、绿、蓝四色组成的“大头针”定位标 [18]。",
+    "common_functions":[
+      "浏览本地商户的真实评分与营业时间",
+      "查询极其精准的公共交通换乘建议 [18]",
+      "利用街景（Street View）进行视觉预览",
+      "离线保存特定区域的交互式地图",
+      "在Timeline中回顾个人历史行踪"
+    ],
+    "ui_description": null
+  },
+  {
+    "app_name": "滴滴出行 (Didi)",
+    "brief_introduction": "中国最大的网约车平台，提供从出租车、快车到代驾的多元化出行选择 [1, 5]。",
+    "icon_description": "亮橙色底底中心印有白色的字母“D”，整体像笑脸 [1]。",
+    "common_functions": [
+      "实时呼叫快车、出租车或特惠车",
+      "预约未来的长途或机场接送行程",
+      "使用青桔功能解锁共享单车",
+      "呼叫专业代驾服务解决酒后出行",
+      "加入拼车（Hitch）共享路费",
+      "开启紧急联系人与实时轨迹分享功能"
+    ],
+    "ui_description": null
+  },
+  {
+    "app_name": "中国铁路12306",
+    "brief_introduction": "中国官方的铁路票务预订系统，是购买高铁及普通客运火车票的权威渠道 [1, 2, 4]。",
+    "icon_description": "亮蓝色圆底背景，上部是白色的铁路徽章，下部印有白色的“12306” [1]。",
+    "common_functions": [
+      "查询全国铁路线路的余票及票价 [1]",
+      "在线预订、支付及改签火车票 [4]",
+      "管理电子客票二维码进行快捷进站",
+      "办理积分兑换及铁路常旅客服务",
+      "预订火车站内的点餐外送服务",
+      "查询特定车次的停靠站点及正晚点详情"
+    ],
+    "ui_description": null
+  },
+  {
+    "app_name": "携程旅行 (Ctrip/Trip.com)",
+    "brief_introduction": "全球领先的一站式旅游服务平台，提供涵盖机酒票及签证在内的全流程旅行预订 [1, 4]。",
+    "icon_description": "亮蓝色背景中心印有白色的海豚图案（Youyou）或“Trip.com”字母 [1]。",
+    "common_functions": [
+      "预订全球航司机票及低价酒店 [4]",
+      "购买热门景点门票及度假套餐",
+      "在线申请多国旅游签证指导",
+      "管理复杂的国际多目的地行程",
+      "使用“超级会员”特权进入贵宾厅",
+      "享受24小时专业旅游顾问支持"
+    ],
+    "ui_description": null
+  },
+  {
+    "app_name": "去哪儿 (Qunar)",
+    "brief_introduction": "中国知名旅游搜索引擎，以机票比价和低价团购为特色，深受价格敏感型用户欢迎 [2]。",
+    "icon_description": "亮红色底色中心是一只奔跑的白色“驼鹿”图案 [2]。",
+    "common_functions": [
+      "全网搜索并比价廉价机票行程",
+      "查找高性价比的客栈与民宿",
+      "订阅低价机票价格监控提醒",
+      "进行学生及特定人群的差旅认证",
+      "购买火车站/机场接送机专车服务",
+      "参与社区发起的旅游攻略互动"
+    ],
+    "ui_description": null
+  },
+  {
+    "app_name": "Airbnb (爱彼迎)",
+    "brief_introduction": "全球最大的民宿预订平台，主打独特的当地生活体验和极具设计感的房源 [102, 103, 104]。",
+    "icon_description": "珊瑚红背景，上绘白色的“Bélo”心形标志 [105, 106]。",
+    "common_functions": [
+      "预订全球极具特色的公寓或独栋别墅 [103]",
+      "参与当地向导提供的“体验”活动 [102]",
+      "通过应用内私信与房东直接沟通 [107]",
+      "根据“先住后付”功能灵活规划财务 [108]",
+      "查阅房源的真实图片与深度用户评论 [106]",
+      "管理房东身份发布并管理自己的房源 [107]"
+    ],
+    "ui_description": null
+  },
+  {
+    "app_name": "Booking.com",
+    "brief_introduction": "全球酒店及度假屋预订的巨头，以广泛的覆盖面和直观的预订确认流程著称 [12, 103, 109]。",
+    "icon_description": "深蓝色背景上印有白色小写的“booking.com”字样。",
+    "common_functions": [
+      "在全球220多个国家搜索并预订酒店",
+      "利用“Genius”会员计划获取专属折扣 [110]",
+      "大多数房源支持无预付或免费取消 [109]",
+      "同步预订租车、机场接送及航班 [109]",
+      "管理离线可用的电子预订确认函",
+      "在应用内申请开具商旅报销发票"
+    ],
+    "ui_description": null
+  },
+  {
+    "app_name": "Agoda (安可达)",
+    "brief_introduction": "专注亚太市场的在线旅行平台，提供具有价格优势的酒店、度假村及长租公寓 [109, 110, 111]。",
+    "icon_description": "白色或亮蓝色背景，下方排列着五种颜色的小圆点 [111, 112]。",
+    "common_functions": [
+      "预订极具亚洲特色的度假酒店与民宿",
+      "使用Agoda Cash抵扣后续订房费用 [113]",
+      "浏览“Agoji”吉祥物推荐的特惠路线 [114]",
+      "查看真实的住宿图片与海量多语种评论",
+      "开启“秘密价”功能获取半价折扣",
+      "快速预订各类机场转运及接送服务"
+    ],
+    "ui_description": null
+  },
+  {
+    "app_name": "TripAdvisor (猫途鹰)",
+    "brief_introduction": "全球领先的旅游点评与规划平台，凭借数亿条用户评论成为旅行决策的指南 [115, 110, 116]。",
+    "icon_description": "亮绿色圆圈内有一只戴着望远镜眼镜的黑色/黑白色猫头鹰（Ollie） [115, 117]。",
+    "common_functions": [
+      "查阅全球餐厅及景点的真实星级排名 [118]",
+      "发布带有个人见解的详细旅行评论与照片 [117]",
+      "在论坛向其他旅行者提问获取即时建议",
+      "比价并预订各大第三方平台的酒店客房",
+      "管理个人的旅行规划笔记与收藏列表",
+      "获取“旅行者之选”年度推荐榜单"
+    ],
+    "ui_description": null
+  },
+  {
+    "app_name": "Yelp",
+    "brief_introduction": "美国领先的商户发现与评价应用，覆盖餐饮、购物、家政等全领域本地生活服务 [36, 119]。",
+    "icon_description": "白色或红色背景内有一个鲜红色的星状花簇图标，形似六角星。",
+    "common_functions": [
+      "寻找附近评分最高的美食及各类商户",
+      "查看社区用户上传的菜品图片及价目表",
+      "进行餐厅在线预订或加入线上候位",
+      "直接在应用内呼叫本地搬家、保洁等服务",
+      "获取商家发布的限时签到优惠",
+      "撰写详尽的商家评价并标记有帮助的评论"
+    ],
+    "ui_description": null
+  },
+  {
+    "app_name": "Grab",
+    "brief_introduction": "东南亚地区的超级应用，提供打车、外卖、支付及快递一站式服务 [12]。",
+    "icon_description": "亮绿色底色中心印有白色的两条相互环绕的线条，组成抽象的“g”字。",
+    "common_functions":[
+      "呼叫全天候在线的私家车及豪华车服务",
+      "订购Uber Eats外卖并享受会员免运费",
+      "通过Uber Reserve提前预约重要行程",
+      "在地图上实时查看司机接驾路径与位置",
+      "向朋友分享实时行程位置与预计到达时间",
+      "管理复杂的商旅开支与自动报销对接"
+    ],
+    "ui_description": null
+  },
+  {
+    "app_name": "Uber (优步)",
+    "brief_introduction": "全球网约车鼻祖，提供覆盖全球主要城市的出行、送餐及货运解决方案 [6, 19, 102]。",
+    "icon_description": "黑色圆角背景内嵌白色的、加粗的大写“UBER”或圆形符号图标 [6]。",
+    "common_functions": [
+      "呼叫全天候在线的私家车及豪华车服务 [6]",
+      "订购Uber Eats外卖并享受会员免运费 [6]",
+      "通过Uber Reserve提前预约重要行程 [102]",
+      "在地图上实时查看司机接驾路径与位置",
+      "向朋友分享实时行程位置与预计到达时间",
+      "管理复杂的商旅开支与自动报销对接"
+    ],
+    "ui_description": null
+  },
+  {
+    "app_name": "Airbnb房东端",
+    "brief_introduction": "专门为Airbnb房东设计的管理应用，支持快速回复房客消息与房价动态调整。",
+    "icon_description": "与Airbnb主图标类似，但在设计细节上更强调管理功能。",
+    "common_functions": [
+      "实时查收并回复潜在房客的咨询信息 [107]",
+      "通过“智能定价”功能根据行情自动调价",
+      "管理房源的预订日历及房态更新 [108]",
+      "发布并更新房源的高清照片与描述",
+      "查看房客过往评价并做出互评 [107]",
+      "管理收款账户及税务报表导出"
+    ],
+    "ui_description": null
+  },
+  {
+    "app_name": "支付宝 (Alipay)",
+    "brief_introduction": "全球领先的移动支付与数字生活开放平台，是阿里生态及中国数字经济的基础设施 [1, 2, 3]。",
+    "icon_description": "亮蓝色圆角正方形中心印有白色的书法体“支”字 [1, 3]。",
+    "common_functions": [
+      "向线下商户出示支付码或扫描收款码结算 [2]",
+      "使用余额宝进行低风险财富管理理财",
+      "缴纳水、电、燃气及宽带等各类生活费用 [1]",
+      "通过余额/银行卡进行好友间转账及红包发送",
+      "管理蚂蚁森林及蚂蚁庄园社交公益游戏",
+      "查询并管理多张信用卡的还款日程",
+      "访问政务小程序处理社保、违章查询"
+    ],
+    "ui_description": null
+  },
+  {
+    "app_name": "PayPal",
+    "brief_introduction": "全球历史悠久的在线支付网关，支持跨境收付款、电子钱包及账户保护计划 [120, 121]。",
+    "icon_description": "深蓝色和浅蓝色重叠的两个大写“P”字母，背景通常为白色或亮蓝色 [120]。",
+    "common_functions":[],
+    "ui_description": null
+  },
+  {
+    "app_name": "Venmo",
+    "brief_introduction": "PayPal旗下的社交化P2P支付工具，支持带备注的社交转账 [121, 122, 123]。",
+    "icon_description": "亮蓝色圆角底色上印有一个白色的加粗且带有斜度的字母“V” [120, 124]。",
+    "common_functions": [
+      "向通讯录好友快速转账或发起收款请求 [125]",
+      "在公开或好友Feed流发布带Emoji的消息备注 [126]",
+      "通过Venmo Groups功能透明拆分室友账单 [127]",
+      "管理及个性化定制自己的Venmo信用卡 [128]",
+      "买卖并存储主流加密货币（如BTC） [126]",
+      "扫描身边人的专属二维码快速建立联系"
+    ],
+    "ui_description": null
+  },
+  {
+    "app_name": "Cash App",
+    "brief_introduction": "Block公司推出的极简金融应用，集转账、股票投资和比特币交易于一体 [13, 129]。",
+    "icon_description": "翠绿色圆角背景内有一个白色的、由粗细线条组成的“$”符号 [129]。",
+    "common_functions": [
+      "使用唯一的“$Cashtag”进行即时免息转账 [129]",
+      "以低至1美元的门槛买卖美股及零碎股 [129]",
+      "实时买卖、发送及接收比特币资产",
+      "使用Cash Card线下消费并享受“Boost”返现",
+      "设置薪资自动存入（Direct Deposit）功能",
+      "利用税务功能（Cash App Taxes）免费报税"
+    ],
+    "ui_description": null
+  },
+  {
+    "app_name": "Binance (币安)",
+    "brief_introduction": "全球最大的加密货币交易所应用，提供覆盖全行业的Web3金融生态服务 [130, 131, 132]。",
+    "icon_description": "黑色背景上两个交叠黄色正方形组成的几何菱形图案 [133, 134]。",
+    "common_functions": [
+      "进行数百种加密资产的现货及合约交易 [135]",
+      "在Binance P2P市场直接用法币买卖币种 [135]",
+      "通过Binance Earn赚取灵活或定期的理财收益 [135]",
+      "使用Binance Pay进行加密货币的日常支付 [136]",
+      "在Binance Square关注行业KOL动态与快讯 [135]",
+      "访问内嵌的Web3钱包管理去中心化资产"
+    ],
+    "ui_description": null
+  },
+  {
+    "app_name": "Revolut",
+    "brief_introduction": "欧洲领先的数字银行与新银行应用，主打多币种兑换及全方位的一站式理财 [12, 137, 138]。",
+    "icon_description": "亮白色背景上印有黑色的、带有动态切割感的字母“R” [137, 139]。",
+    "common_functions": [
+      "以实时汇率在30多种货币间自由兑换 [140]",
+      "设立具备支出上限及自动分析功能的预算工具 [140]",
+      "开设针对18岁以下儿童的财商教育账户 [141]",
+      "预订全球精选酒店（Stays）并享受返现 [140]",
+      "投资贵金属及全球精选公司股票 [138]",
+      "创建并管理可单次使用的虚拟支付卡"
+    ],
+    "ui_description": null
+  },
+  {
+    "app_name": "Wise (原TransferWise)",
+    "brief_introduction": "全球知名的跨境汇款平台，以极其透明的汇率和低廉的手续费闻名 [142, 143]。",
+    "icon_description": "森林绿背景中心有一个白色的“Fast Flag”标志 [142, 144]。",
+    "common_functions": [
+      "以中间市场汇率向海外银行账户发送汇款 [145]",
+      "开设并持有40多种货币的国际银行账号 [143]",
+      "使用Wise借记卡在全球200多个国家消费 [145]",
+      "设置汇率提醒及自动兑换规则 [143]",
+      "管理企业的工资发放及大额供应商付款",
+      "同步管理多个货币子账户的余额收益 [143]"
+    ],
+    "ui_description": null
+  },
+  {
+    "app_name": "Robinhood",
+    "brief_introduction": "美国知名的互联网券商，以零佣金模式彻底改变了零售投资市场 [6, 146, 147]。",
+    "icon_description": "亮绿色背景上有一个白色的、斜向上的羽毛图标 [148, 149]。",
+    "common_functions":[
+      "在全天候交易时间（24-Hour Market）执行订单 [151]",
+      "通过“Robinhood Connect”访问Web3应用 [152]",
+      "将资金存入高收益现金账户赚取日息 [150]",
+      "阅读由AI辅助的投资摘要与专业研报 [150]",
+      "开设支持匹配金奖励的退休金账户"
+    ],
+    "ui_description": null
+  },
+  {
+    "app_name": "云闪付 (UnionPay)",
+    "brief_introduction": "中国银联官方的支付应用，聚合了全国银行卡管理、扫码支付及民生缴费。",
+    "icon_description": "典型的银联红、蓝、白三色色块组合成的“UnionPay”Logo。",
+    "common_functions": [
+      "绑定并统一管理各家银行的借记卡和信用卡",
+      "查看各银行卡的最优优惠活动与返现",
+      "在支持银联二维码的商户进行扫码付",
+      "在线申请各行信用卡及进度查询",
+      "缴纳交通罚款、话费及公用事业费",
+      "查询银行卡交易流水及还款提醒"
+    ],
+    "ui_description": null
+  },
+  {
+    "app_name": "Coinbase",
+    "brief_introduction": "全球最具合规性的加密资产服务商，提供极简的买卖界面和深度的机构级托管。",
+    "icon_description": "亮蓝色背景中心印有白色大写的“COINBASE”字母。",
+    "common_functions":[],
+    "ui_description": null
+  },
+  {
+    "app_name": "DeepSeek",
+    "brief_introduction": "中国知名的生成式AI应用，以强大的逻辑推理能力和超低价格打破行业格局 [2, 153]。",
+    "icon_description": "深蓝色或黑色背景，印有类似晶体结构的白蓝色Logo [2, 154]。",
+    "common_functions": [
+      "利用“深度思考”模式处理复杂数学问题 [155, 153]",
+      "高效生成、审查并调试多语言编程代码 [155, 156]",
+      "撰写高质量的行业分析报告与创意文案 [157, 156]",
+      "实时检索并总结当前热点新闻资讯 [155]",
+      "在移动端上传文档并进行多轮问答分析 [154]",
+      "通过语音输入与智能体进行自然对话互动"
+    ],
+    "ui_description": null
+  },
+  {
+    "app_name": "ChatGPT",
+    "brief_introduction": "OpenAI开发的现象级AI助手，支持全模态交互与深度自定义 [158, 12]。",
+    "icon_description": "纯黑或白色背景上印有一个六角星状旋涡Logo [6]。",
+    "common_functions": [
+      "基于大语言模型进行知识问答与概念解释 [158]",
+      "使用DALL-E 3模型进行高精度的图像创作",
+      "通过“高级语音模式”进行如真人般的训练 [159]",
+      "调用外部工具（如Canva/Spotify）执行任务 [160]",
+      "在GPT Store中使用特定领域的定制助手 [158]",
+      "开启“深度研究”生成引证报告 [160]"
+    ],
+    "ui_description": null
+  },
+  {
+    "app_name": "Google Gemini",
+    "brief_introduction": "谷歌最强大的多模态AI助理，深度集成安卓系统及Google全家桶应用 [12, 19]。",
+    "icon_description": "亮蓝色背景中心有一个四个尖角的白色星形图标。",
+    "common_functions":[],
+    "ui_description": null
+  },
+  {
+    "app_name": "Doubao (豆包)",
+    "brief_introduction": "字节跳动出品的通用型AI助手，主打智能对话、创作辅助及学习提升 [1]。",
+    "icon_description": "亮青色圆底中心有一个戴着圆圆眼睛的小豆子卡通形象 [1]。",
+    "common_functions":[],
+    "ui_description": null
+  },
+  {
+    "app_name": "元宝 (Yuanbao)",
+    "brief_introduction": "腾讯基于混元大模型推出的AI助理，深度整合微信生态搜索与QQ音乐等资源 [19]。",
+    "icon_description": "亮蓝色圆角矩形内含一个白色的具有科技感的组合Logo [19]。",
+    "common_functions": [
+      "精准搜索微信公众号内的私域知识与文章",
+      "一键提取微信、QQ内文件的核心结论",
+      "辅助进行长文档的整理与翻译工作",
+      "基于用户偏好推荐音乐及影视作品",
+      "提供腾讯游戏攻略的智能问答支持",
+      "管理智能化的日程提醒与待办"
+    ],
+    "ui_description": null
+  },
+  {
+    "app_name": "Bing (必应)",
+    "brief_introduction": "微软集成了GPT-4能力的搜索引擎，提供交互式搜索体验与丰富的AI创作工具。",
+    "icon_description": "蓝色或渐变色背景上有一个白色的具有流线感的字母“b”。",
+    "common_functions": [
+      "通过对话形式获取精准且带有来源的结果",
+      "在“创作”模式下辅助撰写邮件或博文",
+      "利用AI Image Creator生成创意艺术图",
+      "实时翻译并总结长网页的主要内容",
+      "根据特定需求定制每日个性化资讯推送",
+      "同步管理Microsoft Edge浏览器的书签"
+    ],
+    "ui_description": null
+  },
+  {
+    "app_name": "Claude",
+    "brief_introduction": "Anthropic开发的追求安全与道德的AI助手，以其长文本处理受到专业用户青睐 [157]。",
+    "icon_description": "简约的白色背景上印有黑色小写的“claude”字母。",
+    "common_functions":[],
+    "ui_description": null
+  },
+  {
+    "app_name": "Bing Wallpapers",
+    "brief_introduction": "谷歌出品的动态壁纸工具，通过AI技术为用户每日更换高清晰度壁纸。",
+    "icon_description": "蓝紫色星空背景上一个白色的四角星。",
+    "common_functions":[],
+    "ui_description": null
+  },
+  {
+    "app_name": "Poe",
+    "brief_introduction": "Quora推出的集成式AI聊天平台，允许用户在一个界面内与多种模型交互 [161]。",
+    "icon_description": "黑色底色中心印有一个形似面具的紫色图标 [161]。",
+    "common_functions":[],
+    "ui_description": null
+  },
+  {
+    "app_name": "讯飞听见 (iFlytek)",
+    "brief_introduction": "科大讯飞旗下的智能语音助手，主打会议实时转写、同声传译及笔记整理。",
+    "icon_description": "白色圆底背景上一个蓝色的带有声波纹理的飞鸟图案。",
+    "common_functions": [
+      "会议现场实时将语音转为精准文字",
+      "支持对已录制音频的快速离线转写",
+      "进行多种语言的远程同声翻译协作",
+      "自动提取会议摘要并生成待办清单",
+      "利用声纹识别区分不同发言人的内容",
+      "在多端设备间实时同步音频与文稿"
+    ],
+    "ui_description": null
+  },
+  {
+    "app_name": "Duolingo (多邻国)",
+    "brief_introduction": "全球语言学习应用，通过极具趣味性的关卡设计和游戏化机制鼓励用户学习 [6, 54, 81]。",
+    "icon_description": "亮绿色圆角正方形内有一只可爱小猫头鹰头部 [81, 162]。",
+    "common_functions": [
+      "完成每日趣味语言课程提升熟练度 [162]",
+      "与全球用户参与排名联赛竞争",
+      "利用AI对话功能模拟真实生活场景 [6]",
+      "管理学习连胜（Streak）数据获取勋章 [81]",
+      "在“复习中心”针对薄弱词汇进行强化",
+      "获取并回复个性化推送提醒 [162]",
+      "在应用内购买道具保护连胜"
+    ],
+    "ui_description": null
+  },
+  {
+    "app_name": "Google Classroom",
+    "brief_introduction": "谷歌为师生打造的高效教学管理工具，支持在线布置作业及实时互动 [6]。",
+    "icon_description": "绿色的黑板形状图标，边缘带有黄色木质边框 [6]。",
+    "common_functions":[
+      "在班级公告栏内与同学进行实时讨论",
+      "查看各项作业的成绩反馈与导师评语",
+      "管理教学日历以防错过提交截止日",
+      "集成Lumin PDF等工具直接批注作业 [6]"
+    ],
+    "ui_description": null
+  },
+  {
+    "app_name": "Keep (健身)",
+    "brief_introduction": "中国领先的运动健身应用，提供定制化的视频课程、社交排名及硬件联动 [1, 2]。",
+    "icon_description": "深紫色圆角背景内印有一个白色的艺术化大写字母“K” [163]。",
+    "common_functions": [
+      "跟随专业教练进行视频跟练课程",
+      "记录并分享跑步、骑行等户外轨迹",
+      "加入不同主题的健身打卡社区排名 [2]",
+      "连接Keep智能单车、手环等硬件设备",
+      "根据身体素质测评生成专属训练计划",
+      "在“运动商城”购买健身器材及服饰",
+      "记录饮食热量并获取营养搭配建议"
+    ],
+    "ui_description": null
+  },
+  {
+    "app_name": "MyFitnessPal",
+    "brief_introduction": "全球领先的卡路里计数器与饮食追踪器，拥有庞大的食物数据库 [6, 162, 164]。",
+    "icon_description": "亮蓝色背景中心印有一个白色的正在跃起的运动人影 [162]。",
+    "common_functions": [
+      "扫描食品条码快速获取营养成分 [162, 165]",
+      "每日打卡记录三餐卡路里及水摄入 [162]",
+      "同步各家智能手表的运动量",
+      "根据减重/增肌目标获取阶段性反馈",
+      "在食谱库中寻找适合个人倾向的健康餐 [164]",
+      "管理详细的宏量营养素配比"
+    ],
+    "ui_description": null
+  },
+  {
+    "app_name": "Headspace",
+    "brief_introduction": "科学驱动的正念冥想应用，通过动画和导师指导帮助用户减轻压力 [165, 166]。",
+    "icon_description": "纯白色背景正中心有一个巨大的实心橙色圆圈 [166]。",
+    "common_functions": [
+      "听取针对焦虑、专注等主题的冥想引导 [166]",
+      "聆听“Sleepcasts”助眠故事放松入睡 [165]",
+      "参与每小时整点的全球共同冥想组",
+      "通过“Move”频道进行低强度的瑜伽练习 [165]",
+      "使用AI助手根据心情推荐冥想课程 [166]",
+      "追踪并分析长期的正念状态趋势曲线"
+    ],
+    "ui_description": null
+  },
+  {
+    "app_name": "Calm",
+    "brief_introduction": "全球知名的冥想与睡眠应用，以自然声效和名流朗读的睡眠故事著称 [6, 165]。",
+    "icon_description": "宁静的蓝绿渐变背景上印有白色手写体的“Calm”字样 [6]。",
+    "common_functions": [
+      "开启“每日Calm”进行10分钟冥想训练 [165]",
+      "聆听由名流录制的助眠故事 [165]",
+      "播放雨声、森林等高保真自然背景音 [6]",
+      "跟随运动巨星学习心理韧性课程 [165]",
+      "进行科学指导的深呼吸练习与伸展 [6]",
+      "管理针对儿童设计的睡前安抚内容"
+    ],
+    "ui_description": null
+  },
+  {
+    "app_name": "Strava",
+    "brief_introduction": "专为骑行与跑步爱好者设计的社交化运动追踪应用，以赛段比拼功能闻名 [6, 45]。",
+    "icon_description": "亮橙色底色，中心是两个交错的三角形。",
+    "common_functions":[
+      "同步数以百计的各类智能运动设备数据",
+      "规划并发现周边热门的骑行或跑步线路",
+      "管理个人的训练日志及年度目标进度 [45]"
+    ],
+    "ui_description": null
+  },
+  {
+    "app_name": "Flo",
+    "brief_introduction": "全球女性健康与经期追踪应用，利用AI预测生理周期并提供见解 [11]。",
+    "icon_description": "浅粉色圆角矩形背景内有一个白色的加粗羽毛图标。",
+    "common_functions": [
+      "记录并精准预测经期及生理周期",
+      "使用AI算法计算排卵日与受孕窗口",
+      "通过对话框获取专业的医疗知识反馈",
+      "管理孕期模式下的每周胎儿发育追踪",
+      "记录每日身体症状并获取分析报告",
+      "在匿名社区讨论女性健康相关的私密话题"
+    ],
+    "ui_description": null
+  },
+  {
+    "app_name": "平安好医生",
+    "brief_introduction": "中国领先的医疗健康服务应用，提供在线问诊、药店下单服务 [2]。",
+    "icon_description": "白色圆底中心印有一个红色的十字。",
+    "common_functions": [
+      "通过图文或视频向三甲医院医生在线咨询 [2]",
+      "在应用内开具电子处方并快速买药送家",
+      "预约线下医院的体检、挂号及牙科服务",
+      "管理全家人的电子健康档案与病历",
+      "利用AI导诊功能快速定位潜在病因",
+      "阅读每日更新的权威辟谣与养生百科"
+    ],
+    "ui_description": null
+  },
+  {
+    "app_name": "作业帮 (Zuoyebang)",
+    "brief_introduction": "中国领先的在线教育平台，主打拍照搜题、名师网课及题库练习。",
+    "icon_description": "浅蓝色背景中心印有一个白色的笔尖。",
+    "common_functions": [
+      "通过摄像头拍摄题目获取详尽解析",
+      "参加针对K12阶段的各类直播辅导课",
+      "利用错题本功能进行针对性复习",
+      "练习海量的历年真题及中高考模拟卷",
+      "使用AI判题系统自动批改口算及听写",
+      "与在线老师进行1对1的难题咨询"
+    ],
+    "ui_description": null
+  },
+  {
+    "app_name": "喜马拉雅 (Ximalaya)",
+    "brief_introduction": "中国最大的音频分享平台，涵盖有声书、播客、相声及新闻。",
+    "icon_description": "鲜红色圆底，白色线条勾勒出一个巨大的耳机图案。",
+    "common_functions": [
+      "在锁屏模式下聆听海量正版有声小说",
+      "订阅喜爱的电台主播或播客频道",
+      "管理本地离线下载的音频集数",
+      "开启车载模式通过语音控制播放",
+      "购买知识付费专栏提升专业技能",
+      "利用AI配音功能将文字一键转为语音"
+    ],
+    "ui_description": null
+  },
+  {
+    "app_name": "网易邮箱 (NetEase Mail)",
+    "brief_introduction": "中国领先的电子邮箱服务商，支持多账号管理及企业级协作。",
+    "icon_description": "红色背景上印有一个白色的字母“N”和“@”组合。",
+    "common_functions": [
+      "实时查收并推送各品牌邮箱的新邮件",
+      "发送及预览超大云附件文档",
+      "利用手势操作进行快速已读或删除",
+      "管理联系人分组及黑名单设置",
+      "进行邮件的分类过滤与智能聚合",
+      "一键扫描纸质单据通过附件发送"
+    ],
+    "ui_description": null
+  },
+  {
+    "app_name": "美图秀秀 (Meitu)",
+    "brief_introduction": "全球领先的图像处理应用，主打美颜相机、图片修饰及创意拼图。",
+    "icon_description": "渐变粉紫色圆底，白色线条勾勒出一个艺术化的“m”字。",
+    "common_functions": [
+      "使用AI一键美化照片并智能祛斑美白",
+      "利用画笔及文字贴纸进行创意修图",
+      "将多张照片拼接为不同风格的海报",
+      "使用“消除笔”无痕抹除背景杂物",
+      "制作GIF表情包及短视频动态滤镜",
+      "在美图社区浏览当下最火的修图模版"
+    ],
+    "ui_description": null
+  },
+  {
+    "app_name": "高德打车房东端",
+    "brief_introduction": "针对打车聚合服务中司机的管理平台，涉及订单接收与路线导航。",
+    "icon_description": "蓝色与橙色渐变，中心印有一个白色的方向盘标识。",
+    "common_functions": [
+      "实时接收各打车平台的派单信息",
+      "根据内置地图进行精准路径导航",
+      "查看每日流水、奖励进度及提现状态",
+      "通过语音对讲功能与乘客确认位置",
+      "管理个人的车辆资质及账号等级认证",
+      "开启“顺路单”功能规划回家行程"
+    ],
+    "ui_description": null
+  },
+  {
+    "app_name": "Truecaller",
+    "brief_introduction": "全球来电识别与拦截应用，帮助用户识别骚扰电话 [12, 13, 19]。",
+    "icon_description": "蓝色背景上一个白色的老式电话手柄外轮廓 [19]。",
+    "common_functions":[],
+    "ui_description": null
+  }
+]

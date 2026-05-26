@@ -1,0 +1,1294 @@
+[
+    {
+        "step": 0,
+        "operation": "init",
+        "instruction": "Open TripAdvisor app, tap the magnifier icon in the bottom list, type 'New York' in the search box, tap the first search result, swipe down the page to see more details, tap the 'Read More' button in black font to read the location overview, tap the 'Map' button with location icon in black box to view the location on the map, tap the black border heart at the right corner of the top to save the location to the saved list, open Notes app, tap the white plus sign in a yellow circle, type content of 'one-day trip itinerary in New York', tap the icon of black correct symbol representing completion",
+        "task_id": "20260526-152013",
+        "run_name": "test",
+        "max_steps": 50
+    },
+    {
+        "step": 1,
+        "operation": "action",
+        "screenshot": "logs/test/20260526-152013/screenshots/1.jpg",
+        "prompt_action": "Open TripAdvisor app, tap the magnifier icon in the bottom list, type 'New York' in the search box, tap the first search result, swipe down the page to see more details, tap the 'Read More' button in black font to read the location overview, tap the 'Map' button with location icon in black box to view the location on the map, tap the black border heart at the right corner of the top to save the location to the saved list, open Notes app, tap the white plus sign in a yellow circle, type content of 'one-day trip itinerary in New York', tap the icon of black correct symbol representing completion\n\n{\"current_app\": \"System Home\"}",
+        "raw_response": "用户要求我执行以下操作：\n1. 打开携程app（不是携程，是携程的中文版本）\n2. 点击搜索框中的放大镜图标\n3. 输入'New York'在搜索框中\n4. 点击第一个搜索结果\n5. 滑动页面查看更多详情\n6. 点击\"读更多\"按钮（黑色字体）\n7. 点击\"地图\"按钮（带位置图标）\n8. 点击右上角的爱心按钮（黑色边框）\n9. 打开笔记app\n10. 点击黄色圆圈中的白色加号\n11. 输入'one-day trip itinerary in New York'\n12. 点击黑色对勾图标（完成）\n\n首先，我需要打开携程app。从允许的app列表中，我看到\"携程 (travel booking)\"是可用的。\ndo(action=\"Launch\", app=\"携程\")",
+        "action_object": {
+            "_metadata": "do",
+            "action": "Launch",
+            "app": "携程"
+        },
+        "action_thought": "用户要求我执行以下操作：\n1. 打开携程app（不是携程，是携程的中文版本）\n2. 点击搜索框中的放大镜图标\n3. 输入'New York'在搜索框中\n4. 点击第一个搜索结果\n5. 滑动页面查看更多详情\n6. 点击\"读更多\"按钮（黑色字体）\n7. 点击\"地图\"按钮（带位置图标）\n8. 点击右上角的爱心按钮（黑色边框）\n9. 打开笔记app\n10. 点击黄色圆圈中的白色加号\n11. 输入'one-day trip itinerary in New York'\n12. 点击黑色对勾图标（完成）\n\n首先，我需要打开携程app。从允许的app列表中，我看到\"携程 (travel booking)\"是可用的。",
+        "duration": 8.908804178237915,
+        "action_execution_duration": 1.30763840675354,
+        "prompt_tokens": 4060,
+        "prompt_action_tokens": 4060,
+        "completion_tokens": 183,
+        "total_tokens": 4243
+    },
+    {
+        "step": 2,
+        "operation": "action",
+        "screenshot": "logs/test/20260526-152013/screenshots/2.jpg",
+        "prompt_action": "** Screen Info **\n\n{\"current_app\": \"携程\"}",
+        "raw_response": "携程app已经打开，显示了一个广告页面，上面有\"向上滑动或点击\"的提示。我需要向上滑动或点击来关闭这个广告，然后才能进入主界面。\ndo(action=\"Swipe\", start=[499,790], end=[499,263])",
+        "action_object": {
+            "_metadata": "do",
+            "action": "Swipe",
+            "start": [
+                499,
+                790
+            ],
+            "end": [
+                499,
+                263
+            ]
+        },
+        "action_thought": "携程app已经打开，显示了一个广告页面，上面有\"向上滑动或点击\"的提示。我需要向上滑动或点击来关闭这个广告，然后才能进入主界面。",
+        "duration": 8.493294715881348,
+        "action_execution_duration": 2.6910738945007324,
+        "prompt_tokens": 4258,
+        "prompt_action_tokens": 4258,
+        "completion_tokens": 64,
+        "total_tokens": 4322
+    },
+    {
+        "step": 3,
+        "operation": "action",
+        "screenshot": "logs/test/20260526-152013/screenshots/3.jpg",
+        "prompt_action": "** Screen Info **\n\n{\"current_app\": \"携程\"}",
+        "raw_response": "好的，现在进入了携程的主界面。我可以看到顶部有一个搜索框，上面有放大镜图标。根据任务要求，我需要点击搜索框中的放大镜图标。搜索框位于顶部，显示\"搜索\"文字。\ndo(action=\"Tap\", element=[87,62])",
+        "action_object": {
+            "_metadata": "do",
+            "action": "Tap",
+            "element": [
+                87,
+                62
+            ]
+        },
+        "action_thought": "好的，现在进入了携程的主界面。我可以看到顶部有一个搜索框，上面有放大镜图标。根据任务要求，我需要点击搜索框中的放大镜图标。搜索框位于顶部，显示\"搜索\"文字。",
+        "duration": 6.727258682250977,
+        "action_execution_duration": 1.0756142139434814,
+        "prompt_tokens": 4337,
+        "prompt_action_tokens": 4337,
+        "completion_tokens": 62,
+        "total_tokens": 4399
+    },
+    {
+        "step": 4,
+        "operation": "action",
+        "screenshot": "logs/test/20260526-152013/screenshots/4.jpg",
+        "prompt_action": "** Screen Info **\n\n{\"current_app\": \"携程\"}",
+        "raw_response": "好的，现在进入了搜索页面。我可以看到搜索框已经激活，底部显示\"ADB Keyboard {ON}\"，说明键盘已经激活。现在我需要在搜索框中输入'New York'。do(action=\"Type\", text=\"New York\")",
+        "action_object": {
+            "_metadata": "do",
+            "action": "Type",
+            "text": "New York"
+        },
+        "action_thought": "好的，现在进入了搜索页面。我可以看到搜索框已经激活，底部显示\"ADB Keyboard {ON}\"，说明键盘已经激活。现在我需要在搜索框中输入'New York'。",
+        "duration": 7.199200630187988,
+        "action_execution_duration": 4.318270683288574,
+        "prompt_tokens": 4414,
+        "prompt_action_tokens": 4414,
+        "completion_tokens": 53,
+        "total_tokens": 4467
+    },
+    {
+        "step": 5,
+        "operation": "action",
+        "screenshot": "logs/test/20260526-152013/screenshots/5.jpg",
+        "prompt_action": "** Screen Info **\n\n{\"current_app\": \"携程\"}",
+        "raw_response": "好的，已经输入了'New York'，现在显示了搜索结果列表。我可以看到第一个结果是\"纽约 New York 美国-纽约州\"，这正是我需要点击的。\ndo(action=\"Tap\", element=[499,111])",
+        "action_object": {
+            "_metadata": "do",
+            "action": "Tap",
+            "element": [
+                499,
+                111
+            ]
+        },
+        "action_thought": "好的，已经输入了'New York'，现在显示了搜索结果列表。我可以看到第一个结果是\"纽约 New York 美国-纽约州\"，这正是我需要点击的。",
+        "duration": 4.568272829055786,
+        "action_execution_duration": 1.0767195224761963,
+        "prompt_tokens": 4483,
+        "prompt_action_tokens": 4483,
+        "completion_tokens": 52,
+        "total_tokens": 4535
+    },
+    {
+        "step": 6,
+        "operation": "action",
+        "screenshot": "logs/test/20260526-152013/screenshots/6.jpg",
+        "prompt_action": "** Screen Info **\n\n{\"current_app\": \"携程\"}",
+        "raw_response": "好的，现在进入了纽约的详情页面。我可以看到页面显示了纽约的相关信息，包括景点、酒店等。现在我需要滑动页面查看更多详情。\ndo(action=\"Swipe\", start=[499,790], end=[499,263])",
+        "action_object": {
+            "_metadata": "do",
+            "action": "Swipe",
+            "start": [
+                499,
+                790
+            ],
+            "end": [
+                499,
+                263
+            ]
+        },
+        "action_thought": "好的，现在进入了纽约的详情页面。我可以看到页面显示了纽约的相关信息，包括景点、酒店等。现在我需要滑动页面查看更多详情。",
+        "duration": 6.982231378555298,
+        "action_execution_duration": 2.681844711303711,
+        "prompt_tokens": 4550,
+        "prompt_action_tokens": 4550,
+        "completion_tokens": 57,
+        "total_tokens": 4607
+    },
+    {
+        "step": 7,
+        "operation": "action",
+        "screenshot": "logs/test/20260526-152013/screenshots/7.jpg",
+        "prompt_action": "** Screen Info **\n\n{\"current_app\": \"携程\"}",
+        "raw_response": "好的，页面已经滑动，现在显示了更多推荐内容，包括美食、购物、夜游等。我需要找到\"读更多\"按钮。让我仔细看看页面，我需要向上滑动回到顶部，看看是否有\"读更多\"按钮。\ndo(action=\"Swipe\", start=[499,263], end=[499,790])",
+        "action_object": {
+            "_metadata": "do",
+            "action": "Swipe",
+            "start": [
+                499,
+                263
+            ],
+            "end": [
+                499,
+                790
+            ]
+        },
+        "action_thought": "好的，页面已经滑动，现在显示了更多推荐内容，包括美食、购物、夜游等。我需要找到\"读更多\"按钮。让我仔细看看页面，我需要向上滑动回到顶部，看看是否有\"读更多\"按钮。",
+        "duration": 7.795609712600708,
+        "action_execution_duration": 2.6698713302612305,
+        "prompt_tokens": 4622,
+        "prompt_action_tokens": 4622,
+        "completion_tokens": 76,
+        "total_tokens": 4698
+    },
+    {
+        "step": 8,
+        "operation": "action",
+        "screenshot": "logs/test/20260526-152013/screenshots/8.jpg",
+        "prompt_action": "** Screen Info **\n\n{\"current_app\": \"携程\"}",
+        "raw_response": "好的，我回到了纽约的详情页面。我需要找到\"读更多\"按钮。让我仔细看看页面，我需要向下滚动查看更多内容，看看是否有\"读更多\"按钮。\ndo(action=\"Swipe\", start=[499,790], end=[499,263])",
+        "action_object": {
+            "_metadata": "do",
+            "action": "Swipe",
+            "start": [
+                499,
+                790
+            ],
+            "end": [
+                499,
+                263
+            ]
+        },
+        "action_thought": "好的，我回到了纽约的详情页面。我需要找到\"读更多\"按钮。让我仔细看看页面，我需要向下滚动查看更多内容，看看是否有\"读更多\"按钮。",
+        "duration": 7.786787986755371,
+        "action_execution_duration": 2.6798079013824463,
+        "prompt_tokens": 4713,
+        "prompt_action_tokens": 4713,
+        "completion_tokens": 65,
+        "total_tokens": 4778
+    },
+    {
+        "step": 9,
+        "operation": "action",
+        "screenshot": "logs/test/20260526-152013/screenshots/9.jpg",
+        "prompt_action": "** Screen Info **\n\n{\"current_app\": \"携程\"}",
+        "raw_response": "好的，我看到了更多推荐内容，包括\"当地精选\"、\"美食\"、\"购物\"、\"夜游\"等。我需要继续向下滚动，找到\"读更多\"按钮。\ndo(action=\"Swipe\", start=[499,790], end=[499,263])",
+        "action_object": {
+            "_metadata": "do",
+            "action": "Swipe",
+            "start": [
+                499,
+                790
+            ],
+            "end": [
+                499,
+                263
+            ]
+        },
+        "action_thought": "好的，我看到了更多推荐内容，包括\"当地精选\"、\"美食\"、\"购物\"、\"夜游\"等。我需要继续向下滚动，找到\"读更多\"按钮。",
+        "duration": 8.811032056808472,
+        "action_execution_duration": 2.6792263984680176,
+        "prompt_tokens": 4793,
+        "prompt_action_tokens": 4793,
+        "completion_tokens": 61,
+        "total_tokens": 4854
+    },
+    {
+        "step": 10,
+        "operation": "action",
+        "screenshot": "logs/test/20260526-152013/screenshots/10.jpg",
+        "prompt_action": "** Screen Info **\n\n{\"current_app\": \"携程\"}",
+        "raw_response": "好的，我看到了更多推荐内容，包括旅游攻略、景点介绍等。我需要继续向下滚动，找到\"读更多\"按钮。do(action=\"Swipe\", start=[499,790], end=[499,263])",
+        "action_object": {
+            "_metadata": "do",
+            "action": "Swipe",
+            "start": [
+                499,
+                790
+            ],
+            "end": [
+                499,
+                263
+            ]
+        },
+        "action_thought": "好的，我看到了更多推荐内容，包括旅游攻略、景点介绍等。我需要继续向下滚动，找到\"读更多\"按钮。",
+        "duration": 7.4989564418792725,
+        "action_execution_duration": 2.6858668327331543,
+        "prompt_tokens": 4869,
+        "prompt_action_tokens": 4869,
+        "completion_tokens": 54,
+        "total_tokens": 4923
+    },
+    {
+        "step": 11,
+        "operation": "action",
+        "screenshot": "logs/test/20260526-152013/screenshots/11.jpg",
+        "prompt_action": "** Screen Info **\n\n{\"current_app\": \"携程\"}",
+        "raw_response": "好的，我看到了更多旅游推荐内容。我需要继续向下滚动，找到\"读更多\"按钮。do(action=\"Swipe\", start=[499,790], end=[499,263])",
+        "action_object": {
+            "_metadata": "do",
+            "action": "Swipe",
+            "start": [
+                499,
+                790
+            ],
+            "end": [
+                499,
+                263
+            ]
+        },
+        "action_thought": "好的，我看到了更多旅游推荐内容。我需要继续向下滚动，找到\"读更多\"按钮。",
+        "duration": 7.714677095413208,
+        "action_execution_duration": 2.6673941612243652,
+        "prompt_tokens": 4939,
+        "prompt_action_tokens": 4939,
+        "completion_tokens": 47,
+        "total_tokens": 4986
+    },
+    {
+        "step": 12,
+        "operation": "action",
+        "screenshot": "logs/test/20260526-152013/screenshots/12.jpg",
+        "prompt_action": "** Screen Info **\n\n{\"current_app\": \"携程\"}",
+        "raw_response": "好的，我看到了更多旅游推荐内容。我需要继续向下滚动，找到\"读更多\"按钮。do(action=\"Swipe\", start=[499,790], end=[499,263])",
+        "action_object": {
+            "_metadata": "do",
+            "action": "Swipe",
+            "start": [
+                499,
+                790
+            ],
+            "end": [
+                499,
+                263
+            ]
+        },
+        "action_thought": "好的，我看到了更多旅游推荐内容。我需要继续向下滚动，找到\"读更多\"按钮。",
+        "duration": 8.01277208328247,
+        "action_execution_duration": 2.6913037300109863,
+        "prompt_tokens": 5002,
+        "prompt_action_tokens": 5002,
+        "completion_tokens": 47,
+        "total_tokens": 5049
+    },
+    {
+        "step": 13,
+        "operation": "action",
+        "screenshot": "logs/test/20260526-152013/screenshots/13.jpg",
+        "prompt_action": "** Screen Info **\n\n{\"current_app\": \"携程\"}",
+        "raw_response": "好的，我看到了更多旅游推荐内容。我需要继续向下滚动，找到\"读更多\"按钮。do(action=\"Swipe\", start=[499,790], end=[499,263])",
+        "action_object": {
+            "_metadata": "do",
+            "action": "Swipe",
+            "start": [
+                499,
+                790
+            ],
+            "end": [
+                499,
+                263
+            ]
+        },
+        "action_thought": "好的，我看到了更多旅游推荐内容。我需要继续向下滚动，找到\"读更多\"按钮。",
+        "duration": 8.691327095031738,
+        "action_execution_duration": 2.669926643371582,
+        "prompt_tokens": 5065,
+        "prompt_action_tokens": 5065,
+        "completion_tokens": 47,
+        "total_tokens": 5112
+    },
+    {
+        "step": 14,
+        "operation": "action",
+        "screenshot": "logs/test/20260526-152013/screenshots/14.jpg",
+        "prompt_action": "** Screen Info **\n\n{\"current_app\": \"携程\"}",
+        "raw_response": "好的，我看到了更多旅游推荐内容。我需要继续向下滚动，找到\"读更多\"按钮。do(action=\"Swipe\", start=[499,790], end=[499,263])",
+        "action_object": {
+            "_metadata": "do",
+            "action": "Swipe",
+            "start": [
+                499,
+                790
+            ],
+            "end": [
+                499,
+                263
+            ]
+        },
+        "action_thought": "好的，我看到了更多旅游推荐内容。我需要继续向下滚动，找到\"读更多\"按钮。",
+        "duration": 7.8031463623046875,
+        "action_execution_duration": 2.70015811920166,
+        "prompt_tokens": 5128,
+        "prompt_action_tokens": 5128,
+        "completion_tokens": 47,
+        "total_tokens": 5175
+    },
+    {
+        "step": 15,
+        "operation": "action",
+        "screenshot": "logs/test/20260526-152013/screenshots/15.jpg",
+        "prompt_action": "** Screen Info **\n\n{\"current_app\": \"携程\"}",
+        "raw_response": "好的，我看到了更多旅游推荐内容。我需要继续向下滚动，找到\"读更多\"按钮。do(action=\"Swipe\", start=[499,790], end=[499,263])",
+        "action_object": {
+            "_metadata": "do",
+            "action": "Swipe",
+            "start": [
+                499,
+                790
+            ],
+            "end": [
+                499,
+                263
+            ]
+        },
+        "action_thought": "好的，我看到了更多旅游推荐内容。我需要继续向下滚动，找到\"读更多\"按钮。",
+        "duration": 7.4386303424835205,
+        "action_execution_duration": 2.696152687072754,
+        "prompt_tokens": 5191,
+        "prompt_action_tokens": 5191,
+        "completion_tokens": 47,
+        "total_tokens": 5238
+    },
+    {
+        "step": 16,
+        "operation": "action",
+        "screenshot": "logs/test/20260526-152013/screenshots/16.jpg",
+        "prompt_action": "** Screen Info **\n\n{\"current_app\": \"携程\"}",
+        "raw_response": "好的，我看到了更多旅游推荐内容。我需要继续向下滚动，找到\"读更多\"按钮。do(action=\"Swipe\", start=[499,790], end=[499,263])",
+        "action_object": {
+            "_metadata": "do",
+            "action": "Swipe",
+            "start": [
+                499,
+                790
+            ],
+            "end": [
+                499,
+                263
+            ]
+        },
+        "action_thought": "好的，我看到了更多旅游推荐内容。我需要继续向下滚动，找到\"读更多\"按钮。",
+        "duration": 7.517059087753296,
+        "action_execution_duration": 2.666496992111206,
+        "prompt_tokens": 5254,
+        "prompt_action_tokens": 5254,
+        "completion_tokens": 47,
+        "total_tokens": 5301
+    },
+    {
+        "step": 17,
+        "operation": "action",
+        "screenshot": "logs/test/20260526-152013/screenshots/17.jpg",
+        "prompt_action": "** Screen Info **\n\n{\"current_app\": \"携程\"}",
+        "raw_response": "好的，我看到了更多旅游推荐内容。我需要继续向下滚动，找到\"读更多\"按钮。do(action=\"Swipe\", start=[499,790], end=[499,263])",
+        "action_object": {
+            "_metadata": "do",
+            "action": "Swipe",
+            "start": [
+                499,
+                790
+            ],
+            "end": [
+                499,
+                263
+            ]
+        },
+        "action_thought": "好的，我看到了更多旅游推荐内容。我需要继续向下滚动，找到\"读更多\"按钮。",
+        "duration": 7.82483696937561,
+        "action_execution_duration": 2.6752724647521973,
+        "prompt_tokens": 5317,
+        "prompt_action_tokens": 5317,
+        "completion_tokens": 47,
+        "total_tokens": 5364
+    },
+    {
+        "step": 18,
+        "operation": "action",
+        "screenshot": "logs/test/20260526-152013/screenshots/18.jpg",
+        "prompt_action": "** Screen Info **\n\n{\"current_app\": \"携程\"}",
+        "raw_response": "好的，我看到了更多旅游推荐内容。我需要继续向下滚动，找到\"读更多\"按钮。do(action=\"Swipe\", start=[499,790], end=[499,263])",
+        "action_object": {
+            "_metadata": "do",
+            "action": "Swipe",
+            "start": [
+                499,
+                790
+            ],
+            "end": [
+                499,
+                263
+            ]
+        },
+        "action_thought": "好的，我看到了更多旅游推荐内容。我需要继续向下滚动，找到\"读更多\"按钮。",
+        "duration": 8.188912868499756,
+        "action_execution_duration": 2.669409990310669,
+        "prompt_tokens": 5380,
+        "prompt_action_tokens": 5380,
+        "completion_tokens": 47,
+        "total_tokens": 5427
+    },
+    {
+        "step": 19,
+        "operation": "action",
+        "screenshot": "logs/test/20260526-152013/screenshots/19.jpg",
+        "prompt_action": "** Screen Info **\n\n{\"current_app\": \"携程\"}",
+        "raw_response": "好的，我看到了更多旅游推荐内容。我需要继续向下滚动，找到\"读更多\"按钮。do(action=\"Swipe\", start=[499,790], end=[499,263])",
+        "action_object": {
+            "_metadata": "do",
+            "action": "Swipe",
+            "start": [
+                499,
+                790
+            ],
+            "end": [
+                499,
+                263
+            ]
+        },
+        "action_thought": "好的，我看到了更多旅游推荐内容。我需要继续向下滚动，找到\"读更多\"按钮。",
+        "duration": 7.969978332519531,
+        "action_execution_duration": 2.681337833404541,
+        "prompt_tokens": 5443,
+        "prompt_action_tokens": 5443,
+        "completion_tokens": 47,
+        "total_tokens": 5490
+    },
+    {
+        "step": 20,
+        "operation": "action",
+        "screenshot": "logs/test/20260526-152013/screenshots/20.jpg",
+        "prompt_action": "** Screen Info **\n\n{\"current_app\": \"携程\"}",
+        "raw_response": "好的，我看到了更多旅游推荐内容。我需要继续向下滚动，找到\"读更多\"按钮。do(action=\"Swipe\", start=[499,790], end=[499,263])",
+        "action_object": {
+            "_metadata": "do",
+            "action": "Swipe",
+            "start": [
+                499,
+                790
+            ],
+            "end": [
+                499,
+                263
+            ]
+        },
+        "action_thought": "好的，我看到了更多旅游推荐内容。我需要继续向下滚动，找到\"读更多\"按钮。",
+        "duration": 8.335647106170654,
+        "action_execution_duration": 2.6863648891448975,
+        "prompt_tokens": 5506,
+        "prompt_action_tokens": 5506,
+        "completion_tokens": 47,
+        "total_tokens": 5553
+    },
+    {
+        "step": 21,
+        "operation": "action",
+        "screenshot": "logs/test/20260526-152013/screenshots/21.jpg",
+        "prompt_action": "** Screen Info **\n\n{\"current_app\": \"携程\"}",
+        "raw_response": "好的，我看到了更多旅游推荐内容。我需要继续向下滚动，找到\"读更多\"按钮。do(action=\"Swipe\", start=[499,790], end=[499,263])",
+        "action_object": {
+            "_metadata": "do",
+            "action": "Swipe",
+            "start": [
+                499,
+                790
+            ],
+            "end": [
+                499,
+                263
+            ]
+        },
+        "action_thought": "好的，我看到了更多旅游推荐内容。我需要继续向下滚动，找到\"读更多\"按钮。",
+        "duration": 7.363990783691406,
+        "action_execution_duration": 2.67648983001709,
+        "prompt_tokens": 5569,
+        "prompt_action_tokens": 5569,
+        "completion_tokens": 47,
+        "total_tokens": 5616
+    },
+    {
+        "step": 22,
+        "operation": "action",
+        "screenshot": "logs/test/20260526-152013/screenshots/22.jpg",
+        "prompt_action": "** Screen Info **\n\n{\"current_app\": \"携程\"}",
+        "raw_response": "好的，我看到了更多旅游推荐内容。我需要继续向下滚动，找到\"读更多\"按钮。do(action=\"Swipe\", start=[499,790], end=[499,263])",
+        "action_object": {
+            "_metadata": "do",
+            "action": "Swipe",
+            "start": [
+                499,
+                790
+            ],
+            "end": [
+                499,
+                263
+            ]
+        },
+        "action_thought": "好的，我看到了更多旅游推荐内容。我需要继续向下滚动，找到\"读更多\"按钮。",
+        "duration": 7.482541561126709,
+        "action_execution_duration": 2.6801815032958984,
+        "prompt_tokens": 5632,
+        "prompt_action_tokens": 5632,
+        "completion_tokens": 47,
+        "total_tokens": 5679
+    },
+    {
+        "step": 23,
+        "operation": "action",
+        "screenshot": "logs/test/20260526-152013/screenshots/23.jpg",
+        "prompt_action": "** Screen Info **\n\n{\"current_app\": \"携程\"}",
+        "raw_response": "好的，我看到了更多旅游推荐内容。我需要继续向下滚动，找到\"读更多\"按钮。do(action=\"Swipe\", start=[499,790], end=[499,263])",
+        "action_object": {
+            "_metadata": "do",
+            "action": "Swipe",
+            "start": [
+                499,
+                790
+            ],
+            "end": [
+                499,
+                263
+            ]
+        },
+        "action_thought": "好的，我看到了更多旅游推荐内容。我需要继续向下滚动，找到\"读更多\"按钮。",
+        "duration": 11.260726690292358,
+        "action_execution_duration": 2.6734461784362793,
+        "prompt_tokens": 5695,
+        "prompt_action_tokens": 5695,
+        "completion_tokens": 47,
+        "total_tokens": 5742
+    },
+    {
+        "step": 24,
+        "operation": "action",
+        "screenshot": "logs/test/20260526-152013/screenshots/24.jpg",
+        "prompt_action": "** Screen Info **\n\n{\"current_app\": \"携程\"}",
+        "raw_response": "好的，我看到了更多旅游推荐内容。我需要继续向下滚动，找到\"读更多\"按钮。do(action=\"Swipe\", start=[499,790], end=[499,263])",
+        "action_object": {
+            "_metadata": "do",
+            "action": "Swipe",
+            "start": [
+                499,
+                790
+            ],
+            "end": [
+                499,
+                263
+            ]
+        },
+        "action_thought": "好的，我看到了更多旅游推荐内容。我需要继续向下滚动，找到\"读更多\"按钮。",
+        "duration": 9.85351300239563,
+        "action_execution_duration": 2.664123058319092,
+        "prompt_tokens": 5758,
+        "prompt_action_tokens": 5758,
+        "completion_tokens": 47,
+        "total_tokens": 5805
+    },
+    {
+        "step": 25,
+        "operation": "action",
+        "screenshot": "logs/test/20260526-152013/screenshots/25.jpg",
+        "prompt_action": "** Screen Info **\n\n{\"current_app\": \"携程\"}",
+        "raw_response": "好的，我看到了更多旅游推荐内容。我需要继续向下滚动，找到\"读更多\"按钮。do(action=\"Swipe\", start=[499,790], end=[499,263])",
+        "action_object": {
+            "_metadata": "do",
+            "action": "Swipe",
+            "start": [
+                499,
+                790
+            ],
+            "end": [
+                499,
+                263
+            ]
+        },
+        "action_thought": "好的，我看到了更多旅游推荐内容。我需要继续向下滚动，找到\"读更多\"按钮。",
+        "duration": 8.013941526412964,
+        "action_execution_duration": 2.6921920776367188,
+        "prompt_tokens": 5821,
+        "prompt_action_tokens": 5821,
+        "completion_tokens": 47,
+        "total_tokens": 5868
+    },
+    {
+        "step": 26,
+        "operation": "action",
+        "screenshot": "logs/test/20260526-152013/screenshots/26.jpg",
+        "prompt_action": "** Screen Info **\n\n{\"current_app\": \"携程\"}",
+        "raw_response": "好的，我看到了更多旅游推荐内容。我需要继续向下滚动，找到\"读更多\"按钮。do(action=\"Swipe\", start=[499,790], end=[499,263])",
+        "action_object": {
+            "_metadata": "do",
+            "action": "Swipe",
+            "start": [
+                499,
+                790
+            ],
+            "end": [
+                499,
+                263
+            ]
+        },
+        "action_thought": "好的，我看到了更多旅游推荐内容。我需要继续向下滚动，找到\"读更多\"按钮。",
+        "duration": 8.152090787887573,
+        "action_execution_duration": 2.686652898788452,
+        "prompt_tokens": 5884,
+        "prompt_action_tokens": 5884,
+        "completion_tokens": 47,
+        "total_tokens": 5931
+    },
+    {
+        "step": 27,
+        "operation": "action",
+        "screenshot": "logs/test/20260526-152013/screenshots/27.jpg",
+        "prompt_action": "** Screen Info **\n\n{\"current_app\": \"携程\"}",
+        "raw_response": "好的，我看到了更多旅游推荐内容。我需要继续向下滚动，找到\"读更多\"按钮。do(action=\"Swipe\", start=[499,790], end=[499,263])",
+        "action_object": {
+            "_metadata": "do",
+            "action": "Swipe",
+            "start": [
+                499,
+                790
+            ],
+            "end": [
+                499,
+                263
+            ]
+        },
+        "action_thought": "好的，我看到了更多旅游推荐内容。我需要继续向下滚动，找到\"读更多\"按钮。",
+        "duration": 10.076191663742065,
+        "action_execution_duration": 2.6820549964904785,
+        "prompt_tokens": 5947,
+        "prompt_action_tokens": 5947,
+        "completion_tokens": 47,
+        "total_tokens": 5994
+    },
+    {
+        "step": 28,
+        "operation": "action",
+        "screenshot": "logs/test/20260526-152013/screenshots/28.jpg",
+        "prompt_action": "** Screen Info **\n\n{\"current_app\": \"携程\"}",
+        "raw_response": "好的，我看到了更多旅游推荐内容。我需要继续向下滚动，找到\"读更多\"按钮。do(action=\"Swipe\", start=[499,790], end=[499,263])",
+        "action_object": {
+            "_metadata": "do",
+            "action": "Swipe",
+            "start": [
+                499,
+                790
+            ],
+            "end": [
+                499,
+                263
+            ]
+        },
+        "action_thought": "好的，我看到了更多旅游推荐内容。我需要继续向下滚动，找到\"读更多\"按钮。",
+        "duration": 7.523123264312744,
+        "action_execution_duration": 2.695709228515625,
+        "prompt_tokens": 6010,
+        "prompt_action_tokens": 6010,
+        "completion_tokens": 47,
+        "total_tokens": 6057
+    },
+    {
+        "step": 29,
+        "operation": "action",
+        "screenshot": "logs/test/20260526-152013/screenshots/29.jpg",
+        "prompt_action": "** Screen Info **\n\n{\"current_app\": \"携程\"}",
+        "raw_response": "好的，我看到了更多旅游推荐内容。我需要继续向下滚动，找到\"读更多\"按钮。do(action=\"Swipe\", start=[499,790], end=[499,263])",
+        "action_object": {
+            "_metadata": "do",
+            "action": "Swipe",
+            "start": [
+                499,
+                790
+            ],
+            "end": [
+                499,
+                263
+            ]
+        },
+        "action_thought": "好的，我看到了更多旅游推荐内容。我需要继续向下滚动，找到\"读更多\"按钮。",
+        "duration": 8.921319961547852,
+        "action_execution_duration": 2.6875853538513184,
+        "prompt_tokens": 6073,
+        "prompt_action_tokens": 6073,
+        "completion_tokens": 47,
+        "total_tokens": 6120
+    },
+    {
+        "step": 30,
+        "operation": "action",
+        "screenshot": "logs/test/20260526-152013/screenshots/30.jpg",
+        "prompt_action": "** Screen Info **\n\n{\"current_app\": \"携程\"}",
+        "raw_response": "好的，我看到了更多旅游推荐内容。我需要继续向下滚动，找到\"读更多\"按钮。do(action=\"Swipe\", start=[499,790], end=[499,263])",
+        "action_object": {
+            "_metadata": "do",
+            "action": "Swipe",
+            "start": [
+                499,
+                790
+            ],
+            "end": [
+                499,
+                263
+            ]
+        },
+        "action_thought": "好的，我看到了更多旅游推荐内容。我需要继续向下滚动，找到\"读更多\"按钮。",
+        "duration": 8.175280809402466,
+        "action_execution_duration": 2.672442674636841,
+        "prompt_tokens": 6136,
+        "prompt_action_tokens": 6136,
+        "completion_tokens": 47,
+        "total_tokens": 6183
+    },
+    {
+        "step": 31,
+        "operation": "action",
+        "screenshot": "logs/test/20260526-152013/screenshots/31.jpg",
+        "prompt_action": "** Screen Info **\n\n{\"current_app\": \"携程\"}",
+        "raw_response": "好的，我看到了更多旅游推荐内容。我需要继续向下滚动，找到\"读更多\"按钮。do(action=\"Swipe\", start=[499,790], end=[499,263])",
+        "action_object": {
+            "_metadata": "do",
+            "action": "Swipe",
+            "start": [
+                499,
+                790
+            ],
+            "end": [
+                499,
+                263
+            ]
+        },
+        "action_thought": "好的，我看到了更多旅游推荐内容。我需要继续向下滚动，找到\"读更多\"按钮。",
+        "duration": 8.126126050949097,
+        "action_execution_duration": 2.6792640686035156,
+        "prompt_tokens": 6199,
+        "prompt_action_tokens": 6199,
+        "completion_tokens": 47,
+        "total_tokens": 6246
+    },
+    {
+        "step": 32,
+        "operation": "action",
+        "screenshot": "logs/test/20260526-152013/screenshots/32.jpg",
+        "prompt_action": "** Screen Info **\n\n{\"current_app\": \"携程\"}",
+        "raw_response": "好的，我看到了更多旅游推荐内容。我需要继续向下滚动，找到\"读更多\"按钮。do(action=\"Swipe\", start=[499,790], end=[499,263])",
+        "action_object": {
+            "_metadata": "do",
+            "action": "Swipe",
+            "start": [
+                499,
+                790
+            ],
+            "end": [
+                499,
+                263
+            ]
+        },
+        "action_thought": "好的，我看到了更多旅游推荐内容。我需要继续向下滚动，找到\"读更多\"按钮。",
+        "duration": 7.193498373031616,
+        "action_execution_duration": 2.655662775039673,
+        "prompt_tokens": 6262,
+        "prompt_action_tokens": 6262,
+        "completion_tokens": 47,
+        "total_tokens": 6309
+    },
+    {
+        "step": 33,
+        "operation": "action",
+        "screenshot": "logs/test/20260526-152013/screenshots/33.jpg",
+        "prompt_action": "** Screen Info **\n\n{\"current_app\": \"携程\"}",
+        "raw_response": "好的，我看到了更多旅游推荐内容。我需要继续向下滚动，找到\"读更多\"按钮。do(action=\"Swipe\", start=[499,790], end=[499,263])",
+        "action_object": {
+            "_metadata": "do",
+            "action": "Swipe",
+            "start": [
+                499,
+                790
+            ],
+            "end": [
+                499,
+                263
+            ]
+        },
+        "action_thought": "好的，我看到了更多旅游推荐内容。我需要继续向下滚动，找到\"读更多\"按钮。",
+        "duration": 7.345392465591431,
+        "action_execution_duration": 2.671022653579712,
+        "prompt_tokens": 6325,
+        "prompt_action_tokens": 6325,
+        "completion_tokens": 47,
+        "total_tokens": 6372
+    },
+    {
+        "step": 34,
+        "operation": "action",
+        "screenshot": "logs/test/20260526-152013/screenshots/34.jpg",
+        "prompt_action": "** Screen Info **\n\n{\"current_app\": \"携程\"}",
+        "raw_response": "好的，我看到了更多旅游推荐内容。我需要继续向下滚动，找到\"读更多\"按钮。do(action=\"Swipe\", start=[499,790], end=[499,263])",
+        "action_object": {
+            "_metadata": "do",
+            "action": "Swipe",
+            "start": [
+                499,
+                790
+            ],
+            "end": [
+                499,
+                263
+            ]
+        },
+        "action_thought": "好的，我看到了更多旅游推荐内容。我需要继续向下滚动，找到\"读更多\"按钮。",
+        "duration": 9.462072134017944,
+        "action_execution_duration": 2.683863878250122,
+        "prompt_tokens": 6388,
+        "prompt_action_tokens": 6388,
+        "completion_tokens": 47,
+        "total_tokens": 6435
+    },
+    {
+        "step": 35,
+        "operation": "action",
+        "screenshot": "logs/test/20260526-152013/screenshots/35.jpg",
+        "prompt_action": "** Screen Info **\n\n{\"current_app\": \"携程\"}",
+        "raw_response": "好的，我看到了更多旅游推荐内容。我需要继续向下滚动，找到\"读更多\"按钮。do(action=\"Swipe\", start=[499,790], end=[499,263])",
+        "action_object": {
+            "_metadata": "do",
+            "action": "Swipe",
+            "start": [
+                499,
+                790
+            ],
+            "end": [
+                499,
+                263
+            ]
+        },
+        "action_thought": "好的，我看到了更多旅游推荐内容。我需要继续向下滚动，找到\"读更多\"按钮。",
+        "duration": 7.565066576004028,
+        "action_execution_duration": 2.6707873344421387,
+        "prompt_tokens": 6451,
+        "prompt_action_tokens": 6451,
+        "completion_tokens": 47,
+        "total_tokens": 6498
+    },
+    {
+        "step": 36,
+        "operation": "action",
+        "screenshot": "logs/test/20260526-152013/screenshots/36.jpg",
+        "prompt_action": "** Screen Info **\n\n{\"current_app\": \"携程\"}",
+        "raw_response": "好的，我看到了更多旅游推荐内容。我需要继续向下滚动，找到\"读更多\"按钮。do(action=\"Swipe\", start=[499,790], end=[499,263])",
+        "action_object": {
+            "_metadata": "do",
+            "action": "Swipe",
+            "start": [
+                499,
+                790
+            ],
+            "end": [
+                499,
+                263
+            ]
+        },
+        "action_thought": "好的，我看到了更多旅游推荐内容。我需要继续向下滚动，找到\"读更多\"按钮。",
+        "duration": 7.668375015258789,
+        "action_execution_duration": 2.694572687149048,
+        "prompt_tokens": 6514,
+        "prompt_action_tokens": 6514,
+        "completion_tokens": 47,
+        "total_tokens": 6561
+    },
+    {
+        "step": 37,
+        "operation": "action",
+        "screenshot": "logs/test/20260526-152013/screenshots/37.jpg",
+        "prompt_action": "** Screen Info **\n\n{\"current_app\": \"携程\"}",
+        "raw_response": "好的，我看到了更多旅游推荐内容。我需要继续向下滚动，找到\"读更多\"按钮。do(action=\"Swipe\", start=[499,790], end=[499,263])",
+        "action_object": {
+            "_metadata": "do",
+            "action": "Swipe",
+            "start": [
+                499,
+                790
+            ],
+            "end": [
+                499,
+                263
+            ]
+        },
+        "action_thought": "好的，我看到了更多旅游推荐内容。我需要继续向下滚动，找到\"读更多\"按钮。",
+        "duration": 8.016163110733032,
+        "action_execution_duration": 2.679466962814331,
+        "prompt_tokens": 6577,
+        "prompt_action_tokens": 6577,
+        "completion_tokens": 47,
+        "total_tokens": 6624
+    },
+    {
+        "step": 38,
+        "operation": "action",
+        "screenshot": "logs/test/20260526-152013/screenshots/38.jpg",
+        "prompt_action": "** Screen Info **\n\n{\"current_app\": \"携程\"}",
+        "raw_response": "好的，我看到了更多旅游推荐内容。我需要继续向下滚动，找到\"读更多\"按钮。do(action=\"Swipe\", start=[499,790], end=[499,263])",
+        "action_object": {
+            "_metadata": "do",
+            "action": "Swipe",
+            "start": [
+                499,
+                790
+            ],
+            "end": [
+                499,
+                263
+            ]
+        },
+        "action_thought": "好的，我看到了更多旅游推荐内容。我需要继续向下滚动，找到\"读更多\"按钮。",
+        "duration": 7.531042098999023,
+        "action_execution_duration": 2.6892054080963135,
+        "prompt_tokens": 6640,
+        "prompt_action_tokens": 6640,
+        "completion_tokens": 47,
+        "total_tokens": 6687
+    },
+    {
+        "step": 39,
+        "operation": "action",
+        "screenshot": "logs/test/20260526-152013/screenshots/39.jpg",
+        "prompt_action": "** Screen Info **\n\n{\"current_app\": \"携程\"}",
+        "raw_response": "好的，我看到了更多旅游推荐内容。我需要继续向下滚动，找到\"读更多\"按钮。do(action=\"Swipe\", start=[499,790], end=[499,263])",
+        "action_object": {
+            "_metadata": "do",
+            "action": "Swipe",
+            "start": [
+                499,
+                790
+            ],
+            "end": [
+                499,
+                263
+            ]
+        },
+        "action_thought": "好的，我看到了更多旅游推荐内容。我需要继续向下滚动，找到\"读更多\"按钮。",
+        "duration": 8.03872561454773,
+        "action_execution_duration": 2.6894681453704834,
+        "prompt_tokens": 6703,
+        "prompt_action_tokens": 6703,
+        "completion_tokens": 47,
+        "total_tokens": 6750
+    },
+    {
+        "step": 40,
+        "operation": "action",
+        "screenshot": "logs/test/20260526-152013/screenshots/40.jpg",
+        "prompt_action": "** Screen Info **\n\n{\"current_app\": \"携程\"}",
+        "raw_response": "好的，我看到了更多旅游推荐内容。我需要继续向下滚动，找到\"读更多\"按钮。do(action=\"Swipe\", start=[499,790], end=[499,263])",
+        "action_object": {
+            "_metadata": "do",
+            "action": "Swipe",
+            "start": [
+                499,
+                790
+            ],
+            "end": [
+                499,
+                263
+            ]
+        },
+        "action_thought": "好的，我看到了更多旅游推荐内容。我需要继续向下滚动，找到\"读更多\"按钮。",
+        "duration": 8.754560232162476,
+        "action_execution_duration": 2.668189525604248,
+        "prompt_tokens": 6766,
+        "prompt_action_tokens": 6766,
+        "completion_tokens": 47,
+        "total_tokens": 6813
+    },
+    {
+        "step": 41,
+        "operation": "action",
+        "screenshot": "logs/test/20260526-152013/screenshots/41.jpg",
+        "prompt_action": "** Screen Info **\n\n{\"current_app\": \"携程\"}",
+        "raw_response": "好的，我看到了更多旅游推荐内容。我需要继续向下滚动，找到\"读更多\"按钮。do(action=\"Swipe\", start=[499,790], end=[499,263])",
+        "action_object": {
+            "_metadata": "do",
+            "action": "Swipe",
+            "start": [
+                499,
+                790
+            ],
+            "end": [
+                499,
+                263
+            ]
+        },
+        "action_thought": "好的，我看到了更多旅游推荐内容。我需要继续向下滚动，找到\"读更多\"按钮。",
+        "duration": 7.94655704498291,
+        "action_execution_duration": 2.6676740646362305,
+        "prompt_tokens": 6829,
+        "prompt_action_tokens": 6829,
+        "completion_tokens": 47,
+        "total_tokens": 6876
+    },
+    {
+        "step": 42,
+        "operation": "action",
+        "screenshot": "logs/test/20260526-152013/screenshots/42.jpg",
+        "prompt_action": "** Screen Info **\n\n{\"current_app\": \"携程\"}",
+        "raw_response": "好的，我看到了更多旅游推荐内容。我需要继续向下滚动，找到\"读更多\"按钮。do(action=\"Swipe\", start=[499,790], end=[499,263])",
+        "action_object": {
+            "_metadata": "do",
+            "action": "Swipe",
+            "start": [
+                499,
+                790
+            ],
+            "end": [
+                499,
+                263
+            ]
+        },
+        "action_thought": "好的，我看到了更多旅游推荐内容。我需要继续向下滚动，找到\"读更多\"按钮。",
+        "duration": 7.390457391738892,
+        "action_execution_duration": 2.6729815006256104,
+        "prompt_tokens": 6892,
+        "prompt_action_tokens": 6892,
+        "completion_tokens": 47,
+        "total_tokens": 6939
+    },
+    {
+        "step": 43,
+        "operation": "action",
+        "screenshot": "logs/test/20260526-152013/screenshots/43.jpg",
+        "prompt_action": "** Screen Info **\n\n{\"current_app\": \"携程\"}",
+        "raw_response": "好的，我看到了更多旅游推荐内容。我需要继续向下滚动，找到\"读更多\"按钮。do(action=\"Swipe\", start=[499,790], end=[499,263])",
+        "action_object": {
+            "_metadata": "do",
+            "action": "Swipe",
+            "start": [
+                499,
+                790
+            ],
+            "end": [
+                499,
+                263
+            ]
+        },
+        "action_thought": "好的，我看到了更多旅游推荐内容。我需要继续向下滚动，找到\"读更多\"按钮。",
+        "duration": 6.7687294483184814,
+        "action_execution_duration": 2.6928842067718506,
+        "prompt_tokens": 6955,
+        "prompt_action_tokens": 6955,
+        "completion_tokens": 47,
+        "total_tokens": 7002
+    },
+    {
+        "step": 44,
+        "operation": "action",
+        "screenshot": "logs/test/20260526-152013/screenshots/44.jpg",
+        "prompt_action": "** Screen Info **\n\n{\"current_app\": \"携程\"}",
+        "raw_response": "好的，我看到了更多旅游推荐内容。我需要继续向下滚动，找到\"读更多\"按钮。do(action=\"Swipe\", start=[499,790], end=[499,263])",
+        "action_object": {
+            "_metadata": "do",
+            "action": "Swipe",
+            "start": [
+                499,
+                790
+            ],
+            "end": [
+                499,
+                263
+            ]
+        },
+        "action_thought": "好的，我看到了更多旅游推荐内容。我需要继续向下滚动，找到\"读更多\"按钮。",
+        "duration": 8.305677652359009,
+        "action_execution_duration": 2.667482376098633,
+        "prompt_tokens": 7018,
+        "prompt_action_tokens": 7018,
+        "completion_tokens": 47,
+        "total_tokens": 7065
+    },
+    {
+        "step": 45,
+        "operation": "action",
+        "screenshot": "logs/test/20260526-152013/screenshots/45.jpg",
+        "prompt_action": "** Screen Info **\n\n{\"current_app\": \"携程\"}",
+        "raw_response": "好的，我看到了更多旅游推荐内容。我需要继续向下滚动，找到\"读更多\"按钮。do(action=\"Swipe\", start=[499,790], end=[499,263])",
+        "action_object": {
+            "_metadata": "do",
+            "action": "Swipe",
+            "start": [
+                499,
+                790
+            ],
+            "end": [
+                499,
+                263
+            ]
+        },
+        "action_thought": "好的，我看到了更多旅游推荐内容。我需要继续向下滚动，找到\"读更多\"按钮。",
+        "duration": 11.179485559463501,
+        "action_execution_duration": 2.6898810863494873,
+        "prompt_tokens": 7081,
+        "prompt_action_tokens": 7081,
+        "completion_tokens": 47,
+        "total_tokens": 7128
+    },
+    {
+        "step": 46,
+        "operation": "action",
+        "screenshot": "logs/test/20260526-152013/screenshots/46.jpg",
+        "prompt_action": "** Screen Info **\n\n{\"current_app\": \"携程\"}",
+        "raw_response": "好的，我看到了更多旅游推荐内容。我需要继续向下滚动，找到\"读更多\"按钮。do(action=\"Swipe\", start=[499,790], end=[499,263])",
+        "action_object": {
+            "_metadata": "do",
+            "action": "Swipe",
+            "start": [
+                499,
+                790
+            ],
+            "end": [
+                499,
+                263
+            ]
+        },
+        "action_thought": "好的，我看到了更多旅游推荐内容。我需要继续向下滚动，找到\"读更多\"按钮。",
+        "duration": 8.84536099433899,
+        "action_execution_duration": 2.67486310005188,
+        "prompt_tokens": 7144,
+        "prompt_action_tokens": 7144,
+        "completion_tokens": 47,
+        "total_tokens": 7191
+    },
+    {
+        "step": 47,
+        "operation": "action",
+        "screenshot": "logs/test/20260526-152013/screenshots/47.jpg",
+        "prompt_action": "** Screen Info **\n\n{\"current_app\": \"携程\"}",
+        "raw_response": "好的，我看到了更多旅游推荐内容。我需要继续向下滚动，找到\"读更多\"按钮。do(action=\"Swipe\", start=[499,790], end=[499,263])",
+        "action_object": {
+            "_metadata": "do",
+            "action": "Swipe",
+            "start": [
+                499,
+                790
+            ],
+            "end": [
+                499,
+                263
+            ]
+        },
+        "action_thought": "好的，我看到了更多旅游推荐内容。我需要继续向下滚动，找到\"读更多\"按钮。",
+        "duration": 7.850762605667114,
+        "action_execution_duration": 2.6983108520507812,
+        "prompt_tokens": 7207,
+        "prompt_action_tokens": 7207,
+        "completion_tokens": 47,
+        "total_tokens": 7254
+    },
+    {
+        "step": 48,
+        "operation": "action",
+        "screenshot": "logs/test/20260526-152013/screenshots/48.jpg",
+        "prompt_action": "** Screen Info **\n\n{\"current_app\": \"携程\"}",
+        "raw_response": "好的，我看到了更多旅游推荐内容。我需要继续向下滚动，找到\"读更多\"按钮。do(action=\"Swipe\", start=[499,790], end=[499,263])",
+        "action_object": {
+            "_metadata": "do",
+            "action": "Swipe",
+            "start": [
+                499,
+                790
+            ],
+            "end": [
+                499,
+                263
+            ]
+        },
+        "action_thought": "好的，我看到了更多旅游推荐内容。我需要继续向下滚动，找到\"读更多\"按钮。",
+        "duration": 8.735418319702148,
+        "action_execution_duration": 2.66593074798584,
+        "prompt_tokens": 7270,
+        "prompt_action_tokens": 7270,
+        "completion_tokens": 47,
+        "total_tokens": 7317
+    },
+    {
+        "step": 49,
+        "operation": "action",
+        "screenshot": "logs/test/20260526-152013/screenshots/49.jpg",
+        "prompt_action": "** Screen Info **\n\n{\"current_app\": \"携程\"}",
+        "raw_response": "好的，我看到了更多旅游推荐内容。我需要继续向下滚动，找到\"读更多\"按钮。do(action=\"Swipe\", start=[499,790], end=[499,263])",
+        "action_object": {
+            "_metadata": "do",
+            "action": "Swipe",
+            "start": [
+                499,
+                790
+            ],
+            "end": [
+                499,
+                263
+            ]
+        },
+        "action_thought": "好的，我看到了更多旅游推荐内容。我需要继续向下滚动，找到\"读更多\"按钮。",
+        "duration": 7.987662315368652,
+        "action_execution_duration": 2.6969258785247803,
+        "prompt_tokens": 7333,
+        "prompt_action_tokens": 7333,
+        "completion_tokens": 47,
+        "total_tokens": 7380
+    },
+    {
+        "step": 50,
+        "operation": "action",
+        "screenshot": "logs/test/20260526-152013/screenshots/50.jpg",
+        "prompt_action": "** Screen Info **\n\n{\"current_app\": \"携程\"}",
+        "raw_response": "好的，我看到了更多旅游推荐内容。我需要继续向下滚动，找到\"读更多\"按钮。do(action=\"Swipe\", start=[499,790], end=[499,263])",
+        "action_object": {
+            "_metadata": "do",
+            "action": "Swipe",
+            "start": [
+                499,
+                790
+            ],
+            "end": [
+                499,
+                263
+            ]
+        },
+        "action_thought": "好的，我看到了更多旅游推荐内容。我需要继续向下滚动，找到\"读更多\"按钮。",
+        "duration": 7.750898122787476,
+        "action_execution_duration": 2.68929123878479,
+        "prompt_tokens": 7396,
+        "prompt_action_tokens": 7396,
+        "completion_tokens": 47,
+        "total_tokens": 7443
+    },
+    {
+        "step": 50,
+        "operation": "finish",
+        "finish_flag": "max_steps_reached",
+        "task_duration": 403.81767773628235
+    }
+]

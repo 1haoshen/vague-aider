@@ -1,0 +1,1273 @@
+[
+    {
+        "step": 0,
+        "operation": "init",
+        "instruction": "在携程上查一下元旦去北京的机票,如果往返超过2000块钱就提醒我,没超过就直接找个时间合适的订了。",
+        "task_id": "20260525-200604",
+        "run_name": "full112_cn/t52_L1_r1",
+        "max_steps": 50
+    },
+    {
+        "step": 1,
+        "operation": "action",
+        "screenshot": "D:\\Mobile-Agent\\MobileAgent-main\\MobileAgent-main\\app-data\\Ins-bench\\phoneagent_logs/full112_cn/t52_L1_r1/20260525-200604/screenshots/1.jpg",
+        "prompt_action": "在携程上查一下元旦去北京的机票,如果往返超过2000块钱就提醒我,没超过就直接找个时间合适的订了。\n\n{\"current_app\": \"System Home\"}",
+        "raw_response": "用户想要在携程上查询元旦去北京的机票，如果往返超过2000块钱就提醒他，没超过就直接找个时间合适的订了。\n\n首先我需要：\n1. 打开携程app\n2. 搜索元旦（2025年1月1日）去北京的机票\n3. 查看往返价格是否超过2000元\n4. 如果超过2000元，提醒用户\n5. 如果没超过，就帮用户订票\n\n当前日期是2026年5月25日，但用户要查询的是元旦的机票，应该是2025年1月1日（因为2026年的元旦还没到）。不过用户说的是\"今天的日期是2026年05月25日\"，所以元旦应该是2025年1月1日。\n\n让我先启动携程app。\ndo(action=\"Launch\", app=\"携程\")",
+        "action_object": {
+            "_metadata": "do",
+            "action": "Launch",
+            "app": "携程"
+        },
+        "action_thought": "用户想要在携程上查询元旦去北京的机票，如果往返超过2000块钱就提醒他，没超过就直接找个时间合适的订了。\n\n首先我需要：\n1. 打开携程app\n2. 搜索元旦（2025年1月1日）去北京的机票\n3. 查看往返价格是否超过2000元\n4. 如果超过2000元，提醒用户\n5. 如果没超过，就帮用户订票\n\n当前日期是2026年5月25日，但用户要查询的是元旦的机票，应该是2025年1月1日（因为2026年的元旦还没到）。不过用户说的是\"今天的日期是2026年05月25日\"，所以元旦应该是2025年1月1日。\n\n让我先启动携程app。",
+        "duration": 9.276259660720825,
+        "action_execution_duration": 1.5875375270843506,
+        "prompt_tokens": 5133,
+        "prompt_action_tokens": 5133,
+        "completion_tokens": 178,
+        "total_tokens": 5311
+    },
+    {
+        "step": 2,
+        "operation": "action",
+        "screenshot": "D:\\Mobile-Agent\\MobileAgent-main\\MobileAgent-main\\app-data\\Ins-bench\\phoneagent_logs/full112_cn/t52_L1_r1/20260525-200604/screenshots/2.jpg",
+        "prompt_action": "** Screen Info **\n\n{\"current_app\": \"携程\"}",
+        "raw_response": "携程app已经打开，但现在显示的是一个支付页面，显示金额¥918.00。我需要返回到携程主页，然后搜索机票。让我点击左上角的返回按钮。do(action=\"Tap\", element=[48,58])",
+        "action_object": {
+            "_metadata": "do",
+            "action": "Tap",
+            "element": [
+                48,
+                58
+            ]
+        },
+        "action_thought": "携程app已经打开，但现在显示的是一个支付页面，显示金额¥918.00。我需要返回到携程主页，然后搜索机票。让我点击左上角的返回按钮。",
+        "duration": 4.215346097946167,
+        "action_execution_duration": 1.0795931816101074,
+        "prompt_tokens": 5326,
+        "prompt_action_tokens": 5326,
+        "completion_tokens": 53,
+        "total_tokens": 5379
+    },
+    {
+        "step": 3,
+        "operation": "action",
+        "screenshot": "D:\\Mobile-Agent\\MobileAgent-main\\MobileAgent-main\\app-data\\Ins-bench\\phoneagent_logs/full112_cn/t52_L1_r1/20260525-200604/screenshots/3.jpg",
+        "prompt_action": "** Screen Info **\n\n{\"current_app\": \"携程\"}",
+        "raw_response": "出现了一个确认对话框，询问\"确认要离开吗？\"，提示有\"储蓄卡立减4-30元\"优惠未使用。我需要点击\"确认离开\"来返回携程主页。do(action=\"Tap\", element=[691,559])",
+        "action_object": {
+            "_metadata": "do",
+            "action": "Tap",
+            "element": [
+                691,
+                559
+            ]
+        },
+        "action_thought": "出现了一个确认对话框，询问\"确认要离开吗？\"，提示有\"储蓄卡立减4-30元\"优惠未使用。我需要点击\"确认离开\"来返回携程主页。",
+        "duration": 4.452270984649658,
+        "action_execution_duration": 1.0437259674072266,
+        "prompt_tokens": 5395,
+        "prompt_action_tokens": 5395,
+        "completion_tokens": 58,
+        "total_tokens": 5453
+    },
+    {
+        "step": 4,
+        "operation": "action",
+        "screenshot": "D:\\Mobile-Agent\\MobileAgent-main\\MobileAgent-main\\app-data\\Ins-bench\\phoneagent_logs/full112_cn/t52_L1_r1/20260525-200604/screenshots/4.jpg",
+        "prompt_action": "** Screen Info **\n\n{\"current_app\": \"携程\"}",
+        "raw_response": "现在显示的是机票订单填写页面，显示的是北京到深圳的航班，日期是06-25周四06:55。这不是我需要的，我需要返回到机票搜索页面，然后搜索元旦（2025年1月1日）去北京的航班。\n\n让我点击左上角的返回按钮。do(action=\"Tap\", element=[48,58])",
+        "action_object": {
+            "_metadata": "do",
+            "action": "Tap",
+            "element": [
+                48,
+                58
+            ]
+        },
+        "action_thought": "现在显示的是机票订单填写页面，显示的是北京到深圳的航班，日期是06-25周四06:55。这不是我需要的，我需要返回到机票搜索页面，然后搜索元旦（2025年1月1日）去北京的航班。\n\n让我点击左上角的返回按钮。",
+        "duration": 4.534906387329102,
+        "action_execution_duration": 1.0811207294464111,
+        "prompt_tokens": 5469,
+        "prompt_action_tokens": 5469,
+        "completion_tokens": 77,
+        "total_tokens": 5546
+    },
+    {
+        "step": 5,
+        "operation": "action",
+        "screenshot": "D:\\Mobile-Agent\\MobileAgent-main\\MobileAgent-main\\app-data\\Ins-bench\\phoneagent_logs/full112_cn/t52_L1_r1/20260525-200604/screenshots/5.jpg",
+        "prompt_action": "** Screen Info **\n\n{\"current_app\": \"携程\"}",
+        "raw_response": "出现了一个弹窗，提示\"机票价格实时变动，低价不等人，尽快行动吧\"，有两个按钮：\"狠心离开\"和\"立即抢订\"。我需要点击\"狠心离开\"来返回到机票搜索页面。do(action=\"Tap\", element=[341,584])",
+        "action_object": {
+            "_metadata": "do",
+            "action": "Tap",
+            "element": [
+                341,
+                584
+            ]
+        },
+        "action_thought": "出现了一个弹窗，提示\"机票价格实时变动，低价不等人，尽快行动吧\"，有两个按钮：\"狠心离开\"和\"立即抢订\"。我需要点击\"狠心离开\"来返回到机票搜索页面。",
+        "duration": 4.388774871826172,
+        "action_execution_duration": 1.0927293300628662,
+        "prompt_tokens": 5562,
+        "prompt_action_tokens": 5562,
+        "completion_tokens": 65,
+        "total_tokens": 5627
+    },
+    {
+        "step": 6,
+        "operation": "action",
+        "screenshot": "D:\\Mobile-Agent\\MobileAgent-main\\MobileAgent-main\\app-data\\Ins-bench\\phoneagent_logs/full112_cn/t52_L1_r1/20260525-200604/screenshots/6.jpg",
+        "prompt_action": "** Screen Info **\n\n{\"current_app\": \"携程\"}",
+        "raw_response": "现在显示的是北京到深圳的航班列表页面，显示的是06-25周四的航班，价格在¥650-¥710之间。我需要返回到机票搜索页面，然后搜索元旦（2025年1月1日）去北京的航班。\n\n让我点击左上角的返回按钮。do(action=\"Tap\", element=[48,58])",
+        "action_object": {
+            "_metadata": "do",
+            "action": "Tap",
+            "element": [
+                48,
+                58
+            ]
+        },
+        "action_thought": "现在显示的是北京到深圳的航班列表页面，显示的是06-25周四的航班，价格在¥650-¥710之间。我需要返回到机票搜索页面，然后搜索元旦（2025年1月1日）去北京的航班。\n\n让我点击左上角的返回按钮。",
+        "duration": 4.736147165298462,
+        "action_execution_duration": 1.0801210403442383,
+        "prompt_tokens": 5643,
+        "prompt_action_tokens": 5643,
+        "completion_tokens": 77,
+        "total_tokens": 5720
+    },
+    {
+        "step": 7,
+        "operation": "action",
+        "screenshot": "D:\\Mobile-Agent\\MobileAgent-main\\MobileAgent-main\\app-data\\Ins-bench\\phoneagent_logs/full112_cn/t52_L1_r1/20260525-200604/screenshots/7.jpg",
+        "prompt_action": "** Screen Info **\n\n{\"current_app\": \"携程\"}",
+        "raw_response": "现在显示的是北京到深圳的航班列表，日期选择栏显示周二23日、周三24日、周四06-25（选中）、周五26日、周六2日。我需要点击顶部的\"北京 - 深圳\"来修改出发地，然后搜索北京到北京的航班（即国内航班）。\n\n让我点击顶部的\"北京 - 深圳\"文字。do(action=\"Tap\", element=[499,58])",
+        "action_object": {
+            "_metadata": "do",
+            "action": "Tap",
+            "element": [
+                499,
+                58
+            ]
+        },
+        "action_thought": "现在显示的是北京到深圳的航班列表，日期选择栏显示周二23日、周三24日、周四06-25（选中）、周五26日、周六2日。我需要点击顶部的\"北京 - 深圳\"来修改出发地，然后搜索北京到北京的航班（即国内航班）。\n\n让我点击顶部的\"北京 - 深圳\"文字。",
+        "duration": 5.556449890136719,
+        "action_execution_duration": 1.0803718566894531,
+        "prompt_tokens": 5736,
+        "prompt_action_tokens": 5736,
+        "completion_tokens": 91,
+        "total_tokens": 5827
+    },
+    {
+        "step": 8,
+        "operation": "action",
+        "screenshot": "D:\\Mobile-Agent\\MobileAgent-main\\MobileAgent-main\\app-data\\Ins-bench\\phoneagent_logs/full112_cn/t52_L1_r1/20260525-200604/screenshots/8.jpg",
+        "prompt_action": "** Screen Info **\n\n{\"current_app\": \"携程\"}",
+        "raw_response": "太好了！现在出现了重新搜索的页面。我可以看到：\n- 出发地：北京\n- 目的地：深圳\n- 日期：6月25日 周四\n- 选项：单程、往返、多程\n\n我需要修改目的地为北京（因为用户要查询去北京的机票），然后修改日期为元旦（2025年1月1日）。\n\n首先，让我点击\"深圳\"来修改目的地。do(action=\"Tap\", element=[887,213])",
+        "action_object": {
+            "_metadata": "do",
+            "action": "Tap",
+            "element": [
+                887,
+                213
+            ]
+        },
+        "action_thought": "太好了！现在出现了重新搜索的页面。我可以看到：\n- 出发地：北京\n- 目的地：深圳\n- 日期：6月25日 周四\n- 选项：单程、往返、多程\n\n我需要修改目的地为北京（因为用户要查询去北京的机票），然后修改日期为元旦（2025年1月1日）。\n\n首先，让我点击\"深圳\"来修改目的地。",
+        "duration": 5.11869215965271,
+        "action_execution_duration": 1.0868325233459473,
+        "prompt_tokens": 5843,
+        "prompt_action_tokens": 5843,
+        "completion_tokens": 108,
+        "total_tokens": 5951
+    },
+    {
+        "step": 9,
+        "operation": "action",
+        "screenshot": "D:\\Mobile-Agent\\MobileAgent-main\\MobileAgent-main\\app-data\\Ins-bench\\phoneagent_logs/full112_cn/t52_L1_r1/20260525-200604/screenshots/9.jpg",
+        "prompt_action": "** Screen Info **\n\n{\"current_app\": \"携程\"}",
+        "raw_response": "太好了！现在出现了选择目的地的页面。我可以看到：\n- 当前/历史：广州、深圳、北京、上海、青岛、三亚、首尔、更多\n- 热门推荐：搜全国低价、免签/落地签\n- 热门城市：上海、北京、成都、广州、深圳、昆明、重庆、杭州\n\n我可以看到\"北京\"在热门城市列表中，让我点击它。do(action=\"Tap\", element=[376,621])",
+        "action_object": {
+            "_metadata": "do",
+            "action": "Tap",
+            "element": [
+                376,
+                621
+            ]
+        },
+        "action_thought": "太好了！现在出现了选择目的地的页面。我可以看到：\n- 当前/历史：广州、深圳、北京、上海、青岛、三亚、首尔、更多\n- 热门推荐：搜全国低价、免签/落地签\n- 热门城市：上海、北京、成都、广州、深圳、昆明、重庆、杭州\n\n我可以看到\"北京\"在热门城市列表中，让我点击它。",
+        "duration": 6.026467561721802,
+        "action_execution_duration": 1.077742576599121,
+        "prompt_tokens": 5967,
+        "prompt_action_tokens": 5967,
+        "completion_tokens": 106,
+        "total_tokens": 6073
+    },
+    {
+        "step": 10,
+        "operation": "action",
+        "screenshot": "D:\\Mobile-Agent\\MobileAgent-main\\MobileAgent-main\\app-data\\Ins-bench\\phoneagent_logs/full112_cn/t52_L1_r1/20260525-200604/screenshots/10.jpg",
+        "prompt_action": "** Screen Info **\n\n{\"current_app\": \"携程\"}",
+        "raw_response": "太好了！现在出发地和目的地都设置为北京了，显示\"北京 - 北京\"。现在我需要修改日期为元旦（2025年1月1日）。当前日期显示的是\"6月25日 周四\"。\n\n让我点击日期来修改它。do(action=\"Tap\", element=[141,268])",
+        "action_object": {
+            "_metadata": "do",
+            "action": "Tap",
+            "element": [
+                141,
+                268
+            ]
+        },
+        "action_thought": "太好了！现在出发地和目的地都设置为北京了，显示\"北京 - 北京\"。现在我需要修改日期为元旦（2025年1月1日）。当前日期显示的是\"6月25日 周四\"。\n\n让我点击日期来修改它。",
+        "duration": 5.2388715744018555,
+        "action_execution_duration": 1.0524394512176514,
+        "prompt_tokens": 6089,
+        "prompt_action_tokens": 6089,
+        "completion_tokens": 71,
+        "total_tokens": 6160
+    },
+    {
+        "step": 11,
+        "operation": "action",
+        "screenshot": "D:\\Mobile-Agent\\MobileAgent-main\\MobileAgent-main\\app-data\\Ins-bench\\phoneagent_logs/full112_cn/t52_L1_r1/20260525-200604/screenshots/11.jpg",
+        "prompt_action": "** Screen Info **\n\n{\"current_app\": \"携程\"}",
+        "raw_response": "现在显示的是日期选择页面，当前显示的是2026年6月和7月的日历。我需要选择2025年1月1日（元旦）。我需要向上滚动或者查找2025年的日历。\n\n让我向上滚动来找到2025年。do(action=\"Swipe\", start=[499,526], end=[499,263])",
+        "action_object": {
+            "_metadata": "do",
+            "action": "Swipe",
+            "start": [
+                499,
+                526
+            ],
+            "end": [
+                499,
+                263
+            ]
+        },
+        "action_thought": "现在显示的是日期选择页面，当前显示的是2026年6月和7月的日历。我需要选择2025年1月1日（元旦）。我需要向上滚动或者查找2025年的日历。\n\n让我向上滚动来找到2025年。",
+        "duration": 7.060491323471069,
+        "action_execution_duration": 2.0785720348358154,
+        "prompt_tokens": 6176,
+        "prompt_action_tokens": 6176,
+        "completion_tokens": 80,
+        "total_tokens": 6256
+    },
+    {
+        "step": 12,
+        "operation": "action",
+        "screenshot": "D:\\Mobile-Agent\\MobileAgent-main\\MobileAgent-main\\app-data\\Ins-bench\\phoneagent_logs/full112_cn/t52_L1_r1/20260525-200604/screenshots/12.jpg",
+        "prompt_action": "** Screen Info **\n\n{\"current_app\": \"携程\"}",
+        "raw_response": "现在显示的是2026年7月和8月的日历。我需要继续向上滚动来找到2025年。\ndo(action=\"Swipe\", start=[499,526], end=[499,263])",
+        "action_object": {
+            "_metadata": "do",
+            "action": "Swipe",
+            "start": [
+                499,
+                526
+            ],
+            "end": [
+                499,
+                263
+            ]
+        },
+        "action_thought": "现在显示的是2026年7月和8月的日历。我需要继续向上滚动来找到2025年。",
+        "duration": 5.352276802062988,
+        "action_execution_duration": 2.0925018787384033,
+        "prompt_tokens": 6272,
+        "prompt_action_tokens": 6272,
+        "completion_tokens": 51,
+        "total_tokens": 6323
+    },
+    {
+        "step": 13,
+        "operation": "action",
+        "screenshot": "D:\\Mobile-Agent\\MobileAgent-main\\MobileAgent-main\\app-data\\Ins-bench\\phoneagent_logs/full112_cn/t52_L1_r1/20260525-200604/screenshots/13.jpg",
+        "prompt_action": "** Screen Info **\n\n{\"current_app\": \"携程\"}",
+        "raw_response": "现在显示的是2026年8月和9月的日历。我需要继续向上滚动来找到2025年。\ndo(action=\"Swipe\", start=[499,526], end=[499,263])",
+        "action_object": {
+            "_metadata": "do",
+            "action": "Swipe",
+            "start": [
+                499,
+                526
+            ],
+            "end": [
+                499,
+                263
+            ]
+        },
+        "action_thought": "现在显示的是2026年8月和9月的日历。我需要继续向上滚动来找到2025年。",
+        "duration": 5.059868574142456,
+        "action_execution_duration": 2.0741515159606934,
+        "prompt_tokens": 6338,
+        "prompt_action_tokens": 6338,
+        "completion_tokens": 51,
+        "total_tokens": 6389
+    },
+    {
+        "step": 14,
+        "operation": "action",
+        "screenshot": "D:\\Mobile-Agent\\MobileAgent-main\\MobileAgent-main\\app-data\\Ins-bench\\phoneagent_logs/full112_cn/t52_L1_r1/20260525-200604/screenshots/14.jpg",
+        "prompt_action": "** Screen Info **\n\n{\"current_app\": \"携程\"}",
+        "raw_response": "现在显示的是2026年8月、9月和10月的日历。我需要继续向上滚动来找到2025年。do(action=\"Swipe\", start=[499,526], end=[499,263])",
+        "action_object": {
+            "_metadata": "do",
+            "action": "Swipe",
+            "start": [
+                499,
+                526
+            ],
+            "end": [
+                499,
+                263
+            ]
+        },
+        "action_thought": "现在显示的是2026年8月、9月和10月的日历。我需要继续向上滚动来找到2025年。",
+        "duration": 6.719101190567017,
+        "action_execution_duration": 2.0831398963928223,
+        "prompt_tokens": 6404,
+        "prompt_action_tokens": 6404,
+        "completion_tokens": 53,
+        "total_tokens": 6457
+    },
+    {
+        "step": 15,
+        "operation": "action",
+        "screenshot": "D:\\Mobile-Agent\\MobileAgent-main\\MobileAgent-main\\app-data\\Ins-bench\\phoneagent_logs/full112_cn/t52_L1_r1/20260525-200604/screenshots/15.jpg",
+        "prompt_action": "** Screen Info **\n\n{\"current_app\": \"携程\"}",
+        "raw_response": "现在显示的是2026年9月、10月和11月的日历。我需要继续向上滚动来找到2025年。do(action=\"Swipe\", start=[499,526], end=[499,263])",
+        "action_object": {
+            "_metadata": "do",
+            "action": "Swipe",
+            "start": [
+                499,
+                526
+            ],
+            "end": [
+                499,
+                263
+            ]
+        },
+        "action_thought": "现在显示的是2026年9月、10月和11月的日历。我需要继续向上滚动来找到2025年。",
+        "duration": 6.565343856811523,
+        "action_execution_duration": 2.1073098182678223,
+        "prompt_tokens": 6473,
+        "prompt_action_tokens": 6473,
+        "completion_tokens": 53,
+        "total_tokens": 6526
+    },
+    {
+        "step": 16,
+        "operation": "action",
+        "screenshot": "D:\\Mobile-Agent\\MobileAgent-main\\MobileAgent-main\\app-data\\Ins-bench\\phoneagent_logs/full112_cn/t52_L1_r1/20260525-200604/screenshots/16.jpg",
+        "prompt_action": "** Screen Info **\n\n{\"current_app\": \"携程\"}",
+        "raw_response": "现在显示的是2026年10月、11月和12月的日历。我需要继续向上滚动来找到2025年。do(action=\"Swipe\", start=[499,526], end=[499,263])",
+        "action_object": {
+            "_metadata": "do",
+            "action": "Swipe",
+            "start": [
+                499,
+                526
+            ],
+            "end": [
+                499,
+                263
+            ]
+        },
+        "action_thought": "现在显示的是2026年10月、11月和12月的日历。我需要继续向上滚动来找到2025年。",
+        "duration": 6.215917110443115,
+        "action_execution_duration": 2.070366621017456,
+        "prompt_tokens": 6542,
+        "prompt_action_tokens": 6542,
+        "completion_tokens": 53,
+        "total_tokens": 6595
+    },
+    {
+        "step": 17,
+        "operation": "action",
+        "screenshot": "D:\\Mobile-Agent\\MobileAgent-main\\MobileAgent-main\\app-data\\Ins-bench\\phoneagent_logs/full112_cn/t52_L1_r1/20260525-200604/screenshots/17.jpg",
+        "prompt_action": "** Screen Info **\n\n{\"current_app\": \"携程\"}",
+        "raw_response": "现在显示的是2026年11月、12月和2027年1月的日历。我需要继续向上滚动来找到2025年。do(action=\"Swipe\", start=[499,526], end=[499,263])",
+        "action_object": {
+            "_metadata": "do",
+            "action": "Swipe",
+            "start": [
+                499,
+                526
+            ],
+            "end": [
+                499,
+                263
+            ]
+        },
+        "action_thought": "现在显示的是2026年11月、12月和2027年1月的日历。我需要继续向上滚动来找到2025年。",
+        "duration": 5.136920690536499,
+        "action_execution_duration": 2.092064142227173,
+        "prompt_tokens": 6611,
+        "prompt_action_tokens": 6611,
+        "completion_tokens": 56,
+        "total_tokens": 6667
+    },
+    {
+        "step": 18,
+        "operation": "action",
+        "screenshot": "D:\\Mobile-Agent\\MobileAgent-main\\MobileAgent-main\\app-data\\Ins-bench\\phoneagent_logs/full112_cn/t52_L1_r1/20260525-200604/screenshots/18.jpg",
+        "prompt_action": "** Screen Info **\n\n{\"current_app\": \"携程\"}",
+        "raw_response": "现在显示的是2027年1月和2月的日历。我需要继续向上滚动来找到2025年。do(action=\"Swipe\", start=[499,526], end=[499,263])",
+        "action_object": {
+            "_metadata": "do",
+            "action": "Swipe",
+            "start": [
+                499,
+                526
+            ],
+            "end": [
+                499,
+                263
+            ]
+        },
+        "action_thought": "现在显示的是2027年1月和2月的日历。我需要继续向上滚动来找到2025年。",
+        "duration": 5.0282063484191895,
+        "action_execution_duration": 2.0739352703094482,
+        "prompt_tokens": 6683,
+        "prompt_action_tokens": 6683,
+        "completion_tokens": 50,
+        "total_tokens": 6733
+    },
+    {
+        "step": 19,
+        "operation": "action",
+        "screenshot": "D:\\Mobile-Agent\\MobileAgent-main\\MobileAgent-main\\app-data\\Ins-bench\\phoneagent_logs/full112_cn/t52_L1_r1/20260525-200604/screenshots/19.jpg",
+        "prompt_action": "** Screen Info **\n\n{\"current_app\": \"携程\"}",
+        "raw_response": "现在显示的是2027年1月、2月和3月的日历。我需要继续向上滚动来找到2025年。do(action=\"Swipe\", start=[499,526], end=[499,263])",
+        "action_object": {
+            "_metadata": "do",
+            "action": "Swipe",
+            "start": [
+                499,
+                526
+            ],
+            "end": [
+                499,
+                263
+            ]
+        },
+        "action_thought": "现在显示的是2027年1月、2月和3月的日历。我需要继续向上滚动来找到2025年。",
+        "duration": 5.13638973236084,
+        "action_execution_duration": 2.0691990852355957,
+        "prompt_tokens": 6749,
+        "prompt_action_tokens": 6749,
+        "completion_tokens": 53,
+        "total_tokens": 6802
+    },
+    {
+        "step": 20,
+        "operation": "action",
+        "screenshot": "D:\\Mobile-Agent\\MobileAgent-main\\MobileAgent-main\\app-data\\Ins-bench\\phoneagent_logs/full112_cn/t52_L1_r1/20260525-200604/screenshots/20.jpg",
+        "prompt_action": "** Screen Info **\n\n{\"current_app\": \"携程\"}",
+        "raw_response": "现在显示的是2027年2月、3月和4月的日历。我需要继续向上滚动来找到2025年。do(action=\"Swipe\", start=[499,526], end=[499,263])",
+        "action_object": {
+            "_metadata": "do",
+            "action": "Swipe",
+            "start": [
+                499,
+                526
+            ],
+            "end": [
+                499,
+                263
+            ]
+        },
+        "action_thought": "现在显示的是2027年2月、3月和4月的日历。我需要继续向上滚动来找到2025年。",
+        "duration": 4.940038442611694,
+        "action_execution_duration": 2.0652756690979004,
+        "prompt_tokens": 6818,
+        "prompt_action_tokens": 6818,
+        "completion_tokens": 53,
+        "total_tokens": 6871
+    },
+    {
+        "step": 21,
+        "operation": "action",
+        "screenshot": "D:\\Mobile-Agent\\MobileAgent-main\\MobileAgent-main\\app-data\\Ins-bench\\phoneagent_logs/full112_cn/t52_L1_r1/20260525-200604/screenshots/21.jpg",
+        "prompt_action": "** Screen Info **\n\n{\"current_app\": \"携程\"}",
+        "raw_response": "现在显示的是2027年3月、4月和5月的日历。我需要继续向上滚动来找到2025年。do(action=\"Swipe\", start=[499,526], end=[499,263])",
+        "action_object": {
+            "_metadata": "do",
+            "action": "Swipe",
+            "start": [
+                499,
+                526
+            ],
+            "end": [
+                499,
+                263
+            ]
+        },
+        "action_thought": "现在显示的是2027年3月、4月和5月的日历。我需要继续向上滚动来找到2025年。",
+        "duration": 5.883741617202759,
+        "action_execution_duration": 2.18152117729187,
+        "prompt_tokens": 6887,
+        "prompt_action_tokens": 6887,
+        "completion_tokens": 53,
+        "total_tokens": 6940
+    },
+    {
+        "step": 22,
+        "operation": "action",
+        "screenshot": "D:\\Mobile-Agent\\MobileAgent-main\\MobileAgent-main\\app-data\\Ins-bench\\phoneagent_logs/full112_cn/t52_L1_r1/20260525-200604/screenshots/22.jpg",
+        "prompt_action": "** Screen Info **\n\n{\"current_app\": \"携程\"}",
+        "raw_response": "现在显示的是2027年4月和5月的日历。我需要继续向上滚动来找到2025年。do(action=\"Swipe\", start=[499,526], end=[499,263])",
+        "action_object": {
+            "_metadata": "do",
+            "action": "Swipe",
+            "start": [
+                499,
+                526
+            ],
+            "end": [
+                499,
+                263
+            ]
+        },
+        "action_thought": "现在显示的是2027年4月和5月的日历。我需要继续向上滚动来找到2025年。",
+        "duration": 10.665862560272217,
+        "action_execution_duration": 2.0826735496520996,
+        "prompt_tokens": 6956,
+        "prompt_action_tokens": 6956,
+        "completion_tokens": 50,
+        "total_tokens": 7006
+    },
+    {
+        "step": 23,
+        "operation": "action",
+        "screenshot": "D:\\Mobile-Agent\\MobileAgent-main\\MobileAgent-main\\app-data\\Ins-bench\\phoneagent_logs/full112_cn/t52_L1_r1/20260525-200604/screenshots/23.jpg",
+        "prompt_action": "** Screen Info **\n\n{\"current_app\": \"携程\"}",
+        "raw_response": "现在显示的是2027年4月和5月的日历。我需要继续向上滚动来找到2025年。do(action=\"Swipe\", start=[499,526], end=[499,263])",
+        "action_object": {
+            "_metadata": "do",
+            "action": "Swipe",
+            "start": [
+                499,
+                526
+            ],
+            "end": [
+                499,
+                263
+            ]
+        },
+        "action_thought": "现在显示的是2027年4月和5月的日历。我需要继续向上滚动来找到2025年。",
+        "duration": 5.2233359813690186,
+        "action_execution_duration": 2.0702216625213623,
+        "prompt_tokens": 7022,
+        "prompt_action_tokens": 7022,
+        "completion_tokens": 50,
+        "total_tokens": 7072
+    },
+    {
+        "step": 24,
+        "operation": "action",
+        "screenshot": "D:\\Mobile-Agent\\MobileAgent-main\\MobileAgent-main\\app-data\\Ins-bench\\phoneagent_logs/full112_cn/t52_L1_r1/20260525-200604/screenshots/24.jpg",
+        "prompt_action": "** Screen Info **\n\n{\"current_app\": \"携程\"}",
+        "raw_response": "现在显示的是2027年4月和5月的日历。我需要继续向上滚动来找到2025年。do(action=\"Swipe\", start=[499,526], end=[499,263])",
+        "action_object": {
+            "_metadata": "do",
+            "action": "Swipe",
+            "start": [
+                499,
+                526
+            ],
+            "end": [
+                499,
+                263
+            ]
+        },
+        "action_thought": "现在显示的是2027年4月和5月的日历。我需要继续向上滚动来找到2025年。",
+        "duration": 4.962208986282349,
+        "action_execution_duration": 2.0687646865844727,
+        "prompt_tokens": 7088,
+        "prompt_action_tokens": 7088,
+        "completion_tokens": 50,
+        "total_tokens": 7138
+    },
+    {
+        "step": 25,
+        "operation": "action",
+        "screenshot": "D:\\Mobile-Agent\\MobileAgent-main\\MobileAgent-main\\app-data\\Ins-bench\\phoneagent_logs/full112_cn/t52_L1_r1/20260525-200604/screenshots/25.jpg",
+        "prompt_action": "** Screen Info **\n\n{\"current_app\": \"携程\"}",
+        "raw_response": "现在显示的是2027年4月和5月的日历。我需要继续向上滚动来找到2025年。do(action=\"Swipe\", start=[499,526], end=[499,263])",
+        "action_object": {
+            "_metadata": "do",
+            "action": "Swipe",
+            "start": [
+                499,
+                526
+            ],
+            "end": [
+                499,
+                263
+            ]
+        },
+        "action_thought": "现在显示的是2027年4月和5月的日历。我需要继续向上滚动来找到2025年。",
+        "duration": 5.091329097747803,
+        "action_execution_duration": 2.0972952842712402,
+        "prompt_tokens": 7154,
+        "prompt_action_tokens": 7154,
+        "completion_tokens": 50,
+        "total_tokens": 7204
+    },
+    {
+        "step": 26,
+        "operation": "action",
+        "screenshot": "D:\\Mobile-Agent\\MobileAgent-main\\MobileAgent-main\\app-data\\Ins-bench\\phoneagent_logs/full112_cn/t52_L1_r1/20260525-200604/screenshots/26.jpg",
+        "prompt_action": "** Screen Info **\n\n{\"current_app\": \"携程\"}",
+        "raw_response": "现在显示的是2027年4月和5月的日历。我需要继续向上滚动来找到2025年。do(action=\"Swipe\", start=[499,526], end=[499,263])",
+        "action_object": {
+            "_metadata": "do",
+            "action": "Swipe",
+            "start": [
+                499,
+                526
+            ],
+            "end": [
+                499,
+                263
+            ]
+        },
+        "action_thought": "现在显示的是2027年4月和5月的日历。我需要继续向上滚动来找到2025年。",
+        "duration": 5.097026348114014,
+        "action_execution_duration": 2.0779571533203125,
+        "prompt_tokens": 7220,
+        "prompt_action_tokens": 7220,
+        "completion_tokens": 50,
+        "total_tokens": 7270
+    },
+    {
+        "step": 27,
+        "operation": "action",
+        "screenshot": "D:\\Mobile-Agent\\MobileAgent-main\\MobileAgent-main\\app-data\\Ins-bench\\phoneagent_logs/full112_cn/t52_L1_r1/20260525-200604/screenshots/27.jpg",
+        "prompt_action": "** Screen Info **\n\n{\"current_app\": \"携程\"}",
+        "raw_response": "现在显示的是2027年4月和5月的日历。我需要继续向上滚动来找到2025年。do(action=\"Swipe\", start=[499,526], end=[499,263])",
+        "action_object": {
+            "_metadata": "do",
+            "action": "Swipe",
+            "start": [
+                499,
+                526
+            ],
+            "end": [
+                499,
+                263
+            ]
+        },
+        "action_thought": "现在显示的是2027年4月和5月的日历。我需要继续向上滚动来找到2025年。",
+        "duration": 5.297133922576904,
+        "action_execution_duration": 2.067545175552368,
+        "prompt_tokens": 7286,
+        "prompt_action_tokens": 7286,
+        "completion_tokens": 50,
+        "total_tokens": 7336
+    },
+    {
+        "step": 28,
+        "operation": "action",
+        "screenshot": "D:\\Mobile-Agent\\MobileAgent-main\\MobileAgent-main\\app-data\\Ins-bench\\phoneagent_logs/full112_cn/t52_L1_r1/20260525-200604/screenshots/28.jpg",
+        "prompt_action": "** Screen Info **\n\n{\"current_app\": \"携程\"}",
+        "raw_response": "现在显示的是2027年4月和5月的日历。我需要继续向上滚动来找到2025年。do(action=\"Swipe\", start=[499,526], end=[499,263])",
+        "action_object": {
+            "_metadata": "do",
+            "action": "Swipe",
+            "start": [
+                499,
+                526
+            ],
+            "end": [
+                499,
+                263
+            ]
+        },
+        "action_thought": "现在显示的是2027年4月和5月的日历。我需要继续向上滚动来找到2025年。",
+        "duration": 5.603452920913696,
+        "action_execution_duration": 2.0852580070495605,
+        "prompt_tokens": 7352,
+        "prompt_action_tokens": 7352,
+        "completion_tokens": 50,
+        "total_tokens": 7402
+    },
+    {
+        "step": 29,
+        "operation": "action",
+        "screenshot": "D:\\Mobile-Agent\\MobileAgent-main\\MobileAgent-main\\app-data\\Ins-bench\\phoneagent_logs/full112_cn/t52_L1_r1/20260525-200604/screenshots/29.jpg",
+        "prompt_action": "** Screen Info **\n\n{\"current_app\": \"携程\"}",
+        "raw_response": "现在显示的是2027年4月和5月的日历。我需要继续向上滚动来找到2025年。do(action=\"Swipe\", start=[499,526], end=[499,263])",
+        "action_object": {
+            "_metadata": "do",
+            "action": "Swipe",
+            "start": [
+                499,
+                526
+            ],
+            "end": [
+                499,
+                263
+            ]
+        },
+        "action_thought": "现在显示的是2027年4月和5月的日历。我需要继续向上滚动来找到2025年。",
+        "duration": 5.259338140487671,
+        "action_execution_duration": 2.085052013397217,
+        "prompt_tokens": 7418,
+        "prompt_action_tokens": 7418,
+        "completion_tokens": 50,
+        "total_tokens": 7468
+    },
+    {
+        "step": 30,
+        "operation": "action",
+        "screenshot": "D:\\Mobile-Agent\\MobileAgent-main\\MobileAgent-main\\app-data\\Ins-bench\\phoneagent_logs/full112_cn/t52_L1_r1/20260525-200604/screenshots/30.jpg",
+        "prompt_action": "** Screen Info **\n\n{\"current_app\": \"携程\"}",
+        "raw_response": "现在显示的是2027年4月和5月的日历。我需要继续向上滚动来找到2025年。do(action=\"Swipe\", start=[499,526], end=[499,263])",
+        "action_object": {
+            "_metadata": "do",
+            "action": "Swipe",
+            "start": [
+                499,
+                526
+            ],
+            "end": [
+                499,
+                263
+            ]
+        },
+        "action_thought": "现在显示的是2027年4月和5月的日历。我需要继续向上滚动来找到2025年。",
+        "duration": 5.073472499847412,
+        "action_execution_duration": 2.0845305919647217,
+        "prompt_tokens": 7484,
+        "prompt_action_tokens": 7484,
+        "completion_tokens": 50,
+        "total_tokens": 7534
+    },
+    {
+        "step": 31,
+        "operation": "action",
+        "screenshot": "D:\\Mobile-Agent\\MobileAgent-main\\MobileAgent-main\\app-data\\Ins-bench\\phoneagent_logs/full112_cn/t52_L1_r1/20260525-200604/screenshots/31.jpg",
+        "prompt_action": "** Screen Info **\n\n{\"current_app\": \"携程\"}",
+        "raw_response": "现在显示的是2027年4月和5月的日历。我需要继续向上滚动来找到2025年。do(action=\"Swipe\", start=[499,526], end=[499,263])",
+        "action_object": {
+            "_metadata": "do",
+            "action": "Swipe",
+            "start": [
+                499,
+                526
+            ],
+            "end": [
+                499,
+                263
+            ]
+        },
+        "action_thought": "现在显示的是2027年4月和5月的日历。我需要继续向上滚动来找到2025年。",
+        "duration": 5.483419895172119,
+        "action_execution_duration": 2.0918455123901367,
+        "prompt_tokens": 7550,
+        "prompt_action_tokens": 7550,
+        "completion_tokens": 50,
+        "total_tokens": 7600
+    },
+    {
+        "step": 32,
+        "operation": "action",
+        "screenshot": "D:\\Mobile-Agent\\MobileAgent-main\\MobileAgent-main\\app-data\\Ins-bench\\phoneagent_logs/full112_cn/t52_L1_r1/20260525-200604/screenshots/32.jpg",
+        "prompt_action": "** Screen Info **\n\n{\"current_app\": \"携程\"}",
+        "raw_response": "现在显示的是2027年4月和5月的日历。我需要继续向上滚动来找到2025年。do(action=\"Swipe\", start=[499,526], end=[499,263])",
+        "action_object": {
+            "_metadata": "do",
+            "action": "Swipe",
+            "start": [
+                499,
+                526
+            ],
+            "end": [
+                499,
+                263
+            ]
+        },
+        "action_thought": "现在显示的是2027年4月和5月的日历。我需要继续向上滚动来找到2025年。",
+        "duration": 4.941107273101807,
+        "action_execution_duration": 2.063538074493408,
+        "prompt_tokens": 7616,
+        "prompt_action_tokens": 7616,
+        "completion_tokens": 50,
+        "total_tokens": 7666
+    },
+    {
+        "step": 33,
+        "operation": "action",
+        "screenshot": "D:\\Mobile-Agent\\MobileAgent-main\\MobileAgent-main\\app-data\\Ins-bench\\phoneagent_logs/full112_cn/t52_L1_r1/20260525-200604/screenshots/33.jpg",
+        "prompt_action": "** Screen Info **\n\n{\"current_app\": \"携程\"}",
+        "raw_response": "现在显示的是2027年4月和5月的日历。我需要继续向上滚动来找到2025年。do(action=\"Swipe\", start=[499,526], end=[499,263])",
+        "action_object": {
+            "_metadata": "do",
+            "action": "Swipe",
+            "start": [
+                499,
+                526
+            ],
+            "end": [
+                499,
+                263
+            ]
+        },
+        "action_thought": "现在显示的是2027年4月和5月的日历。我需要继续向上滚动来找到2025年。",
+        "duration": 5.17903470993042,
+        "action_execution_duration": 2.0769848823547363,
+        "prompt_tokens": 7682,
+        "prompt_action_tokens": 7682,
+        "completion_tokens": 50,
+        "total_tokens": 7732
+    },
+    {
+        "step": 34,
+        "operation": "action",
+        "screenshot": "D:\\Mobile-Agent\\MobileAgent-main\\MobileAgent-main\\app-data\\Ins-bench\\phoneagent_logs/full112_cn/t52_L1_r1/20260525-200604/screenshots/34.jpg",
+        "prompt_action": "** Screen Info **\n\n{\"current_app\": \"携程\"}",
+        "raw_response": "现在显示的是2027年4月和5月的日历。我需要继续向上滚动来找到2025年。do(action=\"Swipe\", start=[499,526], end=[499,263])",
+        "action_object": {
+            "_metadata": "do",
+            "action": "Swipe",
+            "start": [
+                499,
+                526
+            ],
+            "end": [
+                499,
+                263
+            ]
+        },
+        "action_thought": "现在显示的是2027年4月和5月的日历。我需要继续向上滚动来找到2025年。",
+        "duration": 5.597157001495361,
+        "action_execution_duration": 2.097097635269165,
+        "prompt_tokens": 7748,
+        "prompt_action_tokens": 7748,
+        "completion_tokens": 50,
+        "total_tokens": 7798
+    },
+    {
+        "step": 35,
+        "operation": "action",
+        "screenshot": "D:\\Mobile-Agent\\MobileAgent-main\\MobileAgent-main\\app-data\\Ins-bench\\phoneagent_logs/full112_cn/t52_L1_r1/20260525-200604/screenshots/35.jpg",
+        "prompt_action": "** Screen Info **\n\n{\"current_app\": \"携程\"}",
+        "raw_response": "现在显示的是2027年4月和5月的日历。我需要继续向上滚动来找到2025年。do(action=\"Swipe\", start=[499,526], end=[499,263])",
+        "action_object": {
+            "_metadata": "do",
+            "action": "Swipe",
+            "start": [
+                499,
+                526
+            ],
+            "end": [
+                499,
+                263
+            ]
+        },
+        "action_thought": "现在显示的是2027年4月和5月的日历。我需要继续向上滚动来找到2025年。",
+        "duration": 5.073937892913818,
+        "action_execution_duration": 2.0901989936828613,
+        "prompt_tokens": 7814,
+        "prompt_action_tokens": 7814,
+        "completion_tokens": 50,
+        "total_tokens": 7864
+    },
+    {
+        "step": 36,
+        "operation": "action",
+        "screenshot": "D:\\Mobile-Agent\\MobileAgent-main\\MobileAgent-main\\app-data\\Ins-bench\\phoneagent_logs/full112_cn/t52_L1_r1/20260525-200604/screenshots/36.jpg",
+        "prompt_action": "** Screen Info **\n\n{\"current_app\": \"携程\"}",
+        "raw_response": "现在显示的是2027年4月和5月的日历。我需要继续向上滚动来找到2025年。do(action=\"Swipe\", start=[499,526], end=[499,263])",
+        "action_object": {
+            "_metadata": "do",
+            "action": "Swipe",
+            "start": [
+                499,
+                526
+            ],
+            "end": [
+                499,
+                263
+            ]
+        },
+        "action_thought": "现在显示的是2027年4月和5月的日历。我需要继续向上滚动来找到2025年。",
+        "duration": 6.275386571884155,
+        "action_execution_duration": 2.061060905456543,
+        "prompt_tokens": 7880,
+        "prompt_action_tokens": 7880,
+        "completion_tokens": 50,
+        "total_tokens": 7930
+    },
+    {
+        "step": 37,
+        "operation": "action",
+        "screenshot": "D:\\Mobile-Agent\\MobileAgent-main\\MobileAgent-main\\app-data\\Ins-bench\\phoneagent_logs/full112_cn/t52_L1_r1/20260525-200604/screenshots/37.jpg",
+        "prompt_action": "** Screen Info **\n\n{\"current_app\": \"携程\"}",
+        "raw_response": "现在显示的是2027年4月和5月的日历。我需要继续向上滚动来找到2025年。do(action=\"Swipe\", start=[499,526], end=[499,263])",
+        "action_object": {
+            "_metadata": "do",
+            "action": "Swipe",
+            "start": [
+                499,
+                526
+            ],
+            "end": [
+                499,
+                263
+            ]
+        },
+        "action_thought": "现在显示的是2027年4月和5月的日历。我需要继续向上滚动来找到2025年。",
+        "duration": 5.180166006088257,
+        "action_execution_duration": 2.074378252029419,
+        "prompt_tokens": 7946,
+        "prompt_action_tokens": 7946,
+        "completion_tokens": 50,
+        "total_tokens": 7996
+    },
+    {
+        "step": 38,
+        "operation": "action",
+        "screenshot": "D:\\Mobile-Agent\\MobileAgent-main\\MobileAgent-main\\app-data\\Ins-bench\\phoneagent_logs/full112_cn/t52_L1_r1/20260525-200604/screenshots/38.jpg",
+        "prompt_action": "** Screen Info **\n\n{\"current_app\": \"携程\"}",
+        "raw_response": "现在显示的是2027年4月和5月的日历。我需要继续向上滚动来找到2025年。do(action=\"Swipe\", start=[499,526], end=[499,263])",
+        "action_object": {
+            "_metadata": "do",
+            "action": "Swipe",
+            "start": [
+                499,
+                526
+            ],
+            "end": [
+                499,
+                263
+            ]
+        },
+        "action_thought": "现在显示的是2027年4月和5月的日历。我需要继续向上滚动来找到2025年。",
+        "duration": 4.822079658508301,
+        "action_execution_duration": 2.0832631587982178,
+        "prompt_tokens": 8012,
+        "prompt_action_tokens": 8012,
+        "completion_tokens": 50,
+        "total_tokens": 8062
+    },
+    {
+        "step": 39,
+        "operation": "action",
+        "screenshot": "D:\\Mobile-Agent\\MobileAgent-main\\MobileAgent-main\\app-data\\Ins-bench\\phoneagent_logs/full112_cn/t52_L1_r1/20260525-200604/screenshots/39.jpg",
+        "prompt_action": "** Screen Info **\n\n{\"current_app\": \"携程\"}",
+        "raw_response": "现在显示的是2027年4月和5月的日历。我需要继续向上滚动来找到2025年。do(action=\"Swipe\", start=[499,526], end=[499,263])",
+        "action_object": {
+            "_metadata": "do",
+            "action": "Swipe",
+            "start": [
+                499,
+                526
+            ],
+            "end": [
+                499,
+                263
+            ]
+        },
+        "action_thought": "现在显示的是2027年4月和5月的日历。我需要继续向上滚动来找到2025年。",
+        "duration": 5.798108339309692,
+        "action_execution_duration": 2.0946402549743652,
+        "prompt_tokens": 8078,
+        "prompt_action_tokens": 8078,
+        "completion_tokens": 50,
+        "total_tokens": 8128
+    },
+    {
+        "step": 40,
+        "operation": "action",
+        "screenshot": "D:\\Mobile-Agent\\MobileAgent-main\\MobileAgent-main\\app-data\\Ins-bench\\phoneagent_logs/full112_cn/t52_L1_r1/20260525-200604/screenshots/40.jpg",
+        "prompt_action": "** Screen Info **\n\n{\"current_app\": \"携程\"}",
+        "raw_response": "现在显示的是2027年4月和5月的日历。我需要继续向上滚动来找到2025年。do(action=\"Swipe\", start=[499,526], end=[499,263])",
+        "action_object": {
+            "_metadata": "do",
+            "action": "Swipe",
+            "start": [
+                499,
+                526
+            ],
+            "end": [
+                499,
+                263
+            ]
+        },
+        "action_thought": "现在显示的是2027年4月和5月的日历。我需要继续向上滚动来找到2025年。",
+        "duration": 5.027772426605225,
+        "action_execution_duration": 2.0910871028900146,
+        "prompt_tokens": 8144,
+        "prompt_action_tokens": 8144,
+        "completion_tokens": 50,
+        "total_tokens": 8194
+    },
+    {
+        "step": 41,
+        "operation": "action",
+        "screenshot": "D:\\Mobile-Agent\\MobileAgent-main\\MobileAgent-main\\app-data\\Ins-bench\\phoneagent_logs/full112_cn/t52_L1_r1/20260525-200604/screenshots/41.jpg",
+        "prompt_action": "** Screen Info **\n\n{\"current_app\": \"携程\"}",
+        "raw_response": "现在显示的是2027年4月和5月的日历。我需要继续向上滚动来找到2025年。do(action=\"Swipe\", start=[499,526], end=[499,263])",
+        "action_object": {
+            "_metadata": "do",
+            "action": "Swipe",
+            "start": [
+                499,
+                526
+            ],
+            "end": [
+                499,
+                263
+            ]
+        },
+        "action_thought": "现在显示的是2027年4月和5月的日历。我需要继续向上滚动来找到2025年。",
+        "duration": 5.496493577957153,
+        "action_execution_duration": 2.0904157161712646,
+        "prompt_tokens": 8210,
+        "prompt_action_tokens": 8210,
+        "completion_tokens": 50,
+        "total_tokens": 8260
+    },
+    {
+        "step": 42,
+        "operation": "action",
+        "screenshot": "D:\\Mobile-Agent\\MobileAgent-main\\MobileAgent-main\\app-data\\Ins-bench\\phoneagent_logs/full112_cn/t52_L1_r1/20260525-200604/screenshots/42.jpg",
+        "prompt_action": "** Screen Info **\n\n{\"current_app\": \"携程\"}",
+        "raw_response": "现在显示的是2027年4月和5月的日历。我需要继续向上滚动来找到2025年。do(action=\"Swipe\", start=[499,526], end=[499,263])",
+        "action_object": {
+            "_metadata": "do",
+            "action": "Swipe",
+            "start": [
+                499,
+                526
+            ],
+            "end": [
+                499,
+                263
+            ]
+        },
+        "action_thought": "现在显示的是2027年4月和5月的日历。我需要继续向上滚动来找到2025年。",
+        "duration": 9.339974880218506,
+        "action_execution_duration": 2.081176519393921,
+        "prompt_tokens": 8276,
+        "prompt_action_tokens": 8276,
+        "completion_tokens": 50,
+        "total_tokens": 8326
+    },
+    {
+        "step": 43,
+        "operation": "action",
+        "screenshot": "D:\\Mobile-Agent\\MobileAgent-main\\MobileAgent-main\\app-data\\Ins-bench\\phoneagent_logs/full112_cn/t52_L1_r1/20260525-200604/screenshots/43.jpg",
+        "prompt_action": "** Screen Info **\n\n{\"current_app\": \"携程\"}",
+        "raw_response": "现在显示的是2027年4月和5月的日历。我需要继续向上滚动来找到2025年。do(action=\"Swipe\", start=[499,526], end=[499,263])",
+        "action_object": {
+            "_metadata": "do",
+            "action": "Swipe",
+            "start": [
+                499,
+                526
+            ],
+            "end": [
+                499,
+                263
+            ]
+        },
+        "action_thought": "现在显示的是2027年4月和5月的日历。我需要继续向上滚动来找到2025年。",
+        "duration": 4.992018699645996,
+        "action_execution_duration": 2.075950860977173,
+        "prompt_tokens": 8342,
+        "prompt_action_tokens": 8342,
+        "completion_tokens": 50,
+        "total_tokens": 8392
+    },
+    {
+        "step": 44,
+        "operation": "action",
+        "screenshot": "D:\\Mobile-Agent\\MobileAgent-main\\MobileAgent-main\\app-data\\Ins-bench\\phoneagent_logs/full112_cn/t52_L1_r1/20260525-200604/screenshots/44.jpg",
+        "prompt_action": "** Screen Info **\n\n{\"current_app\": \"携程\"}",
+        "raw_response": "现在显示的是2027年4月和5月的日历。我需要继续向上滚动来找到2025年。do(action=\"Swipe\", start=[499,526], end=[499,263])",
+        "action_object": {
+            "_metadata": "do",
+            "action": "Swipe",
+            "start": [
+                499,
+                526
+            ],
+            "end": [
+                499,
+                263
+            ]
+        },
+        "action_thought": "现在显示的是2027年4月和5月的日历。我需要继续向上滚动来找到2025年。",
+        "duration": 5.274422883987427,
+        "action_execution_duration": 2.0779826641082764,
+        "prompt_tokens": 8408,
+        "prompt_action_tokens": 8408,
+        "completion_tokens": 50,
+        "total_tokens": 8458
+    },
+    {
+        "step": 45,
+        "operation": "action",
+        "screenshot": "D:\\Mobile-Agent\\MobileAgent-main\\MobileAgent-main\\app-data\\Ins-bench\\phoneagent_logs/full112_cn/t52_L1_r1/20260525-200604/screenshots/45.jpg",
+        "prompt_action": "** Screen Info **\n\n{\"current_app\": \"携程\"}",
+        "raw_response": "现在显示的是2027年4月和5月的日历。我需要继续向上滚动来找到2025年。do(action=\"Swipe\", start=[499,526], end=[499,263])",
+        "action_object": {
+            "_metadata": "do",
+            "action": "Swipe",
+            "start": [
+                499,
+                526
+            ],
+            "end": [
+                499,
+                263
+            ]
+        },
+        "action_thought": "现在显示的是2027年4月和5月的日历。我需要继续向上滚动来找到2025年。",
+        "duration": 5.213521718978882,
+        "action_execution_duration": 2.062126398086548,
+        "prompt_tokens": 8474,
+        "prompt_action_tokens": 8474,
+        "completion_tokens": 50,
+        "total_tokens": 8524
+    },
+    {
+        "step": 46,
+        "operation": "action",
+        "screenshot": "D:\\Mobile-Agent\\MobileAgent-main\\MobileAgent-main\\app-data\\Ins-bench\\phoneagent_logs/full112_cn/t52_L1_r1/20260525-200604/screenshots/46.jpg",
+        "prompt_action": "** Screen Info **\n\n{\"current_app\": \"携程\"}",
+        "raw_response": "现在显示的是2027年4月和5月的日历。我需要继续向上滚动来找到2025年。do(action=\"Swipe\", start=[499,526], end=[499,263])",
+        "action_object": {
+            "_metadata": "do",
+            "action": "Swipe",
+            "start": [
+                499,
+                526
+            ],
+            "end": [
+                499,
+                263
+            ]
+        },
+        "action_thought": "现在显示的是2027年4月和5月的日历。我需要继续向上滚动来找到2025年。",
+        "duration": 5.286852121353149,
+        "action_execution_duration": 2.0927155017852783,
+        "prompt_tokens": 8540,
+        "prompt_action_tokens": 8540,
+        "completion_tokens": 50,
+        "total_tokens": 8590
+    },
+    {
+        "step": 47,
+        "operation": "action",
+        "screenshot": "D:\\Mobile-Agent\\MobileAgent-main\\MobileAgent-main\\app-data\\Ins-bench\\phoneagent_logs/full112_cn/t52_L1_r1/20260525-200604/screenshots/47.jpg",
+        "prompt_action": "** Screen Info **\n\n{\"current_app\": \"携程\"}",
+        "raw_response": "现在显示的是2027年4月和5月的日历。我需要继续向上滚动来找到2025年。do(action=\"Swipe\", start=[499,526], end=[499,263])",
+        "action_object": {
+            "_metadata": "do",
+            "action": "Swipe",
+            "start": [
+                499,
+                526
+            ],
+            "end": [
+                499,
+                263
+            ]
+        },
+        "action_thought": "现在显示的是2027年4月和5月的日历。我需要继续向上滚动来找到2025年。",
+        "duration": 5.262696266174316,
+        "action_execution_duration": 2.093081474304199,
+        "prompt_tokens": 8606,
+        "prompt_action_tokens": 8606,
+        "completion_tokens": 50,
+        "total_tokens": 8656
+    },
+    {
+        "step": 48,
+        "operation": "action",
+        "screenshot": "D:\\Mobile-Agent\\MobileAgent-main\\MobileAgent-main\\app-data\\Ins-bench\\phoneagent_logs/full112_cn/t52_L1_r1/20260525-200604/screenshots/48.jpg",
+        "prompt_action": "** Screen Info **\n\n{\"current_app\": \"携程\"}",
+        "raw_response": "现在显示的是2027年4月和5月的日历。我需要继续向上滚动来找到2025年。do(action=\"Swipe\", start=[499,526], end=[499,263])",
+        "action_object": {
+            "_metadata": "do",
+            "action": "Swipe",
+            "start": [
+                499,
+                526
+            ],
+            "end": [
+                499,
+                263
+            ]
+        },
+        "action_thought": "现在显示的是2027年4月和5月的日历。我需要继续向上滚动来找到2025年。",
+        "duration": 5.214019536972046,
+        "action_execution_duration": 2.0771496295928955,
+        "prompt_tokens": 8672,
+        "prompt_action_tokens": 8672,
+        "completion_tokens": 50,
+        "total_tokens": 8722
+    },
+    {
+        "step": 49,
+        "operation": "action",
+        "screenshot": "D:\\Mobile-Agent\\MobileAgent-main\\MobileAgent-main\\app-data\\Ins-bench\\phoneagent_logs/full112_cn/t52_L1_r1/20260525-200604/screenshots/49.jpg",
+        "prompt_action": "** Screen Info **\n\n{\"current_app\": \"携程\"}",
+        "raw_response": "现在显示的是2027年4月和5月的日历。我需要继续向上滚动来找到2025年。do(action=\"Swipe\", start=[499,526], end=[499,263])",
+        "action_object": {
+            "_metadata": "do",
+            "action": "Swipe",
+            "start": [
+                499,
+                526
+            ],
+            "end": [
+                499,
+                263
+            ]
+        },
+        "action_thought": "现在显示的是2027年4月和5月的日历。我需要继续向上滚动来找到2025年。",
+        "duration": 5.5452353954315186,
+        "action_execution_duration": 2.0567610263824463,
+        "prompt_tokens": 8738,
+        "prompt_action_tokens": 8738,
+        "completion_tokens": 50,
+        "total_tokens": 8788
+    },
+    {
+        "step": 50,
+        "operation": "action",
+        "screenshot": "D:\\Mobile-Agent\\MobileAgent-main\\MobileAgent-main\\app-data\\Ins-bench\\phoneagent_logs/full112_cn/t52_L1_r1/20260525-200604/screenshots/50.jpg",
+        "prompt_action": "** Screen Info **\n\n{\"current_app\": \"携程\"}",
+        "raw_response": "现在显示的是2027年4月和5月的日历。我需要继续向上滚动来找到2025年。do(action=\"Swipe\", start=[499,526], end=[499,263])",
+        "action_object": {
+            "_metadata": "do",
+            "action": "Swipe",
+            "start": [
+                499,
+                526
+            ],
+            "end": [
+                499,
+                263
+            ]
+        },
+        "action_thought": "现在显示的是2027年4月和5月的日历。我需要继续向上滚动来找到2025年。",
+        "duration": 4.9951746463775635,
+        "action_execution_duration": 2.0917041301727295,
+        "prompt_tokens": 8804,
+        "prompt_action_tokens": 8804,
+        "completion_tokens": 50,
+        "total_tokens": 8854
+    },
+    {
+        "step": 50,
+        "operation": "finish",
+        "finish_flag": "max_steps_reached",
+        "task_duration": 279.18529629707336
+    }
+]

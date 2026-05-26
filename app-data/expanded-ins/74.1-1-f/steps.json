@@ -1,0 +1,646 @@
+[
+    {
+        "step": 0,
+        "operation": "init",
+        "instruction": "Post a tweet about how nice the weather is today.",
+        "task_id": "20260526-114357",
+        "run_name": "test",
+        "max_steps": 300
+    },
+    {
+        "step": 1,
+        "operation": "action",
+        "screenshot": "logs/test/20260526-114357/screenshots/1.jpg",
+        "prompt_action": "Post a tweet about how nice the weather is today.\n\n{\"current_app\": \"System Home\"}",
+        "raw_response": "用户想要发布一条关于今天天气好的微博。我需要：\n1. 打开微博应用\n2. 找到发布微博的入口\n3. 创建一条关于天气好的微博内容\n4. 发布这条微博\n\n首先，我需要启动微博应用。从截图中，我可以看到这是系统桌面，我需要找到微博应用。让我查看屏幕上的应用图标。\n\n我看到了\"天气\"应用（显示32度），还有其他一些应用。但我需要找到微博应用。微博应该在允许的应用列表中。让我使用Launch功能直接启动微博应用。\ndo(action=\"Launch\", app=\"微博\")",
+        "action_object": {
+            "_metadata": "do",
+            "action": "Launch",
+            "app": "微博"
+        },
+        "action_thought": "用户想要发布一条关于今天天气好的微博。我需要：\n1. 打开微博应用\n2. 找到发布微博的入口\n3. 创建一条关于天气好的微博内容\n4. 发布这条微博\n\n首先，我需要启动微博应用。从截图中，我可以看到这是系统桌面，我需要找到微博应用。让我查看屏幕上的应用图标。\n\n我看到了\"天气\"应用（显示32度），还有其他一些应用。但我需要找到微博应用。微博应该在允许的应用列表中。让我使用Launch功能直接启动微博应用。",
+        "duration": 9.587632894515991,
+        "action_execution_duration": 1.5965135097503662,
+        "prompt_tokens": 3939,
+        "prompt_action_tokens": 3939,
+        "completion_tokens": 129,
+        "total_tokens": 4068
+    },
+    {
+        "step": 2,
+        "operation": "action",
+        "screenshot": "logs/test/20260526-114357/screenshots/2.jpg",
+        "prompt_action": "** Screen Info **\n\n{\"current_app\": \"System Home\"}",
+        "raw_response": "看起来微博应用没有成功启动，屏幕仍然显示系统桌面。让我等待一下，看看应用是否会加载。\ndo(action=\"Wait\", duration=\"1\")",
+        "action_object": {
+            "_metadata": "do",
+            "action": "Wait",
+            "duration": "1"
+        },
+        "action_thought": "看起来微博应用没有成功启动，屏幕仍然显示系统桌面。让我等待一下，看看应用是否会加载。",
+        "duration": 7.481809854507446,
+        "action_execution_duration": 1.0007283687591553,
+        "prompt_tokens": 4084,
+        "prompt_action_tokens": 4084,
+        "completion_tokens": 36,
+        "total_tokens": 4120
+    },
+    {
+        "step": 3,
+        "operation": "action",
+        "screenshot": "logs/test/20260526-114357/screenshots/3.jpg",
+        "prompt_action": "** Screen Info **\n\n{\"current_app\": \"System Home\"}",
+        "raw_response": "微博应用似乎没有成功启动，屏幕仍然显示系统桌面。这可能是因为微博应用没有安装，或者需要更长时间加载。让我尝试滑动屏幕查看是否有微博应用图标，或者尝试从应用列表中找到微博。\n\n让我尝试向左滑动查看其他屏幕，看看是否有微博应用。do(action=\"Swipe\", start=[779,438], end=[194,438])",
+        "action_object": {
+            "_metadata": "do",
+            "action": "Swipe",
+            "start": [
+                779,
+                438
+            ],
+            "end": [
+                194,
+                438
+            ]
+        },
+        "action_thought": "微博应用似乎没有成功启动，屏幕仍然显示系统桌面。这可能是因为微博应用没有安装，或者需要更长时间加载。让我尝试滑动屏幕查看是否有微博应用图标，或者尝试从应用列表中找到微博。\n\n让我尝试向左滑动查看其他屏幕，看看是否有微博应用。",
+        "duration": 9.088145732879639,
+        "action_execution_duration": 2.1026101112365723,
+        "prompt_tokens": 4136,
+        "prompt_action_tokens": 4136,
+        "completion_tokens": 84,
+        "total_tokens": 4220
+    },
+    {
+        "step": 4,
+        "operation": "action",
+        "screenshot": "logs/test/20260526-114357/screenshots/4.jpg",
+        "prompt_action": "** Screen Info **\n\n{\"current_app\": \"System Home\"}",
+        "raw_response": "我看到了更多应用，但还没有看到微博应用。让我继续向左滑动查看其他页面。\ndo(action=\"Swipe\", start=[779,438], end=[194,438])",
+        "action_object": {
+            "_metadata": "do",
+            "action": "Swipe",
+            "start": [
+                779,
+                438
+            ],
+            "end": [
+                194,
+                438
+            ]
+        },
+        "action_thought": "我看到了更多应用，但还没有看到微博应用。让我继续向左滑动查看其他页面。",
+        "duration": 8.631003141403198,
+        "action_execution_duration": 2.134078025817871,
+        "prompt_tokens": 4237,
+        "prompt_action_tokens": 4237,
+        "completion_tokens": 46,
+        "total_tokens": 4283
+    },
+    {
+        "step": 5,
+        "operation": "action",
+        "screenshot": "logs/test/20260526-114357/screenshots/5.jpg",
+        "prompt_action": "** Screen Info **\n\n{\"current_app\": \"System Home\"}",
+        "raw_response": "我看到了更多应用，但仍然没有看到微博应用。让我继续滑动查看。\ndo(action=\"Swipe\", start=[779,438], end=[194,438])",
+        "action_object": {
+            "_metadata": "do",
+            "action": "Swipe",
+            "start": [
+                779,
+                438
+            ],
+            "end": [
+                194,
+                438
+            ]
+        },
+        "action_thought": "我看到了更多应用，但仍然没有看到微博应用。让我继续滑动查看。",
+        "duration": 10.59143614768982,
+        "action_execution_duration": 2.1158266067504883,
+        "prompt_tokens": 4299,
+        "prompt_action_tokens": 4299,
+        "completion_tokens": 43,
+        "total_tokens": 4342
+    },
+    {
+        "step": 6,
+        "operation": "action",
+        "screenshot": "logs/test/20260526-114357/screenshots/6.jpg",
+        "prompt_action": "** Screen Info **\n\n{\"current_app\": \"System Home\"}",
+        "raw_response": "我看到了更多应用，但仍然没有看到微博应用。让我继续滑动查看。\ndo(action=\"Swipe\", start=[779,438], end=[194,438])",
+        "action_object": {
+            "_metadata": "do",
+            "action": "Swipe",
+            "start": [
+                779,
+                438
+            ],
+            "end": [
+                194,
+                438
+            ]
+        },
+        "action_thought": "我看到了更多应用，但仍然没有看到微博应用。让我继续滑动查看。",
+        "duration": 8.3798189163208,
+        "action_execution_duration": 2.105713129043579,
+        "prompt_tokens": 4358,
+        "prompt_action_tokens": 4358,
+        "completion_tokens": 43,
+        "total_tokens": 4401
+    },
+    {
+        "step": 7,
+        "operation": "action",
+        "screenshot": "logs/test/20260526-114357/screenshots/7.jpg",
+        "prompt_action": "** Screen Info **\n\n{\"current_app\": \"System Home\"}",
+        "raw_response": "我看到了更多应用，但仍然没有看到微博应用。让我继续滑动查看。do(action=\"Swipe\", start=[779,438], end=[194,438])",
+        "action_object": {
+            "_metadata": "do",
+            "action": "Swipe",
+            "start": [
+                779,
+                438
+            ],
+            "end": [
+                194,
+                438
+            ]
+        },
+        "action_thought": "我看到了更多应用，但仍然没有看到微博应用。让我继续滑动查看。",
+        "duration": 7.876760482788086,
+        "action_execution_duration": 2.099433422088623,
+        "prompt_tokens": 4417,
+        "prompt_action_tokens": 4417,
+        "completion_tokens": 42,
+        "total_tokens": 4459
+    },
+    {
+        "step": 8,
+        "operation": "action",
+        "screenshot": "logs/test/20260526-114357/screenshots/8.jpg",
+        "prompt_action": "** Screen Info **\n\n{\"current_app\": \"System Home\"}",
+        "raw_response": "我看到了更多应用，但仍然没有看到微博应用。让我继续滑动查看。do(action=\"Swipe\", start=[779,438], end=[194,438])",
+        "action_object": {
+            "_metadata": "do",
+            "action": "Swipe",
+            "start": [
+                779,
+                438
+            ],
+            "end": [
+                194,
+                438
+            ]
+        },
+        "action_thought": "我看到了更多应用，但仍然没有看到微博应用。让我继续滑动查看。",
+        "duration": 9.883657217025757,
+        "action_execution_duration": 2.120135545730591,
+        "prompt_tokens": 4476,
+        "prompt_action_tokens": 4476,
+        "completion_tokens": 42,
+        "total_tokens": 4518
+    },
+    {
+        "step": 9,
+        "operation": "action",
+        "screenshot": "logs/test/20260526-114357/screenshots/9.jpg",
+        "prompt_action": "** Screen Info **\n\n{\"current_app\": \"System Home\"}",
+        "raw_response": "我看到了更多应用，但仍然没有看到微博应用。让我继续滑动查看。do(action=\"Swipe\", start=[779,438], end=[194,438])",
+        "action_object": {
+            "_metadata": "do",
+            "action": "Swipe",
+            "start": [
+                779,
+                438
+            ],
+            "end": [
+                194,
+                438
+            ]
+        },
+        "action_thought": "我看到了更多应用，但仍然没有看到微博应用。让我继续滑动查看。",
+        "duration": 10.913337469100952,
+        "action_execution_duration": 2.1280550956726074,
+        "prompt_tokens": 4535,
+        "prompt_action_tokens": 4535,
+        "completion_tokens": 42,
+        "total_tokens": 4577
+    },
+    {
+        "step": 10,
+        "operation": "action",
+        "screenshot": "logs/test/20260526-114357/screenshots/10.jpg",
+        "prompt_action": "** Screen Info **\n\n{\"current_app\": \"System Home\"}",
+        "raw_response": "我看到了更多应用，但仍然没有看到微博应用。让我继续滑动查看。do(action=\"Swipe\", start=[779,438], end=[194,438])",
+        "action_object": {
+            "_metadata": "do",
+            "action": "Swipe",
+            "start": [
+                779,
+                438
+            ],
+            "end": [
+                194,
+                438
+            ]
+        },
+        "action_thought": "我看到了更多应用，但仍然没有看到微博应用。让我继续滑动查看。",
+        "duration": 8.023559331893921,
+        "action_execution_duration": 2.1199541091918945,
+        "prompt_tokens": 4594,
+        "prompt_action_tokens": 4594,
+        "completion_tokens": 42,
+        "total_tokens": 4636
+    },
+    {
+        "step": 11,
+        "operation": "action",
+        "screenshot": "logs/test/20260526-114357/screenshots/11.jpg",
+        "prompt_action": "** Screen Info **\n\n{\"current_app\": \"System Home\"}",
+        "raw_response": "我看到了更多应用，但仍然没有看到微博应用。让我继续滑动查看。do(action=\"Swipe\", start=[779,438], end=[194,438])",
+        "action_object": {
+            "_metadata": "do",
+            "action": "Swipe",
+            "start": [
+                779,
+                438
+            ],
+            "end": [
+                194,
+                438
+            ]
+        },
+        "action_thought": "我看到了更多应用，但仍然没有看到微博应用。让我继续滑动查看。",
+        "duration": 9.154887914657593,
+        "action_execution_duration": 2.107304334640503,
+        "prompt_tokens": 4653,
+        "prompt_action_tokens": 4653,
+        "completion_tokens": 42,
+        "total_tokens": 4695
+    },
+    {
+        "step": 12,
+        "operation": "action",
+        "screenshot": "logs/test/20260526-114357/screenshots/12.jpg",
+        "prompt_action": "** Screen Info **\n\n{\"current_app\": \"System Home\"}",
+        "raw_response": "我看到了更多应用，但仍然没有看到微博应用。让我继续滑动查看。do(action=\"Swipe\", start=[779,438], end=[194,438])",
+        "action_object": {
+            "_metadata": "do",
+            "action": "Swipe",
+            "start": [
+                779,
+                438
+            ],
+            "end": [
+                194,
+                438
+            ]
+        },
+        "action_thought": "我看到了更多应用，但仍然没有看到微博应用。让我继续滑动查看。",
+        "duration": 8.588452577590942,
+        "action_execution_duration": 2.100757122039795,
+        "prompt_tokens": 4712,
+        "prompt_action_tokens": 4712,
+        "completion_tokens": 42,
+        "total_tokens": 4754
+    },
+    {
+        "step": 13,
+        "operation": "action",
+        "screenshot": "logs/test/20260526-114357/screenshots/13.jpg",
+        "prompt_action": "** Screen Info **\n\n{\"current_app\": \"System Home\"}",
+        "raw_response": "我看到了更多应用，但仍然没有看到微博应用。让我继续滑动查看。do(action=\"Swipe\", start=[779,438], end=[194,438])",
+        "action_object": {
+            "_metadata": "do",
+            "action": "Swipe",
+            "start": [
+                779,
+                438
+            ],
+            "end": [
+                194,
+                438
+            ]
+        },
+        "action_thought": "我看到了更多应用，但仍然没有看到微博应用。让我继续滑动查看。",
+        "duration": 8.781104564666748,
+        "action_execution_duration": 2.1347856521606445,
+        "prompt_tokens": 4771,
+        "prompt_action_tokens": 4771,
+        "completion_tokens": 42,
+        "total_tokens": 4813
+    },
+    {
+        "step": 14,
+        "operation": "action",
+        "screenshot": "logs/test/20260526-114357/screenshots/14.jpg",
+        "prompt_action": "** Screen Info **\n\n{\"current_app\": \"System Home\"}",
+        "raw_response": "我看到了更多应用，但仍然没有看到微博应用。让我继续滑动查看。do(action=\"Swipe\", start=[779,438], end=[194,438])",
+        "action_object": {
+            "_metadata": "do",
+            "action": "Swipe",
+            "start": [
+                779,
+                438
+            ],
+            "end": [
+                194,
+                438
+            ]
+        },
+        "action_thought": "我看到了更多应用，但仍然没有看到微博应用。让我继续滑动查看。",
+        "duration": 8.788241863250732,
+        "action_execution_duration": 2.114610195159912,
+        "prompt_tokens": 4830,
+        "prompt_action_tokens": 4830,
+        "completion_tokens": 42,
+        "total_tokens": 4872
+    },
+    {
+        "step": 15,
+        "operation": "action",
+        "screenshot": "logs/test/20260526-114357/screenshots/15.jpg",
+        "prompt_action": "** Screen Info **\n\n{\"current_app\": \"System Home\"}",
+        "raw_response": "我看到了更多应用，但仍然没有看到微博应用。让我继续滑动查看。do(action=\"Swipe\", start=[779,438], end=[194,438])",
+        "action_object": {
+            "_metadata": "do",
+            "action": "Swipe",
+            "start": [
+                779,
+                438
+            ],
+            "end": [
+                194,
+                438
+            ]
+        },
+        "action_thought": "我看到了更多应用，但仍然没有看到微博应用。让我继续滑动查看。",
+        "duration": 8.634860277175903,
+        "action_execution_duration": 2.1043992042541504,
+        "prompt_tokens": 4889,
+        "prompt_action_tokens": 4889,
+        "completion_tokens": 42,
+        "total_tokens": 4931
+    },
+    {
+        "step": 16,
+        "operation": "action",
+        "screenshot": "logs/test/20260526-114357/screenshots/16.jpg",
+        "prompt_action": "** Screen Info **\n\n{\"current_app\": \"System Home\"}",
+        "raw_response": "我看到了更多应用，但仍然没有看到微博应用。让我继续滑动查看。do(action=\"Swipe\", start=[779,438], end=[194,438])",
+        "action_object": {
+            "_metadata": "do",
+            "action": "Swipe",
+            "start": [
+                779,
+                438
+            ],
+            "end": [
+                194,
+                438
+            ]
+        },
+        "action_thought": "我看到了更多应用，但仍然没有看到微博应用。让我继续滑动查看。",
+        "duration": 8.850296258926392,
+        "action_execution_duration": 2.106764554977417,
+        "prompt_tokens": 4948,
+        "prompt_action_tokens": 4948,
+        "completion_tokens": 42,
+        "total_tokens": 4990
+    },
+    {
+        "step": 17,
+        "operation": "action",
+        "screenshot": "logs/test/20260526-114357/screenshots/17.jpg",
+        "prompt_action": "** Screen Info **\n\n{\"current_app\": \"System Home\"}",
+        "raw_response": "我看到了更多应用，但仍然没有看到微博应用。让我继续滑动查看。do(action=\"Swipe\", start=[779,438], end=[194,438])",
+        "action_object": {
+            "_metadata": "do",
+            "action": "Swipe",
+            "start": [
+                779,
+                438
+            ],
+            "end": [
+                194,
+                438
+            ]
+        },
+        "action_thought": "我看到了更多应用，但仍然没有看到微博应用。让我继续滑动查看。",
+        "duration": 9.224800109863281,
+        "action_execution_duration": 2.120769500732422,
+        "prompt_tokens": 5007,
+        "prompt_action_tokens": 5007,
+        "completion_tokens": 42,
+        "total_tokens": 5049
+    },
+    {
+        "step": 18,
+        "operation": "action",
+        "screenshot": "logs/test/20260526-114357/screenshots/18.jpg",
+        "prompt_action": "** Screen Info **\n\n{\"current_app\": \"System Home\"}",
+        "raw_response": "我看到了更多应用，但仍然没有看到微博应用。让我继续滑动查看。do(action=\"Swipe\", start=[779,438], end=[194,438])",
+        "action_object": {
+            "_metadata": "do",
+            "action": "Swipe",
+            "start": [
+                779,
+                438
+            ],
+            "end": [
+                194,
+                438
+            ]
+        },
+        "action_thought": "我看到了更多应用，但仍然没有看到微博应用。让我继续滑动查看。",
+        "duration": 9.492320775985718,
+        "action_execution_duration": 2.1054201126098633,
+        "prompt_tokens": 5066,
+        "prompt_action_tokens": 5066,
+        "completion_tokens": 42,
+        "total_tokens": 5108
+    },
+    {
+        "step": 19,
+        "operation": "action",
+        "screenshot": "logs/test/20260526-114357/screenshots/19.jpg",
+        "prompt_action": "** Screen Info **\n\n{\"current_app\": \"System Home\"}",
+        "raw_response": "我看到了更多应用，但仍然没有看到微博应用。让我继续滑动查看。do(action=\"Swipe\", start=[779,438], end=[194,438])",
+        "action_object": {
+            "_metadata": "do",
+            "action": "Swipe",
+            "start": [
+                779,
+                438
+            ],
+            "end": [
+                194,
+                438
+            ]
+        },
+        "action_thought": "我看到了更多应用，但仍然没有看到微博应用。让我继续滑动查看。",
+        "duration": 8.64270544052124,
+        "action_execution_duration": 2.1166553497314453,
+        "prompt_tokens": 5125,
+        "prompt_action_tokens": 5125,
+        "completion_tokens": 42,
+        "total_tokens": 5167
+    },
+    {
+        "step": 20,
+        "operation": "action",
+        "screenshot": "logs/test/20260526-114357/screenshots/20.jpg",
+        "prompt_action": "** Screen Info **\n\n{\"current_app\": \"System Home\"}",
+        "raw_response": "我看到了更多应用，但仍然没有看到微博应用。让我继续滑动查看。do(action=\"Swipe\", start=[779,438], end=[194,438])",
+        "action_object": {
+            "_metadata": "do",
+            "action": "Swipe",
+            "start": [
+                779,
+                438
+            ],
+            "end": [
+                194,
+                438
+            ]
+        },
+        "action_thought": "我看到了更多应用，但仍然没有看到微博应用。让我继续滑动查看。",
+        "duration": 8.624193906784058,
+        "action_execution_duration": 2.119994640350342,
+        "prompt_tokens": 5184,
+        "prompt_action_tokens": 5184,
+        "completion_tokens": 42,
+        "total_tokens": 5226
+    },
+    {
+        "step": 21,
+        "operation": "action",
+        "screenshot": "logs/test/20260526-114357/screenshots/21.jpg",
+        "prompt_action": "** Screen Info **\n\n{\"current_app\": \"System Home\"}",
+        "raw_response": "我看到了更多应用，但仍然没有看到微博应用。让我继续滑动查看。do(action=\"Swipe\", start=[779,438], end=[194,438])",
+        "action_object": {
+            "_metadata": "do",
+            "action": "Swipe",
+            "start": [
+                779,
+                438
+            ],
+            "end": [
+                194,
+                438
+            ]
+        },
+        "action_thought": "我看到了更多应用，但仍然没有看到微博应用。让我继续滑动查看。",
+        "duration": 9.981045007705688,
+        "action_execution_duration": 2.1110329627990723,
+        "prompt_tokens": 5243,
+        "prompt_action_tokens": 5243,
+        "completion_tokens": 42,
+        "total_tokens": 5285
+    },
+    {
+        "step": 22,
+        "operation": "action",
+        "screenshot": "logs/test/20260526-114357/screenshots/22.jpg",
+        "prompt_action": "** Screen Info **\n\n{\"current_app\": \"System Home\"}",
+        "raw_response": "我看到了更多应用，但仍然没有看到微博应用。让我继续滑动查看。do(action=\"Swipe\", start=[779,438], end=[194,438])",
+        "action_object": {
+            "_metadata": "do",
+            "action": "Swipe",
+            "start": [
+                779,
+                438
+            ],
+            "end": [
+                194,
+                438
+            ]
+        },
+        "action_thought": "我看到了更多应用，但仍然没有看到微博应用。让我继续滑动查看。",
+        "duration": 13.12056589126587,
+        "action_execution_duration": 2.108941078186035,
+        "prompt_tokens": 5302,
+        "prompt_action_tokens": 5302,
+        "completion_tokens": 42,
+        "total_tokens": 5344
+    },
+    {
+        "step": 23,
+        "operation": "action",
+        "screenshot": "logs/test/20260526-114357/screenshots/23.jpg",
+        "prompt_action": "** Screen Info **\n\n{\"current_app\": \"System Home\"}",
+        "raw_response": "我看到了更多应用，但仍然没有看到微博应用。让我继续滑动查看。do(action=\"Swipe\", start=[779,438], end=[194,438])",
+        "action_object": {
+            "_metadata": "do",
+            "action": "Swipe",
+            "start": [
+                779,
+                438
+            ],
+            "end": [
+                194,
+                438
+            ]
+        },
+        "action_thought": "我看到了更多应用，但仍然没有看到微博应用。让我继续滑动查看。",
+        "duration": 8.55161190032959,
+        "action_execution_duration": 2.1184701919555664,
+        "prompt_tokens": 5361,
+        "prompt_action_tokens": 5361,
+        "completion_tokens": 42,
+        "total_tokens": 5403
+    },
+    {
+        "step": 24,
+        "operation": "action",
+        "screenshot": "logs/test/20260526-114357/screenshots/24.jpg",
+        "prompt_action": "** Screen Info **\n\n{\"current_app\": \"System Home\"}",
+        "raw_response": "我看到了更多应用，但仍然没有看到微博应用。让我继续滑动查看。do(action=\"Swipe\", start=[779,438], end=[194,438])",
+        "action_object": {
+            "_metadata": "do",
+            "action": "Swipe",
+            "start": [
+                779,
+                438
+            ],
+            "end": [
+                194,
+                438
+            ]
+        },
+        "action_thought": "我看到了更多应用，但仍然没有看到微博应用。让我继续滑动查看。",
+        "duration": 8.753813028335571,
+        "action_execution_duration": 2.116175889968872,
+        "prompt_tokens": 5420,
+        "prompt_action_tokens": 5420,
+        "completion_tokens": 42,
+        "total_tokens": 5462
+    },
+    {
+        "step": 25,
+        "operation": "action",
+        "screenshot": "logs/test/20260526-114357/screenshots/25.jpg",
+        "prompt_action": "** Screen Info **\n\n{\"current_app\": \"System Home\"}",
+        "raw_response": "我看到了更多应用，但仍然没有看到微博应用。让我继续滑动查看。do(action=\"Swipe\", start=[779,438], end=[194,438])",
+        "action_object": {
+            "_metadata": "do",
+            "action": "Swipe",
+            "start": [
+                779,
+                438
+            ],
+            "end": [
+                194,
+                438
+            ]
+        },
+        "action_thought": "我看到了更多应用，但仍然没有看到微博应用。让我继续滑动查看。",
+        "duration": 8.454058170318604,
+        "action_execution_duration": 2.126248836517334,
+        "prompt_tokens": 5479,
+        "prompt_action_tokens": 5479,
+        "completion_tokens": 42,
+        "total_tokens": 5521
+    }
+]

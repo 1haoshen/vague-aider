@@ -1,0 +1,32 @@
+类别：系统app
+10 相机 设置 信息 备忘录/笔记 应用商店 相册 闹钟 天气 邮件 日历 
+
+------------------------类别：社交、通讯与社区互动类应用知识库扩展---------------------------
+微信 QQ 微博 小红书 知乎 豆瓣
+X instagram WhatsApp bluesky facebook lemon8 Telegram Threads Discord
+
+------------------------类别：电子商务、本地服务与跨境贸易应用---------------------------
+淘宝 京东 拼多多 闲鱼 转转 得物  唯品会 天猫  识货 美团  大众点评
+walmart Amazon Shopping eBay BestBuy Temu SHEIN AliExpress (速卖通)
+
+------------------------类别：媒体娱乐、视频流媒体与游戏平台---------------------------
+爱奇艺 腾讯视频 优酷视频 芒果TV 哔哩哔哩 抖音 快手  网易云音乐 QQ音乐
+youtube tiktok Twitch spotify Steam
+
+------------------------类别：生产力、办公协作与系统工具类应用---------------------------
+迅雷 百度网盘 钉钉 腾讯会议  QQ邮箱 wps_office 扫描全能王 飞书
+gmail  Microsoft Teams Slack Zoom notion 
+
+------------------------类别：地图导航、本地服务与出行预订应用---------------------------
+高德地图(Amap)   铁路12306 携程旅行  百度地图 去哪儿网 飞猪旅行 腾讯地图 航旅纵横 中国铁路12306
+trip booking googleMap tripadvisor  citymapper grab agoda Airbnb (爱彼迎) Uber (优步)
+
+------------------------类别：财务管理、金融科技与加密资产应用---------------------------
+支付宝 (Alipay) 微信 云闪付 (UnionPay)
+Wise PayPal  Binance Revolut
+
+------------------------类别：人工智能、语音助手与交互式生成应用---------------------------
+DeepSeek ChatGPT Google Gemini Doubao (豆包) 元宝 (Yuanbao) grok 夸克 Chorme
+
+------------------------类别：综合教育、健康管理与垂直生活领域---------------------------
+Duolingo (多邻国)  Keep (健身) Google Classroom MyFitnessPal Strava 喜马拉雅 (Ximalaya) 美图秀秀 (Meitu) PS  剪映 醒图

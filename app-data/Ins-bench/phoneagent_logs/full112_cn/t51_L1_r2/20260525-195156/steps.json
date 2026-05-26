@@ -1,0 +1,1044 @@
+[
+    {
+        "step": 0,
+        "operation": "init",
+        "instruction": "帮我用携程订一张最便宜的机票去青岛,下周任何一天走都行。",
+        "task_id": "20260525-195156",
+        "run_name": "full112_cn/t51_L1_r2",
+        "max_steps": 50
+    },
+    {
+        "step": 1,
+        "operation": "action",
+        "screenshot": "D:\\Mobile-Agent\\MobileAgent-main\\MobileAgent-main\\app-data\\Ins-bench\\phoneagent_logs/full112_cn/t51_L1_r2/20260525-195156/screenshots/1.jpg",
+        "prompt_action": "帮我用携程订一张最便宜的机票去青岛,下周任何一天走都行。\n\n{\"current_app\": \"System Home\"}",
+        "raw_response": "用户想要使用携程订一张最便宜的机票去青岛，下周任何一天走都行。这意味着用户想要：\n1. 打开携程app\n2. 搜索去青岛的机票\n3. 按价格排序找到最便宜的\n4. 选择一个下周的日期（因为用户说\"下周任何一天走都行\"，所以应该选择一个下周的日期）\n\n当前在系统桌面，我可以看到屏幕上有\"携程\"app的图标。让我先启动携程app。\n\n我看到屏幕上有\"携程旅行\"的图标，位置在左侧第三行，文字显示\"去哪儿旅行\"。等等，让我再仔细看看屏幕上的app。\n\n从屏幕上看，我可以看到：\n- 大麦、哔哩哔哩、大众点评\n- 猫眼、夸克、高德地图、淘宝\n- 去哪儿旅行、携程旅行、小红书、京东\n- 识货、知乎、美团、拼多多\n- 优酷视频、日历、设置、抖音\n- 相册、笔记、网易云音乐、飞猪旅行\n- 底部dock栏\n\n我看到有\"携程旅行\"app，位置在第三行中间，图标是蓝色背景的携程logo，文字显示\"携程旅行\"。\n\n让我点击它来启动app。\ndo(action=\"Launch\", app=\"携程\")",
+        "action_object": {
+            "_metadata": "do",
+            "action": "Launch",
+            "app": "携程"
+        },
+        "action_thought": "用户想要使用携程订一张最便宜的机票去青岛，下周任何一天走都行。这意味着用户想要：\n1. 打开携程app\n2. 搜索去青岛的机票\n3. 按价格排序找到最便宜的\n4. 选择一个下周的日期（因为用户说\"下周任何一天走都行\"，所以应该选择一个下周的日期）\n\n当前在系统桌面，我可以看到屏幕上有\"携程\"app的图标。让我先启动携程app。\n\n我看到屏幕上有\"携程旅行\"的图标，位置在左侧第三行，文字显示\"去哪儿旅行\"。等等，让我再仔细看看屏幕上的app。\n\n从屏幕上看，我可以看到：\n- 大麦、哔哩哔哩、大众点评\n- 猫眼、夸克、高德地图、淘宝\n- 去哪儿旅行、携程旅行、小红书、京东\n- 识货、知乎、美团、拼多多\n- 优酷视频、日历、设置、抖音\n- 相册、笔记、网易云音乐、飞猪旅行\n- 底部dock栏\n\n我看到有\"携程旅行\"app，位置在第三行中间，图标是蓝色背景的携程logo，文字显示\"携程旅行\"。\n\n让我点击它来启动app。",
+        "duration": 11.820942401885986,
+        "action_execution_duration": 1.5913610458374023,
+        "prompt_tokens": 5122,
+        "prompt_action_tokens": 5122,
+        "completion_tokens": 274,
+        "total_tokens": 5396
+    },
+    {
+        "step": 2,
+        "operation": "action",
+        "screenshot": "D:\\Mobile-Agent\\MobileAgent-main\\MobileAgent-main\\app-data\\Ins-bench\\phoneagent_logs/full112_cn/t51_L1_r2/20260525-195156/screenshots/2.jpg",
+        "prompt_action": "** Screen Info **\n\n{\"current_app\": \"携程\"}",
+        "raw_response": "携程app已经打开了，但是显示的是一个机票订单页面，已经有一个从广州到青岛的航班：06-06周六12:50，价格是¥220。但这不是我要找的，我需要搜索所有的航班并找到最便宜的。\n\n我需要返回到机票搜索页面。让我点击左上角的返回按钮。\ndo(action=\"Tap\", element=[49,54])",
+        "action_object": {
+            "_metadata": "do",
+            "action": "Tap",
+            "element": [
+                49,
+                54
+            ]
+        },
+        "action_thought": "携程app已经打开了，但是显示的是一个机票订单页面，已经有一个从广州到青岛的航班：06-06周六12:50，价格是¥220。但这不是我要找的，我需要搜索所有的航班并找到最便宜的。\n\n我需要返回到机票搜索页面。让我点击左上角的返回按钮。",
+        "duration": 7.487292528152466,
+        "action_execution_duration": 1.0806069374084473,
+        "prompt_tokens": 5411,
+        "prompt_action_tokens": 5411,
+        "completion_tokens": 82,
+        "total_tokens": 5493
+    },
+    {
+        "step": 3,
+        "operation": "action",
+        "screenshot": "D:\\Mobile-Agent\\MobileAgent-main\\MobileAgent-main\\app-data\\Ins-bench\\phoneagent_logs/full112_cn/t51_L1_r2/20260525-195156/screenshots/3.jpg",
+        "prompt_action": "** Screen Info **\n\n{\"current_app\": \"携程\"}",
+        "raw_response": "好的，现在显示的是航班详情页面，显示的是06-06周六12:50-17:10从广州到青岛的航班，价格是¥500。我可以看到有不同舱位选择，价格从¥450到¥500不等。\n\n但是用户要求的是\"最便宜的机票\"，所以我需要返回到航班列表页面，查看所有航班并找到最便宜的。让我再次点击左上角的返回按钮。\ndo(action=\"Tap\", element=[49,54])",
+        "action_object": {
+            "_metadata": "do",
+            "action": "Tap",
+            "element": [
+                49,
+                54
+            ]
+        },
+        "action_thought": "好的，现在显示的是航班详情页面，显示的是06-06周六12:50-17:10从广州到青岛的航班，价格是¥500。我可以看到有不同舱位选择，价格从¥450到¥500不等。\n\n但是用户要求的是\"最便宜的机票\"，所以我需要返回到航班列表页面，查看所有航班并找到最便宜的。让我再次点击左上角的返回按钮。",
+        "duration": 5.151723146438599,
+        "action_execution_duration": 1.0755729675292969,
+        "prompt_tokens": 5508,
+        "prompt_action_tokens": 5508,
+        "completion_tokens": 101,
+        "total_tokens": 5609
+    },
+    {
+        "step": 4,
+        "operation": "action",
+        "screenshot": "D:\\Mobile-Agent\\MobileAgent-main\\MobileAgent-main\\app-data\\Ins-bench\\phoneagent_logs/full112_cn/t51_L1_r2/20260525-195156/screenshots/4.jpg",
+        "prompt_action": "** Screen Info **\n\n{\"current_app\": \"携程\"}",
+        "raw_response": "太好了！现在我看到了航班列表页面。显示的是从广州到青岛的航班，日期是06-06周六。我可以看到多个航班及其价格：\n\n1. 12:50-17:10，¥450\n2. 07:25-10:30，¥525\n3. 07:20-10:25，¥540\n4. 13:40-16:40，¥550\n5. 20:30-23:35，¥550\n\n目前显示的最便宜的是¥450。但是我需要查看其他日期的航班价格才能找到最便宜的。用户要求的是\"下周任何一天走都行\"，所以我应该选择一个下周的日期，然后找到最便宜的航班。\n\n让我先看看页面顶部的日期选择。我可以看到有多个日期选项：04、05、06-06（当前选中）、07、0...（更多）。我需要选择一个下周的日期。下周应该是06月10日-06月16日。让我选择06-06（当前日期是06月06日，但用户要求下周的任何一天，所以我应该选择一个典型的下周日期，比如06-10或06-15）。\n\n让我点击\"07\"这个日期试试。\ndo(action=\"Tap\", element=[676,129])",
+        "action_object": {
+            "_metadata": "do",
+            "action": "Tap",
+            "element": [
+                676,
+                129
+            ]
+        },
+        "action_thought": "太好了！现在我看到了航班列表页面。显示的是从广州到青岛的航班，日期是06-06周六。我可以看到多个航班及其价格：\n\n1. 12:50-17:10，¥450\n2. 07:25-10:30，¥525\n3. 07:20-10:25，¥540\n4. 13:40-16:40，¥550\n5. 20:30-23:35，¥550\n\n目前显示的最便宜的是¥450。但是我需要查看其他日期的航班价格才能找到最便宜的。用户要求的是\"下周任何一天走都行\"，所以我应该选择一个下周的日期，然后找到最便宜的航班。\n\n让我先看看页面顶部的日期选择。我可以看到有多个日期选项：04、05、06-06（当前选中）、07、0...（更多）。我需要选择一个下周的日期。下周应该是06月10日-06月16日。让我选择06-06（当前日期是06月06日，但用户要求下周的任何一天，所以我应该选择一个典型的下周日期，比如06-10或06-15）。\n\n让我点击\"07\"这个日期试试。",
+        "duration": 5.900967121124268,
+        "action_execution_duration": 1.0937495231628418,
+        "prompt_tokens": 5624,
+        "prompt_action_tokens": 5624,
+        "completion_tokens": 270,
+        "total_tokens": 5894
+    },
+    {
+        "step": 5,
+        "operation": "action",
+        "screenshot": "D:\\Mobile-Agent\\MobileAgent-main\\MobileAgent-main\\app-data\\Ins-bench\\phoneagent_logs/full112_cn/t51_L1_r2/20260525-195156/screenshots/5.jpg",
+        "prompt_action": "** Screen Info **\n\n{\"current_app\": \"携程\"}",
+        "raw_response": "我看到页面正在加载，显示\"机票价格非固定，由航司或供应商提供，会实时变动哦~\"的提示。页面显示的日期是06-07周日，价格显示为¥429。但是页面内容还在加载中（显示为灰色占位符）。\n\n让我等待页面加载完成。do(action=\"Wait\", duration=\"1 seconds\")",
+        "action_object": {
+            "_metadata": "do",
+            "action": "Wait",
+            "duration": "1 seconds"
+        },
+        "action_thought": "我看到页面正在加载，显示\"机票价格非固定，由航司或供应商提供，会实时变动哦~\"的提示。页面显示的日期是06-07周日，价格显示为¥429。但是页面内容还在加载中（显示为灰色占位符）。\n\n让我等待页面加载完成。",
+        "duration": 4.047594308853149,
+        "action_execution_duration": 1.0099191665649414,
+        "prompt_tokens": 5909,
+        "prompt_action_tokens": 5909,
+        "completion_tokens": 80,
+        "total_tokens": 5989
+    },
+    {
+        "step": 6,
+        "operation": "action",
+        "screenshot": "D:\\Mobile-Agent\\MobileAgent-main\\MobileAgent-main\\app-data\\Ins-bench\\phoneagent_logs/full112_cn/t51_L1_r2/20260525-195156/screenshots/6.jpg",
+        "prompt_action": "** Screen Info **\n\n{\"current_app\": \"携程\"}",
+        "raw_response": "好的，页面加载完成了。现在显示的是06-07周日从广州到青岛的航班。我可以看到：\n\n1. 07:25-10:30，¥428（经济舱）\n2. 12:50-16:55，¥460\n3. 07:20-10:25，¥500\n4. 15:35-18:45，¥530\n\n目前显示的最便宜的是¥428。让我继续查看其他日期，看看是否有更便宜的。让我点击\"08\"这个日期。\ndo(action=\"Tap\", element=[676,129])",
+        "action_object": {
+            "_metadata": "do",
+            "action": "Tap",
+            "element": [
+                676,
+                129
+            ]
+        },
+        "action_thought": "好的，页面加载完成了。现在显示的是06-07周日从广州到青岛的航班。我可以看到：\n\n1. 07:25-10:30，¥428（经济舱）\n2. 12:50-16:55，¥460\n3. 07:20-10:25，¥500\n4. 15:35-18:45，¥530\n\n目前显示的最便宜的是¥428。让我继续查看其他日期，看看是否有更便宜的。让我点击\"08\"这个日期。",
+        "duration": 5.061368703842163,
+        "action_execution_duration": 1.1010706424713135,
+        "prompt_tokens": 6005,
+        "prompt_action_tokens": 6005,
+        "completion_tokens": 130,
+        "total_tokens": 6135
+    },
+    {
+        "step": 7,
+        "operation": "action",
+        "screenshot": "D:\\Mobile-Agent\\MobileAgent-main\\MobileAgent-main\\app-data\\Ins-bench\\phoneagent_logs/full112_cn/t51_L1_r2/20260525-195156/screenshots/7.jpg",
+        "prompt_action": "** Screen Info **\n\n{\"current_app\": \"携程\"}",
+        "raw_response": "页面正在加载，显示\"机票价格非固定，由航司或供应商提供，会实时变动哦~\"的提示。页面显示的日期是06-08周一，价格显示为¥429。页面内容还在加载中（显示为灰色占位符）。\n\n让我等待页面加载完成。do(action=\"Wait\", duration=\"1 seconds\")",
+        "action_object": {
+            "_metadata": "do",
+            "action": "Wait",
+            "duration": "1 seconds"
+        },
+        "action_thought": "页面正在加载，显示\"机票价格非固定，由航司或供应商提供，会实时变动哦~\"的提示。页面显示的日期是06-08周一，价格显示为¥429。页面内容还在加载中（显示为灰色占位符）。\n\n让我等待页面加载完成。",
+        "duration": 5.618213415145874,
+        "action_execution_duration": 1.0011637210845947,
+        "prompt_tokens": 6150,
+        "prompt_action_tokens": 6150,
+        "completion_tokens": 78,
+        "total_tokens": 6228
+    },
+    {
+        "step": 8,
+        "operation": "action",
+        "screenshot": "D:\\Mobile-Agent\\MobileAgent-main\\MobileAgent-main\\app-data\\Ins-bench\\phoneagent_logs/full112_cn/t51_L1_r2/20260525-195156/screenshots/8.jpg",
+        "prompt_action": "** Screen Info **\n\n{\"current_app\": \"携程\"}",
+        "raw_response": "好的，页面加载完成了。现在显示的是06-08周一从广州到青岛的航班。我可以看到：\n\n1. 07:25-10:30，¥428（经济舱）\n2. 12:50-17:00，¥460\n3. 15:35-18:45，¥530\n4. 07:20-10:25，¥540\n\n目前显示的最便宜的是¥428。让我继续查看其他日期。让我点击\"09\"这个日期。\ndo(action=\"Tap\", element=[676,129])",
+        "action_object": {
+            "_metadata": "do",
+            "action": "Tap",
+            "element": [
+                676,
+                129
+            ]
+        },
+        "action_thought": "好的，页面加载完成了。现在显示的是06-08周一从广州到青岛的航班。我可以看到：\n\n1. 07:25-10:30，¥428（经济舱）\n2. 12:50-17:00，¥460\n3. 15:35-18:45，¥530\n4. 07:20-10:25，¥540\n\n目前显示的最便宜的是¥428。让我继续查看其他日期。让我点击\"09\"这个日期。",
+        "duration": 4.990583419799805,
+        "action_execution_duration": 1.072009563446045,
+        "prompt_tokens": 6244,
+        "prompt_action_tokens": 6244,
+        "completion_tokens": 126,
+        "total_tokens": 6370
+    },
+    {
+        "step": 9,
+        "operation": "action",
+        "screenshot": "D:\\Mobile-Agent\\MobileAgent-main\\MobileAgent-main\\app-data\\Ins-bench\\phoneagent_logs/full112_cn/t51_L1_r2/20260525-195156/screenshots/9.jpg",
+        "prompt_action": "** Screen Info **\n\n{\"current_app\": \"携程\"}",
+        "raw_response": "页面正在加载，显示\"机票价格非固定，由航司或供应商提供，会实时变动哦~\"的提示。页面显示的日期是06-09周二，价格显示为¥429。页面内容还在加载中（显示为灰色占位符）。\n\n让我等待页面加载完成。do(action=\"Wait\", duration=\"1 seconds\")",
+        "action_object": {
+            "_metadata": "do",
+            "action": "Wait",
+            "duration": "1 seconds"
+        },
+        "action_thought": "页面正在加载，显示\"机票价格非固定，由航司或供应商提供，会实时变动哦~\"的提示。页面显示的日期是06-09周二，价格显示为¥429。页面内容还在加载中（显示为灰色占位符）。\n\n让我等待页面加载完成。",
+        "duration": 4.189354658126831,
+        "action_execution_duration": 1.0112671852111816,
+        "prompt_tokens": 6385,
+        "prompt_action_tokens": 6385,
+        "completion_tokens": 78,
+        "total_tokens": 6463
+    },
+    {
+        "step": 10,
+        "operation": "action",
+        "screenshot": "D:\\Mobile-Agent\\MobileAgent-main\\MobileAgent-main\\app-data\\Ins-bench\\phoneagent_logs/full112_cn/t51_L1_r2/20260525-195156/screenshots/10.jpg",
+        "prompt_action": "** Screen Info **\n\n{\"current_app\": \"携程\"}",
+        "raw_response": "好的，页面加载完成了。现在显示的是06-09周二从广州到青岛的航班。我可以看到：\n\n1. 07:25-10:30，¥428（经济舱）\n2. 07:20-10:25，¥500\n3. 15:35-18:45，¥530\n4. 20:15-23:25，¥550\n\n目前显示的最便宜的是¥428。让我继续查看其他日期。让我点击\"10\"这个日期。do(action=\"Tap\", element=[676,129])",
+        "action_object": {
+            "_metadata": "do",
+            "action": "Tap",
+            "element": [
+                676,
+                129
+            ]
+        },
+        "action_thought": "好的，页面加载完成了。现在显示的是06-09周二从广州到青岛的航班。我可以看到：\n\n1. 07:25-10:30，¥428（经济舱）\n2. 07:20-10:25，¥500\n3. 15:35-18:45，¥530\n4. 20:15-23:25，¥550\n\n目前显示的最便宜的是¥428。让我继续查看其他日期。让我点击\"10\"这个日期。",
+        "duration": 4.9113359451293945,
+        "action_execution_duration": 1.0765047073364258,
+        "prompt_tokens": 6479,
+        "prompt_action_tokens": 6479,
+        "completion_tokens": 123,
+        "total_tokens": 6602
+    },
+    {
+        "step": 11,
+        "operation": "action",
+        "screenshot": "D:\\Mobile-Agent\\MobileAgent-main\\MobileAgent-main\\app-data\\Ins-bench\\phoneagent_logs/full112_cn/t51_L1_r2/20260525-195156/screenshots/11.jpg",
+        "prompt_action": "** Screen Info **\n\n{\"current_app\": \"携程\"}",
+        "raw_response": "页面正在加载，显示\"机票价格非固定，由航司或供应商提供，会实时变动哦~\"的提示。页面显示的日期是06-10周三，价格显示为¥539。页面内容还在加载中（显示为灰色占位符）。\n\n让我等待页面加载完成。do(action=\"Wait\", duration=\"1 seconds\")",
+        "action_object": {
+            "_metadata": "do",
+            "action": "Wait",
+            "duration": "1 seconds"
+        },
+        "action_thought": "页面正在加载，显示\"机票价格非固定，由航司或供应商提供，会实时变动哦~\"的提示。页面显示的日期是06-10周三，价格显示为¥539。页面内容还在加载中（显示为灰色占位符）。\n\n让我等待页面加载完成。",
+        "duration": 5.0204689502716064,
+        "action_execution_duration": 1.0032083988189697,
+        "prompt_tokens": 6618,
+        "prompt_action_tokens": 6618,
+        "completion_tokens": 78,
+        "total_tokens": 6696
+    },
+    {
+        "step": 12,
+        "operation": "action",
+        "screenshot": "D:\\Mobile-Agent\\MobileAgent-main\\MobileAgent-main\\app-data\\Ins-bench\\phoneagent_logs/full112_cn/t51_L1_r2/20260525-195156/screenshots/12.jpg",
+        "prompt_action": "** Screen Info **\n\n{\"current_app\": \"携程\"}",
+        "raw_response": "好的，页面加载完成了。现在显示的是06-10周三从广州到青岛的航班。我可以看到：\n\n1. 07:25-10:30，¥525\n2. 07:20-10:25，¥530\n3. 18:15-21:25，¥535\n4. 20:15-23:25，¥550\n\n目前显示的最便宜的是¥525。让我继续查看其他日期。让我点击\"11\"这个日期。do(action=\"Tap\", element=[676,129])",
+        "action_object": {
+            "_metadata": "do",
+            "action": "Tap",
+            "element": [
+                676,
+                129
+            ]
+        },
+        "action_thought": "好的，页面加载完成了。现在显示的是06-10周三从广州到青岛的航班。我可以看到：\n\n1. 07:25-10:30，¥525\n2. 07:20-10:25，¥530\n3. 18:15-21:25，¥535\n4. 20:15-23:25，¥550\n\n目前显示的最便宜的是¥525。让我继续查看其他日期。让我点击\"11\"这个日期。",
+        "duration": 6.470162868499756,
+        "action_execution_duration": 1.0768866539001465,
+        "prompt_tokens": 6712,
+        "prompt_action_tokens": 6712,
+        "completion_tokens": 121,
+        "total_tokens": 6833
+    },
+    {
+        "step": 13,
+        "operation": "action",
+        "screenshot": "D:\\Mobile-Agent\\MobileAgent-main\\MobileAgent-main\\app-data\\Ins-bench\\phoneagent_logs/full112_cn/t51_L1_r2/20260525-195156/screenshots/13.jpg",
+        "prompt_action": "** Screen Info **\n\n{\"current_app\": \"携程\"}",
+        "raw_response": "页面正在加载，显示\"机票价格非固定，由航司或供应商提供，会实时变动哦~\"的提示。页面显示的日期是06-11周四，价格显示为¥539。页面内容还在加载中（显示为灰色占位符）。\n\n让我等待页面加载完成。do(action=\"Wait\", duration=\"1 seconds\")",
+        "action_object": {
+            "_metadata": "do",
+            "action": "Wait",
+            "duration": "1 seconds"
+        },
+        "action_thought": "页面正在加载，显示\"机票价格非固定，由航司或供应商提供，会实时变动哦~\"的提示。页面显示的日期是06-11周四，价格显示为¥539。页面内容还在加载中（显示为灰色占位符）。\n\n让我等待页面加载完成。",
+        "duration": 5.270260572433472,
+        "action_execution_duration": 1.0075113773345947,
+        "prompt_tokens": 6849,
+        "prompt_action_tokens": 6849,
+        "completion_tokens": 78,
+        "total_tokens": 6927
+    },
+    {
+        "step": 14,
+        "operation": "action",
+        "screenshot": "D:\\Mobile-Agent\\MobileAgent-main\\MobileAgent-main\\app-data\\Ins-bench\\phoneagent_logs/full112_cn/t51_L1_r2/20260525-195156/screenshots/14.jpg",
+        "prompt_action": "** Screen Info **\n\n{\"current_app\": \"携程\"}",
+        "raw_response": "好的，页面加载完成了。现在显示的是06-11周四从广州到青岛的航班。我可以看到：\n\n1. 07:25-10:30，¥525\n2. 20:15-23:25，¥550\n3. 12:50-17:10，¥550\n4. 16:50-19:50，¥600\n\n目前显示的最便宜的是¥525。让我继续查看其他日期。让我点击\"12\"这个日期。do(action=\"Tap\", element=[676,129])",
+        "action_object": {
+            "_metadata": "do",
+            "action": "Tap",
+            "element": [
+                676,
+                129
+            ]
+        },
+        "action_thought": "好的，页面加载完成了。现在显示的是06-11周四从广州到青岛的航班。我可以看到：\n\n1. 07:25-10:30，¥525\n2. 20:15-23:25，¥550\n3. 12:50-17:10，¥550\n4. 16:50-19:50，¥600\n\n目前显示的最便宜的是¥525。让我继续查看其他日期。让我点击\"12\"这个日期。",
+        "duration": 6.628223657608032,
+        "action_execution_duration": 1.0666759014129639,
+        "prompt_tokens": 6943,
+        "prompt_action_tokens": 6943,
+        "completion_tokens": 119,
+        "total_tokens": 7062
+    },
+    {
+        "step": 15,
+        "operation": "action",
+        "screenshot": "D:\\Mobile-Agent\\MobileAgent-main\\MobileAgent-main\\app-data\\Ins-bench\\phoneagent_logs/full112_cn/t51_L1_r2/20260525-195156/screenshots/15.jpg",
+        "prompt_action": "** Screen Info **\n\n{\"current_app\": \"携程\"}",
+        "raw_response": "页面正在加载，显示\"机票价格非固定，由航司或供应商提供，会实时变动哦~\"的提示。页面显示的日期是06-12周五，价格显示为¥539。页面内容还在加载中（显示为灰色占位符）。\ndo(action=\"Wait\", duration=\"1 seconds\")",
+        "action_object": {
+            "_metadata": "do",
+            "action": "Wait",
+            "duration": "1 seconds"
+        },
+        "action_thought": "页面正在加载，显示\"机票价格非固定，由航司或供应商提供，会实时变动哦~\"的提示。页面显示的日期是06-12周五，价格显示为¥539。页面内容还在加载中（显示为灰色占位符）。",
+        "duration": 4.130804777145386,
+        "action_execution_duration": 1.0153563022613525,
+        "prompt_tokens": 7078,
+        "prompt_action_tokens": 7078,
+        "completion_tokens": 72,
+        "total_tokens": 7150
+    },
+    {
+        "step": 16,
+        "operation": "action",
+        "screenshot": "D:\\Mobile-Agent\\MobileAgent-main\\MobileAgent-main\\app-data\\Ins-bench\\phoneagent_logs/full112_cn/t51_L1_r2/20260525-195156/screenshots/16.jpg",
+        "prompt_action": "** Screen Info **\n\n{\"current_app\": \"携程\"}",
+        "raw_response": "好的，页面加载完成了。现在显示的是06-12周五从广州到青岛的航班。我可以看到：\n\n1. 07:25-10:30，¥535\n2. 20:15-23:25，¥650\n3. 12:50-17:00，¥650\n4. 08:40-11:50，¥680\n\n目前显示的最便宜的是¥535。让我继续查看其他日期。让我点击\"13\"这个日期。do(action=\"Tap\", element=[676,129])",
+        "action_object": {
+            "_metadata": "do",
+            "action": "Tap",
+            "element": [
+                676,
+                129
+            ]
+        },
+        "action_thought": "好的，页面加载完成了。现在显示的是06-12周五从广州到青岛的航班。我可以看到：\n\n1. 07:25-10:30，¥535\n2. 20:15-23:25，¥650\n3. 12:50-17:00，¥650\n4. 08:40-11:50，¥680\n\n目前显示的最便宜的是¥535。让我继续查看其他日期。让我点击\"13\"这个日期。",
+        "duration": 6.742532014846802,
+        "action_execution_duration": 1.0670874118804932,
+        "prompt_tokens": 7165,
+        "prompt_action_tokens": 7165,
+        "completion_tokens": 120,
+        "total_tokens": 7285
+    },
+    {
+        "step": 17,
+        "operation": "action",
+        "screenshot": "D:\\Mobile-Agent\\MobileAgent-main\\MobileAgent-main\\app-data\\Ins-bench\\phoneagent_logs/full112_cn/t51_L1_r2/20260525-195156/screenshots/17.jpg",
+        "prompt_action": "** Screen Info **\n\n{\"current_app\": \"携程\"}",
+        "raw_response": "页面正在加载，显示\"机票价格非固定，由航司或供应商提供，会实时变动哦~\"的提示。页面显示的日期是06-13周六，价格显示为¥539。页面内容还在加载中（显示为灰色占位符）。\ndo(action=\"Wait\", duration=\"1 seconds\")",
+        "action_object": {
+            "_metadata": "do",
+            "action": "Wait",
+            "duration": "1 seconds"
+        },
+        "action_thought": "页面正在加载，显示\"机票价格非固定，由航司或供应商提供，会实时变动哦~\"的提示。页面显示的日期是06-13周六，价格显示为¥539。页面内容还在加载中（显示为灰色占位符）。",
+        "duration": 4.083956480026245,
+        "action_execution_duration": 1.0030980110168457,
+        "prompt_tokens": 7301,
+        "prompt_action_tokens": 7301,
+        "completion_tokens": 72,
+        "total_tokens": 7373
+    },
+    {
+        "step": 18,
+        "operation": "action",
+        "screenshot": "D:\\Mobile-Agent\\MobileAgent-main\\MobileAgent-main\\app-data\\Ins-bench\\phoneagent_logs/full112_cn/t51_L1_r2/20260525-195156/screenshots/18.jpg",
+        "prompt_action": "** Screen Info **\n\n{\"current_app\": \"携程\"}",
+        "raw_response": "好的，页面加载完成了。现在显示的是06-13周六从广州到青岛的航班。我可以看到：\n\n1. 07:25-10:30，¥535\n2. 17:55-20:50，¥600\n3. 11:55-14:55，¥644\n4. 20:15-23:25，¥650\n\n目前显示的最便宜的是¥535。让我继续查看其他日期。让我点击\"14\"这个日期。do(action=\"Tap\", element=[676,129])",
+        "action_object": {
+            "_metadata": "do",
+            "action": "Tap",
+            "element": [
+                676,
+                129
+            ]
+        },
+        "action_thought": "好的，页面加载完成了。现在显示的是06-13周六从广州到青岛的航班。我可以看到：\n\n1. 07:25-10:30，¥535\n2. 17:55-20:50，¥600\n3. 11:55-14:55，¥644\n4. 20:15-23:25，¥650\n\n目前显示的最便宜的是¥535。让我继续查看其他日期。让我点击\"14\"这个日期。",
+        "duration": 5.904942035675049,
+        "action_execution_duration": 1.0688958168029785,
+        "prompt_tokens": 7388,
+        "prompt_action_tokens": 7388,
+        "completion_tokens": 120,
+        "total_tokens": 7508
+    },
+    {
+        "step": 19,
+        "operation": "action",
+        "screenshot": "D:\\Mobile-Agent\\MobileAgent-main\\MobileAgent-main\\app-data\\Ins-bench\\phoneagent_logs/full112_cn/t51_L1_r2/20260525-195156/screenshots/19.jpg",
+        "prompt_action": "** Screen Info **\n\n{\"current_app\": \"携程\"}",
+        "raw_response": "页面正在加载，显示\"机票价格非固定，由航司或供应商提供，会实时变动哦~\"的提示。页面显示的日期是06-14周日，价格显示为¥539。页面内容还在加载中（显示为灰色占位符）。do(action=\"Wait\", duration=\"1 seconds\")",
+        "action_object": {
+            "_metadata": "do",
+            "action": "Wait",
+            "duration": "1 seconds"
+        },
+        "action_thought": "页面正在加载，显示\"机票价格非固定，由航司或供应商提供，会实时变动哦~\"的提示。页面显示的日期是06-14周日，价格显示为¥539。页面内容还在加载中（显示为灰色占位符）。",
+        "duration": 5.151247501373291,
+        "action_execution_duration": 1.0118825435638428,
+        "prompt_tokens": 7524,
+        "prompt_action_tokens": 7524,
+        "completion_tokens": 71,
+        "total_tokens": 7595
+    },
+    {
+        "step": 20,
+        "operation": "action",
+        "screenshot": "D:\\Mobile-Agent\\MobileAgent-main\\MobileAgent-main\\app-data\\Ins-bench\\phoneagent_logs/full112_cn/t51_L1_r2/20260525-195156/screenshots/20.jpg",
+        "prompt_action": "** Screen Info **\n\n{\"current_app\": \"携程\"}",
+        "raw_response": "好的，页面加载完成了。现在显示的是06-14周日从广州到青岛的航班。我可以看到：\n\n1. 07:25-10:30，¥535\n2. 17:55-21:10，¥598\n3. 20:30-23:35，¥600\n4. 07:20-10:25，¥639\n\n目前显示的最便宜的是¥535。让我继续查看其他日期。让我点击\"15\"这个日期。do(action=\"Tap\", element=[676,129])",
+        "action_object": {
+            "_metadata": "do",
+            "action": "Tap",
+            "element": [
+                676,
+                129
+            ]
+        },
+        "action_thought": "好的，页面加载完成了。现在显示的是06-14周日从广州到青岛的航班。我可以看到：\n\n1. 07:25-10:30，¥535\n2. 17:55-21:10，¥598\n3. 20:30-23:35，¥600\n4. 07:20-10:25，¥639\n\n目前显示的最便宜的是¥535。让我继续查看其他日期。让我点击\"15\"这个日期。",
+        "duration": 5.560656309127808,
+        "action_execution_duration": 1.0722155570983887,
+        "prompt_tokens": 7611,
+        "prompt_action_tokens": 7611,
+        "completion_tokens": 121,
+        "total_tokens": 7732
+    },
+    {
+        "step": 21,
+        "operation": "action",
+        "screenshot": "D:\\Mobile-Agent\\MobileAgent-main\\MobileAgent-main\\app-data\\Ins-bench\\phoneagent_logs/full112_cn/t51_L1_r2/20260525-195156/screenshots/21.jpg",
+        "prompt_action": "** Screen Info **\n\n{\"current_app\": \"携程\"}",
+        "raw_response": "页面正在加载，显示\"机票价格非固定，由航司或供应商提供，会实时变动哦~\"的提示。页面显示的日期是06-15周一，价格显示为¥539。页面内容还在加载中（显示为灰色占位符）。do(action=\"Wait\", duration=\"1 seconds\")",
+        "action_object": {
+            "_metadata": "do",
+            "action": "Wait",
+            "duration": "1 seconds"
+        },
+        "action_thought": "页面正在加载，显示\"机票价格非固定，由航司或供应商提供，会实时变动哦~\"的提示。页面显示的日期是06-15周一，价格显示为¥539。页面内容还在加载中（显示为灰色占位符）。",
+        "duration": 5.013815641403198,
+        "action_execution_duration": 1.006699800491333,
+        "prompt_tokens": 7748,
+        "prompt_action_tokens": 7748,
+        "completion_tokens": 71,
+        "total_tokens": 7819
+    },
+    {
+        "step": 22,
+        "operation": "action",
+        "screenshot": "D:\\Mobile-Agent\\MobileAgent-main\\MobileAgent-main\\app-data\\Ins-bench\\phoneagent_logs/full112_cn/t51_L1_r2/20260525-195156/screenshots/22.jpg",
+        "prompt_action": "** Screen Info **\n\n{\"current_app\": \"携程\"}",
+        "raw_response": "好的，页面加载完成了。现在显示的是06-15周一从广州到青岛的航班。我可以看到：\n\n1. 07:25-10:30，¥535\n2. 07:20-10:25，¥629\n3. 20:15-23:25，¥650\n4. 12:50-17:00，¥650\n\n目前显示的最便宜的是¥535。让我继续查看其他日期。让我点击\"16\"这个日期。do(action=\"Tap\", element=[676,129])",
+        "action_object": {
+            "_metadata": "do",
+            "action": "Tap",
+            "element": [
+                676,
+                129
+            ]
+        },
+        "action_thought": "好的，页面加载完成了。现在显示的是06-15周一从广州到青岛的航班。我可以看到：\n\n1. 07:25-10:30，¥535\n2. 07:20-10:25，¥629\n3. 20:15-23:25，¥650\n4. 12:50-17:00，¥650\n\n目前显示的最便宜的是¥535。让我继续查看其他日期。让我点击\"16\"这个日期。",
+        "duration": 5.202943801879883,
+        "action_execution_duration": 1.0800368785858154,
+        "prompt_tokens": 7835,
+        "prompt_action_tokens": 7835,
+        "completion_tokens": 120,
+        "total_tokens": 7955
+    },
+    {
+        "step": 23,
+        "operation": "action",
+        "screenshot": "D:\\Mobile-Agent\\MobileAgent-main\\MobileAgent-main\\app-data\\Ins-bench\\phoneagent_logs/full112_cn/t51_L1_r2/20260525-195156/screenshots/23.jpg",
+        "prompt_action": "** Screen Info **\n\n{\"current_app\": \"携程\"}",
+        "raw_response": "页面正在加载，显示\"机票价格非固定，由航司或供应商提供，会实时变动哦~\"的提示。页面显示的日期是06-16周二，价格显示为¥539。页面内容还在加载中（显示为灰色占位符）。do(action=\"Wait\", duration=\"1 seconds\")",
+        "action_object": {
+            "_metadata": "do",
+            "action": "Wait",
+            "duration": "1 seconds"
+        },
+        "action_thought": "页面正在加载，显示\"机票价格非固定，由航司或供应商提供，会实时变动哦~\"的提示。页面显示的日期是06-16周二，价格显示为¥539。页面内容还在加载中（显示为灰色占位符）。",
+        "duration": 5.2467217445373535,
+        "action_execution_duration": 1.0024299621582031,
+        "prompt_tokens": 7971,
+        "prompt_action_tokens": 7971,
+        "completion_tokens": 71,
+        "total_tokens": 8042
+    },
+    {
+        "step": 24,
+        "operation": "action",
+        "screenshot": "D:\\Mobile-Agent\\MobileAgent-main\\MobileAgent-main\\app-data\\Ins-bench\\phoneagent_logs/full112_cn/t51_L1_r2/20260525-195156/screenshots/24.jpg",
+        "prompt_action": "** Screen Info **\n\n{\"current_app\": \"携程\"}",
+        "raw_response": "好的，页面加载完成了。现在显示的是06-16周二从广州到青岛的航班。我可以看到：\n\n1. 07:25-10:30，¥535\n2. 07:20-10:25，¥620\n3. 20:15-23:25，¥650\n4. 12:50-17:10，¥650\n\n目前显示的最便宜的是¥535。让我继续查看其他日期。让我点击\"17\"这个日期。do(action=\"Tap\", element=[676,129])",
+        "action_object": {
+            "_metadata": "do",
+            "action": "Tap",
+            "element": [
+                676,
+                129
+            ]
+        },
+        "action_thought": "好的，页面加载完成了。现在显示的是06-16周二从广州到青岛的航班。我可以看到：\n\n1. 07:25-10:30，¥535\n2. 07:20-10:25，¥620\n3. 20:15-23:25，¥650\n4. 12:50-17:10，¥650\n\n目前显示的最便宜的是¥535。让我继续查看其他日期。让我点击\"17\"这个日期。",
+        "duration": 4.806133985519409,
+        "action_execution_duration": 1.0844106674194336,
+        "prompt_tokens": 8058,
+        "prompt_action_tokens": 8058,
+        "completion_tokens": 120,
+        "total_tokens": 8178
+    },
+    {
+        "step": 25,
+        "operation": "action",
+        "screenshot": "D:\\Mobile-Agent\\MobileAgent-main\\MobileAgent-main\\app-data\\Ins-bench\\phoneagent_logs/full112_cn/t51_L1_r2/20260525-195156/screenshots/25.jpg",
+        "prompt_action": "** Screen Info **\n\n{\"current_app\": \"携程\"}",
+        "raw_response": "页面正在加载，显示\"机票价格非固定，由航司或供应商提供，会实时变动哦~\"的提示。页面显示的日期是06-17周三，价格显示为¥539。页面内容还在加载中（显示为灰色占位符）。do(action=\"Wait\", duration=\"1 seconds\")",
+        "action_object": {
+            "_metadata": "do",
+            "action": "Wait",
+            "duration": "1 seconds"
+        },
+        "action_thought": "页面正在加载，显示\"机票价格非固定，由航司或供应商提供，会实时变动哦~\"的提示。页面显示的日期是06-17周三，价格显示为¥539。页面内容还在加载中（显示为灰色占位符）。",
+        "duration": 4.218782186508179,
+        "action_execution_duration": 1.003272533416748,
+        "prompt_tokens": 8194,
+        "prompt_action_tokens": 8194,
+        "completion_tokens": 71,
+        "total_tokens": 8265
+    },
+    {
+        "step": 26,
+        "operation": "action",
+        "screenshot": "D:\\Mobile-Agent\\MobileAgent-main\\MobileAgent-main\\app-data\\Ins-bench\\phoneagent_logs/full112_cn/t51_L1_r2/20260525-195156/screenshots/26.jpg",
+        "prompt_action": "** Screen Info **\n\n{\"current_app\": \"携程\"}",
+        "raw_response": "好的，页面加载完成了。现在显示的是06-17周三从广州到青岛的航班。我可以看到：\n\n1. 07:25-10:30，¥535\n2. 18:15-21:25，¥535\n3. 07:20-10:25，¥640\n4. 12:50-17:00，¥650\n\n目前显示的最便宜的是¥535。让我继续查看其他日期。让我点击\"18\"这个日期。do(action=\"Tap\", element=[676,129])",
+        "action_object": {
+            "_metadata": "do",
+            "action": "Tap",
+            "element": [
+                676,
+                129
+            ]
+        },
+        "action_thought": "好的，页面加载完成了。现在显示的是06-17周三从广州到青岛的航班。我可以看到：\n\n1. 07:25-10:30，¥535\n2. 18:15-21:25，¥535\n3. 07:20-10:25，¥640\n4. 12:50-17:00，¥650\n\n目前显示的最便宜的是¥535。让我继续查看其他日期。让我点击\"18\"这个日期。",
+        "duration": 5.944666385650635,
+        "action_execution_duration": 1.070026159286499,
+        "prompt_tokens": 8281,
+        "prompt_action_tokens": 8281,
+        "completion_tokens": 121,
+        "total_tokens": 8402
+    },
+    {
+        "step": 27,
+        "operation": "action",
+        "screenshot": "D:\\Mobile-Agent\\MobileAgent-main\\MobileAgent-main\\app-data\\Ins-bench\\phoneagent_logs/full112_cn/t51_L1_r2/20260525-195156/screenshots/27.jpg",
+        "prompt_action": "** Screen Info **\n\n{\"current_app\": \"携程\"}",
+        "raw_response": "页面正在加载，显示\"机票价格非固定，由航司或供应商提供，会实时变动哦~\"的提示。页面显示的日期是06-18周四，价格显示为¥649。页面内容还在加载中（显示为灰色占位符）。\ndo(action=\"Wait\", duration=\"1 seconds\")",
+        "action_object": {
+            "_metadata": "do",
+            "action": "Wait",
+            "duration": "1 seconds"
+        },
+        "action_thought": "页面正在加载，显示\"机票价格非固定，由航司或供应商提供，会实时变动哦~\"的提示。页面显示的日期是06-18周四，价格显示为¥649。页面内容还在加载中（显示为灰色占位符）。",
+        "duration": 5.943298101425171,
+        "action_execution_duration": 1.0127677917480469,
+        "prompt_tokens": 8418,
+        "prompt_action_tokens": 8418,
+        "completion_tokens": 72,
+        "total_tokens": 8490
+    },
+    {
+        "step": 28,
+        "operation": "action",
+        "screenshot": "D:\\Mobile-Agent\\MobileAgent-main\\MobileAgent-main\\app-data\\Ins-bench\\phoneagent_logs/full112_cn/t51_L1_r2/20260525-195156/screenshots/28.jpg",
+        "prompt_action": "** Screen Info **\n\n{\"current_app\": \"携程\"}",
+        "raw_response": "好的，页面加载完成了。现在显示的是06-18周四从广州到青岛的航班。我可以看到：\n\n1. 07:25-10:30，¥645\n2. 12:50-17:10，¥795\n3. 16:50-19:50，¥819\n4. 07:20-10:25，¥819\n\n目前显示的最便宜的是¥645。让我继续查看其他日期。让我点击\"19\"这个日期。do(action=\"Tap\", element=[676,129])",
+        "action_object": {
+            "_metadata": "do",
+            "action": "Tap",
+            "element": [
+                676,
+                129
+            ]
+        },
+        "action_thought": "好的，页面加载完成了。现在显示的是06-18周四从广州到青岛的航班。我可以看到：\n\n1. 07:25-10:30，¥645\n2. 12:50-17:10，¥795\n3. 16:50-19:50，¥819\n4. 07:20-10:25，¥819\n\n目前显示的最便宜的是¥645。让我继续查看其他日期。让我点击\"19\"这个日期。",
+        "duration": 6.268124103546143,
+        "action_execution_duration": 1.069115161895752,
+        "prompt_tokens": 8505,
+        "prompt_action_tokens": 8505,
+        "completion_tokens": 122,
+        "total_tokens": 8627
+    },
+    {
+        "step": 29,
+        "operation": "action",
+        "screenshot": "D:\\Mobile-Agent\\MobileAgent-main\\MobileAgent-main\\app-data\\Ins-bench\\phoneagent_logs/full112_cn/t51_L1_r2/20260525-195156/screenshots/29.jpg",
+        "prompt_action": "** Screen Info **\n\n{\"current_app\": \"携程\"}",
+        "raw_response": "页面正在加载，显示\"机票价格非固定，由航司或供应商提供，会实时变动哦~\"的提示。页面显示的日期是06-19周五，价格显示为¥649。页面内容还在加载中（显示为灰色占位符）。do(action=\"Wait\", duration=\"1 seconds\")",
+        "action_object": {
+            "_metadata": "do",
+            "action": "Wait",
+            "duration": "1 seconds"
+        },
+        "action_thought": "页面正在加载，显示\"机票价格非固定，由航司或供应商提供，会实时变动哦~\"的提示。页面显示的日期是06-19周五，价格显示为¥649。页面内容还在加载中（显示为灰色占位符）。",
+        "duration": 4.20306921005249,
+        "action_execution_duration": 1.0077714920043945,
+        "prompt_tokens": 8643,
+        "prompt_action_tokens": 8643,
+        "completion_tokens": 71,
+        "total_tokens": 8714
+    },
+    {
+        "step": 30,
+        "operation": "action",
+        "screenshot": "D:\\Mobile-Agent\\MobileAgent-main\\MobileAgent-main\\app-data\\Ins-bench\\phoneagent_logs/full112_cn/t51_L1_r2/20260525-195156/screenshots/30.jpg",
+        "prompt_action": "** Screen Info **\n\n{\"current_app\": \"携程\"}",
+        "raw_response": "好的，页面加载完成了。现在显示的是06-19周五从广州到青岛的航班。我可以看到：\n\n1. 07:25-10:30，¥649\n2. 16:50-19:50，¥660\n3. 17:55-21:10，¥690\n4. 20:15-23:25，¥695\n\n目前显示的最便宜的是¥649。让我继续查看其他日期。让我点击\"20\"这个日期。do(action=\"Tap\", element=[676,129])",
+        "action_object": {
+            "_metadata": "do",
+            "action": "Tap",
+            "element": [
+                676,
+                129
+            ]
+        },
+        "action_thought": "好的，页面加载完成了。现在显示的是06-19周五从广州到青岛的航班。我可以看到：\n\n1. 07:25-10:30，¥649\n2. 16:50-19:50，¥660\n3. 17:55-21:10，¥690\n4. 20:15-23:25，¥695\n\n目前显示的最便宜的是¥649。让我继续查看其他日期。让我点击\"20\"这个日期。",
+        "duration": 5.370446681976318,
+        "action_execution_duration": 1.0770289897918701,
+        "prompt_tokens": 8730,
+        "prompt_action_tokens": 8730,
+        "completion_tokens": 122,
+        "total_tokens": 8852
+    },
+    {
+        "step": 31,
+        "operation": "action",
+        "screenshot": "D:\\Mobile-Agent\\MobileAgent-main\\MobileAgent-main\\app-data\\Ins-bench\\phoneagent_logs/full112_cn/t51_L1_r2/20260525-195156/screenshots/31.jpg",
+        "prompt_action": "** Screen Info **\n\n{\"current_app\": \"携程\"}",
+        "raw_response": "页面正在加载，显示\"机票价格非固定，由航司或供应商提供，会实时变动哦~\"的提示。页面显示的日期是06-20周六，价格显示为¥649。页面内容还在加载中（显示为灰色占位符）。do(action=\"Wait\", duration=\"1 seconds\")",
+        "action_object": {
+            "_metadata": "do",
+            "action": "Wait",
+            "duration": "1 seconds"
+        },
+        "action_thought": "页面正在加载，显示\"机票价格非固定，由航司或供应商提供，会实时变动哦~\"的提示。页面显示的日期是06-20周六，价格显示为¥649。页面内容还在加载中（显示为灰色占位符）。",
+        "duration": 3.983780860900879,
+        "action_execution_duration": 1.0098824501037598,
+        "prompt_tokens": 8868,
+        "prompt_action_tokens": 8868,
+        "completion_tokens": 71,
+        "total_tokens": 8939
+    },
+    {
+        "step": 32,
+        "operation": "action",
+        "screenshot": "D:\\Mobile-Agent\\MobileAgent-main\\MobileAgent-main\\app-data\\Ins-bench\\phoneagent_logs/full112_cn/t51_L1_r2/20260525-195156/screenshots/32.jpg",
+        "prompt_action": "** Screen Info **\n\n{\"current_app\": \"携程\"}",
+        "raw_response": "好的，页面加载完成了。现在显示的是06-20周六从广州到青岛的航班。我可以看到：\n\n1. 07:25-10:30，¥649\n2. 12:50-17:10，¥695\n3. 16:50-19:50，¥600\n4. 20:30-23:35，¥600\n\n目前显示的最便宜的是¥600。让我继续查看其他日期。让我点击\"21\"这个日期。do(action=\"Tap\", element=[676,129])",
+        "action_object": {
+            "_metadata": "do",
+            "action": "Tap",
+            "element": [
+                676,
+                129
+            ]
+        },
+        "action_thought": "好的，页面加载完成了。现在显示的是06-20周六从广州到青岛的航班。我可以看到：\n\n1. 07:25-10:30，¥649\n2. 12:50-17:10，¥695\n3. 16:50-19:50，¥600\n4. 20:30-23:35，¥600\n\n目前显示的最便宜的是¥600。让我继续查看其他日期。让我点击\"21\"这个日期。",
+        "duration": 5.967271327972412,
+        "action_execution_duration": 1.0958178043365479,
+        "prompt_tokens": 8955,
+        "prompt_action_tokens": 8955,
+        "completion_tokens": 119,
+        "total_tokens": 9074
+    },
+    {
+        "step": 33,
+        "operation": "action",
+        "screenshot": "D:\\Mobile-Agent\\MobileAgent-main\\MobileAgent-main\\app-data\\Ins-bench\\phoneagent_logs/full112_cn/t51_L1_r2/20260525-195156/screenshots/33.jpg",
+        "prompt_action": "** Screen Info **\n\n{\"current_app\": \"携程\"}",
+        "raw_response": "好的，现在显示的是06-21周日从广州到青岛的航班。我可以看到：\n\n1. 07:20-10:25，¥630\n2. 07:25-10:30，¥648\n3. 08:40-11:50，¥690\n4. 17:55-21:10，¥690\n\n目前显示的最便宜的是¥630。让我继续查看其他日期。让我点击\"22\"这个日期。\ndo(action=\"Tap\", element=[676,129])",
+        "action_object": {
+            "_metadata": "do",
+            "action": "Tap",
+            "element": [
+                676,
+                129
+            ]
+        },
+        "action_thought": "好的，现在显示的是06-21周日从广州到青岛的航班。我可以看到：\n\n1. 07:20-10:25，¥630\n2. 07:25-10:30，¥648\n3. 08:40-11:50，¥690\n4. 17:55-21:10，¥690\n\n目前显示的最便宜的是¥630。让我继续查看其他日期。让我点击\"22\"这个日期。",
+        "duration": 6.142863750457764,
+        "action_execution_duration": 1.0644958019256592,
+        "prompt_tokens": 9090,
+        "prompt_action_tokens": 9090,
+        "completion_tokens": 119,
+        "total_tokens": 9209
+    },
+    {
+        "step": 34,
+        "operation": "action",
+        "screenshot": "D:\\Mobile-Agent\\MobileAgent-main\\MobileAgent-main\\app-data\\Ins-bench\\phoneagent_logs/full112_cn/t51_L1_r2/20260525-195156/screenshots/34.jpg",
+        "prompt_action": "** Screen Info **\n\n{\"current_app\": \"携程\"}",
+        "raw_response": "页面正在加载，显示\"机票价格非固定，由航司或供应商提供，会实时变动哦~\"的提示。页面显示的日期是06-22周一，价格显示为¥649。页面内容还在加载中（显示为灰色占位符）。do(action=\"Wait\", duration=\"1 seconds\")",
+        "action_object": {
+            "_metadata": "do",
+            "action": "Wait",
+            "duration": "1 seconds"
+        },
+        "action_thought": "页面正在加载，显示\"机票价格非固定，由航司或供应商提供，会实时变动哦~\"的提示。页面显示的日期是06-22周一，价格显示为¥649。页面内容还在加载中（显示为灰色占位符）。",
+        "duration": 4.908790826797485,
+        "action_execution_duration": 1.015345811843872,
+        "prompt_tokens": 9224,
+        "prompt_action_tokens": 9224,
+        "completion_tokens": 71,
+        "total_tokens": 9295
+    },
+    {
+        "step": 35,
+        "operation": "action",
+        "screenshot": "D:\\Mobile-Agent\\MobileAgent-main\\MobileAgent-main\\app-data\\Ins-bench\\phoneagent_logs/full112_cn/t51_L1_r2/20260525-195156/screenshots/35.jpg",
+        "prompt_action": "** Screen Info **\n\n{\"current_app\": \"携程\"}",
+        "raw_response": "好的，页面加载完成了。现在显示的是06-22周一从广州到青岛的航班。我可以看到：\n\n1. 07:25-10:30，¥625\n2. 07:20-10:25，¥630\n3. 20:30-23:35，¥680\n4. 08:40-11:50，¥690\n\n目前显示的最便宜的是¥625。让我继续查看其他日期。让我点击\"23\"这个日期。do(action=\"Tap\", element=[676,129])",
+        "action_object": {
+            "_metadata": "do",
+            "action": "Tap",
+            "element": [
+                676,
+                129
+            ]
+        },
+        "action_thought": "好的，页面加载完成了。现在显示的是06-22周一从广州到青岛的航班。我可以看到：\n\n1. 07:25-10:30，¥625\n2. 07:20-10:25，¥630\n3. 20:30-23:35，¥680\n4. 08:40-11:50，¥690\n\n目前显示的最便宜的是¥625。让我继续查看其他日期。让我点击\"23\"这个日期。",
+        "duration": 5.24421238899231,
+        "action_execution_duration": 1.099794626235962,
+        "prompt_tokens": 9311,
+        "prompt_action_tokens": 9311,
+        "completion_tokens": 122,
+        "total_tokens": 9433
+    },
+    {
+        "step": 36,
+        "operation": "action",
+        "screenshot": "D:\\Mobile-Agent\\MobileAgent-main\\MobileAgent-main\\app-data\\Ins-bench\\phoneagent_logs/full112_cn/t51_L1_r2/20260525-195156/screenshots/36.jpg",
+        "prompt_action": "** Screen Info **\n\n{\"current_app\": \"携程\"}",
+        "raw_response": "页面正在加载，显示\"机票价格非固定，由航司或供应商提供，会实时变动哦~\"的提示。页面显示的日期是06-23周二，价格显示为¥649。页面内容还在加载中（显示为灰色占位符）。do(action=\"Wait\", duration=\"1 seconds\")",
+        "action_object": {
+            "_metadata": "do",
+            "action": "Wait",
+            "duration": "1 seconds"
+        },
+        "action_thought": "页面正在加载，显示\"机票价格非固定，由航司或供应商提供，会实时变动哦~\"的提示。页面显示的日期是06-23周二，价格显示为¥649。页面内容还在加载中（显示为灰色占位符）。",
+        "duration": 4.039339780807495,
+        "action_execution_duration": 1.0138604640960693,
+        "prompt_tokens": 9449,
+        "prompt_action_tokens": 9449,
+        "completion_tokens": 71,
+        "total_tokens": 9520
+    },
+    {
+        "step": 37,
+        "operation": "action",
+        "screenshot": "D:\\Mobile-Agent\\MobileAgent-main\\MobileAgent-main\\app-data\\Ins-bench\\phoneagent_logs/full112_cn/t51_L1_r2/20260525-195156/screenshots/37.jpg",
+        "prompt_action": "** Screen Info **\n\n{\"current_app\": \"携程\"}",
+        "raw_response": "好的，页面加载完成了。现在显示的是06-23周二从广州到青岛的航班。我可以看到：\n\n1. 07:25-10:30，¥625\n2. 16:50-19:50，¥660\n3. 07:20-10:25，¥670\n4. 18:00-20:50，¥690\n\n目前显示的最便宜的是¥625。让我继续查看其他日期。让我点击\"24\"这个日期。do(action=\"Tap\", element=[676,129])",
+        "action_object": {
+            "_metadata": "do",
+            "action": "Tap",
+            "element": [
+                676,
+                129
+            ]
+        },
+        "action_thought": "好的，页面加载完成了。现在显示的是06-23周二从广州到青岛的航班。我可以看到：\n\n1. 07:25-10:30，¥625\n2. 16:50-19:50，¥660\n3. 07:20-10:25，¥670\n4. 18:00-20:50，¥690\n\n目前显示的最便宜的是¥625。让我继续查看其他日期。让我点击\"24\"这个日期。",
+        "duration": 5.018404722213745,
+        "action_execution_duration": 1.0789778232574463,
+        "prompt_tokens": 9536,
+        "prompt_action_tokens": 9536,
+        "completion_tokens": 122,
+        "total_tokens": 9658
+    },
+    {
+        "step": 38,
+        "operation": "action",
+        "screenshot": "D:\\Mobile-Agent\\MobileAgent-main\\MobileAgent-main\\app-data\\Ins-bench\\phoneagent_logs/full112_cn/t51_L1_r2/20260525-195156/screenshots/38.jpg",
+        "prompt_action": "** Screen Info **\n\n{\"current_app\": \"携程\"}",
+        "raw_response": "页面正在加载，显示\"机票价格非固定，由航司或供应商提供，会实时变动哦~\"的提示。页面显示的日期是06-24周三，价格显示为¥649。页面内容还在加载中（显示为灰色占位符）。do(action=\"Wait\", duration=\"1 seconds\")",
+        "action_object": {
+            "_metadata": "do",
+            "action": "Wait",
+            "duration": "1 seconds"
+        },
+        "action_thought": "页面正在加载，显示\"机票价格非固定，由航司或供应商提供，会实时变动哦~\"的提示。页面显示的日期是06-24周三，价格显示为¥649。页面内容还在加载中（显示为灰色占位符）。",
+        "duration": 4.991142749786377,
+        "action_execution_duration": 1.0150072574615479,
+        "prompt_tokens": 9674,
+        "prompt_action_tokens": 9674,
+        "completion_tokens": 71,
+        "total_tokens": 9745
+    },
+    {
+        "step": 39,
+        "operation": "action",
+        "screenshot": "D:\\Mobile-Agent\\MobileAgent-main\\MobileAgent-main\\app-data\\Ins-bench\\phoneagent_logs/full112_cn/t51_L1_r2/20260525-195156/screenshots/39.jpg",
+        "prompt_action": "** Screen Info **\n\n{\"current_app\": \"携程\"}",
+        "raw_response": "好的，页面加载完成了。现在显示的是06-24周三从广州到青岛的航班。我可以看到：\n\n1. 07:25-10:30，¥625\n2. 18:15-21:25，¥648\n3. 07:20-10:25，¥670\n4. 17:55-21:00，¥690\n\n目前显示的最便宜的是¥625。让我继续查看其他日期。让我点击\"25\"这个日期。do(action=\"Tap\", element=[676,129])",
+        "action_object": {
+            "_metadata": "do",
+            "action": "Tap",
+            "element": [
+                676,
+                129
+            ]
+        },
+        "action_thought": "好的，页面加载完成了。现在显示的是06-24周三从广州到青岛的航班。我可以看到：\n\n1. 07:25-10:30，¥625\n2. 18:15-21:25，¥648\n3. 07:20-10:25，¥670\n4. 17:55-21:00，¥690\n\n目前显示的最便宜的是¥625。让我继续查看其他日期。让我点击\"25\"这个日期。",
+        "duration": 6.902970790863037,
+        "action_execution_duration": 1.0677149295806885,
+        "prompt_tokens": 9761,
+        "prompt_action_tokens": 9761,
+        "completion_tokens": 122,
+        "total_tokens": 9883
+    },
+    {
+        "step": 40,
+        "operation": "action",
+        "screenshot": "D:\\Mobile-Agent\\MobileAgent-main\\MobileAgent-main\\app-data\\Ins-bench\\phoneagent_logs/full112_cn/t51_L1_r2/20260525-195156/screenshots/40.jpg",
+        "prompt_action": "** Screen Info **\n\n{\"current_app\": \"携程\"}",
+        "raw_response": "页面正在加载，显示\"机票价格非固定，由航司或供应商提供，会实时变动哦~\"的提示。页面显示的日期是06-25周四，价格显示为¥649。页面内容还在加载中（显示为灰色占位符）。do(action=\"Wait\", duration=\"1 seconds\")",
+        "action_object": {
+            "_metadata": "do",
+            "action": "Wait",
+            "duration": "1 seconds"
+        },
+        "action_thought": "页面正在加载，显示\"机票价格非固定，由航司或供应商提供，会实时变动哦~\"的提示。页面显示的日期是06-25周四，价格显示为¥649。页面内容还在加载中（显示为灰色占位符）。",
+        "duration": 4.537453889846802,
+        "action_execution_duration": 1.0087652206420898,
+        "prompt_tokens": 9899,
+        "prompt_action_tokens": 9899,
+        "completion_tokens": 71,
+        "total_tokens": 9970
+    },
+    {
+        "step": 41,
+        "operation": "action",
+        "screenshot": "D:\\Mobile-Agent\\MobileAgent-main\\MobileAgent-main\\app-data\\Ins-bench\\phoneagent_logs/full112_cn/t51_L1_r2/20260525-195156/screenshots/41.jpg",
+        "prompt_action": "** Screen Info **\n\n{\"current_app\": \"携程\"}",
+        "raw_response": "好的，页面加载完成了。现在显示的是06-25周四从广州到青岛的航班。我可以看到：\n\n1. 07:25-10:30，¥625\n2. 07:20-10:25，¥700\n3. 12:50-17:10，¥700\n4. 20:15-23:25，¥745\n\n目前显示的最便宜的是¥625。让我继续查看其他日期。让我点击\"26\"这个日期。do(action=\"Tap\", element=[676,129])",
+        "action_object": {
+            "_metadata": "do",
+            "action": "Tap",
+            "element": [
+                676,
+                129
+            ]
+        },
+        "action_thought": "好的，页面加载完成了。现在显示的是06-25周四从广州到青岛的航班。我可以看到：\n\n1. 07:25-10:30，¥625\n2. 07:20-10:25，¥700\n3. 12:50-17:10，¥700\n4. 20:15-23:25，¥745\n\n目前显示的最便宜的是¥625。让我继续查看其他日期。让我点击\"26\"这个日期。",
+        "duration": 4.88961124420166,
+        "action_execution_duration": 1.0824153423309326,
+        "prompt_tokens": 9986,
+        "prompt_action_tokens": 9986,
+        "completion_tokens": 120,
+        "total_tokens": 10106
+    },
+    {
+        "step": 42,
+        "operation": "action",
+        "screenshot": "D:\\Mobile-Agent\\MobileAgent-main\\MobileAgent-main\\app-data\\Ins-bench\\phoneagent_logs/full112_cn/t51_L1_r2/20260525-195156/screenshots/42.jpg",
+        "prompt_action": "** Screen Info **\n\n{\"current_app\": \"携程\"}",
+        "raw_response": "页面正在加载，显示\"机票价格非固定，由航司或供应商提供，会实时变动哦~\"的提示。页面显示的日期是06-26周五，价格显示为¥649。页面内容还在加载中（显示为灰色占位符）。do(action=\"Wait\", duration=\"1 seconds\")",
+        "action_object": {
+            "_metadata": "do",
+            "action": "Wait",
+            "duration": "1 seconds"
+        },
+        "action_thought": "页面正在加载，显示\"机票价格非固定，由航司或供应商提供，会实时变动哦~\"的提示。页面显示的日期是06-26周五，价格显示为¥649。页面内容还在加载中（显示为灰色占位符）。",
+        "duration": 4.155602693557739,
+        "action_execution_duration": 1.0058441162109375,
+        "prompt_tokens": 10122,
+        "prompt_action_tokens": 10122,
+        "completion_tokens": 71,
+        "total_tokens": 10193
+    },
+    {
+        "step": 43,
+        "operation": "action",
+        "screenshot": "D:\\Mobile-Agent\\MobileAgent-main\\MobileAgent-main\\app-data\\Ins-bench\\phoneagent_logs/full112_cn/t51_L1_r2/20260525-195156/screenshots/43.jpg",
+        "prompt_action": "** Screen Info **\n\n{\"current_app\": \"携程\"}",
+        "raw_response": "好的，页面加载完成了。现在显示的是06-26周五从广州到青岛的航班。我可以看到：\n\n1. 07:25-10:30，¥625\n2. 07:20-10:25，¥700\n3. 12:50-17:00，¥785\n4. 20:15-23:25，¥795\n\n目前显示的最便宜的是¥625。让我继续查看其他日期。让我点击\"27\"这个日期。do(action=\"Tap\", element=[676,129])",
+        "action_object": {
+            "_metadata": "do",
+            "action": "Tap",
+            "element": [
+                676,
+                129
+            ]
+        },
+        "action_thought": "好的，页面加载完成了。现在显示的是06-26周五从广州到青岛的航班。我可以看到：\n\n1. 07:25-10:30，¥625\n2. 07:20-10:25，¥700\n3. 12:50-17:00，¥785\n4. 20:15-23:25，¥795\n\n目前显示的最便宜的是¥625。让我继续查看其他日期。让我点击\"27\"这个日期。",
+        "duration": 6.733407258987427,
+        "action_execution_duration": 1.087106466293335,
+        "prompt_tokens": 10209,
+        "prompt_action_tokens": 10209,
+        "completion_tokens": 121,
+        "total_tokens": 10330
+    },
+    {
+        "step": 44,
+        "operation": "action",
+        "screenshot": "D:\\Mobile-Agent\\MobileAgent-main\\MobileAgent-main\\app-data\\Ins-bench\\phoneagent_logs/full112_cn/t51_L1_r2/20260525-195156/screenshots/44.jpg",
+        "prompt_action": "** Screen Info **\n\n{\"current_app\": \"携程\"}",
+        "raw_response": "页面正在加载，显示\"机票价格非固定，由航司或供应商提供，会实时变动哦~\"的提示。页面显示的日期是06-27周六，价格显示为¥649。页面内容还在加载中（显示为灰色占位符）。do(action=\"Wait\", duration=\"1 seconds\")",
+        "action_object": {
+            "_metadata": "do",
+            "action": "Wait",
+            "duration": "1 seconds"
+        },
+        "action_thought": "页面正在加载，显示\"机票价格非固定，由航司或供应商提供，会实时变动哦~\"的提示。页面显示的日期是06-27周六，价格显示为¥649。页面内容还在加载中（显示为灰色占位符）。",
+        "duration": 3.866425037384033,
+        "action_execution_duration": 1.0055086612701416,
+        "prompt_tokens": 10346,
+        "prompt_action_tokens": 10346,
+        "completion_tokens": 71,
+        "total_tokens": 10417
+    },
+    {
+        "step": 45,
+        "operation": "action",
+        "screenshot": "D:\\Mobile-Agent\\MobileAgent-main\\MobileAgent-main\\app-data\\Ins-bench\\phoneagent_logs/full112_cn/t51_L1_r2/20260525-195156/screenshots/45.jpg",
+        "prompt_action": "** Screen Info **\n\n{\"current_app\": \"携程\"}",
+        "raw_response": "好的，页面加载完成了。现在显示的是06-27周六从广州到青岛的航班。我可以看到：\n\n1. 07:25-10:30，¥625\n2. 07:20-10:25，¥700\n3. 20:15-23:25，¥770\n4. 12:50-17:10，¥785\n\n目前显示的最便宜的是¥625。让我继续查看其他日期。让我点击\"28\"这个日期。do(action=\"Tap\", element=[676,129])",
+        "action_object": {
+            "_metadata": "do",
+            "action": "Tap",
+            "element": [
+                676,
+                129
+            ]
+        },
+        "action_thought": "好的，页面加载完成了。现在显示的是06-27周六从广州到青岛的航班。我可以看到：\n\n1. 07:25-10:30，¥625\n2. 07:20-10:25，¥700\n3. 20:15-23:25，¥770\n4. 12:50-17:10，¥785\n\n目前显示的最便宜的是¥625。让我继续查看其他日期。让我点击\"28\"这个日期。",
+        "duration": 5.129194974899292,
+        "action_execution_duration": 1.0736632347106934,
+        "prompt_tokens": 10433,
+        "prompt_action_tokens": 10433,
+        "completion_tokens": 121,
+        "total_tokens": 10554
+    },
+    {
+        "step": 46,
+        "operation": "action",
+        "screenshot": "D:\\Mobile-Agent\\MobileAgent-main\\MobileAgent-main\\app-data\\Ins-bench\\phoneagent_logs/full112_cn/t51_L1_r2/20260525-195156/screenshots/46.jpg",
+        "prompt_action": "** Screen Info **\n\n{\"current_app\": \"携程\"}",
+        "raw_response": "页面正在加载，显示\"机票价格非固定，由航司或供应商提供，会实时变动哦~\"的提示。页面显示的日期是06-28周日，价格显示为¥649。页面内容还在加载中（显示为灰色占位符）。do(action=\"Wait\", duration=\"1 seconds\")",
+        "action_object": {
+            "_metadata": "do",
+            "action": "Wait",
+            "duration": "1 seconds"
+        },
+        "action_thought": "页面正在加载，显示\"机票价格非固定，由航司或供应商提供，会实时变动哦~\"的提示。页面显示的日期是06-28周日，价格显示为¥649。页面内容还在加载中（显示为灰色占位符）。",
+        "duration": 4.802306413650513,
+        "action_execution_duration": 1.0149962902069092,
+        "prompt_tokens": 10570,
+        "prompt_action_tokens": 10570,
+        "completion_tokens": 71,
+        "total_tokens": 10641
+    },
+    {
+        "step": 47,
+        "operation": "action",
+        "screenshot": "D:\\Mobile-Agent\\MobileAgent-main\\MobileAgent-main\\app-data\\Ins-bench\\phoneagent_logs/full112_cn/t51_L1_r2/20260525-195156/screenshots/47.jpg",
+        "prompt_action": "** Screen Info **\n\n{\"current_app\": \"携程\"}",
+        "raw_response": "好的，页面加载完成了。现在显示的是06-28周日从广州到青岛的航班。我可以看到：\n\n1. 07:25-10:30，¥625\n2. 07:20-10:25，¥700\n3. 20:15-23:25，¥785\n4. 12:50-17:10，¥785\n\n目前显示的最便宜的是¥625。让我继续查看其他日期。让我点击\"29\"这个日期。do(action=\"Tap\", element=[676,129])",
+        "action_object": {
+            "_metadata": "do",
+            "action": "Tap",
+            "element": [
+                676,
+                129
+            ]
+        },
+        "action_thought": "好的，页面加载完成了。现在显示的是06-28周日从广州到青岛的航班。我可以看到：\n\n1. 07:25-10:30，¥625\n2. 07:20-10:25，¥700\n3. 20:15-23:25，¥785\n4. 12:50-17:10，¥785\n\n目前显示的最便宜的是¥625。让我继续查看其他日期。让我点击\"29\"这个日期。",
+        "duration": 4.973719835281372,
+        "action_execution_duration": 1.087496280670166,
+        "prompt_tokens": 10657,
+        "prompt_action_tokens": 10657,
+        "completion_tokens": 121,
+        "total_tokens": 10778
+    },
+    {
+        "step": 48,
+        "operation": "action",
+        "screenshot": "D:\\Mobile-Agent\\MobileAgent-main\\MobileAgent-main\\app-data\\Ins-bench\\phoneagent_logs/full112_cn/t51_L1_r2/20260525-195156/screenshots/48.jpg",
+        "prompt_action": "** Screen Info **\n\n{\"current_app\": \"携程\"}",
+        "raw_response": "页面正在加载，显示\"机票价格非固定，由航司或供应商提供，会实时变动哦~\"的提示。页面显示的日期是06-29周一，价格显示为¥649。页面内容还在加载中（显示为灰色占位符）。do(action=\"Wait\", duration=\"1 seconds\")",
+        "action_object": {
+            "_metadata": "do",
+            "action": "Wait",
+            "duration": "1 seconds"
+        },
+        "action_thought": "页面正在加载，显示\"机票价格非固定，由航司或供应商提供，会实时变动哦~\"的提示。页面显示的日期是06-29周一，价格显示为¥649。页面内容还在加载中（显示为灰色占位符）。",
+        "duration": 3.978487968444824,
+        "action_execution_duration": 1.012568712234497,
+        "prompt_tokens": 10794,
+        "prompt_action_tokens": 10794,
+        "completion_tokens": 71,
+        "total_tokens": 10865
+    },
+    {
+        "step": 49,
+        "operation": "action",
+        "screenshot": "D:\\Mobile-Agent\\MobileAgent-main\\MobileAgent-main\\app-data\\Ins-bench\\phoneagent_logs/full112_cn/t51_L1_r2/20260525-195156/screenshots/49.jpg",
+        "prompt_action": "** Screen Info **\n\n{\"current_app\": \"携程\"}",
+        "raw_response": "好的，页面加载完成了。现在显示的是06-29周一从广州到青岛的航班。我可以看到：\n\n1. 07:25-10:30，¥625\n2. 18:00-21:10，¥690\n3. 07:20-10:25，¥700\n4. 20:15-23:25，¥700\n\n目前显示的最便宜的是¥625。让我继续查看其他日期。让我点击\"30\"这个日期。do(action=\"Tap\", element=[676,129])",
+        "action_object": {
+            "_metadata": "do",
+            "action": "Tap",
+            "element": [
+                676,
+                129
+            ]
+        },
+        "action_thought": "好的，页面加载完成了。现在显示的是06-29周一从广州到青岛的航班。我可以看到：\n\n1. 07:25-10:30，¥625\n2. 18:00-21:10，¥690\n3. 07:20-10:25，¥700\n4. 20:15-23:25，¥700\n\n目前显示的最便宜的是¥625。让我继续查看其他日期。让我点击\"30\"这个日期。",
+        "duration": 5.3179075717926025,
+        "action_execution_duration": 1.0725104808807373,
+        "prompt_tokens": 10881,
+        "prompt_action_tokens": 10881,
+        "completion_tokens": 120,
+        "total_tokens": 11001
+    },
+    {
+        "step": 50,
+        "operation": "action",
+        "screenshot": "D:\\Mobile-Agent\\MobileAgent-main\\MobileAgent-main\\app-data\\Ins-bench\\phoneagent_logs/full112_cn/t51_L1_r2/20260525-195156/screenshots/50.jpg",
+        "prompt_action": "** Screen Info **\n\n{\"current_app\": \"携程\"}",
+        "raw_response": "页面正在加载，显示\"机票价格非固定，由航司或供应商提供，会实时变动哦~\"的提示。页面显示的日期是06-30周二，价格显示为¥649。页面内容还在加载中（显示为灰色占位符）。do(action=\"Wait\", duration=\"1 seconds\")",
+        "action_object": {
+            "_metadata": "do",
+            "action": "Wait",
+            "duration": "1 seconds"
+        },
+        "action_thought": "页面正在加载，显示\"机票价格非固定，由航司或供应商提供，会实时变动哦~\"的提示。页面显示的日期是06-30周二，价格显示为¥649。页面内容还在加载中（显示为灰色占位符）。",
+        "duration": 4.447882175445557,
+        "action_execution_duration": 1.0111374855041504,
+        "prompt_tokens": 11017,
+        "prompt_action_tokens": 11017,
+        "completion_tokens": 71,
+        "total_tokens": 11088
+    },
+    {
+        "step": 50,
+        "operation": "finish",
+        "finish_flag": "max_steps_reached",
+        "task_duration": 266.6401822566986
+    }
+]

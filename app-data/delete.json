@@ -1,0 +1,96 @@
+"action_object_str": {
+    "添加好友申请":[
+        "open facebook app",
+        "tap the people icon at the top",
+        "tap the search box at the top",
+        "type the friend's name",
+        "tap the  add friend button at the right of the friend's name in the search result"
+    ],  
+    "发布动态":[
+        "open facebook app",
+        "tap the plus sign in square at the top",
+        "tap the 'post' button in a black font in the list of options",
+        "type the status in the status input box with text 'What's on your mind?' at the bottom",
+        "tap the picture icon at the bottom to add a picture",
+        "tap the picture in the list to select a picture",
+        "tap the emoji icon at the bottom to add an emoji",
+        "tap the emoji in the list to select an emoji",
+        "tap the location icon at the bottom to add a location",
+        "tap the location in the list to select a location",
+        "tap the post button in a blue box at the right top"
+    ],
+    "浏览页面内容":[
+        "open facebook app",
+        "swipe down to view more posts",
+        "tap a post to enter the post page"
+    ],
+    "加入群组":[
+        "open facebook app",
+        "tap the search box at the right top",
+        "type the name of the group",
+        "tap the  join button in the search result "
+    ],
+    "在推文下发表评论":[
+        "open facebook app",
+        "tap the search box at the top",
+        "type the search content",
+        "tap the first search'result in the result list ",
+        "tap the post square to enter the post page",
+        "tap the bubble message icon to enter the comment page",
+        "tap the comment input box with text 'Write a comment' at the bottom",
+        "type the comment in the comment input box",
+        "tap the paper airplane icon at the right corner of the comment input box to post the comment"
+    ],
+    "给推文点赞":[
+        "open facebook app",
+        "tap the search box at the top",
+        "type the search content",
+        "tap the first search'result in the result list ",
+        "tap the post square to enter the post page",
+        "tap the thumb up symbol button with text 'like' at the bottom of the post page"
+    ],
+    "根据关键词搜索推文":[
+        "open facebook app",
+        "tap the search box at the top",
+        "type the search content",
+        "tap the first search'result in the result list "
+    ],
+    "创建小组":[
+        "open facebook app",
+        "tap the shrink column symbol  at the top",
+        "tap the Groups button in the  openlist",
+        "tap the plus sign in black square at the right top of the page",
+        "tap the Create a group button in the bottom list",
+        "type the name of the group",
+        "tap the 'create group' button' at the bottom"
+    ],
+    "查看通知":[
+        "open facebook app",
+        "tap the bell icon at the top",
+        "swipe down to view more notifications",
+        "tap a notification to enter the notification page"
+    ],
+    "follow a user":[
+        "open facebook app",
+        "tap the search box at the top",
+        "type the search name of user",
+        "tap the first search'result in the result list ",
+        "tap the user's profile to enter the user's profile page",
+        "tap the follow button in a blue box "
+    ]
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

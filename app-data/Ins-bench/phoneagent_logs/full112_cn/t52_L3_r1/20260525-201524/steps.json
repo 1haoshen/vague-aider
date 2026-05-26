@@ -1,0 +1,1129 @@
+[
+    {
+        "step": 0,
+        "operation": "init",
+        "instruction": "打开携程旅行app，点击首页的飞机图标进入机票页面，输入目的地为北京，点击搜索按钮，查看元旦期间的航班信息，计算往返总价，如果超过2000元则点击提醒按钮，如果没有超过则选择一个时间合适的航班，点击预订按钮进入付款页面，停留在付款页面即可，不要实际支付。",
+        "task_id": "20260525-201524",
+        "run_name": "full112_cn/t52_L3_r1",
+        "max_steps": 50
+    },
+    {
+        "step": 1,
+        "operation": "action",
+        "screenshot": "D:\\Mobile-Agent\\MobileAgent-main\\MobileAgent-main\\app-data\\Ins-bench\\phoneagent_logs/full112_cn/t52_L3_r1/20260525-201524/screenshots/1.jpg",
+        "prompt_action": "打开携程旅行app，点击首页的飞机图标进入机票页面，输入目的地为北京，点击搜索按钮，查看元旦期间的航班信息，计算往返总价，如果超过2000元则点击提醒按钮，如果没有超过则选择一个时间合适的航班，点击预订按钮进入付款页面，停留在付款页面即可，不要实际支付。\n\n{\"current_app\": \"System Home\"}",
+        "raw_response": "用户要求我：\n1. 打开携程旅行app\n2. 点击首页的飞机图标进入机票页面\n3. 输入目的地为北京\n4. 点击搜索按钮\n5. 查看元旦期间的航班信息\n6. 计算往返总价\n7. 如果超过2000元则点击提醒按钮\n8. 如果没有超过则选择一个时间合适的航班\n9. 点击预订按钮进入付款页面\n10. 停留在付款页面即可，不要实际支付\n\n首先，我需要打开携程旅行app。从截图中我可以看到当前在系统桌面，我需要找到携程app或者使用Launch功能直接启动。\n\n让我使用Launch功能打开携程app。\ndo(action=\"Launch\", app=\"携程\")",
+        "action_object": {
+            "_metadata": "do",
+            "action": "Launch",
+            "app": "携程"
+        },
+        "action_thought": "用户要求我：\n1. 打开携程旅行app\n2. 点击首页的飞机图标进入机票页面\n3. 输入目的地为北京\n4. 点击搜索按钮\n5. 查看元旦期间的航班信息\n6. 计算往返总价\n7. 如果超过2000元则点击提醒按钮\n8. 如果没有超过则选择一个时间合适的航班\n9. 点击预订按钮进入付款页面\n10. 停留在付款页面即可，不要实际支付\n\n首先，我需要打开携程旅行app。从截图中我可以看到当前在系统桌面，我需要找到携程app或者使用Launch功能直接启动。\n\n让我使用Launch功能打开携程app。",
+        "duration": 9.094403266906738,
+        "action_execution_duration": 1.3066723346710205,
+        "prompt_tokens": 5172,
+        "prompt_action_tokens": 5172,
+        "completion_tokens": 156,
+        "total_tokens": 5328
+    },
+    {
+        "step": 2,
+        "operation": "action",
+        "screenshot": "D:\\Mobile-Agent\\MobileAgent-main\\MobileAgent-main\\app-data\\Ins-bench\\phoneagent_logs/full112_cn/t52_L3_r1/20260525-201524/screenshots/2.jpg",
+        "prompt_action": "** Screen Info **\n\n{\"current_app\": \"携程\"}",
+        "raw_response": "携程app已经打开了，但是显示的是一个日期选择页面，显示的是\"选择往返日期\"。我需要先关闭这个页面，然后找到机票页面。让我点击左上角的X按钮关闭这个页面。\ndo(action=\"Tap\", element=[60,121])",
+        "action_object": {
+            "_metadata": "do",
+            "action": "Tap",
+            "element": [
+                60,
+                121
+            ]
+        },
+        "action_thought": "携程app已经打开了，但是显示的是一个日期选择页面，显示的是\"选择往返日期\"。我需要先关闭这个页面，然后找到机票页面。让我点击左上角的X按钮关闭这个页面。",
+        "duration": 4.2771337032318115,
+        "action_execution_duration": 1.089690923690796,
+        "prompt_tokens": 5343,
+        "prompt_action_tokens": 5343,
+        "completion_tokens": 58,
+        "total_tokens": 5401
+    },
+    {
+        "step": 3,
+        "operation": "action",
+        "screenshot": "D:\\Mobile-Agent\\MobileAgent-main\\MobileAgent-main\\app-data\\Ins-bench\\phoneagent_logs/full112_cn/t52_L3_r1/20260525-201524/screenshots/3.jpg",
+        "prompt_action": "** Screen Info **\n\n{\"current_app\": \"携程\"}",
+        "raw_response": "好的，现在显示的是机票搜索页面。我可以看到：\n- 出发地：上海\n- 目的地：北京\n- 出发日期：6月25日 周四\n- 返程日期：7月2日 周四\n- 有一个蓝色的\"搜索\"按钮\n\n但是用户要求我：\n1. 点击首页的飞机图标进入机票页面（我已经在机票页面了）\n2. 输入目的地为北京（已经输入了）\n3. 点击搜索按钮\n4. 查看元旦期间的航班信息\n5. 计算往返总价\n6. 如果超过2000元则点击提醒按钮\n7. 如果没有超过则选择一个时间合适的航班\n8. 点击预订按钮进入付款页面\n9. 停留在付款页面即可，不要实际支付\n\n现在我看到的是机票搜索页面，但显示的日期是6月25日和7月2日，这不是元旦期间。我需要修改日期为元旦期间。让我点击日期部分来修改。\ndo(action=\"Tap\", element=[149,268])",
+        "action_object": {
+            "_metadata": "do",
+            "action": "Tap",
+            "element": [
+                149,
+                268
+            ]
+        },
+        "action_thought": "好的，现在显示的是机票搜索页面。我可以看到：\n- 出发地：上海\n- 目的地：北京\n- 出发日期：6月25日 周四\n- 返程日期：7月2日 周四\n- 有一个蓝色的\"搜索\"按钮\n\n但是用户要求我：\n1. 点击首页的飞机图标进入机票页面（我已经在机票页面了）\n2. 输入目的地为北京（已经输入了）\n3. 点击搜索按钮\n4. 查看元旦期间的航班信息\n5. 计算往返总价\n6. 如果超过2000元则点击提醒按钮\n7. 如果没有超过则选择一个时间合适的航班\n8. 点击预订按钮进入付款页面\n9. 停留在付款页面即可，不要实际支付\n\n现在我看到的是机票搜索页面，但显示的日期是6月25日和7月2日，这不是元旦期间。我需要修改日期为元旦期间。让我点击日期部分来修改。",
+        "duration": 5.3291497230529785,
+        "action_execution_duration": 1.0738418102264404,
+        "prompt_tokens": 5416,
+        "prompt_action_tokens": 5416,
+        "completion_tokens": 227,
+        "total_tokens": 5643
+    },
+    {
+        "step": 4,
+        "operation": "action",
+        "screenshot": "D:\\Mobile-Agent\\MobileAgent-main\\MobileAgent-main\\app-data\\Ins-bench\\phoneagent_logs/full112_cn/t52_L3_r1/20260525-201524/screenshots/4.jpg",
+        "prompt_action": "** Screen Info **\n\n{\"current_app\": \"携程\"}",
+        "raw_response": "好的，现在打开了日期选择页面。我可以看到当前显示的是2026年6月和7月的日历。我需要选择元旦期间，也就是1月1日（2026年1月1日）作为出发日期，然后选择一个合适的返程日期（比如1月2日）。\n\n但是，我看到当前显示的是6月和7月的日历，我需要向上滑动或者找到1月1日的位置。让我先向上滑动看看能否找到1月1日。\ndo(action=\"Swipe\", start=[499,438], end=[499,702])",
+        "action_object": {
+            "_metadata": "do",
+            "action": "Swipe",
+            "start": [
+                499,
+                438
+            ],
+            "end": [
+                499,
+                702
+            ]
+        },
+        "action_thought": "好的，现在打开了日期选择页面。我可以看到当前显示的是2026年6月和7月的日历。我需要选择元旦期间，也就是1月1日（2026年1月1日）作为出发日期，然后选择一个合适的返程日期（比如1月2日）。\n\n但是，我看到当前显示的是6月和7月的日历，我需要向上滑动或者找到1月1日的位置。让我先向上滑动看看能否找到1月1日。",
+        "duration": 7.181278705596924,
+        "action_execution_duration": 2.07792592048645,
+        "prompt_tokens": 5658,
+        "prompt_action_tokens": 5658,
+        "completion_tokens": 127,
+        "total_tokens": 5785
+    },
+    {
+        "step": 5,
+        "operation": "action",
+        "screenshot": "D:\\Mobile-Agent\\MobileAgent-main\\MobileAgent-main\\app-data\\Ins-bench\\phoneagent_logs/full112_cn/t52_L3_r1/20260525-201524/screenshots/5.jpg",
+        "prompt_action": "** Screen Info **\n\n{\"current_app\": \"携程\"}",
+        "raw_response": "好的，现在显示的是2026年5月和6月的日历。我需要继续向上滑动找到1月1日。\ndo(action=\"Swipe\", start=[499,438], end=[499,702])",
+        "action_object": {
+            "_metadata": "do",
+            "action": "Swipe",
+            "start": [
+                499,
+                438
+            ],
+            "end": [
+                499,
+                702
+            ]
+        },
+        "action_thought": "好的，现在显示的是2026年5月和6月的日历。我需要继续向上滑动找到1月1日。",
+        "duration": 4.933342695236206,
+        "action_execution_duration": 2.087545871734619,
+        "prompt_tokens": 5800,
+        "prompt_action_tokens": 5800,
+        "completion_tokens": 53,
+        "total_tokens": 5853
+    },
+    {
+        "step": 6,
+        "operation": "action",
+        "screenshot": "D:\\Mobile-Agent\\MobileAgent-main\\MobileAgent-main\\app-data\\Ins-bench\\phoneagent_logs/full112_cn/t52_L3_r1/20260525-201524/screenshots/6.jpg",
+        "prompt_action": "** Screen Info **\n\n{\"current_app\": \"携程\"}",
+        "raw_response": "现在显示的是2026年5月和6月的日历。我需要继续向上滑动找到1月1日。\ndo(action=\"Swipe\", start=[499,438], end=[499,702])",
+        "action_object": {
+            "_metadata": "do",
+            "action": "Swipe",
+            "start": [
+                499,
+                438
+            ],
+            "end": [
+                499,
+                702
+            ]
+        },
+        "action_thought": "现在显示的是2026年5月和6月的日历。我需要继续向上滑动找到1月1日。",
+        "duration": 6.580277442932129,
+        "action_execution_duration": 2.100508213043213,
+        "prompt_tokens": 5868,
+        "prompt_action_tokens": 5868,
+        "completion_tokens": 51,
+        "total_tokens": 5919
+    },
+    {
+        "step": 7,
+        "operation": "action",
+        "screenshot": "D:\\Mobile-Agent\\MobileAgent-main\\MobileAgent-main\\app-data\\Ins-bench\\phoneagent_logs/full112_cn/t52_L3_r1/20260525-201524/screenshots/7.jpg",
+        "prompt_action": "** Screen Info **\n\n{\"current_app\": \"携程\"}",
+        "raw_response": "看起来页面没有变化，还是显示5月和6月。让我尝试点击左上角的X关闭这个日期选择页面，然后重新进入机票页面，看看能否找到更直接的方式来选择元旦日期。\ndo(action=\"Tap\", element=[60,121])",
+        "action_object": {
+            "_metadata": "do",
+            "action": "Tap",
+            "element": [
+                60,
+                121
+            ]
+        },
+        "action_thought": "看起来页面没有变化，还是显示5月和6月。让我尝试点击左上角的X关闭这个日期选择页面，然后重新进入机票页面，看看能否找到更直接的方式来选择元旦日期。",
+        "duration": 4.224438428878784,
+        "action_execution_duration": 1.0797927379608154,
+        "prompt_tokens": 5934,
+        "prompt_action_tokens": 5934,
+        "completion_tokens": 58,
+        "total_tokens": 5992
+    },
+    {
+        "step": 8,
+        "operation": "action",
+        "screenshot": "D:\\Mobile-Agent\\MobileAgent-main\\MobileAgent-main\\app-data\\Ins-bench\\phoneagent_logs/full112_cn/t52_L3_r1/20260525-201524/screenshots/8.jpg",
+        "prompt_action": "** Screen Info **\n\n{\"current_app\": \"携程\"}",
+        "raw_response": "好的，现在回到了机票搜索页面。我可以看到：\n- 出发地：上海\n- 目的地：北京\n- 出发日期：6月25日 周四\n- 返程日期：7月2日 周四\n- 有一个蓝色的\"搜索\"按钮\n\n我需要修改出发日期为元旦期间（比如1月1日）。让我点击\"6月25日\"这个日期部分来修改。do(action=\"Tap\", element=[149,268])",
+        "action_object": {
+            "_metadata": "do",
+            "action": "Tap",
+            "element": [
+                149,
+                268
+            ]
+        },
+        "action_thought": "好的，现在回到了机票搜索页面。我可以看到：\n- 出发地：上海\n- 目的地：北京\n- 出发日期：6月25日 周四\n- 返程日期：7月2日 周四\n- 有一个蓝色的\"搜索\"按钮\n\n我需要修改出发日期为元旦期间（比如1月1日）。让我点击\"6月25日\"这个日期部分来修改。",
+        "duration": 4.4080212116241455,
+        "action_execution_duration": 1.0798354148864746,
+        "prompt_tokens": 6007,
+        "prompt_action_tokens": 6007,
+        "completion_tokens": 107,
+        "total_tokens": 6114
+    },
+    {
+        "step": 9,
+        "operation": "action",
+        "screenshot": "D:\\Mobile-Agent\\MobileAgent-main\\MobileAgent-main\\app-data\\Ins-bench\\phoneagent_logs/full112_cn/t52_L3_r1/20260525-201524/screenshots/9.jpg",
+        "prompt_action": "** Screen Info **\n\n{\"current_app\": \"携程\"}",
+        "raw_response": "好的，现在打开了日期选择页面。我可以看到当前显示的是2026年6月和7月的日历。我需要找到1月1日的位置。让我向上滑动来查看更早的月份。do(action=\"Swipe\", start=[499,438], end=[499,702])",
+        "action_object": {
+            "_metadata": "do",
+            "action": "Swipe",
+            "start": [
+                499,
+                438
+            ],
+            "end": [
+                499,
+                702
+            ]
+        },
+        "action_thought": "好的，现在打开了日期选择页面。我可以看到当前显示的是2026年6月和7月的日历。我需要找到1月1日的位置。让我向上滑动来查看更早的月份。",
+        "duration": 5.259665250778198,
+        "action_execution_duration": 2.099039316177368,
+        "prompt_tokens": 6130,
+        "prompt_action_tokens": 6130,
+        "completion_tokens": 68,
+        "total_tokens": 6198
+    },
+    {
+        "step": 10,
+        "operation": "action",
+        "screenshot": "D:\\Mobile-Agent\\MobileAgent-main\\MobileAgent-main\\app-data\\Ins-bench\\phoneagent_logs/full112_cn/t52_L3_r1/20260525-201524/screenshots/10.jpg",
+        "prompt_action": "** Screen Info **\n\n{\"current_app\": \"携程\"}",
+        "raw_response": "现在显示的是2026年5月和6月的日历。我需要继续向上滑动找到1月1日。\ndo(action=\"Swipe\", start=[499,438], end=[499,702])",
+        "action_object": {
+            "_metadata": "do",
+            "action": "Swipe",
+            "start": [
+                499,
+                438
+            ],
+            "end": [
+                499,
+                702
+            ]
+        },
+        "action_thought": "现在显示的是2026年5月和6月的日历。我需要继续向上滑动找到1月1日。",
+        "duration": 6.470065116882324,
+        "action_execution_duration": 2.07938551902771,
+        "prompt_tokens": 6214,
+        "prompt_action_tokens": 6214,
+        "completion_tokens": 51,
+        "total_tokens": 6265
+    },
+    {
+        "step": 11,
+        "operation": "action",
+        "screenshot": "D:\\Mobile-Agent\\MobileAgent-main\\MobileAgent-main\\app-data\\Ins-bench\\phoneagent_logs/full112_cn/t52_L3_r1/20260525-201524/screenshots/11.jpg",
+        "prompt_action": "** Screen Info **\n\n{\"current_app\": \"携程\"}",
+        "raw_response": "看起来页面没有变化，还是显示5月和6月。让我尝试点击左上角的X关闭这个日期选择页面，然后重新进入机票页面，看看能否找到更直接的方式来选择元旦日期。或者我可以尝试点击\"2026年5月\"这个标题来选择月份。\ndo(action=\"Tap\", element=[149,246])",
+        "action_object": {
+            "_metadata": "do",
+            "action": "Tap",
+            "element": [
+                149,
+                246
+            ]
+        },
+        "action_thought": "看起来页面没有变化，还是显示5月和6月。让我尝试点击左上角的X关闭这个日期选择页面，然后重新进入机票页面，看看能否找到更直接的方式来选择元旦日期。或者我可以尝试点击\"2026年5月\"这个标题来选择月份。",
+        "duration": 4.336216926574707,
+        "action_execution_duration": 1.075225591659546,
+        "prompt_tokens": 6280,
+        "prompt_action_tokens": 6280,
+        "completion_tokens": 76,
+        "total_tokens": 6356
+    },
+    {
+        "step": 12,
+        "operation": "action",
+        "screenshot": "D:\\Mobile-Agent\\MobileAgent-main\\MobileAgent-main\\app-data\\Ins-bench\\phoneagent_logs/full112_cn/t52_L3_r1/20260525-201524/screenshots/12.jpg",
+        "prompt_action": "** Screen Info **\n\n{\"current_app\": \"携程\"}",
+        "raw_response": "页面没有变化。让我尝试点击\"2026年5月\"旁边的箭头或者点击\"2026年6月\"来切换月份。我看到\"2026年5月\"旁边有一个右箭头，让我点击它。do(action=\"Tap\", element=[916,246])",
+        "action_object": {
+            "_metadata": "do",
+            "action": "Tap",
+            "element": [
+                916,
+                246
+            ]
+        },
+        "action_thought": "页面没有变化。让我尝试点击\"2026年5月\"旁边的箭头或者点击\"2026年6月\"来切换月份。我看到\"2026年5月\"旁边有一个右箭头，让我点击它。",
+        "duration": 4.060049533843994,
+        "action_execution_duration": 1.0912456512451172,
+        "prompt_tokens": 6371,
+        "prompt_action_tokens": 6371,
+        "completion_tokens": 65,
+        "total_tokens": 6436
+    },
+    {
+        "step": 13,
+        "operation": "action",
+        "screenshot": "D:\\Mobile-Agent\\MobileAgent-main\\MobileAgent-main\\app-data\\Ins-bench\\phoneagent_logs/full112_cn/t52_L3_r1/20260525-201524/screenshots/13.jpg",
+        "prompt_action": "** Screen Info **\n\n{\"current_app\": \"携程\"}",
+        "raw_response": "好的，现在显示的是\"5月周末拼假\"页面，显示的是5月的航班信息。我可以看到：\n- 出发地：上海\n- 目的地：北京\n- 有两个选项：\"5月周末\"和\"最多请2天假\"\n- 页面正在加载中（显示的是占位符）\n\n但是这个页面显示的是5月的航班，我需要的是元旦（1月1日）的航班。让我返回到机票搜索页面，然后重新选择日期。do(action=\"Back\")",
+        "action_object": {
+            "_metadata": "do",
+            "action": "Back"
+        },
+        "action_thought": "好的，现在显示的是\"5月周末拼假\"页面，显示的是5月的航班信息。我可以看到：\n- 出发地：上海\n- 目的地：北京\n- 有两个选项：\"5月周末\"和\"最多请2天假\"\n- 页面正在加载中（显示的是占位符）\n\n但是这个页面显示的是5月的航班，我需要的是元旦（1月1日）的航班。让我返回到机票搜索页面，然后重新选择日期。",
+        "duration": 5.1974241733551025,
+        "action_execution_duration": 1.1022586822509766,
+        "prompt_tokens": 6452,
+        "prompt_action_tokens": 6452,
+        "completion_tokens": 110,
+        "total_tokens": 6562
+    },
+    {
+        "step": 14,
+        "operation": "action",
+        "screenshot": "D:\\Mobile-Agent\\MobileAgent-main\\MobileAgent-main\\app-data\\Ins-bench\\phoneagent_logs/full112_cn/t52_L3_r1/20260525-201524/screenshots/14.jpg",
+        "prompt_action": "** Screen Info **\n\n{\"current_app\": \"携程\"}",
+        "raw_response": "好的，现在回到了日期选择页面。我需要找到1月1日的位置。让我继续向上滑动来查看更早的月份。\ndo(action=\"Swipe\", start=[499,438], end=[499,702])",
+        "action_object": {
+            "_metadata": "do",
+            "action": "Swipe",
+            "start": [
+                499,
+                438
+            ],
+            "end": [
+                499,
+                702
+            ]
+        },
+        "action_thought": "好的，现在回到了日期选择页面。我需要找到1月1日的位置。让我继续向上滑动来查看更早的月份。",
+        "duration": 5.190616607666016,
+        "action_execution_duration": 2.0867950916290283,
+        "prompt_tokens": 6578,
+        "prompt_action_tokens": 6578,
+        "completion_tokens": 54,
+        "total_tokens": 6632
+    },
+    {
+        "step": 15,
+        "operation": "action",
+        "screenshot": "D:\\Mobile-Agent\\MobileAgent-main\\MobileAgent-main\\app-data\\Ins-bench\\phoneagent_logs/full112_cn/t52_L3_r1/20260525-201524/screenshots/15.jpg",
+        "prompt_action": "** Screen Info **\n\n{\"current_app\": \"携程\"}",
+        "raw_response": "页面没有变化，还是显示5月和6月。让我尝试点击\"2026年5月\"这个文字，看看能否打开月份选择器。do(action=\"Tap\", element=[149,246])",
+        "action_object": {
+            "_metadata": "do",
+            "action": "Tap",
+            "element": [
+                149,
+                246
+            ]
+        },
+        "action_thought": "页面没有变化，还是显示5月和6月。让我尝试点击\"2026年5月\"这个文字，看看能否打开月份选择器。",
+        "duration": 5.448622941970825,
+        "action_execution_duration": 1.0794105529785156,
+        "prompt_tokens": 6647,
+        "prompt_action_tokens": 6647,
+        "completion_tokens": 48,
+        "total_tokens": 6695
+    },
+    {
+        "step": 16,
+        "operation": "action",
+        "screenshot": "D:\\Mobile-Agent\\MobileAgent-main\\MobileAgent-main\\app-data\\Ins-bench\\phoneagent_logs/full112_cn/t52_L3_r1/20260525-201524/screenshots/16.jpg",
+        "prompt_action": "** Screen Info **\n\n{\"current_app\": \"携程\"}",
+        "raw_response": "页面没有变化。让我尝试点击\"2026年5月\"旁边的右箭头来切换到之前的月份。do(action=\"Tap\", element=[916,246])",
+        "action_object": {
+            "_metadata": "do",
+            "action": "Tap",
+            "element": [
+                916,
+                246
+            ]
+        },
+        "action_thought": "页面没有变化。让我尝试点击\"2026年5月\"旁边的右箭头来切换到之前的月份。",
+        "duration": 4.137574672698975,
+        "action_execution_duration": 1.074828863143921,
+        "prompt_tokens": 6711,
+        "prompt_action_tokens": 6711,
+        "completion_tokens": 40,
+        "total_tokens": 6751
+    },
+    {
+        "step": 17,
+        "operation": "action",
+        "screenshot": "D:\\Mobile-Agent\\MobileAgent-main\\MobileAgent-main\\app-data\\Ins-bench\\phoneagent_logs/full112_cn/t52_L3_r1/20260525-201524/screenshots/17.jpg",
+        "prompt_action": "** Screen Info **\n\n{\"current_app\": \"携程\"}",
+        "raw_response": "好的，现在显示的是5月周末拼假页面，显示的是5月的航班信息。我可以看到：\n- 出发地：上海\n- 目的地：北京\n- 有多个航班选项，价格从¥660到¥744不等\n\n但是这个页面显示的是5月的航班，我需要的是元旦（1月1日）的航班。让我返回到机票搜索页面，然后重新选择日期。\ndo(action=\"Back\")",
+        "action_object": {
+            "_metadata": "do",
+            "action": "Back"
+        },
+        "action_thought": "好的，现在显示的是5月周末拼假页面，显示的是5月的航班信息。我可以看到：\n- 出发地：上海\n- 目的地：北京\n- 有多个航班选项，价格从¥660到¥744不等\n\n但是这个页面显示的是5月的航班，我需要的是元旦（1月1日）的航班。让我返回到机票搜索页面，然后重新选择日期。",
+        "duration": 4.293618202209473,
+        "action_execution_duration": 1.1073062419891357,
+        "prompt_tokens": 6767,
+        "prompt_action_tokens": 6767,
+        "completion_tokens": 96,
+        "total_tokens": 6863
+    },
+    {
+        "step": 18,
+        "operation": "action",
+        "screenshot": "D:\\Mobile-Agent\\MobileAgent-main\\MobileAgent-main\\app-data\\Ins-bench\\phoneagent_logs/full112_cn/t52_L3_r1/20260525-201524/screenshots/18.jpg",
+        "prompt_action": "** Screen Info **\n\n{\"current_app\": \"携程\"}",
+        "raw_response": "好的，现在回到了日期选择页面。我需要找到1月1日的位置。让我继续向上滑动来查看更早的月份。\ndo(action=\"Swipe\", start=[499,438], end=[499,702])",
+        "action_object": {
+            "_metadata": "do",
+            "action": "Swipe",
+            "start": [
+                499,
+                438
+            ],
+            "end": [
+                499,
+                702
+            ]
+        },
+        "action_thought": "好的，现在回到了日期选择页面。我需要找到1月1日的位置。让我继续向上滑动来查看更早的月份。",
+        "duration": 6.281134843826294,
+        "action_execution_duration": 2.099260091781616,
+        "prompt_tokens": 6878,
+        "prompt_action_tokens": 6878,
+        "completion_tokens": 54,
+        "total_tokens": 6932
+    },
+    {
+        "step": 19,
+        "operation": "action",
+        "screenshot": "D:\\Mobile-Agent\\MobileAgent-main\\MobileAgent-main\\app-data\\Ins-bench\\phoneagent_logs/full112_cn/t52_L3_r1/20260525-201524/screenshots/19.jpg",
+        "prompt_action": "** Screen Info **\n\n{\"current_app\": \"携程\"}",
+        "raw_response": "页面没有变化，还是显示5月和6月。让我尝试点击\"2026年5月\"旁边的右箭头来切换到之前的月份，然后继续滑动。\ndo(action=\"Tap\", element=[916,246])",
+        "action_object": {
+            "_metadata": "do",
+            "action": "Tap",
+            "element": [
+                916,
+                246
+            ]
+        },
+        "action_thought": "页面没有变化，还是显示5月和6月。让我尝试点击\"2026年5月\"旁边的右箭头来切换到之前的月份，然后继续滑动。",
+        "duration": 4.190065145492554,
+        "action_execution_duration": 1.0867855548858643,
+        "prompt_tokens": 6947,
+        "prompt_action_tokens": 6947,
+        "completion_tokens": 53,
+        "total_tokens": 7000
+    },
+    {
+        "step": 20,
+        "operation": "action",
+        "screenshot": "D:\\Mobile-Agent\\MobileAgent-main\\MobileAgent-main\\app-data\\Ins-bench\\phoneagent_logs/full112_cn/t52_L3_r1/20260525-201524/screenshots/20.jpg",
+        "prompt_action": "** Screen Info **\n\n{\"current_app\": \"携程\"}",
+        "raw_response": "好的，现在显示的是5月周末拼假页面。我可以看到5月的航班信息。现在我需要返回到机票搜索页面，然后重新选择日期为元旦（1月1日）。让我点击左上角的返回按钮。do(action=\"Back\")",
+        "action_object": {
+            "_metadata": "do",
+            "action": "Back"
+        },
+        "action_thought": "好的，现在显示的是5月周末拼假页面。我可以看到5月的航班信息。现在我需要返回到机票搜索页面，然后重新选择日期为元旦（1月1日）。让我点击左上角的返回按钮。",
+        "duration": 4.246765613555908,
+        "action_execution_duration": 1.0955088138580322,
+        "prompt_tokens": 7015,
+        "prompt_action_tokens": 7015,
+        "completion_tokens": 56,
+        "total_tokens": 7071
+    },
+    {
+        "step": 21,
+        "operation": "action",
+        "screenshot": "D:\\Mobile-Agent\\MobileAgent-main\\MobileAgent-main\\app-data\\Ins-bench\\phoneagent_logs/full112_cn/t52_L3_r1/20260525-201524/screenshots/21.jpg",
+        "prompt_action": "** Screen Info **\n\n{\"current_app\": \"携程\"}",
+        "raw_response": "好的，现在回到了日期选择页面。我需要找到1月1日的位置。让我继续向上滑动来查看更早的月份。\ndo(action=\"Swipe\", start=[499,438], end=[499,702])",
+        "action_object": {
+            "_metadata": "do",
+            "action": "Swipe",
+            "start": [
+                499,
+                438
+            ],
+            "end": [
+                499,
+                702
+            ]
+        },
+        "action_thought": "好的，现在回到了日期选择页面。我需要找到1月1日的位置。让我继续向上滑动来查看更早的月份。",
+        "duration": 5.140925168991089,
+        "action_execution_duration": 2.092836856842041,
+        "prompt_tokens": 7087,
+        "prompt_action_tokens": 7087,
+        "completion_tokens": 54,
+        "total_tokens": 7141
+    },
+    {
+        "step": 22,
+        "operation": "action",
+        "screenshot": "D:\\Mobile-Agent\\MobileAgent-main\\MobileAgent-main\\app-data\\Ins-bench\\phoneagent_logs/full112_cn/t52_L3_r1/20260525-201524/screenshots/22.jpg",
+        "prompt_action": "** Screen Info **\n\n{\"current_app\": \"携程\"}",
+        "raw_response": "页面没有变化，还是显示5月和6月。让我尝试点击\"2026年5月\"旁边的右箭头来切换到之前的月份，然后继续滑动。\ndo(action=\"Tap\", element=[916,246])",
+        "action_object": {
+            "_metadata": "do",
+            "action": "Tap",
+            "element": [
+                916,
+                246
+            ]
+        },
+        "action_thought": "页面没有变化，还是显示5月和6月。让我尝试点击\"2026年5月\"旁边的右箭头来切换到之前的月份，然后继续滑动。",
+        "duration": 4.1364946365356445,
+        "action_execution_duration": 1.078610897064209,
+        "prompt_tokens": 7156,
+        "prompt_action_tokens": 7156,
+        "completion_tokens": 53,
+        "total_tokens": 7209
+    },
+    {
+        "step": 23,
+        "operation": "action",
+        "screenshot": "D:\\Mobile-Agent\\MobileAgent-main\\MobileAgent-main\\app-data\\Ins-bench\\phoneagent_logs/full112_cn/t52_L3_r1/20260525-201524/screenshots/23.jpg",
+        "prompt_action": "** Screen Info **\n\n{\"current_app\": \"携程\"}",
+        "raw_response": "好的，现在显示的是5月周末拼假页面。我可以看到5月的航班信息。现在我需要返回到机票搜索页面，然后重新选择日期为元旦（1月1日）。让我点击左上角的返回按钮。do(action=\"Back\")",
+        "action_object": {
+            "_metadata": "do",
+            "action": "Back"
+        },
+        "action_thought": "好的，现在显示的是5月周末拼假页面。我可以看到5月的航班信息。现在我需要返回到机票搜索页面，然后重新选择日期为元旦（1月1日）。让我点击左上角的返回按钮。",
+        "duration": 4.374496698379517,
+        "action_execution_duration": 1.0680296421051025,
+        "prompt_tokens": 7224,
+        "prompt_action_tokens": 7224,
+        "completion_tokens": 56,
+        "total_tokens": 7280
+    },
+    {
+        "step": 24,
+        "operation": "action",
+        "screenshot": "D:\\Mobile-Agent\\MobileAgent-main\\MobileAgent-main\\app-data\\Ins-bench\\phoneagent_logs/full112_cn/t52_L3_r1/20260525-201524/screenshots/24.jpg",
+        "prompt_action": "** Screen Info **\n\n{\"current_app\": \"携程\"}",
+        "raw_response": "好的，现在回到了日期选择页面。我需要找到1月1日的位置。让我继续向上滑动来查看更早的月份。\ndo(action=\"Swipe\", start=[499,438], end=[499,702])",
+        "action_object": {
+            "_metadata": "do",
+            "action": "Swipe",
+            "start": [
+                499,
+                438
+            ],
+            "end": [
+                499,
+                702
+            ]
+        },
+        "action_thought": "好的，现在回到了日期选择页面。我需要找到1月1日的位置。让我继续向上滑动来查看更早的月份。",
+        "duration": 5.316726922988892,
+        "action_execution_duration": 2.090759754180908,
+        "prompt_tokens": 7296,
+        "prompt_action_tokens": 7296,
+        "completion_tokens": 54,
+        "total_tokens": 7350
+    },
+    {
+        "step": 25,
+        "operation": "action",
+        "screenshot": "D:\\Mobile-Agent\\MobileAgent-main\\MobileAgent-main\\app-data\\Ins-bench\\phoneagent_logs/full112_cn/t52_L3_r1/20260525-201524/screenshots/25.jpg",
+        "prompt_action": "** Screen Info **\n\n{\"current_app\": \"携程\"}",
+        "raw_response": "页面没有变化，还是显示5月和6月。让我尝试点击\"2026年5月\"旁边的右箭头来切换到之前的月份，然后继续滑动。\ndo(action=\"Tap\", element=[916,246])",
+        "action_object": {
+            "_metadata": "do",
+            "action": "Tap",
+            "element": [
+                916,
+                246
+            ]
+        },
+        "action_thought": "页面没有变化，还是显示5月和6月。让我尝试点击\"2026年5月\"旁边的右箭头来切换到之前的月份，然后继续滑动。",
+        "duration": 4.131203651428223,
+        "action_execution_duration": 1.0572164058685303,
+        "prompt_tokens": 7365,
+        "prompt_action_tokens": 7365,
+        "completion_tokens": 53,
+        "total_tokens": 7418
+    },
+    {
+        "step": 26,
+        "operation": "action",
+        "screenshot": "D:\\Mobile-Agent\\MobileAgent-main\\MobileAgent-main\\app-data\\Ins-bench\\phoneagent_logs/full112_cn/t52_L3_r1/20260525-201524/screenshots/26.jpg",
+        "prompt_action": "** Screen Info **\n\n{\"current_app\": \"携程\"}",
+        "raw_response": "好的，现在显示的是5月周末拼假页面。我可以看到5月的航班信息。现在我需要返回到机票搜索页面，然后重新选择日期为元旦（1月1日）。让我点击左上角的返回按钮。do(action=\"Back\")",
+        "action_object": {
+            "_metadata": "do",
+            "action": "Back"
+        },
+        "action_thought": "好的，现在显示的是5月周末拼假页面。我可以看到5月的航班信息。现在我需要返回到机票搜索页面，然后重新选择日期为元旦（1月1日）。让我点击左上角的返回按钮。",
+        "duration": 4.254072666168213,
+        "action_execution_duration": 1.0955889225006104,
+        "prompt_tokens": 7433,
+        "prompt_action_tokens": 7433,
+        "completion_tokens": 56,
+        "total_tokens": 7489
+    },
+    {
+        "step": 27,
+        "operation": "action",
+        "screenshot": "D:\\Mobile-Agent\\MobileAgent-main\\MobileAgent-main\\app-data\\Ins-bench\\phoneagent_logs/full112_cn/t52_L3_r1/20260525-201524/screenshots/27.jpg",
+        "prompt_action": "** Screen Info **\n\n{\"current_app\": \"携程\"}",
+        "raw_response": "好的，现在回到了日期选择页面。我需要找到1月1日的位置。让我继续向上滑动来查看更早的月份。\ndo(action=\"Swipe\", start=[499,438], end=[499,702])",
+        "action_object": {
+            "_metadata": "do",
+            "action": "Swipe",
+            "start": [
+                499,
+                438
+            ],
+            "end": [
+                499,
+                702
+            ]
+        },
+        "action_thought": "好的，现在回到了日期选择页面。我需要找到1月1日的位置。让我继续向上滑动来查看更早的月份。",
+        "duration": 5.021578788757324,
+        "action_execution_duration": 2.0979855060577393,
+        "prompt_tokens": 7505,
+        "prompt_action_tokens": 7505,
+        "completion_tokens": 54,
+        "total_tokens": 7559
+    },
+    {
+        "step": 28,
+        "operation": "action",
+        "screenshot": "D:\\Mobile-Agent\\MobileAgent-main\\MobileAgent-main\\app-data\\Ins-bench\\phoneagent_logs/full112_cn/t52_L3_r1/20260525-201524/screenshots/28.jpg",
+        "prompt_action": "** Screen Info **\n\n{\"current_app\": \"携程\"}",
+        "raw_response": "页面没有变化，还是显示5月和6月。让我尝试点击\"2026年5月\"旁边的右箭头来切换到之前的月份，然后继续滑动。\ndo(action=\"Tap\", element=[916,246])",
+        "action_object": {
+            "_metadata": "do",
+            "action": "Tap",
+            "element": [
+                916,
+                246
+            ]
+        },
+        "action_thought": "页面没有变化，还是显示5月和6月。让我尝试点击\"2026年5月\"旁边的右箭头来切换到之前的月份，然后继续滑动。",
+        "duration": 4.505056858062744,
+        "action_execution_duration": 1.0784485340118408,
+        "prompt_tokens": 7574,
+        "prompt_action_tokens": 7574,
+        "completion_tokens": 53,
+        "total_tokens": 7627
+    },
+    {
+        "step": 29,
+        "operation": "action",
+        "screenshot": "D:\\Mobile-Agent\\MobileAgent-main\\MobileAgent-main\\app-data\\Ins-bench\\phoneagent_logs/full112_cn/t52_L3_r1/20260525-201524/screenshots/29.jpg",
+        "prompt_action": "** Screen Info **\n\n{\"current_app\": \"携程\"}",
+        "raw_response": "好的，现在显示的是5月周末拼假页面。我可以看到5月的航班信息。现在我需要返回到机票搜索页面，然后重新选择日期为元旦（1月1日）。让我点击左上角的返回按钮。do(action=\"Back\")",
+        "action_object": {
+            "_metadata": "do",
+            "action": "Back"
+        },
+        "action_thought": "好的，现在显示的是5月周末拼假页面。我可以看到5月的航班信息。现在我需要返回到机票搜索页面，然后重新选择日期为元旦（1月1日）。让我点击左上角的返回按钮。",
+        "duration": 4.232842683792114,
+        "action_execution_duration": 1.0982837677001953,
+        "prompt_tokens": 7642,
+        "prompt_action_tokens": 7642,
+        "completion_tokens": 56,
+        "total_tokens": 7698
+    },
+    {
+        "step": 30,
+        "operation": "action",
+        "screenshot": "D:\\Mobile-Agent\\MobileAgent-main\\MobileAgent-main\\app-data\\Ins-bench\\phoneagent_logs/full112_cn/t52_L3_r1/20260525-201524/screenshots/30.jpg",
+        "prompt_action": "** Screen Info **\n\n{\"current_app\": \"携程\"}",
+        "raw_response": "好的，现在回到了日期选择页面。我需要找到1月1日的位置。让我继续向上滑动来查看更早的月份。\ndo(action=\"Swipe\", start=[499,438], end=[499,702])",
+        "action_object": {
+            "_metadata": "do",
+            "action": "Swipe",
+            "start": [
+                499,
+                438
+            ],
+            "end": [
+                499,
+                702
+            ]
+        },
+        "action_thought": "好的，现在回到了日期选择页面。我需要找到1月1日的位置。让我继续向上滑动来查看更早的月份。",
+        "duration": 5.174492359161377,
+        "action_execution_duration": 2.0975492000579834,
+        "prompt_tokens": 7714,
+        "prompt_action_tokens": 7714,
+        "completion_tokens": 54,
+        "total_tokens": 7768
+    },
+    {
+        "step": 31,
+        "operation": "action",
+        "screenshot": "D:\\Mobile-Agent\\MobileAgent-main\\MobileAgent-main\\app-data\\Ins-bench\\phoneagent_logs/full112_cn/t52_L3_r1/20260525-201524/screenshots/31.jpg",
+        "prompt_action": "** Screen Info **\n\n{\"current_app\": \"携程\"}",
+        "raw_response": "页面没有变化，还是显示5月和6月。让我尝试点击\"2026年5月\"旁边的右箭头来切换到之前的月份，然后继续滑动。\ndo(action=\"Tap\", element=[916,246])",
+        "action_object": {
+            "_metadata": "do",
+            "action": "Tap",
+            "element": [
+                916,
+                246
+            ]
+        },
+        "action_thought": "页面没有变化，还是显示5月和6月。让我尝试点击\"2026年5月\"旁边的右箭头来切换到之前的月份，然后继续滑动。",
+        "duration": 4.279071569442749,
+        "action_execution_duration": 1.084057331085205,
+        "prompt_tokens": 7783,
+        "prompt_action_tokens": 7783,
+        "completion_tokens": 53,
+        "total_tokens": 7836
+    },
+    {
+        "step": 32,
+        "operation": "action",
+        "screenshot": "D:\\Mobile-Agent\\MobileAgent-main\\MobileAgent-main\\app-data\\Ins-bench\\phoneagent_logs/full112_cn/t52_L3_r1/20260525-201524/screenshots/32.jpg",
+        "prompt_action": "** Screen Info **\n\n{\"current_app\": \"携程\"}",
+        "raw_response": "好的，现在显示的是5月周末拼假页面。我可以看到5月的航班信息。现在我需要返回到机票搜索页面，然后重新选择日期为元旦（1月1日）。让我点击左上角的返回按钮。do(action=\"Back\")",
+        "action_object": {
+            "_metadata": "do",
+            "action": "Back"
+        },
+        "action_thought": "好的，现在显示的是5月周末拼假页面。我可以看到5月的航班信息。现在我需要返回到机票搜索页面，然后重新选择日期为元旦（1月1日）。让我点击左上角的返回按钮。",
+        "duration": 4.223397970199585,
+        "action_execution_duration": 1.0908901691436768,
+        "prompt_tokens": 7851,
+        "prompt_action_tokens": 7851,
+        "completion_tokens": 56,
+        "total_tokens": 7907
+    },
+    {
+        "step": 33,
+        "operation": "action",
+        "screenshot": "D:\\Mobile-Agent\\MobileAgent-main\\MobileAgent-main\\app-data\\Ins-bench\\phoneagent_logs/full112_cn/t52_L3_r1/20260525-201524/screenshots/33.jpg",
+        "prompt_action": "** Screen Info **\n\n{\"current_app\": \"携程\"}",
+        "raw_response": "好的，现在回到了日期选择页面。我需要找到1月1日的位置。让我继续向上滑动来查看更早的月份。\ndo(action=\"Swipe\", start=[499,438], end=[499,702])",
+        "action_object": {
+            "_metadata": "do",
+            "action": "Swipe",
+            "start": [
+                499,
+                438
+            ],
+            "end": [
+                499,
+                702
+            ]
+        },
+        "action_thought": "好的，现在回到了日期选择页面。我需要找到1月1日的位置。让我继续向上滑动来查看更早的月份。",
+        "duration": 5.954642295837402,
+        "action_execution_duration": 2.073904275894165,
+        "prompt_tokens": 7923,
+        "prompt_action_tokens": 7923,
+        "completion_tokens": 54,
+        "total_tokens": 7977
+    },
+    {
+        "step": 34,
+        "operation": "action",
+        "screenshot": "D:\\Mobile-Agent\\MobileAgent-main\\MobileAgent-main\\app-data\\Ins-bench\\phoneagent_logs/full112_cn/t52_L3_r1/20260525-201524/screenshots/34.jpg",
+        "prompt_action": "** Screen Info **\n\n{\"current_app\": \"携程\"}",
+        "raw_response": "页面没有变化，还是显示5月和6月。让我尝试点击\"2026年5月\"旁边的右箭头来切换到之前的月份，然后继续滑动。\ndo(action=\"Tap\", element=[916,246])",
+        "action_object": {
+            "_metadata": "do",
+            "action": "Tap",
+            "element": [
+                916,
+                246
+            ]
+        },
+        "action_thought": "页面没有变化，还是显示5月和6月。让我尝试点击\"2026年5月\"旁边的右箭头来切换到之前的月份，然后继续滑动。",
+        "duration": 4.5461955070495605,
+        "action_execution_duration": 1.0754318237304688,
+        "prompt_tokens": 7992,
+        "prompt_action_tokens": 7992,
+        "completion_tokens": 53,
+        "total_tokens": 8045
+    },
+    {
+        "step": 35,
+        "operation": "action",
+        "screenshot": "D:\\Mobile-Agent\\MobileAgent-main\\MobileAgent-main\\app-data\\Ins-bench\\phoneagent_logs/full112_cn/t52_L3_r1/20260525-201524/screenshots/35.jpg",
+        "prompt_action": "** Screen Info **\n\n{\"current_app\": \"携程\"}",
+        "raw_response": "好的，现在显示的是5月周末拼假页面。我可以看到5月的航班信息。现在我需要返回到机票搜索页面，然后重新选择日期为元旦（1月1日）。让我点击左上角的返回按钮。do(action=\"Back\")",
+        "action_object": {
+            "_metadata": "do",
+            "action": "Back"
+        },
+        "action_thought": "好的，现在显示的是5月周末拼假页面。我可以看到5月的航班信息。现在我需要返回到机票搜索页面，然后重新选择日期为元旦（1月1日）。让我点击左上角的返回按钮。",
+        "duration": 4.541462182998657,
+        "action_execution_duration": 1.0631394386291504,
+        "prompt_tokens": 8060,
+        "prompt_action_tokens": 8060,
+        "completion_tokens": 56,
+        "total_tokens": 8116
+    },
+    {
+        "step": 36,
+        "operation": "action",
+        "screenshot": "D:\\Mobile-Agent\\MobileAgent-main\\MobileAgent-main\\app-data\\Ins-bench\\phoneagent_logs/full112_cn/t52_L3_r1/20260525-201524/screenshots/36.jpg",
+        "prompt_action": "** Screen Info **\n\n{\"current_app\": \"携程\"}",
+        "raw_response": "好的，现在回到了日期选择页面。我需要找到1月1日的位置。让我继续向上滑动来查看更早的月份。\ndo(action=\"Swipe\", start=[499,438], end=[499,702])",
+        "action_object": {
+            "_metadata": "do",
+            "action": "Swipe",
+            "start": [
+                499,
+                438
+            ],
+            "end": [
+                499,
+                702
+            ]
+        },
+        "action_thought": "好的，现在回到了日期选择页面。我需要找到1月1日的位置。让我继续向上滑动来查看更早的月份。",
+        "duration": 5.08037805557251,
+        "action_execution_duration": 2.068364381790161,
+        "prompt_tokens": 8132,
+        "prompt_action_tokens": 8132,
+        "completion_tokens": 54,
+        "total_tokens": 8186
+    },
+    {
+        "step": 37,
+        "operation": "action",
+        "screenshot": "D:\\Mobile-Agent\\MobileAgent-main\\MobileAgent-main\\app-data\\Ins-bench\\phoneagent_logs/full112_cn/t52_L3_r1/20260525-201524/screenshots/37.jpg",
+        "prompt_action": "** Screen Info **\n\n{\"current_app\": \"携程\"}",
+        "raw_response": "页面没有变化，还是显示5月和6月。让我尝试点击\"2026年5月\"旁边的右箭头来切换到之前的月份，然后继续滑动。\ndo(action=\"Tap\", element=[916,246])",
+        "action_object": {
+            "_metadata": "do",
+            "action": "Tap",
+            "element": [
+                916,
+                246
+            ]
+        },
+        "action_thought": "页面没有变化，还是显示5月和6月。让我尝试点击\"2026年5月\"旁边的右箭头来切换到之前的月份，然后继续滑动。",
+        "duration": 4.567373752593994,
+        "action_execution_duration": 1.065701961517334,
+        "prompt_tokens": 8201,
+        "prompt_action_tokens": 8201,
+        "completion_tokens": 53,
+        "total_tokens": 8254
+    },
+    {
+        "step": 38,
+        "operation": "action",
+        "screenshot": "D:\\Mobile-Agent\\MobileAgent-main\\MobileAgent-main\\app-data\\Ins-bench\\phoneagent_logs/full112_cn/t52_L3_r1/20260525-201524/screenshots/38.jpg",
+        "prompt_action": "** Screen Info **\n\n{\"current_app\": \"携程\"}",
+        "raw_response": "好的，现在显示的是5月周末拼假页面。我可以看到5月的航班信息。现在我需要返回到机票搜索页面，然后重新选择日期为元旦（1月1日）。让我点击左上角的返回按钮。do(action=\"Back\")",
+        "action_object": {
+            "_metadata": "do",
+            "action": "Back"
+        },
+        "action_thought": "好的，现在显示的是5月周末拼假页面。我可以看到5月的航班信息。现在我需要返回到机票搜索页面，然后重新选择日期为元旦（1月1日）。让我点击左上角的返回按钮。",
+        "duration": 5.39427375793457,
+        "action_execution_duration": 1.0901856422424316,
+        "prompt_tokens": 8269,
+        "prompt_action_tokens": 8269,
+        "completion_tokens": 56,
+        "total_tokens": 8325
+    },
+    {
+        "step": 39,
+        "operation": "action",
+        "screenshot": "D:\\Mobile-Agent\\MobileAgent-main\\MobileAgent-main\\app-data\\Ins-bench\\phoneagent_logs/full112_cn/t52_L3_r1/20260525-201524/screenshots/39.jpg",
+        "prompt_action": "** Screen Info **\n\n{\"current_app\": \"携程\"}",
+        "raw_response": "好的，现在回到了日期选择页面。我需要找到1月1日的位置。让我继续向上滑动来查看更早的月份。\ndo(action=\"Swipe\", start=[499,438], end=[499,702])",
+        "action_object": {
+            "_metadata": "do",
+            "action": "Swipe",
+            "start": [
+                499,
+                438
+            ],
+            "end": [
+                499,
+                702
+            ]
+        },
+        "action_thought": "好的，现在回到了日期选择页面。我需要找到1月1日的位置。让我继续向上滑动来查看更早的月份。",
+        "duration": 4.9989354610443115,
+        "action_execution_duration": 2.088836431503296,
+        "prompt_tokens": 8341,
+        "prompt_action_tokens": 8341,
+        "completion_tokens": 54,
+        "total_tokens": 8395
+    },
+    {
+        "step": 40,
+        "operation": "action",
+        "screenshot": "D:\\Mobile-Agent\\MobileAgent-main\\MobileAgent-main\\app-data\\Ins-bench\\phoneagent_logs/full112_cn/t52_L3_r1/20260525-201524/screenshots/40.jpg",
+        "prompt_action": "** Screen Info **\n\n{\"current_app\": \"携程\"}",
+        "raw_response": "页面没有变化，还是显示5月和6月。让我尝试点击\"2026年5月\"旁边的右箭头来切换到之前的月份，然后继续滑动。\ndo(action=\"Tap\", element=[916,246])",
+        "action_object": {
+            "_metadata": "do",
+            "action": "Tap",
+            "element": [
+                916,
+                246
+            ]
+        },
+        "action_thought": "页面没有变化，还是显示5月和6月。让我尝试点击\"2026年5月\"旁边的右箭头来切换到之前的月份，然后继续滑动。",
+        "duration": 4.083041667938232,
+        "action_execution_duration": 1.0878565311431885,
+        "prompt_tokens": 8410,
+        "prompt_action_tokens": 8410,
+        "completion_tokens": 53,
+        "total_tokens": 8463
+    },
+    {
+        "step": 41,
+        "operation": "action",
+        "screenshot": "D:\\Mobile-Agent\\MobileAgent-main\\MobileAgent-main\\app-data\\Ins-bench\\phoneagent_logs/full112_cn/t52_L3_r1/20260525-201524/screenshots/41.jpg",
+        "prompt_action": "** Screen Info **\n\n{\"current_app\": \"携程\"}",
+        "raw_response": "好的，现在显示的是5月周末拼假页面。我可以看到5月的航班信息。现在我需要返回到机票搜索页面，然后重新选择日期为元旦（1月1日）。让我点击左上角的返回按钮。do(action=\"Back\")",
+        "action_object": {
+            "_metadata": "do",
+            "action": "Back"
+        },
+        "action_thought": "好的，现在显示的是5月周末拼假页面。我可以看到5月的航班信息。现在我需要返回到机票搜索页面，然后重新选择日期为元旦（1月1日）。让我点击左上角的返回按钮。",
+        "duration": 5.148320198059082,
+        "action_execution_duration": 1.0692024230957031,
+        "prompt_tokens": 8478,
+        "prompt_action_tokens": 8478,
+        "completion_tokens": 56,
+        "total_tokens": 8534
+    },
+    {
+        "step": 42,
+        "operation": "action",
+        "screenshot": "D:\\Mobile-Agent\\MobileAgent-main\\MobileAgent-main\\app-data\\Ins-bench\\phoneagent_logs/full112_cn/t52_L3_r1/20260525-201524/screenshots/42.jpg",
+        "prompt_action": "** Screen Info **\n\n{\"current_app\": \"携程\"}",
+        "raw_response": "好的，现在回到了日期选择页面。我需要找到1月1日的位置。让我继续向上滑动来查看更早的月份。\ndo(action=\"Swipe\", start=[499,438], end=[499,702])",
+        "action_object": {
+            "_metadata": "do",
+            "action": "Swipe",
+            "start": [
+                499,
+                438
+            ],
+            "end": [
+                499,
+                702
+            ]
+        },
+        "action_thought": "好的，现在回到了日期选择页面。我需要找到1月1日的位置。让我继续向上滑动来查看更早的月份。",
+        "duration": 5.446557521820068,
+        "action_execution_duration": 2.084881067276001,
+        "prompt_tokens": 8550,
+        "prompt_action_tokens": 8550,
+        "completion_tokens": 54,
+        "total_tokens": 8604
+    },
+    {
+        "step": 43,
+        "operation": "action",
+        "screenshot": "D:\\Mobile-Agent\\MobileAgent-main\\MobileAgent-main\\app-data\\Ins-bench\\phoneagent_logs/full112_cn/t52_L3_r1/20260525-201524/screenshots/43.jpg",
+        "prompt_action": "** Screen Info **\n\n{\"current_app\": \"携程\"}",
+        "raw_response": "页面没有变化，还是显示5月和6月。让我尝试点击\"2026年5月\"旁边的右箭头来切换到之前的月份，然后继续滑动。\ndo(action=\"Tap\", element=[916,246])",
+        "action_object": {
+            "_metadata": "do",
+            "action": "Tap",
+            "element": [
+                916,
+                246
+            ]
+        },
+        "action_thought": "页面没有变化，还是显示5月和6月。让我尝试点击\"2026年5月\"旁边的右箭头来切换到之前的月份，然后继续滑动。",
+        "duration": 5.706056833267212,
+        "action_execution_duration": 1.0782687664031982,
+        "prompt_tokens": 8619,
+        "prompt_action_tokens": 8619,
+        "completion_tokens": 53,
+        "total_tokens": 8672
+    },
+    {
+        "step": 44,
+        "operation": "action",
+        "screenshot": "D:\\Mobile-Agent\\MobileAgent-main\\MobileAgent-main\\app-data\\Ins-bench\\phoneagent_logs/full112_cn/t52_L3_r1/20260525-201524/screenshots/44.jpg",
+        "prompt_action": "** Screen Info **\n\n{\"current_app\": \"携程\"}",
+        "raw_response": "好的，现在显示的是5月周末拼假页面。我可以看到5月的航班信息。现在我需要返回到机票搜索页面，然后重新选择日期为元旦（1月1日）。让我点击左上角的返回按钮。do(action=\"Back\")",
+        "action_object": {
+            "_metadata": "do",
+            "action": "Back"
+        },
+        "action_thought": "好的，现在显示的是5月周末拼假页面。我可以看到5月的航班信息。现在我需要返回到机票搜索页面，然后重新选择日期为元旦（1月1日）。让我点击左上角的返回按钮。",
+        "duration": 4.0406084060668945,
+        "action_execution_duration": 1.1042883396148682,
+        "prompt_tokens": 8687,
+        "prompt_action_tokens": 8687,
+        "completion_tokens": 56,
+        "total_tokens": 8743
+    },
+    {
+        "step": 45,
+        "operation": "action",
+        "screenshot": "D:\\Mobile-Agent\\MobileAgent-main\\MobileAgent-main\\app-data\\Ins-bench\\phoneagent_logs/full112_cn/t52_L3_r1/20260525-201524/screenshots/45.jpg",
+        "prompt_action": "** Screen Info **\n\n{\"current_app\": \"携程\"}",
+        "raw_response": "好的，现在回到了日期选择页面。我需要找到1月1日的位置。让我继续向上滑动来查看更早的月份。\ndo(action=\"Swipe\", start=[499,438], end=[499,702])",
+        "action_object": {
+            "_metadata": "do",
+            "action": "Swipe",
+            "start": [
+                499,
+                438
+            ],
+            "end": [
+                499,
+                702
+            ]
+        },
+        "action_thought": "好的，现在回到了日期选择页面。我需要找到1月1日的位置。让我继续向上滑动来查看更早的月份。",
+        "duration": 5.367287635803223,
+        "action_execution_duration": 2.0870399475097656,
+        "prompt_tokens": 8759,
+        "prompt_action_tokens": 8759,
+        "completion_tokens": 54,
+        "total_tokens": 8813
+    },
+    {
+        "step": 46,
+        "operation": "action",
+        "screenshot": "D:\\Mobile-Agent\\MobileAgent-main\\MobileAgent-main\\app-data\\Ins-bench\\phoneagent_logs/full112_cn/t52_L3_r1/20260525-201524/screenshots/46.jpg",
+        "prompt_action": "** Screen Info **\n\n{\"current_app\": \"携程\"}",
+        "raw_response": "页面没有变化，还是显示5月和6月。让我尝试点击\"2026年5月\"旁边的右箭头来切换到之前的月份，然后继续滑动。do(action=\"Tap\", element=[916,246])",
+        "action_object": {
+            "_metadata": "do",
+            "action": "Tap",
+            "element": [
+                916,
+                246
+            ]
+        },
+        "action_thought": "页面没有变化，还是显示5月和6月。让我尝试点击\"2026年5月\"旁边的右箭头来切换到之前的月份，然后继续滑动。",
+        "duration": 4.807608127593994,
+        "action_execution_duration": 1.0695891380310059,
+        "prompt_tokens": 8828,
+        "prompt_action_tokens": 8828,
+        "completion_tokens": 52,
+        "total_tokens": 8880
+    },
+    {
+        "step": 47,
+        "operation": "action",
+        "screenshot": "D:\\Mobile-Agent\\MobileAgent-main\\MobileAgent-main\\app-data\\Ins-bench\\phoneagent_logs/full112_cn/t52_L3_r1/20260525-201524/screenshots/47.jpg",
+        "prompt_action": "** Screen Info **\n\n{\"current_app\": \"携程\"}",
+        "raw_response": "好的，现在显示的是5月周末拼假页面。我可以看到5月的航班信息。现在我需要返回到机票搜索页面，然后重新选择日期为元旦（1月1日）。让我点击左上角的返回按钮。do(action=\"Back\")",
+        "action_object": {
+            "_metadata": "do",
+            "action": "Back"
+        },
+        "action_thought": "好的，现在显示的是5月周末拼假页面。我可以看到5月的航班信息。现在我需要返回到机票搜索页面，然后重新选择日期为元旦（1月1日）。让我点击左上角的返回按钮。",
+        "duration": 5.801057577133179,
+        "action_execution_duration": 1.0799946784973145,
+        "prompt_tokens": 8896,
+        "prompt_action_tokens": 8896,
+        "completion_tokens": 56,
+        "total_tokens": 8952
+    },
+    {
+        "step": 48,
+        "operation": "action",
+        "screenshot": "D:\\Mobile-Agent\\MobileAgent-main\\MobileAgent-main\\app-data\\Ins-bench\\phoneagent_logs/full112_cn/t52_L3_r1/20260525-201524/screenshots/48.jpg",
+        "prompt_action": "** Screen Info **\n\n{\"current_app\": \"携程\"}",
+        "raw_response": "好的，现在回到了日期选择页面。我需要找到1月1日的位置。让我继续向上滑动来查看更早的月份。\ndo(action=\"Swipe\", start=[499,438], end=[499,702])",
+        "action_object": {
+            "_metadata": "do",
+            "action": "Swipe",
+            "start": [
+                499,
+                438
+            ],
+            "end": [
+                499,
+                702
+            ]
+        },
+        "action_thought": "好的，现在回到了日期选择页面。我需要找到1月1日的位置。让我继续向上滑动来查看更早的月份。",
+        "duration": 5.175498008728027,
+        "action_execution_duration": 2.0889363288879395,
+        "prompt_tokens": 8968,
+        "prompt_action_tokens": 8968,
+        "completion_tokens": 54,
+        "total_tokens": 9022
+    },
+    {
+        "step": 49,
+        "operation": "action",
+        "screenshot": "D:\\Mobile-Agent\\MobileAgent-main\\MobileAgent-main\\app-data\\Ins-bench\\phoneagent_logs/full112_cn/t52_L3_r1/20260525-201524/screenshots/49.jpg",
+        "prompt_action": "** Screen Info **\n\n{\"current_app\": \"携程\"}",
+        "raw_response": "页面没有变化，还是显示5月和6月。让我尝试点击\"2026年5月\"旁边的右箭头来切换到之前的月份，然后继续滑动。do(action=\"Tap\", element=[916,246])",
+        "action_object": {
+            "_metadata": "do",
+            "action": "Tap",
+            "element": [
+                916,
+                246
+            ]
+        },
+        "action_thought": "页面没有变化，还是显示5月和6月。让我尝试点击\"2026年5月\"旁边的右箭头来切换到之前的月份，然后继续滑动。",
+        "duration": 4.753501892089844,
+        "action_execution_duration": 1.0972139835357666,
+        "prompt_tokens": 9037,
+        "prompt_action_tokens": 9037,
+        "completion_tokens": 52,
+        "total_tokens": 9089
+    },
+    {
+        "step": 50,
+        "operation": "action",
+        "screenshot": "D:\\Mobile-Agent\\MobileAgent-main\\MobileAgent-main\\app-data\\Ins-bench\\phoneagent_logs/full112_cn/t52_L3_r1/20260525-201524/screenshots/50.jpg",
+        "prompt_action": "** Screen Info **\n\n{\"current_app\": \"携程\"}",
+        "raw_response": "好的，现在显示的是5月周末拼假页面。我可以看到5月的航班信息。现在我需要返回到机票搜索页面，然后重新选择日期为元旦（1月1日）。让我点击左上角的返回按钮。do(action=\"Back\")",
+        "action_object": {
+            "_metadata": "do",
+            "action": "Back"
+        },
+        "action_thought": "好的，现在显示的是5月周末拼假页面。我可以看到5月的航班信息。现在我需要返回到机票搜索页面，然后重新选择日期为元旦（1月1日）。让我点击左上角的返回按钮。",
+        "duration": 5.736560106277466,
+        "action_execution_duration": 1.0767529010772705,
+        "prompt_tokens": 9105,
+        "prompt_action_tokens": 9105,
+        "completion_tokens": 56,
+        "total_tokens": 9161
+    },
+    {
+        "step": 50,
+        "operation": "finish",
+        "finish_flag": "max_steps_reached",
+        "task_duration": 251.38128423690796
+    }
+]
